@@ -427,13 +427,7 @@ async function main() {
     
     console.log(`\n✅ Success! Wrote ${outputEntries.length} entries to news.json`);
     
-    // Show top entries
-    if (outputEntries.length > 0) {
-        console.log('\n🏆 Top entries by score:');
-        allEntries.slice(0, 5).forEach((entry, i) => {
-            console.log(`${i + 1}. [${entry.score.toFixed(1)}] "${entry.title.substring(0, 60)}..." - ${entry.source}`);
-        });
-    }
+    
 }
 
 // Run with error handling
