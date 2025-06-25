@@ -1,0 +1,38 @@
+{
+    "name": "humanitycheck",
+    "version": "1.0.0",
+    "description": "Automated data fetcher for HumanityCheck - tracking verified human progress",
+    "main": "data-fetcher.js",
+    "scripts": {
+      "fetch": "node data-fetcher.js",
+      "test": "node data-fetcher.js --dry-run",
+      "serve": "npx http-server . -p 8000",
+      "lint": "eslint data-fetcher.js"
+    },
+    "keywords": [
+      "human-progress",
+      "data-aggregation",
+      "static-site",
+      "automation"
+    ],
+    "author": "HumanityCheck Contributors",
+    "license": "MIT",
+    "dependencies": {
+      "rss-parser": "^3.13.0"
+    },
+    "devDependencies": {
+      "eslint": "^8.57.0",
+      "http-server": "^14.1.1"
+    },
+    "engines": {
+      "node": ">=16.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/humanitycheck/humanitycheck.git"
+    },
+    "bugs": {
+      "url": "https://github.com/humanitycheck/humanitycheck/issues"
+    },
+    "homepage": "https://humanitycheck.org"
+  }

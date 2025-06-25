@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HumanityCheck - Verified Human Progress</title>
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --text-primary: #202124;
+            --text-secondary: #5f6368;
+            --bg-primary: #fff;
+            --bg-secondary: #f8f9fa;
+            --border: #e8eaed;
+            --shadow: rgba(0,0,0,0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-primary);
+            background: var(--bg-primary);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: var(--bg-primary);
+            border-bottom: 1px solid var(--border);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .tagline {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin: 24px 0;
+        }
+
+        .filter-btn {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            background: var(--border);
+        }
+
+        .filter-btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 16px;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .feed {
+            margin: 24px 0;
+        }
+
+        .entry {
+            background: var(--bg-primary);
+            padding: 20px;
+            margin-bottom: 16px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .entry:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px var(--shadow);
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .entry-title {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.4;
+            color: var(--text-primary);
+            text-decoration: none;
+            flex: 1;
+        }
+
+        .entry-title:hover {
+            color: var(--primary);
+        }
+
+        .entry-meta {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-top: 8px;
+        }
+
+        .field-tag {
+            background: var(--bg-secondary);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .entry-description {
+            color: var(--text-primary);
+            font-size: 15px;
+            line-height: 1.6;
+            margin: 12px 0;
+        }
+
+        .share-btn {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 4px;
+            font-size: 12px;
+        }
+
+        .share-btn:hover {
+            color: var(--primary);
+        }
+
+        .loading, .error, .empty {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-secondary);
+        }
+
+        .error {
+            color: #d93025;
+        }
+
+        footer {
+            margin-top: 48px;
+            padding: 24px 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 20px;
+            }
+            
+            .entry-title {
+                font-size: 16px;
+            }
+            
+            .filters {
+                gap: 8px;
+            }
+            
+            .filter-btn {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HumanityCheck</h1>
+            <p class="tagline">Verified breakthroughs and progress across humanity</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filters">
+            <button class="filter-btn active" data-field="all">All</button>
+            <button class="filter-btn" data-field="health">Health</button>
+            <button class="filter-btn" data-field="energy">Energy</button>
+            <button class="filter-btn" data-field="climate">Climate</button>
+            <button class="filter-btn" data-field="technology">Technology</button>
+            <button class="filter-btn" data-field="education">Education</button>
+            <button class="filter-btn" data-field="equality">Equality</button>
+        </div>
+
+        <input type="search" class="search-box" placeholder="Search progress updates...">
+
+        <div class="feed">
+            <div class="loading">Loading progress updates...</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                <a href="#" onclick="showAbout(); return false;">About & Methodology</a> • 
+                <a href="#" onclick="generateRSSLink(); return false;">RSS Feed</a> • 
+                <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">Source Code</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Sample data structure - in production this would be fetched from news.json
+        const sampleData = {
+            date: "2025-06-24",
+            entries: [
+                {
+                    title: "Global renewable energy capacity reaches record 3,870 GW",
+                    description: "The International Renewable Energy Agency reports that global renewable power capacity grew by 473 GW in 2024, with solar and wind accounting for 90% of additions. This represents a 14% year-over-year increase, keeping the world on track for tripling renewable capacity by 2030.",
+                    link: "https://www.irena.org/News/pressreleases/2025/Renewable-Capacity-Highlights",
+                    source: "IRENA",
+                    field: "energy",
+                    date: "2025-06-23"
+                },
+                {
+                    title: "Malaria vaccine reaches 2 million children in Africa",
+                    description: "WHO announces that the RTS,S malaria vaccine has now been administered to over 2 million children across 12 African countries. Early data shows a 30% reduction in severe malaria cases among vaccinated children, potentially saving thousands of lives annually.",
+                    link: "https://www.who.int/news/item/malaria-vaccine-milestone",
+                    source: "WHO",
+                    field: "health",
+                    date: "2025-06-22"
+                },
+                {
+                    title: "Global literacy rate reaches 87.7%, highest in human history",
+                    description: "UNESCO's latest report shows global adult literacy has reached 87.7%, up from 86.8% in 2020. The most significant improvements were seen in Sub-Saharan Africa and South Asia, with women's literacy showing the fastest growth rate at 2.1% annually.",
+                    link: "https://www.unesco.org/en/articles/literacy-rates-2025",
+                    source: "UNESCO",
+                    field: "education",
+                    date: "2025-06-21"
+                },
+                {
+                    title: "Breakthrough in carbon capture: New technology achieves 99% efficiency",
+                    description: "Researchers at MIT have developed a revolutionary electrochemical carbon capture system that removes CO2 from air with 99% efficiency using 35% less energy than current methods. The system can operate at any concentration level, making it viable for both industrial emissions and direct air capture.",
+                    link: "https://news.mit.edu/2025/carbon-capture-breakthrough",
+                    source: "MIT News",
+                    field: "climate",
+                    date: "2025-06-20"
+                },
+                {
+                    title: "AI model accurately predicts protein-drug interactions",
+                    description: "DeepMind's latest AlphaFold variant can now predict how proteins interact with potential drug compounds with 94% accuracy. This breakthrough could reduce drug discovery timelines from years to months, potentially accelerating treatments for rare diseases.",
+                    link: "https://deepmind.com/blog/alphafold-drug-discovery",
+                    source: "DeepMind",
+                    field: "technology",
+                    date: "2025-06-19"
+                }
+            ]
+        };
+
+        let currentData = [];
+        let filteredData = [];
+        let activeFilter = 'all';
+
+        // Initialize app
+        async function init() {
+            try {
+                // In production, fetch from news.json
+                const response = await fetch('/news.json');
+                const data = await response.json();
+                
+                // For demo, use sample data
+                currentData = data.entries;
+                filteredData = currentData;
+                renderFeed();
+                setupEventListeners();
+            } catch (error) {
+                document.querySelector('.feed').innerHTML = 
+                    '<div class="error">Error loading data. Please try again later.</div>';
+            }
+        }
+
+        function setupEventListeners() {
+            // Filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    activeFilter = e.target.dataset.field;
+                    applyFilters();
+                });
+            });
+
+            // Search box
+            const searchBox = document.querySelector('.search-box');
+            searchBox.addEventListener('input', debounce((e) => {
+                applyFilters();
+            }, 300));
+        }
+
+        function applyFilters() {
+            const searchTerm = document.querySelector('.search-box').value.toLowerCase();
+            
+            filteredData = currentData.filter(entry => {
+                const matchesField = activeFilter === 'all' || entry.field === activeFilter;
+                const matchesSearch = !searchTerm || 
+                    entry.title.toLowerCase().includes(searchTerm) ||
+                    entry.description.toLowerCase().includes(searchTerm);
+                
+                return matchesField && matchesSearch;
+            });
+            
+            renderFeed();
+        }
+
+        function renderFeed() {
+            const feed = document.querySelector('.feed');
+            
+            if (filteredData.length === 0) {
+                feed.innerHTML = '<div class="empty">No updates found matching your criteria.</div>';
+                return;
+            }
+            
+            feed.innerHTML = filteredData.map(entry => `
+                <article class="entry">
+                    <div class="entry-header">
+                        <a href="${entry.link}" target="_blank" rel="noopener" class="entry-title">
+                            ${entry.title}
+                        </a>
+                    </div>
+                    <p class="entry-description">${entry.description}</p>
+                    <div class="entry-meta">
+                        <span class="field-tag">${entry.field}</span>
+                        <span>${entry.source}</span>
+                        <span>${formatDate(entry.date)}</span>
+                        <button class="share-btn" onclick="shareEntry('${encodeURIComponent(entry.title)}', '${entry.link}')">
+                            Share
+                        </button>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        function formatDate(dateStr) {
+            const date = new Date(dateStr);
+            const now = new Date();
+            const diffTime = Math.abs(now - date);
+            const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+            
+            if (diffDays === 0) return 'Today';
+            if (diffDays === 1) return 'Yesterday';
+            if (diffDays < 7) return `${diffDays} days ago`;
+            
+            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        }
+
+        function shareEntry(title, url) {
+            if (navigator.share) {
+                navigator.share({
+                    title: decodeURIComponent(title),
+                    url: url
+                });
+            } else {
+                navigator.clipboard.writeText(url);
+                alert('Link copied to clipboard!');
+            }
+        }
+
+        function showAbout() {
+            alert(`HumanityCheck Methodology:\n\n• Data sources: WHO, UNESCO, IRENA, OurWorldInData, arXiv, and verified research institutions\n• Updates: Automated daily at 00:00 UTC\n• Criteria: Only peer-reviewed research and official statistics\n• No editorializing: Direct quotes and data only\n• Privacy: No tracking or personal data collection`);
+        }
+
+        function generateRSSLink() {
+            // In production, this would link to an actual RSS feed
+            alert('RSS feed coming soon! Check back for updates.');
+        }
+
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Start the app
+        init();
+    </script>
+</body>
+</html>

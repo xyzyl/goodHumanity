@@ -1,0 +1,57 @@
+# .github/workflows/update-data.yml
+name: Update HumanityCheck Data
+
+on:
+  schedule:
+    # Run at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: |
+        npm install rss-parser
+    
+    - name: Fetch latest data
+      run: node data-fetcher.js
+      env:
+        NODE_ENV: production
+    
+    - name: Check for changes
+      id: verify-changes
+      run: |
+        if [ -n "$(git status --porcelain news.json)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.verify-changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add news.json
+        git commit -m "Update data: $(date +'%Y-%m-%d %H:%M:%S UTC')"
+        git push
+    
+    - name: Trigger deployment
+      if: steps.verify-changes.outputs.changes == 'true'
+      run: |
+        echo "Data updated successfully. Site will be redeployed automatically."
