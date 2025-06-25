@@ -45,7 +45,7 @@ jobs:
         npm ci --prefer-offline --no-audit
     
     - name: Run data fetcher
-      run: node comprehensive-data-fetcher.js
+      run: node enhanced-data-fetcher.js
       env:
         NODE_ENV: production
         NODE_OPTIONS: --max-old-space-size=4096
