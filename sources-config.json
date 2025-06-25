@@ -1,0 +1,623 @@
+{
+    "sources": {
+      "rss": [
+        {
+          "category": "Health & Medicine",
+          "feeds": [
+            {
+              "url": "https://www.technologyreview.com/feed/",
+              "source": "MIT Technology Review",
+              "field": "technology",
+              "keywords": ["innovation", "breakthrough", "technology", "future"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+              "source": "TechCrunch AI",
+              "field": "technology",
+              "keywords": ["AI", "machine learning", "startup", "innovation"],
+              "priority": "low"
+            }
+          ]
+        },
+        {
+          "category": "Climate & Environment",
+          "feeds": [
+            {
+              "url": "https://climate.nasa.gov/news/rss.xml",
+              "source": "NASA Climate",
+              "field": "climate",
+              "keywords": ["climate", "renewable", "carbon", "sustainable", "warming"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.ipcc.ch/feed/",
+              "source": "IPCC",
+              "field": "climate",
+              "keywords": ["climate", "mitigation", "adaptation", "renewable", "emissions"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.unep.org/rss",
+              "source": "UNEP",
+              "field": "climate",
+              "keywords": ["environment", "sustainable", "conservation", "biodiversity", "pollution"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.noaa.gov/rss.xml",
+              "source": "NOAA",
+              "field": "climate",
+              "keywords": ["climate", "weather", "ocean", "temperature", "record"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://unfccc.int/process-and-meetings/feed",
+              "source": "UNFCCC",
+              "field": "climate",
+              "keywords": ["climate", "agreement", "emissions", "carbon", "cop"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://www.carbonbrief.org/feed/",
+              "source": "Carbon Brief",
+              "field": "climate",
+              "keywords": ["climate", "carbon", "renewable", "policy", "science"],
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "category": "Energy",
+          "feeds": [
+            {
+              "url": "https://www.iea.org/feeds/newsroom.xml",
+              "source": "IEA",
+              "field": "energy",
+              "keywords": ["renewable", "solar", "wind", "energy", "sustainable", "transition"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.irena.org/RSS",
+              "source": "IRENA",
+              "field": "energy",
+              "keywords": ["renewable", "capacity", "solar", "wind", "clean", "transition"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.energy.gov/rss/articles.xml",
+              "source": "US DOE",
+              "field": "energy",
+              "keywords": ["energy", "renewable", "efficiency", "clean", "innovation"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://www.solarpowereurope.org/feed/",
+              "source": "SolarPower Europe",
+              "field": "energy",
+              "keywords": ["solar", "renewable", "capacity", "deployment", "growth"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://gwec.net/feed/",
+              "source": "GWEC",
+              "field": "energy",
+              "keywords": ["wind", "renewable", "capacity", "offshore", "growth"],
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "category": "Education",
+          "feeds": [
+            {
+              "url": "https://en.unesco.org/news/feed",
+              "source": "UNESCO",
+              "field": "education",
+              "keywords": ["education", "literacy", "learning", "school", "student", "access"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.worldbank.org/en/topic/education/rss.xml",
+              "source": "World Bank Education",
+              "field": "education",
+              "keywords": ["education", "learning", "literacy", "school", "development"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.unicef.org/rss/news.xml",
+              "source": "UNICEF",
+              "field": "education",
+              "keywords": ["children", "education", "school", "learning", "access"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.globalpartnership.org/rss.xml",
+              "source": "GPE",
+              "field": "education",
+              "keywords": ["education", "funding", "school", "children", "access"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://www.brookings.edu/topic/education/feed/",
+              "source": "Brookings Education",
+              "field": "education",
+              "keywords": ["education", "policy", "learning", "achievement", "equity"],
+              "priority": "medium"
+            }
+          ]
+        },
+        {
+          "category": "Equality & Human Rights",
+          "feeds": [
+            {
+              "url": "https://www.ohchr.org/en/feeds/news",
+              "source": "UN Human Rights",
+              "field": "equality",
+              "keywords": ["rights", "equality", "justice", "freedom", "dignity", "protection"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.unwomen.org/en/rss",
+              "source": "UN Women",
+              "field": "equality",
+              "keywords": ["gender", "equality", "women", "empowerment", "rights", "violence"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.amnesty.org/en/rss/",
+              "source": "Amnesty International",
+              "field": "equality",
+              "keywords": ["rights", "human", "justice", "freedom", "protection"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://www.hrw.org/rss",
+              "source": "Human Rights Watch",
+              "field": "equality",
+              "keywords": ["rights", "human", "justice", "protection", "accountability"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://www.ilo.org/global/about-the-ilo/newsroom/rss/lang--en/index.htm",
+              "source": "ILO",
+              "field": "equality",
+              "keywords": ["labor", "work", "rights", "equality", "employment"],
+              "priority": "medium"
+            }
+          ]
+        }
+      ],
+      "apis": [
+        {
+          "name": "OurWorldInData",
+          "baseUrl": "https://api.ourworldindata.org/v1",
+          "source": "OurWorldInData",
+          "updateFrequency": "daily",
+          "indicators": [
+            {
+              "id": "renewable-share-energy",
+              "field": "energy",
+              "unit": "%",
+              "description": "Share of electricity from renewable sources"
+            },
+            {
+              "id": "life-expectancy",
+              "field": "health",
+              "unit": "years",
+              "description": "Life expectancy at birth"
+            },
+            {
+              "id": "literacy-rate-adult-total",
+              "field": "education",
+              "unit": "%",
+              "description": "Adult literacy rate"
+            },
+            {
+              "id": "share-of-population-with-cancer",
+              "field": "health",
+              "unit": "%",
+              "description": "Cancer prevalence"
+            },
+            {
+              "id": "co2-emissions-per-capita",
+              "field": "climate",
+              "unit": "tonnes",
+              "description": "CO2 emissions per capita"
+            },
+            {
+              "id": "gender-wage-gap-oecd",
+              "field": "equality",
+              "unit": "%",
+              "description": "Gender wage gap"
+            },
+            {
+              "id": "share-of-population-in-extreme-poverty",
+              "field": "equality",
+              "unit": "%",
+              "description": "Population in extreme poverty"
+            },
+            {
+              "id": "access-to-electricity",
+              "field": "energy",
+              "unit": "%",
+              "description": "Population with electricity access"
+            },
+            {
+              "id": "maternal-mortality-ratio",
+              "field": "health",
+              "unit": "per 100,000",
+              "description": "Maternal mortality ratio"
+            },
+            {
+              "id": "share-deaths-air-pollution",
+              "field": "climate",
+              "unit": "%",
+              "description": "Deaths from air pollution"
+            },
+            {
+              "id": "share-of-children-underweight",
+              "field": "health",
+              "unit": "%",
+              "description": "Underweight children"
+            },
+            {
+              "id": "share-of-adults-with-obesity",
+              "field": "health",
+              "unit": "%",
+              "description": "Adult obesity rate"
+            }
+          ]
+        },
+        {
+          "name": "World Bank",
+          "baseUrl": "https://api.worldbank.org/v2",
+          "source": "World Bank",
+          "updateFrequency": "quarterly",
+          "indicators": [
+            {
+              "id": "SP.DYN.IMRT.IN",
+              "field": "health",
+              "name": "Infant mortality rate",
+              "unit": "per 1,000 live births"
+            },
+            {
+              "id": "SE.ADT.LITR.ZS",
+              "field": "education",
+              "name": "Adult literacy rate",
+              "unit": "%"
+            },
+            {
+              "id": "EG.FEC.RNEW.ZS",
+              "field": "energy",
+              "name": "Renewable energy consumption",
+              "unit": "% of total"
+            },
+            {
+              "id": "SL.TLF.CACT.FE.ZS",
+              "field": "equality",
+              "name": "Female labor force participation",
+              "unit": "%"
+            },
+            {
+              "id": "SH.DYN.NMRT",
+              "field": "health",
+              "name": "Neonatal mortality rate",
+              "unit": "per 1,000 live births"
+            },
+            {
+              "id": "SE.PRM.CMPT.ZS",
+              "field": "education",
+              "name": "Primary completion rate",
+              "unit": "%"
+            },
+            {
+              "id": "EN.ATM.CO2E.PC",
+              "field": "climate",
+              "name": "CO2 emissions per capita",
+              "unit": "metric tons"
+            },
+            {
+              "id": "SH.STA.BASS.ZS",
+              "field": "health",
+              "name": "Basic sanitation access",
+              "unit": "%"
+            }
+          ]
+        },
+        {
+          "name": "Global Health Observatory",
+          "baseUrl": "https://ghoapi.azureedge.net/api",
+          "source": "WHO GHO",
+          "updateFrequency": "annually",
+          "indicators": [
+            {
+              "id": "WHOSIS_000001",
+              "field": "health",
+              "name": "Life expectancy at birth",
+              "unit": "years"
+            },
+            {
+              "id": "MDG_0000000025",
+              "field": "health",
+              "name": "Infant mortality rate",
+              "unit": "per 1,000 live births"
+            },
+            {
+              "id": "NUTRITION_ANAEMIA_CHILDREN",
+              "field": "health",
+              "name": "Anaemia in children",
+              "unit": "%"
+            },
+            {
+              "id": "TOBACCO_0000000192",
+              "field": "health",
+              "name": "Tobacco use prevalence",
+              "unit": "%"
+            }
+          ]
+        }
+      ],
+      "research": [
+        {
+          "name": "arXiv",
+          "baseUrl": "http://export.arxiv.org/api/query",
+          "categories": [
+            {
+              "cat": "cs.AI",
+              "field": "technology",
+              "keywords": ["breakthrough", "novel", "improve", "advance", "state-of-the-art"],
+              "maxResults": 10
+            },
+            {
+              "cat": "cs.LG",
+              "field": "technology",
+              "keywords": ["performance", "accuracy", "efficient", "breakthrough", "novel"],
+              "maxResults": 10
+            },
+            {
+              "cat": "q-bio",
+              "field": "health",
+              "keywords": ["treatment", "therapy", "cure", "diagnostic", "biomarker"],
+              "maxResults": 10
+            },
+            {
+              "cat": "physics.soc-ph",
+              "field": "equality",
+              "keywords": ["social", "inequality", "fairness", "equity", "disparity"],
+              "maxResults": 5
+            },
+            {
+              "cat": "physics.app-ph",
+              "field": "technology",
+              "keywords": ["application", "device", "innovation", "efficient", "breakthrough"],
+              "maxResults": 5
+            },
+            {
+              "cat": "stat.AP",
+              "field": "technology",
+              "keywords": ["method", "improve", "accuracy", "application", "novel"],
+              "maxResults": 5
+            },
+            {
+              "cat": "eess.SY",
+              "field": "energy",
+              "keywords": ["renewable", "efficient", "grid", "storage", "optimization"],
+              "maxResults": 5
+            }
+          ]
+        },
+        {
+          "name": "PubMed",
+          "baseUrl": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils",
+          "field": "health",
+          "searches": [
+            {
+              "term": "breakthrough[Title] AND therapy[Title]",
+              "maxResults": 20
+            },
+            {
+              "term": "vaccine[Title] AND efficacy[Title] AND trial[Title]",
+              "maxResults": 20
+            },
+            {
+              "term": "cure[Title] OR eradicate[Title]",
+              "maxResults": 10
+            }
+          ]
+        }
+      ],
+      "organizations": [
+        {
+          "name": "Gates Foundation",
+          "url": "https://www.gatesfoundation.org/ideas/rss",
+          "source": "Gates Foundation",
+          "fields": ["health", "education", "equality"],
+          "priority": "high"
+        },
+        {
+          "name": "Wellcome Trust",
+          "url": "https://wellcome.org/news/feed",
+          "source": "Wellcome Trust",
+          "field": "health",
+          "priority": "high"
+        },
+        {
+          "name": "Chan Zuckerberg Initiative",
+          "url": "https://chanzuckerberg.com/feed/",
+          "source": "CZI",
+          "fields": ["health", "education"],
+          "priority": "medium"
+        },
+        {
+          "name": "MacArthur Foundation",
+          "url": "https://www.macfound.org/feed/",
+          "source": "MacArthur",
+          "fields": ["equality", "climate"],
+          "priority": "medium"
+        }
+      ]
+    },
+    "scoring": {
+      "keywords": {
+        "high_impact": {
+          "words": ["breakthrough", "cure", "eradicate", "eliminate", "first-ever", "record", "historic", "revolutionary", "game-changing"],
+          "score": 3
+        },
+        "medium_impact": {
+          "words": ["improve", "advance", "progress", "develop", "increase", "reduce", "success", "effective", "significant"],
+          "score": 2
+        },
+        "low_impact": {
+          "words": ["study", "research", "report", "analysis", "finding", "investigate", "examine"],
+          "score": 1
+        }
+      },
+      "recency_boost": {
+        "hours_0_24": 2,
+        "hours_24_72": 1,
+        "hours_72_168": 0,
+        "older": -1
+      },
+      "field_priority": {
+        "health": 0.5,
+        "climate": 0.5,
+        "energy": 0.5,
+        "technology": 0,
+        "education": 0,
+        "equality": 0
+      },
+      "source_credibility": {
+        "high": ["WHO", "Nature", "Science", "NEJM", "Lancet", "NASA", "IPCC", "UNESCO"],
+        "medium": ["arXiv", "MIT News", "ScienceDaily", "NSF"],
+        "low": ["TechCrunch", "General News"]
+      }
+    },
+    "filtering": {
+      "minimum_score": 2,
+      "exclude_keywords": ["may", "might", "could", "potential", "preliminary", "inconclusive"],
+      "require_keywords_per_field": {
+        "health": ["patient", "clinical", "treatment", "therapy", "disease", "condition"],
+        "climate": ["emission", "temperature", "renewable", "carbon", "sustainable"],
+        "energy": ["renewable", "solar", "wind", "battery", "efficiency", "grid"],
+        "technology": ["innovation", "system", "algorithm", "computing", "software", "hardware"],
+        "education": ["student", "school", "learning", "literacy", "education", "teaching"],
+        "equality": ["rights", "equality", "justice", "discrimination", "inclusion", "equity"]
+      }
+    },
+    "deduplication": {
+      "similarity_threshold": 0.85,
+      "window_days": 7,
+      "check_fields": ["title", "description"]
+    },
+    "update_schedule": {
+      "frequency": "4_hours",
+      "times_utc": ["00:00", "04:00", "08:00", "12:00", "16:00", "20:00"],
+      "retry_on_failure": true,
+      "max_retries": 3,
+      "retry_delay_minutes": 15
+    }
+  }://www.who.int/feeds/entity/mediacentre/news/en/rss.xml",
+              "source": "WHO",
+              "field": "health",
+              "keywords": ["vaccine", "treatment", "disease", "health", "cure", "therapy", "breakthrough", "eradicate"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.nature.com/nm/rss/current",
+              "source": "Nature Medicine",
+              "field": "health",
+              "keywords": ["clinical", "trial", "therapy", "treatment", "cure", "efficacy"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.thelancet.com/rssfeed/lancet_current.xml",
+              "source": "The Lancet",
+              "field": "health",
+              "keywords": ["study", "trial", "treatment", "intervention", "outcomes"],
+              "priority": "high"
+            },
+            {
+              "url": "https://feeds.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm",
+              "source": "NEJM",
+              "field": "health",
+              "keywords": ["clinical", "trial", "therapy", "efficacy", "randomized"],
+              "priority": "high"
+            },
+            {
+              "url": "https://jamanetwork.com/feeds/site_feeds/jama",
+              "source": "JAMA",
+              "field": "health",
+              "keywords": ["clinical", "research", "outcomes", "intervention"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://www.bmj.com/rss",
+              "source": "BMJ",
+              "field": "health",
+              "keywords": ["research", "study", "evidence", "practice"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://www.cdc.gov/rss/cdc_epi.xml",
+              "source": "CDC",
+              "field": "health",
+              "keywords": ["prevention", "outbreak", "vaccine", "surveillance"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.nih.gov/news-events/news-releases/feed",
+              "source": "NIH",
+              "field": "health",
+              "keywords": ["research", "clinical", "treatment", "discovery"],
+              "priority": "high"
+            }
+          ]
+        },
+        {
+          "category": "Technology & Innovation",
+          "feeds": [
+            {
+              "url": "https://www.sciencedaily.com/rss/top/technology.xml",
+              "source": "ScienceDaily Tech",
+              "field": "technology",
+              "keywords": ["breakthrough", "innovation", "discovery", "advance", "develop", "first"],
+              "priority": "high"
+            },
+            {
+              "url": "https://feeds.nature.com/nature/rss/current",
+              "source": "Nature",
+              "field": "technology",
+              "keywords": ["quantum", "computing", "AI", "machine learning", "innovation", "breakthrough"],
+              "priority": "high"
+            },
+            {
+              "url": "https://feeds.sciencemag.org/rss/current.xml",
+              "source": "Science",
+              "field": "technology",
+              "keywords": ["research", "discovery", "breakthrough", "advance", "novel"],
+              "priority": "high"
+            },
+            {
+              "url": "https://news.mit.edu/rss/feed",
+              "source": "MIT News",
+              "field": "technology",
+              "keywords": ["research", "innovation", "develop", "breakthrough", "advance"],
+              "priority": "high"
+            },
+            {
+              "url": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=rss&org=NSF",
+              "source": "NSF",
+              "field": "technology",
+              "keywords": ["research", "funding", "discovery", "innovation"],
+              "priority": "medium"
+            },
+            {
+              "url": "https://spectrum.ieee.org/rss",
+              "source": "IEEE Spectrum",
+              "field": "technology",
+              "keywords": ["engineering", "innovation", "technology", "breakthrough"],
+              "priority": "medium"
+            },
+            {
+              "url": "https

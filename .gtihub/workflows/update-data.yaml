@@ -3,43 +3,90 @@ name: Update HumanityCheck Data
 
 on:
   schedule:
-    # Run at 00:00 UTC every day
-    - cron: '0 0 * * *'
+    # Run every 4 hours: at 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC
+    - cron: '0 */4 * * *'
   # Allow manual trigger
   workflow_dispatch:
+  # Also run on push to main branch (for testing)
+  push:
+    branches: [ main ]
+    paths:
+      - 'enhanced-data-fetcher.js'
+      - '.github/workflows/update-data.yml'
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20'
         cache: 'npm'
+    
+    - name: Cache dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
     
     - name: Install dependencies
       run: |
-        npm install rss-parser
+        npm ci --prefer-offline --no-audit
     
-    - name: Fetch latest data
-      run: node data-fetcher.js
+    - name: Run data fetcher
+      run: node enhanced-data-fetcher.js
       env:
         NODE_ENV: production
+        NODE_OPTIONS: --max-old-space-size=4096
+      timeout-minutes: 10
+    
+    - name: Validate JSON output
+      run: |
+        if [ -f news.json ]; then
+          echo "Validating news.json..."
+          node -e "JSON.parse(require('fs').readFileSync('news.json', 'utf8'))"
+          echo "✅ JSON validation passed"
+          
+          # Show statistics
+          node -e "
+            const data = JSON.parse(require('fs').readFileSync('news.json', 'utf8'));
+            console.log('📊 Statistics:');
+            console.log('  Total entries:', data.entries.length);
+            console.log('  Last updated:', data.lastUpdated);
+            console.log('  Sources processed:', data.totalSources || 'N/A');
+            
+            // Count by field
+            const fields = {};
+            data.entries.forEach(e => {
+              fields[e.field] = (fields[e.field] || 0) + 1;
+            });
+            console.log('  Entries by field:', fields);
+          "
+        else
+          echo "❌ news.json not found!"
+          exit 1
+        fi
     
     - name: Check for changes
       id: verify-changes
       run: |
-        if [ -n "$(git status --porcelain news.json)" ]; then
+        if [ -n "$(git status --porcelain news.json cache.json)" ]; then
           echo "changes=true" >> $GITHUB_OUTPUT
+          echo "✅ Changes detected in data files"
         else
           echo "changes=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ No changes detected"
         fi
     
     - name: Commit and push changes
@@ -47,11 +94,87 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        
+        # Add both news.json and cache.json
         git add news.json
-        git commit -m "Update data: $(date +'%Y-%m-%d %H:%M:%S UTC')"
+        git add -f cache.json || true  # Force add cache.json even if in .gitignore
+        
+        # Create detailed commit message
+        TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S UTC')
+        ENTRY_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('news.json', 'utf8')).entries.length)")
+        
+        git commit -m "Update data: $TIMESTAMP" \
+                   -m "Total entries: $ENTRY_COUNT" \
+                   -m "Automated update from enhanced data fetcher"
+        
         git push
     
     - name: Trigger deployment
       if: steps.verify-changes.outputs.changes == 'true'
       run: |
-        echo "Data updated successfully. Site will be redeployed automatically."
+        echo "✅ Data updated successfully. Site will be redeployed automatically."
+    
+    - name: Create issue on failure
+      if: failure()
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const title = `Data fetch failed: ${new Date().toISOString()}`;
+          const body = `The automated data fetch failed. Please check the [workflow logs](${context.payload.repository.html_url}/actions/runs/${context.runId}) for details.`;
+          
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: title,
+            body: body,
+            labels: ['bug', 'data-fetch']
+          });
+
+  # Optional: Clean up old cache entries weekly
+  cleanup-cache:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 0 * * 0'  # Only on Sunday at midnight
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    
+    - name: Clean cache
+      run: |
+        node -e "
+          const fs = require('fs');
+          try {
+            const cache = JSON.parse(fs.readFileSync('cache.json', 'utf8'));
+            const oneWeekAgo = Date.now() - (7 * 24 * 60 * 60 * 1000);
+            
+            // Clean old deduplication entries
+            cache.deduplication = cache.deduplication.filter(entry => 
+              new Date(entry.date).getTime() > oneWeekAgo
+            );
+            
+            // Clean old processed URLs (keep last 1000)
+            if (cache.processedUrls && cache.processedUrls.length > 1000) {
+              cache.processedUrls = cache.processedUrls.slice(-1000);
+            }
+            
+            fs.writeFileSync('cache.json', JSON.stringify(cache, null, 2));
+            console.log('✅ Cache cleaned successfully');
+          } catch (error) {
+            console.log('ℹ️ No cache to clean');
+          }
+        "
+    
+    - name: Commit cleaned cache
+      run: |
+        if [ -n "$(git status --porcelain cache.json)" ]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cache.json
+          git commit -m "Weekly cache cleanup"
+          git push
+        fi
