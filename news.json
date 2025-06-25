@@ -1,33 +1,75 @@
 {
   "date": "2025-06-25",
-  "lastUpdated": "2025-06-25T06:34:26.365Z",
+  "lastUpdated": "2025-06-25T06:52:53.261Z",
+  "cathedral": {
+    "pillars": 9,
+    "sources": 87,
+    "stories": 72,
+    "message": "A comprehensive collection of humanity's measurable progress"
+  },
   "metadata": {
-    "totalSources": 22,
-    "successfulSources": 3,
-    "measurableProgressFound": 7,
-    "executionTime": "17.1s",
-    "progressMetrics": {
-      "totalEntries": 7,
-      "withQuantitativeData": 0,
-      "livesImpacted": 1,
-      "milestonesReached": 0,
-      "firstTimeAchievements": 2,
-      "newTreatments": 0,
-      "completedProjects": 3
+    "executionTime": "102.4s",
+    "sourcesQueried": 87,
+    "sourcesSuccessful": 15,
+    "entriesByField": {
+      "climate": 13,
+      "space": 6,
+      "technology": 36,
+      "education": 2,
+      "agriculture": 2,
+      "development": 8,
+      "peace": 4,
+      "health": 1
+    },
+    "entriesByType": {
+      "actions": 109,
+      "impact": 14,
+      "innovation": 54,
+      "metrics": 16
+    },
+    "qualityMetrics": {
+      "withQuantitativeData": 16,
+      "breakthroughsReported": 17,
+      "completedProjects": 8,
+      "highImpactStories": 30
     }
   },
   "entries": [
     {
-      "title": "[Articles] Estimating the potential malaria morbidity and mortality avertable by the US President's Malaria Initiative in 2025: a geospatial modelling analysis",
-      "description": "PMI investment in supporting procurement and distribution of malaria control commodities would directly translate into millions of malaria cases averted and approximately 100 000 lives saved across its focus geographies in Africa throughout 2025.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00805-0/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2025-06-25"
+      "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
+      "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
+      "link": "https://climate.nasa.gov/news/3293/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-11-30"
+    },
+    {
+      "title": "See SWOT Mission's Unprecedented View of Global Sea Levels",
+      "description": "This animation shows global sea level data collected by the Surface Water and Ocean Topography satellite from July 26 to Aug. 16. Red and orange indicate higher-than-average ocean heights, while blue represents lower-than-average heights. Credit: NASA/JPL-Caltech In Brief: Data on sea surface heights around the world from the international Surface Water and Ocean Topography mission yields a mesmerizing view of the planet’s ocean. The Surface Water and Ocean Topography (SWOT) satellite is sending down tantalizing views of Earth’s water, including a global composite of sea surface heights. The s",
+      "link": "https://climate.nasa.gov/news/3288/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-10-30"
+    },
+    {
+      "title": "Powerful NASA-ISRO Earth Observing Satellite Coming Together in India",
+      "description": "In Brief: Built on opposite sides of the planet, the NISAR satellite will deepen understanding of climate change, deforestation, glacier melt, volcanoes, earthquakes, and more. Two major components of the NISAR satellite have been combined to create a single spacecraft in Bengaluru, India. Set to launch in early 2024, NISAR – short for NASA-ISRO Synthetic Aperture Radar – is being jointly developed by NASA and the Indian Space Research Organisation, or ISRO, to track movements of Earth’s land and ice surfaces in extremely fine detail. As NISAR monitors nearly every part of our planet at least ",
+      "link": "https://climate.nasa.gov/news/3275/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-07-13"
+    },
+    {
+      "title": "Living Planet Symposium 2025: Opening session",
+      "description": "Video: 02:08:03 ESA’s Living Planet Symposium, one of the world’s leading Earth observation conferences, opened today in Vienna. The plenary session began at 10:30 CEST and included addresses from ESA Director General Josef Aschbacher and ESA Director of Earth Observation Programmes Simonetta Cheli, as well as Margit Mischkulnig, from the Austrian Federal Ministry for Innovation. There were video addresses from President of Austria, Alexander van der Bellen, Federal Minister for Innovation, Mobility and Infrastructure Republic of Austria Peter Hanke and the EU Commissioner for Defence and Spac",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/06/Living_Planet_Symposium_2025_Opening_session",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-06-23"
     },
     {
       "title": "NASA-ISRO Radar Mission to Provide Dynamic View of Forests, Wetlands",
-      "description": "In Brief: NISAR will help researchers explore how changes in Earth’s forest and wetland ecosystems are affecting the global carbon cycle and influencing climate change. Once it launches in early 2024, the NISAR radar satellite mission will offer detailed insights into two types of ecosystems – forests and wetlands – vital to naturally regulating the greenhouses gases in the atmosphere that are driving global climate change. NISAR is a joint mission by NASA and ISRO (Indian Space Research Organis",
+      "description": "In Brief: NISAR will help researchers explore how changes in Earth’s forest and wetland ecosystems are affecting the global carbon cycle and influencing climate change. Once it launches in early 2024, the NISAR radar satellite mission will offer detailed insights into two types of ecosystems – forests and wetlands – vital to naturally regulating the greenhouses gases in the atmosphere that are driving global climate change. NISAR is a joint mission by NASA and ISRO (Indian Space Research Organisation), and when in orbit, its sophisticated radar systems will scan nearly all of Earth’s land and ",
       "link": "https://climate.nasa.gov/news/3287/",
       "source": "NASA Climate",
       "field": "climate",
@@ -35,43 +77,539 @@
     },
     {
       "title": "Arctic Sea Ice 6th Lowest on Record; Antarctic Sees Record Low Growth",
-      "description": "In Brief: The annual Arctic sea ice minimum (lowest) annual extent was the sixth-lowest on record this year, while Antarctic sea ice reached its lowest maximum ever. These both continue a long-term downward trend due to human-caused global warming. Arctic sea ice likely reached its annual minimum extent on Sept. 19, 2023, making it the sixth-lowest year in the satellite record, according to researchers at NASA and the National Snow and Ice Data Center (NSIDC). Meanwhile, Antarctic sea ice reache",
+      "description": "In Brief: The annual Arctic sea ice minimum (lowest) annual extent was the sixth-lowest on record this year, while Antarctic sea ice reached its lowest maximum ever. These both continue a long-term downward trend due to human-caused global warming. Arctic sea ice likely reached its annual minimum extent on Sept. 19, 2023, making it the sixth-lowest year in the satellite record, according to researchers at NASA and the National Snow and Ice Data Center (NSIDC). Meanwhile, Antarctic sea ice reached its lowest maximum extent on record on Sept. 10 at a time when the ice cover should have been grow",
       "link": "https://climate.nasa.gov/news/3284/",
       "source": "NASA Climate",
       "field": "climate",
       "date": "2023-09-26"
     },
     {
-      "title": "Sharpest-ever solar view shows tiny stripes driving big space storms",
-      "description": "A stunning breakthrough in solar physics reveals ultra-fine magnetic structures on the Sun's surface, thanks to the NSF's Inouye Solar Telescope. Researchers captured never-before-seen bright and dark stripes—called striations—within solar granules. These features behave like magnetic curtains rippling across the Sun, reshaping our understanding of magnetic field dynamics at microscopic scales. By achieving a resolution of just 20 kilometers, scientists could match real observations with simulat",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250621111205.htm",
-      "source": "ScienceDaily Tech",
+      "title": "Girl Scouts Donate to Caltech for Fire Recovery",
+      "description": "Among the more than 4,300 donors who have contributed to help Caltech community members recover from the January 2025 fires were eight Girl Scout Brownies from Troop 3684 in La Verne.The girls, all starting fourth grade in fall 2025, raised $1,000 in cookie-sale earnings for the Caltech and JPL Disaster Relief Fund. Six troop members visited the office of Caltech President Thomas F. Rosenbaum, the Sonja and William Davidow Presidential Chair and professor of physics, to present their check.\"So many people on campus and at JPL were affected by the fires,\" President Rosenbaum said to the girls. ",
+      "link": "https://www.caltech.edu/about/news/girl-scouts-disaster-fund-gift",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2025-06-21"
+      "date": "2025-06-20"
     },
     {
-      "title": "See SWOT Mission's Unprecedented View of Global Sea Levels",
-      "description": "This animation shows global sea level data collected by the Surface Water and Ocean Topography satellite from July 26 to Aug. 16. Red and orange indicate higher-than-average ocean heights, while blue represents lower-than-average heights. Credit: NASA/JPL-Caltech In Brief: Data on sea surface heights around the world from the international Surface Water and Ocean Topography mission yields a mesmerizing view of the planet’s ocean. The Surface Water and Ocean Topography (SWOT) satellite is sending",
-      "link": "https://climate.nasa.gov/news/3288/",
+      "title": "Water-Watching Satellite Monitors Warming Ocean off California Coast",
+      "description": "In Brief: The international Surface Water and Ocean Topography mission is able to measure ocean features, like El Niño, closer to a coastline than previous space-based missions. Warm ocean waters from the developing El Niño are shifting north along coastlines in the eastern Pacific Ocean. Along the coast of California, these warm waters are interacting with a persistent marine heat wave that recently influenced the development of Hurricane Hilary. The Surface Water and Ocean Topography (SWOT) satellite is able to spot the movement of these warm ocean waters in unprecedented detail. A collabora",
+      "link": "https://climate.nasa.gov/news/3283/",
       "source": "NASA Climate",
       "field": "climate",
-      "date": "2023-10-30"
+      "date": "2023-09-19"
+    },
+    {
+      "title": "Speed-Snap Science: Solving for Molecular Details in a Flash",
+      "description": "How do we know exactly what is happening at a molecular level during extremely fast processes, such as burning during combustion? In less than the blink of an eye, one chemical compound and then another are present in a flame only to disperse and give way to more. Understanding which molecules are present gives scientists a way of understanding the inner workings of the chemical processes taking place.But traditionally used methods for measuring molecule sizes struggle to capture such fast, transient processes. And conventional optical microscopy not only falls short in speed but also cannot s",
+      "link": "https://www.caltech.edu/about/news/speed-snap-science-solving-for-molecular-details-in-a-flash",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-06-17"
+    },
+    {
+      "title": "Missing Matter in Universe Found",
+      "description": "The vast majority of matter in the universe is dark—it is entirely invisible and detected only through its gravitational effects. Ordinary matter—everything from protons to planets to people—makes up only 16 percent. Unlike dark matter, ordinary matter emits light of various wavelengths and thus can be seen. But a large chunk of it is diffuse and spread thinly among halos that surround galaxies as well as in the vast spaces between galaxies.Due to its diffuse nature, roughly half of ordinary matter in the universe went unaccounted for and had been considered \"missing\"—until now.In a new study ",
+      "link": "https://www.caltech.edu/about/news/missing-matter-in-universe-found",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-06-16"
+    },
+    {
+      "title": "New On-Campus Partnership Between Caltech and Meta Focuses Initially on Smart Wearables",
+      "description": "Caltech scientists are actively studying how to seamlessly integrate technology—things like sensors, actuators, and microprocessors, but also novel materials—into things that we wear. And the social media and technology company Meta Platforms, Inc. (Meta), has spent the past 10 years pushing forward the development of virtual, augmented, and mixed reality technologies, while also investigating the basic science underlying wearable technologies.Now Caltech and Meta have formalized an agreement that will bring together the Institute's innovative research approach in areas such as materials scien",
+      "link": "https://www.caltech.edu/about/news/new-on-campus-partnership-between-caltech-and-meta-focuses-initially-on-smart-wearables",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-06-09"
+    },
+    {
+      "title": "Education in Cambodia",
+      "description": "Education in Cambodia Ed Stone Fri, 05/23/2025 - 01:54 2006 US$182,834,755 Multiplier System capacity System transformation Other key documents Partnership Compact Priority: Improve student learning outcomes by addressing agreed priorities, namely gender equality, quality learning and quality teaching. UNICEFTalia Miranda Ministry of education Domestic financing commitment GPE 2025 data Having achieved nearly universal primary education by 2012, Cambodia broadened its education goals to focus on quality in addition to access. Teacher reform, as set out in the Teacher Policy and Action Plan fro",
+      "link": "https://www.globalpartnership.org/where-we-work/cambodia",
+      "source": "GPE",
+      "field": "education",
+      "date": "2025-05-23"
+    },
+    {
+      "title": "Education in Guinea-Bissau",
+      "description": "Education in Guinea-Bissau Ed Stone Fri, 05/16/2025 - 00:04 2010 US$23,760,655 Multiplier System capacity System transformation Other key documents Partnership compact Prioriy: Improve access, retention, quality, inclusion and internal efficiency of schools for children from preschool to the 3rd cycle of basic education. Camões -Instituto da Cooperação e da Língua, Embaixada de Portugal na Guiné-BissauJennifer Hofmann GPE 2025 data Guinea-Bissau has one of the lowest primary education completion rates in the world, with only 27% of students completing grade 6. And significant disparities based",
+      "link": "https://www.globalpartnership.org/where-we-work/guinea-bissau",
+      "source": "GPE",
+      "field": "education",
+      "date": "2025-05-16"
+    },
+    {
+      "title": "The future of ESA Transportation",
+      "description": "Video: 00:06:07 Space is huge and essential to humankind, fuelling knowledge, supporting our economies and driving global prosperity. None of this would be possible without reliable access to space. Since 1979, Europe has relied on the Ariane rockets and Vega series to launch its missions. Today, with Ariane 6 and Vega-C, ESA ensures Europe's autonomous and independent access to space. But we are also looking ahead. With the Ariane Smart Transfer and Release In-orbit Ship (ASTRIS), Phoebus, P160C boosters, the MR-10 engine and more, ESA is enhancing its rockets with new innovations that improv",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/06/The_future_of_ESA_Transportation",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-06-23"
+    },
+    {
+      "title": "Cellular Coordinate System Reveals Secrets of Active Matter",
+      "description": "All humans who have ever lived were once each an individual cell, which then divided countless times to produce a body made up of around 10 trillion cells. These cells have busy lives, executing all kinds of dynamic movement: contracting every time we flex a muscle, migrating toward the site of an injury, and rhythmically beating for decades on end.Cells are an example of active matter. As inanimate matter must burn fuel to move, like airplanes and cars, active matter is similarly animated by its consumption of energy. The basic molecule of cellular energy is adenosine triphosphate (ATP), whic",
+      "link": "https://www.caltech.edu/about/news/cellular-coordinate-system-reveals-secrets-of-active-matter",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-06-12"
+    },
+    {
+      "title": "A Missing Link in Magnetic Stars",
+      "description": "The future of yellow dwarf stars, like our Sun, is determined almost entirely by their mass. The most massive stars, about eight to 12 times heftier than the Sun, can explode as supernovae, leading to the most extreme objects in the universe—neutron stars and black holes. But low-mass stars, a group that includes our Sun, take a quieter path. As they run out of hydrogen to burn and their cores become denser, their outer layers expand and dissipate, transforming them into red giant stars. When their cores reach their densest state, they shed away their outer layers, leaving behind objects known",
+      "link": "https://www.caltech.edu/about/news/a-missing-link-in-magnetic-stars",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-06-10"
+    },
+    {
+      "title": "Caltech Students Win Summer Travel Awards",
+      "description": "This summer, six Caltech students will enjoy international experiences courtesy of two summer travel awards funded by Caltech alumni. The Amasa Bishop Summer Study Abroad Fellowship will support Camilla Power, a third-year chemistry major, while she takes a French intensive course through Alliance Française in Nice Côte d'Azur, France, and Areeg Al-Dayni, a first-year bioengineering major, while she studies Spanish language and liberal arts through CEA CAPA Education Abroad in Granada, Spain.The Bishop Fellowship is named after Amasa Bishop (BS '43) and was funded by his family. Bishop studied",
+      "link": "https://www.caltech.edu/about/news/summer-travel-awards-2025",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-06-06"
+    },
+    {
+      "title": "International Ocean Satellite Monitors How El Niño Is Shaping Up",
+      "description": "In Brief: Sentinel-6 Michael Freilich is the latest satellite contributing to a 30-year sea level record that researchers are using to compare this year’s El Niño with those of the past. Not all El Niño events are created equal. Their impacts vary widely, and satellites like the U.S.-European Sentinel-6 Michael Freilich help anticipate those impacts on a global scale by tracking changes in sea surface height in the Pacific Ocean. Water expands as it warms, so sea levels tend to be higher in places with warmer water. El Niños are characterized by higher-than-normal sea levels and warmer-than-av",
+      "link": "https://climate.nasa.gov/news/3286/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-10-19"
     },
     {
       "title": "NASA-Built Greenhouse Gas Detector Moves Closer to Launch",
-      "description": "In Brief: The instrument will enable nonprofit organization Carbon Mapper to pinpoint and measure methane and carbon dioxide sources from space. A state-of-the-art imaging spectrometer, which will measure the greenhouse gases methane and carbon dioxide from space, moved closer to launch this month after being delivered to a clean room at Planet Labs PBC (Planet) in San Francisco. Designed and built by NASA’s Jet Propulsion Laboratory in Southern California, this science instrument will be part o",
+      "description": "In Brief: The instrument will enable nonprofit organization Carbon Mapper to pinpoint and measure methane and carbon dioxide sources from space. A state-of-the-art imaging spectrometer, which will measure the greenhouse gases methane and carbon dioxide from space, moved closer to launch this month after being delivered to a clean room at Planet Labs PBC (Planet) in San Francisco. Designed and built by NASA’s Jet Propulsion Laboratory in Southern California, this science instrument will be part of an effort led by the nonprofit Carbon Mapper organization to collect data on greenhouse gas point-",
       "link": "https://climate.nasa.gov/news/3281/",
       "source": "NASA Climate",
       "field": "climate",
       "date": "2023-09-14"
     },
     {
-      "title": "Powerful NASA-ISRO Earth Observing Satellite Coming Together in India",
-      "description": "In Brief: Built on opposite sides of the planet, the NISAR satellite will deepen understanding of climate change, deforestation, glacier melt, volcanoes, earthquakes, and more. Two major components of the NISAR satellite have been combined to create a single spacecraft in Bengaluru, India. Set to launch in early 2024, NISAR – short for NASA-ISRO Synthetic Aperture Radar – is being jointly developed by NASA and the Indian Space Research Organisation, or ISRO, to track movements of Earth’s land an",
-      "link": "https://climate.nasa.gov/news/3275/",
+      "title": "US-German Satellites Show California Water Gains After Record Winter",
+      "description": "In Brief: Early data shows the greatest net gain of water over the winter in nearly 22 years, but the state’s groundwater levels still suffer from the effects of years of drought. After years of intense drought and diminishing groundwater, California just saw its greatest year-over-year water gains in two decades, according to data from the GRACE-FO (Gravity Recovery and Climate Experiment Follow-On) satellite mission, a partnership between NASA and the German Research Centre for Geosciences (GFZ). This past winter’s bonanza of atmospheric rivers alleviated some of the water deficit that the s",
+      "link": "https://climate.nasa.gov/news/3272/",
       "source": "NASA Climate",
       "field": "climate",
-      "date": "2023-07-13"
+      "date": "2023-06-09"
+    },
+    {
+      "title": "Accelerating hardware development to improve national security and innovation",
+      "description": "The alumni-founded startup Nominal has built a platform for building and testing complex systems like fighter jets, nuclear reactors, rockets, and robots.",
+      "link": "https://news.mit.edu/2025/nominal-accelerates-hardware-development-improve-national-security-innovation-0625",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-06-25"
+    },
+    {
+      "title": "Making Plastic from Carbon Dioxide, Water, and Electricity",
+      "description": "What if a machine could suck up carbon dioxide from the atmosphere, run it through a series of chemical reactions, and essentially spit out industrially useful plastic?\"I think that is something that we, as a society, would be interested in. After all, in addition to being a greenhouse gas, carbon dioxide is an abundant and inexpensive feedstock,\" says Theo Agapie (PhD '07), the John Stauffer Professor of Chemistry and the executive officer for chemistry at Caltech. \"With our new work, we have taken a significant step in that direction.\"Reporting in the journal Angewandte Chemie International ",
+      "link": "https://www.caltech.edu/about/news/making-plastic-from-carbon-dioxide-water-and-electricity",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "North Atlantic’s volcanic secrets – it’s about being thin",
+      "description": "Iceland is one of the most active volcanic regions in the world, but its seismic nature is part of a much broader geological history. In a groundbreaking discovery, scientists, supported by an ESA-funded project, have uncovered the underlying forces that forged the North Atlantic’s fiery volcanic past – shedding light on the vast geological region that spans from Greenland to western Europe, which is home to iconic natural wonders like the Giant’s Causeway in Northern Ireland.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/North_Atlantic_s_volcanic_secrets_it_s_about_being_thin",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "President of France Emmanuel Macron visits the Paris Space Hub",
+      "description": "Image: Marking the first public day of this year’s International Paris Air Show, the President of France Emmanuel Macron visited the Paris Space Hub. ESA Director General Josef Aschbacher and Director of Human and Robotic Exploration Daniel Neuenschwander welcomed President Macron, introducing him to the assembled French astronauts and a group of young space professionals in attendance. French ESA astronaut Sophie Adenot joined by video link from the United States, where she is training for her upcoming mission to the International Space Station. Sophie detailed some of her training, explainin",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/06/President_of_France_Emmanuel_Macron_visits_the_Paris_Space_Hub",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-06-20"
+    },
+    {
+      "title": "εpsilon: Sophie Adenot’s first mission name and patch unveiled",
+      "description": "Image: ESA astronaut Sophie Adenot’s first mission to the International Space Station now has a name: εpsilon. The mission name and patch were announced today at the Paris Air Show by ESA Director General Josef Aschbacher, French President Emmanuel Macron, and Sophie Adenot, who joined remotely from the United States, where she is training for her spaceflight. Sophie Adenot is one of the five astronauts selected from ESA’s most recent astronaut class of 2022. Following the successful completion of their basic training in spring 2024, Josef Aschbacher announced during the Space Council in Bruss",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/06/epsilon_Sophie_Adenot_s_first_mission_name_and_patch_unveiled",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-06-20"
+    },
+    {
+      "title": "NOAA supports student science excellence at 3 major competitions",
+      "description": "NOAA supports student science excellence at 3 major competitions Kayleen Torres (center), NOAA Outreach Program Coordinator, stands with the five student recipients of the 2025 NOAA Special Awards during the Regeneron ISEF Special Awards Ceremony in Columbus, Ohio. The students were recognized for exceptional projects in Earth and Environmental Sciences and Environmental Engineering. (Image credit: Courtesy Nancy Moulding/Society for Science) June 17, 2025 This spring, the NOAA Office of Education was proud to support three organizations that run exciting science competitions for middle and hi",
+      "link": "https://www.noaa.gov/office-education/outreach-communication/news/noaa-supports-student-science-excellence-at-3-major-competitions",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2025-06-17"
+    },
+    {
+      "title": "NOAA releases updated Education Strategic Plan",
+      "description": "NOAA releases updated Education Strategic Plan NOAA graphic (Image credit: NOAA) Download Image June 11, 2025 NOAA’s new Education Strategic Plan sets a vision for the next 20 years of NOAA’s work supporting a strong scientific workforce and engaging learners in our planet’s dynamic environment. Read the plan 2025-2045 NOAA Education Strategic Plan In this updated document, the NOAA Education community shares the course of action that reflects our current programs and priorities for 2025-2045. The American Innovation and Competitiveness Act (Public Law 114–329) directs NOAA to develop a 20-yea",
+      "link": "https://www.noaa.gov/office-education/news/noaa-releases-updated-education-strategic-plan",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2025-06-11"
+    },
+    {
+      "title": "Harvesting Collaboration for Food Security. Science Week Closes.",
+      "description": "11th April, Nairobi, Kenya: After a remarkable week of science, innovation, and cementing of partnerships, CGIAR’s inaugural Science Week wrapped up at the official closing ceremony led by Ismahane Elouafi, Executive Managing Director, CGIAR, and Eliud Kireger, Director General, Kenya Agricultural & Livestock Research Organization (KALRO). “Over the past days, we’ve explored groundbreaking research, forged […] The post Harvesting Collaboration for Food Security. Science Week Closes. appeared first onCGIAR. The post Harvesting Collaboration for Food Security. Science Week Closes. appeared first",
+      "link": "https://www.cgiar.org/cgiar-science-week-closing/",
+      "source": "CGIAR",
+      "field": "agriculture",
+      "date": "2025-04-14"
+    },
+    {
+      "title": "Bridging Innovation and Implementation: A Collaborative Leap Forward with the Government of India in Transforming Agriculture",
+      "description": "The Government of India recently hosted a significant workshop that brought together representatives from CGIAR centers across India to showcase groundbreaking technologies and innovations ready for immediate scaling, with the goal of aligning these innovations with India’s existing priorities and plans to support the national agenda for agri-food systems transformation. Building on the success of […] The post Bridging Innovation and Implementation: A Collaborative Leap Forward with the Government of India in Transforming Agriculture appeared first onCGIAR. The post Bridging Innovation and Imp",
+      "link": "https://www.cgiar.org/bridging-innovation-and-implementation-a-collaborative-leap-forward-with-the-government-of-india-in-transforming-agriculture/",
+      "source": "CGIAR",
+      "field": "agriculture",
+      "date": "2024-06-17"
+    },
+    {
+      "title": "NASA to Showcase Earth Science Data at COP28",
+      "description": "With 26 Earth-observing satellite missions, as well as instruments flying on planes and the space station, NASA has a global vantage point for studying our planet’s oceans, land, ice, and atmosphere and deciphering how changes in one drive change in others. The agency will share that knowledge and data at the 28th U.N. Climate Change Conference of the Parties (COP28), which brings international parties together to accelerate action toward the goals of the Paris Agreement and the U.N. Framework Convention on Climate Change. COP28 will be held at the Expo City in Dubai, United Arab Emirates from",
+      "link": "https://climate.nasa.gov/news/3292/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-11-28"
+    },
+    {
+      "title": "IEEE Presidents’ Scholarship Changes Students’ Lives",
+      "description": "Last year marked the 25th anniversary of the IEEE Presidents’ Scholarship. Since its inception, the prestigious US $10,000 award has been given annually to one exceptional high school student participating in the Regeneron (formerly Intel) International Science and Engineering Fair. The ISEF is the world’s largest international STEM research competition for high school students. Finalists for the scholarship are selected by a team of IEEE volunteer judges. The scholarship is funded by the IEEE Foundation and administered by IEEE Educational Activities. To commemorate the scholarship’s annivers",
+      "link": "https://spectrum.ieee.org/ieee-presidents-scholarship",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Video Friday: Jet-Powered Humanoid Robot Lifts Off",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RSS 2025: 21–25 June 2025, LOS ANGELES ETH Robotics Summer School: 21–27 June 2025, GENEVA IAS 2025: 30 June–4 July 2025, GENOA, ITALY ICRES 2025: 3–4 July 2025, PORTO, PORTUGAL IEEE World Haptics: 8–11 July 2025, SUWON, SOUTH KOREA IFAC Symposium on Robotics: 15–18 July 2025, PARIS RoboCup 2025: 15–21 July 2025, BAHIA, BRAZIL RO-MAN 2025: 25–29 August ",
+      "link": "https://spectrum.ieee.org/video-friday-jet-powered-robot",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-20"
+    },
+    {
+      "title": "Airbnb’s Dying Software Gets a Second Life",
+      "description": "Vikram Koka stumbled upon Apache Airflow in late 2019. He was working in the Internet of Things industry and searching for a solution to orchestrate sensor data using software. Airflow seemed to be a perfect fit, but Koka noticed the open-source project’s stagnant state. Thus began a journey to breathe a second life into this dying software. Airflow was the brainchild of Airbnb. The company created the system to automate and manage its data-related workflows, such as cleaning and organizing datasets in its data warehouse and calculating metrics around host and guest engagement. In 2015, Airbnb",
+      "link": "https://spectrum.ieee.org/apache-airflow-3-programmatic-workflows",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-17"
+    },
+    {
+      "title": "Video Friday: AI Model Gives Neo Robot Autonomy",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. 2025 Energy Drone & Robotics Summit: 16–18 June 2025, HOUSTON RSS 2025: 21–25 June 2025, LOS ANGELES ETH Robotics Summer School: 21–27 June 2025, GENEVA IAS 2025: 30 June–4 July 2025, GENOA, ITALY ICRES 2025: 3–4 July 2025, PORTO, PORTUGAL IEEE World Haptics: 8–11 July 2025, SUWON, SOUTH KOREA IFAC Symposium on Robotics: 15–18 July 2025, PARIS RoboCup 2",
+      "link": "https://spectrum.ieee.org/video-friday-neo-humanoid-robot",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-13"
+    },
+    {
+      "title": "Intel Upgrades Chip Packaging for Bigger AI",
+      "description": "This week at the IEEE Electronic Components and Packaging Technology Conference, Intel unveiled that it is developing new chip-packaging technology that will allow for bigger processors for AI. With Moore’s Law slowing down, makers of advanced GPUs and other data-center chips are having to add more silicon area to their products to keep up with the relentless rise of AI’s computing needs. But the maximum size of a single silicon chip is fixed at around 800 square millimeters (with one exception), so manufacturers have had to turn to advanced packaging technologies that integrate multiple piece",
+      "link": "https://spectrum.ieee.org/intel-advanced-packaging-for-ai",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-08"
+    },
+    {
+      "title": "Check Out IEEE’s Revamped Online Presence",
+      "description": "The newly designed IEEE website makes it easier than ever to learn about the organization and its offerings. IEEE incorporated feedback from members and site visitors to create its modern look and feel. Throughout the site, the work of IEEE and its members is prominently highlighted to show how they are creating a better world and driving engineering forward. “The new website is more visual, with video and other media to engage all visitors. It also showcases our global community’s commitment as a public charity advancing technology for the benefit of humanity,” says Sophia Muirhead, IEEE exec",
+      "link": "https://spectrum.ieee.org/ieee-revamped-online-presence",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-19"
+    },
+    {
+      "title": "A New BCI Instantly Synthesizes Speech",
+      "description": "By analyzing neural signals, a brain-computer interface (BCI) can now almost instantaneously synthesize the speech of a man who lost use of his voice due to a neurodegenerative disease, a new study finds. The researchers caution it will still be a long time before such a device, which could restore speech to paralyzed patients, will find use in everyday communication. Still, the hope is this work “will lead to a pathway for improving these systems further—for example, through technology transfer to industry,” says Maitreyee Wairagkar, a project scientist at the University of California Davis’s",
+      "link": "https://spectrum.ieee.org/bci-speech-synthesis",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-19"
+    },
+    {
+      "title": "Telecom Expert Honored By IEEE Standards Association",
+      "description": "Growing up in Taipei, Taiwan, in the 1960s with limited access to television and other forms of entertainment, Kevin Lu amused himself by examining how machines worked. He became fascinated by heavy construction equipment and built miniature versions of the machinery out of scrap materials. “We didn’t have a lot at the time,” Lu recalls. “TV was just becoming available to the average household, and there weren’t many toys. So I made my own.” Kevin Lu Employer: Stevens Institute of Technology, in Hoboken, N.J. Title: Teaching Professor and Associate Chair for Undergraduate Studies in the Depart",
+      "link": "https://spectrum.ieee.org/telecom-kevin-lu-ieee-standards",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-12"
+    },
+    {
+      "title": "IBM Says It’s Cracked Quantum Error Correction",
+      "description": "IBM has unveiled a new quantum computing architecture it says will slash the number of qubits required for error correction. The advance will underpin its goal of building a large-scale, fault-tolerant quantum computer, called Starling, that will be available to customers by 2029. Because of the inherent unreliability of the qubits (the quantum equivalent of bits) that quantum computers are built from, error correction will be crucial for building reliable, large-scale devices. Error-correction approaches spread each unit of information across many physical qubits to create “logical qubits.” T",
+      "link": "https://spectrum.ieee.org/ibm-quantum-error-correction-starling",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-10"
+    },
+    {
+      "title": "Video Friday: Hopping on One Robotic Leg",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. 2025 Energy Drone & Robotics Summit: 16–18 June 2025, HOUSTON RSS 2025: 21–25 June 2025, LOS ANGELES ETH Robotics Summer School: 21–27 June 2025, GENEVA IAS 2025: 30 June–4 July 2025, GENOA, ITALY ICRES 2025: 3–4 July 2025, PORTO, PORTUGAL IEEE World Haptics: 8–11 July 2025, SUWON, SOUTH KOREA IFAC Symposium on Robotics: 15–18 July 2025, PARIS RoboCup 2",
+      "link": "https://spectrum.ieee.org/video-friday-one-legged-robot",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-06"
+    },
+    {
+      "title": "ADB Announces $350 Million for Pakistan to Boost the Role of Women in the Economy",
+      "description": "ADB has approved a loan of $350 million to support access to finance for women in Pakistan. The funding will support the second phase of the Women-Inclusive Finance Sector Development Program, which includes a $300 million policy-based loan and a $50 million financial intermediation loan designed to fund credit facilities and guarantees that support women’s entrepreneurship through improving their access to finance.",
+      "link": "https://www.adb.org/news/adb-announces-350-million-pakistan-boost-role-women-economy",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-06-25"
+    },
+    {
+      "title": "An intelligent, practical path to reindustrialization",
+      "description": "This past spring, we launched a brand-new manufacturing initiative—building on ideas that are as old as MIT. Since William Barton Rogers created a school to help accelerate America’s industrialization, manufacturing has been an essential part of our mission—a particularly MIT brand of manufacturing, informed and improved by scientific principles and advanced by the kind of…",
+      "link": "https://www.technologyreview.com/2025/06/24/1117720/an-intelligent-path-to-reindustrialization/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "An epic year for women’s sports",
+      "description": "It was a banner year for the Engineers in 2024–’25, with four MIT women’s teams all clinching NCAA Division III national titles for the first time. After winning their fourth straight NCAA East Regional Championship, the cross country team claimed their first national title in November with All-American performances from Christina Crow ’25 (pictured), Rujuta…",
+      "link": "https://www.technologyreview.com/2025/06/24/1117732/an-epic-year-for-womens-sports/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "ADB Approves $86 Million to Provide Infrastructure, Services for Displaced People from Myanmar and Host Communities in Bangladesh",
+      "description": "ADB has approved a $58.6 million grant from the Asian Development Fund and a $28.1 million concessional loan to provide basic infrastructure and critical services for displaced people from Myanmar and host communities in Bangladesh.",
+      "link": "https://www.adb.org/news/adb-approves-86-million-provide-infrastructure-services-displaced-people-myanmar-and-communities-bangladesh",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Benjamin List: “Trust your own intuition and ideas”",
+      "description": "Students meet chemistry laureate Benjamin List Benjamin List, Nobel Prize laureate in chemistry 2021, was joined by 10 students from all over the world and from different disciplines within science for a conversation on the topic of being a scientist. List gave his best advice for maintaining a science career, spoke about green chemistry and […] The post Benjamin List: “Trust your own intuition and ideas” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/benjamin-list-trust-your-own-intuition-and-ideas/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Ben Feringa on how to overcome failures in the lab",
+      "description": "Students meet Nobel Prize laureate Ben Feringa Ben Feringa, Nobel Prize laureate in Chemistry 2016, was joined by 14 students from all over the world and from different disciplines within science for a conversation on the topic of being a scientist. Feringa gave his best advice for how to overcome failures in the lab, his […] The post Ben Feringa on how to overcome failures in the lab appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/ben-feringa-on-how-to-overcome-failures-in-the-lab/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Didier Queloz on being a scientist",
+      "description": "“Science is done by feeling good and getting ideas” 16 students from all over the world, and from different disciplines within science, joined a conversation with Didier Queloz, focusing on the topic of being a scientist. The topics ranged from hobbies and creativity to social responsibility and underrepresented students. The conversation was moderated by Carin […] The post Didier Queloz on being a scientist appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/didier-queloz-on-being-a-scientist/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "This triple-layer sunlight catalyst supercharges green hydrogen by 800%",
+      "description": "Researchers in Sweden have developed a powerful new material that dramatically boosts the ability to create hydrogen fuel from water using sunlight, making the process eight times more effective than before. This breakthrough could be key to fueling heavy transport like ships and planes with clean, renewable energy.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250623072757.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-23"
+    },
+    {
+      "title": "Quantum breakthrough: ‘Magic states’ now easier, faster, and way less noisy",
+      "description": "Quantum computing just got a significant boost thanks to researchers at the University of Osaka, who developed a much more efficient way to create \"magic states\"—a key component for fault-tolerant quantum computers. By pioneering a low-level, or \"level-zero,\" distillation method, they dramatically reduced the number of qubits and computational resources needed, overcoming one of the biggest obstacles: quantum noise. This innovation could accelerate the arrival of powerful quantum machines capable of revolutionizing industries from finance to biotech.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250621233816.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-22"
+    },
+    {
+      "title": "Quantum dice: Scientists harness true randomness from entangled photons",
+      "description": "Scientists at NIST and the University of Colorado Boulder have created CURBy, a cutting-edge quantum randomness beacon that draws on the intrinsic unpredictability of quantum entanglement to produce true random numbers. Unlike traditional methods, CURBy is traceable, transparent, and verifiable thanks to quantum physics and blockchain-like protocols. This breakthrough has real-world applications ranging from cybersecurity to public lotteries—and it’s open source, inviting the world to use and build upon it.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250622225927.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-23"
+    },
+    {
+      "title": "Rice University breakthrough keeps CO₂ electrolyzers running 50x longer",
+      "description": "A Rice University team discovered that bubbling CO₂ through a mild acid dramatically improves the lifespan and efficiency of electrochemical devices that convert CO₂ into useful fuels. This simple trick prevents salt buildup—a major barrier to commercialization—by altering local chemistry just enough to keep salts dissolved and flowing. The result? A device that ran for over 4,500 hours without clogging, using common catalysts and scalable technology. It's a breakthrough that could make green CO₂ conversion far more viable in the real world.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250622030532.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-22"
+    },
+    {
+      "title": "Half of today’s jobs could vanish—Here’s how smart countries are future-proofing workers",
+      "description": "AI is revolutionizing the job landscape, prompting nations worldwide to prepare their workforces for dramatic changes. A University of Georgia study evaluated 50 countries’ national AI strategies and found significant differences in how governments prioritize education and workforce training. While many jobs could disappear in the coming decades, new careers requiring advanced AI skills are emerging. Countries like Germany and Spain are leading with early education and cultural support for AI, but few emphasize developing essential human soft skills like creativity and communication—qualities ",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250622030429.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-22"
+    },
+    {
+      "title": "Sharpest-ever solar view shows tiny stripes driving big space storms",
+      "description": "A stunning breakthrough in solar physics reveals ultra-fine magnetic structures on the Sun's surface, thanks to the NSF's Inouye Solar Telescope. Researchers captured never-before-seen bright and dark stripes—called striations—within solar granules. These features behave like magnetic curtains rippling across the Sun, reshaping our understanding of magnetic field dynamics at microscopic scales. By achieving a resolution of just 20 kilometers, scientists could match real observations with simulations, revealing subtle magnetic fluctuations that alter how we see the solar surface. These discover",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250621111205.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-21"
+    },
+    {
+      "title": "Hydrogen fuel at half the cost? Scientists reveal a game-changing catalyst",
+      "description": "Researchers in South Korea have developed a powerful and affordable new material for producing hydrogen, a clean energy source key to fighting climate change. By fine-tuning boron-doping and phosphorus levels in cobalt phosphide nanosheets, the team dramatically boosted the efficiency of both sides of water-splitting reactions. This advancement could unlock scalable, low-cost hydrogen production, transforming how we generate clean fuel.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250620231645.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-21"
+    },
+    {
+      "title": "MIT's tiny 5G receiver could make smart devices last longer and work anywhere",
+      "description": "MIT scientists have built a tiny, ultra-efficient 5G receiver that can thrive in noisy wireless environments ideal for smartwatches, wearables, and sensors that need to sip power and still stay reliably connected. The chip s unique design uses clever capacitor-switch networks and barely a milliwatt of power to block interference 30 times better than typical receivers. This tech could shrink and strengthen the next generation of smart devices.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250620064909.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-20"
+    },
+    {
+      "title": "Photon-powered alchemy: How light is rewriting fossil fuel chemistry",
+      "description": "Researchers at Colorado State University have developed a new photoredox catalysis system that uses visible light mimicking photosynthesis to drive energy-intensive chemical reactions at room temperature. This groundbreaking process could significantly reduce the energy required in chemical manufacturing, especially in industries reliant on fossil fuels.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250620031618.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-20"
+    },
+    {
+      "title": "Invisible quantum waves forge shape-shifting super-materials in real time",
+      "description": "Scientists have, for the first time, directly observed phonon wave dynamics within self-assembling nanomaterials unlocking the potential for customizable, reconfigurable metamaterials with applications ranging from shock absorbers to advanced computing.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250619090857.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-19"
+    },
+    {
+      "title": "Massive thread of hot gas found linking galaxies — and it’s 10 times the mass of the Milky Way",
+      "description": "Astronomers have uncovered a colossal, searing-hot filament of gas linking four galaxy clusters in the Shapley Supercluster a discovery that could finally solve the mystery of the Universe s missing matter. This giant thread, 10 times the mass of the Milky Way and stretching 23 million light-years, is one of the best confirmations yet of what cosmological simulations have long predicted: that vast, faint filaments connect the Universe s largest structures in a cosmic web.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250619035510.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-19"
+    },
+    {
+      "title": "ADB Approves $400 Million for Resilient, Inclusive Development in Bangladesh",
+      "description": "ADB has approved a $400 million loan to help Bangladesh enhance its resilience against climate impacts, cut emissions in climate-critical sectors, and promote inclusive development.",
+      "link": "https://www.adb.org/news/adb-approves-400-million-resilient-inclusive-development-bangladesh",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-06-19"
+    },
+    {
+      "title": "ADB Approves $500 Million to Stabilize, Reform Banking Sector in Bangladesh",
+      "description": "ADB has approved a $500 million policy-based loan to stabilize and reform the banking sector in Bangladesh by strengthening regulatory supervision, corporate governance, asset quality, and stability.",
+      "link": "https://www.adb.org/news/adb-approves-500-million-stabilize-reform-banking-sector-bangladesh",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-06-19"
+    },
+    {
+      "title": "Guest post: Why 2024’s global temperatures were unprecedented, but not surprising",
+      "description": "Human-caused greenhouse gas (GHG) emissions in 2024 continued to drive global warming to record levels.... The post Guest post: Why 2024’s global temperatures were unprecedented, but not surprising appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/guest-post-why-2024s-global-temperatures-were-unprecedented-but-not-surprising/",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2025-06-18"
+    },
+    {
+      "title": "A thousand colors, one galaxy: Astronomers reveal a cosmic masterpiece",
+      "description": "Astronomers have produced the most detailed map yet of the Sculptor Galaxy, revealing hundreds of previously unseen celestial features in stunning color and resolution. By combining over 50 hours of observations using the European Southern Observatory s Very Large Telescope, scientists captured a full-spectrum portrait that unravels the galaxy s stellar makeup in thousands of colors. This revolutionary technique offers an unprecedented look at the age, composition, and motion of stars and gas across the galaxy s vast 65,000-light-year span. Among the highlights are 500 newly identified planeta",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250618094447.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-18"
+    },
+    {
+      "title": "From shortage to supremacy: How Sandia and the CHIPS Act aim to reboot US chip power",
+      "description": "Once a global leader in chipmaking, the U.S. now lags behind. Sandia National Laboratories is spearheading a strategic comeback by joining a powerful new coalition the National Semiconductor Technology Center. Through cutting-edge research, collaborative partnerships, and workforce development, Sandia is aiming to reclaim semiconductor dominance, safeguard national security, and revolutionize tech innovation for everything from self-driving cars to AI processors.",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250618033727.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-06-18"
+    },
+    {
+      "title": "Why JPEGs Still Rule the Web",
+      "description": "For roughly three decades, the JPEG has been the World Wide Web’s primary image format. But it wasn’t the one the Web started with. In fact, the first mainstream graphical browser, NCSA Mosaic, didn’t initially support inline JPEG files—just inline GIFs, along with a couple of other formats forgotten to history. However, the JPEG had many advantages over the format it quickly usurped. aspect_ratio Despite not appearing together right away—the JPEG first appeared in Netscape in 1995, three years after the image standard was officially published—the JPEG and Web browser fit together naturally. J",
+      "link": "https://spectrum.ieee.org/jpeg-image-format-history",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-17"
+    },
+    {
+      "title": "ADB Approves $100 Million for Humanitarian Relief and Community Resilience for the People of Myanmar",
+      "description": "ADB has approved a $100 million aid package from the Asian Development Fund to deliver integrated humanitarian assistance and build long-term community resilience for the people of Myanmar.",
+      "link": "https://www.adb.org/news/adb-approves-100-million-humanitarian-relief-and-community-resilience-people-myanmar",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-06-17"
+    },
+    {
+      "title": "Arthur McDonald on his life and career in science",
+      "description": "On being a scientist Arthur McDonald, physics laureate 2015, was joined by 12 students from all over the world and from different disciplines within science for a conversation on the topic of being a scientist. The post Arthur McDonald on his life and career in science appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/arthur-mcdonald-on-his-life-and-career-in-science/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-16"
+    },
+    {
+      "title": "ADB Approves $109.97 Million Loan to Boost Advanced Skills and Employability in Gujarat",
+      "description": "ADB has approved a $109.97 million results-based loan to support the Government of Gujarat in advancing its vision of becoming a global industrial hub through a stronger, more future-ready workforce.",
+      "link": "https://www.adb.org/news/adb-approves-109-97-million-loan-boost-advanced-skills-and-employability-gujarat",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-06-13"
+    },
+    {
+      "title": "From Kabul to Kandahar: Inside Afghanistan’s first polio campaigns of 2025",
+      "description": "From 21 to 23 April 2025, Afghanistan carried out its first nationwide polio vaccination campaign of the year, immunizing over 11 million children under five. The effort was synchronized with a similar campaign in neighbouring Pakistan—a vital strategy in what remains a race against time to stop poliovirus transmission in the last two endemic countries […]",
+      "link": "https://polioeradication.org/news/from-kabul-to-kandahar-inside-afghanistans-first-polio-campaigns-of-2025/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2025-06-12"
+    },
+    {
+      "title": "IEEE’s 5 New E-Books Provide On-ramp to Engineering",
+      "description": "As the home for IEEE’s preuniversity resources, activities, and hands-on experiences, TryEngineering serves as a hub for educators, parents, and IEEE volunteers to teach school-age children about engineering. With support from IEEE partners, TryEngineering has launched a series of e-books. Bolstered by input from IEEE members who are experts in their field, the e-books use open-source, free materials written to teach complex engineering topics in an age-appropriate way. Visually appealing, the books use colorful charts and graphs to grab children’s attention. Each of the five English-language ",
+      "link": "https://spectrum.ieee.org/tryengineering-5-new-ebooks",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-06-09"
+    },
+    {
+      "title": "ADB Supports Resilient Infrastructure Development in Eastern Thailand",
+      "description": "ADB and the Government of Thailand have signed a $68.74 million loan agreement to provide resilient connectivity infrastructure to the U-Tapao Airport in the Eastern Economic Corridor (EEC), a manufacturing and innovation hub in eastern Thailand.",
+      "link": "https://www.adb.org/news/adb-supports-resilient-infrastructure-development-eastern-thailand",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-06-06"
+    },
+    {
+      "title": "ADB, Huaneng Tiancheng Sign Loan to Support Distributed Wind Energy Projects in PRC",
+      "description": "ADB has signed a loan of $55 million in CNY equivalent with Huaneng Tiancheng Financial Leasing Co., Ltd. to advance the development and operation of distributed wind energy power plants in the People’s Republic of China (PRC).",
+      "link": "https://www.adb.org/news/adb-huaneng-tiancheng-sign-loan-support-distributed-wind-energy-projects-prc",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-05-22"
+    },
+    {
+      "title": "Firefly Aerospace aims to deploy first commercial lunar imaging service",
+      "description": "The Ocula imaging service will be built into the Elytra orbital vehicle launching as part of Blue Ghost Mission 2 in 2026.",
+      "link": "https://spaceflightnow.com/2025/06/18/firefly-aerospace-aims-to-deploy-1st-commercial-lunar-imaging-service/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-06-18"
     }
   ]
 }
