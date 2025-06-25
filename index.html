@@ -65,13 +65,12 @@
 
         /* Header */
         header {
-            background: var(--bg-primary);
             border-bottom: 1px solid var(--border);
             position: sticky;
             top: 0;
             z-index: 100;
             backdrop-filter: blur(10px);
-            background: rgba(var(--bg-primary-rgb, 255, 255, 255), 0.9);
+            background: #050d1c;
         }
 
         .header-content {
@@ -95,7 +94,6 @@
         .logo-icon {
             width: 32px;
             height: 32px;
-            background: var(--primary);
             border-radius: 8px;
             display: flex;
             align-items: center;
@@ -254,7 +252,7 @@
         }
 
         .filter-btn {
-            background: var(--bg-primary);
+            background: #9cbcff;
             border: 1px solid var(--border);
             padding: 8px 16px;
             border-radius: 999px;
@@ -266,7 +264,7 @@
         }
 
         .filter-btn:hover {
-            background: var(--bg-secondary);
+            background: #2563eb;
             border-color: var(--primary);
         }
 
@@ -313,11 +311,12 @@
         .view-btn {
             padding: 6px 12px;
             border: none;
-            background: transparent;
+            background: #0d121c;
             font-size: 14px;
             cursor: pointer;
             border-radius: 4px;
             transition: var(--transition);
+            color: #2563eb;
         }
 
         .view-btn.active {
@@ -554,9 +553,6 @@
             </a>
             <div class="header-actions">
                 <span class="last-update">Last updated: <span id="lastUpdateTime">--</span></span>
-                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-                    🌓
-                </button>
             </div>
         </div>
     </header>
@@ -624,25 +620,17 @@
                 <div class="footer-links">
                     <a href="#" onclick="showAbout(); return false;">Our Mission</a>
                     <a href="#" onclick="showMethodology(); return false;">Methodology</a>
-                    <a href="/monitoring.html">Live Dashboard</a>
-                    <a href="#" onclick="showRSS(); return false;">RSS Feed</a>
                 </div>
             </div>
             <div class="footer-section">
                 <h3>Sources</h3>
                 <div class="footer-links">
-                    <a href="#" onclick="showSources(); return false;">Verified Sources</a>
                     <a href="#" onclick="showCriteria(); return false;">Selection Criteria</a>
-                    <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">Open Source</a>
-                    <a href="#" onclick="showAPI(); return false;">API Access</a>
                 </div>
             </div>
             <div class="footer-section">
                 <h3>Contribute</h3>
                 <div class="footer-links">
-                    <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">GitHub</a>
-                    <a href="#" onclick="showSubmit(); return false;">Submit Source</a>
-                    <a href="#" onclick="showContact(); return false;">Contact</a>
                     <a href="#" onclick="showDonate(); return false;">Support Us</a>
                 </div>
             </div>
@@ -820,12 +808,7 @@
                                 </svg>
                                 Share
                             </button>
-                            <button class="action-btn" onclick="saveEntry('${encodeURIComponent(JSON.stringify(entry))}')">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
-                                </svg>
-                                Save
-                            </button>
+                           
                         </div>
                     </div>
                 </article>
@@ -893,13 +876,6 @@
             }
         }
 
-        function saveEntry(entryData) {
-            const entry = JSON.parse(decodeURIComponent(entryData));
-            const saved = JSON.parse(localStorage.getItem('savedEntries') || '[]');
-            saved.unshift(entry);
-            localStorage.setItem('savedEntries', JSON.stringify(saved.slice(0, 100)));
-            showToast('Entry saved!');
-        }
 
         function showToast(message) {
             // Simple toast implementation
@@ -938,39 +914,23 @@
             alert(`Our Methodology:\n\n• Data sources: WHO, UNESCO, major universities, peer-reviewed journals\n• Update frequency: Every 4 hours via automated collection\n• Verification: Only official sources and peer-reviewed research\n• Scoring: AI-assisted relevance scoring based on impact keywords\n• Transparency: All code is open source on GitHub`);
         }
 
-        function showSources() {
-            window.open('https://github.com/humanitycheck/humanitycheck/blob/main/sources-config.js', '_blank');
-        }
-
-        function showRSS() {
-            alert('RSS feed coming soon! Check back for updates.');
-        }
-
-        function showAPI() {
-            alert('API access coming soon! Follow our GitHub for updates.');
-        }
 
         function showCriteria() {
             alert(`Selection Criteria:\n\n• Verified sources only (no blogs or opinion pieces)\n• Measurable progress or breakthroughs\n• Peer-reviewed research when applicable\n• Global impact preferred\n• Recent developments (within 7 days)`);
         }
 
-        function showSubmit() {
-            alert('To submit a source, please open an issue on our GitHub repository with the RSS feed URL and verification details.');
-        }
-
+ 
         function showContact() {
-            alert('Contact us through GitHub issues or contribute directly to the project!');
+            alert('Contact us via blah blha blah');
         }
 
         function showDonate() {
-            alert('HumanityCheck is a volunteer project. Star us on GitHub to show support!');
+            alert('HumanityCheck is a volunteer project!');
         }
 
         // Initialize on load
         window.addEventListener('load', () => {
-            // Apply saved theme
-            const savedTheme = localStorage.getItem('theme') || 'light';
-            document.documentElement.setAttribute('data-theme', savedTheme);
+           
             
             // Initialize app
             init();
