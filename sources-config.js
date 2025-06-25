@@ -1,234 +1,467 @@
-// sources-config.js - Centralized source configuration
+// mission-sources-config.js - Curated sources for transformative human progress
+// Each source is selected for its focus on solutions, breakthroughs, and hope
+
 module.exports = {
-    // RSS feed sources organized by field
-    rssSources: {
-        health: [
-            // WHO and major health organizations
-            { url: 'https://www.who.int/feeds/entity/mediacentre/news/en/rss.xml', name: 'WHO', priority: 'high' },
-            { url: 'https://www.cdc.gov/media/feeds/rss.xml', name: 'CDC', priority: 'high' },
-            { url: 'https://www.nih.gov/news-events/news-releases/feed', name: 'NIH', priority: 'high' },
-            { url: 'https://www.ema.europa.eu/en/rss.xml', name: 'EMA', priority: 'medium' },
-            { url: 'https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/fda-newsroom/rss.xml', name: 'FDA', priority: 'medium' },
-            
-            // Major medical journals
-            { url: 'https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm', name: 'NEJM', priority: 'high' },
-            { url: 'https://www.thelancet.com/rssfeed/lancet_current.xml', name: 'The Lancet', priority: 'high' },
-            { url: 'https://jamanetwork.com/feeds/site_feeds/jama', name: 'JAMA', priority: 'high' },
-            { url: 'https://www.bmj.com/rss', name: 'BMJ', priority: 'medium' },
-            { url: 'https://www.nature.com/nm/rss/current', name: 'Nature Medicine', priority: 'high' },
-            { url: 'https://feeds.plos.org/plosone/PLoSONE', name: 'PLOS ONE', priority: 'medium' },
-            
-            // Disease-specific organizations
-            { url: 'https://www.cancer.gov/rss/news.xml', name: 'NCI', priority: 'medium' },
-            { url: 'https://www.heart.org/en/rss/rss-news', name: 'AHA', priority: 'medium' },
-            { url: 'https://www.alz.org/rss/rss.asp', name: 'Alzheimer\'s Association', priority: 'medium' },
-            
-            // Global health initiatives
-            { url: 'https://www.gatesfoundation.org/ideas/rss', name: 'Gates Foundation', priority: 'high' },
-            { url: 'https://wellcome.org/news/feed', name: 'Wellcome Trust', priority: 'high' },
-            { url: 'https://www.gavi.org/programmes-impact/news/rss.xml', name: 'Gavi', priority: 'medium' }
-        ],
-        
-        technology: [
-            // Research institutions
-            { url: 'https://news.mit.edu/rss/feed', name: 'MIT News', priority: 'high' },
-            { url: 'https://www.sciencedaily.com/rss/top/technology.xml', name: 'ScienceDaily Tech', priority: 'high' },
-            { url: 'https://www.nsf.gov/news/news_summ.jsp?cntn_id=rss&org=NSF', name: 'NSF', priority: 'high' },
-            { url: 'https://news.stanford.edu/feed/', name: 'Stanford News', priority: 'high' },
-            { url: 'https://www.caltech.edu/about/news/rss', name: 'Caltech', priority: 'high' },
-            
-            // Scientific journals
-            { url: 'https://feeds.nature.com/nature/rss/current', name: 'Nature', priority: 'high' },
-            { url: 'https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science', name: 'Science', priority: 'high' },
-            { url: 'https://feeds.sciencemag.org/rss/current.xml', name: 'Science Magazine', priority: 'high' },
-            { url: 'https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas', name: 'PNAS', priority: 'high' },
-            
-            // Tech publications
-            { url: 'https://www.technologyreview.com/feed/', name: 'MIT Tech Review', priority: 'medium' },
-            { url: 'https://spectrum.ieee.org/rss', name: 'IEEE Spectrum', priority: 'medium' },
-            { url: 'https://cacm.acm.org/rss', name: 'ACM CACM', priority: 'medium' },
-            { url: 'https://arstechnica.com/feed/', name: 'Ars Technica', priority: 'low' },
-            
-            // AI/ML specific
-            { url: 'https://blog.google/technology/ai/rss/', name: 'Google AI Blog', priority: 'high' },
-            { url: 'https://openai.com/blog/rss/', name: 'OpenAI Blog', priority: 'high' },
-            { url: 'https://www.deepmind.com/blog/rss.xml', name: 'DeepMind', priority: 'high' }
-        ],
-        
-        climate: [
-            // Major climate organizations
-            { url: 'https://climate.nasa.gov/news/rss.xml', name: 'NASA Climate', priority: 'high' },
-            { url: 'https://www.ipcc.ch/feed/', name: 'IPCC', priority: 'high' },
-            { url: 'https://www.unep.org/rss/news', name: 'UNEP', priority: 'high' },
-            { url: 'https://www.noaa.gov/rss.xml', name: 'NOAA', priority: 'high' },
-            { url: 'https://unfccc.int/process-and-meetings/feed', name: 'UNFCCC', priority: 'high' },
-            
-            // Climate research
-            { url: 'https://www.realclimate.org/index.php/feed/', name: 'RealClimate', priority: 'medium' },
-            { url: 'https://www.carbonbrief.org/feed/', name: 'Carbon Brief', priority: 'medium' },
-            { url: 'https://insideclimatenews.org/feed/', name: 'Inside Climate News', priority: 'medium' },
-            { url: 'https://e360.yale.edu/feed', name: 'Yale E360', priority: 'medium' },
-            
-            // Environmental organizations
-            { url: 'https://www.wri.org/feeds/all/rss.xml', name: 'WRI', priority: 'medium' },
-            { url: 'https://www.conservation.org/rss.xml', name: 'Conservation International', priority: 'medium' }
-        ],
-        
-        energy: [
-            // International energy agencies
-            { url: 'https://www.iea.org/feeds/newsroom.xml', name: 'IEA', priority: 'high' },
-            { url: 'https://www.irena.org/RSS', name: 'IRENA', priority: 'high' },
-            { url: 'https://www.energy.gov/rss/articles.xml', name: 'US DOE', priority: 'medium' },
-            
-            // Renewable energy
-            { url: 'https://www.nrel.gov/news/news.rss', name: 'NREL', priority: 'high' },
-            { url: 'https://www.renewableenergyworld.com/feed/', name: 'RE World', priority: 'medium' },
-            { url: 'https://www.solarpowereurope.org/feed/', name: 'SolarPower Europe', priority: 'medium' },
-            { url: 'https://gwec.net/feed/', name: 'GWEC', priority: 'medium' },
-            
-            // Clean tech
-            { url: 'https://cleantechnica.com/feed/', name: 'CleanTechnica', priority: 'low' },
-            { url: 'https://www.greentechmedia.com/feeds/all', name: 'Greentech Media', priority: 'medium' }
-        ],
-        
-        education: [
-            // UN and international organizations
-            { url: 'https://en.unesco.org/news/feed', name: 'UNESCO', priority: 'high' },
-            { url: 'https://www.worldbank.org/en/topic/education/rss.xml', name: 'World Bank Education', priority: 'high' },
-            { url: 'https://www.unicef.org/rss/news.xml', name: 'UNICEF', priority: 'high' },
-            { url: 'https://www.globalpartnership.org/rss.xml', name: 'GPE', priority: 'medium' },
-            
-            // Education research
-            { url: 'https://www.brookings.edu/topic/education/feed/', name: 'Brookings Education', priority: 'medium' },
-            { url: 'https://www.rand.org/topics/education-and-literacy.xml', name: 'RAND Education', priority: 'medium' },
-            { url: 'https://www.educationnext.org/feed/', name: 'Education Next', priority: 'low' },
-            
-            // Higher education
-            { url: 'https://www.insidehighered.com/rss.xml', name: 'Inside Higher Ed', priority: 'low' },
-            { url: 'https://www.chronicle.com/section/News/6/rss', name: 'Chronicle Higher Ed', priority: 'low' }
-        ],
-        
-        equality: [
-            // UN organizations
-            { url: 'https://www.ohchr.org/en/feeds/news', name: 'UN Human Rights', priority: 'high' },
-            { url: 'https://www.unwomen.org/en/rss', name: 'UN Women', priority: 'high' },
-            { url: 'https://www.ilo.org/global/about-the-ilo/newsroom/rss/lang--en/index.htm', name: 'ILO', priority: 'high' },
-            { url: 'https://www.unhcr.org/rss.xml', name: 'UNHCR', priority: 'high' },
-            
-            // Human rights NGOs
-            { url: 'https://www.amnesty.org/en/rss/', name: 'Amnesty International', priority: 'medium' },
-            { url: 'https://www.hrw.org/rss', name: 'Human Rights Watch', priority: 'medium' },
-            { url: 'https://www.freedomhouse.org/rss.xml', name: 'Freedom House', priority: 'medium' },
-            
-            // Development organizations
-            { url: 'https://www.oxfam.org/en/rss.xml', name: 'Oxfam', priority: 'medium' },
-            { url: 'https://www.care.org/rss/', name: 'CARE', priority: 'medium' }
+    // Core mission statement for source selection
+    mission: {
+        statement: "To showcase humanity's most meaningful advances - the breakthroughs that save lives, lift people from poverty, protect our planet, and bring us together.",
+        principles: [
+            "Focus on solutions, not problems",
+            "Highlight transformative change over incremental progress",
+            "Emphasize human impact - millions helped, diseases cured, barriers broken",
+            "Celebrate cooperation and unity across borders",
+            "Share evidence-based hope that inspires action"
         ]
     },
-    
-    // API configurations
+
+    // Curated RSS sources
+    sources: {
+        // HEALTH: Conquering disease and extending life
+        health: {
+            description: "Medical breakthroughs and global health victories",
+            feeds: [
+                {
+                    url: 'https://www.who.int/feeds/entity/mediacentre/news/en/rss.xml',
+                    name: 'WHO',
+                    priority: 'critical',
+                    focus: 'global health milestones',
+                    keywords: ['eradicat', 'eliminat', 'vaccine', 'cure', 'breakthrough', 'lives saved']
+                },
+                {
+                    url: 'https://www.gatesfoundation.org/ideas/rss',
+                    name: 'Gates Foundation',
+                    priority: 'critical',
+                    focus: 'disease eradication',
+                    keywords: ['eradicat', 'vaccine', 'malaria', 'polio', 'tuberculosis']
+                },
+                {
+                    url: 'https://www.nih.gov/news-events/news-releases/feed',
+                    name: 'NIH',
+                    priority: 'critical',
+                    focus: 'medical research breakthroughs',
+                    keywords: ['breakthrough', 'cure', 'treatment', 'clinical trial', 'success']
+                },
+                {
+                    url: 'https://www.cancer.gov/news-events/press-releases/rss',
+                    name: 'National Cancer Institute',
+                    priority: 'high',
+                    focus: 'cancer breakthroughs',
+                    keywords: ['breakthrough', 'treatment', 'survival', 'cure', 'remission']
+                },
+                {
+                    url: 'https://www.gavi.org/programmes-impact/news/rss.xml',
+                    name: 'Gavi',
+                    priority: 'high',
+                    focus: 'vaccine access worldwide',
+                    keywords: ['vaccine', 'immuniz', 'children', 'lives saved', 'protect']
+                },
+                {
+                    url: 'https://www.theglobalfund.org/en/rss/news/',
+                    name: 'Global Fund',
+                    priority: 'high',
+                    focus: 'fighting AIDS, TB, malaria',
+                    keywords: ['lives saved', 'treatment', 'prevent', 'eliminate']
+                },
+                {
+                    url: 'https://www.unaids.org/en/rss',
+                    name: 'UNAIDS',
+                    priority: 'high',
+                    focus: 'ending AIDS epidemic',
+                    keywords: ['treatment', 'prevent', 'lives saved', 'access']
+                },
+                {
+                    url: 'https://www.msfaccess.org/rss.xml',
+                    name: 'MSF Access',
+                    priority: 'medium',
+                    focus: 'medicine access for all',
+                    keywords: ['access', 'treatment', 'affordable', 'lives']
+                }
+            ]
+        },
+
+        // POVERTY & HUNGER: Lifting humanity up
+        poverty: {
+            description: "Economic empowerment and ending hunger",
+            feeds: [
+                {
+                    url: 'https://www.worldbank.org/en/news/rss.xml',
+                    name: 'World Bank',
+                    priority: 'critical',
+                    focus: 'poverty reduction',
+                    keywords: ['poverty', 'lifted', 'opportunity', 'development', 'growth']
+                },
+                {
+                    url: 'https://www.undp.org/rss',
+                    name: 'UNDP',
+                    priority: 'critical',
+                    focus: 'human development',
+                    keywords: ['development', 'progress', 'improve', 'opportunity', 'empower']
+                },
+                {
+                    url: 'https://www.wfp.org/rss',
+                    name: 'World Food Programme',
+                    priority: 'critical',
+                    focus: 'ending hunger',
+                    keywords: ['hunger', 'nutrition', 'food security', 'children', 'save']
+                },
+                {
+                    url: 'https://www.ifad.org/en/rss-feeds',
+                    name: 'IFAD',
+                    priority: 'high',
+                    focus: 'rural poverty',
+                    keywords: ['farmer', 'income', 'rural', 'opportunity', 'transform']
+                },
+                {
+                    url: 'https://www.one.org/rss/',
+                    name: 'ONE Campaign',
+                    priority: 'medium',
+                    focus: 'extreme poverty',
+                    keywords: ['poverty', 'opportunity', 'education', 'health']
+                }
+            ]
+        },
+
+        // CLIMATE & NATURE: Healing our planet
+        climate: {
+            description: "Environmental victories and climate solutions",
+            feeds: [
+                {
+                    url: 'https://climate.nasa.gov/news/rss.xml',
+                    name: 'NASA Climate',
+                    priority: 'critical',
+                    focus: 'climate solutions',
+                    keywords: ['solution', 'breakthrough', 'technology', 'reduce', 'protect']
+                },
+                {
+                    url: 'https://www.unep.org/rss/news',
+                    name: 'UN Environment',
+                    priority: 'critical',
+                    focus: 'environmental protection',
+                    keywords: ['restore', 'protect', 'conservation', 'success', 'agreement']
+                },
+                {
+                    url: 'https://www.worldwildlife.org/rss/news.xml',
+                    name: 'WWF',
+                    priority: 'high',
+                    focus: 'species recovery',
+                    keywords: ['recover', 'protect', 'conservation', 'success', 'increase']
+                },
+                {
+                    url: 'https://www.conservation.org/rss.xml',
+                    name: 'Conservation International',
+                    priority: 'high',
+                    focus: 'ecosystem restoration',
+                    keywords: ['restore', 'protect', 'conserve', 'success', 'community']
+                },
+                {
+                    url: 'https://www.iucn.org/rss.xml',
+                    name: 'IUCN',
+                    priority: 'high',
+                    focus: 'nature conservation',
+                    keywords: ['conservation', 'species', 'protect', 'recover', 'success']
+                },
+                {
+                    url: 'https://www.oceanconservancy.org/feed/',
+                    name: 'Ocean Conservancy',
+                    priority: 'medium',
+                    focus: 'ocean health',
+                    keywords: ['ocean', 'marine', 'protect', 'clean', 'restore']
+                }
+            ]
+        },
+
+        // CLEAN ENERGY: Powering a sustainable future
+        energy: {
+            description: "Renewable energy breakthroughs and access",
+            feeds: [
+                {
+                    url: 'https://www.irena.org/RSS',
+                    name: 'IRENA',
+                    priority: 'critical',
+                    focus: 'renewable energy milestones',
+                    keywords: ['renewable', 'record', 'solar', 'wind', 'clean', 'access']
+                },
+                {
+                    url: 'https://www.iea.org/feeds/newsroom.xml',
+                    name: 'IEA',
+                    priority: 'critical',
+                    focus: 'energy transition',
+                    keywords: ['renewable', 'transition', 'clean', 'record', 'achieve']
+                },
+                {
+                    url: 'https://www.seforall.org/rss.xml',
+                    name: 'SEforALL',
+                    priority: 'high',
+                    focus: 'energy access for all',
+                    keywords: ['access', 'electricity', 'rural', 'connect', 'light']
+                },
+                {
+                    url: 'https://www.nrel.gov/news/rss/news.xml',
+                    name: 'NREL',
+                    priority: 'high',
+                    focus: 'clean tech innovation',
+                    keywords: ['breakthrough', 'innovation', 'efficiency', 'clean', 'advance']
+                }
+            ]
+        },
+
+        // EDUCATION: Empowering every mind
+        education: {
+            description: "Education access and literacy victories",
+            feeds: [
+                {
+                    url: 'https://en.unesco.org/news/feed',
+                    name: 'UNESCO',
+                    priority: 'critical',
+                    focus: 'education for all',
+                    keywords: ['education', 'literacy', 'school', 'children', 'learn', 'access']
+                },
+                {
+                    url: 'https://www.globalpartnership.org/rss.xml',
+                    name: 'Global Partnership for Education',
+                    priority: 'high',
+                    focus: 'education in developing countries',
+                    keywords: ['education', 'school', 'children', 'learn', 'opportunity']
+                },
+                {
+                    url: 'https://www.unicef.org/rss/press-releases.xml',
+                    name: 'UNICEF',
+                    priority: 'critical',
+                    focus: 'children welfare and education',
+                    keywords: ['children', 'education', 'protect', 'health', 'opportunity']
+                },
+                {
+                    url: 'https://www.roomtoread.org/feed/',
+                    name: 'Room to Read',
+                    priority: 'medium',
+                    focus: 'literacy and gender equality',
+                    keywords: ['literacy', 'girls', 'education', 'school', 'read']
+                }
+            ]
+        },
+
+        // HUMAN RIGHTS: Dignity for all
+        rights: {
+            description: "Human rights advances and equality",
+            feeds: [
+                {
+                    url: 'https://www.ohchr.org/en/feeds/news',
+                    name: 'UN Human Rights',
+                    priority: 'high',
+                    focus: 'human dignity advances',
+                    keywords: ['rights', 'dignity', 'justice', 'protect', 'achieve']
+                },
+                {
+                    url: 'https://www.unwomen.org/en/rss/news-and-events',
+                    name: 'UN Women',
+                    priority: 'high',
+                    focus: 'gender equality progress',
+                    keywords: ['equality', 'women', 'girls', 'empower', 'achieve']
+                },
+                {
+                    url: 'https://www.ilo.org/global/about-the-ilo/newsroom/rss/lang--en/index.htm',
+                    name: 'ILO',
+                    priority: 'high',
+                    focus: 'decent work for all',
+                    keywords: ['work', 'rights', 'protect', 'improve', 'opportunity']
+                },
+                {
+                    url: 'https://www.unhcr.org/rss.xml',
+                    name: 'UNHCR',
+                    priority: 'high',
+                    focus: 'refugee protection',
+                    keywords: ['protect', 'refugee', 'resettle', 'integrate', 'opportunity']
+                }
+            ]
+        },
+
+        // PEACE & COOPERATION: Building bridges
+        peace: {
+            description: "Peacebuilding and international cooperation",
+            feeds: [
+                {
+                    url: 'https://news.un.org/en/rss-feeds/peace-and-security',
+                    name: 'UN Peace & Security',
+                    priority: 'high',
+                    focus: 'conflict resolution',
+                    keywords: ['peace', 'agreement', 'reconcil', 'cooperat', 'unity']
+                },
+                {
+                    url: 'https://www.usip.org/rss.xml',
+                    name: 'US Institute of Peace',
+                    priority: 'medium',
+                    focus: 'peacebuilding',
+                    keywords: ['peace', 'reconcil', 'dialogue', 'cooperat', 'build']
+                }
+            ]
+        },
+
+        // INNOVATION: Technology for good
+        innovation: {
+            description: "Technology serving humanity",
+            feeds: [
+                {
+                    url: 'https://www.partnershiponai.org/feed/',
+                    name: 'Partnership on AI',
+                    priority: 'high',
+                    focus: 'ethical AI for good',
+                    keywords: ['AI', 'benefit', 'ethic', 'help', 'improve']
+                },
+                {
+                    url: 'https://news.mit.edu/rss/topic/social-innovation',
+                    name: 'MIT Social Innovation',
+                    priority: 'high',
+                    focus: 'tech for social good',
+                    keywords: ['innovation', 'social', 'impact', 'solution', 'help']
+                },
+                {
+                    url: 'https://www.xprize.org/rss.xml',
+                    name: 'XPRIZE',
+                    priority: 'medium',
+                    focus: 'breakthrough innovations',
+                    keywords: ['breakthrough', 'innovation', 'solution', 'prize', 'achieve']
+                }
+            ]
+        }
+    },
+
+    // Impact scoring configuration
+    scoring: {
+        // Keywords that indicate transformative change
+        transformative: {
+            keywords: ['eradicate', 'eliminate', 'cure', 'end', 'first-ever', 'breakthrough', 'historic'],
+            weight: 5,
+            examples: ['cure for', 'eradicate disease', 'end poverty', 'first-ever treatment']
+        },
+        
+        // Major progress indicators
+        majorProgress: {
+            keywords: ['milestone', 'record', 'achievement', 'success', 'victory', 'overcome'],
+            weight: 4,
+            examples: ['reached milestone', 'record low poverty', 'major achievement']
+        },
+        
+        // Scale of impact
+        scale: {
+            keywords: ['million', 'billion', 'global', 'worldwide', 'universal', 'all'],
+            weight: 3,
+            examples: ['million people', 'global access', 'universal healthcare']
+        },
+        
+        // Positive outcomes
+        positive: {
+            keywords: ['save', 'protect', 'improve', 'increase', 'expand', 'strengthen'],
+            weight: 2,
+            examples: ['lives saved', 'protect children', 'improve access']
+        },
+        
+        // Cooperation and unity
+        cooperation: {
+            keywords: ['together', 'partnership', 'cooperation', 'unite', 'collaborate'],
+            weight: 2,
+            examples: ['work together', 'global partnership', 'nations unite']
+        }
+    },
+
+    // Themes we want to highlight
+    themes: {
+        'Disease Eradication': {
+            keywords: ['eradicat', 'eliminat', 'cure', 'vaccine', 'immuniz'],
+            importance: 'critical'
+        },
+        'Poverty Alleviation': {
+            keywords: ['poverty', 'income', 'opportunity', 'microfinance', 'develop'],
+            importance: 'critical'
+        },
+        'Clean Energy Access': {
+            keywords: ['renewable', 'solar', 'wind', 'clean energy', 'electrif'],
+            importance: 'high'
+        },
+        'Education for All': {
+            keywords: ['education', 'literacy', 'school', 'learning', 'student'],
+            importance: 'high'
+        },
+        'Environmental Recovery': {
+            keywords: ['restore', 'conservation', 'species', 'forest', 'ocean'],
+            importance: 'high'
+        },
+        'Medical Breakthroughs': {
+            keywords: ['treatment', 'therapy', 'clinical', 'FDA', 'approval'],
+            importance: 'high'
+        },
+        'Human Rights Progress': {
+            keywords: ['rights', 'equality', 'justice', 'dignity', 'freedom'],
+            importance: 'high'
+        },
+        'Global Cooperation': {
+            keywords: ['partnership', 'agreement', 'treaty', 'unite', 'peace'],
+            importance: 'medium'
+        }
+    },
+
+    // Content filters
+    filters: {
+        // Avoid fear-based or negative content
+        negative: [
+            'threat', 'risk', 'danger', 'crisis', 'disaster', 'collapse',
+            'fail', 'worse', 'decline', 'conflict', 'war', 'attack'
+        ],
+        
+        // Require at least one hope indicator
+        hopeIndicators: [
+            'breakthrough', 'cure', 'success', 'achieve', 'progress',
+            'improve', 'advance', 'solution', 'overcome', 'milestone'
+        ]
+    },
+
+    // API endpoints for supplemental data
     apis: {
         ourWorldInData: {
-            baseUrl: 'https://api.ourworldindata.org/v1',
-            indicators: [
-                // Health indicators
-                { id: 'life-expectancy', field: 'health', name: 'Life Expectancy' },
-                { id: 'child-mortality', field: 'health', name: 'Child Mortality' },
-                { id: 'maternal-mortality-ratio', field: 'health', name: 'Maternal Mortality' },
-                { id: 'malaria-death-rates', field: 'health', name: 'Malaria Death Rate' },
-                { id: 'tuberculosis-death-rates', field: 'health', name: 'TB Death Rate' },
-                
-                // Energy indicators
-                { id: 'renewable-share-energy', field: 'energy', name: 'Renewable Energy Share' },
-                { id: 'access-to-electricity', field: 'energy', name: 'Electricity Access' },
-                { id: 'energy-intensity', field: 'energy', name: 'Energy Intensity' },
-                
-                // Education indicators
-                { id: 'literacy-rate-adult-total', field: 'education', name: 'Adult Literacy Rate' },
-                { id: 'primary-completion-rate', field: 'education', name: 'Primary Completion Rate' },
-                { id: 'expected-years-of-schooling', field: 'education', name: 'Expected Years of Schooling' },
-                
-                // Climate indicators
-                { id: 'co2-emissions-per-capita', field: 'climate', name: 'CO2 per Capita' },
-                { id: 'share-deaths-air-pollution', field: 'climate', name: 'Air Pollution Deaths' },
-                { id: 'renewable-electricity-per-capita', field: 'climate', name: 'Renewable Electricity per Capita' },
-                
-                // Equality indicators
-                { id: 'share-of-population-in-extreme-poverty', field: 'equality', name: 'Extreme Poverty Rate' },
-                { id: 'gender-wage-gap-oecd', field: 'equality', name: 'Gender Wage Gap' },
-                { id: 'women-in-parliament', field: 'equality', name: 'Women in Parliament' }
-            ]
-        },
-        
-        worldBank: {
-            baseUrl: 'https://api.worldbank.org/v2',
-            indicators: [
-                { id: 'SP.DYN.IMRT.IN', field: 'health', name: 'Infant Mortality Rate' },
-                { id: 'SE.ADT.LITR.ZS', field: 'education', name: 'Adult Literacy Rate' },
-                { id: 'EG.FEC.RNEW.ZS', field: 'energy', name: 'Renewable Energy Consumption' },
-                { id: 'EN.ATM.CO2E.PC', field: 'climate', name: 'CO2 Emissions per Capita' },
-                { id: 'SL.TLF.CACT.FE.ZS', field: 'equality', name: 'Female Labor Force Participation' }
-            ]
-        }
-    },
-    
-    // Research paper sources
-    research: {
-        arxiv: {
-            baseUrl: 'http://export.arxiv.org/api/query',
-            categories: [
-                { cat: 'cs.AI', field: 'technology', maxResults: 10 },
-                { cat: 'cs.LG', field: 'technology', maxResults: 10 },
-                { cat: 'q-bio.QM', field: 'health', maxResults: 10 },
-                { cat: 'physics.soc-ph', field: 'equality', maxResults: 5 },
-                { cat: 'stat.AP', field: 'technology', maxResults: 5 }
-            ]
-        },
-        
-        pubmed: {
-            baseUrl: 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils',
-            searches: [
-                { term: 'breakthrough[Title] AND therapy[Title]', field: 'health', maxResults: 10 },
-                { term: 'vaccine[Title] AND efficacy[Title]', field: 'health', maxResults: 10 },
-                { term: 'cure[Title] OR eradicate[Title]', field: 'health', maxResults: 5 }
+            description: 'Global development indicators showing positive trends',
+            endpoints: [
+                {
+                    indicator: 'life-expectancy',
+                    name: 'Global Life Expectancy',
+                    field: 'health',
+                    unit: 'years',
+                    goodDirection: 'up'
+                },
+                {
+                    indicator: 'child-mortality',
+                    name: 'Child Mortality Rate',
+                    field: 'health',
+                    unit: 'per 1,000',
+                    goodDirection: 'down'
+                },
+                {
+                    indicator: 'extreme-poverty-share-world',
+                    name: 'Extreme Poverty Rate',
+                    field: 'poverty',
+                    unit: '%',
+                    goodDirection: 'down'
+                },
+                {
+                    indicator: 'literacy-rate-adult-total',
+                    name: 'Global Literacy Rate',
+                    field: 'education',
+                    unit: '%',
+                    goodDirection: 'up'
+                },
+                {
+                    indicator: 'renewable-share-energy',
+                    name: 'Renewable Energy Share',
+                    field: 'energy',
+                    unit: '%',
+                    goodDirection: 'up'
+                },
+                {
+                    indicator: 'access-to-electricity',
+                    name: 'Electricity Access',
+                    field: 'energy',
+                    unit: '%',
+                    goodDirection: 'up'
+                }
             ]
         }
-    },
-    
-    // Scoring configuration
-    scoring: {
-        keywords: {
-            breakthrough: ['breakthrough', 'first-ever', 'revolutionary', 'game-changing', 'historic', 'unprecedented', 'groundbreaking'],
-            positive: ['cure', 'eradicate', 'eliminate', 'solve', 'success', 'achievement', 'milestone', 'record'],
-            progress: ['improve', 'advance', 'progress', 'develop', 'increase', 'boost', 'enhance', 'accelerate'],
-            research: ['study', 'research', 'findings', 'results', 'evidence', 'data', 'analysis'],
-            negative: ['failure', 'setback', 'concern', 'warning', 'threat', 'risk', 'challenge']
-        },
-        
-        weights: {
-            breakthrough: 3,
-            positive: 2,
-            progress: 1,
-            research: 0.5,
-            negative: -1
-        },
-        
-        recencyBoost: {
-            hours_0_24: 2,
-            hours_24_72: 1,
-            hours_72_168: 0,
-            older: -1
-        },
-        
-        fieldPriority: {
-            health: 0.5,
-            climate: 0.5,
-            energy: 0.5,
-            technology: 0,
-            education: 0,
-            equality: 0
-        },
-        
-        minimumScore: 1
     }
 };
