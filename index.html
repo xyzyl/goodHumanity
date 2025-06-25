@@ -4,15 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HumanityCheck - Verified Human Progress</title>
+    <meta name="description" content="Track verified breakthroughs and measurable progress across health, climate, technology, and human development.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🌍</text></svg>">
+    
     <style>
         :root {
-            --primary: #1a73e8;
-            --text-primary: #202124;
-            --text-secondary: #5f6368;
-            --bg-primary: #fff;
-            --bg-secondary: #f8f9fa;
-            --border: #e8eaed;
-            --shadow: rgba(0,0,0,0.1);
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --success: #059669;
+            --warning: #d97706;
+            --error: #dc2626;
+            --text-primary: #111827;
+            --text-secondary: #6b7280;
+            --text-tertiary: #9ca3af;
+            --bg-primary: #ffffff;
+            --bg-secondary: #f9fafb;
+            --bg-tertiary: #f3f4f6;
+            --border: #e5e7eb;
+            --border-light: #f3f4f6;
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            --radius: 0.5rem;
+            --transition: all 0.2s ease;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #3b82f6;
+                --primary-dark: #2563eb;
+                --success: #10b981;
+                --warning: #f59e0b;
+                --error: #ef4444;
+                --text-primary: #f9fafb;
+                --text-secondary: #d1d5db;
+                --text-tertiary: #9ca3af;
+                --bg-primary: #111827;
+                --bg-secondary: #1f2937;
+                --bg-tertiary: #374151;
+                --border: #374151;
+                --border-light: #1f2937;
+            }
         }
 
         * {
@@ -22,57 +54,220 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
             color: var(--text-primary);
             background: var(--bg-primary);
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
+        /* Header */
         header {
             background: var(--bg-primary);
             border-bottom: 1px solid var(--border);
-            padding: 20px 0;
             position: sticky;
             top: 0;
             z-index: 100;
+            backdrop-filter: blur(10px);
+            background: rgba(var(--bg-primary-rgb, 255, 255, 255), 0.9);
+        }
+
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-primary);
+        }
+
+        .logo-icon {
+            width: 32px;
+            height: 32px;
+            background: var(--primary);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
         }
 
         h1 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 8px;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: -0.025em;
         }
 
         .tagline {
             color: var(--text-secondary);
             font-size: 14px;
+            display: none;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .last-update {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            display: none;
+        }
+
+        .theme-toggle {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: var(--bg-primary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+        .theme-toggle:hover {
+            background: var(--bg-secondary);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 48px 24px 32px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--success) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            padding: 24px;
+            max-width: 1200px;
+            margin: 0 auto 32px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+
+        .stat-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 4px;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Filters */
+        .controls {
+            margin-bottom: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 12px 20px 12px 48px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            font-size: 16px;
+            background: var(--bg-primary);
+            transition: var(--transition);
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cpath d='m21 21-4.35-4.35'%3E%3C/path%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: 16px center;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
         }
 
         .filters {
             display: flex;
-            gap: 12px;
+            gap: 8px;
             flex-wrap: wrap;
-            margin: 24px 0;
+            align-items: center;
+        }
+
+        .filter-label {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-right: 8px;
         }
 
         .filter-btn {
-            background: var(--bg-secondary);
+            background: var(--bg-primary);
             border: 1px solid var(--border);
             padding: 8px 16px;
-            border-radius: 20px;
+            border-radius: 999px;
             font-size: 14px;
+            font-weight: 500;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: var(--transition);
+            white-space: nowrap;
         }
 
         .filter-btn:hover {
-            background: var(--border);
+            background: var(--bg-secondary);
+            border-color: var(--primary);
         }
 
         .filter-btn.active {
@@ -81,43 +276,86 @@
             border-color: var(--primary);
         }
 
-        .search-box {
-            width: 100%;
-            padding: 12px 16px;
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            font-size: 16px;
-            margin-bottom: 16px;
+        .filter-btn .count {
+            margin-left: 4px;
+            opacity: 0.7;
+            font-size: 12px;
         }
 
-        .search-box:focus {
-            outline: none;
-            border-color: var(--primary);
-        }
-
+        /* Feed */
         .feed {
-            margin: 24px 0;
+            margin-bottom: 64px;
+        }
+
+        .feed-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .feed-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-tertiary);
+            font-weight: 600;
+        }
+
+        .view-toggle {
+            display: flex;
+            gap: 4px;
+            background: var(--bg-secondary);
+            padding: 4px;
+            border-radius: 6px;
+        }
+
+        .view-btn {
+            padding: 6px 12px;
+            border: none;
+            background: transparent;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+
+        .view-btn.active {
+            background: var(--bg-primary);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .entries-grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .entries-grid.card-view {
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         }
 
         .entry {
             background: var(--bg-primary);
-            padding: 20px;
-            margin-bottom: 16px;
             border: 1px solid var(--border);
-            border-radius: 8px;
-            transition: transform 0.2s, box-shadow 0.2s;
+            border-radius: var(--radius);
+            padding: 24px;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
         }
 
         .entry:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px var(--shadow);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary);
         }
 
         .entry-header {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 12px;
+            gap: 16px;
         }
 
         .entry-title {
@@ -133,187 +371,415 @@
             color: var(--primary);
         }
 
-        .entry-meta {
-            display: flex;
-            gap: 16px;
+        .entry-field {
+            display: inline-flex;
             align-items: center;
-            font-size: 12px;
-            color: var(--text-secondary);
-            margin-top: 8px;
-        }
-
-        .field-tag {
+            gap: 6px;
+            padding: 4px 10px;
             background: var(--bg-secondary);
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 11px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: 500;
             text-transform: uppercase;
             letter-spacing: 0.5px;
+            flex-shrink: 0;
         }
+
+        .field-icon {
+            width: 14px;
+            height: 14px;
+        }
+
+        .field-health { background: rgba(5, 150, 105, 0.1); color: #059669; }
+        .field-technology { background: rgba(37, 99, 235, 0.1); color: #2563eb; }
+        .field-climate { background: rgba(217, 119, 6, 0.1); color: #d97706; }
+        .field-energy { background: rgba(168, 85, 247, 0.1); color: #8b5cf6; }
+        .field-education { background: rgba(236, 72, 153, 0.1); color: #ec4899; }
+        .field-equality { background: rgba(239, 68, 68, 0.1); color: #ef4444; }
 
         .entry-description {
-            color: var(--text-primary);
+            color: var(--text-secondary);
             font-size: 15px;
             line-height: 1.6;
-            margin: 12px 0;
         }
 
-        .share-btn {
+        .entry-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 13px;
+            color: var(--text-tertiary);
+            padding-top: 8px;
+            border-top: 1px solid var(--border-light);
+        }
+
+        .entry-source {
+            font-weight: 500;
+            color: var(--text-secondary);
+        }
+
+        .entry-actions {
+            display: flex;
+            gap: 8px;
+            margin-left: auto;
+        }
+
+        .action-btn {
+            padding: 4px 8px;
             background: none;
             border: none;
-            color: var(--text-secondary);
+            color: var(--text-tertiary);
             cursor: pointer;
-            padding: 4px;
+            border-radius: 4px;
             font-size: 12px;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            gap: 4px;
         }
 
-        .share-btn:hover {
-            color: var(--primary);
+        .action-btn:hover {
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
         }
 
+        /* Loading & States */
         .loading, .error, .empty {
             text-align: center;
-            padding: 40px;
+            padding: 64px 24px;
             color: var(--text-secondary);
+        }
+
+        .loading-spinner {
+            width: 48px;
+            height: 48px;
+            border: 3px solid var(--border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
         }
 
         .error {
-            color: #d93025;
+            color: var(--error);
         }
 
+        /* Footer */
         footer {
+            margin-top: 96px;
+            padding: 48px 24px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-secondary);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 48px;
+        }
+
+        .footer-section h3 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        .footer-bottom {
             margin-top: 48px;
-            padding: 24px 0;
+            padding-top: 24px;
             border-top: 1px solid var(--border);
             text-align: center;
             font-size: 14px;
-            color: var(--text-secondary);
+            color: var(--text-tertiary);
         }
 
-        footer a {
-            color: var(--primary);
-            text-decoration: none;
+        /* Responsive */
+        @media (min-width: 640px) {
+            .tagline { display: block; }
+            .last-update { display: block; }
         }
 
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 20px;
-            }
-            
-            .entry-title {
-                font-size: 16px;
-            }
-            
-            .filters {
-                gap: 8px;
-            }
-            
-            .filter-btn {
-                padding: 6px 12px;
-                font-size: 13px;
-            }
+        @media (min-width: 768px) {
+            .hero h2 { font-size: 48px; }
+            .hero p { font-size: 20px; }
+            .controls { flex-direction: row; align-items: center; }
+            .search-box { max-width: 400px; }
+        }
+
+        @media (max-width: 640px) {
+            .header-content { padding: 0 16px; }
+            .hero { padding: 32px 16px 24px; }
+            .stats-bar { padding: 16px; gap: 12px; }
+            .container { padding: 0 16px; }
+            .entry { padding: 16px; }
+            .entries-grid.card-view { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>HumanityCheck</h1>
-            <p class="tagline">Verified breakthroughs and progress across humanity</p>
+        <div class="header-content">
+            <a href="/" class="logo">
+                <div class="logo-icon">🌍</div>
+                <div>
+                    <h1>HumanityCheck</h1>
+                    <p class="tagline">Tracking verified human progress</p>
+                </div>
+            </a>
+            <div class="header-actions">
+                <span class="last-update">Last updated: <span id="lastUpdateTime">--</span></span>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    🌓
+                </button>
+            </div>
         </div>
     </header>
 
+    <section class="hero">
+        <h2>Humanity is making progress.</h2>
+        <p>Real breakthroughs and measurable improvements happening right now across health, climate, technology, and human development.</p>
+    </section>
+
+    <section class="stats-bar">
+        <div class="stat-card">
+            <div class="stat-value" id="totalEntries">--</div>
+            <div class="stat-label">Updates This Week</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" id="totalSources">--</div>
+            <div class="stat-label">Verified Sources</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" id="topField">--</div>
+            <div class="stat-label">Most Active Field</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value" id="updateFreq">--</div>
+            <div class="stat-label">Updates Daily</div>
+        </div>
+    </section>
+
     <main class="container">
-        <div class="filters">
-            <button class="filter-btn active" data-field="all">All</button>
-            <button class="filter-btn" data-field="health">Health</button>
-            <button class="filter-btn" data-field="energy">Energy</button>
-            <button class="filter-btn" data-field="climate">Climate</button>
-            <button class="filter-btn" data-field="technology">Technology</button>
-            <button class="filter-btn" data-field="education">Education</button>
-            <button class="filter-btn" data-field="equality">Equality</button>
+        <div class="controls">
+            <input type="search" class="search-box" placeholder="Search breakthroughs..." id="searchBox">
+            <div class="filters">
+                <span class="filter-label">Filter by field:</span>
+                <button class="filter-btn active" data-field="all">All <span class="count"></span></button>
+                <button class="filter-btn" data-field="health">🏥 Health <span class="count"></span></button>
+                <button class="filter-btn" data-field="technology">💻 Technology <span class="count"></span></button>
+                <button class="filter-btn" data-field="climate">🌡️ Climate <span class="count"></span></button>
+                <button class="filter-btn" data-field="energy">⚡ Energy <span class="count"></span></button>
+                <button class="filter-btn" data-field="education">📚 Education <span class="count"></span></button>
+                <button class="filter-btn" data-field="equality">⚖️ Equality <span class="count"></span></button>
+            </div>
         </div>
 
-        <input type="search" class="search-box" placeholder="Search progress updates...">
-
         <div class="feed">
-            <div class="loading">Loading progress updates...</div>
+            <div class="feed-header">
+                <h3 class="feed-title">Latest Progress Updates</h3>
+                <div class="view-toggle">
+                    <button class="view-btn active" onclick="setView('list')">List</button>
+                    <button class="view-btn" onclick="setView('card')">Cards</button>
+                </div>
+            </div>
+            <div class="entries-grid" id="feed">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading progress updates...</p>
+                </div>
+            </div>
         </div>
     </main>
 
     <footer>
-        <div class="container">
-            <p>
-                <a href="#" onclick="showAbout(); return false;">About & Methodology</a> • 
-                <a href="#" onclick="generateRSSLink(); return false;">RSS Feed</a> • 
-                <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">Source Code</a>
-            </p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About</h3>
+                <div class="footer-links">
+                    <a href="#" onclick="showAbout(); return false;">Our Mission</a>
+                    <a href="#" onclick="showMethodology(); return false;">Methodology</a>
+                    <a href="/monitoring.html">Live Dashboard</a>
+                    <a href="#" onclick="showRSS(); return false;">RSS Feed</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Sources</h3>
+                <div class="footer-links">
+                    <a href="#" onclick="showSources(); return false;">Verified Sources</a>
+                    <a href="#" onclick="showCriteria(); return false;">Selection Criteria</a>
+                    <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">Open Source</a>
+                    <a href="#" onclick="showAPI(); return false;">API Access</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contribute</h3>
+                <div class="footer-links">
+                    <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">GitHub</a>
+                    <a href="#" onclick="showSubmit(); return false;">Submit Source</a>
+                    <a href="#" onclick="showContact(); return false;">Contact</a>
+                    <a href="#" onclick="showDonate(); return false;">Support Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 HumanityCheck. Data updated every 4 hours from verified sources.</p>
         </div>
     </footer>
 
     <script>
-
+        // State management
         let currentData = [];
         let filteredData = [];
         let activeFilter = 'all';
+        let currentView = 'list';
+        let fieldCounts = {};
+
+        // Field metadata
+        const fieldIcons = {
+            health: '🏥',
+            technology: '💻',
+            climate: '🌡️',
+            energy: '⚡',
+            education: '📚',
+            equality: '⚖️'
+        };
 
         // Initialize app
         async function init() {
             try {
-                // Try to fetch from news.json
                 const response = await fetch('./news.json');
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
+                if (!response.ok) throw new Error('Failed to load data');
                 
                 const data = await response.json();
                 currentData = data.entries || [];
-                filteredData = currentData;
                 
-                document.querySelector('.feed').innerHTML = '';
-                renderFeed();
+                // Update stats
+                updateStats(data);
+                
+                // Count entries by field
+                fieldCounts = {};
+                currentData.forEach(entry => {
+                    fieldCounts[entry.field] = (fieldCounts[entry.field] || 0) + 1;
+                });
+                fieldCounts.all = currentData.length;
+                
+                // Update filter counts
+                updateFilterCounts();
+                
+                // Apply initial filter
+                applyFilters();
+                
+                // Setup event listeners
                 setupEventListeners();
+                
+                // Update last update time
+                if (data.lastUpdated) {
+                    document.getElementById('lastUpdateTime').textContent = 
+                        new Date(data.lastUpdated).toLocaleString('en-US', {
+                            hour: 'numeric',
+                            minute: '2-digit',
+                            hour12: true
+                        });
+                }
             } catch (error) {
                 console.error('Error loading data:', error);
-                
-                // If news.json doesn't exist, use sample data
-                console.log('Using sample data due to error');
-                currentData = sampleData.entries;
-                filteredData = currentData;
-                
-                document.querySelector('.feed').innerHTML = '';
-                renderFeed();
-                setupEventListeners();
+                document.getElementById('feed').innerHTML = 
+                    '<div class="error">Unable to load data. Please try again later.</div>';
             }
         }
 
+        // Update statistics
+        function updateStats(data) {
+            // Total entries this week
+            const oneWeekAgo = new Date();
+            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+            const weekEntries = currentData.filter(e => new Date(e.date) > oneWeekAgo).length;
+            document.getElementById('totalEntries').textContent = weekEntries;
+            
+            // Total sources
+            const sources = data.metadata?.totalSources || new Set(currentData.map(e => e.source)).size;
+            document.getElementById('totalSources').textContent = sources;
+            
+            // Most active field
+            const fieldFreq = {};
+            currentData.forEach(e => {
+                fieldFreq[e.field] = (fieldFreq[e.field] || 0) + 1;
+            });
+            const topField = Object.entries(fieldFreq).sort((a, b) => b[1] - a[1])[0];
+            if (topField) {
+                document.getElementById('topField').textContent = 
+                    fieldIcons[topField[0]] + ' ' + topField[0].charAt(0).toUpperCase() + topField[0].slice(1);
+            }
+            
+            // Updates per day (average)
+            const updatesPerDay = Math.round(currentData.length / 7);
+            document.getElementById('updateFreq').textContent = '~' + updatesPerDay;
+        }
+
+        // Update filter counts
+        function updateFilterCounts() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                const field = btn.dataset.field;
+                const count = fieldCounts[field] || 0;
+                btn.querySelector('.count').textContent = count > 0 ? `(${count})` : '';
+            });
+        }
+
+        // Setup event listeners
         function setupEventListeners() {
             // Filter buttons
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.addEventListener('click', (e) => {
                     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                    e.target.classList.add('active');
-                    activeFilter = e.target.dataset.field;
+                    e.currentTarget.classList.add('active');
+                    activeFilter = e.currentTarget.dataset.field;
                     applyFilters();
                 });
             });
 
             // Search box
-            const searchBox = document.querySelector('.search-box');
-            searchBox.addEventListener('input', debounce((e) => {
+            const searchBox = document.getElementById('searchBox');
+            searchBox.addEventListener('input', debounce(() => {
                 applyFilters();
             }, 300));
         }
 
+        // Apply filters
         function applyFilters() {
-            const searchTerm = document.querySelector('.search-box').value.toLowerCase();
+            const searchTerm = document.getElementById('searchBox').value.toLowerCase();
             
             filteredData = currentData.filter(entry => {
                 const matchesField = activeFilter === 'all' || entry.field === activeFilter;
                 const matchesSearch = !searchTerm || 
                     entry.title.toLowerCase().includes(searchTerm) ||
-                    entry.description.toLowerCase().includes(searchTerm);
+                    entry.description.toLowerCase().includes(searchTerm) ||
+                    entry.source.toLowerCase().includes(searchTerm);
                 
                 return matchesField && matchesSearch;
             });
@@ -321,8 +787,9 @@
             renderFeed();
         }
 
+        // Render feed
         function renderFeed() {
-            const feed = document.querySelector('.feed');
+            const feed = document.getElementById('feed');
             
             if (filteredData.length === 0) {
                 feed.innerHTML = '<div class="empty">No updates found matching your criteria.</div>';
@@ -333,22 +800,48 @@
                 <article class="entry">
                     <div class="entry-header">
                         <a href="${entry.link}" target="_blank" rel="noopener" class="entry-title">
-                            ${entry.title}
+                            ${escapeHtml(entry.title)}
                         </a>
+                        <span class="entry-field field-${entry.field}">
+                            <span class="field-icon">${fieldIcons[entry.field] || '📄'}</span>
+                            ${entry.field}
+                        </span>
                     </div>
-                    <p class="entry-description">${entry.description}</p>
+                    <p class="entry-description">${escapeHtml(entry.description)}</p>
                     <div class="entry-meta">
-                        <span class="field-tag">${entry.field}</span>
-                        <span>${entry.source}</span>
+                        <span class="entry-source">${escapeHtml(entry.source)}</span>
                         <span>${formatDate(entry.date)}</span>
-                        <button class="share-btn" onclick="shareEntry('${encodeURIComponent(entry.title)}', '${entry.link}')">
-                            Share
-                        </button>
+                        <div class="entry-actions">
+                            <button class="action-btn" onclick="shareEntry('${encodeURIComponent(entry.title)}', '${entry.link}')">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                                    <polyline points="16 6 12 2 8 6"></polyline>
+                                    <line x1="12" y1="2" x2="12" y2="15"></line>
+                                </svg>
+                                Share
+                            </button>
+                            <button class="action-btn" onclick="saveEntry('${encodeURIComponent(JSON.stringify(entry))}')">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                                </svg>
+                                Save
+                            </button>
+                        </div>
                     </div>
                 </article>
             `).join('');
         }
 
+        // Set view mode
+        function setView(view) {
+            currentView = view;
+            document.querySelectorAll('.view-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.toLowerCase() === view);
+            });
+            document.getElementById('feed').classList.toggle('card-view', view === 'card');
+        }
+
+        // Utility functions
         function formatDate(dateStr) {
             const date = new Date(dateStr);
             const now = new Date();
@@ -358,29 +851,19 @@
             if (diffDays === 0) return 'Today';
             if (diffDays === 1) return 'Yesterday';
             if (diffDays < 7) return `${diffDays} days ago`;
+            if (diffDays < 30) return `${Math.floor(diffDays / 7)} weeks ago`;
             
-            return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+            return date.toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                year: date.getFullYear() !== now.getFullYear() ? 'numeric' : undefined
+            });
         }
 
-        function shareEntry(title, url) {
-            if (navigator.share) {
-                navigator.share({
-                    title: decodeURIComponent(title),
-                    url: url
-                });
-            } else {
-                navigator.clipboard.writeText(url);
-                alert('Link copied to clipboard!');
-            }
-        }
-
-        function showAbout() {
-            alert(`HumanityCheck Methodology:\n\n• Data sources: WHO, UNESCO, IRENA, OurWorldInData, arXiv, and verified research institutions\n• Updates: Automated daily at 00:00 UTC\n• Criteria: Only peer-reviewed research and official statistics\n• No editorializing: Direct quotes and data only\n• Privacy: No tracking or personal data collection`);
-        }
-
-        function generateRSSLink() {
-            // In production, this would link to an actual RSS feed
-            alert('RSS feed coming soon! Check back for updates.');
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
         }
 
         function debounce(func, wait) {
@@ -395,8 +878,119 @@
             };
         }
 
-        // Start the app
-        init();
+        // Actions
+        function shareEntry(title, url) {
+            if (navigator.share) {
+                navigator.share({
+                    title: decodeURIComponent(title),
+                    url: url
+                }).catch(() => {});
+            } else {
+                navigator.clipboard.writeText(url).then(() => {
+                    // Show toast notification
+                    showToast('Link copied to clipboard!');
+                });
+            }
+        }
+
+        function saveEntry(entryData) {
+            const entry = JSON.parse(decodeURIComponent(entryData));
+            const saved = JSON.parse(localStorage.getItem('savedEntries') || '[]');
+            saved.unshift(entry);
+            localStorage.setItem('savedEntries', JSON.stringify(saved.slice(0, 100)));
+            showToast('Entry saved!');
+        }
+
+        function showToast(message) {
+            // Simple toast implementation
+            const toast = document.createElement('div');
+            toast.style.cssText = `
+                position: fixed;
+                bottom: 24px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: var(--text-primary);
+                color: var(--bg-primary);
+                padding: 12px 24px;
+                border-radius: 999px;
+                font-size: 14px;
+                z-index: 1000;
+                animation: slideUp 0.3s ease;
+            `;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+        // Theme toggle
+        function toggleTheme() {
+            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+            document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
+            localStorage.setItem('theme', isDark ? 'light' : 'dark');
+        }
+
+        // Info modals (simplified)
+        function showAbout() {
+            alert(`HumanityCheck Mission:\n\nWe track and verify real progress happening across humanity. Our goal is to counter pessimism with facts - showcasing breakthroughs, improvements, and positive developments that often go unnoticed.\n\nEvery entry is sourced from verified institutions and peer-reviewed research.`);
+        }
+
+        function showMethodology() {
+            alert(`Our Methodology:\n\n• Data sources: WHO, UNESCO, major universities, peer-reviewed journals\n• Update frequency: Every 4 hours via automated collection\n• Verification: Only official sources and peer-reviewed research\n• Scoring: AI-assisted relevance scoring based on impact keywords\n• Transparency: All code is open source on GitHub`);
+        }
+
+        function showSources() {
+            window.open('https://github.com/humanitycheck/humanitycheck/blob/main/sources-config.js', '_blank');
+        }
+
+        function showRSS() {
+            alert('RSS feed coming soon! Check back for updates.');
+        }
+
+        function showAPI() {
+            alert('API access coming soon! Follow our GitHub for updates.');
+        }
+
+        function showCriteria() {
+            alert(`Selection Criteria:\n\n• Verified sources only (no blogs or opinion pieces)\n• Measurable progress or breakthroughs\n• Peer-reviewed research when applicable\n• Global impact preferred\n• Recent developments (within 7 days)`);
+        }
+
+        function showSubmit() {
+            alert('To submit a source, please open an issue on our GitHub repository with the RSS feed URL and verification details.');
+        }
+
+        function showContact() {
+            alert('Contact us through GitHub issues or contribute directly to the project!');
+        }
+
+        function showDonate() {
+            alert('HumanityCheck is a volunteer project. Star us on GitHub to show support!');
+        }
+
+        // Initialize on load
+        window.addEventListener('load', () => {
+            // Apply saved theme
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            
+            // Initialize app
+            init();
+        });
+
+        // Add slide up animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideUp {
+                from {
+                    opacity: 0;
+                    transform: translate(-50%, 100%);
+                }
+                to {
+                    opacity: 1;
+                    transform: translate(-50%, 0);
+                }
+            }
+        `;
+        document.head.appendChild(style);
     </script>
 </body>
 </html>
