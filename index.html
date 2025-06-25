@@ -306,18 +306,31 @@
         // Initialize app
         async function init() {
             try {
-                // In production, fetch from news.json
-                const response = await fetch('/news.json');
-                const data = await response.json();
+                // Try to fetch from news.json
+                const response = await fetch('./news.json');
                 
-                // For demo, use sample data
-                currentData = data.entries;
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                currentData = data.entries || [];
                 filteredData = currentData;
+                
+                document.querySelector('.feed').innerHTML = '';
                 renderFeed();
                 setupEventListeners();
             } catch (error) {
-                document.querySelector('.feed').innerHTML = 
-                    '<div class="error">Error loading data. Please try again later.</div>';
+                console.error('Error loading data:', error);
+                
+                // If news.json doesn't exist, use sample data
+                console.log('Using sample data due to error');
+                currentData = sampleData.entries;
+                filteredData = currentData;
+                
+                document.querySelector('.feed').innerHTML = '';
+                renderFeed();
+                setupEventListeners();
             }
         }
 

@@ -1,0 +1,31 @@
+{
+    "buildCommand": "echo 'No build required'",
+    "outputDirectory": ".",
+    "framework": null,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "s-maxage=3600, stale-while-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/news.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "s-maxage=300, stale-while-revalidate"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/api/status",
+        "destination": "/api/status.js"
+      }
+    ]
+  }
