@@ -70,7 +70,7 @@
             top: 0;
             z-index: 100;
             backdrop-filter: blur(10px);
-            background: #050d1c;
+            background: rgba(var(--bg-primary-rgb, 255, 255, 255), 0.95);
         }
 
         .header-content {
@@ -125,21 +125,29 @@
             display: none;
         }
 
-        .theme-toggle {
-            width: 40px;
-            height: 40px;
-            border-radius: 8px;
-            border: 1px solid var(--border);
-            background: var(--bg-primary);
-            cursor: pointer;
+        .shuffle-indicator {
             display: flex;
             align-items: center;
-            justify-content: center;
-            transition: var(--transition);
+            gap: 6px;
+            font-size: 12px;
+            color: var(--text-tertiary);
+            padding: 4px 12px;
+            background: var(--bg-secondary);
+            border-radius: 999px;
+            border: 1px solid var(--border);
         }
 
-        .theme-toggle:hover {
-            background: var(--bg-secondary);
+        .shuffle-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
         }
 
         /* Hero Section */
@@ -252,7 +260,7 @@
         }
 
         .filter-btn {
-            background: #9cbcff;
+            background: var(--bg-primary);
             border: 1px solid var(--border);
             padding: 8px 16px;
             border-radius: 999px;
@@ -261,10 +269,13 @@
             cursor: pointer;
             transition: var(--transition);
             white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         .filter-btn:hover {
-            background: #2563eb;
+            background: var(--bg-secondary);
             border-color: var(--primary);
         }
 
@@ -278,6 +289,11 @@
             margin-left: 4px;
             opacity: 0.7;
             font-size: 12px;
+        }
+
+        .filter-icon {
+            width: 16px;
+            height: 16px;
         }
 
         /* Feed */
@@ -300,6 +316,12 @@
             font-weight: 600;
         }
 
+        .view-controls {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
         .view-toggle {
             display: flex;
             gap: 4px;
@@ -311,19 +333,34 @@
         .view-btn {
             padding: 6px 12px;
             border: none;
-            background: #0d121c;
+            background: none;
             font-size: 14px;
             cursor: pointer;
             border-radius: 4px;
             transition: var(--transition);
-            color: #2563eb;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 4px;
         }
 
         .view-btn.active {
             background: var(--bg-primary);
             box-shadow: var(--shadow-sm);
+            color: var(--text-primary);
         }
 
+        .sort-dropdown {
+            padding: 6px 12px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--bg-primary);
+            font-size: 14px;
+            color: var(--text-primary);
+            cursor: pointer;
+        }
+
+        /* Entry Styles */
         .entries-grid {
             display: grid;
             gap: 16px;
@@ -331,6 +368,18 @@
 
         .entries-grid.card-view {
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        }
+
+        .entries-grid.compact-view .entry {
+            padding: 16px;
+        }
+
+        .entries-grid.compact-view .entry-title {
+            font-size: 16px;
+        }
+
+        .entries-grid.compact-view .entry-description {
+            display: none;
         }
 
         .entry {
@@ -342,6 +391,8 @@
             display: flex;
             flex-direction: column;
             gap: 12px;
+            position: relative;
+            overflow: hidden;
         }
 
         .entry:hover {
@@ -370,6 +421,19 @@
             color: var(--primary);
         }
 
+        .entry-category {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            transition: width 0.2s ease;
+        }
+
+        .entry:hover .entry-category {
+            width: 6px;
+        }
+
         .entry-field {
             display: inline-flex;
             align-items: center;
@@ -389,12 +453,33 @@
             height: 14px;
         }
 
+        /* Enhanced category colors */
         .field-health { background: rgba(5, 150, 105, 0.1); color: #059669; }
+        .field-health .entry-category { background: #059669; }
+        
         .field-technology { background: rgba(37, 99, 235, 0.1); color: #2563eb; }
+        .field-technology .entry-category { background: #2563eb; }
+        
         .field-climate { background: rgba(217, 119, 6, 0.1); color: #d97706; }
+        .field-climate .entry-category { background: #d97706; }
+        
         .field-energy { background: rgba(168, 85, 247, 0.1); color: #8b5cf6; }
+        .field-energy .entry-category { background: #8b5cf6; }
+        
         .field-education { background: rgba(236, 72, 153, 0.1); color: #ec4899; }
-        .field-equality { background: rgba(239, 68, 68, 0.1); color: #ef4444; }
+        .field-education .entry-category { background: #ec4899; }
+        
+        .field-development { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+        .field-development .entry-category { background: #3b82f6; }
+        
+        .field-peace { background: rgba(16, 185, 129, 0.1); color: #10b981; }
+        .field-peace .entry-category { background: #10b981; }
+        
+        .field-agriculture { background: rgba(34, 197, 94, 0.1); color: #22c55e; }
+        .field-agriculture .entry-category { background: #22c55e; }
+        
+        .field-space { background: rgba(99, 102, 241, 0.1); color: #6366f1; }
+        .field-space .entry-category { background: #6366f1; }
 
         .entry-description {
             color: var(--text-secondary);
@@ -415,6 +500,16 @@
         .entry-source {
             font-weight: 500;
             color: var(--text-secondary);
+        }
+
+        .entry-trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            color: var(--success);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         .entry-actions {
@@ -538,13 +633,24 @@
             .container { padding: 0 16px; }
             .entry { padding: 16px; }
             .entries-grid.card-view { grid-template-columns: 1fr; }
+            .shuffle-indicator { display: none; }
+        }
+
+        /* Fade animation for shuffled content */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .entry.fade-in {
+            animation: fadeIn 0.5s ease;
         }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <a href="https://x.com/checkonhumanity" class="logo">
+            <a href="/" class="logo">
                 <div class="logo-icon">🌍</div>
                 <div>
                     <h1>HumanityCheck</h1>
@@ -553,6 +659,10 @@
             </a>
             <div class="header-actions">
                 <span class="last-update">Last updated: <span id="lastUpdateTime">--</span></span>
+                <div class="shuffle-indicator">
+                    <div class="shuffle-dot"></div>
+                    <span>Auto-refresh active</span>
+                </div>
             </div>
         </div>
     </header>
@@ -587,21 +697,85 @@
             <div class="filters">
                 <span class="filter-label">Filter by field:</span>
                 <button class="filter-btn active" data-field="all">All <span class="count"></span></button>
-                <button class="filter-btn" data-field="health">🏥 Health <span class="count"></span></button>
-                <button class="filter-btn" data-field="technology">💻 Technology <span class="count"></span></button>
-                <button class="filter-btn" data-field="climate">🌡️ Climate <span class="count"></span></button>
-                <button class="filter-btn" data-field="energy">⚡ Energy <span class="count"></span></button>
-                <button class="filter-btn" data-field="education">📚 Education <span class="count"></span></button>
-                <button class="filter-btn" data-field="equality">⚖️ Equality <span class="count"></span></button>
+                <button class="filter-btn" data-field="health">
+                    <span class="filter-icon">🏥</span>
+                    Health <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="technology">
+                    <span class="filter-icon">💻</span>
+                    Technology <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="climate">
+                    <span class="filter-icon">🌡️</span>
+                    Climate <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="energy">
+                    <span class="filter-icon">⚡</span>
+                    Energy <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="education">
+                    <span class="filter-icon">📚</span>
+                    Education <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="development">
+                    <span class="filter-icon">🏗️</span>
+                    Development <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="peace">
+                    <span class="filter-icon">🕊️</span>
+                    Peace <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="agriculture">
+                    <span class="filter-icon">🌾</span>
+                    Agriculture <span class="count"></span>
+                </button>
+                <button class="filter-btn" data-field="space">
+                    <span class="filter-icon">🚀</span>
+                    Space <span class="count"></span>
+                </button>
             </div>
         </div>
 
         <div class="feed">
             <div class="feed-header">
                 <h3 class="feed-title">Latest Progress Updates</h3>
-                <div class="view-toggle">
-                    <button class="view-btn active" onclick="setView('list')">List</button>
-                    <button class="view-btn" onclick="setView('card')">Cards</button>
+                <div class="view-controls">
+                    <select class="sort-dropdown" id="sortDropdown">
+                        <option value="recent">Most Recent</option>
+                        <option value="impact">Highest Impact</option>
+                        <option value="category">By Category</option>
+                        <option value="random">Random Order</option>
+                    </select>
+                    <div class="view-toggle">
+                        <button class="view-btn active" onclick="setView('list')">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="8" y1="6" x2="21" y2="6"></line>
+                                <line x1="8" y1="12" x2="21" y2="12"></line>
+                                <line x1="8" y1="18" x2="21" y2="18"></line>
+                                <line x1="3" y1="6" x2="3" y2="6"></line>
+                                <line x1="3" y1="12" x2="3" y2="12"></line>
+                                <line x1="3" y1="18" x2="3" y2="18"></line>
+                            </svg>
+                            List
+                        </button>
+                        <button class="view-btn" onclick="setView('card')">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                            Cards
+                        </button>
+                        <button class="view-btn" onclick="setView('compact')">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <line x1="3" y1="6" x2="21" y2="6"></line>
+                                <line x1="3" y1="12" x2="21" y2="12"></line>
+                                <line x1="3" y1="18" x2="21" y2="18"></line>
+                            </svg>
+                            Compact
+                        </button>
+                    </div>
                 </div>
             </div>
             <div class="entries-grid" id="feed">
@@ -620,43 +794,211 @@
                 <div class="footer-links">
                     <a href="#" onclick="showAbout(); return false;">Our Mission</a>
                     <a href="#" onclick="showMethodology(); return false;">Methodology</a>
+                    <a href="#" onclick="showCategories(); return false;">Categories Explained</a>
                 </div>
             </div>
             <div class="footer-section">
                 <h3>Sources</h3>
                 <div class="footer-links">
                     <a href="#" onclick="showCriteria(); return false;">Selection Criteria</a>
+                    <a href="#" onclick="showVerification(); return false;">Verification Process</a>
                 </div>
             </div>
             <div class="footer-section">
                 <h3>Contribute</h3>
                 <div class="footer-links">
+                    <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">View on GitHub</a>
                     <a href="#" onclick="showDonate(); return false;">Support Us</a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2025 HumanityCheck. Data updated every 4 hours from verified sources.</p>
+            <p>© 2025 HumanityCheck. Data updated every 4 hours from verified sources. Content refreshes every 30 minutes.</p>
         </div>
     </footer>
 
     <script>
         // State management
+        let originalData = [];
         let currentData = [];
         let filteredData = [];
         let activeFilter = 'all';
         let currentView = 'list';
+        let currentSort = 'recent';
         let fieldCounts = {};
+        let shuffleInterval;
+        let lastShuffleTime = Date.now();
 
-        // Field metadata
-        const fieldIcons = {
-            health: '🏥',
-            technology: '💻',
-            climate: '🌡️',
-            energy: '⚡',
-            education: '📚',
-            equality: '⚖️'
+        // Enhanced field metadata
+        const fieldMetadata = {
+            health: {
+                icon: '🏥',
+                name: 'Health',
+                description: 'Medical breakthroughs, disease treatment, and global health improvements',
+                keywords: ['vaccine', 'treatment', 'cure', 'therapy', 'disease', 'patient', 'clinical', 'medical', 'health']
+            },
+            technology: {
+                icon: '💻',
+                name: 'Technology',
+                description: 'Scientific discoveries and technological innovations',
+                keywords: ['AI', 'quantum', 'computing', 'innovation', 'research', 'discovery', 'breakthrough', 'technology']
+            },
+            climate: {
+                icon: '🌡️',
+                name: 'Climate',
+                description: 'Climate action, environmental protection, and sustainability',
+                keywords: ['climate', 'carbon', 'emission', 'renewable', 'sustainable', 'environment', 'conservation']
+            },
+            energy: {
+                icon: '⚡',
+                name: 'Energy',
+                description: 'Renewable energy and clean power solutions',
+                keywords: ['solar', 'wind', 'renewable', 'energy', 'power', 'electricity', 'battery', 'grid']
+            },
+            education: {
+                icon: '📚',
+                name: 'Education',
+                description: 'Education access, literacy, and learning improvements',
+                keywords: ['education', 'school', 'student', 'learning', 'literacy', 'teacher', 'university']
+            },
+            development: {
+                icon: '🏗️',
+                name: 'Development',
+                description: 'Economic development, poverty reduction, and infrastructure',
+                keywords: ['development', 'poverty', 'economic', 'infrastructure', 'growth', 'investment', 'fund']
+            },
+            peace: {
+                icon: '🕊️',
+                name: 'Peace',
+                description: 'Peacebuilding, cooperation, and conflict resolution',
+                keywords: ['peace', 'cooperation', 'agreement', 'treaty', 'resolution', 'dialogue', 'unity']
+            },
+            agriculture: {
+                icon: '🌾',
+                name: 'Agriculture',
+                description: 'Food security, farming innovation, and nutrition',
+                keywords: ['agriculture', 'farming', 'food', 'crop', 'harvest', 'nutrition', 'farmer']
+            },
+            space: {
+                icon: '🚀',
+                name: 'Space',
+                description: 'Space exploration and astronomical discoveries',
+                keywords: ['space', 'satellite', 'rocket', 'mission', 'astronaut', 'planet', 'orbit']
+            }
         };
+
+        // Trust indicators for sources
+        const trustedSources = {
+            'WHO': { level: 'high', badge: '✓ UN Agency' },
+            'UNESCO': { level: 'high', badge: '✓ UN Agency' },
+            'NASA': { level: 'high', badge: '✓ Gov Agency' },
+            'NIH': { level: 'high', badge: '✓ Research Inst' },
+            'Nature': { level: 'high', badge: '✓ Peer Review' },
+            'Science': { level: 'high', badge: '✓ Peer Review' },
+            'MIT': { level: 'high', badge: '✓ University' },
+            'Caltech': { level: 'high', badge: '✓ University' },
+            'Gates Foundation': { level: 'high', badge: '✓ Foundation' },
+            'World Bank': { level: 'high', badge: '✓ Int\'l Org' }
+        };
+
+        // Enhanced categorization function
+        function enhanceCategorization(entries) {
+            return entries.map(entry => {
+                // If field is already set and valid, keep it
+                if (entry.field && fieldMetadata[entry.field]) {
+                    return entry;
+                }
+
+                // Otherwise, analyze content for best category
+                const content = `${entry.title} ${entry.description} ${entry.source}`.toLowerCase();
+                let bestMatch = null;
+                let highestScore = 0;
+
+                for (const [field, meta] of Object.entries(fieldMetadata)) {
+                    let score = 0;
+                    meta.keywords.forEach(keyword => {
+                        if (content.includes(keyword)) {
+                            score += 1;
+                            // Bonus for title matches
+                            if (entry.title.toLowerCase().includes(keyword)) {
+                                score += 0.5;
+                            }
+                        }
+                    });
+
+                    if (score > highestScore) {
+                        highestScore = score;
+                        bestMatch = field;
+                    }
+                }
+
+                // Default to technology if no clear match
+                return {
+                    ...entry,
+                    field: bestMatch || 'technology',
+                    _categoryScore: highestScore
+                };
+            });
+        }
+
+        // Shuffle algorithm (Fisher-Yates)
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+
+        // Smart shuffle that maintains some recency bias
+        function smartShuffle(entries) {
+            // Group by recency
+            const today = new Date();
+            const groups = {
+                veryRecent: [], // Last 24 hours
+                recent: [],     // Last 3 days
+                week: [],       // Last week
+                older: []       // Older
+            };
+
+            entries.forEach(entry => {
+                const entryDate = new Date(entry.date);
+                const daysDiff = (today - entryDate) / (1000 * 60 * 60 * 24);
+
+                if (daysDiff <= 1) groups.veryRecent.push(entry);
+                else if (daysDiff <= 3) groups.recent.push(entry);
+                else if (daysDiff <= 7) groups.week.push(entry);
+                else groups.older.push(entry);
+            });
+
+            // Shuffle within groups
+            Object.keys(groups).forEach(key => {
+                groups[key] = shuffleArray(groups[key]);
+            });
+
+            // Combine with weighted distribution
+            const shuffled = [];
+            const weights = { veryRecent: 0.4, recent: 0.3, week: 0.2, older: 0.1 };
+
+            // Add entries based on weights
+            const totalEntries = entries.length;
+            Object.entries(weights).forEach(([group, weight]) => {
+                const count = Math.floor(totalEntries * weight);
+                shuffled.push(...groups[group].slice(0, count));
+            });
+
+            // Add any remaining entries
+            Object.values(groups).forEach(group => {
+                group.forEach(entry => {
+                    if (!shuffled.includes(entry)) {
+                        shuffled.push(entry);
+                    }
+                });
+            });
+
+            return shuffled;
+        }
 
         // Initialize app
         async function init() {
@@ -665,22 +1007,22 @@
                 if (!response.ok) throw new Error('Failed to load data');
                 
                 const data = await response.json();
-                currentData = data.entries || [];
+                originalData = enhanceCategorization(data.entries || []);
+                currentData = [...originalData];
                 
                 // Update stats
                 updateStats(data);
                 
                 // Count entries by field
-                fieldCounts = {};
+                fieldCounts = { all: currentData.length };
                 currentData.forEach(entry => {
                     fieldCounts[entry.field] = (fieldCounts[entry.field] || 0) + 1;
                 });
-                fieldCounts.all = currentData.length;
                 
                 // Update filter counts
                 updateFilterCounts();
                 
-                // Apply initial filter
+                // Apply initial filter and sort
                 applyFilters();
                 
                 // Setup event listeners
@@ -695,11 +1037,44 @@
                             hour12: true
                         });
                 }
+
+                // Start shuffle timer (30 minutes)
+                startShuffleTimer();
+                
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('feed').innerHTML = 
                     '<div class="error">Unable to load data. Please try again later.</div>';
             }
+        }
+
+        // Start shuffle timer
+        function startShuffleTimer() {
+            // Clear existing interval if any
+            if (shuffleInterval) clearInterval(shuffleInterval);
+            
+            // Shuffle every 30 minutes
+            shuffleInterval = setInterval(() => {
+                if (currentSort === 'random' || currentSort === 'recent') {
+                    performShuffle();
+                }
+            }, 30 * 60 * 1000); // 30 minutes
+        }
+
+        // Perform shuffle
+        function performShuffle() {
+            lastShuffleTime = Date.now();
+            currentData = smartShuffle(originalData);
+            applyFilters();
+            
+            // Add fade-in animation to entries
+            setTimeout(() => {
+                document.querySelectorAll('.entry').forEach((el, index) => {
+                    setTimeout(() => {
+                        el.classList.add('fade-in');
+                    }, index * 50);
+                });
+            }, 100);
         }
 
         // Update statistics
@@ -711,7 +1086,7 @@
             document.getElementById('totalEntries').textContent = weekEntries;
             
             // Total sources
-            const sources = data.metadata?.totalSources || new Set(currentData.map(e => e.source)).size;
+            const sources = data.metadata?.sourcesSuccessful || new Set(currentData.map(e => e.source)).size;
             document.getElementById('totalSources').textContent = sources;
             
             // Most active field
@@ -721,8 +1096,9 @@
             });
             const topField = Object.entries(fieldFreq).sort((a, b) => b[1] - a[1])[0];
             if (topField) {
+                const meta = fieldMetadata[topField[0]];
                 document.getElementById('topField').textContent = 
-                    fieldIcons[topField[0]] + ' ' + topField[0].charAt(0).toUpperCase() + topField[0].slice(1);
+                    meta.icon + ' ' + meta.name;
             }
             
             // Updates per day (average)
@@ -756,6 +1132,38 @@
             searchBox.addEventListener('input', debounce(() => {
                 applyFilters();
             }, 300));
+
+            // Sort dropdown
+            const sortDropdown = document.getElementById('sortDropdown');
+            sortDropdown.addEventListener('change', (e) => {
+                currentSort = e.target.value;
+                if (currentSort === 'random') {
+                    performShuffle();
+                } else {
+                    applySorting();
+                    applyFilters();
+                }
+            });
+        }
+
+        // Apply sorting
+        function applySorting() {
+            switch (currentSort) {
+                case 'recent':
+                    currentData.sort((a, b) => new Date(b.date) - new Date(a.date));
+                    break;
+                case 'impact':
+                    // Sort by presence of impact keywords
+                    currentData.sort((a, b) => {
+                        const impactA = (a.title + a.description).match(/breakthrough|first|record|cure|save/gi)?.length || 0;
+                        const impactB = (b.title + b.description).match(/breakthrough|first|record|cure|save/gi)?.length || 0;
+                        return impactB - impactA;
+                    });
+                    break;
+                case 'category':
+                    currentData.sort((a, b) => a.field.localeCompare(b.field));
+                    break;
+            }
         }
 
         // Apply filters
@@ -784,44 +1192,54 @@
                 return;
             }
             
-            feed.innerHTML = filteredData.map(entry => `
-                <article class="entry">
-                    <div class="entry-header">
-                        <a href="${entry.link}" target="_blank" rel="noopener" class="entry-title">
-                            ${escapeHtml(entry.title)}
-                        </a>
-                        <span class="entry-field field-${entry.field}">
-                            <span class="field-icon">${fieldIcons[entry.field] || '📄'}</span>
-                            ${entry.field}
-                        </span>
-                    </div>
-                    <p class="entry-description">${escapeHtml(entry.description)}</p>
-                    <div class="entry-meta">
-                        <span class="entry-source">${escapeHtml(entry.source)}</span>
-                        <span>${formatDate(entry.date)}</span>
-                        <div class="entry-actions">
-                            <button class="action-btn" onclick="shareEntry('${encodeURIComponent(entry.title)}', '${entry.link}')">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
-                                    <polyline points="16 6 12 2 8 6"></polyline>
-                                    <line x1="12" y1="2" x2="12" y2="15"></line>
-                                </svg>
-                                Share
-                            </button>
-                           
+            feed.innerHTML = filteredData.map(entry => {
+                const trustInfo = trustedSources[entry.source] || { level: 'standard', badge: '' };
+                const fieldMeta = fieldMetadata[entry.field] || fieldMetadata.technology;
+                
+                return `
+                    <article class="entry field-${entry.field}">
+                        <div class="entry-category"></div>
+                        <div class="entry-header">
+                            <a href="${entry.link}" target="_blank" rel="noopener" class="entry-title">
+                                ${escapeHtml(entry.title)}
+                            </a>
+                            <span class="entry-field field-${entry.field}">
+                                <span class="field-icon">${fieldMeta.icon}</span>
+                                ${fieldMeta.name}
+                            </span>
                         </div>
-                    </div>
-                </article>
-            `).join('');
+                        <p class="entry-description">${escapeHtml(entry.description)}</p>
+                        <div class="entry-meta">
+                            <span class="entry-source">${escapeHtml(entry.source)}</span>
+                            ${trustInfo.badge ? `<span class="entry-trust-badge">${trustInfo.badge}</span>` : ''}
+                            <span>${formatDate(entry.date)}</span>
+                            <div class="entry-actions">
+                                <button class="action-btn" onclick="shareEntry('${encodeURIComponent(entry.title)}', '${entry.link}')">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+                                        <polyline points="16 6 12 2 8 6"></polyline>
+                                        <line x1="12" y1="2" x2="12" y2="15"></line>
+                                    </svg>
+                                    Share
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                `;
+            }).join('');
         }
 
         // Set view mode
         function setView(view) {
             currentView = view;
             document.querySelectorAll('.view-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.textContent.toLowerCase() === view);
+                btn.classList.toggle('active', btn.textContent.trim().toLowerCase() === view);
             });
-            document.getElementById('feed').classList.toggle('card-view', view === 'card');
+            
+            const grid = document.getElementById('feed');
+            grid.classList.remove('card-view', 'compact-view');
+            if (view === 'card') grid.classList.add('card-view');
+            if (view === 'compact') grid.classList.add('compact-view');
         }
 
         // Utility functions
@@ -870,15 +1288,12 @@
                 }).catch(() => {});
             } else {
                 navigator.clipboard.writeText(url).then(() => {
-                    // Show toast notification
                     showToast('Link copied to clipboard!');
                 });
             }
         }
 
-
         function showToast(message) {
-            // Simple toast implementation
             const toast = document.createElement('div');
             toast.style.cssText = `
                 position: fixed;
@@ -898,40 +1313,37 @@
             setTimeout(() => toast.remove(), 3000);
         }
 
-        // Theme toggle
-        function toggleTheme() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
-            localStorage.setItem('theme', isDark ? 'light' : 'dark');
-        }
-
-        // Info modals (simplified)
+        // Info modals
         function showAbout() {
-            alert(`HumanityCheck Mission:\n\nWe track and verify real progress happening across humanity. Our goal is to counter pessimism with facts - showcasing breakthroughs, improvements, and positive developments that often go unnoticed.\n\nEvery entry is sourced from verified institutions and peer-reviewed research.`);
+            alert(`HumanityCheck Mission:\n\nWe track and verify real progress happening across humanity. Our goal is to counter pessimism with facts - showcasing breakthroughs, improvements, and positive developments that often go unnoticed.\n\nEvery entry is sourced from verified institutions and peer-reviewed research. Content is automatically refreshed every 30 minutes to provide fresh perspectives on the same high-quality data.`);
         }
 
         function showMethodology() {
-            alert(`Our Methodology:\n\n• Data sources: WHO, UNESCO, major universities, peer-reviewed journals\n• Update frequency: Every 4 hours via automated collection\n• Verification: Only official sources and peer-reviewed research\n• Scoring: AI-assisted relevance scoring based on impact keywords`);
+            alert(`Our Methodology:\n\n• Data sources: WHO, UNESCO, major universities, peer-reviewed journals\n• Update frequency: Data fetched every 4 hours, display refreshed every 30 minutes\n• Verification: Only official sources and peer-reviewed research\n• Categorization: AI-assisted with manual verification\n• Quality scoring: Based on impact keywords and source credibility\n• Transparency: All code is open source on GitHub`);
         }
 
+        function showCategories() {
+            let categoriesText = 'Progress Categories:\n\n';
+            Object.entries(fieldMetadata).forEach(([field, meta]) => {
+                categoriesText += `${meta.icon} ${meta.name}: ${meta.description}\n\n`;
+            });
+            alert(categoriesText);
+        }
+
+        function showVerification() {
+            alert(`Verification Process:\n\n• Source credibility: Only established institutions, agencies, and peer-reviewed publications\n• Content validation: Must contain measurable progress or concrete achievements\n• Deduplication: Advanced algorithms prevent duplicate stories\n• Trust indicators: Special badges for UN agencies, government sources, and peer-reviewed journals\n• Regular audits: Quarterly review of source quality and accuracy`);
+        }
 
         function showCriteria() {
-            alert(`Selection Criteria:\n\n• Verified sources only (no blogs or opinion pieces)\n• Measurable progress or breakthroughs\n• Peer-reviewed research when applicable\n• Global impact preferred\n• Recent developments (within 7 days)`);
-        }
-
- 
-        function showContact() {
-            alert('Contact us via blah blha blah');
+            alert(`Selection Criteria:\n\n• Verified sources only (no blogs or opinion pieces)\n• Measurable progress or breakthroughs\n• Peer-reviewed research when applicable\n• Global impact preferred\n• Recent developments (within 7 days)\n• Must pass quality scoring threshold`);
         }
 
         function showDonate() {
-            alert('HumanityCheck is a volunteer project!\n\nDonations welcome: \nSOL: 7afpHEBzTD6wcvEbgqZpyvSu7mwcpzetui4sWwtdNhQ3\nBTC: bc1qultsc7tn9rek69t3gs4f7cd2f90vnwssxjys0h\nETH: 0x1019ED9e78a9896C59896B38160ffbD40ADf97AA\n\nThank You!');
+            alert('HumanityCheck is a volunteer project dedicated to spreading hope through verified data. Support options coming soon!');
         }
 
         // Initialize on load
         window.addEventListener('load', () => {
-           
-            
             // Initialize app
             init();
         });
@@ -951,6 +1363,11 @@
             }
         `;
         document.head.appendChild(style);
+
+        // Clean up on page unload
+        window.addEventListener('beforeunload', () => {
+            if (shuffleInterval) clearInterval(shuffleInterval);
+        });
     </script>
 </body>
 </html>
