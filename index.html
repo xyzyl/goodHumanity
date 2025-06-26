@@ -70,7 +70,6 @@
             top: 0;
             z-index: 100;
             backdrop-filter: blur(10px);
-            background: rgba(var(--bg-primary-rgb, 255, 255, 255), 0.95);
         }
 
         .header-content {
@@ -272,6 +271,7 @@
             display: flex;
             align-items: center;
             gap: 6px;
+            color:white;
         }
 
         .filter-btn:hover {
@@ -807,7 +807,6 @@
             <div class="footer-section">
                 <h3>Contribute</h3>
                 <div class="footer-links">
-                    <a href="https://github.com/humanitycheck/humanitycheck" target="_blank">View on GitHub</a>
                     <a href="#" onclick="showDonate(); return false;">Support Us</a>
                 </div>
             </div>
@@ -1335,11 +1334,11 @@
         }
 
         function showCriteria() {
-            alert(`Selection Criteria:\n\n• Verified sources only (no blogs or opinion pieces)\n• Measurable progress or breakthroughs\n• Peer-reviewed research when applicable\n• Global impact preferred\n• Recent developments (within 7 days)\n• Must pass quality scoring threshold`);
+            alert(`Selection Criteria:\n\n• Verified sources only (no blogs or opinion pieces)\n• Measurable progress or breakthroughs\n• Peer-reviewed research when applicable\n• Global impact preferred\n• Recent developments\n• Must pass quality scoring threshold`);
         }
 
         function showDonate() {
-            alert('HumanityCheck is a volunteer project dedicated to spreading hope through verified data. Support options coming soon!');
+            alert('HumanityCheck is a volunteer project!\n \nSupport us:\nSOL:7afpHEBzTD6wcvEbgqZpyvSu7mwcpzetui4sWwtdNhQ3\nBTC:bc1qultsc7tn9rek69t3gs4f7cd2f90vnwssxjys0h\nETH:0x1019ED9e78a9896C59896B38160ffbD40ADf97AA');
         }
 
         // Initialize on load
