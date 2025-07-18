@@ -1,22 +1,22 @@
 {
   "date": "2025-07-18",
-  "lastUpdated": "2025-07-18T12:33:41.067Z",
+  "lastUpdated": "2025-07-18T16:21:51.278Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "51.1s",
+    "executionTime": "45.6s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 23,
     "totalCandidates": 290,
     "totalSelected": 290,
     "entriesByField": {
       "health": 51,
-      "climate": 33,
-      "technology": 134,
+      "climate": 34,
+      "technology": 132,
       "education": 7,
       "development": 19,
       "peace": 10,
       "agriculture": 3,
-      "space": 33
+      "space": 34
     },
     "categoryIntegrity": {
       "health": {
@@ -24,7 +24,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 33,
+        "kept": 34,
         "changed": 9
       },
       "energy": {
@@ -32,8 +32,8 @@
         "changed": 0
       },
       "technology": {
-        "kept": 134,
-        "changed": 5
+        "kept": 132,
+        "changed": 6
       },
       "education": {
         "kept": 5,
@@ -59,7 +59,7 @@
     "qualityMetrics": {
       "highScoreEntries": 69,
       "topTierSources": 175,
-      "highCredibilitySources": 270
+      "highCredibilitySources": 269
     }
   },
   "entries": [
@@ -152,20 +152,28 @@
       "date": "2025-07-03"
     },
     {
+      "title": "ADB Launches Regional Network to Accelerate Universal Health Coverage in Asia and the Pacific",
+      "description": "ADB President Masato Kanda announced the launch of the Universal Health Coverage Practitioners and Experts Knowledge Exchange and Resources, a regional peer-to-peer learning network to accelerate universal health coverage across Asia and the Pacific.",
+      "link": "https://www.adb.org/news/adb-launches-regional-network-accelerate-universal-health-coverage-asia-and-pacific",
+      "source": "Asian Development Bank",
+      "field": "health",
+      "date": "2025-07-08"
+    },
+    {
+      "title": "New \"Smart Capsule\" to Study the Health of the GI Tract",
+      "description": "Scientists are increasingly finding that the gastrointestinal (GI) tract plays a vital role in our overall health. While its main functions center around digestion, the GI tract is also involved in the production of hormones, immune cells, and even neurotransmitters that can affect mood and brain function. As such, the GI tract is host to many different biomarkers that can be useful for identifying, monitoring, and treating disease—everything from short-chain fatty acids that are indicators of metabolic syndrome to cytokines that are biomarkers of inflammation.But there is no technology curren",
+      "link": "https://www.caltech.edu/about/news/new-smart-capsule-to-study-the-health-of-the-gi-tract",
+      "source": "Caltech",
+      "field": "health",
+      "date": "2025-06-27"
+    },
+    {
       "title": "Senegal Introduces Hexavalent Vaccine into its National Immunization Programme",
       "description": "Dakar – On July 1, 2025, Senegal officially launched the introduction of the hexavalent vaccine into its Expanded Program on Immunization (EPI). Following in Mauritania’s footsteps, Senegal is part of this regional dynamic of vaccine innovation. This vaccine is a combination that protects against six diseases: diphtheria, tetanus, whooping cough, hepatitis B, Haemophilus influenzae type […]",
       "link": "https://polioeradication.org/news/senegal-introduces-hexavalent-vaccine-into-its-national-immunization-programme/",
       "source": "Polio Eradication",
       "field": "health",
       "date": "2025-07-03"
-    },
-    {
-      "title": "Rotary and Gates Foundation extend partnership to end polio",
-      "description": "CALGARY (22 June 2025) – Rotary and the Gates Foundation are renewing their longstanding partnership to end polio, announcing a joint commitment of up to US$450 million to support the global polio eradication effort at the annual Rotary International Convention. “While historic progress has been made toward defeating polio—90 percent of the world’s population is […]",
-      "link": "https://polioeradication.org/news/rotary-and-gates-foundation-extend-partnership-to-end-polio/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2025-06-23"
     },
     {
       "title": "[World Report] Corruption scandal engulfs Indian medical education",
@@ -392,25 +400,17 @@
       "date": "2025-05-18"
     },
     {
-      "title": "ADB Launches Regional Network to Accelerate Universal Health Coverage in Asia and the Pacific",
-      "description": "ADB President Masato Kanda announced the launch of the Universal Health Coverage Practitioners and Experts Knowledge Exchange and Resources, a regional peer-to-peer learning network to accelerate universal health coverage across Asia and the Pacific.",
-      "link": "https://www.adb.org/news/adb-launches-regional-network-accelerate-universal-health-coverage-asia-and-pacific",
-      "source": "Asian Development Bank",
-      "field": "health",
-      "date": "2025-07-08"
-    },
-    {
-      "title": "WUENIC 2024: What latest immunization estimates mean for polio eradication",
-      "description": "The newly released WHO/UNICEF Estimates of National Immunization Coverage (WUENIC) for 2024 offer a snapshot of global progress in childhood vaccination but also a reminder of the work still ahead to end polio for good. Global coverage for the third dose of polio vaccine (POL3) in 2024 is reported at 84%, consistent with 2023 levels, […]",
-      "link": "https://polioeradication.org/news/wuenic-2024-what-latest-immunization-estimates-mean-for-polio-eradication/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2025-07-15"
-    },
-    {
       "title": "WHO Director-General’s keynote speech at the 116th Rotary International Convention",
       "description": "Rotary President Stephanie Urchick and President-elect Francesco Arezzo, Distinguished Rotarians, dear colleagues and friends, First, thank you to Stephanie for the kind introduction, and I have fond memories of our meeting, and for all the support you have given us. Good morning – good evening from Geneva – and I’m really sorry I can’t be […]",
       "link": "https://polioeradication.org/news/who-director-generals-keynote-speech-at-the-116th-rotary-international-convention/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2025-06-23"
+    },
+    {
+      "title": "Rotary and Gates Foundation extend partnership to end polio",
+      "description": "CALGARY (22 June 2025) – Rotary and the Gates Foundation are renewing their longstanding partnership to end polio, announcing a joint commitment of up to US$450 million to support the global polio eradication effort at the annual Rotary International Convention. “While historic progress has been made toward defeating polio—90 percent of the world’s population is […]",
+      "link": "https://polioeradication.org/news/rotary-and-gates-foundation-extend-partnership-to-end-polio/",
       "source": "Polio Eradication",
       "field": "health",
       "date": "2025-06-23"
@@ -424,12 +424,12 @@
       "date": "2025-06-13"
     },
     {
-      "title": "New \"Smart Capsule\" to Study the Health of the GI Tract",
-      "description": "Scientists are increasingly finding that the gastrointestinal (GI) tract plays a vital role in our overall health. While its main functions center around digestion, the GI tract is also involved in the production of hormones, immune cells, and even neurotransmitters that can affect mood and brain function. As such, the GI tract is host to many different biomarkers that can be useful for identifying, monitoring, and treating disease—everything from short-chain fatty acids that are indicators of metabolic syndrome to cytokines that are biomarkers of inflammation.But there is no technology curren",
-      "link": "https://www.caltech.edu/about/news/new-smart-capsule-to-study-the-health-of-the-gi-tract",
-      "source": "Caltech",
+      "title": "WUENIC 2024: What latest immunization estimates mean for polio eradication",
+      "description": "The newly released WHO/UNICEF Estimates of National Immunization Coverage (WUENIC) for 2024 offer a snapshot of global progress in childhood vaccination but also a reminder of the work still ahead to end polio for good. Global coverage for the third dose of polio vaccine (POL3) in 2024 is reported at 84%, consistent with 2023 levels, […]",
+      "link": "https://polioeradication.org/news/wuenic-2024-what-latest-immunization-estimates-mean-for-polio-eradication/",
+      "source": "Polio Eradication",
       "field": "health",
-      "date": "2025-06-27"
+      "date": "2025-07-15"
     },
     {
       "title": "Un barrage contre la polio : Le Bassin du Lac Tchad fait le pari de l’éradication",
@@ -496,6 +496,14 @@
       "date": "2023-08-14"
     },
     {
+      "title": "DeBriefed 18 July 2025: India’s clean-energy milestone; Climate reaches UK parliament; Conserving trees and culture in Kenya",
+      "description": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate... The post DeBriefed 18 July 2025: India’s clean-energy milestone; Climate reaches UK parliament; Conserving trees and culture in Kenya appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/debriefed-18-july-2025-indias-clean-energy-milestone-climate-reaches-uk-parliament-conserving-trees-and-culture-in-kenya/",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2025-07-18"
+    },
+    {
       "title": "NOAA Celebrates Outstanding Small Business Contributions with 2025 Program Awards",
       "description": "NOAA Celebrates Outstanding Small Business Contributions with 2025 Program Awards July 9, 2025 NOAA is proud to announce the recipients of its 2025 Small Business Program Awards, recognizing exceptional performance, accomplishment, and partnership in support of NOAA's vital mission. This marks the seventh year of the awards, honoring contributions made in Fiscal Year 2024. Small Business of the Year: FLOAT Partners LLC FLOAT Partners LLC has been named Small Business of the Year for their unwavering dedication to maintaining observer coverage across complex longline fisheries, even amidst fisc",
       "link": "https://www.noaa.gov/acquisition-grants/small-business/news/noaa-celebrates-outstanding-small-business-contributions-with-2025-program-awards",
@@ -560,6 +568,14 @@
       "date": "2023-08-21"
     },
     {
+      "title": "NASA Announces Summer 2023 Hottest on Record",
+      "description": "Summer of 2023 was Earth’s hottest since global records began in 1880, according to scientists at NASA’s Goddard Institute of Space Studies (GISS) in New York. The months of June, July, and August combined were 0.41 degrees Fahrenheit (0.23 degrees Celsius) warmer than any other summer in NASA’s record, and 2.1 degrees F (1.2 C) warmer than the average summer between 1951 and 1980. August alone was 2.2 F (1.2 C) warmer than the average. June through August is considered meteorological summer in the Northern Hemisphere. This new record comes as exceptional heat swept across much of the world, e",
+      "link": "https://climate.nasa.gov/news/3282/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-09-14"
+    },
+    {
       "title": "NASA Study Reveals Compounding Climate Risks at Two Degrees of Warming",
       "description": "If global temperatures keep rising and reach 2 degrees Celsius (3.6 degrees Fahrenheit) above pre-industrial levels, people worldwide could face multiple impacts of climate change simultaneously. This is according to a NASA-led study that analyzed the projected impacts of such warming to understand how different climate effects might combine. A 2-degree rise in global temperatures is considered a critical threshold above which dangerous and cascading effects of human-generated climate change will occur. The researchers found that more than a quarter of the world’s population could experience a",
       "link": "https://climate.nasa.gov/news/3278/",
@@ -568,9 +584,17 @@
       "date": "2023-08-14"
     },
     {
-      "title": "NOAA aerial images of flood-damaged Texas Hill Country now viewable",
-      "description": "NOAA aerial images of flood-damaged Texas Hill Country now viewable A Texas state flag flies in a yard filled with debris on July 6, 2025, in Hunt, Texas. Heavy rainfall caused widespread flooding and property damage along the Guadalupe River in central Texas with multiple deaths reported. (Image credit: Jim Vondruska/Getty Images) July 11, 2025 Ocean & Coasts Marine & Aviation aerial imagery National Geodetic Survey flooding extreme events 0 Off",
-      "link": "https://www.noaa.gov/news/noaa-aerial-images-of-flood-damaged-texas-hill-country-now-viewable-ext",
+      "title": "NASA's New Exhibit Showcases our Home Planet and Climate",
+      "description": "Follow a river of water vapor as it travels through Earth's atmosphere and becomes heavy rain. Watch polar ice expand and contract as if our planet is breathing in slow motion. Discover how river channels and wind currents resemble the human nervous and circulatory systems. In an interactive new exhibit at the NASA Headquarters in Washington, visitors are invited to see Earth as NASA sees it from space. For six decades, NASA satellites, sensors, and scientists have collected data on Earth’s land, water, air, and climate. At the Earth Information Center, the public can glimpse what this data ha",
+      "link": "https://climate.nasa.gov/news/3274/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-06-29"
+    },
+    {
+      "title": "View aerial images of flood-damaged Texas Hill Country",
+      "description": "View aerial images of flood-damaged Texas Hill Country A Texas state flag flies in a yard filled with debris on July 6, 2025, in Hunt, Texas. Heavy rainfall caused widespread flooding and property damage along the Guadalupe River in central Texas with multiple deaths reported. (Image credit: Jim Vondruska/Getty Images) July 11, 2025 Ocean & Coasts Marine & Aviation aerial imagery National Geodetic Survey flooding extreme events 0 Off",
+      "link": "https://www.noaa.gov/news/view-aerial-images-of-flood-damaged-texas-hill-country-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2025-07-11"
@@ -616,46 +640,6 @@
       "date": "2025-06-17"
     },
     {
-      "title": "Programme Officer, IPCC Task Force on Inventories Technical Support Unit",
-      "description": "The Technical Support Unit of the IPCC Task Force on National Greenhouse Gas Inventories (TFI TSU) wishes to recruit for a position at the Associate Staff level. This will be a fixed term appointment until June 2028 located in Hayama, Japan. Preferred commencement date is September 2025. The TFI TSU is looking for self-motivated candidates […]",
-      "link": "https://www.ipcc.ch/2025/05/13/programme-officer-ipcc-task-force-on-inventories-technical-support-unit/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-05-13"
-    },
-    {
-      "title": "First Lead Author Meeting of the 2027 Methodology Report on Short-Lived Climate Forcers",
-      "description": "GENEVA, Mar 24 – Over 100 experts from more than 40 countries are meeting in Bilbao, Spain this week for the first meeting of authors and review editors of the 2027 IPCC Methodology Report on Inventories for Short-lived Climate Forcers (SLCF). This will be the first methodology report released by IPCC in the seventh assessment […]",
-      "link": "https://www.ipcc.ch/2025/03/24/first-lead-author-meeting-2027-methodology-report-slcf/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-03-24"
-    },
-    {
-      "title": "NASA Analysis Finds Strong El Niño Could Bring Extra Floods This Winter",
-      "description": "In Brief: Such high-tide flooding that inundates roads and buildings along the west coast of the Americas tends to be uncommon outside of El Niño years, but that could change by the 2030s. An analysis by NASA’s sea level change science team finds that if a strong El Niño develops this winter, cities along the western coasts of the Americas could see an increase in the frequency of high-tide flooding that can swamp roads and spill into low-lying buildings. El Niño is a periodic climate phenomenon characterized by higher-than-normal sea levels and warmer-than-average ocean temperatures along the",
-      "link": "https://climate.nasa.gov/news/3291/",
-      "source": "NASA Climate",
-      "field": "climate",
-      "date": "2023-11-08"
-    },
-    {
-      "title": "NASA Announces Summer 2023 Hottest on Record",
-      "description": "Summer of 2023 was Earth’s hottest since global records began in 1880, according to scientists at NASA’s Goddard Institute of Space Studies (GISS) in New York. The months of June, July, and August combined were 0.41 degrees Fahrenheit (0.23 degrees Celsius) warmer than any other summer in NASA’s record, and 2.1 degrees F (1.2 C) warmer than the average summer between 1951 and 1980. August alone was 2.2 F (1.2 C) warmer than the average. June through August is considered meteorological summer in the Northern Hemisphere. This new record comes as exceptional heat swept across much of the world, e",
-      "link": "https://climate.nasa.gov/news/3282/",
-      "source": "NASA Climate",
-      "field": "climate",
-      "date": "2023-09-14"
-    },
-    {
-      "title": "NASA's New Exhibit Showcases our Home Planet and Climate",
-      "description": "Follow a river of water vapor as it travels through Earth's atmosphere and becomes heavy rain. Watch polar ice expand and contract as if our planet is breathing in slow motion. Discover how river channels and wind currents resemble the human nervous and circulatory systems. In an interactive new exhibit at the NASA Headquarters in Washington, visitors are invited to see Earth as NASA sees it from space. For six decades, NASA satellites, sensors, and scientists have collected data on Earth’s land, water, air, and climate. At the Earth Information Center, the public can glimpse what this data ha",
-      "link": "https://climate.nasa.gov/news/3274/",
-      "source": "NASA Climate",
-      "field": "climate",
-      "date": "2023-06-29"
-    },
-    {
       "title": "IPCC calls for the nomination of participants to the Workshop on Engaging Diverse Knowledge Systems and the Workshop on Methods of Assessment",
       "description": "The Intergovernmental Panel on Climate Change is calling for nominations of participants to two three-day co-located workshops to be held in the first quarter of 2026: a Workshop on Engaging Diverse Knowledge Systems and a Workshop on Methods of Assessment. This follows the Panel’s agreement of a proposal made by the IPCC Chair with the […]",
       "link": "https://www.ipcc.ch/2025/06/13/calls-for-nominations-workshops-diverse-knowledge-systems-and-methods-of-assessment/",
@@ -664,12 +648,12 @@
       "date": "2025-06-13"
     },
     {
-      "title": "Obituary: Dr Mannava V.K. Sivakumar",
-      "description": "With great sadness, the Intergovernmental Panel on Climate Change (IPCC) has learned of the death of Dr Mannava V.K. Sivakumar, who passed away on 30 March 2025 in Hyderabad, India. Dr Mannava Sivakumar, fondly known as Shiv, was the Acting Secretary of the IPCC from January to June 20I6, the early stages of the sixth […]",
-      "link": "https://www.ipcc.ch/2025/04/11/obituary-sivakumar/",
+      "title": "Programme Officer, IPCC Task Force on Inventories Technical Support Unit",
+      "description": "The Technical Support Unit of the IPCC Task Force on National Greenhouse Gas Inventories (TFI TSU) wishes to recruit for a position at the Associate Staff level. This will be a fixed term appointment until June 2028 located in Hayama, Japan. Preferred commencement date is September 2025. The TFI TSU is looking for self-motivated candidates […]",
+      "link": "https://www.ipcc.ch/2025/05/13/programme-officer-ipcc-task-force-on-inventories-technical-support-unit/",
       "source": "IPCC",
       "field": "climate",
-      "date": "2025-04-11"
+      "date": "2025-05-13"
     },
     {
       "title": "IPCC calls for the nomination of experts for its Task-Group on Data Support",
@@ -702,6 +686,30 @@
       "source": "IPCC",
       "field": "climate",
       "date": "2025-03-10"
+    },
+    {
+      "title": "NASA Analysis Finds Strong El Niño Could Bring Extra Floods This Winter",
+      "description": "In Brief: Such high-tide flooding that inundates roads and buildings along the west coast of the Americas tends to be uncommon outside of El Niño years, but that could change by the 2030s. An analysis by NASA’s sea level change science team finds that if a strong El Niño develops this winter, cities along the western coasts of the Americas could see an increase in the frequency of high-tide flooding that can swamp roads and spill into low-lying buildings. El Niño is a periodic climate phenomenon characterized by higher-than-normal sea levels and warmer-than-average ocean temperatures along the",
+      "link": "https://climate.nasa.gov/news/3291/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-11-08"
+    },
+    {
+      "title": "Obituary: Dr Mannava V.K. Sivakumar",
+      "description": "With great sadness, the Intergovernmental Panel on Climate Change (IPCC) has learned of the death of Dr Mannava V.K. Sivakumar, who passed away on 30 March 2025 in Hyderabad, India. Dr Mannava Sivakumar, fondly known as Shiv, was the Acting Secretary of the IPCC from January to June 20I6, the early stages of the sixth […]",
+      "link": "https://www.ipcc.ch/2025/04/11/obituary-sivakumar/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2025-04-11"
+    },
+    {
+      "title": "First Lead Author Meeting of the 2027 Methodology Report on Short-Lived Climate Forcers",
+      "description": "GENEVA, Mar 24 – Over 100 experts from more than 40 countries are meeting in Bilbao, Spain this week for the first meeting of authors and review editors of the 2027 IPCC Methodology Report on Inventories for Short-lived Climate Forcers (SLCF). This will be the first methodology report released by IPCC in the seventh assessment […]",
+      "link": "https://www.ipcc.ch/2025/03/24/first-lead-author-meeting-2027-methodology-report-slcf/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2025-03-24"
     },
     {
       "title": "NASA Finds June 2023 Hottest on Record",
@@ -768,10 +776,26 @@
       "date": "2025-07-10"
     },
     {
+      "title": "MIT launches a “moonshot for menstruation science”",
+      "description": "The Fairbairn Menstruation Science Fund will allow researchers to accelerate the understanding and treatment of often-neglected diseases that tend to be more common in women.",
+      "link": "https://news.mit.edu/2025/mit-launches-moonshot-menstruation-for-science-0718",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-18"
+    },
+    {
       "title": "Model predicts long-term effects of nuclear waste on underground disposal systems",
       "description": "The simulations matched results from an underground lab experiment in Switzerland, suggesting modeling could be used to validate the safety of nuclear disposal sites.",
       "link": "https://news.mit.edu/2025/model-predicts-long-term-effects-nuclear-waste-underground-disposal-systems-0718",
       "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-18"
+    },
+    {
+      "title": "Video Friday: Robot Metabolism",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. RO-MAN 2025: 25–29 August 2025, EINDHOVEN, THE NETHERLANDS CLAWAR 2025: 5–7 September 2025, SHENZHEN, CHINA ACTUATE 2025: 23–24 September 2025, SAN FRANCISCO CoRL 2025: 27–30 September 2025, SEOUL IEEE Humanoids: 30 September–2 October 2025, SEOUL World Robot Summit: 10–12 October 2025, OSAKA, JAPAN IROS 2025: 19–25 October 2025, HANGZHOU, CHIN",
+      "link": "https://spectrum.ieee.org/video-friday-robot-metabolism",
+      "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-07-18"
     },
@@ -808,14 +832,6 @@
       "date": "2025-07-16"
     },
     {
-      "title": "Shaping the future with adaptive production",
-      "description": "Adaptive production is more than a technological upgrade: it is a paradigm shift. This new frontier enables the integration of cutting-edge technologies to create an increasingly autonomous environment, where interconnected manufacturing plants go beyond the limits of traditional automation. Artificial intelligence, digital twins, and robotics are among the powerful tools manufacturers are using to create…",
-      "link": "https://www.technologyreview.com/2025/07/15/1120083/shaping-the-future-with-adaptive-production/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-07-15"
-    },
-    {
       "title": "International STEM Students Are Turning Away From the U.S.",
       "description": "For decades, the United States has held a commanding lead as a destination for international students interested in STEM fields. Then U.S. President Donald Trump’s administration began revoking student visas, temporarily froze student visa interviews, promised extra scrutiny for Chinese students, and instituted new social media checks for all applicants. Now, early signals from organizations involved in international student placement show a steep drop-off in interest in U.S. colleges and universities. And experts say the Trump administration’s policy changes will have long-term consequences. ",
       "link": "https://spectrum.ieee.org/trump-international-students",
@@ -832,28 +848,28 @@
       "date": "2025-07-11"
     },
     {
+      "title": "IEEE’s New Climate Tech Magazine Seeks an Editor in Chief",
+      "description": "IEEE is launching a new publication, IEEE Climate, which aims to further the organization’s mission and vision of advancing technology for the benefit of humanity. The publication is expected to focus on how technology can play a vital role in mitigating and adapting to climate change. Researchers, engineers, practitioners, and policymakers will be able to share their knowledge, insights, and innovative solutions through original content published in the magazine. The IEEE Publication Services and Products Board’s nominations and appointments committee is seeking nominations for IEEE Climate e",
+      "link": "https://spectrum.ieee.org/climate-tech-magazine-seeks-eic",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "Pixar’s Art Challenge Highlights IEEE’s Electrical Science Roots",
+      "description": "IEEE and Pixar Animation Studios’ collaboration on the RenderMan SciTech Art Challenge last year broke entry records for the annual competition, tripling the usual number of submissions. Nearly 200 artists, engineers, and enthusiasts competed to demonstrate shading, lighting, rendering, and compositing techniques using RenderMan tools. The contest was held from 26 August to 26 November 2024. As the 2025 competition date nears, here’s a look into RenderMan and how IEEE got involved in this exciting, innovative challenge. Developed by Pixar in 1988, RenderMan has been at the forefront of compute",
+      "link": "https://spectrum.ieee.org/ieee-renderman-tech-milestone",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-10"
+    },
+    {
       "title": "Video Friday: Cyborg Beetles May Speed Disaster Response One Day",
       "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. IEEE World Haptics: 8–11 July 2025, SUWON, SOUTH KOREA IFAC Symposium on Robotics: 15–18 July 2025, PARIS RoboCup 2025: 15–21 July 2025, BAHIA, BRAZIL RO-MAN 2025: 25–29 August 2025, EINDHOVEN, THE NETHERLANDS CLAWAR 2025: 5–7 September 2025, SHENZHEN, CHINA ACTUATE 2025: 23–24 September 2025, SAN FRANCISCO CoRL 2025: 27–30 September 2025, SEOUL IEEE Hu",
       "link": "https://spectrum.ieee.org/video-friday-cyborg-beetles",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-07-05"
-    },
-    {
-      "title": "Chemical Process Produces Critical Battery Metals With No Waste",
-      "description": "Olivine is a rather unassuming rock. Olive brown to yellow green in color, this hard yet brittle mineral is thought to be the most abundant in Earth’s upper mantle. Chemically, olivine is magnesium iron silicate, though it contains other elements too. Economically, it’s close to worthless. Its limited industrial utility stretches to gemstones, metalworking, ceramics, and occasionally, as a gravel for road construction. At some mining sites, olivine is a waste product, stored in piles on the surface. It’s certainly not an obvious choice as a source for battery materials. But that’s exactly how ",
-      "link": "https://spectrum.ieee.org/nmc-battery-aspiring-materials",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-08"
-    },
-    {
-      "title": "Chirality shock: Geneva chemists forge millennia-stable ‘mirror-proof’ drugs",
-      "description": "Chemists at the University of Geneva and University of Pisa have crafted a novel family of chiral molecules whose mirror-image “handedness” remains rock-solid for tens of thousands of years. By swapping the usual carbon-bound arms for oxygen and nitrogen, they introduced an unprecedented stereogenic center and proved its extreme resilience through dynamic chromatography and quantum calculations. This breakthrough not only prevents life-saving drugs from flipping into harmful twins but also unlocks fresh 3D architectures for future medicines and smart materials.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250715043355.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-15"
     },
     {
       "title": "What Makes Us Persist Toward Long-Term Goals?",
@@ -880,20 +896,12 @@
       "date": "2025-06-30"
     },
     {
-      "title": "2D Transistors Could Come Sooner Than Expected",
-      "description": "Chipmaking giants like Intel, Samsung, and TSMC see a future where key parts of silicon transistors are replaced with semiconductors that are only a few atoms thick. Although they’ve reported progress toward that goal, that future is generally thought to be more than a decade away. Now a startup spun out of MIT thinks it has cracked the code for making commercial-scale 2D semiconductors, and expects chipmakers to have integrated them in advanced chips in half that time. CDimension has developed a process for growing molybdenum disulfide (MoS2), a 2D semiconductor, on silicon at a low-enough te",
-      "link": "https://spectrum.ieee.org/cdimensions-2d-semiconductors",
-      "source": "IEEE Spectrum",
+      "title": "A major AI training data set contains millions of examples of personal data",
+      "description": "Millions of images of passports, credit cards, birth certificates, and other documents containing personally identifiable information are likely included in one of the biggest open-source AI training sets, new research has found. Thousands of images—including identifiable faces—were found in a small subset of DataComp CommonPool, a major AI training set for image generation scraped from…",
+      "link": "https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/",
+      "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2025-07-17"
-    },
-    {
-      "title": "IEEE’s New Climate Tech Magazine Seeks an Editor in Chief",
-      "description": "IEEE is launching a new publication, IEEE Climate, which aims to further the organization’s mission and vision of advancing technology for the benefit of humanity. The publication is expected to focus on how technology can play a vital role in mitigating and adapting to climate change. Researchers, engineers, practitioners, and policymakers will be able to share their knowledge, insights, and innovative solutions through original content published in the magazine. The IEEE Publication Services and Products Board’s nominations and appointments committee is seeking nominations for IEEE Climate e",
-      "link": "https://spectrum.ieee.org/climate-tech-magazine-seeks-eic",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-16"
+      "date": "2025-07-18"
     },
     {
       "title": "These four charts show where AI companies could go next in the US",
@@ -912,20 +920,44 @@
       "date": "2025-07-15"
     },
     {
-      "title": "Finding value with AI automation",
-      "description": "In June 2023, technology leaders and IT services executives had a lightning bolt headed their way when McKinsey published the “The economic potential of generative AI: The next productivity frontier” report. It echoed a moment from the 2010s when Amazon Web Services launched an advertising campaign aimed at Main Street’s C-suite: Why would any fiscally…",
-      "link": "https://www.technologyreview.com/2025/07/15/1119978/finding-value-with-ai-automation/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-07-15"
-    },
-    {
-      "title": "Pixar’s Art Challenge Highlights IEEE’s Electrical Science Roots",
-      "description": "IEEE and Pixar Animation Studios’ collaboration on the RenderMan SciTech Art Challenge last year broke entry records for the annual competition, tripling the usual number of submissions. Nearly 200 artists, engineers, and enthusiasts competed to demonstrate shading, lighting, rendering, and compositing techniques using RenderMan tools. The contest was held from 26 August to 26 November 2024. As the 2025 competition date nears, here’s a look into RenderMan and how IEEE got involved in this exciting, innovative challenge. Developed by Pixar in 1988, RenderMan has been at the forefront of compute",
-      "link": "https://spectrum.ieee.org/ieee-renderman-tech-milestone",
+      "title": "Ensuring Technology Is Tailored for An Aging Population",
+      "description": "The global population is getting older. By 2030 there will be nearly 1.5 billion people who will be at least 60, according to the World Health Organization. Studies have found that most older adults want to stay in their own homes. To help them, an assortment of technologies known as age tech is being developed to improve their quality of life and help them maintain their independence for as long as possible. Products include health and wellness monitoring devices, financial management systems, home-care robots, and smart appliances. But not all age tech designers are taking into account issue",
+      "link": "https://spectrum.ieee.org/ieee-agetech-standards",
       "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2025-07-10"
+      "date": "2025-07-09"
+    },
+    {
+      "title": "2D Transistors Could Come Sooner Than Expected",
+      "description": "Chipmaking giants like Intel, Samsung, and TSMC see a future where key parts of silicon transistors are replaced with semiconductors that are only a few atoms thick. Although they’ve reported progress toward that goal, that future is generally thought to be more than a decade away. Now, a startup spun out of MIT thinks it has cracked the code for making commercial-scale 2D semiconductors and expects chipmakers to have integrated them in advanced chips in half that time. CDimension has developed a process for growing molybdenum disulfide (MoS2), a 2D semiconductor, on silicon at a low enough te",
+      "link": "https://spectrum.ieee.org/cdimensions-2d-semiconductors",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-17"
+    },
+    {
+      "title": "The Internet of Things Gets a 5G Update",
+      "description": "A new chip component designed by MIT researchers promises to expand the reach of the Internet of Things into 5G. The discovery represents a broader push for 5G-based IoT tech—using the telecom standard’s low latency, energy efficiency, and capacity for massive device connectivity. The new research also signals an important step toward applications that include smaller, low-power health monitors, smart cameras, and industrial sensors, for instance. More broadly, the prospect of moving the IoT onto 5G means more things can connect more quickly with potentially greater data speeds and less batter",
+      "link": "https://spectrum.ieee.org/internet-of-things-5g-mit",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-09"
+    },
+    {
+      "title": "Chemical Process Produces Critical Battery Metals With No Waste",
+      "description": "Olivine is a rather unassuming rock. Olive brown to yellow green in color, this hard yet brittle mineral is thought to be the most abundant in Earth’s upper mantle. Chemically, olivine is magnesium iron silicate, though it contains other elements too. Economically, it’s close to worthless. Its limited industrial utility stretches to gemstones, metalworking, ceramics, and occasionally, as a gravel for road construction. At some mining sites, olivine is a waste product, stored in piles on the surface. It’s certainly not an obvious choice as a source for battery materials. But that’s exactly how ",
+      "link": "https://spectrum.ieee.org/nmc-battery-aspiring-materials",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-08"
+    },
+    {
+      "title": "Chirality shock: Geneva chemists forge millennia-stable ‘mirror-proof’ drugs",
+      "description": "Chemists at the University of Geneva and University of Pisa have crafted a novel family of chiral molecules whose mirror-image “handedness” remains rock-solid for tens of thousands of years. By swapping the usual carbon-bound arms for oxygen and nitrogen, they introduced an unprecedented stereogenic center and proved its extreme resilience through dynamic chromatography and quantum calculations. This breakthrough not only prevents life-saving drugs from flipping into harmful twins but also unlocks fresh 3D architectures for future medicines and smart materials.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250715043355.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-15"
     },
     {
       "title": "These mysterious stars could glow forever using dark matter",
@@ -952,28 +984,92 @@
       "date": "2025-07-17"
     },
     {
-      "title": "The Download: Veo 3’s subtitles problem, and the future of our planet’s resources",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s generative video model Veo 3 has a subtitles problem As soon as Google launched its latest video-generating AI model at the end of May, creatives rushed to put it through its paces.…",
-      "link": "https://www.technologyreview.com/2025/07/16/1120240/the-download-veo-3s-subtitles-problem-and-the-future-of-our-planets-resources/",
-      "source": "MIT Tech Review",
+      "title": "AI Cameras Change Driver Behavior at Intersections",
+      "description": "In cities across the United States, an ambitious goal is gaining traction: Vision Zero, the strategy to eliminate all traffic fatalities and severe injuries. First implemented in Sweden in the 1990s, Vision Zero has already cut road deaths there by 50 percent from 2010 levels. Now, technology companies like Stop for Kids and Obvio.ai are trying to bring the results seen in Europe to U.S. streets with AI-powered camera systems designed to keep drivers honest, even when police aren’t around. Local governments are turning to AI-powered cameras to monitor intersections and catch drivers who see st",
+      "link": "https://spectrum.ieee.org/ai-intersection-monitoring",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-05"
+    },
+    {
+      "title": "This 1945 TV Console Showed Two Programs at Once",
+      "description": "As I try to write this article, my friend and I have six different screens attached to three types of devices. We’re working in the same room but on our own projects—separate yet together, a comfortable companionship. I had never really thought of the proliferation of screens as a peacekeeping tool until I stumbled across one of Allen B. DuMont’s 1950s dual-screen television sets. DuMont’s idea was to let two people in the same room watch different programs. It reminded me of my early childhood and my family’s one TV set, and the endless arguments with my sisters and parents over what to watch",
+      "link": "https://spectrum.ieee.org/dumont-duoscopic-tv-set",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-03"
+    },
+    {
+      "title": "Be Polarizing as a Job Seeker",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Taro and delivered to your inbox for free! There are countless technologies, tools, and frameworks to learn as an engineer. As a job seeker, this makes it extremely difficult to decide where to invest. You don’t want to spend a bunch of time learning something that employers don’t care about. So, how can you determine what to learn with your valuable time? The answer to this comes from the real",
+      "link": "https://spectrum.ieee.org/be-a-polarizing-job-seeker",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-02"
+    },
+    {
+      "title": "This laser implosion just created a magnetic field like a neutron star",
+      "description": "A powerful new technique harnesses swirling plasma inside laser-blasted microtubes to produce record-breaking magnetic fields—rivaling those near neutron stars—all within a compact laboratory setup. This innovation promises to transform astrophysics, quantum research, and fusion energy experiments by unleashing megatesla-level forces using nothing more than targeted laser pulses and clever engineering.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250716000839.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-07-16"
     },
     {
-      "title": "Ensuring Technology Is Tailored for An Aging Population",
-      "description": "The global population is getting older. By 2030 there will be nearly 1.5 billion people who will be at least 60, according to the World Health Organization. Studies have found that most older adults want to stay in their own homes. To help them, an assortment of technologies known as age tech is being developed to improve their quality of life and help them maintain their independence for as long as possible. Products include health and wellness monitoring devices, financial management systems, home-care robots, and smart appliances. But not all age tech designers are taking into account issue",
-      "link": "https://spectrum.ieee.org/ieee-agetech-standards",
-      "source": "IEEE Spectrum",
+      "title": "Signaling pathway could help heal lungs and pancreas",
+      "description": "Researchers have discovered that a specific signaling pathway can regenerate damaged tissue in the airways and pancreas of mice. The findings could hold promise for those with respiratory illnesses and metabolic syndrome.",
+      "link": "https://news.stanford.edu/stories/2025/07/signaling-pathway-damaged-tissues-airways-pancreas-respiratory-viruses",
+      "source": "Stanford News",
       "field": "technology",
-      "date": "2025-07-09"
+      "date": "2025-07-02"
     },
     {
-      "title": "The Internet of Things Gets a 5G Update",
-      "description": "A new chip component designed by MIT researchers promises to expand the reach of the Internet of Things into 5G. The discovery represents a broader push for 5G-based IoT tech—using the telecom standard’s low latency, energy efficiency, and capacity for massive device connectivity. The new research also signals an important step toward applications that include smaller, low-power health monitors, smart cameras, and industrial sensors, for instance. More broadly, the prospect of moving the IoT onto 5G means more things can connect more quickly with potentially greater data speeds and less batter",
-      "link": "https://spectrum.ieee.org/internet-of-things-5g-mit",
-      "source": "IEEE Spectrum",
+      "title": "‘It’s an audacious human endeavor’",
+      "description": "Stanford physicist Lauren Tompkins is trying to solve the mysteries of the universe with subatomic particles. Such work requires teams of thousands that collaborate across the world.",
+      "link": "https://news.stanford.edu/stories/2025/07/research-matters-lauren-tompkins",
+      "source": "Stanford News",
       "field": "technology",
-      "date": "2025-07-09"
+      "date": "2025-07-01"
+    },
+    {
+      "title": "Inhibiting enzyme could stabilize progression of Parkinson’s symptoms",
+      "description": "Stanford Medicine-led research in mice indicates that decreasing LRRK2 enzyme activity could halt cell death in patients with a type of Parkinson’s disease.",
+      "link": "https://news.stanford.edu/stories/2025/07/parkinsons-stabilize-symptons-lrrk2-enzyme-research",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-01"
+    },
+    {
+      "title": "The Concept of Technology in Late 18th-Century Germany",
+      "description": "Jocelyn Holland, professor of comparative literature at Caltech and an expert on the intellectual history of 18th- and 19th-century Germany, has written a new book published by Brill. In the work, Theory's Practice: Reflections on Technology in Germany Around 1800, Holland shows that although the term \"technology\" is widely thought to have become an object of theoretical interest only in the late 19th century, significant changes in how some individuals conceptualized technology were already underway in Germany in the late 18th century.This manner of thinking about technology does not fit into",
+      "link": "https://www.caltech.edu/about/news/concept-of-technology-in-late-18th-century-Germany",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-07-01"
+    },
+    {
+      "title": "This AI-powered lab runs itself—and discovers new materials 10x faster",
+      "description": "A new leap in lab automation is shaking up how scientists discover materials. By switching from slow, traditional methods to real-time, dynamic chemical experiments, researchers have created a self-driving lab that collects 10 times more data, drastically accelerating progress. This new system not only saves time and resources but also paves the way for faster breakthroughs in clean energy, electronics, and sustainability—bringing us closer to a future where lab discoveries happen in days, not years.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250714052105.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-14"
+    },
+    {
+      "title": "One tiny trick just broke light’s oldest rule — and changed optics forever",
+      "description": "Researchers have cracked a fundamental optical challenge: how to control both angle and wavelength of light independently—a problem that’s limited imaging and display technologies for years. By harnessing the power of radiation directionality and engineering bilayer metagratings with unique symmetry properties, they’ve decoupled these two variables for the first time. Their precise nanofabrication techniques allow for ultra-flat, highly aligned structures that selectively reflect light only at specific angles and wavelengths. This breakthrough could revolutionize AR/VR displays, spectral imagi",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250713031452.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-14"
+    },
+    {
+      "title": "First-of-its-kind crystal laser could power safer sensors and smarter tech",
+      "description": "Researchers at the University of Illinois have pulled off a laser first: they built a new kind of eye-safe laser that works at room temperature, using a buried layer of glass-like material instead of the usual air holes. This design not only boosts laser performance but also opens the door to safer and more precise uses in defense, autonomous vehicles, and advanced sensors. It’s a breakthrough in how we build and power lasers—and it might change what lasers can do in the real world.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250711224310.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-12"
     },
     {
       "title": "This “smart coach” helps LLMs switch between text and code",
@@ -1086,94 +1182,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-07-17"
-    },
-    {
-      "title": "Can AI really code? Study maps the roadblocks to autonomous software engineering",
-      "description": "A team of researchers has mapped the challenges of AI in software development, and outlined a research agenda to move the field forward.",
-      "link": "https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-16"
-    },
-    {
-      "title": "What do we owe each other?",
-      "description": "A new class teaches MIT students how to navigate a fast-changing world with a moral compass.",
-      "link": "https://news.mit.edu/2025/what-do-we-owe-each-other-0716",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-16"
-    },
-    {
-      "title": "How to more efficiently study complex treatment interactions",
-      "description": "A new approach for testing multiple treatment combinations at once could help scientists develop drugs for cancer or genetic disorders.",
-      "link": "https://news.mit.edu/2025/more-efficiently-studying-complex-treatment-interactions-0716",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-16"
-    },
-    {
-      "title": "What does it mean to do ‘community-based research’?",
-      "description": "From affordable housing in the Bay Area to Indigenous land rights in the Klamath River watershed, environmental scientist Sibyl Diver’s work depends on building lasting relationships.",
-      "link": "https://news.stanford.edu/stories/2025/07/what-does-it-mean-to-do-community-based-research",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-16"
-    },
-    {
-      "title": "VR training can help build empathy in the workplace",
-      "description": "A new study led by researchers at the Stanford Accelerator for Learning explores how companies can use immersive technology to boost new managers’ relational skills.",
-      "link": "https://news.stanford.edu/stories/2025/07/stanford-research-finds-vr-training-can-help-build-empathy-in-the-workplace",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-16"
-    },
-    {
-      "title": "Connect or reject: Extensive rewiring builds binocular vision in the brain",
-      "description": "A first-of-its-kind study in mice shows neurons add and shed synapses at a frenzied pace during development to integrate visual signals from the two eyes.",
-      "link": "https://news.mit.edu/2025/extensive-rewiring-builds-binocular-vision-in-brain-0715",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-15"
-    },
-    {
-      "title": "Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92",
-      "description": "The “godfather of Bose-Einstein condensation” and MIT faculty member for 37 years led research into atomic, molecular, and optical physics that led to GPS and quantum computing.",
-      "link": "https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-15"
-    },
-    {
-      "title": "Leveraging the tools of finance to achieve sustainable development",
-      "description": "Natural capital-based approaches are supporting financial tools that direct billions of dollars toward projects and development strategies that benefit both people and nature.",
-      "link": "https://news.stanford.edu/stories/2025/07/natural-capital-finance-tools-sustainable-development",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-11"
-    },
-    {
-      "title": "Five MIT faculty elected to the National Academy of Sciences for 2025",
-      "description": "Rodney Brooks, Parag Pathak, Scott Sheffield, Benjamin Weiss, Yukiko Yamashita, and 13 MIT alumni are recognized by their peers for their outstanding contributions to research.",
-      "link": "https://news.mit.edu/2025/faculty-elected-national-academy-sciences-0714",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-14"
-    },
-    {
-      "title": "Scientists discover compounds that help cells fight a wide range of viruses",
-      "description": "The molecules trigger a built-in cellular stress response and show promise as broad-spectrum antivirals against Zika, herpes, RSV, and more.",
-      "link": "https://news.mit.edu/2025/scientists-discover-compounds-helping-cells-fight-wide-range-viruses-0714",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-14"
-    },
-    {
-      "title": "Simulation-based pipeline tailors training data for dexterous robots",
-      "description": "The PhysicsGen system, developed by MIT researchers, helps robots handle items in homes and factories by tailoring training data to a particular machine.",
-      "link": "https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-11"
     },
     {
       "title": "Education in Guinea-Bissau",
@@ -1520,6 +1528,14 @@
       "date": "2023-10-30"
     },
     {
+      "title": "What You Need to Know About NASA’s SpaceX Crew-11 Mission",
+      "description": "Four crew members are preparing to launch to the International Space Station as part of NASA’s SpaceX Crew-11 mission to perform research, technology demonstrations, and maintenance activities aboard the orbiting laboratory.",
+      "link": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-11-mission/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-07-18"
+    },
+    {
       "title": "NASA’s X-59 Quiet Supersonic Aircraft Begins Taxi Tests",
       "description": "NASA/Jacob Shaw NASA’s X-59 quiet supersonic research aircraft has officially begun taxi tests, marking the first time this one-of-a-kind experimental aircraft has moved under its own power. NASA test pilot Nils Larson and the X-59 team, made up of NASA and contractor Lockheed Martin personnel, completed the aircraft’s first low-speed taxi test at U.S. Air […]",
       "link": "https://www.nasa.gov/image-article/nasas-x-59-quiet-supersonic-aircraft-begins-taxi-tests/",
@@ -1534,14 +1550,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2025-07-17"
-    },
-    {
-      "title": "NASA to Preview Advanced US-India Radar Mission Ahead of Launch",
-      "description": "NASA will host a news conference at 12 p.m. EDT Monday, July 21, to discuss the upcoming NISAR (NASA-ISRO Synthetic Aperture Radar) mission. The Earth-observing satellite, a first-of-its-kind collaboration between NASA and ISRO (Indian Space Research Organisation), carries an advanced radar system that will help protect communities by providing a dynamic, three-dimensional view of Earth […]",
-      "link": "https://www.nasa.gov/news-release/nasa-to-preview-advanced-us-india-radar-mission-ahead-of-launch/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-07-16"
     },
     {
       "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
@@ -1608,6 +1616,14 @@
       "date": "2025-06-26"
     },
     {
+      "title": "Vision Changes on Space Station",
+      "description": "Science in Space July 2025 When astronauts began spending six months and more aboard the International Space Station, they started to notice changes in their vision. For example, many found that, as their mission progressed, they needed stronger reading glasses. Researchers studying this phenomenon identified swelling in the optic disc, which is where the optic […]",
+      "link": "https://www.nasa.gov/missions/station/iss-research/vision-changes-on-space-station/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-07-18"
+    },
+    {
       "title": "Hubble Digs Up Galactic Time Capsule",
       "description": "This NASA/ESA Hubble Space Telescope image features the field of stars that is NGC 1786. The globular cluster is located in the Large Magellanic Cloud (LMC), a small satellite galaxy of the Milky Way Galaxy that is approximately 160,000 light-years away from Earth. NGC 1786 itself is in the constellation Dorado. It was discovered in […]",
       "link": "https://science.nasa.gov/missions/hubble/hubble-digs-up-galactic-time-capsule/",
@@ -1632,28 +1648,12 @@
       "date": "2025-07-16"
     },
     {
-      "title": "Φsat-2 begins science phase for AI Earth images",
-      "description": "Φsat-2, a miniature satellite, has completed its commissioning and has begun delivery of science data, using algorithms to efficiently process and compress Earth observation images, as well as detect wildfires, ships, marine pollution and more.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Phsat-2/Phsat-2_begins_science_phase_for_AI_Earth_images",
-      "source": "ESA",
+      "title": "Citizen Scientists Help Confirm Distant Exoplanet",
+      "description": "Distant exoplanets can be dodgy to spot even in the best of observations. Despite the challenges, a team of astronomers just reported the discovery of a gas giant exoplanet that lies about 400 light-years from Earth. It’s called TOI-4465 b and it takes 12 hours to transit across the face of its star during its 102-day orbit. TOI-4465 b was actually first observed by the Transiting Exoplanet Survey Satellite (TESS) and reported as a transit event. A transit is when the object being observed crosses in front of its star from our point of view here on Earth. That means the planet has to be in jus",
+      "link": "https://spectrum.ieee.org/exoplanet-citizen-science",
+      "source": "IEEE Spectrum",
       "field": "space",
-      "date": "2025-07-15"
-    },
-    {
-      "title": "Smile passes gruelling set of tests",
-      "description": "All its parts have been built and put together. It has been wrapped in shiny gold insulating foil. Its launch is getting closer. But the Smile spacecraft had one major phase to pass before it could be certified ready for space – and it involved testing, testing and yet more testing.",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_passes_gruelling_set_of_tests",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-07-15"
-    },
-    {
-      "title": "US-German Satellites Show California Water Gains After Record Winter",
-      "description": "In Brief: Early data shows the greatest net gain of water over the winter in nearly 22 years, but the state’s groundwater levels still suffer from the effects of years of drought. After years of intense drought and diminishing groundwater, California just saw its greatest year-over-year water gains in two decades, according to data from the GRACE-FO (Gravity Recovery and Climate Experiment Follow-On) satellite mission, a partnership between NASA and the German Research Centre for Geosciences (GFZ). This past winter’s bonanza of atmospheric rivers alleviated some of the water deficit that the s",
-      "link": "https://climate.nasa.gov/news/3272/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-06-09"
+      "date": "2025-07-06"
     },
     {
       "title": "NASA Program Builds Bridge From Military to Civilian Careers for Johnson Team Members",
@@ -1672,12 +1672,20 @@
       "date": "2025-07-16"
     },
     {
-      "title": "Summer Triangle Corner: Vega",
-      "description": "If you live in the Northern Hemisphere and look up during July evenings, you’ll see the brilliant star Vega shining overhead. Did you know that Vega is one of the most studied stars in our skies? As one of the brightest summer stars, Vega has fascinated astronomers for thousands of years.Vega is the brightest star in the […]",
-      "link": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/summer-triangle-corner-vega/",
-      "source": "NASA",
+      "title": "US-German Satellites Show California Water Gains After Record Winter",
+      "description": "In Brief: Early data shows the greatest net gain of water over the winter in nearly 22 years, but the state’s groundwater levels still suffer from the effects of years of drought. After years of intense drought and diminishing groundwater, California just saw its greatest year-over-year water gains in two decades, according to data from the GRACE-FO (Gravity Recovery and Climate Experiment Follow-On) satellite mission, a partnership between NASA and the German Research Centre for Geosciences (GFZ). This past winter’s bonanza of atmospheric rivers alleviated some of the water deficit that the s",
+      "link": "https://climate.nasa.gov/news/3272/",
+      "source": "NASA Climate",
       "field": "space",
-      "date": "2025-07-16"
+      "date": "2023-06-09"
+    },
+    {
+      "title": "Week in images: 14-18 July 2025",
+      "description": "Week in images: 14-18 July 2025 Discover our week through the lens",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_14-18_July_2025",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-07-18"
     },
     {
       "title": "New Apollo Earthrise view shows Juice’s RIME working well",
@@ -1694,6 +1702,22 @@
       "source": "ESA",
       "field": "space",
       "date": "2025-07-18"
+    },
+    {
+      "title": "Φsat-2 begins science phase for AI Earth images",
+      "description": "Φsat-2, a miniature satellite, has completed its commissioning and has begun delivery of science data, using algorithms to efficiently process and compress Earth observation images, as well as detect wildfires, ships, marine pollution and more.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Phsat-2/Phsat-2_begins_science_phase_for_AI_Earth_images",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-07-15"
+    },
+    {
+      "title": "Smile passes gruelling set of tests",
+      "description": "All its parts have been built and put together. It has been wrapped in shiny gold insulating foil. Its launch is getting closer. But the Smile spacecraft had one major phase to pass before it could be certified ready for space – and it involved testing, testing and yet more testing.",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_passes_gruelling_set_of_tests",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-07-15"
     },
     {
       "title": "SpaceX launches first of three missions for Amazon’s Project Kuiper constellation",
@@ -1720,14 +1744,6 @@
       "date": "2025-07-15"
     },
     {
-      "title": "You can’t judge a star by its protoplanetary disc",
-      "description": "Image: This image tells the story of redemption for one lonely star. The young star MP Mus (PDS 66) was thought to be all alone in the Universe, surrounded by nothing but a featureless band of gas and dust called a protoplanetary disc. In most cases, the material inside a protoplanetary disc condenses to form new planets around the star, leaving large gaps where the gas and dust used to be. These features are seen in almost every disc – but not in MP Mus’s. When astronomers first observed it with the Atacama Large Millimeter/submillimeter Array (ALMA), they saw a smooth, planet-free disc, show",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/05/You_can_t_judge_a_star_by_its_protoplanetary_disc",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-07-14"
-    },
-    {
       "title": "NASA, SpaceX target July 31 for Crew-11 launch to the ISS",
       "description": "The four-person crew will launch onboard Dragon Endeavour from pad 39A at NASA’s Kennedy Space Center. It will be the first time a SpaceX Crew Dragon capsule has flown for a sixth time.",
       "link": "https://spaceflightnow.com/2025/07/14/nasa-spacex-target-july-31-for-crew-11-launch-to-the-iss/",
@@ -1752,10 +1768,66 @@
       "date": "2025-07-03"
     },
     {
-      "title": "New AI system uncovers hidden cell subtypes, boosts precision medicine",
-      "description": "CellLENS reveals hidden patterns in cell behavior within tissues, offering deeper insights into cell heterogeneity — vital for advancing cancer immunotherapy.",
-      "link": "https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711",
+      "title": "Can AI really code? Study maps the roadblocks to autonomous software engineering",
+      "description": "A team of researchers has mapped the challenges of AI in software development, and outlined a research agenda to move the field forward.",
+      "link": "https://news.mit.edu/2025/can-ai-really-code-study-maps-roadblocks-to-autonomous-software-engineering-0716",
       "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "What do we owe each other?",
+      "description": "A new class teaches MIT students how to navigate a fast-changing world with a moral compass.",
+      "link": "https://news.mit.edu/2025/what-do-we-owe-each-other-0716",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "How to more efficiently study complex treatment interactions",
+      "description": "A new approach for testing multiple treatment combinations at once could help scientists develop drugs for cancer or genetic disorders.",
+      "link": "https://news.mit.edu/2025/more-efficiently-studying-complex-treatment-interactions-0716",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "What does it mean to do ‘community-based research’?",
+      "description": "From affordable housing in the Bay Area to Indigenous land rights in the Klamath River watershed, environmental scientist Sibyl Diver’s work depends on building lasting relationships.",
+      "link": "https://news.stanford.edu/stories/2025/07/what-does-it-mean-to-do-community-based-research",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "VR training can help build empathy in the workplace",
+      "description": "A new study led by researchers at the Stanford Accelerator for Learning explores how companies can use immersive technology to boost new managers’ relational skills.",
+      "link": "https://news.stanford.edu/stories/2025/07/stanford-research-finds-vr-training-can-help-build-empathy-in-the-workplace",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "Connect or reject: Extensive rewiring builds binocular vision in the brain",
+      "description": "A first-of-its-kind study in mice shows neurons add and shed synapses at a frenzied pace during development to integrate visual signals from the two eyes.",
+      "link": "https://news.mit.edu/2025/extensive-rewiring-builds-binocular-vision-in-brain-0715",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-15"
+    },
+    {
+      "title": "Professor Emeritus Daniel Kleppner, highly influential atomic physicist, dies at 92",
+      "description": "The “godfather of Bose-Einstein condensation” and MIT faculty member for 37 years led research into atomic, molecular, and optical physics that led to GPS and quantum computing.",
+      "link": "https://news.mit.edu/2025/atomic-physicist-daniel-kleppner-dies-0715",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-15"
+    },
+    {
+      "title": "Leveraging the tools of finance to achieve sustainable development",
+      "description": "Natural capital-based approaches are supporting financial tools that direct billions of dollars toward projects and development strategies that benefit both people and nature.",
+      "link": "https://news.stanford.edu/stories/2025/07/natural-capital-finance-tools-sustainable-development",
+      "source": "Stanford News",
       "field": "technology",
       "date": "2025-07-11"
     },
@@ -1768,76 +1840,60 @@
       "date": "2025-07-10"
     },
     {
-      "title": "Supporting mission-driven space innovation, for Earth and beyond",
-      "description": "Aurelia Institute, founded by a team from MIT, serves as a research lab, an education and outreach center, and a policy hub for the space industry.",
-      "link": "https://news.mit.edu/2025/supporting-mission-driven-space-innovation-aurelia-institute-0710",
+      "title": "New postdoctoral fellowship program to accelerate innovation in health care",
+      "description": "Launched with a gift from the Biswas Family Foundation, the Biswas Postdoctoral Fellowship Program will support postdocs in health and life sciences.",
+      "link": "https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707",
       "source": "MIT News",
       "field": "technology",
-      "date": "2025-07-10"
+      "date": "2025-07-07"
     },
     {
-      "title": "Citizen Scientists Help Confirm Distant Exoplanet",
-      "description": "Distant exoplanets can be dodgy to spot even in the best of observations. Despite the challenges, a team of astronomers just reported the discovery of a gas giant exoplanet that lies about 400 light-years from Earth. It’s called TOI-4465 b and it takes 12 hours to transit across the face of its star during its 102-day orbit. TOI-4465 b was actually first observed by the Transiting Exoplanet Survey Satellite (TESS) and reported as a transit event. A transit is when the object being observed crosses in front of its star from our point of view here on Earth. That means the planet has to be in jus",
-      "link": "https://spectrum.ieee.org/exoplanet-citizen-science",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-06"
-    },
-    {
-      "title": "AI Cameras Change Driver Behavior at Intersections",
-      "description": "In cities across the United States, an ambitious goal is gaining traction: Vision Zero, the strategy to eliminate all traffic fatalities and severe injuries. First implemented in Sweden in the 1990s, Vision Zero has already cut road deaths there by 50 percent from 2010 levels. Now, technology companies like Stop for Kids and Obvio.ai are trying to bring the results seen in Europe to U.S. streets with AI-powered camera systems designed to keep drivers honest, even when police aren’t around. Local governments are turning to AI-powered cameras to monitor intersections and catch drivers who see st",
-      "link": "https://spectrum.ieee.org/ai-intersection-monitoring",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-05"
-    },
-    {
-      "title": "This 1945 TV Console Showed Two Programs at Once",
-      "description": "As I try to write this article, my friend and I have six different screens attached to three types of devices. We’re working in the same room but on our own projects—separate yet together, a comfortable companionship. I had never really thought of the proliferation of screens as a peacekeeping tool until I stumbled across one of Allen B. DuMont’s 1950s dual-screen television sets. DuMont’s idea was to let two people in the same room watch different programs. It reminded me of my early childhood and my family’s one TV set, and the endless arguments with my sisters and parents over what to watch",
-      "link": "https://spectrum.ieee.org/dumont-duoscopic-tv-set",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-03"
-    },
-    {
-      "title": "Be Polarizing as a Job Seeker",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Taro and delivered to your inbox for free! There are countless technologies, tools, and frameworks to learn as an engineer. As a job seeker, this makes it extremely difficult to decide where to invest. You don’t want to spend a bunch of time learning something that employers don’t care about. So, how can you determine what to learn with your valuable time? The answer to this comes from the real",
-      "link": "https://spectrum.ieee.org/be-a-polarizing-job-seeker",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-02"
-    },
-    {
-      "title": "Vera Rubin: This Is How Far Engineers Go to Explore the Universe",
-      "description": "The Vera C. Rubin Observatory, in Chile, saw its first photon a few months ago, a monumental event 25 years in the making. Senior Editor Evan Ackerman’s journey to Chile, to see the observatory and talk with the team about the multiple and massive engineering challenges they overcame, itself took more than a year to plan. The visit was initiated by Italian photographer Enrico Sacchetti, who had arranged for exclusive access to the telescope. The story we wanted Ackerman to tell required more than a quick tour. So Sacchetti and Ackerman arranged to spend three nights on the summit of Cerro Pach",
-      "link": "https://spectrum.ieee.org/vera-rubin-engineering",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-02"
-    },
-    {
-      "title": "Evaluating AI language models just got more effective and efficient",
-      "description": "Assessing the progress of new AI language models can be as challenging as training them. Stanford researchers offer a new approach.",
-      "link": "https://news.stanford.edu/stories/2025/07/new-cost-effective-way-to-evaluate-AI-language-models",
+      "title": "A common food additive solves a sticky neuroscience problem",
+      "description": "An interdisciplinary team working on balls of human neurons called organoids wanted to scale up their efforts and take on important new questions. The solution was all around them.",
+      "link": "https://news.stanford.edu/stories/2025/07/a-common-food-additive-solves-a-sticky-neuroscience-problem",
       "source": "Stanford News",
       "field": "technology",
       "date": "2025-07-15"
     },
     {
-      "title": "What’s in your office?",
-      "description": "From collectible currency to a leather bullwhip, business school faculty share the props that help them bring concepts to life and remember lessons learned.",
-      "link": "https://news.stanford.edu/stories/2025/07/whats-in-your-office",
+      "title": "Five MIT faculty elected to the National Academy of Sciences for 2025",
+      "description": "Rodney Brooks, Parag Pathak, Scott Sheffield, Benjamin Weiss, Yukiko Yamashita, and 13 MIT alumni are recognized by their peers for their outstanding contributions to research.",
+      "link": "https://news.mit.edu/2025/faculty-elected-national-academy-sciences-0714",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-14"
+    },
+    {
+      "title": "Scientists discover compounds that help cells fight a wide range of viruses",
+      "description": "The molecules trigger a built-in cellular stress response and show promise as broad-spectrum antivirals against Zika, herpes, RSV, and more.",
+      "link": "https://news.mit.edu/2025/scientists-discover-compounds-helping-cells-fight-wide-range-viruses-0714",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-14"
+    },
+    {
+      "title": "Wildfire smoke: 5 things to know",
+      "description": "Marshall Burke and colleagues are working to quantify the growing public health menace, using data-driven analysis to inform potential solutions.",
+      "link": "https://news.stanford.edu/stories/2025/07/5-things-to-know-about-wildfire-smoke",
       "source": "Stanford News",
       "field": "technology",
       "date": "2025-07-14"
     },
     {
-      "title": "Advertisers win, users lose in an Instagram spinoff",
-      "description": "Meta could be forced to sell Instagram if a court rules it’s an illegal monopoly. New Stanford research into likely advertising effects suggests a split wouldn’t be good for users.",
-      "link": "https://news.stanford.edu/stories/2025/07/advertisers-win-users-lose-in-an-instagram-spinoff",
-      "source": "Stanford News",
+      "title": "Simulation-based pipeline tailors training data for dexterous robots",
+      "description": "The PhysicsGen system, developed by MIT researchers, helps robots handle items in homes and factories by tailoring training data to a particular machine.",
+      "link": "https://news.mit.edu/2025/simulation-based-pipeline-tailors-training-data-dexterous-robots-0711",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2025-07-14"
+      "date": "2025-07-11"
+    },
+    {
+      "title": "New AI system uncovers hidden cell subtypes, boosts precision medicine",
+      "description": "CellLENS reveals hidden patterns in cell behavior within tissues, offering deeper insights into cell heterogeneity — vital for advancing cancer immunotherapy.",
+      "link": "https://news.mit.edu/2025/ai-system-uncovers-hidden-cell-subtypes-boosts-precision-medicine-0711",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-11"
     },
     {
       "title": "Study shows a link between obesity and what’s on local restaurant menus",
@@ -1856,20 +1912,20 @@
       "date": "2025-07-10"
     },
     {
-      "title": "New postdoctoral fellowship program to accelerate innovation in health care",
-      "description": "Launched with a gift from the Biswas Family Foundation, the Biswas Postdoctoral Fellowship Program will support postdocs in health and life sciences.",
-      "link": "https://news.mit.edu/2025/new-postdoctoral-fellowship-program-accelerate-innovation-health-care-0707",
+      "title": "Supporting mission-driven space innovation, for Earth and beyond",
+      "description": "Aurelia Institute, founded by a team from MIT, serves as a research lab, an education and outreach center, and a policy hub for the space industry.",
+      "link": "https://news.mit.edu/2025/supporting-mission-driven-space-innovation-aurelia-institute-0710",
       "source": "MIT News",
       "field": "technology",
-      "date": "2025-07-07"
+      "date": "2025-07-10"
     },
     {
-      "title": "Exploring data and its influence on political behavior",
-      "description": "In MIT's course 17.831 (Data and Politics), students are introduced to the power of analysis, visualization, and research-supported insight into political outcomes.",
-      "link": "https://news.mit.edu/2025/exploring-data-and-its-influence-political-behavior-0707",
-      "source": "MIT News",
+      "title": "New project aims to explore the human-ocean connection",
+      "description": "Stanford researchers are creating an interdisciplinary approach to education that connects students with the complexities of ocean ecosystems and human interaction.",
+      "link": "https://news.stanford.edu/stories/2025/07/oceanic-humanities-project-ocean-systems-education",
+      "source": "Stanford News",
       "field": "technology",
-      "date": "2025-07-07"
+      "date": "2025-07-11"
     },
     {
       "title": "Designing across cultural and geographic divides",
@@ -1928,28 +1984,28 @@
       "date": "2025-07-15"
     },
     {
-      "title": "A common food additive solves a sticky neuroscience problem",
-      "description": "An interdisciplinary team working on balls of human neurons called organoids wanted to scale up their efforts and take on important new questions. The solution was all around them.",
-      "link": "https://news.stanford.edu/stories/2025/07/a-common-food-additive-solves-a-sticky-neuroscience-problem",
+      "title": "Evaluating AI language models just got more effective and efficient",
+      "description": "Assessing the progress of new AI language models can be as challenging as training them. Stanford researchers offer a new approach.",
+      "link": "https://news.stanford.edu/stories/2025/07/new-cost-effective-way-to-evaluate-AI-language-models",
       "source": "Stanford News",
       "field": "technology",
       "date": "2025-07-15"
     },
     {
-      "title": "Wildfire smoke: 5 things to know",
-      "description": "Marshall Burke and colleagues are working to quantify the growing public health menace, using data-driven analysis to inform potential solutions.",
-      "link": "https://news.stanford.edu/stories/2025/07/5-things-to-know-about-wildfire-smoke",
+      "title": "What’s in your office?",
+      "description": "From collectible currency to a leather bullwhip, business school faculty share the props that help them bring concepts to life and remember lessons learned.",
+      "link": "https://news.stanford.edu/stories/2025/07/whats-in-your-office",
       "source": "Stanford News",
       "field": "technology",
       "date": "2025-07-14"
     },
     {
-      "title": "New project aims to explore the human-ocean connection",
-      "description": "Stanford researchers are creating an interdisciplinary approach to education that connects students with the complexities of ocean ecosystems and human interaction.",
-      "link": "https://news.stanford.edu/stories/2025/07/oceanic-humanities-project-ocean-systems-education",
+      "title": "Advertisers win, users lose in an Instagram spinoff",
+      "description": "Meta could be forced to sell Instagram if a court rules it’s an illegal monopoly. New Stanford research into likely advertising effects suggests a split wouldn’t be good for users.",
+      "link": "https://news.stanford.edu/stories/2025/07/advertisers-win-users-lose-in-an-instagram-spinoff",
       "source": "Stanford News",
       "field": "technology",
-      "date": "2025-07-11"
+      "date": "2025-07-14"
     },
     {
       "title": "AI could make these common jobs more productive without sacrificing quality",
@@ -2008,102 +2064,6 @@
       "date": "2025-07-07"
     },
     {
-      "title": "Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87",
-      "description": "Widely known for his Synthetic Performer, Csound language, and work on the MPEG-4 audio standard, Vercoe positioned MIT as a hub for music technology through leadership roles with the Media Lab and Music and Theater Arts Section.",
-      "link": "https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-07"
-    },
-    {
-      "title": "What workers really want from AI",
-      "description": "A Stanford study captures the gap between worker desires and AI’s abilities, and highlights areas ripe for research and development.",
-      "link": "https://news.stanford.edu/stories/2025/07/what-workers-really-want-from-ai",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-07"
-    },
-    {
-      "title": "Intro robotics students build AI-powered robot dogs from scratch",
-      "description": "In CS 123, students bring together artificial intelligence and engineering fundamentals to design and upgrade “Pupper,” a walking quadruped robot.",
-      "link": "https://news.stanford.edu/stories/2025/07/ai-powered-robot-dogs-pupper-cs-123-robotics-students",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-07"
-    },
-    {
-      "title": "Stanford-led team shares honor for ‘revolutionizing’ study of high-energy cosmic phenomena",
-      "description": "The European Physical Society has awarded a top prize to the teams behind the Fermi Gamma-ray Space Telescope, which has yielded better understanding of pulsars, supermassive black holes, neutron stars, and more.",
-      "link": "https://news.stanford.edu/stories/2025/07/fermi-gamma-ray-space-telescope-high-energy-physics-award",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-07"
-    },
-    {
-      "title": "Signaling pathway could help heal lungs and pancreas",
-      "description": "Researchers have discovered that a specific signaling pathway can regenerate damaged tissue in the airways and pancreas of mice. The findings could hold promise for those with respiratory illnesses and metabolic syndrome.",
-      "link": "https://news.stanford.edu/stories/2025/07/signaling-pathway-damaged-tissues-airways-pancreas-respiratory-viruses",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-02"
-    },
-    {
-      "title": "This laser implosion just created a magnetic field like a neutron star",
-      "description": "A powerful new technique harnesses swirling plasma inside laser-blasted microtubes to produce record-breaking magnetic fields—rivaling those near neutron stars—all within a compact laboratory setup. This innovation promises to transform astrophysics, quantum research, and fusion energy experiments by unleashing megatesla-level forces using nothing more than targeted laser pulses and clever engineering.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250716000839.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-16"
-    },
-    {
-      "title": "This AI-powered lab runs itself—and discovers new materials 10x faster",
-      "description": "A new leap in lab automation is shaking up how scientists discover materials. By switching from slow, traditional methods to real-time, dynamic chemical experiments, researchers have created a self-driving lab that collects 10 times more data, drastically accelerating progress. This new system not only saves time and resources but also paves the way for faster breakthroughs in clean energy, electronics, and sustainability—bringing us closer to a future where lab discoveries happen in days, not years.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250714052105.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-14"
-    },
-    {
-      "title": "One tiny trick just broke light’s oldest rule — and changed optics forever",
-      "description": "Researchers have cracked a fundamental optical challenge: how to control both angle and wavelength of light independently—a problem that’s limited imaging and display technologies for years. By harnessing the power of radiation directionality and engineering bilayer metagratings with unique symmetry properties, they’ve decoupled these two variables for the first time. Their precise nanofabrication techniques allow for ultra-flat, highly aligned structures that selectively reflect light only at specific angles and wavelengths. This breakthrough could revolutionize AR/VR displays, spectral imagi",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250713031452.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-14"
-    },
-    {
-      "title": "First-of-its-kind crystal laser could power safer sensors and smarter tech",
-      "description": "Researchers at the University of Illinois have pulled off a laser first: they built a new kind of eye-safe laser that works at room temperature, using a buried layer of glass-like material instead of the usual air holes. This design not only boosts laser performance but also opens the door to safer and more precise uses in defense, autonomous vehicles, and advanced sensors. It’s a breakthrough in how we build and power lasers—and it might change what lasers can do in the real world.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250711224310.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-12"
-    },
-    {
-      "title": "‘It’s an audacious human endeavor’",
-      "description": "Stanford physicist Lauren Tompkins is trying to solve the mysteries of the universe with subatomic particles. Such work requires teams of thousands that collaborate across the world.",
-      "link": "https://news.stanford.edu/stories/2025/07/research-matters-lauren-tompkins",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-01"
-    },
-    {
-      "title": "Inhibiting enzyme could stabilize progression of Parkinson’s symptoms",
-      "description": "Stanford Medicine-led research in mice indicates that decreasing LRRK2 enzyme activity could halt cell death in patients with a type of Parkinson’s disease.",
-      "link": "https://news.stanford.edu/stories/2025/07/parkinsons-stabilize-symptons-lrrk2-enzyme-research",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-01"
-    },
-    {
-      "title": "The Concept of Technology in Late 18th-Century Germany",
-      "description": "Jocelyn Holland, professor of comparative literature at Caltech and an expert on the intellectual history of 18th- and 19th-century Germany, has written a new book published by Brill. In the work, Theory's Practice: Reflections on Technology in Germany Around 1800, Holland shows that although the term \"technology\" is widely thought to have become an object of theoretical interest only in the late 19th century, significant changes in how some individuals conceptualized technology were already underway in Germany in the late 18th century.This manner of thinking about technology does not fit into",
-      "link": "https://www.caltech.edu/about/news/concept-of-technology-in-late-18th-century-Germany",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-07-01"
-    },
-    {
       "title": "It looked like nothing—then scientists found a world 10x the size of Jupiter",
       "description": "Astronomers have uncovered a massive, hidden exoplanet nestled in the dusty disc of a young star—MP Mus—by combining cutting-edge data from the ALMA observatory and ESA’s Gaia mission. Initially thought to be planet-free, the star’s surrounding disc appeared deceptively empty. But new observations and a telltale stellar “wobble” pointed to a Jupiter-sized gas giant forming within the disc’s obscured gaps. This marks the first time a planet in such a disc has been detected using these tools, opening the door to finding more young worlds that have so far evaded detection.",
       "link": "https://www.sciencedaily.com/releases/2025/07/250714052108.htm",
@@ -2128,9 +2088,9 @@
       "date": "2025-07-11"
     },
     {
-      "title": "A brief history of “three-parent babies”",
-      "description": "This week we heard that eight babies have been born in the UK following an experimental form of IVF that involves DNA from three people. The approach was used to prevent women with genetic mutations from passing mitochondrial diseases to their children. You can read all about the results, and the reception to them, here. …",
-      "link": "https://www.technologyreview.com/2025/07/18/1120383/a-brief-history-of-three-parent-babies/",
+      "title": "The Download: how to run an LLM, and a history of “three-parent babies”",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How to run an LLM on your laptop In the early days of large language models, there was a high barrier to entry: it used to be impossible to run anything useful on…",
+      "link": "https://www.technologyreview.com/2025/07/18/1120453/the-download-how-to-run-an-llm-and-a-history-of-three-parent-babies/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2025-07-18"
@@ -2174,6 +2134,46 @@
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2025-07-17"
+    },
+    {
+      "title": "The Download: Veo 3’s subtitles problem, and the future of our planet’s resources",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Google’s generative video model Veo 3 has a subtitles problem As soon as Google launched its latest video-generating AI model at the end of May, creatives rushed to put it through its paces.…",
+      "link": "https://www.technologyreview.com/2025/07/16/1120240/the-download-veo-3s-subtitles-problem-and-the-future-of-our-planets-resources/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "Professor Emeritus Barry Vercoe, a pioneering force in computer music, dies at 87",
+      "description": "Widely known for his Synthetic Performer, Csound language, and work on the MPEG-4 audio standard, Vercoe positioned MIT as a hub for music technology through leadership roles with the Media Lab and Music and Theater Arts Section.",
+      "link": "https://news.mit.edu/2025/barry-vercoe-computer-music-visionary-dies-0707",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "What workers really want from AI",
+      "description": "A Stanford study captures the gap between worker desires and AI’s abilities, and highlights areas ripe for research and development.",
+      "link": "https://news.stanford.edu/stories/2025/07/what-workers-really-want-from-ai",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Intro robotics students build AI-powered robot dogs from scratch",
+      "description": "In CS 123, students bring together artificial intelligence and engineering fundamentals to design and upgrade “Pupper,” a walking quadruped robot.",
+      "link": "https://news.stanford.edu/stories/2025/07/ai-powered-robot-dogs-pupper-cs-123-robotics-students",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-07"
+    },
+    {
+      "title": "Stanford-led team shares honor for ‘revolutionizing’ study of high-energy cosmic phenomena",
+      "description": "The European Physical Society has awarded a top prize to the teams behind the Fermi Gamma-ray Space Telescope, which has yielded better understanding of pulsars, supermassive black holes, neutron stars, and more.",
+      "link": "https://news.stanford.edu/stories/2025/07/fermi-gamma-ray-space-telescope-high-energy-physics-award",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-07"
     },
     {
       "title": "The Download: three-person babies, and tracking “AI readiness” in the US",
