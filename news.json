@@ -1,9 +1,9 @@
 {
   "date": "2025-08-01",
-  "lastUpdated": "2025-08-01T08:24:02.422Z",
+  "lastUpdated": "2025-08-01T12:34:38.410Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "88.9s",
+    "executionTime": "41.4s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 23,
     "totalCandidates": 308,
@@ -12,12 +12,12 @@
       "health": 55,
       "climate": 40,
       "energy": 2,
-      "technology": 141,
+      "technology": 142,
       "education": 5,
       "development": 18,
       "peace": 10,
       "agriculture": 3,
-      "space": 34
+      "space": 33
     },
     "categoryIntegrity": {
       "health": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 141,
+        "kept": 142,
         "changed": 3
       },
       "education": {
@@ -53,13 +53,13 @@
         "changed": 0
       },
       "space": {
-        "kept": 25,
+        "kept": 24,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 64,
-      "topTierSources": 180,
+      "highScoreEntries": 63,
+      "topTierSources": 179,
       "highCredibilitySources": 278
     }
   },
@@ -433,14 +433,6 @@
       "date": "2025-06-03"
     },
     {
-      "title": "ADB Launches Regional Network to Accelerate Universal Health Coverage in Asia and the Pacific",
-      "description": "ADB President Masato Kanda announced the launch of the Universal Health Coverage Practitioners and Experts Knowledge Exchange and Resources, a regional peer-to-peer learning network to accelerate universal health coverage across Asia and the Pacific.",
-      "link": "https://www.adb.org/news/adb-launches-regional-network-accelerate-universal-health-coverage-asia-and-pacific",
-      "source": "Asian Development Bank",
-      "field": "health",
-      "date": "2025-07-08"
-    },
-    {
       "title": "WHO Director-General’s keynote speech at the 116th Rotary International Convention",
       "description": "Rotary President Stephanie Urchick and President-elect Francesco Arezzo, Distinguished Rotarians, dear colleagues and friends, First, thank you to Stephanie for the kind introduction, and I have fond memories of our meeting, and for all the support you have given us. Good morning – good evening from Geneva – and I’m really sorry I can’t be […]",
       "link": "https://polioeradication.org/news/who-director-generals-keynote-speech-at-the-116th-rotary-international-convention/",
@@ -455,6 +447,14 @@
       "source": "Polio Eradication",
       "field": "health",
       "date": "2025-06-13"
+    },
+    {
+      "title": "ADB Launches Regional Network to Accelerate Universal Health Coverage in Asia and the Pacific",
+      "description": "ADB President Masato Kanda announced the launch of the Universal Health Coverage Practitioners and Experts Knowledge Exchange and Resources, a regional peer-to-peer learning network to accelerate universal health coverage across Asia and the Pacific.",
+      "link": "https://www.adb.org/news/adb-launches-regional-network-accelerate-universal-health-coverage-asia-and-pacific",
+      "source": "Asian Development Bank",
+      "field": "health",
+      "date": "2025-07-08"
     },
     {
       "title": "WUENIC 2024: What latest immunization estimates mean for polio eradication",
@@ -889,18 +889,10 @@
       "date": "2025-07-31"
     },
     {
-      "title": "Building electronics that don’t die: Columbia's breakthrough at CERN",
-      "description": "Deep beneath the Swiss-French border, the Large Hadron Collider unleashes staggering amounts of energy and radiation—enough to fry most electronics. Enter a team of Columbia engineers, who built ultra-rugged, radiation-resistant chips that now play a pivotal role in capturing data from subatomic particle collisions. These custom-designed ADCs not only survive the hostile environment inside CERN but also help filter and digitize the most critical collision events, enabling physicists to study elusive phenomena like the Higgs boson.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250729001219.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-29"
-    },
-    {
-      "title": "Digital twins are reinventing clean energy — but there’s a catch",
-      "description": "Researchers are exploring AI-powered digital twins as a game-changing tool to accelerate the clean energy transition. These digital models simulate and optimize real-world energy systems like wind, solar, geothermal, hydro, and biomass. But while they hold immense promise for improving efficiency and sustainability, the technology is still riddled with challenges—from environmental variability and degraded equipment modeling to data scarcity and complex biological processes.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250729001217.htm",
-      "source": "ScienceDaily Tech",
+      "title": "“FUTURE PHASES” showcases new frontiers in music technology and interactive performance",
+      "description": "Groundbreaking MIT concert, featuring electronic and computer-generated music, was a part of the 2025 International Computer Music Conference.",
+      "link": "https://news.mit.edu/2025/future-phases-showcase-new-frontiers-music-technology-interactive-performance-0729",
+      "source": "MIT News",
       "field": "technology",
       "date": "2025-07-29"
     },
@@ -977,10 +969,58 @@
       "date": "2025-07-22"
     },
     {
-      "title": "“FUTURE PHASES” showcases new frontiers in music technology and interactive performance",
-      "description": "Groundbreaking MIT concert, featuring electronic and computer-generated music, was a part of the 2025 International Computer Music Conference.",
-      "link": "https://news.mit.edu/2025/future-phases-showcase-new-frontiers-music-technology-interactive-performance-0729",
-      "source": "MIT News",
+      "title": "Learning Analog System Design With the MOSbius",
+      "description": "When it comes to learning digital system design, hobbyists and students have a lot of options, whether it’s tinkering with field-programmable gate arrays or working up chip submission for a Tiny Tapeout run. But similar tools for analog design have been harder to come by. Certainly you can create analog circuits in a simulator like LTspice and test them against theory. But nothing beats building real analog circuits and measuring their actual, not theoretical, behavior. Measurement is complicated for analog designs because the test equipment can affect the very measurement being made. To addre",
+      "link": "https://spectrum.ieee.org/mosbius-learning-analog-system-design",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-30"
+    },
+    {
+      "title": "IEEE President-Elect Candidates On Their No. 1 Strategic Goal",
+      "description": "The annual IEEE election process begins in August, so be sure to check your mailbox for your ballot. To help you choose the 2026 IEEE president-elect, The Institute is publishing the candidates’ official biographies as well as a statement describing which IEEE Strategic Goal resonates with them the most and why it is particularly meaningful to them. The candidates are IEEE senior members Jill I. Gostin and David Alan Koehler. On 27 June, IEEE President Kathleen Kramer moderated the Meet the 2026 IEEE President-Elect Candidates Forum, where the candidates answered pressing questions from IEEE m",
+      "link": "https://spectrum.ieee.org/2026-president-elect-candidates",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-28"
+    },
+    {
+      "title": "The Telecommunications Pioneer Who Helped Connect the World",
+      "description": "Without Seizo Onoe, cellular phone networks would not be the source of global connectivity we know today. The IEEE life member was instrumental in driving the standardization for 3G and 4G mobile networks. The first-generation networks that launched in the late 1970s and early 1980s were largely country-specific, designed for making only domestic or regional calls. There was no way to send text messages or other data over 1G networks. And interference from other radio signals made 1G coverage unreliable; there were plenty of dropped calls. Plus, without encryption, eavesdropping was a persiste",
+      "link": "https://spectrum.ieee.org/telecommunication-pioneer-seizo-onoe",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-25"
+    },
+    {
+      "title": "Startup Claims up to 100x Better Embedded Computing Efficiency",
+      "description": "There’s a growing need for CPUs that can live life on the edge. That is, computing for a long time embedded in hard-to-get-to places and surviving on battery power or energy they can scrounge from the environment. Frustrated with inherent inefficiencies in the architecture of ultralow-power microprocessors, the founders of startup Efficient Computer decided to reinvent the general-purpose processor from the ground up for energy efficiency. “We’re doing something that has the capability of a CPU but is one or two orders of magnitude more efficient,” says cofounder Brandon Lucia. The result, the",
+      "link": "https://spectrum.ieee.org/efficient-computer-dataflow-architecture",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-24"
+    },
+    {
+      "title": "AI leaps from math dunce to whiz",
+      "description": "Experts describe how rapid advances are transforming field and classroom and expanding idea of what’s possible — ‘sky’s the limit’",
+      "link": "https://news.harvard.edu/gazette/story/2025/07/ai-leaps-from-math-dunce-to-whiz/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-07-23"
+    },
+    {
+      "title": "‘It’s through research that we can live longer, healthier lives’",
+      "description": "Harvard scientists discuss potential impacts of federal funding cuts — from U.S. brain drain to fewer medical breakthroughs",
+      "link": "https://news.harvard.edu/gazette/story/2025/07/its-through-research-that-we-can-live-longer-healthier-lives/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-07-21"
+    },
+    {
+      "title": "Building electronics that don’t die: Columbia's breakthrough at CERN",
+      "description": "Deep beneath the Swiss-French border, the Large Hadron Collider unleashes staggering amounts of energy and radiation—enough to fry most electronics. Enter a team of Columbia engineers, who built ultra-rugged, radiation-resistant chips that now play a pivotal role in capturing data from subatomic particle collisions. These custom-designed ADCs not only survive the hostile environment inside CERN but also help filter and digitize the most critical collision events, enabling physicists to study elusive phenomena like the Higgs boson.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250729001219.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-07-29"
     },
@@ -1169,6 +1209,14 @@
       "date": "2025-07-29"
     },
     {
+      "title": "Caltech's 2025 Artist-in-Residence Jessica Segall",
+      "description": "In her course \"Imaging Ecological Futures: Visual Art and Ecology,\" Jessica Segall, artist-in-residence with the Caltech-Huntington Program in Visual Culture, spent the spring 2025 term asking students to think about old and new ways of representing nature.Segall, a multimedia artist who has held numerous residencies in the United States and abroad, focuses her work on \"hostile and threatened landscapes,\" according to her website. She has had solo exhibitions in Miami, New York, Richmond, Philadelphia, and Cleveland, as well as in Germany, Denmark, the Netherlands, and France. She has also par",
+      "link": "https://www.caltech.edu/about/news/Caltechs_2025_artist-in-residence_Jessica_Segall",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-07-29"
+    },
+    {
       "title": "Why animals are a critical part of forest carbon absorption",
       "description": "An MIT study shows decreases in seed-dispersing animals can lead to a major reduction in forest carbon absorption.",
       "link": "https://news.mit.edu/2025/why-animals-are-critical-forest-carbon-absorption-0728",
@@ -1193,90 +1241,42 @@
       "date": "2025-07-24"
     },
     {
-      "title": "Learning Analog System Design With the MOSbius",
-      "description": "When it comes to learning digital system design, hobbyists and students have a lot of options, whether it’s tinkering with field-programmable gate arrays or working up chip submission for a Tiny Tapeout run. But similar tools for analog design have been harder to come by. Certainly you can create analog circuits in a simulator like LTspice and test them against theory. But nothing beats building real analog circuits and measuring their actual, not theoretical, behavior. Measurement is complicated for analog designs because the test equipment can affect the very measurement being made. To addre",
-      "link": "https://spectrum.ieee.org/mosbius-learning-analog-system-design",
-      "source": "IEEE Spectrum",
+      "title": "Tom Hutchcroft Honored by London Mathematical Society",
+      "description": "Tom Hutchcroft, the Gordon and Betty Moore Professor of Mathematics at Caltech, has received the 2025 Whitehead Prize from the London Mathematical Society. The prize is awarded yearly to mathematicians working in the United Kingdom, or educated there, who are at an early stage of their career. Hutchcroft earned his bachelor's degree in mathematics from Cambridge University in 2013.Hutchcroft's award citation states that he is being honored for \"for solving numerous fundamental problems in several areas of probability theory. He has exhibited deep creativity and ingenuity, primarily in the inte",
+      "link": "https://www.caltech.edu/about/news/tom-hutchcroft-honored-by-london-mathematical-society",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2025-07-30"
+      "date": "2025-07-23"
     },
     {
-      "title": "IEEE President-Elect Candidates On Their No. 1 Strategic Goal",
-      "description": "The annual IEEE election process begins in August, so be sure to check your mailbox for your ballot. To help you choose the 2026 IEEE president-elect, The Institute is publishing the candidates’ official biographies as well as a statement describing which IEEE Strategic Goal resonates with them the most and why it is particularly meaningful to them. The candidates are IEEE senior members Jill I. Gostin and David Alan Koehler. On 27 June, IEEE President Kathleen Kramer moderated the Meet the 2026 IEEE President-Elect Candidates Forum, where the candidates answered pressing questions from IEEE m",
-      "link": "https://spectrum.ieee.org/2026-president-elect-candidates",
-      "source": "IEEE Spectrum",
+      "title": "A new way to edit or generate images",
+      "description": "MIT researchers found that special kinds of neural networks, called encoders or “tokenizers,” can do much more than previously realized.",
+      "link": "https://news.mit.edu/2025/new-way-edit-or-generate-images-0721",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2025-07-28"
+      "date": "2025-07-21"
     },
     {
-      "title": "The Telecommunications Pioneer Who Helped Connect the World",
-      "description": "Without Seizo Onoe, cellular phone networks would not be the source of global connectivity we know today. The IEEE life member was instrumental in driving the standardization for 3G and 4G mobile networks. The first-generation networks that launched in the late 1970s and early 1980s were largely country-specific, designed for making only domestic or regional calls. There was no way to send text messages or other data over 1G networks. And interference from other radio signals made 1G coverage unreliable; there were plenty of dropped calls. Plus, without encryption, eavesdropping was a persiste",
-      "link": "https://spectrum.ieee.org/telecommunication-pioneer-seizo-onoe",
-      "source": "IEEE Spectrum",
+      "title": "MIT launches a “moonshot for menstruation science”",
+      "description": "The Fairbairn Menstruation Science Fund will allow researchers to accelerate the understanding and treatment of often-neglected diseases that tend to be more common in women.",
+      "link": "https://news.mit.edu/2025/mit-launches-moonshot-menstruation-for-science-0718",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2025-07-25"
+      "date": "2025-07-18"
     },
     {
-      "title": "Startup Claims up to 100x Better Embedded Computing Efficiency",
-      "description": "There’s a growing need for CPUs that can live life on the edge. That is, computing for a long time embedded in hard-to-get-to places and surviving on battery power or energy they can scrounge from the environment. Frustrated with inherent inefficiencies in the architecture of ultralow-power microprocessors, the founders of startup Efficient Computer decided to reinvent the general-purpose processor from the ground up for energy efficiency. “We’re doing something that has the capability of a CPU but is one or two orders of magnitude more efficient,” says cofounder Brandon Lucia. The result, the",
-      "link": "https://spectrum.ieee.org/efficient-computer-dataflow-architecture",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-24"
-    },
-    {
-      "title": "The two people shaping the future of OpenAI’s research",
-      "description": "For the past couple of years, OpenAI has felt like a one-man brand. With his showbiz style and fundraising glitz, CEO Sam Altman overshadows all other big names on the firm’s roster. Even his bungled ouster ended with him back on top—and more famous than ever. But look past the charismatic frontman and you get…",
-      "link": "https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-07-31"
-    },
-    {
-      "title": "How scholars in the Middle Eastern languages and cultures department understand a complex region",
-      "description": "Chair Christine Philliou, who studies the Ottoman Empire, discusses how languages new and ancient, history, religion, sociology and more can shed light on the Middle East. The post How scholars in the Middle Eastern languages and cultures department understand a complex region appeared first on Berkeley News.",
-      "link": "https://artshumanities.berkeley.edu/news/cuneiform-modern-greek-exploring-middle-eastern-languages-and-cultures-christine-philliou",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2025-07-30"
-    },
-    {
-      "title": "The AI Hype Index: The White House’s war on “woke AI”",
-      "description": "Separating AI reality from hyped-up fiction isn’t always easy. That’s why we’ve created the AI Hype Index—a simple, at-a-glance summary of everything you need to know about the state of the industry. The Trump administration recently declared war on so-called “woke AI,” issuing an executive order aimed at preventing companies whose models exhibit a liberal…",
-      "link": "https://www.technologyreview.com/2025/07/30/1120783/the-ai-hype-index-the-white-houses-war-on-woke-ai/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-07-30"
-    },
-    {
-      "title": "An EPA rule change threatens to gut US climate regulations",
-      "description": "This story is part of MIT Technology Review’s “America Undone” series, examining how the foundations of US success in science and innovation are currently under threat. You can read the rest here. The mechanism that allows the US federal government to regulate climate change is on the chopping block. On Tuesday, US Environmental Protection Agency administrator…",
-      "link": "https://www.technologyreview.com/2025/07/30/1120849/epa-endangerment-finding/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-07-30"
-    },
-    {
-      "title": "Photographer Chrissy Huhn documents California’s evolving landscapes",
-      "description": "From Mojave’s fire-scorched Joshua trees to Angel Island’s forgotten ruins, the UC Berkeley Library staffer's photos preserve the beauty, history and fragility of our awe-inspiring state. The post Photographer Chrissy Huhn documents California’s evolving landscapes appeared first on Berkeley News.",
-      "link": "https://www.lib.berkeley.edu/about/news/huhn-photos",
-      "source": "UC Berkeley",
+      "title": "Researchers create ‘virtual scientists’ to solve complex biological problems",
+      "description": "An AI lab developed by Stanford Medicine researchers has already shown promising results, generating ideas for a more effective COVID-19 vaccine in just a few days.",
+      "link": "https://news.stanford.edu/stories/2025/07/ai-virtual-scientists-lab-llms",
+      "source": "Stanford News",
       "field": "technology",
       "date": "2025-07-29"
     },
     {
-      "title": "OpenAI is launching a version of ChatGPT for college students",
-      "description": "OpenAI is launching Study Mode, a version of ChatGPT for college students that it promises will act less like a lookup tool and more like a friendly, always-available tutor. It’s part of a wider push by the company to get AI more embedded into classrooms when the new academic year starts in September. A demonstration…",
-      "link": "https://www.technologyreview.com/2025/07/29/1120801/openai-is-launching-a-version-of-chatgpt-for-college-students/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-07-29"
-    },
-    {
-      "title": "The Download: how to store energy underground, and what you may not know about Trump’s AI Action Plan",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. This startup wants to use the Earth as a massive battery Texas-based startup Quidnet Energy just completed a test showing it can store energy for up to six months by pumping water underground.…",
-      "link": "https://www.technologyreview.com/2025/07/29/1120771/the-download-how-to-store-energy-underground-and-what-you-may-not-know-about-trumps-ai-action-plan/",
-      "source": "MIT Tech Review",
+      "title": "Social science researchers use AI to simulate human subjects",
+      "description": "LLMs that emulate human speech are being used to cost-effectively test assumptions and run pilot studies, producing promising early results. But researchers note that human data remains essential.",
+      "link": "https://news.stanford.edu/stories/2025/07/ai-social-science-research-simulated-human-subjects",
+      "source": "Stanford News",
       "field": "technology",
       "date": "2025-07-29"
     },
@@ -1609,38 +1609,6 @@
       "date": "2025-07-30"
     },
     {
-      "title": "First MetOp Second Generation satellite fuelled",
-      "description": "The journey to launch is picking up pace for Europe’s MetOp Second Generation weather satellite – which hosts the Copernicus Sentinel-5 as part of its instrument package. Specialists at Europe’s Spaceport in Kourou have completed the critical and hazardous task of fuelling the satellite, marking a major milestone in its final preparations for liftoff.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/First_MetOp_Second_Generation_satellite_fuelled",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-07-24"
-    },
-    {
-      "title": "NASA Invites Proposals to Lease Aircraft Hangar in Cleveland",
-      "description": "NASA’s Glenn Research Center in Cleveland is seeking proposals for the use of its historic aircraft hangar, along with a parking lot, tarmac, and a small neighboring office building. Proposals are due by 1 p.m. EDT on Nov. 28. The hangar, formally known as the Flight Research Building, is available for lease by signing a […]",
-      "link": "https://www.nasa.gov/news-release/lease-nasa-aircraft-hangar-in-cleveland/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-07-31"
-    },
-    {
-      "title": "NASA Releases Opportunity to Boost Commercial Space Tech Development",
-      "description": "NASA has released a new proposal opportunity for industry to tap into agency know-how, resources, and expertise. The Announcement of Collaboration Opportunity (ACO), managed by the Space Technology Mission Directorate, enables valuable collaboration without financial exchanges between NASA and industry partners. Instead, companies leverage NASA subject matter experts, facilities, software, and hardware to accelerate their […]",
-      "link": "https://www.nasa.gov/directorates/stmd/nasa-releases-opportunity-to-boost-commercial-space-tech-development/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-07-30"
-    },
-    {
-      "title": "Curiosity Blog, Sols 4614-4615: Driving Along the Boxwork",
-      "description": "Written by Conor Hayes, Graduate Student at York University Earth planning date: Monday, July 28, 2025 Today was a pretty straightforward day of planning. Our drive over the weekend completed successfully, and we quickly confirmed that we are parked in a stable position. Thus, we were able to unstow the rover’s arm to poke around […]",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4614-4615-driving-along-the-boxwork/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-07-30"
-    },
-    {
       "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
       "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
       "link": "https://climate.nasa.gov/news/3293/",
@@ -1663,6 +1631,30 @@
       "source": "NASA Climate",
       "field": "space",
       "date": "2023-10-19"
+    },
+    {
+      "title": "Hubble Surveys Supernova-Rich Spiral",
+      "description": "Rich with detail, the face-on spiral galaxy NGC 1309 shines in this Hubble Space Telescope image.",
+      "link": "https://science.nasa.gov/missions/hubble/hubble-surveys-supernova-rich-spiral/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-08-01"
+    },
+    {
+      "title": "NASA Invites Proposals to Lease Aircraft Hangar in Cleveland",
+      "description": "NASA’s Glenn Research Center in Cleveland is seeking proposals for the use of its historic aircraft hangar, along with a parking lot, tarmac, and a small neighboring office building. Proposals are due by 1 p.m. EDT on Nov. 28. The hangar, formally known as the Flight Research Building, is available for lease by signing a […]",
+      "link": "https://www.nasa.gov/news-release/lease-nasa-aircraft-hangar-in-cleveland/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-07-31"
+    },
+    {
+      "title": "NASA Releases Opportunity to Boost Commercial Space Tech Development",
+      "description": "NASA has released a new proposal opportunity for industry to tap into agency know-how, resources, and expertise. The Announcement of Collaboration Opportunity (ACO), managed by the Space Technology Mission Directorate, enables valuable collaboration without financial exchanges between NASA and industry partners. Instead, companies leverage NASA subject matter experts, facilities, software, and hardware to accelerate their […]",
+      "link": "https://www.nasa.gov/directorates/stmd/nasa-releases-opportunity-to-boost-commercial-space-tech-development/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-07-30"
     },
     {
       "title": "Crews Head Down River, Out to Sea to Prep New SWOT Water Satellite",
@@ -1689,12 +1681,12 @@
       "date": "2023-06-09"
     },
     {
-      "title": "VV27 road to liftoff",
-      "description": "Video: 00:07:00 Highlights and liftoff of Vega-C flight VV27 from Europe’s Spaceport in French Guiana, at 23:03 local time on 25 July (03:03 BST/04:03 CEST on 26 July). Flight VV27 was operated by Arianespace and launched Airbus’s four CO3D satellites and the French space agency CNES MicroCarb mission. The four small satellites in the CO3D constellation (an abbreviation of the French 'Constellation Optique en 3D') are set to map the globe in three dimensions from low Earth orbit, to serve public and private sector needs. MicroCarb is designed to map sources and sinks of carbon dioxide on a glo",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/07/VV27_road_to_liftoff",
+      "title": "SMOS adds long-term view on carbon stored in forests",
+      "description": "Data from ESA’s Soil Moisture and Ocean Salinity (SMOS) mission can be used to estimate how much carbon is stored in forests – and a study has improved our understanding of how reliable this proxy is and how long-term datasets from SMOS can help us to monitor this valuable resource.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/SMOS/SMOS_adds_long-term_view_on_carbon_stored_in_forests",
       "source": "ESA",
       "field": "space",
-      "date": "2025-07-29"
+      "date": "2025-08-01"
     },
     {
       "title": "Zwicky Transient Facility Nabs an Interstellar Visitor",
@@ -1703,14 +1695,6 @@
       "source": "Caltech",
       "field": "space",
       "date": "2025-07-11"
-    },
-    {
-      "title": "SpaceX launches West Coast Falcon 9 rocket on Starlink 13-4 mission",
-      "description": "Some classified satellites might have hitched a ride with 19 Starlink satellites launched by SpaceX from the company’s West Coast launch site on Thursday.",
-      "link": "https://spaceflightnow.com/2025/07/31/space-x-launches-west-coast-falcon-9-rocket-on-starlink-13-4-mission/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-07-31"
     },
     {
       "title": "NASA Tests Epic Solution for Supersonic Parachute Deliveries",
@@ -1727,14 +1711,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2025-07-30"
-    },
-    {
-      "title": "Cumulus clouds scrub launch of Crew-11 mission to the Space Station",
-      "description": "The four members of the SpaceX Crew-11 flight were previously set to fly on different missions before they ended up as a quartet on the Dragon Endeavour spacecraft. Liftoff of the Falcon 9 rocket from pad 39A at NASA’s Kennedy Space Center is scheduled for no earlier than Friday, Aug. 1, at 11:43 a.m. EDT (1543 UTC).",
-      "link": "https://spaceflightnow.com/2025/07/31/live-coverage-nasa-spacex-to-launch-crew-11-mission-to-the-international-space-station-on-a-falcon-9-rocket-from-the-kennedy-space-center/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-07-31"
     },
     {
       "title": "Looking Forward to the Moon",
@@ -1769,12 +1745,28 @@
       "date": "2025-07-30"
     },
     {
-      "title": "Greenland subglacial flood bursts through ice sheet surface",
-      "description": "Using data from several Earth-observing satellites, including ESA’s CryoSat and the Copernicus Sentinel-1 and Sentinel-2 missions, scientists have discovered that a huge flood beneath the Greenland Ice Sheet surged upwards with such force that it fractured the ice sheet, resulting in a vast quantity of meltwater bursting through the ice surface.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Greenland_subglacial_flood_bursts_through_ice_sheet_surface",
+      "title": "VV27 road to liftoff",
+      "description": "Video: 00:07:00 Highlights and liftoff of Vega-C flight VV27 from Europe’s Spaceport in French Guiana, at 23:03 local time on 25 July (03:03 BST/04:03 CEST on 26 July). Flight VV27 was operated by Arianespace and launched Airbus’s four CO3D satellites and the French space agency CNES MicroCarb mission. The four small satellites in the CO3D constellation (an abbreviation of the French 'Constellation Optique en 3D') are set to map the globe in three dimensions from low Earth orbit, to serve public and private sector needs. MicroCarb is designed to map sources and sinks of carbon dioxide on a glo",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/07/VV27_road_to_liftoff",
       "source": "ESA",
       "field": "space",
-      "date": "2025-07-30"
+      "date": "2025-07-29"
+    },
+    {
+      "title": "SpaceX launches West Coast Falcon 9 rocket on Starlink 13-4 mission",
+      "description": "Some classified satellites might have hitched a ride with 19 Starlink satellites launched by SpaceX from the company’s West Coast launch site on Thursday.",
+      "link": "https://spaceflightnow.com/2025/07/31/space-x-launches-west-coast-falcon-9-rocket-on-starlink-13-4-mission/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-07-31"
+    },
+    {
+      "title": "Cumulus clouds scrub launch of Crew-11 mission to the Space Station",
+      "description": "The four members of the SpaceX Crew-11 flight were previously set to fly on different missions before they ended up as a quartet on the Dragon Endeavour spacecraft. Liftoff of the Falcon 9 rocket from pad 39A at NASA’s Kennedy Space Center is scheduled for no earlier than Friday, Aug. 1, at 11:43 a.m. EDT (1543 UTC).",
+      "link": "https://spaceflightnow.com/2025/07/31/live-coverage-nasa-spacex-to-launch-crew-11-mission-to-the-international-space-station-on-a-falcon-9-rocket-from-the-kennedy-space-center/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-07-31"
     },
     {
       "title": "SpaceX launches 28 Starlink satellites on a Falcon 9 rocket from Cape Canaveral",
@@ -1839,230 +1831,6 @@
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2025-07-22"
-    },
-    {
-      "title": "Ferroelectric Helps Break Transistor Limits",
-      "description": "Integrating an electronic material that exhibits a strange property called negative capacitance can help high-power gallium nitride transistors break through a performance barrier, say scientists in California. Research published in Science suggests that negative capacitance helps sidestep a physical limit that typically enforces trade-offs between how well a transistor performs in the “on” state versus how well it does in the “off” state. The researchers behind the project say this shows that negative capacitance, which has been extensively studied in silicon, may have broader applications th",
-      "link": "https://spectrum.ieee.org/negative-capacitance-schottky-limit",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-28"
-    },
-    {
-      "title": "Here Comes the World Wide Web of Everything",
-      "description": "When it was invented in 1991, the World Wide Web connected an Internet that was overrun with many thousands of individual, fragmented digital documents. HTML, Hypertext Markup Language, represented a daring leap. It combined the age-old idea of hypertext with the Internet’s global reach. Tim Berners-Lee’s new language offered up a lingua franca for interconnected information. Today, following the social media revolution, a new phase of the Internet is emerging. The Spatial Web promises to connect a physical world full of devices, phones, wearables, robots, drones, and even AI agents. In May, t",
-      "link": "https://spectrum.ieee.org/spatial-web-standard",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-24"
-    },
-    {
-      "title": "AI leaps from math dunce to whiz",
-      "description": "Experts describe how rapid advances are transforming field and classroom and expanding idea of what’s possible — ‘sky’s the limit’",
-      "link": "https://news.harvard.edu/gazette/story/2025/07/ai-leaps-from-math-dunce-to-whiz/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-07-23"
-    },
-    {
-      "title": "The Engineer Who Secured Nigeria’s Democracy",
-      "description": "In October 2000, when electrical engineer Steve A. Adeshina joined Nigeria’s Independent National Electoral Commission (INEC) as director of information and communication technology, the country had just held its first successful democratic general elections in 17 years. The 1999 elections were generally peaceful, if not entirely reliable, according to independent observers. They were also technologically old-school: “When I arrived, things were done essentially manually,” Adeshina recalls, with some voters being registered by hand and others by typewriter. Adeshina, who had been running his o",
-      "link": "https://spectrum.ieee.org/modernizing-nigerian-voting-system",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-23"
-    },
-    {
-      "title": "‘It’s through research that we can live longer, healthier lives’",
-      "description": "Harvard scientists discuss potential impacts of federal funding cuts — from U.S. brain drain to fewer medical breakthroughs",
-      "link": "https://news.harvard.edu/gazette/story/2025/07/its-through-research-that-we-can-live-longer-healthier-lives/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-07-21"
-    },
-    {
-      "title": "Caltech's 2025 Artist-in-Residence Jessica Segall",
-      "description": "In her course \"Imaging Ecological Futures: Visual Art and Ecology,\" Jessica Segall, artist-in-residence with the Caltech-Huntington Program in Visual Culture, spent the spring 2025 term asking students to think about old and new ways of representing nature.Segall, a multimedia artist who has held numerous residencies in the United States and abroad, focuses her work on \"hostile and threatened landscapes,\" according to her website. She has had solo exhibitions in Miami, New York, Richmond, Philadelphia, and Cleveland, as well as in Germany, Denmark, the Netherlands, and France. She has also par",
-      "link": "https://www.caltech.edu/about/news/Caltechs_2025_artist-in-residence_Jessica_Segall",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-07-29"
-    },
-    {
-      "title": "Tom Hutchcroft Honored by London Mathematical Society",
-      "description": "Tom Hutchcroft, the Gordon and Betty Moore Professor of Mathematics at Caltech, has received the 2025 Whitehead Prize from the London Mathematical Society. The prize is awarded yearly to mathematicians working in the United Kingdom, or educated there, who are at an early stage of their career. Hutchcroft earned his bachelor's degree in mathematics from Cambridge University in 2013.Hutchcroft's award citation states that he is being honored for \"for solving numerous fundamental problems in several areas of probability theory. He has exhibited deep creativity and ingenuity, primarily in the inte",
-      "link": "https://www.caltech.edu/about/news/tom-hutchcroft-honored-by-london-mathematical-society",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-07-23"
-    },
-    {
-      "title": "What Makes Us Persist Toward Long-Term Goals?",
-      "description": "At any one time, most people are pursuing multiple goals: answering email, doing the laundry, choosing how to invest retirement savings, helping a child with their math homework. When confronted with such variety, how do we choose which goals we will attend to at any given time? We obviously can't do our laundry if we're on an airplane, but stripping away these kinds of circumstances and examining persistence toward goals in general, what factors lead us to continue to work toward a specific goal, and which make us more likely to switch to a different goal, at least temporarily?Graduate studen",
-      "link": "https://www.caltech.edu/about/news/what-makes-us-persist-toward-long-term-goals",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-07-16"
-    },
-    {
-      "title": "Calculating the Electron's Magnetic Moment",
-      "description": "Quantum mechanics has a reputation that precedes it. Virtually everyone who has bumped up against the quantum realm, whether in a physics class, in the lab, or in popular science writing, is left thinking something like, \"Now, that is really weird.\" For some, this translates to weird and wonderful. For others it is more like weird and disturbing.Chip Sebens, a professor of philosophy at Caltech who asks foundational questions about physics, is firmly in the latter camp. \"Philosophers of physics generally get really frustrated when people just say, 'OK, here's quantum mechanics. It's going to b",
-      "link": "https://www.caltech.edu/about/news/calculating-the-electrons-magnetic-moment",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-07-09"
-    },
-    {
-      "title": "Berkeley computer scientists propose evidence-based AI policies",
-      "description": "In a new article, the researchers articulate a vision for AI policy that would improve the safety of new technologies without stifling innovation. The post Berkeley computer scientists propose evidence-based AI policies appeared first on Berkeley News.",
-      "link": "https://cdss.berkeley.edu/news/berkeley-computer-science-researchers-propose-evidence-based-ai-policy-recommendations",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2025-07-31"
-    },
-    {
-      "title": "Road to game-changing cancer treatment",
-      "description": "The recent development of cancer immunotherapies marks a turning point in the centuries-old quest to fight cancer by harnessing the power of patients’ own immune systems.",
-      "link": "https://news.harvard.edu/gazette/story/2025/07/road-to-game-changing-cancer-treatment/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-07-21"
-    },
-    {
-      "title": "Faster, Safer Cars Come Into Focus With New Optical Network Tech",
-      "description": "Madrid-based fabless semiconductor company KD and Fremont, Calif.–based embedded camera maker Leopard Imaging have launched a significant upgrade to cameras for vehicle vision systems. It’s the first system for automotive applications with an Ethernet networking backbone to break the 10-gigabit-per-second transmission speed barrier. 10 Gb/s is 10,000 times as fast as the widely used 1-megabit-per-second Controller Area Network (CAN) protocol, marking a shift from legacy in-vehicle networks like CAN, the 20-kilobit-per-second Local Interconnect Network (LIN) protocol, and even 1-Gb/s Ethernet t",
-      "link": "https://spectrum.ieee.org/car-cameras-kd-automotive-vision",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-07-21"
-    },
-    {
-      "title": "Direct measure of atomic heat disproves decades-old theory",
-      "description": "An innovative method to measure atom temperature in extremely hot materials is already changing our understanding of the world, overturning long-held beliefs about superheating.",
-      "link": "https://news.stanford.edu/stories/2025/07/superheating-measuring-atom-temperature-hot-materials-research-technique",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-23"
-    },
-    {
-      "title": "Exploring the ‘crazy, giant shift’ in investment portfolios toward alternative assets",
-      "description": "Like other investors, pension managers want to beat the market. And according to a new study, they’re willing to take bigger risks to do so.",
-      "link": "https://news.stanford.edu/stories/2025/07/public-pensions-alternative-investments-research",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-22"
-    },
-    {
-      "title": "Confronting China’s grip on graphite for batteries",
-      "description": "At recent Stanford-led talks in Washington, D.C., experts focused on reducing the costs of U.S. graphite manufacturing amid China’s near-total control of the market.",
-      "link": "https://news.stanford.edu/stories/2025/07/china-united-states-graphite-batteries-production",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-22"
-    },
-    {
-      "title": "Sustainability Accelerator selects 41 new projects with rapid scale-up potential",
-      "description": "The latest awards support cross-disciplinary initiatives addressing real-world sustainability challenges in food, agriculture, industry, water, electricity, and biology.",
-      "link": "https://news.stanford.edu/stories/2025/07/sustainability-accelerator-projects-food-agriculture-water-sustainability-research",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-22"
-    },
-    {
-      "title": "Antibody enables stem cell transplants without toxic side effects",
-      "description": "A new approach developed at Stanford Medicine has successfully treated a genetic disease by enabling stem cell transplants without the need for chemotherapy or radiation.",
-      "link": "https://news.stanford.edu/stories/2025/07/stem-cell-transplant-treats-genetic-disease-no-toxic-side-effects-research",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-22"
-    },
-    {
-      "title": "\"Third Wheel\" Star Brings Companions Closer Together",
-      "description": "When white dwarfs—the hot remnants of stars like our Sun—are orbited closely by another star, they sometimes steal mass away from their companion. The stolen matter builds up on the surface of the white dwarf, triggering eruptions called novae.Theorists have long predicted how these volatile partnerships, called cataclysmic variables (CVs), form, but now a new Caltech-led study reveals a surprising twist: In some cases, a third star, circling farther away from the primary pair, may in fact be the reason the star couple got together in the first place.\"Our results are revealing another formatio",
-      "link": "https://www.caltech.edu/about/news/third-wheel-star-brings-companions-closer-together",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-07-08"
-    },
-    {
-      "title": "Scientists just cracked the cryptographic code behind quantum supremacy",
-      "description": "Quantum computing may one day outperform classical machines in solving certain complex problems, but when and how this “quantum advantage” emerges has remained unclear. Now, researchers from Kyoto University have linked this advantage to cryptographic puzzles, showing that the same conditions that allow secure quantum cryptography also define when quantum computing outpaces classical methods.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250727235831.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-28"
-    },
-    {
-      "title": "An ‘impossible’ 20-electron molecule challenges 100 years of chemistry",
-      "description": "Scientists at OIST have defied a foundational rule in chemistry by creating a stable 20-electron version of ferrocene—an organometallic molecule once thought to be limited to 18 valence electrons. This discovery not only challenges conventional wisdom but unlocks new chemical behaviors and redox states, potentially transforming how catalysts and materials are designed.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250727235814.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-28"
-    },
-    {
-      "title": "You’ve never seen atoms like this before: A hidden motion revealed",
-      "description": "A pioneering team at the University of Maryland has captured the first-ever images of atomic thermal vibrations, unlocking an unseen world of motion within two-dimensional materials. Their innovative electron ptychography technique revealed elusive “moiré phasons,” a long-theorized phenomenon that governs heat, electronic behavior, and structural order at the atomic level. This discovery not only confirms decades-old theories but also provides a new lens for building the future of quantum computing, ultra-efficient electronics, and advanced nanosensors.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250724232414.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-26"
-    },
-    {
-      "title": "AI turns immune cells into precision cancer killers—in just weeks",
-      "description": "A breakthrough AI system is revolutionizing cancer immunotherapy by enabling scientists to design protein-based keys that train a patient s immune cells to attack cancer with extreme precision. This method, capable of reducing development time from years to weeks, was successfully tested on known and patient-specific tumor targets. Using virtual safety screenings to avoid harmful side effects, the platform represents a leap forward in personalized medicine.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250724232416.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-25"
-    },
-    {
-      "title": "Harvard’s ultra-thin chip could revolutionize quantum computing",
-      "description": "Researchers at Harvard have created a groundbreaking metasurface that can replace bulky and complex optical components used in quantum computing with a single, ultra-thin, nanostructured layer. This innovation could make quantum networks far more scalable, stable, and compact. By harnessing the power of graph theory, the team simplified the design of these quantum metasurfaces, enabling them to generate entangled photons and perform sophisticated quantum operations — all on a chip thinner than a human hair. It's a radical leap forward for room-temperature quantum technology and photonics.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250724232413.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-25"
-    },
-    {
-      "title": "One small qubit, one giant leap for quantum computing",
-      "description": "Aalto University physicists in Finland have set a new benchmark in quantum computing by achieving a record-breaking millisecond coherence in a transmon qubit — nearly doubling prior limits. This development not only opens the door to far more powerful and stable quantum computations but also reduces the burden of error correction.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250724040459.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-24"
-    },
-    {
-      "title": "Concrete that lasts centuries and captures carbon? AI just made it possible",
-      "description": "Imagine concrete that not only survives wildfires and extreme weather, but heals itself and absorbs carbon from the air. Scientists at USC have created an AI model called Allegro-FM that simulates billions of atoms at once, helping design futuristic materials like carbon-neutral concrete. This tech could transform cities by reducing emissions, extending building lifespans, and mimicking the ancient durability of Roman concrete—all thanks to a massive leap in AI-driven atomic modeling.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250723045707.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-24"
-    },
-    {
-      "title": "A new way to edit or generate images",
-      "description": "MIT researchers found that special kinds of neural networks, called encoders or “tokenizers,” can do much more than previously realized.",
-      "link": "https://news.mit.edu/2025/new-way-edit-or-generate-images-0721",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-21"
-    },
-    {
-      "title": "MIT launches a “moonshot for menstruation science”",
-      "description": "The Fairbairn Menstruation Science Fund will allow researchers to accelerate the understanding and treatment of often-neglected diseases that tend to be more common in women.",
-      "link": "https://news.mit.edu/2025/mit-launches-moonshot-menstruation-for-science-0718",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-07-18"
-    },
-    {
-      "title": "Researchers create ‘virtual scientists’ to solve complex biological problems",
-      "description": "An AI lab developed by Stanford Medicine researchers has already shown promising results, generating ideas for a more effective COVID-19 vaccine in just a few days.",
-      "link": "https://news.stanford.edu/stories/2025/07/ai-virtual-scientists-lab-llms",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-29"
     },
     {
       "title": "How Stanford researchers are designing fair and trustworthy AI systems",
@@ -2201,14 +1969,6 @@
       "date": "2025-07-24"
     },
     {
-      "title": "Experts seek collaborative solutions to Southeast Asia’s ‘paradox of sustainability’",
-      "description": "A recent summit explored U.S.-Southeast Asia collaboration to fulfill the competing promises of economic growth and greater sustainability.",
-      "link": "https://news.stanford.edu/stories/2025/07/summit-southeast-asia-paradox-sustainability-economic-growth",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-07-24"
-    },
-    {
       "title": "Professor Emeritus Keith Johnson, pioneering theorist in materials science and independent filmmaker, dies at 89",
       "description": "Longtime MIT solid-state physicist brought theoretical insights to an experiment-driven discipline — and later, to film.",
       "link": "https://news.mit.edu/2025/keith-johnson-materials-scientist-independent-filmmaker-dies-0723",
@@ -2257,12 +2017,92 @@
       "date": "2025-07-21"
     },
     {
-      "title": "What Americans actually think about taxes",
-      "description": "Andrea Campbell’s new book shows that what we say we want on taxes doesn’t always match what we prefer in practice.",
-      "link": "https://news.mit.edu/2025/what-americans-actually-think-about-taxes-andrea-campbell-book-0721",
-      "source": "MIT News",
+      "title": "What Makes Us Persist Toward Long-Term Goals?",
+      "description": "At any one time, most people are pursuing multiple goals: answering email, doing the laundry, choosing how to invest retirement savings, helping a child with their math homework. When confronted with such variety, how do we choose which goals we will attend to at any given time? We obviously can't do our laundry if we're on an airplane, but stripping away these kinds of circumstances and examining persistence toward goals in general, what factors lead us to continue to work toward a specific goal, and which make us more likely to switch to a different goal, at least temporarily?Graduate studen",
+      "link": "https://www.caltech.edu/about/news/what-makes-us-persist-toward-long-term-goals",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-07-16"
+    },
+    {
+      "title": "Calculating the Electron's Magnetic Moment",
+      "description": "Quantum mechanics has a reputation that precedes it. Virtually everyone who has bumped up against the quantum realm, whether in a physics class, in the lab, or in popular science writing, is left thinking something like, \"Now, that is really weird.\" For some, this translates to weird and wonderful. For others it is more like weird and disturbing.Chip Sebens, a professor of philosophy at Caltech who asks foundational questions about physics, is firmly in the latter camp. \"Philosophers of physics generally get really frustrated when people just say, 'OK, here's quantum mechanics. It's going to b",
+      "link": "https://www.caltech.edu/about/news/calculating-the-electrons-magnetic-moment",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-07-09"
+    },
+    {
+      "title": "Berkeley computer scientists propose evidence-based AI policies",
+      "description": "In a new article, the researchers articulate a vision for AI policy that would improve the safety of new technologies without stifling innovation. The post Berkeley computer scientists propose evidence-based AI policies appeared first on Berkeley News.",
+      "link": "https://cdss.berkeley.edu/news/berkeley-computer-science-researchers-propose-evidence-based-ai-policy-recommendations",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2025-07-31"
+    },
+    {
+      "title": "Road to game-changing cancer treatment",
+      "description": "The recent development of cancer immunotherapies marks a turning point in the centuries-old quest to fight cancer by harnessing the power of patients’ own immune systems.",
+      "link": "https://news.harvard.edu/gazette/story/2025/07/road-to-game-changing-cancer-treatment/",
+      "source": "Harvard Gazette",
       "field": "technology",
       "date": "2025-07-21"
+    },
+    {
+      "title": "Experts seek collaborative solutions to Southeast Asia’s ‘paradox of sustainability’",
+      "description": "A recent summit explored U.S.-Southeast Asia collaboration to fulfill the competing promises of economic growth and greater sustainability.",
+      "link": "https://news.stanford.edu/stories/2025/07/summit-southeast-asia-paradox-sustainability-economic-growth",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-24"
+    },
+    {
+      "title": "Direct measure of atomic heat disproves decades-old theory",
+      "description": "An innovative method to measure atom temperature in extremely hot materials is already changing our understanding of the world, overturning long-held beliefs about superheating.",
+      "link": "https://news.stanford.edu/stories/2025/07/superheating-measuring-atom-temperature-hot-materials-research-technique",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-23"
+    },
+    {
+      "title": "Exploring the ‘crazy, giant shift’ in investment portfolios toward alternative assets",
+      "description": "Like other investors, pension managers want to beat the market. And according to a new study, they’re willing to take bigger risks to do so.",
+      "link": "https://news.stanford.edu/stories/2025/07/public-pensions-alternative-investments-research",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-22"
+    },
+    {
+      "title": "Confronting China’s grip on graphite for batteries",
+      "description": "At recent Stanford-led talks in Washington, D.C., experts focused on reducing the costs of U.S. graphite manufacturing amid China’s near-total control of the market.",
+      "link": "https://news.stanford.edu/stories/2025/07/china-united-states-graphite-batteries-production",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-22"
+    },
+    {
+      "title": "Sustainability Accelerator selects 41 new projects with rapid scale-up potential",
+      "description": "The latest awards support cross-disciplinary initiatives addressing real-world sustainability challenges in food, agriculture, industry, water, electricity, and biology.",
+      "link": "https://news.stanford.edu/stories/2025/07/sustainability-accelerator-projects-food-agriculture-water-sustainability-research",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-07-22"
+    },
+    {
+      "title": "\"Third Wheel\" Star Brings Companions Closer Together",
+      "description": "When white dwarfs—the hot remnants of stars like our Sun—are orbited closely by another star, they sometimes steal mass away from their companion. The stolen matter builds up on the surface of the white dwarf, triggering eruptions called novae.Theorists have long predicted how these volatile partnerships, called cataclysmic variables (CVs), form, but now a new Caltech-led study reveals a surprising twist: In some cases, a third star, circling farther away from the primary pair, may in fact be the reason the star couple got together in the first place.\"Our results are revealing another formatio",
+      "link": "https://www.caltech.edu/about/news/third-wheel-star-brings-companions-closer-together",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-07-08"
+    },
+    {
+      "title": "How decades-old frozen embryos are changing the shape of families",
+      "description": "This week we welcomed a record-breaking baby to the world. Thaddeus Daniel Pierce, who arrived over the weekend, developed from an embryo that was frozen in storage for 30 and a half years. You could call him the world’s oldest baby. His parents, Lindsey and Tim Pierce, were themselves only young children when that embryo…",
+      "link": "https://www.technologyreview.com/2025/08/01/1120911/decades-old-frozen-embryos-are-changing-the-shape-of-families/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-08-01"
     },
     {
       "title": "Three standout stories uncovered by the California Local News Fellowship",
@@ -2281,9 +2121,9 @@
       "date": "2025-07-31"
     },
     {
-      "title": "The Download: OpenAI’s future research, and US climate regulation is under threat",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The two people shaping the future of OpenAI’s research —Will Douglas Heaven For the past couple of years, OpenAI has felt like a one-man brand. With his showbiz style and fundraising glitz, CEO…",
-      "link": "https://www.technologyreview.com/2025/07/31/1120890/the-download-openais-future-research-and-us-climate-regulation-is-under-threat/",
+      "title": "The two people shaping the future of OpenAI’s research",
+      "description": "For the past couple of years, OpenAI has felt like a one-man brand. With his showbiz style and fundraising glitz, CEO Sam Altman overshadows all other big names on the firm’s roster. Even his bungled ouster ended with him back on top—and more famous than ever. But look past the charismatic frontman and you get…",
+      "link": "https://www.technologyreview.com/2025/07/31/1120885/the-two-people-shaping-the-future-of-openais-research/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2025-07-31"
@@ -2305,10 +2145,10 @@
       "date": "2025-07-30"
     },
     {
-      "title": "Roundtables: Why It’s So Hard to Make Welfare AI Fair",
-      "description": "Amsterdam tried using algorithms to fairly assess welfare applicants, but bias still crept in. Why did Amsterdam fail? And more important, can this ever be done right? Hear from MIT Technology Review editor Amanda Silverman, investigative reporter Eileen Guo, and Lighthouse Reports investigative reporter Gabriel Geiger as they explore if algorithms can ever be fair. Speakers:…",
-      "link": "https://www.technologyreview.com/2025/07/30/1120275/roundtables-why-its-so-hard-to-make-welfare-ai-fair/",
-      "source": "MIT Tech Review",
+      "title": "How scholars in the Middle Eastern languages and cultures department understand a complex region",
+      "description": "Chair Christine Philliou, who studies the Ottoman Empire, discusses how languages new and ancient, history, religion, sociology and more can shed light on the Middle East. The post How scholars in the Middle Eastern languages and cultures department understand a complex region appeared first on Berkeley News.",
+      "link": "https://artshumanities.berkeley.edu/news/cuneiform-modern-greek-exploring-middle-eastern-languages-and-cultures-christine-philliou",
+      "source": "UC Berkeley",
       "field": "technology",
       "date": "2025-07-30"
     },
@@ -2343,6 +2183,174 @@
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2025-07-29"
+    },
+    {
+      "title": "Photographer Chrissy Huhn documents California’s evolving landscapes",
+      "description": "From Mojave’s fire-scorched Joshua trees to Angel Island’s forgotten ruins, the UC Berkeley Library staffer's photos preserve the beauty, history and fragility of our awe-inspiring state. The post Photographer Chrissy Huhn documents California’s evolving landscapes appeared first on Berkeley News.",
+      "link": "https://www.lib.berkeley.edu/about/news/huhn-photos",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2025-07-29"
+    },
+    {
+      "title": "Ferroelectric Helps Break Transistor Limits",
+      "description": "Integrating an electronic material that exhibits a strange property called negative capacitance can help high-power gallium nitride transistors break through a performance barrier, say scientists in California. Research published in Science suggests that negative capacitance helps sidestep a physical limit that typically enforces trade-offs between how well a transistor performs in the “on” state versus how well it does in the “off” state. The researchers behind the project say this shows that negative capacitance, which has been extensively studied in silicon, may have broader applications th",
+      "link": "https://spectrum.ieee.org/negative-capacitance-schottky-limit",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-28"
+    },
+    {
+      "title": "Here Comes the World Wide Web of Everything",
+      "description": "When it was invented in 1991, the World Wide Web connected an Internet that was overrun with many thousands of individual, fragmented digital documents. HTML, Hypertext Markup Language, represented a daring leap. It combined the age-old idea of hypertext with the Internet’s global reach. Tim Berners-Lee’s new language offered up a lingua franca for interconnected information. Today, following the social media revolution, a new phase of the Internet is emerging. The Spatial Web promises to connect a physical world full of devices, phones, wearables, robots, drones, and even AI agents. In May, t",
+      "link": "https://spectrum.ieee.org/spatial-web-standard",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-24"
+    },
+    {
+      "title": "The Engineer Who Secured Nigeria’s Democracy",
+      "description": "In October 2000, when electrical engineer Steve A. Adeshina joined Nigeria’s Independent National Electoral Commission (INEC) as director of information and communication technology, the country had just held its first successful democratic general elections in 17 years. The 1999 elections were generally peaceful, if not entirely reliable, according to independent observers. They were also technologically old-school: “When I arrived, things were done essentially manually,” Adeshina recalls, with some voters being registered by hand and others by typewriter. Adeshina, who had been running his o",
+      "link": "https://spectrum.ieee.org/modernizing-nigerian-voting-system",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-23"
+    },
+    {
+      "title": "Faster, Safer Cars Come Into Focus With New Optical Network Tech",
+      "description": "Madrid-based fabless semiconductor company KD and Fremont, Calif.–based embedded camera maker Leopard Imaging have launched a significant upgrade to cameras for vehicle vision systems. It’s the first system for automotive applications with an Ethernet networking backbone to break the 10-gigabit-per-second transmission speed barrier. 10 Gb/s is 10,000 times as fast as the widely used 1-megabit-per-second Controller Area Network (CAN) protocol, marking a shift from legacy in-vehicle networks like CAN, the 20-kilobit-per-second Local Interconnect Network (LIN) protocol, and even 1-Gb/s Ethernet t",
+      "link": "https://spectrum.ieee.org/car-cameras-kd-automotive-vision",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-07-21"
+    },
+    {
+      "title": "The Download: how fertility tech is changing families, and Trump’s latest tariffs",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How decades-old frozen embryos are changing the shape of families This week we welcomed a record-breaking baby to the world. Thaddeus Daniel Pierce, who arrived over the weekend, developed from an embryo that…",
+      "link": "https://www.technologyreview.com/2025/08/01/1120918/the-download-how-fertility-tech-is-changing-families-and-trumps-latest-tariffs/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-08-01"
+    },
+    {
+      "title": "The Download: OpenAI’s future research, and US climate regulation is under threat",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The two people shaping the future of OpenAI’s research —Will Douglas Heaven For the past couple of years, OpenAI has felt like a one-man brand. With his showbiz style and fundraising glitz, CEO…",
+      "link": "https://www.technologyreview.com/2025/07/31/1120890/the-download-openais-future-research-and-us-climate-regulation-is-under-threat/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-07-31"
+    },
+    {
+      "title": "The AI Hype Index: The White House’s war on “woke AI”",
+      "description": "Separating AI reality from hyped-up fiction isn’t always easy. That’s why we’ve created the AI Hype Index—a simple, at-a-glance summary of everything you need to know about the state of the industry. The Trump administration recently declared war on so-called “woke AI,” issuing an executive order aimed at preventing companies whose models exhibit a liberal…",
+      "link": "https://www.technologyreview.com/2025/07/30/1120783/the-ai-hype-index-the-white-houses-war-on-woke-ai/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-07-30"
+    },
+    {
+      "title": "An EPA rule change threatens to gut US climate regulations",
+      "description": "This story is part of MIT Technology Review’s “America Undone” series, examining how the foundations of US success in science and innovation are currently under threat. You can read the rest here. The mechanism that allows the US federal government to regulate climate change is on the chopping block. On Tuesday, US Environmental Protection Agency administrator…",
+      "link": "https://www.technologyreview.com/2025/07/30/1120849/epa-endangerment-finding/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-07-30"
+    },
+    {
+      "title": "OpenAI is launching a version of ChatGPT for college students",
+      "description": "OpenAI is launching Study Mode, a version of ChatGPT for college students that it promises will act less like a lookup tool and more like a friendly, always-available tutor. It’s part of a wider push by the company to get AI more embedded into classrooms when the new academic year starts in September. A demonstration…",
+      "link": "https://www.technologyreview.com/2025/07/29/1120801/openai-is-launching-a-version-of-chatgpt-for-college-students/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-07-29"
+    },
+    {
+      "title": "Digital twins are reinventing clean energy — but there’s a catch",
+      "description": "Researchers are exploring AI-powered digital twins as a game-changing tool to accelerate the clean energy transition. These digital models simulate and optimize real-world energy systems like wind, solar, geothermal, hydro, and biomass. But while they hold immense promise for improving efficiency and sustainability, the technology is still riddled with challenges—from environmental variability and degraded equipment modeling to data scarcity and complex biological processes.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250729001217.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-29"
+    },
+    {
+      "title": "An ‘impossible’ 20-electron molecule challenges 100 years of chemistry",
+      "description": "Scientists at OIST have defied a foundational rule in chemistry by creating a stable 20-electron version of ferrocene—an organometallic molecule once thought to be limited to 18 valence electrons. This discovery not only challenges conventional wisdom but unlocks new chemical behaviors and redox states, potentially transforming how catalysts and materials are designed.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250727235814.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-28"
+    },
+    {
+      "title": "You’ve never seen atoms like this before: A hidden motion revealed",
+      "description": "A pioneering team at the University of Maryland has captured the first-ever images of atomic thermal vibrations, unlocking an unseen world of motion within two-dimensional materials. Their innovative electron ptychography technique revealed elusive “moiré phasons,” a long-theorized phenomenon that governs heat, electronic behavior, and structural order at the atomic level. This discovery not only confirms decades-old theories but also provides a new lens for building the future of quantum computing, ultra-efficient electronics, and advanced nanosensors.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250724232414.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-26"
+    },
+    {
+      "title": "AI turns immune cells into precision cancer killers—in just weeks",
+      "description": "A breakthrough AI system is revolutionizing cancer immunotherapy by enabling scientists to design protein-based keys that train a patient s immune cells to attack cancer with extreme precision. This method, capable of reducing development time from years to weeks, was successfully tested on known and patient-specific tumor targets. Using virtual safety screenings to avoid harmful side effects, the platform represents a leap forward in personalized medicine.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250724232416.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-25"
+    },
+    {
+      "title": "One small qubit, one giant leap for quantum computing",
+      "description": "Aalto University physicists in Finland have set a new benchmark in quantum computing by achieving a record-breaking millisecond coherence in a transmon qubit — nearly doubling prior limits. This development not only opens the door to far more powerful and stable quantum computations but also reduces the burden of error correction.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250724040459.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-24"
+    },
+    {
+      "title": "What Americans actually think about taxes",
+      "description": "Andrea Campbell’s new book shows that what we say we want on taxes doesn’t always match what we prefer in practice.",
+      "link": "https://news.mit.edu/2025/what-americans-actually-think-about-taxes-andrea-campbell-book-0721",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-07-21"
+    },
+    {
+      "title": "Clockwork from scratch: How scientists made timekeeping cells",
+      "description": "Scientists at UC Merced have engineered artificial cells that can keep perfect time—mimicking the 24-hour biological clocks found in living organisms. By reconstructing circadian machinery inside tiny vesicles, the researchers showed that even simplified synthetic systems can glow with a daily rhythm—if they have enough of the right proteins.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250729001222.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-29"
+    },
+    {
+      "title": "Scientists just cracked the cryptographic code behind quantum supremacy",
+      "description": "Quantum computing may one day outperform classical machines in solving certain complex problems, but when and how this “quantum advantage” emerges has remained unclear. Now, researchers from Kyoto University have linked this advantage to cryptographic puzzles, showing that the same conditions that allow secure quantum cryptography also define when quantum computing outpaces classical methods.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250727235831.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-28"
+    },
+    {
+      "title": "Harvard’s ultra-thin chip could revolutionize quantum computing",
+      "description": "Researchers at Harvard have created a groundbreaking metasurface that can replace bulky and complex optical components used in quantum computing with a single, ultra-thin, nanostructured layer. This innovation could make quantum networks far more scalable, stable, and compact. By harnessing the power of graph theory, the team simplified the design of these quantum metasurfaces, enabling them to generate entangled photons and perform sophisticated quantum operations — all on a chip thinner than a human hair. It's a radical leap forward for room-temperature quantum technology and photonics.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250724232413.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-25"
+    },
+    {
+      "title": "Concrete that lasts centuries and captures carbon? AI just made it possible",
+      "description": "Imagine concrete that not only survives wildfires and extreme weather, but heals itself and absorbs carbon from the air. Scientists at USC have created an AI model called Allegro-FM that simulates billions of atoms at once, helping design futuristic materials like carbon-neutral concrete. This tech could transform cities by reducing emissions, extending building lifespans, and mimicking the ancient durability of Roman concrete—all thanks to a massive leap in AI-driven atomic modeling.",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250723045707.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-07-24"
+    },
+    {
+      "title": "Roundtables: Why It’s So Hard to Make Welfare AI Fair",
+      "description": "Amsterdam tried using algorithms to fairly assess welfare applicants, but bias still crept in. Why did Amsterdam fail? And more important, can this ever be done right? Hear from MIT Technology Review editor Amanda Silverman, investigative reporter Eileen Guo, and Lighthouse Reports investigative reporter Gabriel Geiger as they explore if algorithms can ever be fair. Speakers:…",
+      "link": "https://www.technologyreview.com/2025/07/30/1120275/roundtables-why-its-so-hard-to-make-welfare-ai-fair/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-07-30"
     },
     {
       "title": "Is a second ‘Mona Lisa’ still special? What about the thousandth?",
@@ -2500,14 +2508,6 @@
       "title": "Atomic-scale secrets: What really happens inside your battery",
       "description": "Scientists have cracked open a mysterious layer inside batteries, using cutting-edge 3D atomic force microscopy to capture the dynamic molecular structures at their solid-liquid interfaces. These once-invisible electrical double layers (EDLs) twist, break, and reform in response to surface irregularities phenomena never seen before in real-world battery systems. The findings don t just refine our understanding of how batteries work at the microscopic level they could fundamentally change how we build and design next-generation energy storage.",
       "link": "https://www.sciencedaily.com/releases/2025/07/250729001223.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-07-29"
-    },
-    {
-      "title": "Clockwork from scratch: How scientists made timekeeping cells",
-      "description": "Scientists at UC Merced have engineered artificial cells that can keep perfect time—mimicking the 24-hour biological clocks found in living organisms. By reconstructing circadian machinery inside tiny vesicles, the researchers showed that even simplified synthetic systems can glow with a daily rhythm—if they have enough of the right proteins.",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250729001222.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-07-29"
