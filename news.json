@@ -1,6 +1,6 @@
 {
   "date": "2025-09-03",
-  "lastUpdated": "2025-09-03T16:18:18.837Z",
+  "lastUpdated": "2025-09-03T20:16:27.016Z",
   "metadata": {
     "version": "2.0",
     "executionTime": "47.8s",
@@ -11,8 +11,8 @@
     "entriesByField": {
       "health": 58,
       "climate": 34,
-      "energy": 3,
-      "technology": 138,
+      "energy": 2,
+      "technology": 139,
       "education": 5,
       "development": 16,
       "peace": 10,
@@ -33,8 +33,8 @@
         "changed": 0
       },
       "technology": {
-        "kept": 138,
-        "changed": 7
+        "kept": 139,
+        "changed": 6
       },
       "education": {
         "kept": 5,
@@ -58,20 +58,12 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 62,
+      "highScoreEntries": 63,
       "topTierSources": 183,
       "highCredibilitySources": 281
     }
   },
   "entries": [
-    {
-      "title": "ADB Approves $106.9 Million to Strengthen Secondary Health Care Services in Sri Lanka",
-      "description": "ADB has approved a $106.9 million financing package to strengthen Sri Lanka’s secondary curative care services, improve communicable disease prevention and control, and enhance the health care sector’s governance and management capacity.",
-      "link": "https://www.adb.org/news/adb-approves-106-9-million-strengthen-secondary-health-care-services-sri-lanka",
-      "source": "Asian Development Bank",
-      "field": "health",
-      "date": "2025-09-01"
-    },
     {
       "title": "[Articles] The clinical effectiveness of clarithromycin versus endoscopic sinus surgery for adults with chronic rhinosinusitis with and without nasal polyps (MACRO): a pragmatic, multicentre, three-arm, randomised, placebo-controlled phase 4 trial",
       "description": "The MACRO trial shows that endoscopic sinus surgery has clinical effectiveness in patients with chronic rhinosinusitis, providing significantly improved disease-specific quality of life at 6 months. Conversely, the trial findings do not support routine long-term use of low-dose clarithromycin. Endoscopic sinus surgery should be recommended if intranasal medication alone is unable to achieve symptom control.",
@@ -81,12 +73,20 @@
       "date": "2025-08-30"
     },
     {
-      "title": "Trial leads to FDA approval of drug for rare, deadly blood cancer",
-      "description": "Fewer than half of patients with a rare blood cancer subtype survive beyond a year. A Stanford Medicine-led trial has led to FDA approval of a new treatment that holds the promise of improving survival rates.",
-      "link": "https://news.stanford.edu/stories/2025/08/blood-cancer-drug-fda-approval-pemigatinib",
-      "source": "Stanford News",
+      "title": "ADB Approves $106.9 Million to Strengthen Secondary Health Care Services in Sri Lanka",
+      "description": "ADB has approved a $106.9 million financing package to strengthen Sri Lanka’s secondary curative care services, improve communicable disease prevention and control, and enhance the health care sector’s governance and management capacity.",
+      "link": "https://www.adb.org/news/adb-approves-106-9-million-strengthen-secondary-health-care-services-sri-lanka",
+      "source": "Asian Development Bank",
       "field": "health",
-      "date": "2025-08-27"
+      "date": "2025-09-01"
+    },
+    {
+      "title": "The First Inkjet Printer Was a Medical Device",
+      "description": "Millions of people worldwide have reason to be thankful that Swedish engineer Rune Elmqvist decided not to practice medicine. Although qualified as a doctor, he chose to invent medical equipment instead. In 1949, while working at Elema-Schonander (later Siemens-Elema), in Stockholm, he applied for a patent for the Mingograph, the first inkjet printer. Its movable nozzle deposited an electrostatically controlled jet of ink droplets on a spool of paper. Rune Elmqvist qualified to be a physician, but he devoted his career to developing medical equipment, like this galvanometer.Håkan Elmqvist/Wiki",
+      "link": "https://spectrum.ieee.org/rune-elmqvist",
+      "source": "IEEE Spectrum",
+      "field": "health",
+      "date": "2025-08-28"
     },
     {
       "title": "[Editorial] The dialogue around NCDs needs to change",
@@ -215,14 +215,6 @@
       "source": "NEJM",
       "field": "health",
       "date": "2025-08-20"
-    },
-    {
-      "title": "The First Inkjet Printer Was a Medical Device",
-      "description": "Millions of people worldwide have reason to be thankful that Swedish engineer Rune Elmqvist decided not to practice medicine. Although qualified as a doctor, he chose to invent medical equipment instead. In 1949, while working at Elema-Schonander (later Siemens-Elema), in Stockholm, he applied for a patent for the Mingograph, the first inkjet printer. Its movable nozzle deposited an electrostatically controlled jet of ink droplets on a spool of paper. Rune Elmqvist qualified to be a physician, but he devoted his career to developing medical equipment, like this galvanometer.Håkan Elmqvist/Wiki",
-      "link": "https://spectrum.ieee.org/rune-elmqvist",
-      "source": "IEEE Spectrum",
-      "field": "health",
-      "date": "2025-08-28"
     },
     {
       "title": "Senegal Introduces Hexavalent Vaccine into its National Immunization Programme",
@@ -457,6 +449,14 @@
       "date": "2025-05-31"
     },
     {
+      "title": "Trial leads to FDA approval of drug for rare, deadly blood cancer",
+      "description": "Fewer than half of patients with a rare blood cancer subtype survive beyond a year. A Stanford Medicine-led trial has led to FDA approval of a new treatment that holds the promise of improving survival rates.",
+      "link": "https://news.stanford.edu/stories/2025/08/blood-cancer-drug-fda-approval-pemigatinib",
+      "source": "Stanford News",
+      "field": "health",
+      "date": "2025-08-27"
+    },
+    {
       "title": "Update from the Global Polio Eradication Initiative on programmatic challenges and accountability",
       "description": "The final phase of the polio eradication effort has proven to be the toughest. The number of children paralyzed by polio has been reduced by 99% over the last four decades, but the virus continues to spread in some of the most difficult places on the planet to deliver healthcare— places that face persistent insecurity, […]",
       "link": "https://polioeradication.org/news/update-from-the-global-polio-eradication-initiative-on-programmatic-challenges-and-accountability/",
@@ -503,6 +503,14 @@
       "source": "Polio Eradication",
       "field": "health",
       "date": "2025-06-13"
+    },
+    {
+      "title": "NOAA’s transformative Flood Inundation Mapping expands to 60% of U.S.",
+      "description": "NOAA’s transformative Flood Inundation Mapping expands to 60% of U.S. Experimental services improve flood communications for emergency managers and the public September 3, 2025 An example of NOAA's Flood Inundation Mapping (FIM) services: This is a simulated image of potential flooding over Warfield, Kentucky, along the Tug Fork River in February 2025. The blue represents forecast extent of inundation and extends away from the river channel to indicate numerous structures and streets may be affected by flood waters. Local emergency teams used those maps to deploy the National Guard with high-w",
+      "link": "https://www.noaa.gov/news-release/noaas-transformative-flood-inundation-mapping-expands-to-60-of-us",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2025-09-02"
     },
     {
       "title": "Water-Watching Satellite Monitors Warming Ocean off California Coast",
@@ -620,14 +628,6 @@
       "title": "Just launched: MWEE 101 online course for educators",
       "description": "Just launched: MWEE 101 online course for educators Learn about the Meaningful Watershed Educational Experience through MWEE 101: a free, self-guided online course for educators. (Image credit: NAAEE) Download Image August 27, 2025 The eeLEARN: MWEE 101 online course is now available! MWEE 101 is a free, self-paced online course that walks educators through planning and implementing a Meaningful Watershed Educational Experience. A Meaningful Watershed Educational Experience, or MWEE, is a student-centered approach to evidence-driven learning that's grounded in real-world issues. When students ",
       "link": "https://www.noaa.gov/office-education/bwet/news/just-launched-mwee-101-online-course-for-educators",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2025-08-25"
-    },
-    {
-      "title": "Pier2Peer graduates 20 mentees to build capacity toward addressing ocean acidification",
-      "description": "Pier2Peer graduates 20 mentees to build capacity toward addressing ocean acidification Workshop participants learn about OA instruments at a practical best practices training. (Image credit: GOA-ON) Download Image August 15, 2025 Twenty Pier2Peer offsite link mentee graduates, representing 17 countries, join the global professional community for ocean acidification monitoring and research. After successfully completing two years of one-on-one mentorship with experts in the field of ocean acidification, this cohort pursued capacity building projects with the guidance of their mentors, advancing",
-      "link": "https://www.noaa.gov/education/stories/pier2peer-graduates-20-mentees-to-build-capacity-toward-addressing-ocean-acidification-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2025-08-25"
@@ -777,14 +777,6 @@
       "date": "2017-03-28"
     },
     {
-      "title": "China, Russia, and U.S. Race to Develop Lunar Nuclear Reactors",
-      "description": "China, Russia, and the United States are racing to put nuclear power plants on the moon. China and Russia in May agreed to work together to complete a lunar nuclear reactor by 2036. In response, NASA’s interim chief Sean Duffy announced in August that the United States would fast track its lunar nuclear power program to have one ready by 2030. But this sudden frenzy raises a few questions—such as why do we want nuclear reactors on the moon in the first place? And how would they work? To find out, IEEE Spectrum spoke with Katy Huff, a nuclear engineer and the director of the Advanced Reactor Fu",
-      "link": "https://spectrum.ieee.org/lunar-nuclear-reactor-nasa-moon",
-      "source": "IEEE Spectrum",
-      "field": "energy",
-      "date": "2025-08-22"
-    },
-    {
       "title": "The Unlikely Revival of Nuclear Batteries",
       "description": "In 1970, surgeons in Paris implanted the first nuclear-powered pacemaker, and over the next five years, at least 1,400 additional people received the devices, mostly in France and the United States. Encased in titanium, the batteries for these devices contained a radioactive isotope—typically about a tenth of a gram of plutonium-238—and could operate for decades without maintenance. The invention provided relief to a population of people who previously needed surgery every few years to change out their pacemaker’s chemical battery. As time went on, though, the whereabouts of these radioactive ",
       "link": "https://spectrum.ieee.org/nuclear-battery-revival",
@@ -801,6 +793,14 @@
       "date": "2025-08-25"
     },
     {
+      "title": "Celebrating the 15th Anniversary of the IEEE and HKN Merger",
+      "description": "In the histories of two long-established organizations—the Eta Kappa Nu (HKN) honor society, founded in 1904, and IEEE, formed in 1963—15 years might not seem very long. Since their merger in 2010, however, more than 40,000 members have been inducted into IEEE-HKN, 57 chapters have been formed (30 of which are outside the United States), and more than US $4 million has been raised to support the development of the next generation of engineering leaders. On 14 February 2009, Eta Kappa Nu signed a merger agreement with IEEE. It went into effect 1 September 2010, making HKN the official honor soc",
+      "link": "https://spectrum.ieee.org/ieee-hkn-honor-society-15",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-03"
+    },
+    {
       "title": "George Kadifa Elected as New Caltech Trustee",
       "description": "George Kadifa is a co-founder and managing director of Sumeru Equity Partners. He has four decades of operating experience in the technology sector. Prior to joining Sumeru in 2015, Kadifa was executive vice president at Hewlett-Packard, reporting to the CEO, and a member of the executive committee. While at HP, Kadifa's responsibilities included leading growth initiatives and alliance programs with key partners, service providers, and the largest clients, along with leading the HP software business.Kadifa previously served as operating partner at Silver Lake, a global technology investment fi",
       "link": "https://www.caltech.edu/about/news/george-kadifa-elected-caltech-trustee",
@@ -815,6 +815,14 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-09-01"
+    },
+    {
+      "title": "Broadcast commercial highlights Stanford student-athlete achievements",
+      "description": "A Stanford University commercial for the 2025-26 athletic season showcases how, from baskets to breakthroughs, students are pushing boundaries and creating solutions for tomorrow’s challenges.",
+      "link": "https://news.stanford.edu/stories/2025/08/broadcast-commercial-student-athletes-new-season",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-08-25"
     },
     {
       "title": "Connecting Africa’s Next Generation of Engineers",
@@ -850,7 +858,7 @@
     },
     {
       "title": "Data Centers May House AI—But Operators Don’t Trust AI (Yet)",
-      "description": "AI is starting to be trusted with high-stakes tasks, including running automated factories and guiding military drones through hostile airspace. But when it comes to managing the data centers that power this AI revolution, human operators are far more cautious. According to a new survey of over 600 data center operators worldwide by Uptime Institute, a data center inspection and rating firm, only 14 percent say they would trust AI systems to change equipment configurations, even if it’s trained on years of historical data. In the same survey, just 1 in 3 operators say they would trust AI syste",
+      "description": "We are starting to trust AI with high-stakes tasks, including running automated factories and guiding military drones through hostile airspace. But when it comes to managing the data centers that power this AI revolution, human operators are far more cautious. According to a new survey of over 600 data-center operators worldwide by Uptime Institute, a data-center inspection and rating firm, only 14 percent say they would trust AI systems to change equipment configurations, even if it’s trained on years of historical data. In the same survey, just one in three operators say they would trust AI ",
       "link": "https://spectrum.ieee.org/ai-data-center-operator-trust",
       "source": "IEEE Spectrum",
       "field": "technology",
@@ -871,38 +879,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-08-22"
-    },
-    {
-      "title": "Parkinson's Disease Drug Candidates Induce Unexpected Damaging Effects",
-      "description": "Parkinson's disease is the second most common neurodegenerative disease, affecting over 10 million people worldwide. Some forms of Parkinson's disease are characterized by an inability of cells to clean up dysfunctional mitochondria, the cells' \"powerhouses,\" particularly in neural cells of the brain. Like batteries, the mitochondria provide energy for a cell to function, but also like batteries, they can leak toxins as they age. Mitophagy is the process by which cells conduct quality control, throwing away old and defective mitochondria like taking out the trash.Now, a new study from Caltech ",
-      "link": "https://www.caltech.edu/about/news/parkinsons-disease-drug-candidates-induce-unexpected-damaging-effects",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-08-27"
-    },
-    {
-      "title": "Broadcast commercial highlights Stanford student-athlete achievements",
-      "description": "A Stanford University commercial for the 2025-26 athletic season showcases how, from baskets to breakthroughs, students are pushing boundaries and creating solutions for tomorrow’s challenges.",
-      "link": "https://news.stanford.edu/stories/2025/08/broadcast-commercial-student-athletes-new-season",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-08-25"
-    },
-    {
-      "title": "William Coughran Elected as New Caltech Trustee",
-      "description": "Dr. William M. Coughran Jr. is a technologist with more than two decades of experience in large-scale computing and networking systems. He is known for his influential role as a Silicon Valley executive, mentor, and investor, helping ambitious start-ups grow into transformative companies.Coughran began his career at Bell Labs, contributing to many significant projects, including the development of distributed systems and applications for modeling and verification methods. He went on to become vice president of the Computing Sciences Research Center, which was pivotal in creating C and C++ prog",
-      "link": "https://www.caltech.edu/about/news/william-coughran-elected-caltech-trustee",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-08-22"
-    },
-    {
-      "title": "Aaron Ames Named Director of the Center for Autonomous Systems and Technologies",
-      "description": "Aaron Ames, the Bren Professor of Mechanical and Civil Engineering, Control and Dynamical Systems, and Aerospace at Caltech has been named the director and Booth-Kresa Leadership Chair of the Center for Autonomous Systems and Technologies (CAST). He succeeds Mory Gharib, who was the center's founding director.\"It is with great enthusiasm that I assume the role of director of CAST,\" says Ames, who also serves as the option representative for control and dynamical systems at Caltech as well as the undergraduate option representative for mechanical engineering. \"It is truly an honor to follow in ",
-      "link": "https://www.caltech.edu/about/news/aaron-ames-named-director-of-the-center-for-autonomous-systems-and-technologies",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-08-15"
     },
     {
       "title": "New method could monitor corrosion and cracking in a nuclear reactor",
@@ -929,22 +905,6 @@
       "date": "2025-08-22"
     },
     {
-      "title": "New gift expands mental illness studies at Poitras Center for Psychiatric Disorders Research",
-      "description": "A commitment from longtime supporters Patricia and James Poitras ’63 initiates multidisciplinary efforts to understand and treat complex psychiatric disorders.",
-      "link": "https://news.mit.edu/2025/new-gift-expands-mental-illness-studies-poitras-center-psychiatric-disorders-research-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-02"
-    },
-    {
-      "title": "ADHD drugs are being prescribed too quickly to preschoolers",
-      "description": "A Stanford Medicine-led study finds that many young patients are starting medication immediately after diagnosis, going against established guidelines – likely due to a lack of accessible behavioral therapy.",
-      "link": "https://news.stanford.edu/stories/2025/08/adhd-drugs-preschoolers-research-study",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-08-29"
-    },
-    {
       "title": "Astronomers detect the brightest fast radio burst of all time",
       "description": "The dazzling “RBFLOAT” radio burst, originating in a nearby galaxy, offers the clearest view yet of the environment around these mysterious flashes.",
       "link": "https://news.mit.edu/2025/astronomers-detect-all-time-brightest-fast-radio-burst-0821",
@@ -959,6 +919,38 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-08-21"
+    },
+    {
+      "title": "After ‘humiliating’ raid, Burkina Faso halts ‘gene drive’ project to fight malaria",
+      "description": "Disinformation campaign may have triggered “brutal” shutdown of mosquito lab",
+      "link": "https://www.science.org/content/article/after-humiliating-raid-burkina-faso-halts-gene-drive-project-fight-malaria",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-09-03"
+    },
+    {
+      "title": "Studies deliver new blow to cancer microbiome literature—and offer a way forward",
+      "description": "Two analyses of microbial DNA in tumor samples aim to put controversy-riddled field back on track",
+      "link": "https://www.science.org/content/article/studies-deliver-new-blow-cancer-microbiome-literature-and-offer-way-forward",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-09-03"
+    },
+    {
+      "title": "New gift expands mental illness studies at Poitras Center for Psychiatric Disorders Research",
+      "description": "A commitment from longtime supporters Patricia and James Poitras ’63 initiates multidisciplinary efforts to understand and treat complex psychiatric disorders.",
+      "link": "https://news.mit.edu/2025/new-gift-expands-mental-illness-studies-poitras-center-psychiatric-disorders-research-0902",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-02"
+    },
+    {
+      "title": "Mosquito-borne viruses surge in a warming Europe",
+      "description": "Chikungunya cases break records in France; West Nile virus appears near Rome",
+      "link": "https://www.science.org/content/article/mosquito-borne-viruses-surge-warming-europe",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-09-03"
     },
     {
       "title": "Ancient skeletons’ genes reveal origin of the Slavic people",
@@ -1001,20 +993,28 @@
       "date": "2025-09-02"
     },
     {
-      "title": "NSF could be moving down the street",
-      "description": "Government sets requirements for new space that sound like nearby patent office campus",
-      "link": "https://www.science.org/content/article/nsf-could-be-moving-down-street",
-      "source": "Science",
+      "title": "Parkinson's Disease Drug Candidates Induce Unexpected Damaging Effects",
+      "description": "Parkinson's disease is the second most common neurodegenerative disease, affecting over 10 million people worldwide. Some forms of Parkinson's disease are characterized by an inability of cells to clean up dysfunctional mitochondria, the cells' \"powerhouses,\" particularly in neural cells of the brain. Like batteries, the mitochondria provide energy for a cell to function, but also like batteries, they can leak toxins as they age. Mitophagy is the process by which cells conduct quality control, throwing away old and defective mitochondria like taking out the trash.Now, a new study from Caltech ",
+      "link": "https://www.caltech.edu/about/news/parkinsons-disease-drug-candidates-induce-unexpected-damaging-effects",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2025-09-02"
+      "date": "2025-08-27"
     },
     {
-      "title": "Human ancestors braved England’s ice-covered northlands 440,000 years ago",
-      "description": "How exactly ancient toolmakers survived the harsh conditions remains a mystery",
-      "link": "https://www.science.org/content/article/human-ancestors-braved-england-s-ice-covered-northlands-440-000-years-ago",
-      "source": "Science",
+      "title": "William Coughran Elected as New Caltech Trustee",
+      "description": "Dr. William M. Coughran Jr. is a technologist with more than two decades of experience in large-scale computing and networking systems. He is known for his influential role as a Silicon Valley executive, mentor, and investor, helping ambitious start-ups grow into transformative companies.Coughran began his career at Bell Labs, contributing to many significant projects, including the development of distributed systems and applications for modeling and verification methods. He went on to become vice president of the Computing Sciences Research Center, which was pivotal in creating C and C++ prog",
+      "link": "https://www.caltech.edu/about/news/william-coughran-elected-caltech-trustee",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2025-09-01"
+      "date": "2025-08-22"
+    },
+    {
+      "title": "Aaron Ames Named Director of the Center for Autonomous Systems and Technologies",
+      "description": "Aaron Ames, the Bren Professor of Mechanical and Civil Engineering, Control and Dynamical Systems, and Aerospace at Caltech has been named the director and Booth-Kresa Leadership Chair of the Center for Autonomous Systems and Technologies (CAST). He succeeds Mory Gharib, who was the center's founding director.\"It is with great enthusiasm that I assume the role of director of CAST,\" says Ames, who also serves as the option representative for control and dynamical systems at Caltech as well as the undergraduate option representative for mechanical engineering. \"It is truly an honor to follow in ",
+      "link": "https://www.caltech.edu/about/news/aaron-ames-named-director-of-the-center-for-autonomous-systems-and-technologies",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-08-15"
     },
     {
       "title": "Seeking a carbon-capture breakthrough",
@@ -1039,22 +1039,6 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2025-08-22"
-    },
-    {
-      "title": "Caltech Elects Two New Trustees",
-      "description": "The Caltech Board of Trustees welcomes two new members.William Coughran (BS '75, MS '75); technologist and Silicon Valley executive, mentor, and investor; and George Kadifa (MS '82), founding partner and managing director of Sumeru Equity Partners, were recently elected to the Board. In total, the Board comprises 45 trustees alongside 22 life members of the Caltech community.Read more about Coughran and Kadifa, including their reflections on their careers and the Institute.",
-      "link": "https://www.caltech.edu/about/news/caltech-elects-two-new-trustees-2025",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-08-22"
-    },
-    {
-      "title": "Why promising dementia treatments succeed in mice but fail in humans",
-      "description": "Stanford researchers reviewed over 400 therapy evaluations and discovered a crucial mismatch: Mouse studies test disease prevention, while human trials test treatment of existing disease.",
-      "link": "https://news.stanford.edu/stories/2025/08/dementia-treatments-therapies-mice-people-mismatch",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-08-21"
     },
     {
       "title": "Andrei Faraon Named Director of Kavli Nanoscience Institute",
@@ -1239,6 +1223,14 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-08-29"
+    },
+    {
+      "title": "Caltech Elects Two New Trustees",
+      "description": "The Caltech Board of Trustees welcomes two new members.William Coughran (BS '75, MS '75); technologist and Silicon Valley executive, mentor, and investor; and George Kadifa (MS '82), founding partner and managing director of Sumeru Equity Partners, were recently elected to the Board. In total, the Board comprises 45 trustees alongside 22 life members of the Caltech community.Read more about Coughran and Kadifa, including their reflections on their careers and the Institute.",
+      "link": "https://www.caltech.edu/about/news/caltech-elects-two-new-trustees-2025",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-08-22"
     },
     {
       "title": "Education in Guinea-Bissau",
@@ -1561,12 +1553,36 @@
       "date": "2025-09-03"
     },
     {
+      "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
+      "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
+      "link": "https://climate.nasa.gov/news/3293/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-11-30"
+    },
+    {
       "title": "New MetOp Second Generation weather satellite returns first data",
       "description": "Less than three weeks since the first MetOp Second Generation weather satellite, MetOp-SG-A1, was launched, this remarkable new satellite has already started transmitting data from two of its cutting-edge instruments, offering a tantalising glimpse of what’s to come.",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/MetOp_Second_Generation/New_MetOp_Second_Generation_weather_satellite_returns_first_data",
       "source": "ESA",
       "field": "space",
       "date": "2025-09-02"
+    },
+    {
+      "title": "NASA to Showcase Earth Science Data at COP28",
+      "description": "With 26 Earth-observing satellite missions, as well as instruments flying on planes and the space station, NASA has a global vantage point for studying our planet’s oceans, land, ice, and atmosphere and deciphering how changes in one drive change in others. The agency will share that knowledge and data at the 28th U.N. Climate Change Conference of the Parties (COP28), which brings international parties together to accelerate action toward the goals of the Paris Agreement and the U.N. Framework Convention on Climate Change. COP28 will be held at the Expo City in Dubai, United Arab Emirates from",
+      "link": "https://climate.nasa.gov/news/3292/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-11-28"
+    },
+    {
+      "title": "International Ocean Satellite Monitors How El Niño Is Shaping Up",
+      "description": "In Brief: Sentinel-6 Michael Freilich is the latest satellite contributing to a 30-year sea level record that researchers are using to compare this year’s El Niño with those of the past. Not all El Niño events are created equal. Their impacts vary widely, and satellites like the U.S.-European Sentinel-6 Michael Freilich help anticipate those impacts on a global scale by tracking changes in sea surface height in the Pacific Ocean. Water expands as it warms, so sea levels tend to be higher in places with warmer water. El Niños are characterized by higher-than-normal sea levels and warmer-than-av",
+      "link": "https://climate.nasa.gov/news/3286/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-10-19"
     },
     {
       "title": "Thinning Arctic Sea Ice",
@@ -1633,54 +1649,6 @@
       "date": "2025-08-28"
     },
     {
-      "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
-      "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
-      "link": "https://climate.nasa.gov/news/3293/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-11-30"
-    },
-    {
-      "title": "NASA to Showcase Earth Science Data at COP28",
-      "description": "With 26 Earth-observing satellite missions, as well as instruments flying on planes and the space station, NASA has a global vantage point for studying our planet’s oceans, land, ice, and atmosphere and deciphering how changes in one drive change in others. The agency will share that knowledge and data at the 28th U.N. Climate Change Conference of the Parties (COP28), which brings international parties together to accelerate action toward the goals of the Paris Agreement and the U.N. Framework Convention on Climate Change. COP28 will be held at the Expo City in Dubai, United Arab Emirates from",
-      "link": "https://climate.nasa.gov/news/3292/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-11-28"
-    },
-    {
-      "title": "International Ocean Satellite Monitors How El Niño Is Shaping Up",
-      "description": "In Brief: Sentinel-6 Michael Freilich is the latest satellite contributing to a 30-year sea level record that researchers are using to compare this year’s El Niño with those of the past. Not all El Niño events are created equal. Their impacts vary widely, and satellites like the U.S.-European Sentinel-6 Michael Freilich help anticipate those impacts on a global scale by tracking changes in sea surface height in the Pacific Ocean. Water expands as it warms, so sea levels tend to be higher in places with warmer water. El Niños are characterized by higher-than-normal sea levels and warmer-than-av",
-      "link": "https://climate.nasa.gov/news/3286/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-10-19"
-    },
-    {
-      "title": "Crews Head Down River, Out to Sea to Prep New SWOT Water Satellite",
-      "description": "In Brief: A lot of hard work goes into ensuring a spacecraft like the Surface Water and Ocean Topography satellite delivers accurate data. In mid-June, a team of freshwater researchers spent their nights drifting down Alaska’s Yukon River in an area that straddles the Arctic Circle. The hydrologists were using a GPS unit installed on their boat to measure the slope of the river at the same time that the Surface Water and Ocean Topography (SWOT) satellite passed overhead, collecting its own data on the waterway. The midnight rendezvous were part of a larger effort by ocean and freshwater scient",
-      "link": "https://climate.nasa.gov/news/3277/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-07-20"
-    },
-    {
-      "title": "Powerful NASA-ISRO Earth Observing Satellite Coming Together in India",
-      "description": "In Brief: Built on opposite sides of the planet, the NISAR satellite will deepen understanding of climate change, deforestation, glacier melt, volcanoes, earthquakes, and more. Two major components of the NISAR satellite have been combined to create a single spacecraft in Bengaluru, India. Set to launch in early 2024, NISAR – short for NASA-ISRO Synthetic Aperture Radar – is being jointly developed by NASA and the Indian Space Research Organisation, or ISRO, to track movements of Earth’s land and ice surfaces in extremely fine detail. As NISAR monitors nearly every part of our planet at least ",
-      "link": "https://climate.nasa.gov/news/3275/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-07-13"
-    },
-    {
-      "title": "US-German Satellites Show California Water Gains After Record Winter",
-      "description": "In Brief: Early data shows the greatest net gain of water over the winter in nearly 22 years, but the state’s groundwater levels still suffer from the effects of years of drought. After years of intense drought and diminishing groundwater, California just saw its greatest year-over-year water gains in two decades, according to data from the GRACE-FO (Gravity Recovery and Climate Experiment Follow-On) satellite mission, a partnership between NASA and the German Research Centre for Geosciences (GFZ). This past winter’s bonanza of atmospheric rivers alleviated some of the water deficit that the s",
-      "link": "https://climate.nasa.gov/news/3272/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-06-09"
-    },
-    {
       "title": "SpaceX launches 28 Starlink satellites on Wednesday sunrise Falcon 9 flight",
       "description": "The Starlink 10-22 mission will be the 75th orbital launch from Florida’s Space Coast in 2025. SpaceX launched from pad 40 at Cape Canaveral Space Force Station at 7:56 a.m. EDT (1156 UTC).",
       "link": "https://spaceflightnow.com/2025/09/02/live-coverage-spacex-to-launch-28-starlink-satellites-on-wednesday-sunrise-falcon-9-flight/",
@@ -1743,6 +1711,30 @@
       "source": "NASA",
       "field": "space",
       "date": "2025-09-02"
+    },
+    {
+      "title": "Crews Head Down River, Out to Sea to Prep New SWOT Water Satellite",
+      "description": "In Brief: A lot of hard work goes into ensuring a spacecraft like the Surface Water and Ocean Topography satellite delivers accurate data. In mid-June, a team of freshwater researchers spent their nights drifting down Alaska’s Yukon River in an area that straddles the Arctic Circle. The hydrologists were using a GPS unit installed on their boat to measure the slope of the river at the same time that the Surface Water and Ocean Topography (SWOT) satellite passed overhead, collecting its own data on the waterway. The midnight rendezvous were part of a larger effort by ocean and freshwater scient",
+      "link": "https://climate.nasa.gov/news/3277/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-07-20"
+    },
+    {
+      "title": "Powerful NASA-ISRO Earth Observing Satellite Coming Together in India",
+      "description": "In Brief: Built on opposite sides of the planet, the NISAR satellite will deepen understanding of climate change, deforestation, glacier melt, volcanoes, earthquakes, and more. Two major components of the NISAR satellite have been combined to create a single spacecraft in Bengaluru, India. Set to launch in early 2024, NISAR – short for NASA-ISRO Synthetic Aperture Radar – is being jointly developed by NASA and the Indian Space Research Organisation, or ISRO, to track movements of Earth’s land and ice surfaces in extremely fine detail. As NISAR monitors nearly every part of our planet at least ",
+      "link": "https://climate.nasa.gov/news/3275/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-07-13"
+    },
+    {
+      "title": "US-German Satellites Show California Water Gains After Record Winter",
+      "description": "In Brief: Early data shows the greatest net gain of water over the winter in nearly 22 years, but the state’s groundwater levels still suffer from the effects of years of drought. After years of intense drought and diminishing groundwater, California just saw its greatest year-over-year water gains in two decades, according to data from the GRACE-FO (Gravity Recovery and Climate Experiment Follow-On) satellite mission, a partnership between NASA and the German Research Centre for Geosciences (GFZ). This past winter’s bonanza of atmospheric rivers alleviated some of the water deficit that the s",
+      "link": "https://climate.nasa.gov/news/3272/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-06-09"
     },
     {
       "title": "Double trouble: Solar Orbiter traces superfast electrons back to Sun",
@@ -1825,6 +1817,14 @@
       "date": "2025-09-02"
     },
     {
+      "title": "Stanford projects receive support to tackle pressing environmental challenges",
+      "description": "Selected initiatives employ novel research approaches to explore innovative solutions, from crowdsourcing air quality issues in California’s San Joaquin Valley to enhancing livestock health through predator conservation.",
+      "link": "https://news.stanford.edu/stories/2025/08/enviornmental-research-funding-climate-challenges",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-08-21"
+    },
+    {
       "title": "Using Sound to Remember Quantum Information",
       "description": "While conventional computers store information in the form of bits, fundamental pieces of logic that take a value of either 0 or 1, quantum computers are based on qubits. These can have a state that is simultaneously both 0 and 1. This odd property, a quirk of quantum physics known as superposition, lies at the heart of quantum computing's promise to ultimately solve problems that are intractable for classical computers.Many existing quantum computers are based on superconducting electronic systems in which electrons flow without resistance at extremely low temperatures. In these systems, the ",
       "link": "https://www.caltech.edu/about/news/using-sound-to-remember-quantum-information",
@@ -1833,28 +1833,28 @@
       "date": "2025-08-13"
     },
     {
-      "title": "Legal adviser warns NIH not to kill 900 grants a second time",
-      "description": "Advice follows Supreme Court ruling that threatened previously restored grants, but reprieve may be brief",
-      "link": "https://www.science.org/content/article/despite-supreme-court-win-nih-may-not-quickly-kill-again-some-900-grants-sensitive",
+      "title": "NSF could be moving down the street",
+      "description": "Government sets requirements for new space that sound like nearby patent office campus",
+      "link": "https://www.science.org/content/article/nsf-could-be-moving-down-street",
       "source": "Science",
       "field": "technology",
-      "date": "2025-08-29"
+      "date": "2025-09-02"
     },
     {
-      "title": "Stalagmites reveal devastating droughts that helped spur Maya breakdown",
-      "description": "Series of droughts chronicled in cave rocks likely pushed civilization to breaking point",
-      "link": "https://www.science.org/content/article/stalagmites-reveal-devastating-droughts-helped-spur-maya-breakdown",
+      "title": "Human ancestors braved England’s ice-covered northlands 440,000 years ago",
+      "description": "How exactly ancient toolmakers survived the harsh conditions remains a mystery",
+      "link": "https://www.science.org/content/article/human-ancestors-braved-england-s-ice-covered-northlands-440-000-years-ago",
       "source": "Science",
       "field": "technology",
-      "date": "2025-08-29"
+      "date": "2025-09-01"
     },
     {
-      "title": "Trust in elections rises after ‘inoculations’ meant to preempt false fraud claims",
-      "description": "New U.S.-Brazil study points to ways of countering election misinformation, political scientists say",
-      "link": "https://www.science.org/content/article/trust-elections-rises-after-inoculations-meant-preempt-false-fraud-claims",
-      "source": "Science",
+      "title": "A new generative AI approach to predicting chemical reactions",
+      "description": "System developed at MIT could provide realistic predictions for a wide variety of reactions, while maintaining real-world physical constraints.",
+      "link": "https://news.mit.edu/2025/generative-ai-approach-to-predicting-chemical-reactions-0903",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2025-08-29"
+      "date": "2025-09-03"
     },
     {
       "title": "3 Questions: The pros and cons of synthetic data in AI",
@@ -1887,6 +1887,22 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-09-02"
+    },
+    {
+      "title": "Sorting Lyme disease fact from fiction",
+      "description": "An infectious disease expert explains the tick-borne illness and why it’s so often misunderstood by patients and the practitioners advising them.",
+      "link": "https://news.stanford.edu/stories/2025/09/sorting-lyme-disease-fact-from-fiction",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-02"
+    },
+    {
+      "title": "ADHD drugs are being prescribed too quickly to preschoolers",
+      "description": "A Stanford Medicine-led study finds that many young patients are starting medication immediately after diagnosis, going against established guidelines – likely due to a lack of accessible behavioral therapy.",
+      "link": "https://news.stanford.edu/stories/2025/08/adhd-drugs-preschoolers-research-study",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-08-29"
     },
     {
       "title": "Advancing career and academic ambitions with MITx MicroMasters Program in Finance",
@@ -2153,25 +2169,9 @@
       "date": "2025-08-21"
     },
     {
-      "title": "Stanford projects receive support to tackle pressing environmental challenges",
-      "description": "Selected initiatives employ novel research approaches to explore innovative solutions, from crowdsourcing air quality issues in California’s San Joaquin Valley to enhancing livestock health through predator conservation.",
-      "link": "https://news.stanford.edu/stories/2025/08/enviornmental-research-funding-climate-challenges",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-08-21"
-    },
-    {
       "title": "Learning from punishment",
       "description": "A new computational model makes sense of the cognitive processes humans use to evaluate punishment.",
       "link": "https://news.mit.edu/2025/learning-from-punishment-0820",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-08-20"
-    },
-    {
-      "title": "Materials Research Laboratory: Driving interdisciplinary materials research at MIT",
-      "description": "The MRL helps bring together academia, government, and industry to accelerate innovation in sustainability, energy, and advanced materials.",
-      "link": "https://news.mit.edu/2025/driving-interdisciplinary-materials-research-0820",
       "source": "MIT News",
       "field": "technology",
       "date": "2025-08-20"
