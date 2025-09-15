@@ -1,13 +1,13 @@
 {
   "date": "2025-09-15",
-  "lastUpdated": "2025-09-15T04:19:20.618Z",
+  "lastUpdated": "2025-09-15T08:20:49.910Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "72.1s",
+    "executionTime": "45.1s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 23,
-    "totalCandidates": 289,
-    "totalSelected": 289,
+    "sourcesSuccessful": 24,
+    "totalCandidates": 299,
+    "totalSelected": 299,
     "entriesByField": {
       "health": 52,
       "climate": 35,
@@ -15,6 +15,7 @@
       "technology": 139,
       "education": 9,
       "development": 14,
+      "peace": 10,
       "agriculture": 4,
       "space": 33
     },
@@ -44,7 +45,7 @@
         "changed": 5
       },
       "peace": {
-        "kept": 0,
+        "kept": 10,
         "changed": 0
       },
       "agriculture": {
@@ -59,7 +60,7 @@
     "qualityMetrics": {
       "highScoreEntries": 68,
       "topTierSources": 173,
-      "highCredibilitySources": 260
+      "highCredibilitySources": 270
     }
   },
   "entries": [
@@ -408,20 +409,20 @@
       "date": "2025-06-23"
     },
     {
-      "title": "ADB Approves $106.9 Million to Strengthen Secondary Health Care Services in Sri Lanka",
-      "description": "ADB has approved a $106.9 million financing package to strengthen Sri Lanka’s secondary curative care services, improve communicable disease prevention and control, and enhance the health care sector’s governance and management capacity.",
-      "link": "https://www.adb.org/news/adb-approves-106-9-million-strengthen-secondary-health-care-services-sri-lanka",
-      "source": "Asian Development Bank",
-      "field": "health",
-      "date": "2025-09-01"
-    },
-    {
       "title": "Independent Evaluation Urges ADB to Sharpen Health Strategy to Meet Asia and Pacific’s Growing Needs",
       "description": "ADB has taken important steps to reengage with the health sector across Asia and the Pacific. To build on this momentum and respond effectively to rising health demands, ADB should update its health strategic framework to provide a clearer vision and mandate, according to a new evaluation by ADB’s Independent Evaluation Department.",
       "link": "https://www.adb.org/news/independent-evaluation-urges-adb-sharpen-health-strategy-meet-asia-and-pacific-growing-needs",
       "source": "Asian Development Bank",
       "field": "health",
       "date": "2025-09-08"
+    },
+    {
+      "title": "ADB Approves $106.9 Million to Strengthen Secondary Health Care Services in Sri Lanka",
+      "description": "ADB has approved a $106.9 million financing package to strengthen Sri Lanka’s secondary curative care services, improve communicable disease prevention and control, and enhance the health care sector’s governance and management capacity.",
+      "link": "https://www.adb.org/news/adb-approves-106-9-million-strengthen-secondary-health-care-services-sri-lanka",
+      "source": "Asian Development Bank",
+      "field": "health",
+      "date": "2025-09-01"
     },
     {
       "title": "A dam against polio: the Lake Chad Basin bets on eradication",
@@ -584,14 +585,6 @@
       "date": "2023-08-14"
     },
     {
-      "title": "NASA's New Exhibit Showcases our Home Planet and Climate",
-      "description": "Follow a river of water vapor as it travels through Earth's atmosphere and becomes heavy rain. Watch polar ice expand and contract as if our planet is breathing in slow motion. Discover how river channels and wind currents resemble the human nervous and circulatory systems. In an interactive new exhibit at the NASA Headquarters in Washington, visitors are invited to see Earth as NASA sees it from space. For six decades, NASA satellites, sensors, and scientists have collected data on Earth’s land, water, air, and climate. At the Earth Information Center, the public can glimpse what this data ha",
-      "link": "https://climate.nasa.gov/news/3274/",
-      "source": "NASA Climate",
-      "field": "climate",
-      "date": "2023-06-29"
-    },
-    {
       "title": "Giving Plants Superpowers: A Conversation with Gözde Demirer",
       "description": "Gözde Demirer wants to give plants superpowers—the ability to sustainably feed the world, or to handle drought and climate change, for example—and to do it all while improving the health of the environment. A mask and cape won't do. Instead, she uses the tools of nanotechnology, synthetic biology, and genetic engineering, and leverages the help of plants' trusty sidekicks: beneficial microbes in the soil.Demirer is the Clare Boothe Luce Assistant Professor of Chemical Engineering at Caltech. Her work focuses on three main areas: developing nanoparticles that can efficiently deliver biomolecule",
       "link": "https://www.caltech.edu/about/news/giving-plants-superpowers-a-conversation-with-g%C3%B6zde-demirer",
@@ -632,12 +625,28 @@
       "date": "2025-09-08"
     },
     {
-      "title": "IPCC calls for the nomination of participants to the Workshop on Engaging Diverse Knowledge Systems and the Workshop on Methods of Assessment",
-      "description": "The Intergovernmental Panel on Climate Change is calling for nominations of participants to two three-day co-located workshops to be held in the first quarter of 2026: a Workshop on Engaging Diverse Knowledge Systems and a Workshop on Methods of Assessment. This follows the Panel’s agreement of a proposal made by the IPCC Chair with the […]",
-      "link": "https://www.ipcc.ch/2025/06/13/calls-for-nominations-workshops-diverse-knowledge-systems-and-methods-of-assessment/",
+      "title": "IPCC concludes selection of authors for its Seventh Assessment Report",
+      "description": "GENEVA, August 18 – The Intergovernmental Panel on Climate Change (IPCC) has appointed 664 experts from 111 countries to participate in the Seventh Assessment Report (AR7) as Coordinating Lead Authors, Lead Authors and Review Editors. These experts were nominated by governments and IPCC observer organisations and selected by the IPCC Bureau from a global […]",
+      "link": "https://www.ipcc.ch/2025/08/18/pr-ar7-authors/",
       "source": "IPCC",
       "field": "climate",
-      "date": "2025-06-13"
+      "date": "2025-08-18"
+    },
+    {
+      "title": "IPCC authors gather in Kenya to develop the first draft of the Special Report on Climate Change and Cities",
+      "description": "MOMBASA, Kenya, Jul 21 – The Second Lead Author Meeting of the Intergovernmental Panel on Climate Change (IPCC) Special Report on Climate Change and Cities taking place in Mombasa, Kenya, this week will advance the work on the First Order Draft (FOD) of the IPCC’s only special report in the seventh assessment cycle. The first […]",
+      "link": "https://www.ipcc.ch/2025/07/21/ipcc-authors-srcities-lam2-kenya/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2025-07-21"
+    },
+    {
+      "title": "Programme Officer, IPCC Task Force on Inventories Technical Support Unit",
+      "description": "The Technical Support Unit of the IPCC Task Force on National Greenhouse Gas Inventories (TFI TSU) wishes to recruit for a position at the Associate Staff level. This will be a fixed term appointment until June 2028 located in Hayama, Japan. Preferred commencement date is September 2025. The TFI TSU is looking for self-motivated candidates […]",
+      "link": "https://www.ipcc.ch/2025/05/13/programme-officer-ipcc-task-force-on-inventories-technical-support-unit/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2025-05-13"
     },
     {
       "title": "NASA Analysis Finds Strong El Niño Could Bring Extra Floods This Winter",
@@ -656,28 +665,20 @@
       "date": "2023-09-14"
     },
     {
+      "title": "NASA's New Exhibit Showcases our Home Planet and Climate",
+      "description": "Follow a river of water vapor as it travels through Earth's atmosphere and becomes heavy rain. Watch polar ice expand and contract as if our planet is breathing in slow motion. Discover how river channels and wind currents resemble the human nervous and circulatory systems. In an interactive new exhibit at the NASA Headquarters in Washington, visitors are invited to see Earth as NASA sees it from space. For six decades, NASA satellites, sensors, and scientists have collected data on Earth’s land, water, air, and climate. At the Earth Information Center, the public can glimpse what this data ha",
+      "link": "https://climate.nasa.gov/news/3274/",
+      "source": "NASA Climate",
+      "field": "climate",
+      "date": "2023-06-29"
+    },
+    {
       "title": "NASA Finds June 2023 Hottest on Record",
       "description": "June 2023 was the hottest June on record according to NASA’s global temperature analysis. GISTEMP, NASA’s global temperature analysis, is drawn from data collected by weather stations and Antarctic research stations, as well as instruments mounted on ships and ocean buoys. NASA scientists at the Goddard Institute for Space Studies (GISS) in New York analyze these measurements to account for uncertainties in the data and to maintain consistent methods for calculating global average surface temperature differences for every year. These ground-based measurements of surface temperature are consist",
       "link": "https://climate.nasa.gov/news/3276/",
       "source": "NASA Climate",
       "field": "climate",
       "date": "2023-07-13"
-    },
-    {
-      "title": "IPCC concludes selection of authors for its Seventh Assessment Report",
-      "description": "GENEVA, August 18 – The Intergovernmental Panel on Climate Change (IPCC) has appointed 664 experts from 111 countries to participate in the Seventh Assessment Report (AR7) as Coordinating Lead Authors, Lead Authors and Review Editors. These experts were nominated by governments and IPCC observer organisations and selected by the IPCC Bureau from a global […]",
-      "link": "https://www.ipcc.ch/2025/08/18/pr-ar7-authors/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-08-18"
-    },
-    {
-      "title": "IPCC authors gather in Kenya to develop the first draft of the Special Report on Climate Change and Cities",
-      "description": "MOMBASA, Kenya, Jul 21 – The Second Lead Author Meeting of the Intergovernmental Panel on Climate Change (IPCC) Special Report on Climate Change and Cities taking place in Mombasa, Kenya, this week will advance the work on the First Order Draft (FOD) of the IPCC’s only special report in the seventh assessment cycle. The first […]",
-      "link": "https://www.ipcc.ch/2025/07/21/ipcc-authors-srcities-lam2-kenya/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-07-21"
     },
     {
       "title": "Keynote speech by IPCC Chair Jim Skea at the Seventeeth Session of the Research Dialogue",
@@ -688,12 +689,12 @@
       "date": "2025-06-17"
     },
     {
-      "title": "Programme Officer, IPCC Task Force on Inventories Technical Support Unit",
-      "description": "The Technical Support Unit of the IPCC Task Force on National Greenhouse Gas Inventories (TFI TSU) wishes to recruit for a position at the Associate Staff level. This will be a fixed term appointment until June 2028 located in Hayama, Japan. Preferred commencement date is September 2025. The TFI TSU is looking for self-motivated candidates […]",
-      "link": "https://www.ipcc.ch/2025/05/13/programme-officer-ipcc-task-force-on-inventories-technical-support-unit/",
+      "title": "IPCC calls for the nomination of participants to the Workshop on Engaging Diverse Knowledge Systems and the Workshop on Methods of Assessment",
+      "description": "The Intergovernmental Panel on Climate Change is calling for nominations of participants to two three-day co-located workshops to be held in the first quarter of 2026: a Workshop on Engaging Diverse Knowledge Systems and a Workshop on Methods of Assessment. This follows the Panel’s agreement of a proposal made by the IPCC Chair with the […]",
+      "link": "https://www.ipcc.ch/2025/06/13/calls-for-nominations-workshops-diverse-knowledge-systems-and-methods-of-assessment/",
       "source": "IPCC",
       "field": "climate",
-      "date": "2025-05-13"
+      "date": "2025-06-13"
     },
     {
       "title": "Obituary: Dr Mannava V.K. Sivakumar",
@@ -800,14 +801,6 @@
       "date": "2025-09-03"
     },
     {
-      "title": "Scientist Lucy Shapiro to receive Lasker-Koshland Special Achievement Award",
-      "description": "A groundbreaking scientist, mentor, drug developer, and advocate for science communication, she has received the prestigious honor to commemorate a life of scientific contribution and service.",
-      "link": "https://news.stanford.edu/stories/2025/09/lucy-shapiro-lasker-koshland-special-achievement-award",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-11"
-    },
-    {
       "title": "Stem Cell–Based Embryo Models Reveal Pathway to Understanding Fertility",
       "description": "Caltech researchers have developed a powerful new method for creating embryo-like structures from stem cells that could transform how we study fertility.Using stem cells rather than a traditional fertilized egg, the team has built mouse embryo models called iG4-blastoids that closely mimic natural blastocysts, the stage of development when an embryo implants into the uterus. This implantation stage is when the majority of pregnancies fail, including those resulting from in vitro fertilization, and little is known about why. The new models will enable researchers to study the effects of environ",
       "link": "https://www.caltech.edu/about/news/stem-cellbased-embryo-models-reveal-pathway-to-understanding-fertility",
@@ -856,22 +849,6 @@
       "date": "2025-09-01"
     },
     {
-      "title": "Electrons that act like photons reveal a quantum secret",
-      "description": "Quantum materials, defined by their photon-like electrons, are opening new frontiers in material science. Researchers have synthesized organic compounds that display a universal magnetic behavior tied to a distinctive feature in their band structures called linear band dispersion. This discovery not only deepens the theoretical understanding of quantum systems but also points toward revolutionary applications in next-generation information and communication technologies that conventional materials cannot achieve.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912195124.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-13"
-    },
-    {
-      "title": "Google's quantum computer creates exotic state once thought impossible",
-      "description": "Physicists have achieved a breakthrough by using a 58-qubit quantum computer to create and observe a long-theorized but never-before-seen quantum phase of matter: a Floquet topologically ordered state. By harnessing rhythmic driving in these quantum systems, the team imaged particle edge motions and watched exotic particles transform in real time.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912195119.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-13"
-    },
-    {
       "title": "Great Britain’s economy didn’t completely tank after Romans left, countering conventional wisdom",
       "description": "“Completely surprising” discovery based on ancient pollutants suggests mining and smelting continued apace for centuries",
       "link": "https://www.science.org/content/article/great-britain-s-economy-didn-t-completely-tank-after-romans-left-countering",
@@ -896,76 +873,12 @@
       "date": "2025-09-12"
     },
     {
-      "title": "Technology originating at MIT leads to approved bladder cancer treatment",
-      "description": "A system conceived in Professor Michael Cima’s lab was approved by the Food and Drug Administration after positive results in patients.",
-      "link": "https://news.mit.edu/2025/technology-originating-at-mit-approved-bladder-cancer-treatment-0911",
-      "source": "MIT News",
+      "title": "Scientist Lucy Shapiro to receive Lasker-Koshland Special Achievement Award",
+      "description": "A groundbreaking scientist, mentor, drug developer, and advocate for science communication, she has received the prestigious honor to commemorate a life of scientific contribution and service.",
+      "link": "https://news.stanford.edu/stories/2025/09/lucy-shapiro-lasker-koshland-special-achievement-award",
+      "source": "Stanford News",
       "field": "technology",
       "date": "2025-09-11"
-    },
-    {
-      "title": "Demo Day features hormone-tracking sensors, desalination systems, and other innovations",
-      "description": "MIT student teams celebrate business milestones at the capstone event for the 2025 delta v summer accelerator.",
-      "link": "https://news.mit.edu/2025/demo-day-features-hormone-tracking-sensors-desalination-systems-and-other-innovations-0910",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-10"
-    },
-    {
-      "title": "DOE selects MIT to establish a Center for the Exascale Simulation of Coupled High-Enthalpy Fluid–Solid Interactions",
-      "description": "The research center, sponsored by the DOE’s National Nuclear Security Administration, will advance the simulation of extreme environments, such as those in hypersonic flight and atmospheric reentry.",
-      "link": "https://news.mit.edu/2025/mit-center-exascale-simulation-coupled-high-enthalpy-fluid-solid-interactions-0910",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-10"
-    },
-    {
-      "title": "Book introduces kids to woman who broke the arts glass ceiling",
-      "description": "In Lavinia’s Wondrous Portraits, art history professor Emanuele Lugli tells the story of an overlooked Renaissance artist through the perspective of an 8-year-old.",
-      "link": "https://news.stanford.edu/stories/2025/09/laivinias-wondrous-portraits-emanuele-lugli-female-painter-young-audiences",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-10"
-    },
-    {
-      "title": "Stanford researchers team up with Google to launch game teaching responsible use of AI",
-      "description": "The free interactive game empowers students to navigate real-world scenarios while building essential AI literacy skills.",
-      "link": "https://news.stanford.edu/stories/2025/09/stanford-google-ai-quests-educational-game",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-09"
-    },
-    {
-      "title": "New database makes once-secret police records accessible to the public",
-      "description": "The recently launched Police Records Access Project, developed with the help of Stanford’s Big Local News, significantly boosts transparency in law enforcement.",
-      "link": "https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-09"
-    },
-    {
-      "title": "Warming climate drives surge in dengue fever cases",
-      "description": "By mid-century, over 260 million people are expected to live in areas with significantly higher dengue infection rates.",
-      "link": "https://news.stanford.edu/stories/2025/09/dengue-fever-rates-climate-change-study",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-08"
-    },
-    {
-      "title": "Two Caltech Graduate Students Named 2025 Quad Fellows",
-      "description": "Caltech graduate students Alice Jeffery and Christopher Yeh have been selected as part of the 2025 cohort of Quad Fellows. Jeffery and Yeh are among 37 students selected in 2025, the third year of the initiative started by the governments of Australia, India, Japan, and the United States.In the spirit of cooperation between its participating countries, the Quad program is designed to build connections and promote knowledge exchange among the next generation of scientists and technologists. The program is available to graduate students who are in any year of their studies and who come from any ",
-      "link": "https://www.caltech.edu/about/news/2025-quad-fellows",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-09-08"
-    },
-    {
-      "title": "J-WAFS welcomes Daniela Giardina as new executive director",
-      "description": "Succeeding founding executive director Renee Robins, Giardina will help shape and implement the goals and initiatives of MIT’s eminent water and food program.",
-      "link": "https://news.mit.edu/2025/j-wafs-welcomes-daniela-giardina-executive-director-0904",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-05"
     },
     {
       "title": "Parkinson's Disease Drug Candidates Induce Unexpected Damaging Effects",
@@ -982,6 +895,22 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-09-14"
+    },
+    {
+      "title": "Electrons that act like photons reveal a quantum secret",
+      "description": "Quantum materials, defined by their photon-like electrons, are opening new frontiers in material science. Researchers have synthesized organic compounds that display a universal magnetic behavior tied to a distinctive feature in their band structures called linear band dispersion. This discovery not only deepens the theoretical understanding of quantum systems but also points toward revolutionary applications in next-generation information and communication technologies that conventional materials cannot achieve.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912195124.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-13"
+    },
+    {
+      "title": "Google's quantum computer creates exotic state once thought impossible",
+      "description": "Physicists have achieved a breakthrough by using a 58-qubit quantum computer to create and observe a long-theorized but never-before-seen quantum phase of matter: a Floquet topologically ordered state. By harnessing rhythmic driving in these quantum systems, the team imaged particle edge motions and watched exotic particles transform in real time.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912195119.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-13"
     },
     {
       "title": "Our viral vocabulary",
@@ -1120,6 +1049,134 @@
       "date": "2025-09-14"
     },
     {
+      "title": "DNA-based Neural Network Learns from Examples to Solve Problems",
+      "description": "Neural networks are computing systems designed to mimic both the structure and function of the human brain. Caltech researchers have been developing a neural network made out of strands of DNA instead of electronic parts that carries out computation through chemical reactions rather than digital signals.An important property of any neural network is the ability to learn by taking in information and retaining it for future decisions. Now, researchers in the laboratory of Lulu Qian, professor of bioengineering, have created a DNA-based neural network that can learn. The work represents a first s",
+      "link": "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-09-03"
+    },
+    {
+      "title": "Caltech Biochemists Uncover New Rules of Mitochondrial Protein Import",
+      "description": "Mitochondria are cellular organelles that are popularly known as the \"powerhouses of the cell\" because of the important role they play in making ATP (adenosine triphosphate), the molecular fuel that powers most cellular functions. These organelles originated over a billion years ago when a primitive archaeal cell entered into a symbiotic relationship with an ancestral bacterium. Over time, mitochondria became essential for metabolism and energy production, while transferring most of their genes to the host. As a result, they now rely on the host cell to supply most of their proteins, which are",
+      "link": "https://www.caltech.edu/about/news/caltech-biochemists-uncover-new-rules-of-mitochondrial-protein-import",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-08-29"
+    },
+    {
+      "title": "Braided Magnetic Flux Ropes Are Found at Both Human and Light-Year Scales",
+      "description": "Investigating solar corona structures has led Paul Bellan, Caltech professor of applied physics, and his former graduate student Yang Zhang (PhD '24) to discover a new equilibrium state of the magnetic field and its associated plasma. The solar corona, the outermost part of the Sun's atmosphere, is much less dense than the Sun's surface but is a million times hotter. The corona is composed of strong magnetic fields confining plasma, a gaseous soup of charged particles (electrons and ions). The new equilibrium, called a double helix, applies not only to the solar corona but also to much larger ",
+      "link": "https://www.caltech.edu/about/news/braided-magnetic-flux-ropes",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-08-22"
+    },
+    {
+      "title": "Physicists just found a way to make “something from nothing”",
+      "description": "Researchers at UBC have found a way to mimic the elusive Schwinger effect using superfluid helium, where vortex pairs appear out of thin films instead of electron-positron pairs in a vacuum. Their work not only offers a cosmic laboratory for otherwise unreachable phenomena, but also changes the way scientists understand vortices, superfluids, and even quantum tunneling.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250913232932.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-14"
+    },
+    {
+      "title": "Johns Hopkins breakthrough could make microchips smaller than ever",
+      "description": "Johns Hopkins scientists, working with global partners, have unveiled a new way to build microchips so small they’re invisible to the eye. By developing special metal-organic materials that interact with powerful beams of light, they’ve cracked a major hurdle in creating faster, smaller, and more affordable chips. This new process, chemical liquid deposition, could reshape electronics manufacturing and push the limits of technology for years to come.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912195126.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-13"
+    },
+    {
+      "title": "New quantum breakthrough could transform teleportation and computing",
+      "description": "Scientists have finally unlocked a way to identify the elusive W state of quantum entanglement, solving a decades-old problem and opening paths to quantum teleportation and advanced quantum technologies.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912195122.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Technology originating at MIT leads to approved bladder cancer treatment",
+      "description": "A system conceived in Professor Michael Cima’s lab was approved by the Food and Drug Administration after positive results in patients.",
+      "link": "https://news.mit.edu/2025/technology-originating-at-mit-approved-bladder-cancer-treatment-0911",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
+      "title": "Demo Day features hormone-tracking sensors, desalination systems, and other innovations",
+      "description": "MIT student teams celebrate business milestones at the capstone event for the 2025 delta v summer accelerator.",
+      "link": "https://news.mit.edu/2025/demo-day-features-hormone-tracking-sensors-desalination-systems-and-other-innovations-0910",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-10"
+    },
+    {
+      "title": "DOE selects MIT to establish a Center for the Exascale Simulation of Coupled High-Enthalpy Fluid–Solid Interactions",
+      "description": "The research center, sponsored by the DOE’s National Nuclear Security Administration, will advance the simulation of extreme environments, such as those in hypersonic flight and atmospheric reentry.",
+      "link": "https://news.mit.edu/2025/mit-center-exascale-simulation-coupled-high-enthalpy-fluid-solid-interactions-0910",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-10"
+    },
+    {
+      "title": "Book introduces kids to woman who broke the arts glass ceiling",
+      "description": "In Lavinia’s Wondrous Portraits, art history professor Emanuele Lugli tells the story of an overlooked Renaissance artist through the perspective of an 8-year-old.",
+      "link": "https://news.stanford.edu/stories/2025/09/laivinias-wondrous-portraits-emanuele-lugli-female-painter-young-audiences",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-10"
+    },
+    {
+      "title": "Study finds cell memory can be more like a dimmer dial than an on/off switch",
+      "description": "The findings may redefine how cell identity is established and enable the creation of more sophisticated engineered tissues.",
+      "link": "https://news.mit.edu/2025/study-finds-cell-memory-can-be-more-like-dimmer-dial-0909",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-09"
+    },
+    {
+      "title": "Stanford researchers team up with Google to launch game teaching responsible use of AI",
+      "description": "The free interactive game empowers students to navigate real-world scenarios while building essential AI literacy skills.",
+      "link": "https://news.stanford.edu/stories/2025/09/stanford-google-ai-quests-educational-game",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-09"
+    },
+    {
+      "title": "New database makes once-secret police records accessible to the public",
+      "description": "The recently launched Police Records Access Project, developed with the help of Stanford’s Big Local News, significantly boosts transparency in law enforcement.",
+      "link": "https://news.stanford.edu/stories/2025/09/police-records-access-project-searchable-database-law-enforcement-transparency",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-09"
+    },
+    {
+      "title": "Warming climate drives surge in dengue fever cases",
+      "description": "By mid-century, over 260 million people are expected to live in areas with significantly higher dengue infection rates.",
+      "link": "https://news.stanford.edu/stories/2025/09/dengue-fever-rates-climate-change-study",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-08"
+    },
+    {
+      "title": "Two Caltech Graduate Students Named 2025 Quad Fellows",
+      "description": "Caltech graduate students Alice Jeffery and Christopher Yeh have been selected as part of the 2025 cohort of Quad Fellows. Jeffery and Yeh are among 37 students selected in 2025, the third year of the initiative started by the governments of Australia, India, Japan, and the United States.In the spirit of cooperation between its participating countries, the Quad program is designed to build connections and promote knowledge exchange among the next generation of scientists and technologists. The program is available to graduate students who are in any year of their studies and who come from any ",
+      "link": "https://www.caltech.edu/about/news/2025-quad-fellows",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-09-08"
+    },
+    {
+      "title": "J-WAFS welcomes Daniela Giardina as new executive director",
+      "description": "Succeeding founding executive director Renee Robins, Giardina will help shape and implement the goals and initiatives of MIT’s eminent water and food program.",
+      "link": "https://news.mit.edu/2025/j-wafs-welcomes-daniela-giardina-executive-director-0904",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-05"
+    },
+    {
       "title": "Gold-covered hairballs may reveal why cats eat grass",
       "description": "Spiky projections on plant matter may act like “drain snakes,” helping felines dislodge wads of fur",
       "link": "https://www.science.org/content/article/gold-covered-hairballs-may-reveal-why-cats-eat-grass",
@@ -1166,62 +1223,6 @@
       "source": "Science",
       "field": "technology",
       "date": "2025-09-10"
-    },
-    {
-      "title": "Strongest black hole collision yet confirms theories of Einstein, Hawking",
-      "description": "Observation confirms that a black hole’s area can only grow and never shrink",
-      "link": "https://www.science.org/content/article/strongest-black-hole-collision-yet-confirms-theories-einstein-hawking",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-09-10"
-    },
-    {
-      "title": "The trick to blowing the perfect dandelion",
-      "description": "The umbrellalike tufts resist downward tugs but slip free when lifted up into the wind",
-      "link": "https://www.science.org/content/article/trick-blowing-perfect-dandelion",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-09-09"
-    },
-    {
-      "title": "Tiger hologram created with technique from early cinema experiment",
-      "description": "“Holostereosynthesis” can make holograms out of anything with layers",
-      "link": "https://www.science.org/content/article/holographic-tiger-created-technique-borrowed-early-cinema-experiment",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-09-09"
-    },
-    {
-      "title": "3 Questions: On humanizing scientists",
-      "description": "The prolific MIT author and physicist Alan Lightman examines the working lives, contributions, and idealism of researchers.",
-      "link": "https://news.mit.edu/2025/3-questions-humanizing-scientists-alan-lightman-book-0915",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "Lidar helps gas industry find methane leaks and avoid costly losses",
-      "description": "Lincoln Laboratory transitioned its optical-amplifier technology to Bridger Photonics for commercialization, enhancing US energy security and efficiency.",
-      "link": "https://news.mit.edu/2025/lidar-helps-gas-industry-find-methane-leaks-avoid-costly-losses-0912",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "This MIT spinout is taking biomolecule storage out of the freezer",
-      "description": "Cache DNA has developed technologies that can preserve biomolecules at room temperature to make storing and transporting samples less expensive and more reliable.",
-      "link": "https://news.mit.edu/2025/mit-spinout-cache-dna-takes-biomolecule-storage-out-freezer-0912",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "New RNA tool to advance cancer and infectious disease research and treatment",
-      "description": "Advance from SMART will help to better identify disease markers and develop targeted therapies and personalized treatment for diseases such as cancer and antibiotic-resistant infection.",
-      "link": "https://news.mit.edu/2025/new-rna-tool-advance-cancer-infectious-disease-research-treatment-0911",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-11"
     },
     {
       "title": "Education in Nigeria",
@@ -1352,6 +1353,14 @@
       "date": "2025-08-14"
     },
     {
+      "title": "ADB Supports Strategic Road Upgrade in Uzbekistan",
+      "description": "ADB has approved a $233.1 million loan to the Republic of Uzbekistan to help modernize a critical segment of the Central Asia Regional Economic Cooperation Road Corridor 2.",
+      "link": "https://www.adb.org/news/adb-supports-strategic-road-upgrade-uzbekistan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-08-28"
+    },
+    {
       "title": "ADB Sells $3 Billion 5-Year Global Benchmark Bond",
       "description": "ADB has priced a $3 billion 5-year global benchmark bond, proceeds of which will be part of ADB’s ordinary capital resources.",
       "link": "https://www.adb.org/news/adb-sells-3-billion-5-year-global-benchmark-bond-aug-2025",
@@ -1384,14 +1393,6 @@
       "date": "2025-08-29"
     },
     {
-      "title": "ADB Supports Strategic Road Upgrade in Uzbekistan",
-      "description": "ADB has approved a $233.1 million loan to the Republic of Uzbekistan to help modernize a critical segment of the Central Asia Regional Economic Cooperation Road Corridor 2.",
-      "link": "https://www.adb.org/news/adb-supports-strategic-road-upgrade-uzbekistan",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-08-28"
-    },
-    {
       "title": "ADB, GSA Sign Deal to Open Green Data Center in Thailand",
       "description": "ADB and GSA Data Center 01 Company Limited (GSA) have signed a local currency green loan of THB900 million (approximately $26.8 million) to fund the development, construction, and operation of a 25.6-megawatt colocation green data center in Samut Prakan province, Thailand.",
       "link": "https://www.adb.org/news/adb-gsa-sign-deal-open-green-data-center-thailand",
@@ -1406,6 +1407,86 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2025-08-18"
+    },
+    {
+      "title": "Can you imagine life without these discoveries?",
+      "description": "From the glow of blue LEDs to the ‘miracle’ of IVF, the Nobel Prize celebrates individuals whose discoveries have changed the world. These six innovations and discoveries not only improve our daily lives, but save them and help create new ones. At a glance Enabling safe blood transfusions It is likely you know someone who […] The post Can you imagine life without these discoveries? appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/can-you-imagine-life-without-these-discoveries/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-07-03"
+    },
+    {
+      "title": "“We’re in this forever” – the history of the Nobel Foundation",
+      "description": "The Nobel Foundation was founded in 1900, four years after Alfred Nobel’s death. It was set up primarily to invest Nobel’s fortune but also to manage the immaterial value of the Nobel Prize. While the first task remains basically the same after more than a century, the second has grown in importance as the prize […] The post “We’re in this forever” – the history of the Nobel Foundation appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/were-in-this-forever-the-history-of-the-nobel-foundation/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-08-28"
+    },
+    {
+      "title": "Nobel Prize Concert 2025",
+      "description": "A musical highlight Spanish violinist María Dueñas and Semyon Bychkov, chief conductor of the Czech Philharmonic, will perform at this year’s Nobel Prize Concert on 8 December. Together with the Royal Stockholm Philharmonic Orchestra, they will perform music by Modest Mussorgsky, Felix Mendelssohn-Bartholdy, and Victoria Borisova-Ollas. María Dueñas Spanish violinist María Dueñas is still in the […] The post Nobel Prize Concert 2025 appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/nobel-prize-concert-2025/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-26"
+    },
+    {
+      "title": "Benjamin List: “Trust your own intuition and ideas”",
+      "description": "Students meet chemistry laureate Benjamin List Benjamin List, Nobel Prize laureate in chemistry 2021, was joined by 10 students from all over the world and from different disciplines within science for a conversation on the topic of being a scientist. List gave his best advice for maintaining a science career, spoke about green chemistry and […] The post Benjamin List: “Trust your own intuition and ideas” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/benjamin-list-trust-your-own-intuition-and-ideas/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "David MacMillan: “Amazing doesn’t even begin to cover it”",
+      "description": "Student meets chemistry laureate David MacMillan High school student Lucas Madrigrano Azeredo met 2021 chemistry laureate David MacMillan to talk about life, football and career choices. MacMillan also shared his best advice for young people that are starting university. When asked about the moment he received his Nobel Prize medal, MacMillan tells Lucas: ”Amazing doesn’t […] The post David MacMillan: “Amazing doesn’t even begin to cover it” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/david-macmillan-amazing-doesnt-even-begin-to-cover-it/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Katalin Karikó: “I dreamt about doing research, not getting an award.”",
+      "description": "Student meets medicine laureate Katalin Karikó Join Emanuelle Tavares, a biomedical student at the University of Skövde as she talks to 2023 medicine laureate Katalin Karikó, whose work led to the development of mRNA vaccines for COVID-19. She explains how despite being terminated from her position and considered ‘unsuccessful’ she always tied success to what […] The post Katalin Karikó: “I dreamt about doing research, not getting an award.” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/katalin-kariko-i-dreamt-about-doing-research-not-getting-an-award/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Carolyn Bertozzi: “If you learned something, it’s not a failure”",
+      "description": "Student meets chemistry laureate Carolyn Bertozzi If you had the chance to meet a Nobel Prize laureate, what would you ask? Karolinska Institutet student Sofia Iskrak met 2022 chemistry laureate Carolyn Bertozzi to ask her pressing questions, including what Bertozzi was like as a student, her favourite science-themed reads, and her advice for students who […] The post Carolyn Bertozzi: “If you learned something, it’s not a failure” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/carolyn-bertozzi-if-you-learned-something-its-not-a-failure/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Frances Arnold on fearlessness",
+      "description": "“If you’re going to change the world, you’ve got to try really different things” PhD student Sofie Ährlund-Richter got the chance to chat with 2018 chemistry laureate Frances Arnold. They discussed everything from fearlessness and motivation to creating a sustainable world and being persistent in pursuing long-term goals. The post Frances Arnold on fearlessness appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/frances-arnold-on-fearlessness/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "Ben Feringa on how to overcome failures in the lab",
+      "description": "Students meet Nobel Prize laureate Ben Feringa Ben Feringa, Nobel Prize laureate in Chemistry 2016, was joined by 14 students from all over the world and from different disciplines within science for a conversation on the topic of being a scientist. Feringa gave his best advice for how to overcome failures in the lab, his […] The post Ben Feringa on how to overcome failures in the lab appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/ben-feringa-on-how-to-overcome-failures-in-the-lab/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
+    },
+    {
+      "title": "“Comedy is a form of intelligence”",
+      "description": "Gary Ruvkun in a conversation with a student Join Ravindu Liyanage, a molecular bioinformatics student at the University of Skövde, as he talks to 2024 medicine laureate Gary Ruvkun who co-discovered microRNAs, a new class of tiny RNA molecules that play a crucial role in gene regulation. The post “Comedy is a form of intelligence” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/students-meet-nobel-prize-laureate/comedy-is-a-form-of-intelligence/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-06-24"
     },
     {
       "title": "Harvesting Collaboration for Food Security. Science Week Closes.",
@@ -1472,36 +1553,52 @@
       "date": "2025-09-14"
     },
     {
+      "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
+      "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
+      "link": "https://climate.nasa.gov/news/3293/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-11-30"
+    },
+    {
+      "title": "NASA to Showcase Earth Science Data at COP28",
+      "description": "With 26 Earth-observing satellite missions, as well as instruments flying on planes and the space station, NASA has a global vantage point for studying our planet’s oceans, land, ice, and atmosphere and deciphering how changes in one drive change in others. The agency will share that knowledge and data at the 28th U.N. Climate Change Conference of the Parties (COP28), which brings international parties together to accelerate action toward the goals of the Paris Agreement and the U.N. Framework Convention on Climate Change. COP28 will be held at the Expo City in Dubai, United Arab Emirates from",
+      "link": "https://climate.nasa.gov/news/3292/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-11-28"
+    },
+    {
+      "title": "International Ocean Satellite Monitors How El Niño Is Shaping Up",
+      "description": "In Brief: Sentinel-6 Michael Freilich is the latest satellite contributing to a 30-year sea level record that researchers are using to compare this year’s El Niño with those of the past. Not all El Niño events are created equal. Their impacts vary widely, and satellites like the U.S.-European Sentinel-6 Michael Freilich help anticipate those impacts on a global scale by tracking changes in sea surface height in the Pacific Ocean. Water expands as it warms, so sea levels tend to be higher in places with warmer water. El Niños are characterized by higher-than-normal sea levels and warmer-than-av",
+      "link": "https://climate.nasa.gov/news/3286/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-10-19"
+    },
+    {
+      "title": "Crews Head Down River, Out to Sea to Prep New SWOT Water Satellite",
+      "description": "In Brief: A lot of hard work goes into ensuring a spacecraft like the Surface Water and Ocean Topography satellite delivers accurate data. In mid-June, a team of freshwater researchers spent their nights drifting down Alaska’s Yukon River in an area that straddles the Arctic Circle. The hydrologists were using a GPS unit installed on their boat to measure the slope of the river at the same time that the Surface Water and Ocean Topography (SWOT) satellite passed overhead, collecting its own data on the waterway. The midnight rendezvous were part of a larger effort by ocean and freshwater scient",
+      "link": "https://climate.nasa.gov/news/3277/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-07-20"
+    },
+    {
+      "title": "Powerful NASA-ISRO Earth Observing Satellite Coming Together in India",
+      "description": "In Brief: Built on opposite sides of the planet, the NISAR satellite will deepen understanding of climate change, deforestation, glacier melt, volcanoes, earthquakes, and more. Two major components of the NISAR satellite have been combined to create a single spacecraft in Bengaluru, India. Set to launch in early 2024, NISAR – short for NASA-ISRO Synthetic Aperture Radar – is being jointly developed by NASA and the Indian Space Research Organisation, or ISRO, to track movements of Earth’s land and ice surfaces in extremely fine detail. As NISAR monitors nearly every part of our planet at least ",
+      "link": "https://climate.nasa.gov/news/3275/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-07-13"
+    },
+    {
       "title": "Mechele Elliott Safeguards Agency Information Systems at Johnson",
       "description": "As an IT security administrator at NASA’s Johnson Space Center in Houston, Mechele Elliott protects the information systems that support astronaut health and mission readiness. The encouragement of a family friend set her on this path, leading to a rewarding and somewhat unexpected career in human spaceflight. “While I was caring for my son during […]",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/mechele-elliott-safeguards-agency-information-systems-at-johnson/",
       "source": "NASA",
       "field": "space",
       "date": "2025-09-14"
-    },
-    {
-      "title": "NASA’s GUARDIAN Tsunami Detection Tech Catches Wave in Real Time",
-      "description": "A massive earthquake and subsequent tsunami off Russia in late July tested an experimental detection system that had deployed a critical component just the day before. A recent tsunami triggered by a magnitude 8.8 earthquake off Russia’s Kamchatka Peninsula sent pressure waves to the upper layer of the atmosphere, NASA scientists have reported. While the […]",
-      "link": "https://www.nasa.gov/earth/natural-disasters/tsunamis/nasas-guardian-tsunami-detection-tech-catches-wave-in-real-time/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "Sentinel-1D in French Guiana for launch campaign",
-      "description": "The fourth satellite for the Copernicus Sentinel-1 mission, Sentinel-1D, has arrived at Félix Eboué airport, the main airport in French Guiana. From there the spacecraft, safely stored in its protective casing, will be transported to launch preparation facilities at the European Spaceport in Kourou.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1D_in_French_Guiana_for_launch_campaign",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-09-11"
-    },
-    {
-      "title": "Northrop Grumman’s 1st Cygnus XL spacecraft launches on cargo run to the space station",
-      "description": "SpaceX launched the vehicle on a Falcon 9 rocket from Cape Canaveral Space Force Station on Sunday, Sept. 14, at 6:11 p.m. EDT (2211 UTC). It’s scheduled to be berthed to the ISS by NASA astronaut Jonny Kim on Wednesday, Sept. 17.",
-      "link": "https://spaceflightnow.com/2025/09/15/northrop-grummans-1st-cygnus-xl-spacecraft-launches-on-cargo-run-to-the-space-station/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-09-15"
     },
     {
       "title": "Launch preview: SpaceX to launch new, improved Northrop Grumman Cygnus XL resupply ship to the space station",
@@ -1552,6 +1649,14 @@
       "date": "2025-09-12"
     },
     {
+      "title": "NASA’s GUARDIAN Tsunami Detection Tech Catches Wave in Real Time",
+      "description": "A massive earthquake and subsequent tsunami off Russia in late July tested an experimental detection system that had deployed a critical component just the day before. A recent tsunami triggered by a magnitude 8.8 earthquake off Russia’s Kamchatka Peninsula sent pressure waves to the upper layer of the atmosphere, NASA scientists have reported. While the […]",
+      "link": "https://www.nasa.gov/earth/natural-disasters/tsunamis/nasas-guardian-tsunami-detection-tech-catches-wave-in-real-time/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-09-12"
+    },
+    {
       "title": "Artemis II Crew to Advance Human Spaceflight Research",
       "description": "A sweeping collection of astronaut health studies planned for NASA’s Artemis II mission around the Moon will soon provide agency researchers with a glimpse into how deep space travel influences the human body, mind, and behavior. During an approximately 10-day mission set to launch in 2026, NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, […]",
       "link": "https://www.nasa.gov/humans-in-space/artemis-ii-crew-to-advance-human-spaceflight-research/",
@@ -1560,73 +1665,17 @@
       "date": "2025-09-12"
     },
     {
-      "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
-      "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
-      "link": "https://climate.nasa.gov/news/3293/",
-      "source": "NASA Climate",
+      "title": "Sentinel-1D in French Guiana for launch campaign",
+      "description": "The fourth satellite for the Copernicus Sentinel-1 mission, Sentinel-1D, has arrived at Félix Eboué airport, the main airport in French Guiana. From there the spacecraft, safely stored in its protective casing, will be transported to launch preparation facilities at the European Spaceport in Kourou.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1D_in_French_Guiana_for_launch_campaign",
+      "source": "ESA",
       "field": "space",
-      "date": "2023-11-30"
-    },
-    {
-      "title": "NASA to Showcase Earth Science Data at COP28",
-      "description": "With 26 Earth-observing satellite missions, as well as instruments flying on planes and the space station, NASA has a global vantage point for studying our planet’s oceans, land, ice, and atmosphere and deciphering how changes in one drive change in others. The agency will share that knowledge and data at the 28th U.N. Climate Change Conference of the Parties (COP28), which brings international parties together to accelerate action toward the goals of the Paris Agreement and the U.N. Framework Convention on Climate Change. COP28 will be held at the Expo City in Dubai, United Arab Emirates from",
-      "link": "https://climate.nasa.gov/news/3292/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-11-28"
-    },
-    {
-      "title": "International Ocean Satellite Monitors How El Niño Is Shaping Up",
-      "description": "In Brief: Sentinel-6 Michael Freilich is the latest satellite contributing to a 30-year sea level record that researchers are using to compare this year’s El Niño with those of the past. Not all El Niño events are created equal. Their impacts vary widely, and satellites like the U.S.-European Sentinel-6 Michael Freilich help anticipate those impacts on a global scale by tracking changes in sea surface height in the Pacific Ocean. Water expands as it warms, so sea levels tend to be higher in places with warmer water. El Niños are characterized by higher-than-normal sea levels and warmer-than-av",
-      "link": "https://climate.nasa.gov/news/3286/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-10-19"
-    },
-    {
-      "title": "Crews Head Down River, Out to Sea to Prep New SWOT Water Satellite",
-      "description": "In Brief: A lot of hard work goes into ensuring a spacecraft like the Surface Water and Ocean Topography satellite delivers accurate data. In mid-June, a team of freshwater researchers spent their nights drifting down Alaska’s Yukon River in an area that straddles the Arctic Circle. The hydrologists were using a GPS unit installed on their boat to measure the slope of the river at the same time that the Surface Water and Ocean Topography (SWOT) satellite passed overhead, collecting its own data on the waterway. The midnight rendezvous were part of a larger effort by ocean and freshwater scient",
-      "link": "https://climate.nasa.gov/news/3277/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-07-20"
-    },
-    {
-      "title": "Powerful NASA-ISRO Earth Observing Satellite Coming Together in India",
-      "description": "In Brief: Built on opposite sides of the planet, the NISAR satellite will deepen understanding of climate change, deforestation, glacier melt, volcanoes, earthquakes, and more. Two major components of the NISAR satellite have been combined to create a single spacecraft in Bengaluru, India. Set to launch in early 2024, NISAR – short for NASA-ISRO Synthetic Aperture Radar – is being jointly developed by NASA and the Indian Space Research Organisation, or ISRO, to track movements of Earth’s land and ice surfaces in extremely fine detail. As NISAR monitors nearly every part of our planet at least ",
-      "link": "https://climate.nasa.gov/news/3275/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-07-13"
-    },
-    {
-      "title": "US-German Satellites Show California Water Gains After Record Winter",
-      "description": "In Brief: Early data shows the greatest net gain of water over the winter in nearly 22 years, but the state’s groundwater levels still suffer from the effects of years of drought. After years of intense drought and diminishing groundwater, California just saw its greatest year-over-year water gains in two decades, according to data from the GRACE-FO (Gravity Recovery and Climate Experiment Follow-On) satellite mission, a partnership between NASA and the German Research Centre for Geosciences (GFZ). This past winter’s bonanza of atmospheric rivers alleviated some of the water deficit that the s",
-      "link": "https://climate.nasa.gov/news/3272/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-06-09"
-    },
-    {
-      "title": "SpaceX aces 500th Falcon booster landing amid sunrise Starlink mission",
-      "description": "The Starlink 10-57 mission is also SpaceX’s 80th launch this year carrying Starlink satellites to low Earth obit. It’s targeting liftoff from pad 39A at NASA’s Kennedy Space Center is scheduled for 8:32 a.m. EDT (1232 UTC).",
-      "link": "https://spaceflightnow.com/2025/09/04/live-coverage-spacex-aims-for-500th-falcon-booster-landing-amid-sunrise-starlink-mission/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-09-04"
+      "date": "2025-09-11"
     },
     {
       "title": "Week in images: 08-12 September 2025",
       "description": "Week in images: 08-12 September 2025 Discover our week through the lens",
       "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_08-12_September_2025",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "Earth from Space: Gibson Desert, Australia",
-      "description": "Image: Part of the Gibson Desert in Western Australia is featured in this image, captured by the Φsat-2 mission in June 2025.",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/09/Earth_from_Space_Gibson_Desert_Australia",
       "source": "ESA",
       "field": "space",
       "date": "2025-09-12"
@@ -1638,6 +1687,22 @@
       "source": "ESA",
       "field": "space",
       "date": "2025-09-11"
+    },
+    {
+      "title": "US-German Satellites Show California Water Gains After Record Winter",
+      "description": "In Brief: Early data shows the greatest net gain of water over the winter in nearly 22 years, but the state’s groundwater levels still suffer from the effects of years of drought. After years of intense drought and diminishing groundwater, California just saw its greatest year-over-year water gains in two decades, according to data from the GRACE-FO (Gravity Recovery and Climate Experiment Follow-On) satellite mission, a partnership between NASA and the German Research Centre for Geosciences (GFZ). This past winter’s bonanza of atmospheric rivers alleviated some of the water deficit that the s",
+      "link": "https://climate.nasa.gov/news/3272/",
+      "source": "NASA Climate",
+      "field": "space",
+      "date": "2023-06-09"
+    },
+    {
+      "title": "Northrop Grumman’s 1st Cygnus XL spacecraft launches on cargo run to the space station",
+      "description": "SpaceX launched the vehicle on a Falcon 9 rocket from Cape Canaveral Space Force Station on Sunday, Sept. 14, at 6:11 p.m. EDT (2211 UTC). It’s scheduled to be berthed to the ISS by NASA astronaut Jonny Kim on Wednesday, Sept. 17.",
+      "link": "https://spaceflightnow.com/2025/09/15/northrop-grummans-1st-cygnus-xl-spacecraft-launches-on-cargo-run-to-the-space-station/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-09-15"
     },
     {
       "title": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
@@ -1652,6 +1717,22 @@
       "description": "The Space Development Agency’s Proliferated Warfighter Space Architecture constellation is expected to deliver global coverage beginning in 2027. Launch from Vandenberg Space Force Base occurred at 7:12 a.m. PDT (10:12 a.m. EDT / 1412 UTC).",
       "link": "https://spaceflightnow.com/2025/09/12/new-u-s-military-satellite-constellation-takes-shape-with-first-launch-from-vandenberg-sfb/",
       "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "SpaceX aces 500th Falcon booster landing amid sunrise Starlink mission",
+      "description": "The Starlink 10-57 mission is also SpaceX’s 80th launch this year carrying Starlink satellites to low Earth obit. It’s targeting liftoff from pad 39A at NASA’s Kennedy Space Center is scheduled for 8:32 a.m. EDT (1232 UTC).",
+      "link": "https://spaceflightnow.com/2025/09/04/live-coverage-spacex-aims-for-500th-falcon-booster-landing-amid-sunrise-starlink-mission/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-09-04"
+    },
+    {
+      "title": "Earth from Space: Gibson Desert, Australia",
+      "description": "Image: Part of the Gibson Desert in Western Australia is featured in this image, captured by the Φsat-2 mission in June 2025.",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2025/09/Earth_from_Space_Gibson_Desert_Australia",
+      "source": "ESA",
       "field": "space",
       "date": "2025-09-12"
     },
@@ -1704,6 +1785,62 @@
       "date": "2025-09-14"
     },
     {
+      "title": "Strongest black hole collision yet confirms theories of Einstein, Hawking",
+      "description": "Observation confirms that a black hole’s area can only grow and never shrink",
+      "link": "https://www.science.org/content/article/strongest-black-hole-collision-yet-confirms-theories-einstein-hawking",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-09-10"
+    },
+    {
+      "title": "The trick to blowing the perfect dandelion",
+      "description": "The umbrellalike tufts resist downward tugs but slip free when lifted up into the wind",
+      "link": "https://www.science.org/content/article/trick-blowing-perfect-dandelion",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-09-09"
+    },
+    {
+      "title": "Tiger hologram created with technique from early cinema experiment",
+      "description": "“Holostereosynthesis” can make holograms out of anything with layers",
+      "link": "https://www.science.org/content/article/holographic-tiger-created-technique-borrowed-early-cinema-experiment",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-09-09"
+    },
+    {
+      "title": "3 Questions: On humanizing scientists",
+      "description": "The prolific MIT author and physicist Alan Lightman examines the working lives, contributions, and idealism of researchers.",
+      "link": "https://news.mit.edu/2025/3-questions-humanizing-scientists-alan-lightman-book-0915",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-15"
+    },
+    {
+      "title": "Lidar helps gas industry find methane leaks and avoid costly losses",
+      "description": "Lincoln Laboratory transitioned its optical-amplifier technology to Bridger Photonics for commercialization, enhancing US energy security and efficiency.",
+      "link": "https://news.mit.edu/2025/lidar-helps-gas-industry-find-methane-leaks-avoid-costly-losses-0912",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "This MIT spinout is taking biomolecule storage out of the freezer",
+      "description": "Cache DNA has developed technologies that can preserve biomolecules at room temperature to make storing and transporting samples less expensive and more reliable.",
+      "link": "https://news.mit.edu/2025/mit-spinout-cache-dna-takes-biomolecule-storage-out-freezer-0912",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "New RNA tool to advance cancer and infectious disease research and treatment",
+      "description": "Advance from SMART will help to better identify disease markers and develop targeted therapies and personalized treatment for diseases such as cancer and antibiotic-resistant infection.",
+      "link": "https://news.mit.edu/2025/new-rna-tool-advance-cancer-infectious-disease-research-treatment-0911",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
       "title": "A better understanding of debilitating head pain",
       "description": "Tom Zeller’s new book, “The Headache,” sheds light on one of the world’s most confounding and agonizing ailments.",
       "link": "https://news.mit.edu/2025/better-understanding-debilitating-head-pain-tom-zeller-book-0911",
@@ -1744,9 +1881,9 @@
       "date": "2025-09-10"
     },
     {
-      "title": "Lung cancer cells in the brain connect with neurons to fuel tumor growth",
-      "description": "A Stanford Medicine-led discovery about how small cell lung cancer cells interact with brain neurons suggests new strategies for treating one of the most fatal forms of human cancer.",
-      "link": "https://news.stanford.edu/stories/2025/09/lung-cancer-brain-neurons-treatment-research",
+      "title": "Charting the journey of sacred Sáttítla to national monument status",
+      "description": "The Environmental Law Clinic’s case for the Pit River Tribe culminated in the designation of Medicine Lake Highlands as a national monument, reflecting decades of commitment from students and tribal advocates.",
+      "link": "https://news.stanford.edu/stories/2025/09/sattitla-medicine-lake-highlands-national-monument-environmental-law-clinic",
       "source": "Stanford News",
       "field": "technology",
       "date": "2025-09-10"
@@ -1758,22 +1895,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-09-09"
-    },
-    {
-      "title": "Study finds cell memory can be more like a dimmer dial than an on/off switch",
-      "description": "The findings may redefine how cell identity is established and enable the creation of more sophisticated engineered tissues.",
-      "link": "https://news.mit.edu/2025/study-finds-cell-memory-can-be-more-like-dimmer-dial-0909",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-09"
-    },
-    {
-      "title": "Charting the journey of sacred Sáttítla to national monument status",
-      "description": "The Environmental Law Clinic’s case for the Pit River Tribe culminated in the designation of Medicine Lake Highlands as a national monument, reflecting decades of commitment from students and tribal advocates.",
-      "link": "https://news.stanford.edu/stories/2025/09/sattitla-medicine-lake-highlands-national-monument-environmental-law-clinic",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-10"
     },
     {
       "title": "“Bottlebrush” particles deliver big chemotherapy payloads directly to cancer cells",
@@ -1792,140 +1913,20 @@
       "date": "2025-09-04"
     },
     {
-      "title": "DNA-based Neural Network Learns from Examples to Solve Problems",
-      "description": "Neural networks are computing systems designed to mimic both the structure and function of the human brain. Caltech researchers have been developing a neural network made out of strands of DNA instead of electronic parts that carries out computation through chemical reactions rather than digital signals.An important property of any neural network is the ability to learn by taking in information and retaining it for future decisions. Now, researchers in the laboratory of Lulu Qian, professor of bioengineering, have created a DNA-based neural network that can learn. The work represents a first s",
-      "link": "https://www.caltech.edu/about/news/dna-based-neural-network-learns-from-examples-to-solve-problems",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-09-03"
-    },
-    {
-      "title": "Caltech Biochemists Uncover New Rules of Mitochondrial Protein Import",
-      "description": "Mitochondria are cellular organelles that are popularly known as the \"powerhouses of the cell\" because of the important role they play in making ATP (adenosine triphosphate), the molecular fuel that powers most cellular functions. These organelles originated over a billion years ago when a primitive archaeal cell entered into a symbiotic relationship with an ancestral bacterium. Over time, mitochondria became essential for metabolism and energy production, while transferring most of their genes to the host. As a result, they now rely on the host cell to supply most of their proteins, which are",
-      "link": "https://www.caltech.edu/about/news/caltech-biochemists-uncover-new-rules-of-mitochondrial-protein-import",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-08-29"
-    },
-    {
-      "title": "Braided Magnetic Flux Ropes Are Found at Both Human and Light-Year Scales",
-      "description": "Investigating solar corona structures has led Paul Bellan, Caltech professor of applied physics, and his former graduate student Yang Zhang (PhD '24) to discover a new equilibrium state of the magnetic field and its associated plasma. The solar corona, the outermost part of the Sun's atmosphere, is much less dense than the Sun's surface but is a million times hotter. The corona is composed of strong magnetic fields confining plasma, a gaseous soup of charged particles (electrons and ions). The new equilibrium, called a double helix, applies not only to the solar corona but also to much larger ",
-      "link": "https://www.caltech.edu/about/news/braided-magnetic-flux-ropes",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-08-22"
-    },
-    {
-      "title": "Johns Hopkins breakthrough could make microchips smaller than ever",
-      "description": "Johns Hopkins scientists, working with global partners, have unveiled a new way to build microchips so small they’re invisible to the eye. By developing special metal-organic materials that interact with powerful beams of light, they’ve cracked a major hurdle in creating faster, smaller, and more affordable chips. This new process, chemical liquid deposition, could reshape electronics manufacturing and push the limits of technology for years to come.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912195126.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-13"
-    },
-    {
-      "title": "New quantum breakthrough could transform teleportation and computing",
-      "description": "Scientists have finally unlocked a way to identify the elusive W state of quantum entanglement, solving a decades-old problem and opening paths to quantum teleportation and advanced quantum technologies.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912195122.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "‘Surprise and relief’ from homeless patients: ‘This works for me’",
-      "description": "Doctors report ‘fascinating and counterintuitive’ results delivering healthcare to hard-to-reach population via telehealth",
-      "link": "https://news.harvard.edu/gazette/story/2025/09/surprise-and-relief-from-homeless-patients-this-works-for-me/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-09-04"
-    },
-    {
-      "title": "Black holes just proved Stephen Hawking right with the clearest signal yet",
-      "description": "Gravitational-wave astronomy has exploded since 2015, capturing hundreds of black hole and neutron star collisions. With ever-clearer signals, researchers are testing Einstein’s relativity and Hawking’s theorems while planning massive next-generation observatories to explore the dawn of the universe.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250911073158.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "AI reveals hidden earthquake swarms in Italy’s Campi Flegrei",
-      "description": "A new AI model detects thousands of previously unseen quakes in near real time, helping scientists understand changes in an Italian volcanic area where seismic activity has been intensifying since 2018.",
-      "link": "https://news.stanford.edu/stories/2025/09/ai-model-reveals-hidden-earthquake-swarms-and-faults-italys-campi-flegrei",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-04"
-    },
-    {
-      "title": "When ‘good’ corporate governance creates incentives for bad behavior",
-      "description": "Companies may find it more profitable to misbehave and suffer penalties rather than follow the rules.",
-      "link": "https://news.stanford.edu/stories/2025/09/when-good-corporate-governance-creates-incentives-bad-behavior",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-03"
-    },
-    {
-      "title": "Hidden star systems in the Milky Way could unlock the secrets of dark matter",
-      "description": "For centuries, scientists have puzzled over globular clusters, the dense star systems that orbit galaxies without dark matter. Using ultra-detailed simulations, researchers recreated their origins and unexpectedly revealed a new class of cosmic object that bridges star clusters and dwarf galaxies. These “globular cluster-like dwarfs” may already exist in our Milky Way, offering fresh opportunities to study both dark matter and the earliest stars.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912195117.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-13"
-    },
-    {
-      "title": "NASA's Perseverance rover finds clues to ancient Mars chemistry and possible life",
-      "description": "Mars’ Jezero Crater holds signs of ancient water and strange mineral reactions, some linked with organic compounds. With Perseverance’s samples and AI-refined mineral maps, scientists are closing in on whether Mars once had the chemistry needed for life.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912195114.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-13"
-    },
-    {
-      "title": "The real reason ice is slippery, revealed after 200 years",
-      "description": "For centuries, people believed ice was slippery because pressure and friction melted a thin film of water. But new research from Saarland University reveals that this long-standing explanation is wrong. Instead, the slipperiness comes from the subtle interaction of molecular dipoles between ice and surfaces like shoes or skis. These microscopic electrical forces disorder the crystal structure of ice, creating a thin liquid layer even at temperatures near absolute zero. The discovery overturns nearly 200 years of scientific thought and has wide implications for physics and winter sports alike.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912081323.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "Graphene just broke a fundamental law of physics",
-      "description": "For the first time, scientists have observed electrons in graphene behaving like a nearly perfect quantum fluid, challenging a long-standing puzzle in physics. By creating ultra-clean samples, the team at IISc uncovered a surprising decoupling of heat and charge transport, shattering the traditional Wiedemann-Franz law. At the mysterious “Dirac point,” graphene electrons flowed like an exotic liquid similar to quark-gluon plasma, with ultra-low viscosity. Beyond rewriting physics textbooks, this discovery opens new avenues for studying black holes and quantum entanglement in the lab—and may ev",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250912081319.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "Scientists capture elusive liquid carbon — a diamond in disguise",
-      "description": "Scientists have, for the first time, successfully studied liquid carbon in the lab by combining a powerful high-performance laser with the European XFEL x-ray laser. The experiment captured fleeting nanosecond snapshots of carbon as it was compressed and melted, revealing surprising diamond-like structures and narrowing down its true melting point.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250911073208.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "NASA spacecraft detect a mysterious force shaping the solar wind",
-      "description": "NASA’s Magnetospheric Multiscale Mission has uncovered surprising behavior of pickup ions drifting through the solar wind near Earth. These particles, once thought to be minor players, appear capable of generating waves and influencing how the solar wind heats and evolves. If true, it could force scientists to revise models of solar system dynamics, with implications reaching all the way to the edge of the heliosphere.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250911073154.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "Black hole explosion could change everything we know about the Universe",
-      "description": "Physicists may soon witness a cosmic fireworks show: the explosive death of a primordial black hole. Once thought to be unimaginably rare, new research suggests there’s up to a 90% chance of catching one in the next decade. Such an event would not only confirm Hawking radiation but also provide a complete catalog of all the particles in existence, potentially rewriting our understanding of physics and the origin of the universe.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250911073145.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
       "title": "5 things to know about Stanford Football before its first home game",
       "description": "Fans can catch the first home opener this Saturday with former NFL coach Frank Reich as interim head coach and former Cardinal and NFL standout Andrew Luck as general manager.",
       "link": "https://news.stanford.edu/stories/2025/09/stanford-football-first-home-game-facts",
       "source": "Stanford News",
       "field": "technology",
       "date": "2025-09-11"
+    },
+    {
+      "title": "Lung cancer cells in the brain connect with neurons to fuel tumor growth",
+      "description": "A Stanford Medicine-led discovery about how small cell lung cancer cells interact with brain neurons suggests new strategies for treating one of the most fatal forms of human cancer.",
+      "link": "https://news.stanford.edu/stories/2025/09/lung-cancer-brain-neurons-treatment-research",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-10"
     },
     {
       "title": "Remembering David Baltimore, influential biologist and founding director of the Whitehead Institute",
@@ -2048,6 +2049,14 @@
       "date": "2025-09-04"
     },
     {
+      "title": "AI reveals hidden earthquake swarms in Italy’s Campi Flegrei",
+      "description": "A new AI model detects thousands of previously unseen quakes in near real time, helping scientists understand changes in an Italian volcanic area where seismic activity has been intensifying since 2018.",
+      "link": "https://news.stanford.edu/stories/2025/09/ai-model-reveals-hidden-earthquake-swarms-and-faults-italys-campi-flegrei",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-04"
+    },
+    {
       "title": "A new generative AI approach to predicting chemical reactions",
       "description": "System developed at MIT could provide realistic predictions for a wide variety of reactions, while maintaining real-world physical constraints.",
       "link": "https://news.mit.edu/2025/generative-ai-approach-to-predicting-chemical-reactions-0903",
@@ -2068,6 +2077,14 @@
       "description": "New findings could help manufacturers design gels, lotions, or even paving materials that last longer and perform more predictably.",
       "link": "https://news.mit.edu/2025/soft-materials-hold-past-memories-longer-previously-thought-0903",
       "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-03"
+    },
+    {
+      "title": "When ‘good’ corporate governance creates incentives for bad behavior",
+      "description": "Companies may find it more profitable to misbehave and suffer penalties rather than follow the rules.",
+      "link": "https://news.stanford.edu/stories/2025/09/when-good-corporate-governance-creates-incentives-bad-behavior",
+      "source": "Stanford News",
       "field": "technology",
       "date": "2025-09-03"
     },
@@ -2104,22 +2121,6 @@
       "date": "2025-09-12"
     },
     {
-      "title": "Physicists just found a way to make “something from nothing”",
-      "description": "Researchers at UBC have found a way to mimic the elusive Schwinger effect using superfluid helium, where vortex pairs appear out of thin films instead of electron-positron pairs in a vacuum. Their work not only offers a cosmic laboratory for otherwise unreachable phenomena, but also changes the way scientists understand vortices, superfluids, and even quantum tunneling.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250913232932.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-14"
-    },
-    {
-      "title": "New particle detector passes the “standard candle” test",
-      "description": "The sPHENIX detector is on track to reveal properties of primordial quark-gluon plasma.",
-      "link": "https://news.mit.edu/2025/new-particle-detector-passes-standard-candle-test-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-02"
-    },
-    {
       "title": "UC Berkeley set to remember those lost over the past year on Monday",
       "description": "The post UC Berkeley set to remember those lost over the past year on Monday appeared first on Berkeley News.",
       "link": "https://uhs.berkeley.edu/faculty-staff/worklife/campus-death-response/campus-memorial",
@@ -2144,6 +2145,22 @@
       "date": "2025-09-12"
     },
     {
+      "title": "There’s no place for violence on campus",
+      "description": "Charlie Kirk’s death represents an attack on the open exchange of ideas that defines university life. Regardless of our political perspectives and disagreements, the use of violent means in pursuit of political ends is intolerable and condemnable. Our sincere condolences go out to Mr. Kirk’s family, friends and followers, including the members of the Berkeley […] The post There’s no place for violence on campus appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2025/09/11/theres-no-place-for-violence-on-campus/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
+      "title": "‘Surprise and relief’ from homeless patients: ‘This works for me’",
+      "description": "Doctors report ‘fascinating and counterintuitive’ results delivering healthcare to hard-to-reach population via telehealth",
+      "link": "https://news.harvard.edu/gazette/story/2025/09/surprise-and-relief-from-homeless-patients-this-works-for-me/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-09-04"
+    },
+    {
       "title": "Her Cambridge iconography made her a local icon",
       "description": "Before New Yorker covers, Barbara Westman created colorful visions of campus as Gazette’s first staff artist",
       "link": "https://news.harvard.edu/gazette/story/2025/09/her-cambridge-iconography-made-her-a-local-icon/",
@@ -2164,14 +2181,6 @@
       "description": "Philosophers, psychiatrist consider what we lose when we outsource struggle to AI",
       "link": "https://news.harvard.edu/gazette/story/2025/09/what-is-creativity-without-sweat-and-tears/",
       "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-09-11"
-    },
-    {
-      "title": "There’s no place for violence on campus",
-      "description": "Charlie Kirk’s death represents an attack on the open exchange of ideas that defines university life. Regardless of our political perspectives and disagreements, the use of violent means in pursuit of political ends is intolerable and condemnable. Our sincere condolences go out to Mr. Kirk’s family, friends and followers, including the members of the Berkeley […] The post There’s no place for violence on campus appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2025/09/11/theres-no-place-for-violence-on-campus/",
-      "source": "UC Berkeley",
       "field": "technology",
       "date": "2025-09-11"
     },
@@ -2360,6 +2369,62 @@
       "date": "2025-09-04"
     },
     {
+      "title": "New particle detector passes the “standard candle” test",
+      "description": "The sPHENIX detector is on track to reveal properties of primordial quark-gluon plasma.",
+      "link": "https://news.mit.edu/2025/new-particle-detector-passes-standard-candle-test-0902",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-02"
+    },
+    {
+      "title": "The real reason ice is slippery, revealed after 200 years",
+      "description": "For centuries, people believed ice was slippery because pressure and friction melted a thin film of water. But new research from Saarland University reveals that this long-standing explanation is wrong. Instead, the slipperiness comes from the subtle interaction of molecular dipoles between ice and surfaces like shoes or skis. These microscopic electrical forces disorder the crystal structure of ice, creating a thin liquid layer even at temperatures near absolute zero. The discovery overturns nearly 200 years of scientific thought and has wide implications for physics and winter sports alike.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912081323.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Graphene just broke a fundamental law of physics",
+      "description": "For the first time, scientists have observed electrons in graphene behaving like a nearly perfect quantum fluid, challenging a long-standing puzzle in physics. By creating ultra-clean samples, the team at IISc uncovered a surprising decoupling of heat and charge transport, shattering the traditional Wiedemann-Franz law. At the mysterious “Dirac point,” graphene electrons flowed like an exotic liquid similar to quark-gluon plasma, with ultra-low viscosity. Beyond rewriting physics textbooks, this discovery opens new avenues for studying black holes and quantum entanglement in the lab—and may ev",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912081319.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Scientists capture elusive liquid carbon — a diamond in disguise",
+      "description": "Scientists have, for the first time, successfully studied liquid carbon in the lab by combining a powerful high-performance laser with the European XFEL x-ray laser. The experiment captured fleeting nanosecond snapshots of carbon as it was compressed and melted, revealing surprising diamond-like structures and narrowing down its true melting point.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250911073208.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Black holes just proved Stephen Hawking right with the clearest signal yet",
+      "description": "Gravitational-wave astronomy has exploded since 2015, capturing hundreds of black hole and neutron star collisions. With ever-clearer signals, researchers are testing Einstein’s relativity and Hawking’s theorems while planning massive next-generation observatories to explore the dawn of the universe.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250911073158.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "NASA spacecraft detect a mysterious force shaping the solar wind",
+      "description": "NASA’s Magnetospheric Multiscale Mission has uncovered surprising behavior of pickup ions drifting through the solar wind near Earth. These particles, once thought to be minor players, appear capable of generating waves and influencing how the solar wind heats and evolves. If true, it could force scientists to revise models of solar system dynamics, with implications reaching all the way to the edge of the heliosphere.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250911073154.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Black hole explosion could change everything we know about the Universe",
+      "description": "Physicists may soon witness a cosmic fireworks show: the explosive death of a primordial black hole. Once thought to be unimaginably rare, new research suggests there’s up to a 90% chance of catching one in the next decade. Such an event would not only confirm Hawking radiation but also provide a complete catalog of all the particles in existence, potentially rewriting our understanding of physics and the origin of the universe.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250911073145.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
       "title": "A happy place, campfire concert, and good joe on the go",
       "description": "Harvard violist recommends 3 ways to savor life’s little joys",
       "link": "https://news.harvard.edu/gazette/story/2025/09/a-happy-place-campfire-concert-and-good-joe-on-the-go/",
@@ -2374,6 +2439,22 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-09-14"
+    },
+    {
+      "title": "Hidden star systems in the Milky Way could unlock the secrets of dark matter",
+      "description": "For centuries, scientists have puzzled over globular clusters, the dense star systems that orbit galaxies without dark matter. Using ultra-detailed simulations, researchers recreated their origins and unexpectedly revealed a new class of cosmic object that bridges star clusters and dwarf galaxies. These “globular cluster-like dwarfs” may already exist in our Milky Way, offering fresh opportunities to study both dark matter and the earliest stars.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912195117.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-13"
+    },
+    {
+      "title": "NASA's Perseverance rover finds clues to ancient Mars chemistry and possible life",
+      "description": "Mars’ Jezero Crater holds signs of ancient water and strange mineral reactions, some linked with organic compounds. With Perseverance’s samples and AI-refined mineral maps, scientists are closing in on whether Mars once had the chemistry needed for life.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250912195114.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-13"
     }
   ]
 }
