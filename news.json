@@ -1,18 +1,18 @@
 {
   "date": "2025-09-21",
-  "lastUpdated": "2025-09-21T04:17:37.574Z",
+  "lastUpdated": "2025-09-21T08:17:09.137Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "45.8s",
+    "executionTime": "46.2s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 24,
-    "totalCandidates": 309,
-    "totalSelected": 309,
+    "totalCandidates": 310,
+    "totalSelected": 310,
     "entriesByField": {
       "health": 59,
       "climate": 41,
       "energy": 3,
-      "technology": 139,
+      "technology": 140,
       "education": 9,
       "development": 16,
       "peace": 10,
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 139,
+        "kept": 140,
         "changed": 4
       },
       "education": {
@@ -58,7 +58,7 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 70,
+      "highScoreEntries": 72,
       "topTierSources": 185,
       "highCredibilitySources": 283
     }
@@ -127,14 +127,6 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2025-09-20"
-    },
-    {
-      "title": "ADB Approves $106.9 Million to Strengthen Secondary Health Care Services in Sri Lanka",
-      "description": "ADB has approved a $106.9 million financing package to strengthen Sri Lanka’s secondary curative care services, improve communicable disease prevention and control, and enhance the health care sector’s governance and management capacity.",
-      "link": "https://www.adb.org/news/adb-approves-106-9-million-strengthen-secondary-health-care-services-sri-lanka",
-      "source": "Asian Development Bank",
-      "field": "health",
-      "date": "2025-09-01"
     },
     {
       "title": "Introduction of Mpox Virus Clade Ib into the Republic of the Congo",
@@ -465,6 +457,14 @@
       "date": "2025-09-08"
     },
     {
+      "title": "ADB Approves $106.9 Million to Strengthen Secondary Health Care Services in Sri Lanka",
+      "description": "ADB has approved a $106.9 million financing package to strengthen Sri Lanka’s secondary curative care services, improve communicable disease prevention and control, and enhance the health care sector’s governance and management capacity.",
+      "link": "https://www.adb.org/news/adb-approves-106-9-million-strengthen-secondary-health-care-services-sri-lanka",
+      "source": "Asian Development Bank",
+      "field": "health",
+      "date": "2025-09-01"
+    },
+    {
       "title": "Update from the Global Polio Eradication Initiative on programmatic challenges and accountability",
       "description": "The final phase of the polio eradication effort has proven to be the toughest. The number of children paralyzed by polio has been reduced by 99% over the last four decades, but the virus continues to spread in some of the most difficult places on the planet to deliver healthcare— places that face persistent insecurity, […]",
       "link": "https://polioeradication.org/news/update-from-the-global-polio-eradication-initiative-on-programmatic-challenges-and-accountability/",
@@ -585,14 +585,6 @@
       "date": "2025-06-19"
     },
     {
-      "title": "Giving Plants Superpowers: A Conversation with Gözde Demirer",
-      "description": "Gözde Demirer wants to give plants superpowers—the ability to sustainably feed the world, or to handle drought and climate change, for example—and to do it all while improving the health of the environment. A mask and cape won't do. Instead, she uses the tools of nanotechnology, synthetic biology, and genetic engineering, and leverages the help of plants' trusty sidekicks: beneficial microbes in the soil.Demirer is the Clare Boothe Luce Assistant Professor of Chemical Engineering at Caltech. Her work focuses on three main areas: developing nanoparticles that can efficiently deliver biomolecule",
-      "link": "https://www.caltech.edu/about/news/giving-plants-superpowers-a-conversation-with-g%C3%B6zde-demirer",
-      "source": "Caltech",
-      "field": "climate",
-      "date": "2025-09-05"
-    },
-    {
       "title": "Real-time tide gauge data improved accuracy of Kamchatka tsunami forecasts",
       "description": "Real-time tide gauge data improved accuracy of Kamchatka tsunami forecasts (Image credit: NOAA) Download Image September 18, 2025 Ocean & Coasts tsunamis tides and currents forecasting 0 Off",
       "link": "https://www.noaa.gov/stories/real-time-tide-gauge-data-improved-accuracy-of-kamchatka-tsunami-forecasts-ext",
@@ -695,6 +687,14 @@
       "source": "NASA Climate",
       "field": "climate",
       "date": "2023-06-29"
+    },
+    {
+      "title": "Giving Plants Superpowers: A Conversation with Gözde Demirer",
+      "description": "Gözde Demirer wants to give plants superpowers—the ability to sustainably feed the world, or to handle drought and climate change, for example—and to do it all while improving the health of the environment. A mask and cape won't do. Instead, she uses the tools of nanotechnology, synthetic biology, and genetic engineering, and leverages the help of plants' trusty sidekicks: beneficial microbes in the soil.Demirer is the Clare Boothe Luce Assistant Professor of Chemical Engineering at Caltech. Her work focuses on three main areas: developing nanoparticles that can efficiently deliver biomolecule",
+      "link": "https://www.caltech.edu/about/news/giving-plants-superpowers-a-conversation-with-g%C3%B6zde-demirer",
+      "source": "Caltech",
+      "field": "climate",
+      "date": "2025-09-05"
     },
     {
       "title": "IPCC Working Group I Vice-Chair Sonia Seneviratne to receive prestigious German Environmental Award for excellent innovative climate research",
@@ -945,12 +945,12 @@
       "date": "2025-09-08"
     },
     {
-      "title": "Cosmic simulations that once needed supercomputers now run on a laptop",
-      "description": "Astronomers have long relied on supercomputers to simulate the immense structure of the Universe, but a new tool called Effort.jl is changing that. By mimicking the behavior of complex cosmological models, this emulator delivers results with the same accuracy — and sometimes even finer detail — in just minutes on a standard laptop. The breakthrough combines neural networks with clever use of physical knowledge, cutting computation time dramatically while preserving reliability.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250918225001.htm",
+      "title": "Scientists just made atoms talk to each other inside silicon chips",
+      "description": "Researchers at UNSW have found a way to make atomic nuclei communicate through electrons, allowing them to achieve entanglement at scales used in today’s computer chips. This breakthrough brings scalable, silicon-based quantum computing much closer to reality.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250920214318.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2025-09-19"
+      "date": "2025-09-21"
     },
     {
       "title": "Biogen groundbreaking stirs optimism in Kendall Square",
@@ -999,150 +999,6 @@
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2025-09-19"
-    },
-    {
-      "title": "His lab’s ancient DNA studies are rewriting human history",
-      "description": "Yet federal funding cuts have put next chapter of David Reich’s work in doubt",
-      "link": "https://news.harvard.edu/gazette/story/2025/09/his-labs-ancient-dna-studies-are-rewriting-human-history/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "Water Vapor Could Cool Your Next iPhone",
-      "description": "On 9 September, Apple introduced its newest lineup, including the iPhone 17 series. Much of the attention went to a new ultrathin model and a bright orange color option (a shade not dissimilar to that of the IEEE Spectrum logo). The new smartphones will also ship with the latest operating system and its “Liquid Glass” software design—but the liquid in these phones goes beyond software. The iPhone 17 Pro and iPhone 17 Pro Max contain thin, hermetically sealed chambers with a drop of water inside that cycles between liquid and gas to help dissipate heat. Known as vapor chambers, the cooling syst",
-      "link": "https://spectrum.ieee.org/iphone-17-pro-vapor-chamber",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-17"
-    },
-    {
-      "title": "Face to Face With the Scale of the Cosmos",
-      "description": "For most of us, to see a truly starry night isn’t easy. I have been writing about dark skies and light pollution for almost 20 years. And I have seen some breathtaking skies—southern Morocco at the edge of the desert so plush with stars it still seems like a dream, the Racetrack in Death Valley with stars rising in the east and dropping off the edge of the world in the west. At other times when I’ve gone to see the sky, I found too much humidity in the air, or too many clouds, or the obscuring smoke from a burning world. In the Canary Islands off the coast of Africa, the famous skies were veil",
-      "link": "https://spectrum.ieee.org/scale-of-light-pollution",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-16"
-    },
-    {
-      "title": "New $1 million gift to the Athletic Study Center will support student-athletes at a pivotal moment",
-      "description": "The post New $1 million gift to the Athletic Study Center will support student-athletes at a pivotal moment appeared first on Berkeley News.",
-      "link": "https://inspire.berkeley.edu/o/hicks-gift-supports-student-athletes-at-pivotal-moment/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "A Fusion-Reactor-Inspired Thruster Could Deorbit Space Junk",
-      "description": "There are plenty of labs working on solutions to Kessler Syndrome, where there’s so much debris in low Earth orbit that rockets are no longer capable of reaching it without being hit with hypersonic parts of defunct equipment. While we haven’t yet gotten to the point where we’ve lost access to space, there will come a day where that will happen if we don’t do something about it. A new paper from Kazunori Takahashi of Tohoku University, in Japan, looks at a novel solution that uses a type of magnetic field typically seen in fusion reactors to decelerate debris using a plasma beam, while balanci",
-      "link": "https://spectrum.ieee.org/kessler-syndrome-plasma-thruster-deorbit",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-14"
-    },
-    {
-      "title": "Our viral vocabulary",
-      "description": "Adam Aleksic — aka the ‘Etymology Nerd’ — discusses how social media algorithms are transforming language",
-      "link": "https://news.harvard.edu/gazette/story/2025/09/our-viral-vocabulary/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "Video Friday: A Soft Robot Companion",
-      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ACTUATE 2025: 23–24 September 2025, SAN FRANCISCO CoRL 2025: 27–30 September 2025, SEOUL IEEE Humanoids: 30 September–2 October 2025, SEOUL World Robot Summit: 10–12 October 2025, OSAKA, JAPAN IROS 2025: 19–25 October 2025, HANGZHOU, CHINA Enjoy today’s videos! Fourier’s first Care-bot GR-3. This full-size “care bot” is designed as an interactive compan",
-      "link": "https://spectrum.ieee.org/video-friday-soft-robot-companion",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "Faster Career Growth: Individual Contributor or Manager?",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Taro and delivered to your inbox for free! During my first two years working at Meta, I was an individual contributor (IC) engineer. Then, after an encouraging review, my manager asked if I’d start managing a team of my own. I had received strong performance ratings and earned trust among my colleagues and the leadership team, and the organization’s headcount was consistently increasing each ye",
-      "link": "https://spectrum.ieee.org/faster-career-growth",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-11"
-    },
-    {
-      "title": "Help Celebrate IEEE Day on 7 October",
-      "description": "Every year IEEE members around the globe come together on IEEE Day to celebrate a shared legacy of innovation, collaboration, and service. First celebrated in 2009, the day commemorates the initial gathering of IEEE members to share their technical ideas in 1884. This year the event will be held on 7 October. It promises to be bigger, bolder, and more inspiring than ever. IEEE Day is not just a celebration of the past; it’s a rallying point for the future. The day honors the power that technology has to improve lives, as well as the volunteers who work to make it happen. From its humble beginn",
-      "link": "https://spectrum.ieee.org/ieee-day-2025",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-11"
-    },
-    {
-      "title": "Reality Is Ruining the Humanoid Robot Hype",
-      "description": "Over the next several years, humanoid robots will change the nature of work. Or at least, that’s what humanoid robotics companies have been consistently promising, enabling them to raise hundreds of millions of dollars at valuations that run into the billions. Delivering on these promises will require a lot of robots. Agility Robotics expects to ship “hundreds” of its Digit robots in 2025 and has a factory in Oregon capable of building over 10,000 robots per year. Tesla is planning to produce 5,000 of its Optimus robots in 2025, and at least 50,000 in 2026. Figure believes “there is a path to ",
-      "link": "https://spectrum.ieee.org/humanoid-robot-scaling",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-11"
-    },
-    {
-      "title": "Machine Learning Tests Keep Getting Bigger",
-      "description": "The machine learning field is moving fast, and the yardsticks used measure progress in it are having to race to keep up. A case in point, MLPerf, the bi-annual machine learning competition sometimes termed “the Olympics of AI,” introduced three new benchmark tests, reflecting new directions in the field. “Lately, it has been very difficult trying to follow what happens in the field,” says Miro Hodak, AMD engineer and MLPerf Inference working group co-chair. “We see that the models are becoming progressively larger, and in the last two rounds we have introduced the largest models we’ve ever had",
-      "link": "https://spectrum.ieee.org/mlperf-inference-51",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-10"
-    },
-    {
-      "title": "The Real Story on AI’s Water Use–and How to Tackle It",
-      "description": "AI is hot, capturing headlines, investments, and users. It also runs hot, literally: The data centers operating artificial intelligence (AI) models use large amounts of electricity and generate enormous heat. To keep servers from overheating, many facilities rely on cooling systems that use water. AI data centers’ water use comes in two forms. Beyond the water that cools the servers, data centers indirectly contribute to water use through the electricity generation needed to power their operations. That indirect use often makes up 80 percent or more of the overall water use. Reducing AI’s wate",
-      "link": "https://spectrum.ieee.org/ai-water-usage",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-10"
-    },
-    {
-      "title": "4 Ways to Conquer Imposter Syndrome",
-      "description": "If you credit luck instead of skill for your professional accomplishments, and if you struggle to accept praise, you might be experiencing imposter syndrome. If so, you aren’t alone. Nearly 70 percent of high-achieving adults experience it, according to an article in the Harvard Business Review. Common signs of imposter syndrome include persistent self-doubt and considering yourself a fraud despite evidence to the contrary, according to a Journal of General Internal Medicine article. To help engineers learn how to manage feelings of inadequacy, IEEE Women in Engineering recently held the Conqu",
-      "link": "https://spectrum.ieee.org/4-ways-conquer-imposter-syndrome",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-08"
-    },
-    {
-      "title": "How Nauto’s AI Dashcam Reduces Driver Risk and Accidents",
-      "description": "Driving trucks is one of the unappreciated backbones of modern civilization. It’s also hard and sometimes dangerous work. But technology is being spun up to make the job safer and easier. A new class of devices is being targeted at fleets that helps drivers elude accidents by flagging risky situations. The new systems use convolutional neural networks running in the vehicle (“edge” AI) and in the cloud to fuse data inputs from on-board vehicle diagnostics, along with data from cameras facing the driver and the roadway. The result are systems that can assess, in real time, the risk of collision",
-      "link": "https://spectrum.ieee.org/ai-dashcam-driver-safety-nauto",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-09-06"
-    },
-    {
-      "title": "This stunning X-ray advance could help detect cancer earlier",
-      "description": "Sandia scientists developed a new type of X-ray that uses patterned multi-metal targets to create colorized, high-resolution images. The technology promises sharper scans, better material detection, and transformative applications in security, manufacturing, and medicine.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250920214314.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-21"
-    },
-    {
-      "title": "New cooling breakthrough nearly doubles efficiency",
-      "description": "CHESS thin-film materials nearly double refrigeration efficiency compared to traditional methods. Scalable and versatile, they promise applications from household cooling to space exploration.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250919085242.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-20"
-    },
-    {
-      "title": "Scientists build micromotors smaller than a human hair",
-      "description": "Using laser light instead of traditional mechanics, researchers have built micro-gears that can spin, shift direction, and even power tiny machines. These breakthroughs could soon lead to revolutionary medical tools working at the scale of cells.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250918025025.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "Scientists crack a 50-year solar mystery with a scorching discovery",
-      "description": "Scientists from the University of St Andrews have discovered that ions in solar flares can reach scorching temperatures more than 60 million degrees—6.5 times hotter than previously believed. This breakthrough challenges decades of assumptions in solar physics and offers a surprising solution to a 50-year-old puzzle about why flare spectral lines appear broader than expected.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250916221836.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-17"
     },
     {
       "title": "How MIT’s Steel Research Group led to a groundbreaking national materials initiative",
@@ -1295,6 +1151,150 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-09-17"
+    },
+    {
+      "title": "A more precise way to edit the genome",
+      "description": "MIT researchers have dramatically lowered the error rate of prime editing, a technique that holds potential for treating many genetic disorders.",
+      "link": "https://news.mit.edu/2025/more-precise-way-edit-genome-0917",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-17"
+    },
+    {
+      "title": "Law students launch nation’s first student-run space law publication",
+      "description": "Stanford Space Law and Policy Perspectives explores the legal landscape of outer space. “On the West Coast, and especially in Silicon Valley, space is happening all around us…Stanford is uniquely positioned to bring law into that conversation.”",
+      "link": "https://news.stanford.edu/stories/2025/09/ground-control-to-stanford-law-first-student-run-space-law-publication-takes-flight",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-16"
+    },
+    {
+      "title": "Climate Action Learning Lab helps state and local leaders identify and implement effective climate mitigation strategies",
+      "description": "J-PAL North America’s inaugural Climate Action Learning Lab provided six U.S. cities and states with customized training and resources to leverage data and evaluation to advance climate solutions that work.",
+      "link": "https://news.mit.edu/2025/climate-action-learning-lab-supports-state-local-leaders-0915",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-15"
+    },
+    {
+      "title": "MIT launches Day of Design to bring hands-on learning to classrooms",
+      "description": "Building on Day of AI and Day of Climate, MIT shares free design resources to spark creativity and problem-solving in classrooms.",
+      "link": "https://news.mit.edu/2025/day-of-design-to-bring-hands-on-learning-classrooms-0912",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Technology originating at MIT leads to approved bladder cancer treatment",
+      "description": "A system conceived in Professor Michael Cima’s lab was approved by the Food and Drug Administration after positive results in patients.",
+      "link": "https://news.mit.edu/2025/technology-originating-at-mit-approved-bladder-cancer-treatment-0911",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
+      "title": "Demo Day features hormone-tracking sensors, desalination systems, and other innovations",
+      "description": "MIT student teams celebrate business milestones at the capstone event for the 2025 delta v summer accelerator.",
+      "link": "https://news.mit.edu/2025/demo-day-features-hormone-tracking-sensors-desalination-systems-and-other-innovations-0910",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-10"
+    },
+    {
+      "title": "His lab’s ancient DNA studies are rewriting human history",
+      "description": "Yet federal funding cuts have put next chapter of David Reich’s work in doubt",
+      "link": "https://news.harvard.edu/gazette/story/2025/09/his-labs-ancient-dna-studies-are-rewriting-human-history/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-09-18"
+    },
+    {
+      "title": "Water Vapor Could Cool Your Next iPhone",
+      "description": "On 9 September, Apple introduced its newest lineup, including the iPhone 17 series. Much of the attention went to a new ultrathin model and a bright orange color option (a shade not dissimilar to that of the IEEE Spectrum logo). The new smartphones will also ship with the latest operating system and its “Liquid Glass” software design—but the liquid in these phones goes beyond software. The iPhone 17 Pro and iPhone 17 Pro Max contain thin, hermetically sealed chambers with a drop of water inside that cycles between liquid and gas to help dissipate heat. Known as vapor chambers, the cooling syst",
+      "link": "https://spectrum.ieee.org/iphone-17-pro-vapor-chamber",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-17"
+    },
+    {
+      "title": "Face to Face With the Scale of the Cosmos",
+      "description": "For most of us, to see a truly starry night isn’t easy. I have been writing about dark skies and light pollution for almost 20 years. And I have seen some breathtaking skies—southern Morocco at the edge of the desert so plush with stars it still seems like a dream, the Racetrack in Death Valley with stars rising in the east and dropping off the edge of the world in the west. At other times when I’ve gone to see the sky, I found too much humidity in the air, or too many clouds, or the obscuring smoke from a burning world. In the Canary Islands off the coast of Africa, the famous skies were veil",
+      "link": "https://spectrum.ieee.org/scale-of-light-pollution",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-16"
+    },
+    {
+      "title": "New $1 million gift to the Athletic Study Center will support student-athletes at a pivotal moment",
+      "description": "The post New $1 million gift to the Athletic Study Center will support student-athletes at a pivotal moment appeared first on Berkeley News.",
+      "link": "https://inspire.berkeley.edu/o/hicks-gift-supports-student-athletes-at-pivotal-moment/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2025-09-15"
+    },
+    {
+      "title": "A Fusion-Reactor-Inspired Thruster Could Deorbit Space Junk",
+      "description": "There are plenty of labs working on solutions to Kessler Syndrome, where there’s so much debris in low Earth orbit that rockets are no longer capable of reaching it without being hit with hypersonic parts of defunct equipment. While we haven’t yet gotten to the point where we’ve lost access to space, there will come a day where that will happen if we don’t do something about it. A new paper from Kazunori Takahashi of Tohoku University, in Japan, looks at a novel solution that uses a type of magnetic field typically seen in fusion reactors to decelerate debris using a plasma beam, while balanci",
+      "link": "https://spectrum.ieee.org/kessler-syndrome-plasma-thruster-deorbit",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-14"
+    },
+    {
+      "title": "Our viral vocabulary",
+      "description": "Adam Aleksic — aka the ‘Etymology Nerd’ — discusses how social media algorithms are transforming language",
+      "link": "https://news.harvard.edu/gazette/story/2025/09/our-viral-vocabulary/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Video Friday: A Soft Robot Companion",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ACTUATE 2025: 23–24 September 2025, SAN FRANCISCO CoRL 2025: 27–30 September 2025, SEOUL IEEE Humanoids: 30 September–2 October 2025, SEOUL World Robot Summit: 10–12 October 2025, OSAKA, JAPAN IROS 2025: 19–25 October 2025, HANGZHOU, CHINA Enjoy today’s videos! Fourier’s first Care-bot GR-3. This full-size “care bot” is designed as an interactive compan",
+      "link": "https://spectrum.ieee.org/video-friday-soft-robot-companion",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-12"
+    },
+    {
+      "title": "Faster Career Growth: Individual Contributor or Manager?",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Taro and delivered to your inbox for free! During my first two years working at Meta, I was an individual contributor (IC) engineer. Then, after an encouraging review, my manager asked if I’d start managing a team of my own. I had received strong performance ratings and earned trust among my colleagues and the leadership team, and the organization’s headcount was consistently increasing each ye",
+      "link": "https://spectrum.ieee.org/faster-career-growth",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
+      "title": "Help Celebrate IEEE Day on 7 October",
+      "description": "Every year IEEE members around the globe come together on IEEE Day to celebrate a shared legacy of innovation, collaboration, and service. First celebrated in 2009, the day commemorates the initial gathering of IEEE members to share their technical ideas in 1884. This year the event will be held on 7 October. It promises to be bigger, bolder, and more inspiring than ever. IEEE Day is not just a celebration of the past; it’s a rallying point for the future. The day honors the power that technology has to improve lives, as well as the volunteers who work to make it happen. From its humble beginn",
+      "link": "https://spectrum.ieee.org/ieee-day-2025",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
+      "title": "Reality Is Ruining the Humanoid Robot Hype",
+      "description": "Over the next several years, humanoid robots will change the nature of work. Or at least, that’s what humanoid robotics companies have been consistently promising, enabling them to raise hundreds of millions of dollars at valuations that run into the billions. Delivering on these promises will require a lot of robots. Agility Robotics expects to ship “hundreds” of its Digit robots in 2025 and has a factory in Oregon capable of building over 10,000 robots per year. Tesla is planning to produce 5,000 of its Optimus robots in 2025, and at least 50,000 in 2026. Figure believes “there is a path to ",
+      "link": "https://spectrum.ieee.org/humanoid-robot-scaling",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
+      "title": "Machine Learning Tests Keep Getting Bigger",
+      "description": "The machine learning field is moving fast, and the yardsticks used measure progress in it are having to race to keep up. A case in point, MLPerf, the bi-annual machine learning competition sometimes termed “the Olympics of AI,” introduced three new benchmark tests, reflecting new directions in the field. “Lately, it has been very difficult trying to follow what happens in the field,” says Miro Hodak, AMD engineer and MLPerf Inference working group co-chair. “We see that the models are becoming progressively larger, and in the last two rounds we have introduced the largest models we’ve ever had",
+      "link": "https://spectrum.ieee.org/mlperf-inference-51",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-10"
+    },
+    {
+      "title": "The Real Story on AI’s Water Use–and How to Tackle It",
+      "description": "AI is hot, capturing headlines, investments, and users. It also runs hot, literally: The data centers operating artificial intelligence (AI) models use large amounts of electricity and generate enormous heat. To keep servers from overheating, many facilities rely on cooling systems that use water. AI data centers’ water use comes in two forms. Beyond the water that cools the servers, data centers indirectly contribute to water use through the electricity generation needed to power their operations. That indirect use often makes up 80 percent or more of the overall water use. Reducing AI’s wate",
+      "link": "https://spectrum.ieee.org/ai-water-usage",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-10"
     },
     {
       "title": "Education in Mozambique",
@@ -1465,6 +1465,14 @@
       "date": "2025-09-16"
     },
     {
+      "title": "ADB President Celebrates 50 Years of Partnership with PNG, Advances Connectivity and Growth Across the Pacific",
+      "description": "ADB President Masato Kanda met with Papua New Guinea (PNG) Prime Minister James Marape to mark the country’s 50th anniversary of independence and reaffirm ADB’s role in driving connectivity and inclusive growth.",
+      "link": "https://www.adb.org/news/adb-president-celebrates-50-years-partnership-png-advances-connectivity-and-growth-across-pacific",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-09-15"
+    },
+    {
       "title": "ADB President Listens to Pacific Leaders’ Shared Vision, Highlights Record Support",
       "description": "Following the Pacific Islands Forum Leaders Meeting, ADB President Masato Kanda heard from leaders about the need for a shared vision of development for the region.",
       "link": "https://www.adb.org/news/adb-president-listens-pacific-leaders-shared-vision-highlights-record-support",
@@ -1487,14 +1495,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2025-09-01"
-    },
-    {
-      "title": "ADB President Celebrates 50 Years of Partnership with PNG, Advances Connectivity and Growth Across the Pacific",
-      "description": "ADB President Masato Kanda met with Papua New Guinea (PNG) Prime Minister James Marape to mark the country’s 50th anniversary of independence and reaffirm ADB’s role in driving connectivity and inclusive growth.",
-      "link": "https://www.adb.org/news/adb-president-celebrates-50-years-partnership-png-advances-connectivity-and-growth-across-pacific",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-09-15"
     },
     {
       "title": "Thank you – please verify your e-mail",
@@ -1641,14 +1641,6 @@
       "date": "2025-09-18"
     },
     {
-      "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
-      "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
-      "link": "https://climate.nasa.gov/news/3293/",
-      "source": "NASA Climate",
-      "field": "space",
-      "date": "2023-11-30"
-    },
-    {
       "title": "NASA’s Chandra Finds Black Hole With Tremendous Growth",
       "description": "A black hole is growing at one of the fastest rates ever recorded, according to a team of astronomers. This discovery from NASA’s Chandra X-ray Observatory may help explain how some black holes can reach enormous masses relatively quickly after the big bang. The black hole weighs about a billion times the mass of the […]",
       "link": "https://www.nasa.gov/missions/chandra/nasas-chandra-finds-black-hole-with-tremendous-growth/",
@@ -1665,44 +1657,12 @@
       "date": "2025-09-18"
     },
     {
-      "title": "Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral",
-      "description": "The move not only allows SpaceX to increase its allowed launches at pad 40 from 50 to 120, but it also permits the Texas-based company to construct a new landing site adjacent to the launch pad.",
-      "link": "https://spaceflightnow.com/2025/09/12/department-of-the-air-force-faa-clear-spacex-to-launch-up-to-120-falcon-9-rockets-annually-from-cape-canaveral/",
-      "source": "Spaceflight Now",
+      "title": "Google's ‘A Passage of Water' Brings NASA's Water Data to Life",
+      "description": "In Brief: This immersive experience leverages satellite data to illustrate how climate change is impacting Earth’s water cycle. As part of the long-standing partnership between NASA and Google, NASA worked with Google Arts & Culture and artist Yiyun Kang to create an interactive digital experience around global freshwater resources titled “A Passage of Water.” This immersive experience leverages data from the Gravity Recovery and Climate Experiment (GRACE) satellites and new high-resolution data from the Surface Water and Ocean Topography (SWOT) mission to illustrate how climate change is impa",
+      "link": "https://climate.nasa.gov/news/3293/",
+      "source": "NASA Climate",
       "field": "space",
-      "date": "2025-09-12"
-    },
-    {
-      "title": "NASA Selects Blue Origin to Deliver VIPER Rover to Moon’s South Pole",
-      "description": "As part of the agency’s Artemis campaign, NASA has awarded Blue Origin of Kent, Washington, a CLPS (Commercial Lunar Payload Services) task order with an option to deliver a rover to the Moon’s South Pole region. NASA’s VIPER (Volatiles Investigating Polar Exploration Rover) will search for volatile resources, such as ice, on the lunar surface […]",
-      "link": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-to-deliver-viper-rover-to-moons-south-pole/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-09-19"
-    },
-    {
-      "title": "Hubble Images Celestial Cigar’s Smoldering Heart",
-      "description": "This NASA/ESA Hubble Space Telescope image reveals new details in Messier 82 (M82), home to brilliant stars whose light is shaded by sculptural clouds made of clumps and streaks of dust and gas. This image features the star-powered heart of the galaxy, located just 12 million light-years away in the constellation Ursa Major (the Great […]",
-      "link": "https://science.nasa.gov/missions/hubble/hubble-images-celestial-cigars-smoldering-heart/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-09-19"
-    },
-    {
-      "title": "NASA’s Deep Space Communications Demo Exceeds Project Expectations",
-      "description": "The project has exceeded all of its technical goals after two years, setting up the foundations of high-speed communications for NASA’s future human missions to Mars. NASA’s Deep Space Optical Communications technology successfully showed that data encoded in lasers could be reliably transmitted, received, and decoded after traveling millions of miles from Earth at distances […]",
-      "link": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/deep-space-optical-communications-dsoc/nasas-deep-space-communications-demo-exceeds-project-expectations/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "NASA Gateways to Blue Skies 2026 Competition",
-      "description": "The commercial aviation industry is a crucial component of the U.S. economy, playing a vital role in transporting people, intermediate/final goods, and driving demand for various goods and services nationwide. This network enhances the quality of life for the whole country and facilitates business interactions within and globally, boosting productivity and prosperity. However, the industry […]",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-gateways-to-blue-skies-2026-competition/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-09-18"
+      "date": "2023-11-30"
     },
     {
       "title": "NASA to Showcase Earth Science Data at COP28",
@@ -1745,6 +1705,38 @@
       "date": "2023-06-09"
     },
     {
+      "title": "NASA Selects Blue Origin to Deliver VIPER Rover to Moon’s South Pole",
+      "description": "As part of the agency’s Artemis campaign, NASA has awarded Blue Origin of Kent, Washington, a CLPS (Commercial Lunar Payload Services) task order with an option to deliver a rover to the Moon’s South Pole region. NASA’s VIPER (Volatiles Investigating Polar Exploration Rover) will search for volatile resources, such as ice, on the lunar surface […]",
+      "link": "https://www.nasa.gov/news-release/nasa-selects-blue-origin-to-deliver-viper-rover-to-moons-south-pole/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "Hubble Images Celestial Cigar’s Smoldering Heart",
+      "description": "This NASA/ESA Hubble Space Telescope image reveals new details in Messier 82 (M82), home to brilliant stars whose light is shaded by sculptural clouds made of clumps and streaks of dust and gas. This image features the star-powered heart of the galaxy, located just 12 million light-years away in the constellation Ursa Major (the Great […]",
+      "link": "https://science.nasa.gov/missions/hubble/hubble-images-celestial-cigars-smoldering-heart/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "NASA’s Deep Space Communications Demo Exceeds Project Expectations",
+      "description": "The project has exceeded all of its technical goals after two years, setting up the foundations of high-speed communications for NASA’s future human missions to Mars. NASA’s Deep Space Optical Communications technology successfully showed that data encoded in lasers could be reliably transmitted, received, and decoded after traveling millions of miles from Earth at distances […]",
+      "link": "https://www.nasa.gov/directorates/stmd/tech-demo-missions-program/deep-space-optical-communications-dsoc/nasas-deep-space-communications-demo-exceeds-project-expectations/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-09-18"
+    },
+    {
+      "title": "NASA Gateways to Blue Skies 2026 Competition",
+      "description": "The commercial aviation industry is a crucial component of the U.S. economy, playing a vital role in transporting people, intermediate/final goods, and driving demand for various goods and services nationwide. This network enhances the quality of life for the whole country and facilitates business interactions within and globally, boosting productivity and prosperity. However, the industry […]",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-gateways-to-blue-skies-2026-competition/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-09-18"
+    },
+    {
       "title": "85 new subglacial lakes detected below Antarctica",
       "description": "Hidden beneath the biggest ice mass on Earth, hundreds of subglacial lakes form a crucial part of Antarctica’s icy structure, affecting the movement and stability of glaciers, and consequentially influencing global sea level rise. Thanks to a decade of data from the European Space Agency’s CryoSat satellite, researchers have identified 85 previously unknown lakes several kilometres under the frozen surface surrounding the South Pole. This increases the number of known active subglacial lakes below Antarctica by more than half to 231.",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/CryoSat/85_new_subglacial_lakes_detected_below_Antarctica",
@@ -1769,12 +1761,12 @@
       "date": "2025-09-15"
     },
     {
-      "title": "Live coverage: SpaceX to launch 28 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
-      "description": "The Starlink 10-27 mission will be the 280th orbital launch for SpaceX from Cape Canaveral Space Force Station. Liftoff from Space Launch Complex 40 is scheduled for 6:53 a.m. EDT (1053 UTC).",
-      "link": "https://spaceflightnow.com/2025/09/20/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-12/",
+      "title": "Department of the Air Force, FAA clear SpaceX to launch up to 120 Falcon 9 rockets annually from Cape Canaveral",
+      "description": "The move not only allows SpaceX to increase its allowed launches at pad 40 from 50 to 120, but it also permits the Texas-based company to construct a new landing site adjacent to the launch pad.",
+      "link": "https://spaceflightnow.com/2025/09/12/department-of-the-air-force-faa-clear-spacex-to-launch-up-to-120-falcon-9-rockets-annually-from-cape-canaveral/",
       "source": "Spaceflight Now",
       "field": "space",
-      "date": "2025-09-20"
+      "date": "2025-09-12"
     },
     {
       "title": "Week in images: 15-19 September 2025",
@@ -1799,6 +1791,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2025-09-16"
+    },
+    {
+      "title": "Live coverage: SpaceX to launch 28 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
+      "description": "The Starlink 10-27 mission will be the 280th orbital launch for SpaceX from Cape Canaveral Space Force Station. Liftoff from Space Launch Complex 40 is scheduled for 6:53 a.m. EDT (1053 UTC).",
+      "link": "https://spaceflightnow.com/2025/09/20/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-12/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-09-20"
     },
     {
       "title": "Northrop Grumman cargo ship reaches space Station",
@@ -1833,52 +1833,100 @@
       "date": "2025-09-12"
     },
     {
-      "title": "A more precise way to edit the genome",
-      "description": "MIT researchers have dramatically lowered the error rate of prime editing, a technique that holds potential for treating many genetic disorders.",
-      "link": "https://news.mit.edu/2025/more-precise-way-edit-genome-0917",
-      "source": "MIT News",
+      "title": "4 Ways to Conquer Imposter Syndrome",
+      "description": "If you credit luck instead of skill for your professional accomplishments, and if you struggle to accept praise, you might be experiencing imposter syndrome. If so, you aren’t alone. Nearly 70 percent of high-achieving adults experience it, according to an article in the Harvard Business Review. Common signs of imposter syndrome include persistent self-doubt and considering yourself a fraud despite evidence to the contrary, according to a Journal of General Internal Medicine article. To help engineers learn how to manage feelings of inadequacy, IEEE Women in Engineering recently held the Conqu",
+      "link": "https://spectrum.ieee.org/4-ways-conquer-imposter-syndrome",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-08"
+    },
+    {
+      "title": "How Nauto’s AI Dashcam Reduces Driver Risk and Accidents",
+      "description": "Driving trucks is one of the unappreciated backbones of modern civilization. It’s also hard and sometimes dangerous work. But technology is being spun up to make the job safer and easier. A new class of devices is being targeted at fleets that helps drivers elude accidents by flagging risky situations. The new systems use convolutional neural networks running in the vehicle (“edge” AI) and in the cloud to fuse data inputs from on-board vehicle diagnostics, along with data from cameras facing the driver and the roadway. The result are systems that can assess, in real time, the risk of collision",
+      "link": "https://spectrum.ieee.org/ai-dashcam-driver-safety-nauto",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-09-06"
+    },
+    {
+      "title": "NASA just confirmed its 6,000th alien world. Some are truly bizarre",
+      "description": "NASA has confirmed 6,000 exoplanets, marking a major milestone in humanity’s quest to understand other worlds. From gas giants hugging their stars to planets covered in lava or clouds of gemstones, the diversity of discoveries is staggering. With upcoming missions like the Roman Space Telescope and the Habitable Worlds Observatory, scientists are getting closer to detecting Earth-like planets, and possibly signs of life.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250920214427.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-21"
+    },
+    {
+      "title": "This stunning X-ray advance could help detect cancer earlier",
+      "description": "Sandia scientists developed a new type of X-ray that uses patterned multi-metal targets to create colorized, high-resolution images. The technology promises sharper scans, better material detection, and transformative applications in security, manufacturing, and medicine.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250920214314.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-21"
+    },
+    {
+      "title": "New cooling breakthrough nearly doubles efficiency",
+      "description": "CHESS thin-film materials nearly double refrigeration efficiency compared to traditional methods. Scalable and versatile, they promise applications from household cooling to space exploration.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250919085242.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-20"
+    },
+    {
+      "title": "Cosmic simulations that once needed supercomputers now run on a laptop",
+      "description": "Astronomers have long relied on supercomputers to simulate the immense structure of the Universe, but a new tool called Effort.jl is changing that. By mimicking the behavior of complex cosmological models, this emulator delivers results with the same accuracy — and sometimes even finer detail — in just minutes on a standard laptop. The breakthrough combines neural networks with clever use of physical knowledge, cutting computation time dramatically while preserving reliability.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250918225001.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "Scientists crack a 50-year solar mystery with a scorching discovery",
+      "description": "Scientists from the University of St Andrews have discovered that ions in solar flares can reach scorching temperatures more than 60 million degrees—6.5 times hotter than previously believed. This breakthrough challenges decades of assumptions in solar physics and offers a surprising solution to a 50-year-old puzzle about why flare spectral lines appear broader than expected.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250916221836.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-09-17"
     },
     {
-      "title": "Law students launch nation’s first student-run space law publication",
-      "description": "Stanford Space Law and Policy Perspectives explores the legal landscape of outer space. “On the West Coast, and especially in Silicon Valley, space is happening all around us…Stanford is uniquely positioned to bring law into that conversation.”",
-      "link": "https://news.stanford.edu/stories/2025/09/ground-control-to-stanford-law-first-student-run-space-law-publication-takes-flight",
-      "source": "Stanford News",
+      "title": "Scientists build micromotors smaller than a human hair",
+      "description": "Using laser light instead of traditional mechanics, researchers have built micro-gears that can spin, shift direction, and even power tiny machines. These breakthroughs could soon lead to revolutionary medical tools working at the scale of cells.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250918025025.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2025-09-16"
+      "date": "2025-09-18"
     },
     {
-      "title": "Climate Action Learning Lab helps state and local leaders identify and implement effective climate mitigation strategies",
-      "description": "J-PAL North America’s inaugural Climate Action Learning Lab provided six U.S. cities and states with customized training and resources to leverage data and evaluation to advance climate solutions that work.",
-      "link": "https://news.mit.edu/2025/climate-action-learning-lab-supports-state-local-leaders-0915",
-      "source": "MIT News",
+      "title": "Harvard’s salt trick could turn billions of tons of hair into eco-friendly materials",
+      "description": "Scientists at Harvard have discovered how salts like lithium bromide break down tough proteins such as keratin—not by attacking the proteins directly, but by altering the surrounding water structure. This breakthrough opens the door to a cleaner, more sustainable way to recycle wool, feathers, and hair into valuable materials, potentially replacing plastics and fueling new industries.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250916221913.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-18"
+    },
+    {
+      "title": "David Chang connects community health with physician education",
+      "description": "The Stanford Medicine section chief of community partnerships provides care at local homeless shelters, inspiring medical students to engage in community service.",
+      "link": "https://news.stanford.edu/stories/2025/09/david-chang-community-health-education",
+      "source": "Stanford News",
       "field": "technology",
       "date": "2025-09-15"
     },
     {
-      "title": "MIT launches Day of Design to bring hands-on learning to classrooms",
-      "description": "Building on Day of AI and Day of Climate, MIT shares free design resources to spark creativity and problem-solving in classrooms.",
-      "link": "https://news.mit.edu/2025/day-of-design-to-bring-hands-on-learning-classrooms-0912",
-      "source": "MIT News",
+      "title": "James C. “Jim” Van Horne, a pillar of Stanford GSB, dies at age 90",
+      "description": "The professor of finance leaves a legacy of knowledge, mentorship, and inspiration.",
+      "link": "https://news.stanford.edu/stories/2025/09/james-jim-van-horne-business-school-professor-obituary",
+      "source": "Stanford News",
       "field": "technology",
-      "date": "2025-09-12"
+      "date": "2025-09-15"
     },
     {
-      "title": "Technology originating at MIT leads to approved bladder cancer treatment",
-      "description": "A system conceived in Professor Michael Cima’s lab was approved by the Food and Drug Administration after positive results in patients.",
-      "link": "https://news.mit.edu/2025/technology-originating-at-mit-approved-bladder-cancer-treatment-0911",
-      "source": "MIT News",
+      "title": "Algorithm optimizes robot teamwork for efficient manufacturing assembly",
+      "description": "Stanford researchers have developed an innovative algorithm that improves the manufacturing assembly process by effectively organizing autonomous robots.",
+      "link": "https://news.stanford.edu/stories/2025/09/algorithm-organizing-autonomous-robots-manufacturing-production",
+      "source": "Stanford News",
       "field": "technology",
-      "date": "2025-09-11"
-    },
-    {
-      "title": "Demo Day features hormone-tracking sensors, desalination systems, and other innovations",
-      "description": "MIT student teams celebrate business milestones at the capstone event for the 2025 delta v summer accelerator.",
-      "link": "https://news.mit.edu/2025/demo-day-features-hormone-tracking-sensors-desalination-systems-and-other-innovations-0910",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-10"
+      "date": "2025-09-15"
     },
     {
       "title": "DOE selects MIT to establish a Center for the Exascale Simulation of Coupled High-Enthalpy Fluid–Solid Interactions",
@@ -1895,6 +1943,22 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-09-09"
+    },
+    {
+      "title": "Did U.S.-Russia talks on Ukraine make things worse?",
+      "description": "Incursions, increase in aggression really just part of ongoing push by Putin to destabilize ties of allies, scholars and analysts say",
+      "link": "https://news.harvard.edu/gazette/story/2025/09/did-u-s-russia-talks-on-ukraine-make-things-worse/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "How Supreme Court may get chance to re-examine landmark climate ruling",
+      "description": "Legal scholars say justices could reverse ruling allowing EPA to regulate greenhouse gas emissions on technical grounds amid shift in court makeup",
+      "link": "https://news.harvard.edu/gazette/story/2025/09/how-supreme-court-may-get-chance-to-re-examine-landmark-climate-ruling/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-09-17"
     },
     {
       "title": "Working to make fusion a viable energy source",
@@ -2033,6 +2097,22 @@
       "date": "2025-09-15"
     },
     {
+      "title": "Daylight saving time tied to higher rates of stroke and obesity",
+      "description": "According to a new Stanford Medicine analysis, most Americans would be healthier if clocks weren’t changed twice a year.",
+      "link": "https://news.stanford.edu/stories/2025/09/daylight-saving-time-stroke-obesity-health-impacts-research",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-15"
+    },
+    {
+      "title": "Classic recessive-or-dominant gene dynamics may not be so simple",
+      "description": "New fruit fly research provides the first direct evidence of “dominance reversal,” revealing why pesticide resistance is so hard to eliminate in changing environments.",
+      "link": "https://news.stanford.edu/stories/2025/09/classic-recessive-dominant-gene-dynamics-pesticide-resistance-research",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-15"
+    },
+    {
       "title": "Lidar helps gas industry find methane leaks and avoid costly losses",
       "description": "Lincoln Laboratory transitioned its optical-amplifier technology to Bridger Photonics for commercialization, enhancing US energy security and efficiency.",
       "link": "https://news.mit.edu/2025/lidar-helps-gas-industry-find-methane-leaks-avoid-costly-losses-0912",
@@ -2061,6 +2141,14 @@
       "description": "Tom Zeller’s new book, “The Headache,” sheds light on one of the world’s most confounding and agonizing ailments.",
       "link": "https://news.mit.edu/2025/better-understanding-debilitating-head-pain-tom-zeller-book-0911",
       "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-11"
+    },
+    {
+      "title": "Course empowers students to communicate science to the public",
+      "description": "A science communication course equips researchers with essential skills such as podcasting, storyboarding, and leveraging social media to engage non-scientists.",
+      "link": "https://news.stanford.edu/stories/2025/09/psych-208-science-communications-course",
+      "source": "Stanford News",
       "field": "technology",
       "date": "2025-09-11"
     },
@@ -2095,126 +2183,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-09-09"
-    },
-    {
-      "title": "Alien water worlds were just a mirage",
-      "description": "A new study challenges the dream of water-rich “Hycean” planets like K2-18b, suggesting that most sub-Neptunes lose their water deep into their interiors during formation. Instead of vast oceans, these worlds likely retain only a few percent of water at the surface.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250918225006.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-19"
-    },
-    {
-      "title": "Scientists just found the hidden cosmic fingerprints of dark matter",
-      "description": "Scientists at Rutgers and collaborators have traced the invisible dark matter scaffolding of the universe using over 100,000 Lyman-alpha emitting galaxies. By studying how these galaxies clustered across three eras shortly after the Big Bang, they mapped dark matter concentrations, uncovering cosmic “fingerprints” that reveal how galaxies grow and evolve.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250918225004.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-19"
-    },
-    {
-      "title": "Lasers just made atoms dance, unlocking the future of electronics",
-      "description": "Scientists at Michigan State University have discovered how to use ultrafast lasers to wiggle atoms in exotic materials, temporarily altering their electronic behavior. By combining cutting-edge microscopes with quantum simulations, they created a nanoscale switch that could revolutionize smartphones, laptops, and even future quantum computers.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250917221007.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-19"
-    },
-    {
-      "title": "America is throwing away the minerals that could power its future",
-      "description": "America already mines all the critical minerals it needs for energy, defense, and technology, but most are being wasted as mine tailings. Researchers discovered that minerals like cobalt, germanium, and rare earths are discarded in massive amounts, even though recovering just a fraction could eliminate U.S. dependence on imports.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250917221212.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "NASA’s Perseverance just found new evidence that Mars could have been habitable",
-      "description": "Jezero Crater’s rocks reveal three stages of water activity, shifting from hostile acidic fluids to more life-friendly alkaline ones. Perseverance’s discoveries guide future sampling and strengthen the hunt for past life on Mars.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250917220959.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "White dwarf caught devouring a frozen Pluto-like world",
-      "description": "Astronomers have detected the chemical fingerprint of a frozen, water-rich planetary fragment being devoured by a white dwarf star, offering the clearest evidence yet that icy, life-delivering objects exist beyond our Solar System. The find suggests fragments like comets and dwarf planets may be common ingredients of planetary systems.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250917220954.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "Harvard’s salt trick could turn billions of tons of hair into eco-friendly materials",
-      "description": "Scientists at Harvard have discovered how salts like lithium bromide break down tough proteins such as keratin—not by attacking the proteins directly, but by altering the surrounding water structure. This breakthrough opens the door to a cleaner, more sustainable way to recycle wool, feathers, and hair into valuable materials, potentially replacing plastics and fueling new industries.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250916221913.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "David Chang connects community health with physician education",
-      "description": "The Stanford Medicine section chief of community partnerships provides care at local homeless shelters, inspiring medical students to engage in community service.",
-      "link": "https://news.stanford.edu/stories/2025/09/david-chang-community-health-education",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "James C. “Jim” Van Horne, a pillar of Stanford GSB, dies at age 90",
-      "description": "The professor of finance leaves a legacy of knowledge, mentorship, and inspiration.",
-      "link": "https://news.stanford.edu/stories/2025/09/james-jim-van-horne-business-school-professor-obituary",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "Algorithm optimizes robot teamwork for efficient manufacturing assembly",
-      "description": "Stanford researchers have developed an innovative algorithm that improves the manufacturing assembly process by effectively organizing autonomous robots.",
-      "link": "https://news.stanford.edu/stories/2025/09/algorithm-organizing-autonomous-robots-manufacturing-production",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "Did U.S.-Russia talks on Ukraine make things worse?",
-      "description": "Incursions, increase in aggression really just part of ongoing push by Putin to destabilize ties of allies, scholars and analysts say",
-      "link": "https://news.harvard.edu/gazette/story/2025/09/did-u-s-russia-talks-on-ukraine-make-things-worse/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-09-19"
-    },
-    {
-      "title": "How Supreme Court may get chance to re-examine landmark climate ruling",
-      "description": "Legal scholars say justices could reverse ruling allowing EPA to regulate greenhouse gas emissions on technical grounds amid shift in court makeup",
-      "link": "https://news.harvard.edu/gazette/story/2025/09/how-supreme-court-may-get-chance-to-re-examine-landmark-climate-ruling/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-09-17"
-    },
-    {
-      "title": "Daylight saving time tied to higher rates of stroke and obesity",
-      "description": "According to a new Stanford Medicine analysis, most Americans would be healthier if clocks weren’t changed twice a year.",
-      "link": "https://news.stanford.edu/stories/2025/09/daylight-saving-time-stroke-obesity-health-impacts-research",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "Classic recessive-or-dominant gene dynamics may not be so simple",
-      "description": "New fruit fly research provides the first direct evidence of “dominance reversal,” revealing why pesticide resistance is so hard to eliminate in changing environments.",
-      "link": "https://news.stanford.edu/stories/2025/09/classic-recessive-dominant-gene-dynamics-pesticide-resistance-research",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "Course empowers students to communicate science to the public",
-      "description": "A science communication course equips researchers with essential skills such as podcasting, storyboarding, and leveraging social media to engage non-scientists.",
-      "link": "https://news.stanford.edu/stories/2025/09/psych-208-science-communications-course",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-11"
     },
     {
       "title": "Making real gains in war on Alzheimer’s",
@@ -2521,9 +2489,49 @@
       "date": "2025-09-19"
     },
     {
-      "title": "The Moon could finally reveal dark matter",
-      "description": "Faint hydrogen signals from the cosmic Dark Ages may soon help determine the mass of dark matter particles. Simulations suggest future Moon-based observatories could distinguish between warm and cold dark matter, providing long-sought answers about the invisible backbone of the Universe.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250917220957.htm",
+      "title": "Alien water worlds were just a mirage",
+      "description": "A new study challenges the dream of water-rich “Hycean” planets like K2-18b, suggesting that most sub-Neptunes lose their water deep into their interiors during formation. Instead of vast oceans, these worlds likely retain only a few percent of water at the surface.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250918225006.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "Scientists just found the hidden cosmic fingerprints of dark matter",
+      "description": "Scientists at Rutgers and collaborators have traced the invisible dark matter scaffolding of the universe using over 100,000 Lyman-alpha emitting galaxies. By studying how these galaxies clustered across three eras shortly after the Big Bang, they mapped dark matter concentrations, uncovering cosmic “fingerprints” that reveal how galaxies grow and evolve.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250918225004.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "Lasers just made atoms dance, unlocking the future of electronics",
+      "description": "Scientists at Michigan State University have discovered how to use ultrafast lasers to wiggle atoms in exotic materials, temporarily altering their electronic behavior. By combining cutting-edge microscopes with quantum simulations, they created a nanoscale switch that could revolutionize smartphones, laptops, and even future quantum computers.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250917221007.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-19"
+    },
+    {
+      "title": "America is throwing away the minerals that could power its future",
+      "description": "America already mines all the critical minerals it needs for energy, defense, and technology, but most are being wasted as mine tailings. Researchers discovered that minerals like cobalt, germanium, and rare earths are discarded in massive amounts, even though recovering just a fraction could eliminate U.S. dependence on imports.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250917221212.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-18"
+    },
+    {
+      "title": "NASA’s Perseverance just found new evidence that Mars could have been habitable",
+      "description": "Jezero Crater’s rocks reveal three stages of water activity, shifting from hostile acidic fluids to more life-friendly alkaline ones. Perseverance’s discoveries guide future sampling and strengthen the hunt for past life on Mars.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250917220959.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-18"
+    },
+    {
+      "title": "White dwarf caught devouring a frozen Pluto-like world",
+      "description": "Astronomers have detected the chemical fingerprint of a frozen, water-rich planetary fragment being devoured by a white dwarf star, offering the clearest evidence yet that icy, life-delivering objects exist beyond our Solar System. The find suggests fragments like comets and dwarf planets may be common ingredients of planetary systems.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250917220954.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-09-18"
