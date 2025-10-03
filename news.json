@@ -1,18 +1,18 @@
 {
   "date": "2025-10-03",
-  "lastUpdated": "2025-10-03T01:06:46.827Z",
+  "lastUpdated": "2025-10-03T04:18:05.321Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "47.2s",
+    "executionTime": "50.5s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 22,
-    "totalCandidates": 279,
-    "totalSelected": 279,
+    "sourcesSuccessful": 21,
+    "totalCandidates": 270,
+    "totalSelected": 270,
     "entriesByField": {
       "health": 46,
-      "climate": 28,
+      "climate": 18,
       "energy": 2,
-      "technology": 135,
+      "technology": 136,
       "education": 8,
       "development": 20,
       "peace": 10,
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 28,
+        "kept": 18,
         "changed": 0
       },
       "energy": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 135,
+        "kept": 136,
         "changed": 7
       },
       "education": {
@@ -58,9 +58,9 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 48,
-      "topTierSources": 162,
-      "highCredibilitySources": 251
+      "highScoreEntries": 47,
+      "topTierSources": 152,
+      "highCredibilitySources": 241
     }
   },
   "entries": [
@@ -209,30 +209,6 @@
       "date": "2025-10-04"
     },
     {
-      "title": "Monoclonal Gammopathy of Undetermined Significance",
-      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1315-1326, October 2, 2025.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMra2412716?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2025-10-01"
-    },
-    {
-      "title": "Nerandomilast in Patients with Pulmonary Fibrosis",
-      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1346-1347, October 2, 2025.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2510302?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2025-10-01"
-    },
-    {
-      "title": "Cyclophosphamide and Cyclosporin for GVHD Prevention",
-      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1349-1351, October 2, 2025.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2511563?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2025-10-01"
-    },
-    {
       "title": "Tarlatamab in Small-Cell Lung Cancer",
       "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1348-1349, October 2, 2025.",
       "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2511884?af=R&rss=currentIssue",
@@ -265,14 +241,6 @@
       "date": "2025-10-01"
     },
     {
-      "title": "[Articles] Budesonide–formoterol versus salbutamol as reliever therapy in children with mild asthma (CARE): a 52-week, open-label, multicentre, superiority, randomised controlled trial",
-      "description": "In children aged 5–15 years with mild asthma, budesonide–formoterol reliever monotherapy is superior to salbutamol for preventing asthma attacks, with a similar safety profile.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00861-X/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2025-09-28"
-    },
-    {
       "title": "Herpes Simplex Virus Esophagitis",
       "description": "New England Journal of Medicine, Volume 393, Issue 13, October 2, 2025.",
       "link": "https://www.nejm.org/doi/full/10.1056/NEJMicm2502014?af=R&rss=currentIssue",
@@ -303,6 +271,46 @@
       "source": "NEJM",
       "field": "health",
       "date": "2025-09-27"
+    },
+    {
+      "title": "Clesrovimab in Infants and Children at Increased Risk for Severe RSV Disease",
+      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1343-1345, October 2, 2025.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2506107?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2025-09-17"
+    },
+    {
+      "title": "Monoclonal Gammopathy of Undetermined Significance",
+      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1315-1326, October 2, 2025.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMra2412716?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Nerandomilast in Patients with Pulmonary Fibrosis",
+      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1346-1347, October 2, 2025.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2510302?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Cyclophosphamide and Cyclosporin for GVHD Prevention",
+      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1349-1351, October 2, 2025.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2511563?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "[Articles] Budesonide–formoterol versus salbutamol as reliever therapy in children with mild asthma (CARE): a 52-week, open-label, multicentre, superiority, randomised controlled trial",
+      "description": "In children aged 5–15 years with mild asthma, budesonide–formoterol reliever monotherapy is superior to salbutamol for preventing asthma attacks, with a similar safety profile.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)00861-X/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2025-09-28"
     },
     {
       "title": "[Correspondence] Availability of essential medicines in 14 remaining health facilities in Gaza",
@@ -365,14 +373,6 @@
       "description": "This study shows an association between premortem peri-ictal apnoea and increased SUDEP risk. Cardiorespiratory monitoring during seizures might benefit assessments of epilepsy mortality risk. Together with solitary living and convulsive seizure frequency, peri-ictal apnoea (>14 s for postictal central apnoea and >17 s for ictal central apnoea) could inform the development of a validatable SUDEP risk index.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01636-8/fulltext?rss=yes",
       "source": "The Lancet",
-      "field": "health",
-      "date": "2025-09-17"
-    },
-    {
-      "title": "Clesrovimab in Infants and Children at Increased Risk for Severe RSV Disease",
-      "description": "New England Journal of Medicine, Volume 393, Issue 13, Page 1343-1345, October 2, 2025.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2506107?af=R&rss=currentIssue",
-      "source": "NEJM",
       "field": "health",
       "date": "2025-09-17"
     },
@@ -449,30 +449,6 @@
       "date": "2025-10-01"
     },
     {
-      "title": "Lessons from gulls: My experience creating a collaborative research program for seabird colony monitoring",
-      "description": "Lessons from gulls: My experience creating a collaborative research program for seabird colony monitoring Claire on the research vessel doing disturbance monitoring and population plot surveys at one of the research sites, Gull Island, a remote island only accessible by boat where one of the kittiwake colonies is located. (Image credit: Claire Labuda) Download Image September 30, 2025 My name is Claire Labuda, and I am currently majoring in fish, wildlife, and conservation biology at Colorado State University. For my Hollings internship under the NOAA Office for Coastal Management, I created a",
-      "link": "https://www.noaa.gov/office-education/hollings-scholarship/stories/lessons-from-gulls-my-experience-creating-collaborative-research-program-for-seabird-colony",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2025-09-29"
-    },
-    {
-      "title": "IPCC and AGU partner to expand access to publications for work on Seventh Assessment Report",
-      "description": "GENEVA, June 19 — The Intergovernmental Panel on Climate Change (IPCC) and the American Geophysical Union (AGU) announce access to the full library of AGU Publications for IPCC authors working on the Panel’s Seventh Assessment Report, or AR7. “This landmark decision is an invaluable scientific boost for the IPCC’s ongoing work,” said IPCC Chair Jim […]",
-      "link": "https://www.ipcc.ch/2025/06/19/ipcc-agu-access-to-publications-ar7/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-06-19"
-    },
-    {
-      "title": "Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at COP30",
-      "description": "We handpick and explain the most important stories at the intersection of climate, land, food... The post Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at COP30 appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/cropped-24-september-2025-high-seas-treaty-milestone-erratic-water-cycle-family-food-at-cop30/",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2025-09-24"
-    },
-    {
       "title": "Hollings undergraduate scholarship application is open",
       "description": "Hollings undergraduate scholarship application is open NOAA undergraduate scholars complete 10-week summer internship projects that span NOAA's mission. (Image credit: NOAA Office of Education) Download Image October 1, 2025 Applications for the Hollings undergraduate scholarships will close on January 31, 2026. Education Office of Education 0 Off",
       "link": "https://www.noaa.gov/office-education/news/hollings-undergraduate-scholarship-application-is-open-ext",
@@ -481,28 +457,12 @@
       "date": "2025-10-01"
     },
     {
-      "title": "Into the unknown: My internship studying the ecology of Trena Lake",
-      "description": "Into the unknown: My internship studying the ecology of Trena Lake Amy (left) and Nyrobi Whitfield collecting bathymetric data at their research site, Trena Lake. Prior to their work this summer, no known ecological research has been conducted at the lake, so every survey they conducted was full of surprises! (Image credit: Amy Deatherage) Download Image September 30, 2025 Hi everyone! My name is Amy Deatherage, and I’m an EPP scholar studying global environmental science at the University of Hawaiʻi at Mānoa. This summer, I interned at the Kasitsna Bay Lab in Seldovia, Alaska, which is a labo",
-      "link": "https://www.noaa.gov/office-education/epp-msi/stories/into-unknown-my-internship-studying-ecology-of-trena-lake",
+      "title": "Lessons from gulls: My experience creating a collaborative research program for seabird colony monitoring",
+      "description": "Lessons from gulls: My experience creating a collaborative research program for seabird colony monitoring Claire on the research vessel doing disturbance monitoring and population plot surveys at one of the research sites, Gull Island, a remote island only accessible by boat where one of the kittiwake colonies is located. (Image credit: Claire Labuda) Download Image September 30, 2025 My name is Claire Labuda, and I am currently majoring in fish, wildlife, and conservation biology at Colorado State University. For my Hollings internship under the NOAA Office for Coastal Management, I created a",
+      "link": "https://www.noaa.gov/office-education/hollings-scholarship/stories/lessons-from-gulls-my-experience-creating-collaborative-research-program-for-seabird-colony",
       "source": "NOAA",
       "field": "climate",
       "date": "2025-09-29"
-    },
-    {
-      "title": "You are what you eat! My internship studying Atlantic cod and striped bass diets in New Hampshire",
-      "description": "You are what you eat! My internship studying Atlantic cod and striped bass diets in New Hampshire Clara (left) and grad student Sidney Axtell performing gastric lavage on an Atlantic cod (Gadus morhua). Stomach contents were then recorded in whirl packs and analyzed back in the lab to understand what Atlantic cod are eating in New Hampshire waters. Download Image September 30, 2025 Hello! My name is Clara Oxford and I am a marine science major at Eckerd College! This summer I had the opportunity of working at the NOAA Office of Coastal Management with NOAA affiliates University of New Hampshir",
-      "link": "https://www.noaa.gov/office-education/hollings-scholarship/stories/you-are-what-you-eat-my-internship-studying-atlantic-cod-and-striped-bass-diets-in-new-hampshire",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2025-09-29"
-    },
-    {
-      "title": "EAT-Lancet report: Three key takeaways on climate and diet change",
-      "description": "A global shift towards “healthier” diets could cut non-CO2 greenhouse gas emissions, such as methane,... The post EAT-Lancet report: Three key takeaways on climate and diet change appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/eat-lancet-report-three-key-takeaways-on-climate-and-diet-change/",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2025-10-02"
     },
     {
       "title": "Diving into ghost shark systematics: My summer as a NOAA Hollings Scholar",
@@ -521,12 +481,36 @@
       "date": "2025-09-29"
     },
     {
+      "title": "Into the unknown: My internship studying the ecology of Trena Lake",
+      "description": "Into the unknown: My internship studying the ecology of Trena Lake Amy (left) and Nyrobi Whitfield collecting bathymetric data at their research site, Trena Lake. Prior to their work this summer, no known ecological research has been conducted at the lake, so every survey they conducted was full of surprises! (Image credit: Amy Deatherage) Download Image September 30, 2025 Hi everyone! My name is Amy Deatherage, and I’m an EPP scholar studying global environmental science at the University of Hawaiʻi at Mānoa. This summer, I interned at the Kasitsna Bay Lab in Seldovia, Alaska, which is a labo",
+      "link": "https://www.noaa.gov/office-education/epp-msi/stories/into-unknown-my-internship-studying-ecology-of-trena-lake",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2025-09-29"
+    },
+    {
+      "title": "You are what you eat! My internship studying Atlantic cod and striped bass diets in New Hampshire",
+      "description": "You are what you eat! My internship studying Atlantic cod and striped bass diets in New Hampshire Clara (left) and grad student Sidney Axtell performing gastric lavage on an Atlantic cod (Gadus morhua). Stomach contents were then recorded in whirl packs and analyzed back in the lab to understand what Atlantic cod are eating in New Hampshire waters. Download Image September 30, 2025 Hello! My name is Clara Oxford and I am a marine science major at Eckerd College! This summer I had the opportunity of working at the NOAA Office of Coastal Management with NOAA affiliates University of New Hampshir",
+      "link": "https://www.noaa.gov/office-education/hollings-scholarship/stories/you-are-what-you-eat-my-internship-studying-atlantic-cod-and-striped-bass-diets-in-new-hampshire",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2025-09-29"
+    },
+    {
       "title": "What’s the charge? My internship researching black carbon aerosols in Boulder",
       "description": "What’s the charge? My internship researching black carbon aerosols in Boulder Megan with the NOAA twin otter aircraft in the hanger before an air quality research mission. (Image credit: Megan Neumann) Download Image September 30, 2025 Hi! I’m Megan Neumann and I study meteorology, chemistry, and physics at Embry-Riddle Aeronautical University in Daytona Beach, Florida. I spent my summer Hollings internship working at the NOAA Chemical Sciences Laboratory in the Atmospheric Composition and Chemical Processes group. My research was on the electrical charge of black carbon aerosol, with specific",
       "link": "https://www.noaa.gov/office-education/hollings-scholarship/stories/whats-charge-my-internship-researching-black-carbon-aerosols-in-boulder",
       "source": "NOAA",
       "field": "climate",
       "date": "2025-09-29"
+    },
+    {
+      "title": "EAT-Lancet report: Three key takeaways on climate and diet change",
+      "description": "A global shift towards “healthier” diets could cut non-CO2 greenhouse gas emissions, such as methane,... The post EAT-Lancet report: Three key takeaways on climate and diet change appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/eat-lancet-report-three-key-takeaways-on-climate-and-diet-change/",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2025-10-02"
     },
     {
       "title": "NOAA-supported expedition to explore deep waters of Cook Islands",
@@ -537,76 +521,12 @@
       "date": "2025-09-29"
     },
     {
-      "title": "IPCC Working Group I Vice-Chair Sonia Seneviratne to receive prestigious German Environmental Award for excellent innovative climate research",
-      "description": "Prof. Dr. Sonia Isabelle Seneviratne, Vice-Chair of the IPCC Working Group I and a professor at ETH Zürich, is this year’s co-laureate of the prestigious German Environmental Award presented by the German Federal Environmental Foundation (DBU). The DBU award is among the most notable in Europe and comes with a €500,000 purse, which this year […]",
-      "link": "https://www.ipcc.ch/2025/09/18/dbussv/",
-      "source": "IPCC",
+      "title": "Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at COP30",
+      "description": "We handpick and explain the most important stories at the intersection of climate, land, food... The post Cropped 24 September 2025: High Seas Treaty milestone; ‘Erratic’ water cycle; Family food at COP30 appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/cropped-24-september-2025-high-seas-treaty-milestone-erratic-water-cycle-family-food-at-cop30/",
+      "source": "Carbon Brief",
       "field": "climate",
-      "date": "2025-09-18"
-    },
-    {
-      "title": "Communication Officer in the IPCC Working Group I Technical Support Unit",
-      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Communication Officer The position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and the World Meteorological Organization (WMO) in 1988 […]",
-      "link": "https://www.ipcc.ch/2025/09/17/com-officer-ipcc-wg-i-tsu/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-09-17"
-    },
-    {
-      "title": "IPCC seeks experts to review the first draft of the Special Report on Climate Change and Cities",
-      "description": "GENEVA, September 17 – The Intergovernmental Panel on Climate Change (IPCC) opened today the registration for experts to serve as Expert Reviewers on the First-Order Draft (FOD) of the Special Report on Climate Change and Cities. Following the Second Lead Author Meeting this August, authors of this Special Report have prepared a first draft, which […]",
-      "link": "https://www.ipcc.ch/2025/09/17/prfod1225/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-09-17"
-    },
-    {
-      "title": "IPCC concludes selection of authors for its Seventh Assessment Report",
-      "description": "GENEVA, August 18 – The Intergovernmental Panel on Climate Change (IPCC) has appointed 664 experts from 111 countries to participate in the Seventh Assessment Report (AR7) as Coordinating Lead Authors, Lead Authors and Review Editors. These experts were nominated by governments and IPCC observer organisations and selected by the IPCC Bureau from a global […]",
-      "link": "https://www.ipcc.ch/2025/08/18/pr-ar7-authors/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-08-18"
-    },
-    {
-      "title": "IPCC authors gather in Kenya to develop the first draft of the Special Report on Climate Change and Cities",
-      "description": "MOMBASA, Kenya, Jul 21 – The Second Lead Author Meeting of the Intergovernmental Panel on Climate Change (IPCC) Special Report on Climate Change and Cities taking place in Mombasa, Kenya, this week will advance the work on the First Order Draft (FOD) of the IPCC’s only special report in the seventh assessment cycle. The first […]",
-      "link": "https://www.ipcc.ch/2025/07/21/ipcc-authors-srcities-lam2-kenya/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-07-21"
-    },
-    {
-      "title": "IPCC Working Group II Vice-Chair Mark Howden receives Australia’s highest civilian honour in King’s Birthday 2025 Honours list",
-      "description": "On the occasion of 2025 King’s Birthday, this June, IPCC Working Group II Vice-Chair Prof. Mark Howden AC was awarded the honour of Companion of the Order of Australia (AC). This highest civilian honour was awarded to Prof. Howden for eminent service to environmental science, to global response to climate change and adaptation, to agriculture, […]",
-      "link": "https://www.ipcc.ch/2025/07/15/acmhowden/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-07-15"
-    },
-    {
-      "title": "Keynote speech by IPCC Chair Jim Skea at the Seventeeth Session of the Research Dialogue",
-      "description": "SBSTA 62,Bonn, Germany, 17 June 2025 Thank you SBSTA Chair (SBSTA Chair, Adonia Ayebare) Your Excellencies, distinguished delegates, colleagues and friends, ladies and gentlemen, First of all, thank you for the invitation to deliver the keynote address at this 17th Meeting of the Research Dialogue. As the Chair of the Intergovernmental Panel on Climate Change […]",
-      "link": "https://www.ipcc.ch/2025/06/17/keynote-jim-skea-research-dialogue-sbsta62/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-06-17"
-    },
-    {
-      "title": "IPCC calls for the nomination of participants to the Workshop on Engaging Diverse Knowledge Systems and the Workshop on Methods of Assessment",
-      "description": "The Intergovernmental Panel on Climate Change is calling for nominations of participants to two three-day co-located workshops to be held in the first quarter of 2026: a Workshop on Engaging Diverse Knowledge Systems and a Workshop on Methods of Assessment. This follows the Panel’s agreement of a proposal made by the IPCC Chair with the […]",
-      "link": "https://www.ipcc.ch/2025/06/13/calls-for-nominations-workshops-diverse-knowledge-systems-and-methods-of-assessment/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-06-13"
-    },
-    {
-      "title": "Programme Officer, IPCC Task Force on Inventories Technical Support Unit",
-      "description": "The Technical Support Unit of the IPCC Task Force on National Greenhouse Gas Inventories (TFI TSU) wishes to recruit for a position at the Associate Staff level. This will be a fixed term appointment until June 2028 located in Hayama, Japan. Preferred commencement date is September 2025. The TFI TSU is looking for self-motivated candidates […]",
-      "link": "https://www.ipcc.ch/2025/05/13/programme-officer-ipcc-task-force-on-inventories-technical-support-unit/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2025-05-13"
+      "date": "2025-09-24"
     },
     {
       "title": "It is time for a Global Wildlife Health Authority",
@@ -689,22 +609,6 @@
       "date": "2025-10-02"
     },
     {
-      "title": "Caltech Welcomes Community Back for Annual Watson Lecture Series",
-      "description": "The Earnest C. Watson Lecture Series, which has shone a spotlight on the groundbreaking research and innovation of Caltech faculty for more than 100 years, returns in October for the 2025–26 season. Aimed at engaging the public in the wonder of discovery, the Watsons highlight the impact of curiosity-driven science and engineering in a casual and convivial setting.\"I have been attending Watson Lectures for 25-plus years,\" says Jade Kuan Hoffman, a Pasadena-area community member. \"It is like traversing the multiverse … the mind-blowing scientific discoveries and engineering achievements from bo",
-      "link": "https://www.caltech.edu/about/news/caltech-welcomes-community-back-for-annual-watson-lecture-series",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-09-15"
-    },
-    {
-      "title": "China launches ambitious collaboration to map primate brains—including ours",
-      "description": "25-year plan will tap brain-mapping prowess in two dozen countries to visualize the organ in unprecedented detail",
-      "link": "https://www.science.org/content/article/china-launches-ambitious-collaboration-map-primate-brains-including-ours",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-10-01"
-    },
-    {
       "title": "Caltech Welcomes New Students and Scholars for the 2025–26 Academic Year",
       "description": "On Friday, September 26, after a week of orientation, Caltech students, faculty, and staff gathered for Convocation, the Institute's annual formal welcome to its newest community of scholars, which includes 258 undergraduates, 242 graduate students, and 45 postdoctoral scholars.Orientation WeekIn the week leading up to Convocation, Caltech's Student and Family Engagement (SFE) and Graduate Studies Office organized a range of events to introduce new students and postdoctoral scholars to the Institute.Student move-ins began with early international student arrivals on Wednesday, September 17, an",
       "link": "https://www.caltech.edu/about/news/convocation-2025",
@@ -721,28 +625,20 @@
       "date": "2025-09-23"
     },
     {
-      "title": "Gift launches Kidney Health Innovation Program",
-      "description": "​​A $15 million gift from the David Koch Jr. Foundation has established a Stanford Medicine program that will advance research to shape the future of care for children with kidney disease.",
-      "link": "https://news.stanford.edu/stories/2025/09/gift-kidney-health-innovation-program-stanford-medicine",
-      "source": "Stanford News",
+      "title": "China launches ambitious collaboration to map primate brains—including ours",
+      "description": "25-year plan will tap brain-mapping prowess in two dozen countries to visualize the organ in unprecedented detail",
+      "link": "https://www.science.org/content/article/china-launches-ambitious-collaboration-map-primate-brains-including-ours",
+      "source": "Science",
       "field": "technology",
-      "date": "2025-09-30"
+      "date": "2025-10-01"
     },
     {
-      "title": "Caltech Team Sets Record with 6,100-Qubit Array",
-      "description": "Quantum computers will need large numbers of qubits to tackle challenging problems in physics, chemistry, and beyond. Unlike classical bits, qubits can exist in two states at once—a phenomenon called superposition. This quirk of quantum physics gives quantum computers the potential to perform certain complex calculations better than their classical counterparts, but it also means the qubits are fragile. To compensate, researchers are building quantum computers with extra, redundant qubits to correct any errors. That is why robust quantum computers will require hundreds of thousands of qubits.N",
-      "link": "https://www.caltech.edu/about/news/caltech-team-sets-record-with-6100-qubit-array",
+      "title": "Caltech Welcomes Community Back for Annual Watson Lecture Series",
+      "description": "The Earnest C. Watson Lecture Series, which has shone a spotlight on the groundbreaking research and innovation of Caltech faculty for more than 100 years, returns in October for the 2025–26 season. Aimed at engaging the public in the wonder of discovery, the Watsons highlight the impact of curiosity-driven science and engineering in a casual and convivial setting.\"I have been attending Watson Lectures for 25-plus years,\" says Jade Kuan Hoffman, a Pasadena-area community member. \"It is like traversing the multiverse … the mind-blowing scientific discoveries and engineering achievements from bo",
+      "link": "https://www.caltech.edu/about/news/caltech-welcomes-community-back-for-annual-watson-lecture-series",
       "source": "Caltech",
       "field": "technology",
-      "date": "2025-09-24"
-    },
-    {
-      "title": "John Preskill Honored by Quantum World Congress",
-      "description": "The Quantum World Congress (QWC) announced on September 18 that it was giving John Preskill, the Richard P. Feynman Professor of Theoretical Physics, its Academic Pioneer in Quantum Award for 2025.Preskill earned a BA from Princeton and a PhD from Harvard in physics, and joined the Caltech faculty in 1983. He started his career as a theoretical high energy physicist, working on ideas spanning particle physics to cosmology. Since the mid-1990s, Preskill has focused his work on quantum computing and quantum information, particularly on fault-tolerant protocols that can make quantum computers rel",
-      "link": "https://www.caltech.edu/about/news/preskill-honored-by-quantum-world-congress",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-09-18"
+      "date": "2025-09-15"
     },
     {
       "title": "AI-Powered Tools Enhance Global Innovation Strategies",
@@ -769,6 +665,30 @@
       "date": "2025-09-30"
     },
     {
+      "title": "Gift launches Kidney Health Innovation Program",
+      "description": "​​A $15 million gift from the David Koch Jr. Foundation has established a Stanford Medicine program that will advance research to shape the future of care for children with kidney disease.",
+      "link": "https://news.stanford.edu/stories/2025/09/gift-kidney-health-innovation-program-stanford-medicine",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "Caltech Team Sets Record with 6,100-Qubit Array",
+      "description": "Quantum computers will need large numbers of qubits to tackle challenging problems in physics, chemistry, and beyond. Unlike classical bits, qubits can exist in two states at once—a phenomenon called superposition. This quirk of quantum physics gives quantum computers the potential to perform certain complex calculations better than their classical counterparts, but it also means the qubits are fragile. To compensate, researchers are building quantum computers with extra, redundant qubits to correct any errors. That is why robust quantum computers will require hundreds of thousands of qubits.N",
+      "link": "https://www.caltech.edu/about/news/caltech-team-sets-record-with-6100-qubit-array",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-09-24"
+    },
+    {
+      "title": "John Preskill Honored by Quantum World Congress",
+      "description": "The Quantum World Congress (QWC) announced on September 18 that it was giving John Preskill, the Richard P. Feynman Professor of Theoretical Physics, its Academic Pioneer in Quantum Award for 2025.Preskill earned a BA from Princeton and a PhD from Harvard in physics, and joined the Caltech faculty in 1983. He started his career as a theoretical high energy physicist, working on ideas spanning particle physics to cosmology. Since the mid-1990s, Preskill has focused his work on quantum computing and quantum information, particularly on fault-tolerant protocols that can make quantum computers rel",
+      "link": "https://www.caltech.edu/about/news/preskill-honored-by-quantum-world-congress",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-09-18"
+    },
+    {
       "title": "The Story of Engineering Is the Story of Scale",
       "description": "Engineers are masters of scale. They harness energy from the sun, wind, rivers, atoms, and ores. They manipulate electrons, photons, and crystals to compute and communicate. They devise instruments that detect perturbations in the fabric of space-time. And they grapple with challenges—anticipated or not—that are presented by the scale of the problem they are trying to solve. The articles in this issue describe engineers who think about, interact with, and create things at very precise and often mind-boggling scales. They took the point-contact transistor and scaled it over the course of decade",
       "link": "https://spectrum.ieee.org/engineering-scale",
@@ -793,10 +713,34 @@
       "date": "2025-10-02"
     },
     {
+      "title": "Clearing significant hurdle to quantum computing",
+      "description": "Harvard physicists working to develop game-changing technology demonstrate 3,000 quantum-bit system",
+      "link": "https://news.harvard.edu/gazette/story/2025/09/clearing-significant-hurdle-to-quantum-computing/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-09-25"
+    },
+    {
       "title": "The NEC-Approved Solution That’s Changing How Fleets Approach EV Charging",
       "description": "Maximize existing grid capacity and avoid costly upgrades. Learn how Automated Load Management enables faster, more affordable fleet electrification. Download the free technical guide. Download this free whitepaper now!",
       "link": "https://content.knowledgehub.wiley.com/electrify-faster-spend-less-why-fleet-managers-are-turning-to-automated-load-management/",
       "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-10-02"
+    },
+    {
+      "title": "Berkeley microbiologist explains the wonder of viruses in 101 seconds",
+      "description": "\"I love efficiency, and viruses are masters at efficiency,\" says Professor Britt Glaunsinger in this 101 in 101 video. The post Berkeley microbiologist explains the wonder of viruses in 101 seconds appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2025/10/02/berkeley-microbiologist-explains-the-wonder-of-viruses-in-101-seconds/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2025-10-02"
+    },
+    {
+      "title": "Fossilized ear bones rewrite the history of freshwater fish",
+      "description": "Analysis of well-preserved bony structures in the middle ear of a 67 million-year-old fossil suggests that oceanic fish invaded Earth's streams and lakes multiple times — developing improved hearing along the way. The post Fossilized ear bones rewrite the history of freshwater fish appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2025/10/02/fossilized-ear-bones-rewrite-the-history-of-freshwater-fish/",
+      "source": "UC Berkeley",
       "field": "technology",
       "date": "2025-10-02"
     },
@@ -825,12 +769,28 @@
       "date": "2025-09-30"
     },
     {
-      "title": "AI Expands the Search for New Battery Materials",
-      "description": "When Microsoft researchers in 2023 identified a new kind of material that could dramatically reduce the amount of lithium needed in rechargeable batteries, it felt like combing through a haystack in record time. That’s because their discovery began as 32 million possibilities and, with the help of artificial intelligence, produced a promising candidate within 80 hours. Now researchers at the Pacific Northwest National Laboratory plan to synthesize and test the novel material, NaxLi3−xYCl6, in a battery setup. It’s one of several AI-generated battery chemistries making its way to the real world",
-      "link": "https://spectrum.ieee.org/ai-battery-material",
-      "source": "IEEE Spectrum",
+      "title": "Scientists may be closing in on dark matter’s true identity",
+      "description": "The LUX-ZEPLIN detector is breaking new ground in the hunt for dark matter, setting unprecedented limits on WIMP particles. Its results not only narrow the possibilities for dark matter but also open exciting paths toward other rare physics discoveries.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250930034209.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-10-01"
+    },
+    {
+      "title": "Unlocking AI’s full potential requires operational excellence",
+      "description": "Talk of AI is inescapable. It’s often the main topic of discussion at board and executive meetings, at corporate retreats, and in the media. A record 58% of S&P 500 companies mentioned AI in their second-quarter earnings calls, according to Goldman Sachs. But it’s difficult to walk the talk. Just 5% of generative AI pilots…",
+      "link": "https://www.technologyreview.com/2025/10/01/1124593/unlocking-ais-full-potential-requires-operational-excellence/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Designing CPUs for next-generation supercomputing",
+      "description": "In Seattle, a meteorologist analyzes dynamic atmospheric models to predict the next major storm system. In Stuttgart, an automotive engineer examines crash-test simulations for vehicle safety certification. And in Singapore, a financial analyst simulates portfolio stress tests to hedge against global economic shocks. Each of these professionals—and the consumers, commuters, and investors who depend on their insights— relies on a…",
+      "link": "https://www.technologyreview.com/2025/09/30/1124505/designing-cpus-for-next-generation-supercomputing/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-09-30"
     },
     {
       "title": "Array-Scale MUT Simulations Powered by the Cloud",
@@ -849,36 +809,12 @@
       "date": "2025-09-28"
     },
     {
-      "title": "Clearing significant hurdle to quantum computing",
-      "description": "Harvard physicists working to develop game-changing technology demonstrate 3,000 quantum-bit system",
-      "link": "https://news.harvard.edu/gazette/story/2025/09/clearing-significant-hurdle-to-quantum-computing/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-09-25"
-    },
-    {
-      "title": "Quantum chips just proved they’re ready for the real world",
-      "description": "Diraq has shown that its silicon-based quantum chips can maintain world-class accuracy even when mass-produced in semiconductor foundries. Achieving over 99% fidelity in two-qubit operations, the breakthrough clears a major hurdle toward utility-scale quantum computing. Silicon’s compatibility with existing chipmaking processes means building powerful quantum processors could become both cost-effective and scalable.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250927031230.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-28"
-    },
-    {
-      "title": "Concrete “battery” developed at MIT now packs 10 times the power",
-      "description": "Improved carbon-cement supercapacitors could turn the concrete around us into massive energy storage systems.",
-      "link": "https://news.mit.edu/2025/concrete-battery-now-packs-ten-times-power-1001",
+      "title": "Martin Trust Center for MIT Entrepreneurship welcomes Ana Bakshi as new executive director",
+      "description": "Bakshi will help shape and scale entrepreneurship education and platform at MIT.",
+      "link": "https://news.mit.edu/2025/martin-trust-center-mit-entrepreneurship-ana-bakshi-executive-director-1002",
       "source": "MIT News",
       "field": "technology",
-      "date": "2025-10-01"
-    },
-    {
-      "title": "Heat-Rechargeable Design Powers Nanoscale Molecular Machines",
-      "description": "Though it might seem like science fiction, scientists are working to build nanoscale molecular machines that can be designed for myriad applications, such as \"smart\" medicines and materials. But like all machines, these tiny devices need a source of power, the way electronic appliances use electricity or living cells use ATP (adenosine triphosphate, the universal biological energy source).Researchers in the laboratory of Lulu Qian, Caltech professor of bioengineering, are developing nanoscale machines made out of synthetic DNA, taking advantage of DNA's unique chemical bonding properties to bu",
-      "link": "https://www.caltech.edu/about/news/heat-rechargeable-design-powers-nanoscale-molecular-machines",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-10-01"
+      "date": "2025-10-02"
     },
     {
       "title": "3 Questions: How a new mission to Uranus could be just around the corner",
@@ -887,46 +823,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-09-30"
-    },
-    {
-      "title": "MIT joins in constructing the Giant Magellan Telescope",
-      "description": "The major public-private partnership is expected to strengthen MIT research and US leadership in astronomy and engineering.",
-      "link": "https://news.mit.edu/2025/mit-joins-constructing-giant-magellan-telescope-0930",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "Caltech Announces Newest Cohort of Leadership Chairs and Named Professorships",
-      "description": "Ten Caltech faculty members begin the 2025-2026 academic year with newly bestowed honors: six with named professorships, one of the Institute's highest honors, and four with distinguished leadership chairs for administrative positions.These awards, made possible through the generosity of private donor investments to Caltech, provide faculty with dedicated resources to advance innovative research while they continue to mentor and train future generations.Each named professorship comes with its own legacy. Many professorships, for instance, have long-standing histories and pass a tradition of di",
-      "link": "https://www.caltech.edu/about/news/leadership_chairs_and_named_professorships_2025",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "How federal research support has helped create life-changing medicines",
-      "description": "A new study finds over half the drugs approved this century cite government-funded research in their patents.",
-      "link": "https://news.mit.edu/2025/how-federal-research-support-has-helped-create-life-changing-medicines-0925",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-25"
-    },
-    {
-      "title": "Study reveals roadmap for carbon-free California by 2045",
-      "description": "A new study shows California can go carbon-free mostly using current and emerging solutions – but to get there, it must overcome regulatory challenges and scale technologies at an unprecedented pace.",
-      "link": "https://news.stanford.edu/stories/2025/09/carbon-free-california-net-zero-emissions-technologies-challenges",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-25"
-    },
-    {
-      "title": "Studying the Squishy Stuff: A Conversation with Sujit Datta",
-      "description": "Sujit Datta's eyes light up and he smiles when he talks about \"squishy\" things like mucus and other polymeric fluids. The professor of chemical engineering, bioengineering, and biophysics at Caltech studies how bacteria, fluids, and other soft and pliable materials move and behave in the complex environments where they are typically found—from soils and sediments to biological tissues and gels. Datta's group, lovingly nicknamed \"The Squishy Lab,\" uses a combination of experiments, theoretical modeling, and computer simulations to better understand the fundamental principles governing these sys",
-      "link": "https://www.caltech.edu/about/news/studying-the-squishy-stuff-a-conversation-with-sujit-datta",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-09-19"
     },
     {
       "title": "Jane Goodall, famed primatologist, changed the way we thought about apes",
@@ -943,54 +839,6 @@
       "source": "Science",
       "field": "technology",
       "date": "2025-10-02"
-    },
-    {
-      "title": "New radioactive isotope therapies promise more targeted attacks on cancer",
-      "description": "Recent clinical successes, and profits, have prompted a rush among pharma companies to try new isotopes and targeting strategies",
-      "link": "https://www.science.org/content/article/new-radioactive-isotope-therapies-promise-more-targeted-attacks-cancer",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Neurons can communicate via hidden network of nanotubes, study finds",
-      "description": "Tubes in mouse and human brains may also influence spread of brain disease",
-      "link": "https://www.science.org/content/article/neurons-can-communicate-hidden-network-nanotubes-study-finds",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Made to order bioweapon? AI-designed toxins slip through safety checks used by companies selling genes",
-      "description": "Researchers expose flaws in safeguards intended to block rogue actors from making bioweapons",
-      "link": "https://www.science.org/content/article/made-order-bioweapon-ai-designed-toxins-slip-through-safety-checks-used-companies",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Could technology reduce fractures in racehorses?",
-      "description": "AI promises advance warnings, and mathematical models point to a simple prevention strategy",
-      "link": "https://www.science.org/content/article/could-technology-reduce-fractures-racehorses",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Martin Trust Center for MIT Entrepreneurship welcomes Ana Bakshi as new executive director",
-      "description": "Bakshi will help shape and scale entrepreneurship education and platform at MIT.",
-      "link": "https://news.mit.edu/2025/martin-trust-center-mit-entrepreneurship-ana-bakshi-executive-director-1002",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Responding to the climate impact of generative AI",
-      "description": "Explosive growth of AI data centers is expected to increase greenhouse gas emissions. Researchers are now seeking solutions to reduce these environmental harms.",
-      "link": "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-30"
     },
     {
       "title": "After months in limbo, four NIH institute directors fired",
@@ -1015,6 +863,14 @@
       "source": "Science",
       "field": "technology",
       "date": "2025-10-01"
+    },
+    {
+      "title": "Secretary of Energy Chris Wright ’85 visits MIT",
+      "description": "Panel discussions focused on innovation in many forms of energy, then a tour of campus featured student research.",
+      "link": "https://news.mit.edu/2025/secretary-energy-chris-wright-visits-mit-1003",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-10-03"
     },
     {
       "title": "MIT-affiliated physicists win McMillan Award for discovery of exotic electronic state",
@@ -1053,6 +909,22 @@
       "description": "For physicist Mostafa Fawzy, MIT Open Learning’s OpenCourseWare was a steadfast companion through countless study sessions.",
       "link": "https://news.mit.edu/2025/mit-opencourseware-living-testament-nobility-open-unbounded-learning-1001",
       "source": "MIT News",
+      "field": "technology",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Concrete “battery” developed at MIT now packs 10 times the power",
+      "description": "Improved carbon-cement supercapacitors could turn the concrete around us into massive energy storage systems.",
+      "link": "https://news.mit.edu/2025/concrete-battery-now-packs-ten-times-power-1001",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Heat-Rechargeable Design Powers Nanoscale Molecular Machines",
+      "description": "Though it might seem like science fiction, scientists are working to build nanoscale molecular machines that can be designed for myriad applications, such as \"smart\" medicines and materials. But like all machines, these tiny devices need a source of power, the way electronic appliances use electricity or living cells use ATP (adenosine triphosphate, the universal biological energy source).Researchers in the laboratory of Lulu Qian, Caltech professor of bioengineering, are developing nanoscale machines made out of synthetic DNA, taking advantage of DNA's unique chemical bonding properties to bu",
+      "link": "https://www.caltech.edu/about/news/heat-rechargeable-design-powers-nanoscale-molecular-machines",
+      "source": "Caltech",
       "field": "technology",
       "date": "2025-10-01"
     },
@@ -1111,6 +983,54 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2025-09-30"
+    },
+    {
+      "title": "Saab 340 becomes permanent flight-test asset at Lincoln Laboratory",
+      "description": "The aircraft supports development and testing of diverse technologies for national security.",
+      "link": "https://news.mit.edu/2025/saab-340-becomes-permanent-flight-test-asset-lincoln-laboratory-0930",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "MIT joins in constructing the Giant Magellan Telescope",
+      "description": "The major public-private partnership is expected to strengthen MIT research and US leadership in astronomy and engineering.",
+      "link": "https://news.mit.edu/2025/mit-joins-constructing-giant-magellan-telescope-0930",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "Responding to the climate impact of generative AI",
+      "description": "Explosive growth of AI data centers is expected to increase greenhouse gas emissions. Researchers are now seeking solutions to reduce these environmental harms.",
+      "link": "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "Caltech Announces Newest Cohort of Leadership Chairs and Named Professorships",
+      "description": "Ten Caltech faculty members begin the 2025-2026 academic year with newly bestowed honors: six with named professorships, one of the Institute's highest honors, and four with distinguished leadership chairs for administrative positions.These awards, made possible through the generosity of private donor investments to Caltech, provide faculty with dedicated resources to advance innovative research while they continue to mentor and train future generations.Each named professorship comes with its own legacy. Many professorships, for instance, have long-standing histories and pass a tradition of di",
+      "link": "https://www.caltech.edu/about/news/leadership_chairs_and_named_professorships_2025",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "Stanford’s farm celebrates 10 years of sustainable education",
+      "description": "A decade ago, the O’Donohue Family Stanford Educational Farm was established following years of student advocacy. Today, it thrives as a hub for teaching, research, and campus life.",
+      "link": "https://news.stanford.edu/stories/2025/09/odonohue-family-farm-sustainable-agriculture-education",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-26"
+    },
+    {
+      "title": "How federal research support has helped create life-changing medicines",
+      "description": "A new study finds over half the drugs approved this century cite government-funded research in their patents.",
+      "link": "https://news.mit.edu/2025/how-federal-research-support-has-helped-create-life-changing-medicines-0925",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-25"
     },
     {
       "title": "Education in Mozambique",
@@ -1217,6 +1137,14 @@
       "date": "2025-09-25"
     },
     {
+      "title": "ADB Forecasts 3.7% Growth for Lao PDR Amid External Challenges",
+      "description": "Services continue to be the main driver of growth in the Lao People’s Democratic Republic for 2025, with the sector forecast to expand by 4.5%, according to a new report by ADB.",
+      "link": "https://www.adb.org/news/adb-forecasts-3-7-percent-growth-lao-pdr-amid-external-challenges",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-09-30"
+    },
+    {
       "title": "ADB Launches New Country Partnership Strategy for Indonesia to Accelerate Inclusive, Resilient, and Sustainable Growth",
       "description": "ADB has launched a new Country Partnership Strategy for Indonesia for 2025–2029. The strategy is designed to support Indonesia in achieving accelerated economic growth that is inclusive, resilient, and sustainable.",
       "link": "https://www.adb.org/news/adb-launches-new-country-partnership-strategy-indonesia-accelerate-inclusive-resilient-sustainable-growth",
@@ -1233,14 +1161,6 @@
       "date": "2025-10-02"
     },
     {
-      "title": "ADB Forecasts 3.7% Growth for Lao PDR Amid External Challenges",
-      "description": "Services continue to be the main driver of growth in the Lao People’s Democratic Republic for 2025, with the sector forecast to expand by 4.5%, according to a new report by ADB.",
-      "link": "https://www.adb.org/news/adb-forecasts-3-7-percent-growth-lao-pdr-amid-external-challenges",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-09-30"
-    },
-    {
       "title": "ADB Appoints Isabel Chatterton as Director General for Private Sector Operations",
       "description": "ADB has appointed Isabel Chatterton as Director General for its Private Sector Operations Department.",
       "link": "https://www.adb.org/news/adb-appoints-isabel-chatterton-director-general-private-sector-operations",
@@ -1249,9 +1169,25 @@
       "date": "2025-10-01"
     },
     {
+      "title": "Philippine GDP Seen on a Steady Growth Path in 2025, 2026",
+      "description": "Robust domestic demand amid subdued inflation will support Philippine economic growth this year and the next, according to a report released by ADB.",
+      "link": "https://www.adb.org/news/philippine-gdp-seen-steady-growth-path-2025-2026",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-09-30"
+    },
+    {
       "title": "Sustained Reforms and Disaster Resilience Key to Continued Economic Growth — ADB",
       "description": "Pakistan’s improved macroeconomic conditions contributed to an uptick in growth in fiscal year 2025 (ended 30 June 2025), underpinned by increased investment driven by continued policy reforms and economic stability, ADB said in a report.",
       "link": "https://www.adb.org/news/sustained-reforms-and-disaster-resilience-key-continued-economic-growth-adb",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "ADB Forecasts 3.8% Economic Growth for Timor-Leste in 2025",
+      "description": "Timor-Leste’s near-term economic outlook remains stable, supported by strong domestic demand. Although growth projections have been slightly downgraded from the April 2025 forecast, the economy is expected to maintain solid momentum, according to a new report released by ADB.",
+      "link": "https://www.adb.org/news/adb-forecasts-3-8-percent-economic-growth-timor-leste-2025",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2025-09-30"
@@ -1281,6 +1217,14 @@
       "date": "2025-09-30"
     },
     {
+      "title": "Mongolia’s Economic Growth is Sustained, Despite Global Uncertainties",
+      "description": "Mongolia’s economic growth is expected to be driven this year by a recovery in livestock numbers and the ramp-up of the Oyu Tolgoi underground mine. However, weaker coal exports and reduced government spending have led ADB to lower its growth forecast.",
+      "link": "https://www.adb.org/news/mongolia-economic-growth-sustained-despite-global-uncertainties",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-09-30"
+    },
+    {
       "title": "Georgia’s Economy Growth Remains Strong — ADB",
       "description": "Georgia’s economy is projected to maintain steady growth in 2025, according to a new report from ADB.",
       "link": "https://www.adb.org/news/georgia-economy-growth-remains-strong-adb",
@@ -1297,41 +1241,17 @@
       "date": "2025-09-30"
     },
     {
-      "title": "Viet Nam’s Economy Gathers Momentum Despite Global Challenges",
-      "description": "ADB has revised Viet Nam’s economic growth forecast, raising it to 6.7% in 2025 and adjusting to 6.0% in 2026. Inflation projections are slightly below the previous estimates published in April this year, according to ADB’s flagship annual economic publication.",
-      "link": "https://www.adb.org/news/viet-nam-economy-gathers-momentum-despite-global-challenges",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "Philippine GDP Seen on a Steady Growth Path in 2025, 2026",
-      "description": "Robust domestic demand amid subdued inflation will support Philippine economic growth this year and the next, according to a report released by ADB.",
-      "link": "https://www.adb.org/news/philippine-gdp-seen-steady-growth-path-2025-2026",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "ADB Forecasts 3.8% Economic Growth for Timor-Leste in 2025",
-      "description": "Timor-Leste’s near-term economic outlook remains stable, supported by strong domestic demand. Although growth projections have been slightly downgraded from the April 2025 forecast, the economy is expected to maintain solid momentum, according to a new report released by ADB.",
-      "link": "https://www.adb.org/news/adb-forecasts-3-8-percent-economic-growth-timor-leste-2025",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "Mongolia’s Economic Growth is Sustained, Despite Global Uncertainties",
-      "description": "Mongolia’s economic growth is expected to be driven this year by a recovery in livestock numbers and the ramp-up of the Oyu Tolgoi underground mine. However, weaker coal exports and reduced government spending have led ADB to lower its growth forecast.",
-      "link": "https://www.adb.org/news/mongolia-economic-growth-sustained-despite-global-uncertainties",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-09-30"
-    },
-    {
       "title": "ADB Maintains China’s 2025 Growth Forecast, Lowers Inflation Outlook",
       "description": "The economy of the People’s Republic of China is forecast to grow by 4.7% in 2025, unchanged from the April projection and close to the government’s target of about 5.0%, according to the Asian Development Outlook (ADO) September 2025 released by ADB.",
       "link": "https://www.adb.org/news/adb-maintains-china-2025-growth-forecast-lowers-inflation-outlook",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "Viet Nam’s Economy Gathers Momentum Despite Global Challenges",
+      "description": "ADB has revised Viet Nam’s economic growth forecast, raising it to 6.7% in 2025 and adjusting to 6.0% in 2026. Inflation projections are slightly below the previous estimates published in April this year, according to ADB’s flagship annual economic publication.",
+      "link": "https://www.adb.org/news/viet-nam-economy-gathers-momentum-despite-global-challenges",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2025-09-30"
@@ -1585,20 +1505,20 @@
       "date": "2025-09-30"
     },
     {
-      "title": "IAC 2025 - One-to-one with ESA Director General Josef Aschbacher",
-      "description": "Video: 00:14:08 Watch the one-to-one interview with Josef Aschbacher, Director General of the European Space Agency (ESA), extracted from Plenary 1 of the 76th International Astronautical Congress (IAC 2025). In this session, he shares his insights into ESA's strategic vision. All IAC 2025 videos.",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/09/IAC_2025_-_One-to-one_with_ESA_Director_General_Josef_Aschbacher",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-09-29"
-    },
-    {
       "title": "ViaSat-3 F2 satellite arrives in Florida ahead of late October launch",
       "description": "The spacecraft will launch onboard a United Launch Alliance Atlas 5 551 rocket from Cape Canaveral Space Force Station. It’s built on Boeing’s 702MP+ satellite bus.",
       "link": "https://spaceflightnow.com/2025/10/01/viasat3-f2-satellite-arrives-in-florida-ahead-of-late-october-launch/",
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2025-10-01"
+    },
+    {
+      "title": "IAC 2025 - One-to-one with ESA Director General Josef Aschbacher",
+      "description": "Video: 00:14:08 Watch the one-to-one interview with Josef Aschbacher, Director General of the European Space Agency (ESA), extracted from Plenary 1 of the 76th International Astronautical Congress (IAC 2025). In this session, he shares his insights into ESA's strategic vision. All IAC 2025 videos.",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/09/IAC_2025_-_One-to-one_with_ESA_Director_General_Josef_Aschbacher",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-09-29"
     },
     {
       "title": "Report argues NASA is illegally using President’s Budget Request to circumvent Congress’ budgeting process",
@@ -1609,20 +1529,20 @@
       "date": "2025-10-01"
     },
     {
+      "title": "SpaceX launches 28 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+      "description": "The Starlink 11-20 mission saw SpaceX’s Falcon 9 rocket fly on a south-easterly trajectory upon departure from Vandenberg Space Force Base. Liftoff from pad 4E happened at 7:04 p.m. PDT (10:04 p.m. EDT / 0204 UTC).",
+      "link": "https://spaceflightnow.com/2025/09/28/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-5/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-09-28"
+    },
+    {
       "title": "Sierra Space’s Dream Chaser debut mission delayed again, no longer docking to station",
       "description": "The space plane was brought to the Kennedy Space Center in May 2024 with plans to launch later that year. Now, its first flight is no earlier than late 2026.",
       "link": "https://spaceflightnow.com/2025/09/26/sierra-spaces-dream-chaser-debut-mission-delayed-again-no-longer-docking-to-station/",
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2025-09-26"
-    },
-    {
-      "title": "ULA launches third batch of Amazon’s Project Kuiper satellites from Cape Canaveral",
-      "description": "This is the third time that United Launch Alliance will launch these broadband satellites, but it’s the fifth batch heading to orbit overall for the constellation. Liftoff is scheduled for 8:09 a.m. EDT (1230 UTC).",
-      "link": "https://spaceflightnow.com/2025/09/25/live-coverage-ula-to-launch-fifth-batch-of-amazons-project-kuiper-satellites-from-cape-canaveral/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-09-25"
     },
     {
       "title": "NASA launches spacecraft with UC Berkeley-built instruments to study Earth’s hydrogen halo",
@@ -1649,28 +1569,28 @@
       "date": "2025-09-30"
     },
     {
-      "title": "SpaceX launches 28 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
-      "description": "The Starlink 11-20 mission saw SpaceX’s Falcon 9 rocket fly on a south-easterly trajectory upon departure from Vandenberg Space Force Base. Liftoff from pad 4E happened at 7:04 p.m. PDT (10:04 p.m. EDT / 0204 UTC).",
-      "link": "https://spaceflightnow.com/2025/09/28/live-coverage-spacex-to-launch-28-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-5/",
+      "title": "ULA launches third batch of Amazon’s Project Kuiper satellites from Cape Canaveral",
+      "description": "This is the third time that United Launch Alliance will launch these broadband satellites, but it’s the fifth batch heading to orbit overall for the constellation. Liftoff is scheduled for 8:09 a.m. EDT (1230 UTC).",
+      "link": "https://spaceflightnow.com/2025/09/25/live-coverage-ula-to-launch-fifth-batch-of-amazons-project-kuiper-satellites-from-cape-canaveral/",
       "source": "Spaceflight Now",
       "field": "space",
-      "date": "2025-09-28"
+      "date": "2025-09-25"
     },
     {
-      "title": "Saab 340 becomes permanent flight-test asset at Lincoln Laboratory",
-      "description": "The aircraft supports development and testing of diverse technologies for national security.",
-      "link": "https://news.mit.edu/2025/saab-340-becomes-permanent-flight-test-asset-lincoln-laboratory-0930",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "Stanford’s farm celebrates 10 years of sustainable education",
-      "description": "A decade ago, the O’Donohue Family Stanford Educational Farm was established following years of student advocacy. Today, it thrives as a hub for teaching, research, and campus life.",
-      "link": "https://news.stanford.edu/stories/2025/09/odonohue-family-farm-sustainable-agriculture-education",
+      "title": "Study reveals roadmap for carbon-free California by 2045",
+      "description": "A new study shows California can go carbon-free mostly using current and emerging solutions – but to get there, it must overcome regulatory challenges and scale technologies at an unprecedented pace.",
+      "link": "https://news.stanford.edu/stories/2025/09/carbon-free-california-net-zero-emissions-technologies-challenges",
       "source": "Stanford News",
       "field": "technology",
-      "date": "2025-09-26"
+      "date": "2025-09-25"
+    },
+    {
+      "title": "Studying the Squishy Stuff: A Conversation with Sujit Datta",
+      "description": "Sujit Datta's eyes light up and he smiles when he talks about \"squishy\" things like mucus and other polymeric fluids. The professor of chemical engineering, bioengineering, and biophysics at Caltech studies how bacteria, fluids, and other soft and pliable materials move and behave in the complex environments where they are typically found—from soils and sediments to biological tissues and gels. Datta's group, lovingly nicknamed \"The Squishy Lab,\" uses a combination of experiments, theoretical modeling, and computer simulations to better understand the fundamental principles governing these sys",
+      "link": "https://www.caltech.edu/about/news/studying-the-squishy-stuff-a-conversation-with-sujit-datta",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-09-19"
     },
     {
       "title": "New AI Technique Unravels Quantum Atomic Vibrations in Materials",
@@ -1687,6 +1607,54 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2025-09-16"
+    },
+    {
+      "title": "Quantum chips just proved they’re ready for the real world",
+      "description": "Diraq has shown that its silicon-based quantum chips can maintain world-class accuracy even when mass-produced in semiconductor foundries. Achieving over 99% fidelity in two-qubit operations, the breakthrough clears a major hurdle toward utility-scale quantum computing. Silicon’s compatibility with existing chipmaking processes means building powerful quantum processors could become both cost-effective and scalable.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250927031230.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-28"
+    },
+    {
+      "title": "Corporatization of healthcare gets too much of a bad rap, analyst says",
+      "description": "Healthcare analyst says outside investment can boost innovation, growth, care, but profit needs to be aligned with patient outcomes",
+      "link": "https://news.harvard.edu/gazette/story/2025/10/corporatization-of-healthcare-gets-too-much-of-a-bad-rap/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-10-02"
+    },
+    {
+      "title": "New radioactive isotope therapies promise more targeted attacks on cancer",
+      "description": "Recent clinical successes, and profits, have prompted a rush among pharma companies to try new isotopes and targeting strategies",
+      "link": "https://www.science.org/content/article/new-radioactive-isotope-therapies-promise-more-targeted-attacks-cancer",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-02"
+    },
+    {
+      "title": "Neurons can communicate via hidden network of nanotubes, study finds",
+      "description": "Tubes in mouse and human brains may also influence spread of brain disease",
+      "link": "https://www.science.org/content/article/neurons-can-communicate-hidden-network-nanotubes-study-finds",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-02"
+    },
+    {
+      "title": "Made to order bioweapon? AI-designed toxins slip through safety checks used by companies selling genes",
+      "description": "Researchers expose flaws in safeguards intended to block rogue actors from making bioweapons",
+      "link": "https://www.science.org/content/article/made-order-bioweapon-ai-designed-toxins-slip-through-safety-checks-used-companies",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-02"
+    },
+    {
+      "title": "Could technology reduce fractures in racehorses?",
+      "description": "AI promises advance warnings, and mathematical models point to a simple prevention strategy",
+      "link": "https://www.science.org/content/article/could-technology-reduce-fractures-racehorses",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-02"
     },
     {
       "title": "Antony Fraser-Smith, expert in low-frequency waves, has died",
@@ -1873,6 +1841,22 @@
       "date": "2025-09-24"
     },
     {
+      "title": "Exhibition spotlights civic engagement of artists",
+      "description": "The Cantor’s Archive Rooms series returns with the special collections of artists Ruth Asawa and Ester Hernandez, who shared a commitment to advocacy and activism.",
+      "link": "https://news.stanford.edu/stories/2025/09/archive-rooms-cantor-center-ester-hernandez-ruth-asawa",
+      "source": "Stanford News",
+      "field": "technology",
+      "date": "2025-09-24"
+    },
+    {
+      "title": "NASA selects Adam Fuhrmann ’11 for astronaut training",
+      "description": "The AeroAstro alumnus, who participated in Air Force ROTC and the Gordon Engineering Leadership Program at MIT, is a test pilot and one of 10 new astronaut candidates selected from around the nation.",
+      "link": "https://news.mit.edu/2025/nasa-selects-adam-fuhrmann-astronaut-training-0923",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-09-23"
+    },
+    {
       "title": "‘Vibes or hunches’ don’t help win elections",
       "description": "Political analytics conference convenes experts on voter trends, election forecasting, behavioral research",
       "link": "https://news.harvard.edu/gazette/story/2025/10/vibes-or-hunches-dont-help-win-elections/",
@@ -1895,38 +1879,6 @@
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2025-10-02"
-    },
-    {
-      "title": "Corporatization of healthcare gets too much of a bad rap, analyst says",
-      "description": "Healthcare analyst says outside investment can boost innovation, growth, care, but profit needs to be aligned with patient outcomes",
-      "link": "https://news.harvard.edu/gazette/story/2025/10/corporatization-of-healthcare-gets-too-much-of-a-bad-rap/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Berkeley microbiologist explains the wonder of viruses in 101 seconds",
-      "description": "\"I love efficiency, and viruses are masters at efficiency,\" says Professor Britt Glaunsinger in this 101 in 101 video. The post Berkeley microbiologist explains the wonder of viruses in 101 seconds appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2025/10/02/berkeley-microbiologist-explains-the-wonder-of-viruses-in-101-seconds/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Fossilized ear bones rewrite the history of freshwater fish",
-      "description": "Analysis of well-preserved bony structures in the middle ear of a 67 million-year-old fossil suggests that oceanic fish invaded Earth's streams and lakes multiple times — developing improved hearing along the way. The post Fossilized ear bones rewrite the history of freshwater fish appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2025/10/02/fossilized-ear-bones-rewrite-the-history-of-freshwater-fish/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
-      "title": "Scientists may be closing in on dark matter’s true identity",
-      "description": "The LUX-ZEPLIN detector is breaking new ground in the hunt for dark matter, setting unprecedented limits on WIMP particles. Its results not only narrow the possibilities for dark matter but also open exciting paths toward other rare physics discoveries.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250930034209.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-01"
     },
     {
       "title": "Microsoft says AI can create “zero day” threats in biology",
@@ -1953,6 +1905,14 @@
       "date": "2025-10-01"
     },
     {
+      "title": "Saturn’s icy moon Enceladus just revealed stunning new clues to life",
+      "description": "Fresh analysis of Cassini data has revealed new complex organic molecules inside ice grains spewing from Enceladus. These discoveries strengthen the case that the moon’s underground ocean hosts chemistry similar to life’s building blocks on Earth. Scientists now believe Enceladus could be habitable, and plans are underway for a European mission to sample its surface and jets.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251001092210.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-10-02"
+    },
+    {
       "title": "U.S. just didn’t get China, Bolton says",
       "description": "Asian nation now main economic, military threat to Western democracies, according to former national security adviser",
       "link": "https://news.harvard.edu/gazette/story/2025/10/u-s-just-didnt-get-china-bolton-says/",
@@ -1969,46 +1929,6 @@
       "date": "2025-10-01"
     },
     {
-      "title": "The Hidden Behemoth Behind Every AI Answer",
-      "description": "What happens when you say “Hello” to ChatGPT? Such a simple query might seem trivial, but making it possible across billions of sessions requires immense scale. While OpenAI reveals little information about its operations, we’ve used the scraps we do have to estimate the impact of ChatGPT—and of the generative AI industry in general. This article is part of The Scale Issue. OpenAI’s actions also provide hints. As part of the United States’ Stargate Project, OpenAI will collaborate with other AI titans to build the largest data centers yet. And AI companies expect to need dozens of “Stargate-cl",
-      "link": "https://spectrum.ieee.org/ai-energy-use",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-10-01"
-    },
-    {
-      "title": "Roundtables: Trump’s Impact on the Next Generation of Innovators",
-      "description": "Every year, MIT Technology Review recognizes dozens of young researchers on our Innovators Under 35 list. We checked back in with recent honorees to see how they’re faring amid sweeping changes to science and technology policy within the US. Learn about the complex realities of what life has been like for those aiming to build their labs…",
-      "link": "https://www.technologyreview.com/2025/10/01/1124062/roundtables-trumps-impact-on-the-next-generation-of-innovators/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-10-01"
-    },
-    {
-      "title": "Unlocking AI’s full potential requires operational excellence",
-      "description": "Talk of AI is inescapable. It’s often the main topic of discussion at board and executive meetings, at corporate retreats, and in the media. A record 58% of S&P 500 companies mentioned AI in their second-quarter earnings calls, according to Goldman Sachs. But it’s difficult to walk the talk. Just 5% of generative AI pilots…",
-      "link": "https://www.technologyreview.com/2025/10/01/1124593/unlocking-ais-full-potential-requires-operational-excellence/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-10-01"
-    },
-    {
-      "title": "Designing CPUs for next-generation supercomputing",
-      "description": "In Seattle, a meteorologist analyzes dynamic atmospheric models to predict the next major storm system. In Stuttgart, an automotive engineer examines crash-test simulations for vehicle safety certification. And in Singapore, a financial analyst simulates portfolio stress tests to hedge against global economic shocks. Each of these professionals—and the consumers, commuters, and investors who depend on their insights— relies on a…",
-      "link": "https://www.technologyreview.com/2025/09/30/1124505/designing-cpus-for-next-generation-supercomputing/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "Saturn’s icy moon Enceladus just revealed stunning new clues to life",
-      "description": "Fresh analysis of Cassini data has revealed new complex organic molecules inside ice grains spewing from Enceladus. These discoveries strengthen the case that the moon’s underground ocean hosts chemistry similar to life’s building blocks on Earth. Scientists now believe Enceladus could be habitable, and plans are underway for a European mission to sample its surface and jets.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251001092210.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-02"
-    },
-    {
       "title": "Reeling in a big scientific discovery",
       "description": "William Kaelin pursued Nobel-winning findings using a fisherman’s instinct",
       "link": "https://news.harvard.edu/gazette/story/2025/10/reeling-in-a-big-scientific-discovery/",
@@ -2021,6 +1941,30 @@
       "description": "Victoria Coleman, with extensive industry, government and academic experience in aerospace technology, will lead the campus's efforts to forge a research alliance between academia, NASA and the tech industry. The post Former Air Force chief scientist to guide program development at Berkeley Space Center appeared first on Berkeley News.",
       "link": "https://news.berkeley.edu/2025/10/01/former-air-force-chief-scientist-to-guide-program-development-at-berkeley-space-center/",
       "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "AI Expands the Search for New Battery Materials",
+      "description": "When Microsoft researchers in 2023 identified a new kind of material that could dramatically reduce the amount of lithium needed in rechargeable batteries, it felt like combing through a haystack in record time. That’s because their discovery began as 32 million possibilities and, with the help of artificial intelligence, produced a promising candidate within 80 hours. Now researchers at the Pacific Northwest National Laboratory plan to synthesize and test the novel material, NaxLi3−xYCl6, in a battery setup. It’s one of several AI-generated battery chemistries making its way to the real world",
+      "link": "https://spectrum.ieee.org/ai-battery-material",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "The Hidden Behemoth Behind Every AI Answer",
+      "description": "What happens when you say “Hello” to ChatGPT? Such a simple query might seem trivial, but making it possible across billions of sessions requires immense scale. While OpenAI reveals little information about its operations, we’ve used the scraps we do have to estimate the impact of ChatGPT—and of the generative AI industry in general. This article is part of The Scale Issue. OpenAI’s actions also provide hints. As part of the United States’ Stargate Project, OpenAI will collaborate with other AI titans to build the largest data centers yet. And AI companies expect to need dozens of “Stargate-cl",
+      "link": "https://spectrum.ieee.org/ai-energy-use",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-10-01"
+    },
+    {
+      "title": "Roundtables: Trump’s Impact on the Next Generation of Innovators",
+      "description": "Every year, MIT Technology Review recognizes dozens of young researchers on our Innovators Under 35 list. We checked back in with recent honorees to see how they’re faring amid sweeping changes to science and technology policy within the US. Learn about the complex realities of what life has been like for those aiming to build their labs…",
+      "link": "https://www.technologyreview.com/2025/10/01/1124062/roundtables-trumps-impact-on-the-next-generation-of-innovators/",
+      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2025-10-01"
     },
@@ -2089,52 +2033,12 @@
       "date": "2025-09-30"
     },
     {
-      "title": "The hidden forces inside diamonds that could make tech 1,000x faster",
-      "description": "A team of physicists has discovered that virtual charges, which exist only during brief interactions with light, play a critical role in ultrafast material responses. Using attosecond pulses on diamonds, they showed these hidden carriers significantly influence optical behavior. The findings could accelerate the development of petahertz-speed devices, unlocking a new era of ultrafast electronics.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250929055000.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-30"
-    },
-    {
-      "title": "Black hole discovery confirms Einstein and Hawking were right",
-      "description": "A fresh black hole merger detection has offered the clearest evidence yet for Einstein’s relativity and Hawking’s predictions. Scientists tracked the complete cosmic collision, confirming that black holes are defined by mass and spin. They also gained stronger proof that a black hole’s event horizon only grows, echoing thermodynamic laws. The results hint at deeper connections between gravity, entropy, and quantum theory.",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250928095645.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-09-29"
-    },
-    {
       "title": "Possibility Lab, CalMatters launch policy-focused “Knowledge Hub”",
       "description": "The UC Berkeley lab and a top news publication aim to connect lawmakers, advocates and the public with policy insights from California researchers. The post Possibility Lab, CalMatters launch policy-focused “Knowledge Hub” appeared first on Berkeley News.",
       "link": "https://possibilitylab.berkeley.edu/uc-berkeleys-possibility-lab-and-calmatters-launch-a-knowledge-hub-to-highlight-top-california-research/",
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2025-09-24"
-    },
-    {
-      "title": "Exhibition spotlights civic engagement of artists",
-      "description": "The Cantor’s Archive Rooms series returns with the special collections of artists Ruth Asawa and Ester Hernandez, who shared a commitment to advocacy and activism.",
-      "link": "https://news.stanford.edu/stories/2025/09/archive-rooms-cantor-center-ester-hernandez-ruth-asawa",
-      "source": "Stanford News",
-      "field": "technology",
-      "date": "2025-09-24"
-    },
-    {
-      "title": "NASA selects Adam Fuhrmann ’11 for astronaut training",
-      "description": "The AeroAstro alumnus, who participated in Air Force ROTC and the Gordon Engineering Leadership Program at MIT, is a test pilot and one of 10 new astronaut candidates selected from around the nation.",
-      "link": "https://news.mit.edu/2025/nasa-selects-adam-fuhrmann-astronaut-training-0923",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-23"
-    },
-    {
-      "title": "MIT engineers develop a magnetic transistor for more energy-efficient electronics",
-      "description": "A new device concept opens the door to compact, high-performance transistors with built-in memory.",
-      "link": "https://news.mit.edu/2025/mit-engineers-develop-magnetic-transistor-more-energy-efficient-electronics-0923",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-09-23"
     },
     {
       "title": "Artificial intelligence may not be artificial",
@@ -2225,6 +2129,14 @@
       "date": "2025-09-25"
     },
     {
+      "title": "Scientists just recreated a wildfire that made its own weather",
+      "description": "In 2020, California’s Creek Fire became so intense that it generated its own thunderstorm, a phenomenon called a pyrocumulonimbus cloud. For years, scientists struggled to replicate these explosive fire-born storms in climate models, leaving major gaps in understanding their global effects. Now, a new study has finally simulated them successfully, reproducing the Creek Fire’s storm and others like it.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251002074001.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-10-03"
+    },
+    {
       "title": "A century-old piano mystery has just been solved",
       "description": "Scientists confirmed that pianists can alter timbre through touch, using advanced sensors to capture micro-movements that shape sound perception. The discovery bridges art and science, promising applications in music education, neuroscience, and beyond.",
       "link": "https://www.sciencedaily.com/releases/2025/10/251002073956.htm",
@@ -2287,6 +2199,22 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-09-30"
+    },
+    {
+      "title": "The hidden forces inside diamonds that could make tech 1,000x faster",
+      "description": "A team of physicists has discovered that virtual charges, which exist only during brief interactions with light, play a critical role in ultrafast material responses. Using attosecond pulses on diamonds, they showed these hidden carriers significantly influence optical behavior. The findings could accelerate the development of petahertz-speed devices, unlocking a new era of ultrafast electronics.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250929055000.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-30"
+    },
+    {
+      "title": "Black hole discovery confirms Einstein and Hawking were right",
+      "description": "A fresh black hole merger detection has offered the clearest evidence yet for Einstein’s relativity and Hawking’s predictions. Scientists tracked the complete cosmic collision, confirming that black holes are defined by mass and spin. They also gained stronger proof that a black hole’s event horizon only grows, echoing thermodynamic laws. The results hint at deeper connections between gravity, entropy, and quantum theory.",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250928095645.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-09-29"
     },
     {
       "title": "The accidental discovery that forged the Iron Age",
