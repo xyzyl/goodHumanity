@@ -1,9 +1,9 @@
 {
   "date": "2025-10-29",
-  "lastUpdated": "2025-10-29T01:14:55.112Z",
+  "lastUpdated": "2025-10-29T04:22:14.598Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "54.0s",
+    "executionTime": "46.4s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 23,
     "totalCandidates": 272,
@@ -11,9 +11,10 @@
     "entriesByField": {
       "health": 46,
       "climate": 25,
+      "energy": 1,
       "technology": 143,
       "education": 4,
-      "development": 20,
+      "development": 19,
       "peace": 8,
       "agriculture": 3,
       "space": 23
@@ -40,8 +41,8 @@
         "changed": 0
       },
       "development": {
-        "kept": 20,
-        "changed": 0
+        "kept": 19,
+        "changed": 1
       },
       "peace": {
         "kept": 8,
@@ -57,7 +58,7 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 42,
+      "highScoreEntries": 44,
       "topTierSources": 157,
       "highCredibilitySources": 247
     }
@@ -632,6 +633,14 @@
       "date": "2025-10-16"
     },
     {
+      "title": "ADB Approves $460 Million Loan to Support Agricultural Solarization in India",
+      "description": "ADB has approved a $460 million results-based loan that aims to modernize rural power infrastructure, promote distributed renewable energy generation, and improve agricultural productivity by providing farmers with reliable daytime solar electricity for irrigation in the state of Maharashtra in India.",
+      "link": "https://www.adb.org/news/adb-approves-460-million-loan-support-agricultural-solarization-india",
+      "source": "Asian Development Bank",
+      "field": "energy",
+      "date": "2025-10-29"
+    },
+    {
       "title": "Inside the Best Weather-Forecasting AI in the World",
       "description": "In October 2024, Hurricane Milton turned into one of the fastest-growing storms on record over the Atlantic Ocean. The hurricane’s rapid gain in intensity caught meteorologists off guard, which meant the affected communities were surprised too. The storm ultimately claimed 15 lives and caused US $34 billion in damages as it tore across Florida. Why was Milton’s explosive growth so hard to anticipate? This failure stemmed from a lack of good weather data. The kind of data you can get only by flying a suitably outfitted aircraft straight into a developing storm. This type of mission requires hum",
       "link": "https://spectrum.ieee.org/ai-weather-forecasting",
@@ -736,46 +745,6 @@
       "date": "2025-10-13"
     },
     {
-      "title": "How to Land a Job in Quantum Computing",
-      "description": "Quantum computing has long held promise as the next era in information processing, with applications in drug discovery, finance, and encryption. But it’s only in recent years that the technology has edged closer to commercial viability. With that, a new demand has emerged in the job market: engineers capable of designing, building, and maintaining the next generation of supercomputers. As big tech firms, governments, and investors pour money into building scalable quantum machines, jobs in the now-niche sector are expected to grow. Market data from The Quantum Insider suggests that 250,000 qua",
-      "link": "https://spectrum.ieee.org/quantum-computing-jobs",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-10-28"
-    },
-    {
-      "title": "Teens Explore Aerospace and AI at TryEngineering Summer Camp",
-      "description": "The IEEE TryEngineering Summer Institute, one student participant says, “allowed me to gain new experiences and understand the different types of engineering disciplines, and make many great friends and memories that will remain with me.” Administered by IEEE Educational Activities, the institute is a nine-day summer sleepaway camp for students ages 13 to 17. It provides a fun, immersive approach to learning. Students engage in hands-on activities, speak with engineers, and take field trips to learn about real-world problems and solutions. Participating Universities Columbia, New York City Geo",
-      "link": "https://spectrum.ieee.org/ieee-tryengineering-summer-camp",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-10-28"
-    },
-    {
-      "title": "Your AI Agent Is Now a Target for Email Phishing",
-      "description": "Email security has always been a cat-and-mouse game. Viruses are invented, and antivirus software is invented to catalog known viruses and detect their presence in email attachments and URLs. As viruses morphed into more sophisticated forms of malware, cybersecurity tools adapted to be able to scan for and detect these new threats. Phishing became the next arena, giving birth to new tools as well as a whole new category of defense known as security awareness training. Now, the bad guys are attacking AI agents to bypass current security guardrails. “AI assistants, copilots, and agents significa",
-      "link": "https://spectrum.ieee.org/ai-agent-phishing",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-10-27"
-    },
-    {
-      "title": "Video Friday: Multimodal Humanoid Walks, Flies, Drives",
-      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. IROS 2025: 19–25 October 2025, HANGZHOU, CHINA Enjoy today’s videos! Caltech’s Center for Autonomous Systems and Technologies (CAST) and the Technology Innovation Institute in Abu Dhabi, UAE, recently conducted a demonstration of X1, a multirobot system developed as part of a three-year collaboration between the two institutes. During the demo, M4, a mu",
-      "link": "https://spectrum.ieee.org/video-friday-multimodal-robot",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-10-17"
-    },
-    {
-      "title": "Breakthrough optical processor lets AI compute at the speed of light",
-      "description": "Researchers at Tsinghua University developed the Optical Feature Extraction Engine (OFE2), an optical engine that processes data at 12.5 GHz using light rather than electricity. Its integrated diffraction and data preparation modules enable unprecedented speed and efficiency for AI tasks. Demonstrations in imaging and trading showed improved accuracy, lower latency, and reduced power demand. This innovation pushes optical computing toward real-world, high-performance AI.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251027224833.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-28"
-    },
-    {
       "title": "Argentina’s move to woo Trump has derailed South America’s largest radio telescope",
       "description": "U.S.-Chinese tensions have left nearly complete observatory in limbo, jeopardizing research into pulsars and other celestial objects",
       "link": "https://www.science.org/content/article/argentina-s-move-woo-trump-has-derailed-south-america-s-largest-radio-telescope",
@@ -824,76 +793,68 @@
       "date": "2025-10-20"
     },
     {
-      "title": "AI hallucinates because it’s trained to fake answers it doesn’t know",
-      "description": "Teaching chatbots to say “I don’t know” could curb hallucinations. It could also break AI’s business model",
-      "link": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
-      "source": "Science",
+      "title": "How to Land a Job in Quantum Computing",
+      "description": "Quantum computing has long held promise as the next era in information processing, with applications in drug discovery, finance, and encryption. But it’s only in recent years that the technology has edged closer to commercial viability. With that, a new demand has emerged in the job market: engineers capable of designing, building, and maintaining the next generation of supercomputers. As big tech firms, governments, and investors pour money into building scalable quantum machines, jobs in the now-niche sector are expected to grow. Market data from The Quantum Insider suggests that 250,000 qua",
+      "link": "https://spectrum.ieee.org/quantum-computing-jobs",
+      "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-10-28"
     },
     {
-      "title": "Congress close to passing law that would freeze out certain Chinese biotechs",
-      "description": "Latest version of Biosecure Act could raise costs for academic biology labs in an effort to prevent theft of Americans’ health data",
-      "link": "https://www.science.org/content/article/congress-close-passing-law-would-freeze-out-certain-chinese-biotechs",
-      "source": "Science",
+      "title": "Teens Explore Aerospace and AI at TryEngineering Summer Camp",
+      "description": "The IEEE TryEngineering Summer Institute, one student participant says, “allowed me to gain new experiences and understand the different types of engineering disciplines, and make many great friends and memories that will remain with me.” Administered by IEEE Educational Activities, the institute is a nine-day summer sleepaway camp for students ages 13 to 17. It provides a fun, immersive approach to learning. Students engage in hands-on activities, speak with engineers, and take field trips to learn about real-world problems and solutions. Participating Universities Columbia, New York City Geo",
+      "link": "https://spectrum.ieee.org/ieee-tryengineering-summer-camp",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-10-28"
+    },
+    {
+      "title": "Your AI Agent Is Now a Target for Email Phishing",
+      "description": "Email security has always been a cat-and-mouse game. Viruses are invented, and antivirus software is invented to catalog known viruses and detect their presence in email attachments and URLs. As viruses morphed into more sophisticated forms of malware, cybersecurity tools adapted to be able to scan for and detect these new threats. Phishing became the next arena, giving birth to new tools as well as a whole new category of defense known as security awareness training. Now, the bad guys are attacking AI agents to bypass current security guardrails. “AI assistants, copilots, and agents significa",
+      "link": "https://spectrum.ieee.org/ai-agent-phishing",
+      "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-10-27"
     },
     {
-      "title": "Man’s pig kidney fails just shy of setting record",
-      "description": "The xenotransplant, from a gene-edited pig, had survived for nearly 9 months in Tim Andrews",
-      "link": "https://www.science.org/content/article/man-s-pig-kidney-fails-just-shy-setting-record",
-      "source": "Science",
+      "title": "Video Friday: Multimodal Humanoid Walks, Flies, Drives",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. IROS 2025: 19–25 October 2025, HANGZHOU, CHINA Enjoy today’s videos! Caltech’s Center for Autonomous Systems and Technologies (CAST) and the Technology Innovation Institute in Abu Dhabi, UAE, recently conducted a demonstration of X1, a multirobot system developed as part of a three-year collaboration between the two institutes. During the demo, M4, a mu",
+      "link": "https://spectrum.ieee.org/video-friday-multimodal-robot",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2025-10-27"
+      "date": "2025-10-17"
     },
     {
-      "title": "Justice Department unexpectedly drops fraud case against Alzheimer’s scientist",
-      "description": "Decision comes after disclosure of university letter concluding Hoau-Yan Wang did not engage in misconduct",
-      "link": "https://www.science.org/content/article/justice-department-unexpectedly-drops-fraud-case-against-alzheimer-s-scientist",
-      "source": "Science",
+      "title": "Breakthrough optical processor lets AI compute at the speed of light",
+      "description": "Researchers at Tsinghua University developed the Optical Feature Extraction Engine (OFE2), an optical engine that processes data at 12.5 GHz using light rather than electricity. Its integrated diffraction and data preparation modules enable unprecedented speed and efficiency for AI tasks. Demonstrations in imaging and trading showed improved accuracy, lower latency, and reduced power demand. This innovation pushes optical computing toward real-world, high-performance AI.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251027224833.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2025-10-24"
+      "date": "2025-10-28"
     },
     {
-      "title": "Rats filmed snatching bats from air for first time",
-      "description": "Stunning hunting behaviour captured in German cave",
-      "link": "https://www.science.org/content/article/rats-filmed-snatching-bats-air-first-time",
-      "source": "Science",
+      "title": "Former Caltech Postdoc and Nobel Prize-Winning Biologist Sir John Gurdon Passes Away at Age 92",
+      "description": "Developmental biologist Sir John Bertrand Gurdon, co-winner of the 2012 Nobel Prize in Physiology or Medicine and a former Caltech postdoctoral researcher, passed away October 7, 2025, at the age of 92.Gurdon was awarded the Nobel Prize for his pioneering research in nuclear transfer, showing that mature cells can be reprogrammed to serve as stem cells. That is, he found that even after cells have become differentiated to perform specialized tasks in the body, they still contain all the DNA that is required to reproduce an entire organism. The prize was shared with Shinya Yamanaka of Kyoto Uni",
+      "link": "https://www.caltech.edu/about/news/John_Gurdon_obituary",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2025-10-24"
+      "date": "2025-10-17"
     },
     {
-      "title": "Ambient noise can track dangerous ocean acidification",
-      "description": "Acoustic technique could make it easier to monitor threat to marine life stemming from rising carbon emissions",
-      "link": "https://www.science.org/content/article/ambient-noise-can-track-dangerous-ocean-acidification",
-      "source": "Science",
+      "title": "Caltech Launches New Biopolicy Initiative",
+      "description": "The Ronald and Maxine Linde Center for Science, Society, and Policy (LCSSP) will be formally launching its newly funded Biopolicy Initiative on October 14, 2025, with an introduction by President Tom Rosenbaum, followed by comments from Mary Maxon, the executive vice president of Carnegie Sciences, on the importance of focusing on policy when engaging in bioscientific research. The keynote address will be delivered by Drew Endy, a Hoover Institution Science Fellow and a key figure in synthetic biology.Endy, the Martin Family University Faculty Fellow in Undergraduate Education at Stanford Univ",
+      "link": "https://www.caltech.edu/about/news/caltech-launches-new-biopolicy-initiative",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2025-10-24"
+      "date": "2025-10-11"
     },
     {
-      "title": "How NSF hopes to keep Antarctic scientists afloat without an icebreaker",
-      "description": "Ending Palmer lease is one of many belt-tightening moves amid budget uncertainty",
-      "link": "https://www.science.org/content/article/how-nsf-hopes-keep-antarctic-scientists-afloat-without-icebreaker",
-      "source": "Science",
+      "title": "Stem Cell Technique Could Preserve Endangered Bird Species",
+      "description": "Birds are a critical part of the global ecosystem; they enable our food production through consumption of agricultural pests like aphids and rodents, and control the spread of diseases by eating insects like mosquitos and ticks. However, around 15 percent of all bird species now face risk of extinction—in Hawaii alone, 33 of the state's 45 native species are critically endangered.Caltech researchers have now developed technology to freeze and preserve stem cells from birds that can then be reconstituted to help propagate populations.The work was conducted by Caltech postdoctoral scholar Xi Che",
+      "link": "https://www.caltech.edu/about/news/stem-cell-technique-could-preserve-endangered-bird-species",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "At futuristic meeting, AIs took the lead in producing and reviewing all the studies",
-      "description": "Organizers aim to tune AI to help accelerate science",
-      "link": "https://www.science.org/content/article/futuristic-meeting-ais-took-lead-producing-and-reviewing-all-studies",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-10-23"
-    },
-    {
-      "title": "Can the Deadliest Catch crab fishery survive warming seas?",
-      "description": "After a brutal heat wave, scientists race to predict how Bering Sea snow crabs will cope with climate change",
-      "link": "https://www.science.org/content/article/can-deadliest-catch-crab-fishery-survive-warming-seas",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-10-23"
+      "date": "2025-10-10"
     },
     {
       "title": "AI restores James Webb telescope’s crystal-clear vision",
@@ -920,28 +881,28 @@
       "date": "2025-10-25"
     },
     {
-      "title": "Former Caltech Postdoc and Nobel Prize-Winning Biologist Sir John Gurdon Passes Away at Age 92",
-      "description": "Developmental biologist Sir John Bertrand Gurdon, co-winner of the 2012 Nobel Prize in Physiology or Medicine and a former Caltech postdoctoral researcher, passed away October 7, 2025, at the age of 92.Gurdon was awarded the Nobel Prize for his pioneering research in nuclear transfer, showing that mature cells can be reprogrammed to serve as stem cells. That is, he found that even after cells have become differentiated to perform specialized tasks in the body, they still contain all the DNA that is required to reproduce an entire organism. The prize was shared with Shinya Yamanaka of Kyoto Uni",
-      "link": "https://www.caltech.edu/about/news/John_Gurdon_obituary",
-      "source": "Caltech",
+      "title": "Scientists just changed the nature of matter with a flash of light",
+      "description": "Researchers in Konstanz discovered a way to manipulate materials with light by exciting magnon pairs, reshaping their magnetic “fingerprint.” This allows non-thermal control of magnetic states and data transmission at terahertz speeds. Using simple haematite crystals, the technique could enable room-temperature quantum effects. The breakthrough blurs the line between physics and magic.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251024041822.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2025-10-17"
+      "date": "2025-10-24"
     },
     {
-      "title": "Caltech Launches New Biopolicy Initiative",
-      "description": "The Ronald and Maxine Linde Center for Science, Society, and Policy (LCSSP) will be formally launching its newly funded Biopolicy Initiative on October 14, 2025, with an introduction by President Tom Rosenbaum, followed by comments from Mary Maxon, the executive vice president of Carnegie Sciences, on the importance of focusing on policy when engaging in bioscientific research. The keynote address will be delivered by Drew Endy, a Hoover Institution Science Fellow and a key figure in synthetic biology.Endy, the Martin Family University Faculty Fellow in Undergraduate Education at Stanford Univ",
-      "link": "https://www.caltech.edu/about/news/caltech-launches-new-biopolicy-initiative",
-      "source": "Caltech",
+      "title": "Japanese scientists unveil a quantum battery that defies energy loss",
+      "description": "A team of researchers has designed a theoretical model for a topological quantum battery capable of long-distance energy transfer and immunity to dissipation. By exploiting topological properties in photonic waveguides, they showed that energy loss can not only be prevented but briefly enhance charging power. This breakthrough may lead to efficient nanoscale batteries and pave the way for practical quantum devices.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251023031612.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2025-10-11"
+      "date": "2025-10-24"
     },
     {
-      "title": "Stem Cell Technique Could Preserve Endangered Bird Species",
-      "description": "Birds are a critical part of the global ecosystem; they enable our food production through consumption of agricultural pests like aphids and rodents, and control the spread of diseases by eating insects like mosquitos and ticks. However, around 15 percent of all bird species now face risk of extinction—in Hawaii alone, 33 of the state's 45 native species are critically endangered.Caltech researchers have now developed technology to freeze and preserve stem cells from birds that can then be reconstituted to help propagate populations.The work was conducted by Caltech postdoctoral scholar Xi Che",
-      "link": "https://www.caltech.edu/about/news/stem-cell-technique-could-preserve-endangered-bird-species",
-      "source": "Caltech",
+      "title": "AI turns x-rays into time machines for arthritis care",
+      "description": "Researchers at the University of Surrey developed an AI that predicts what a person’s knee X-ray will look like in a year, helping track osteoarthritis progression. The tool provides both a visual forecast and a risk score, offering doctors and patients a clearer understanding of the disease. Faster and more interpretable than earlier systems, it could soon expand to predict other conditions like lung or heart disease.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251022023116.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2025-10-10"
+      "date": "2025-10-22"
     },
     {
       "title": "In new competition, UC Berkeley students will tackle some of the city’s most pressing challenges",
@@ -1072,6 +1033,54 @@
       "date": "2025-10-21"
     },
     {
+      "title": "Data Centers Look to Old Airplane Engines for Power",
+      "description": "Data-center developers are running into a severe power bottleneck as they rush to build bigger facilities to capitalize on generative AI’s potential. Normally, they would power these centers by connecting to the grid or building a power plant onsite. However, they face major delays in either securing gas turbines or in obtaining energy from the grid. At the Data Center World Power show in San Antonio in October, natural-gas power provider ProEnergy revealed an alternative—repurposed aviation engines. According to Landon Tessmer, vice president of commercial operations at ProEnergy, some data c",
+      "link": "https://spectrum.ieee.org/ai-data-centers",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-10-20"
+    },
+    {
+      "title": "Why Mesh Networks Break When Big Crowds Gather",
+      "description": "A decentralized networking technology originally built for battlefields and Burning Man is today being reimagined from the ground up. Mesh networks—named for their fishnet-like connections—emerged over the past few decades from rigorous, mathematical research on keeping data flowing even when portions of a system fail. But the theory hasn’t always matched up to reality. Real-world mesh networks have proved vulnerable to shutdowns in some of the very settings, such as certain kinds of large crowds, they’re supposed to be good at handling. So researchers from City College of New York, Harvard, a",
+      "link": "https://spectrum.ieee.org/mesh-network-political-protests-amigo",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-10-19"
+    },
+    {
+      "title": "An AI adoption riddle",
+      "description": "A few weeks ago, I set out on what I thought would be a straightforward reporting journey. After years of momentum for AI—even if you didn’t think it would be good for the world, you probably thought it was powerful enough to take seriously—hype for the technology had been slightly punctured. First there was the…",
+      "link": "https://www.technologyreview.com/2025/10/28/1126687/an-ai-adoption-riddle/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-10-28"
+    },
+    {
+      "title": "Stand Up for Research, Innovation, and Education",
+      "description": "Right now, MIT alumni and friends are voicing their support for: America’s scientific and technological leadership Merit-based admissions and affordable education Advances that increase US health, security, and prosperity Our community is standing up for MIT and its mission to serve the nation and the world. And we need you to join us at this…",
+      "link": "https://www.technologyreview.com/2025/10/24/1126584/stand-up-for-research-innovation-and-education-2/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "University of California sets world record for Nobel Prizes in a single year",
+      "description": "“These remarkable achievements by five UC-affiliated Nobel Prize winners reflect the very best of the world-changing teaching, research, and public service happening across our University,” said UC President James B. Milliken. The post University of California sets world record for Nobel Prizes in a single year appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2025/10/17/university-of-california-sets-world-record-for-nobel-prizes-in-a-single-year/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2025-10-17"
+    },
+    {
+      "title": "Electrifying Everything Will Require Multiphysics Modeling",
+      "description": "A prototyping problem is emerging in today’s efforts to electrify everything. What works as a lab-bench mockup breaks in reality. Harnessing and safely storing energy at grid scale and in cars, trucks, and planes is a very hard problem that simplified models sometimes can’t touch. “In electrification, at its core, you have this combination of electromagnetic effects, heat transfer, and structural mechanics in a complicated interplay,” says Bjorn Sjodin, senior vice president of product management at the Stockholm-based software company COMSOL. COMSOL is an engineering R&D software company that",
+      "link": "https://spectrum.ieee.org/comsol-multiphysics-electrification-of-everything",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-10-16"
+    },
+    {
       "title": "Education in Mozambique",
       "description": "Education in Mozambique Ed Stone Sun, 10/26/2025 - 11:04 2003 US$532,502,521 Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership Compact Priority: Improve the service delivery and quality of basic education. UNICEFKoffi Segniagbeto Domestic financing commitment Ministry of Education GPE 2025 data Mozambique’s net primary school enrollment rate is 99%, but less than half of students complete primary education. Education system challenges include management inefficiencies, protracted conflicts in the north, recurrent natural disasters, an",
       "link": "https://www.globalpartnership.org/where-we-work/mozambique",
@@ -1120,6 +1129,14 @@
       "date": "2025-10-15"
     },
     {
+      "title": "Green Climate Fund Approves $250 Million for ADB Glacial Melt Adaptation Program in Central Asia, South Caucasus, and Pakistan",
+      "description": "The Green Climate Fund has approved $250 million for Glaciers to Farms—a flagship adaptation program led by ADB to build resilient water and agriculture systems for vulnerable communities in glacier-dependent regions of Central Asia, the South Caucasus, and Pakistan.",
+      "link": "https://www.adb.org/news/green-climate-fund-approves-250-million-adb-glacial-melt-adaptation-program-central-asia-south",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-10-29"
+    },
+    {
       "title": "ADB Approves $100 Million to Strengthen Sri Lanka’s Tourism Sector",
       "description": "ADB has approved a $100 million financing package to support Sri Lanka’s tourism sector with strategic policy reforms and targeted catalytic investments, which align with the country’s National Tourism Policy.",
       "link": "https://www.adb.org/news/adb-approves-100-million-strengthen-sri-lanka-tourism-sector",
@@ -1144,14 +1161,6 @@
       "date": "2025-10-15"
     },
     {
-      "title": "ADB Invests in STEM for Youth Empowerment in Uzbekistan",
-      "description": "ADB has approved a $100 million concessional loan to support Uzbekistan in enhancing the quality of science, technology, engineering, and mathematics (STEM) education in secondary schools.",
-      "link": "https://www.adb.org/news/adb-invests-stem-youth-empowerment-uzbekistan",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-10-22"
-    },
-    {
       "title": "ADB Supports Indonesia’s Efforts to Strengthen Competitiveness, Green Growth, and Trade Acceleration",
       "description": "ADB has approved a $500 million policy-based loan to further strengthen Indonesia's competitiveness, promote green growth, and accelerate trade through the third subprogram of the Competitiveness, Industrial Modernization, and Trade Acceleration Program.",
       "link": "https://www.adb.org/news/adb-supports-indonesias-efforts-strengthen-competitiveness-green-growth-and-trade-acceleration",
@@ -1166,6 +1175,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2025-10-14"
+    },
+    {
+      "title": "ADB Invests in STEM for Youth Empowerment in Uzbekistan",
+      "description": "ADB has approved a $100 million concessional loan to support Uzbekistan in enhancing the quality of science, technology, engineering, and mathematics (STEM) education in secondary schools.",
+      "link": "https://www.adb.org/news/adb-invests-stem-youth-empowerment-uzbekistan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-10-22"
     },
     {
       "title": "ADB, World Bank Sign $3 Billion Agreement to Boost Lending Capacity in Asia and the Pacific",
@@ -1192,22 +1209,6 @@
       "date": "2025-10-09"
     },
     {
-      "title": "ADB President Strengthens Partnership with Canada during Visit, Explores Opportunities for Private Sector Engagement",
-      "description": "ADB President Masato Kanda concluded a visit to Canada this week, meeting with government leaders and business representatives to deepen collaboration on private sector engagement, energy security, and supply chain resilience.",
-      "link": "https://www.adb.org/news/adb-president-strengthens-partnership-canada-during-visit-explores-opportunities-private-sector-engagement",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-10-09"
-    },
-    {
-      "title": "ADB’s $82.5 Million Reform Program to Accelerate Cambodia’s Energy Transition",
-      "description": "ADB has approved the second phase of Cambodia’s Energy Transition Sector Development Program for $82.5 million.",
-      "link": "https://www.adb.org/news/adb-82-5-million-reform-program-accelerate-cambodia-energy-transition",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-10-07"
-    },
-    {
       "title": "ADB Supports Water System Development in Rural Georgia",
       "description": "ADB has approved a $233.2 million loan to help extend access to reliable and safe water supply services for rural areas in Georgia.",
       "link": "https://www.adb.org/news/adb-supports-water-system-development-rural-georgia",
@@ -1232,14 +1233,6 @@
       "date": "2025-10-20"
     },
     {
-      "title": "Heads of MDBs Meet to Take Stock of Progress on Joint Actions and Look Ahead",
-      "description": "The Heads of Multilateral Development Banks (MDBs) Group, chaired in 2025 by the Council of Europe Development Bank (CEB), met today to review progress on joint actions and chart priority areas for the Group’s future work.",
-      "link": "https://www.adb.org/news/heads-mdbs-meet-take-stock-progress-joint-actions-and-look-ahead",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-10-17"
-    },
-    {
       "title": "ADB President Advances Partnerships, Prepares for 2026 MDB Leadership",
       "description": "ADB President Masato Kanda reaffirmed ADB’s commitment to deepening partnerships and advancing multilateral collaboration during engagements with key development partners on the sidelines of the 2025 Annual Meetings of the World Bank Group and the International Monetary Fund.",
       "link": "https://www.adb.org/news/adb-president-advances-partnerships-prepares-2026-mdb-leadership",
@@ -1248,12 +1241,20 @@
       "date": "2025-10-17"
     },
     {
-      "title": "ADB President Calls for New Pact to Deliver Clean Energy, Collective Action to Reinvent Ports",
-      "description": "ADB President Masato Kanda urged joint action to bring together science, policy, and finance to deliver clean energy in Asia and the Pacific.",
-      "link": "https://www.adb.org/news/adb-president-calls-new-pact-deliver-clean-energy-collective-action-reinvent-ports",
+      "title": "Heads of MDBs Meet to Take Stock of Progress on Joint Actions and Look Ahead",
+      "description": "The Heads of Multilateral Development Banks (MDBs) Group, chaired in 2025 by the Council of Europe Development Bank (CEB), met today to review progress on joint actions and chart priority areas for the Group’s future work.",
+      "link": "https://www.adb.org/news/heads-mdbs-meet-take-stock-progress-joint-actions-and-look-ahead",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2025-10-07"
+      "date": "2025-10-17"
+    },
+    {
+      "title": "ADB President Strengthens Partnership with Canada during Visit, Explores Opportunities for Private Sector Engagement",
+      "description": "ADB President Masato Kanda concluded a visit to Canada this week, meeting with government leaders and business representatives to deepen collaboration on private sector engagement, energy security, and supply chain resilience.",
+      "link": "https://www.adb.org/news/adb-president-strengthens-partnership-canada-during-visit-explores-opportunities-private-sector-engagement",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-10-09"
     },
     {
       "title": "ADB Appoints Jyotsana Varma as New Pacific Regional Director Based in Australia",
@@ -1536,20 +1537,76 @@
       "date": "2025-10-24"
     },
     {
-      "title": "Data Centers Look to Old Airplane Engines for Power",
-      "description": "Data-center developers are running into a severe power bottleneck as they rush to build bigger facilities to capitalize on generative AI’s potential. Normally, they would power these centers by connecting to the grid or building a power plant onsite. However, they face major delays in either securing gas turbines or in obtaining energy from the grid. At the Data Center World Power show in San Antonio in October, natural-gas power provider ProEnergy revealed an alternative—repurposed aviation engines. According to Landon Tessmer, vice president of commercial operations at ProEnergy, some data c",
-      "link": "https://spectrum.ieee.org/ai-data-centers",
-      "source": "IEEE Spectrum",
+      "title": "AI hallucinates because it’s trained to fake answers it doesn’t know",
+      "description": "Teaching chatbots to say “I don’t know” could curb hallucinations. It could also break AI’s business model",
+      "link": "https://www.science.org/content/article/ai-hallucinates-because-it-s-trained-fake-answers-it-doesn-t-know",
+      "source": "Science",
       "field": "technology",
-      "date": "2025-10-20"
+      "date": "2025-10-28"
     },
     {
-      "title": "Why Mesh Networks Break When Big Crowds Gather",
-      "description": "A decentralized networking technology originally built for battlefields and Burning Man is today being reimagined from the ground up. Mesh networks—named for their fishnet-like connections—emerged over the past few decades from rigorous, mathematical research on keeping data flowing even when portions of a system fail. But the theory hasn’t always matched up to reality. Real-world mesh networks have proved vulnerable to shutdowns in some of the very settings, such as certain kinds of large crowds, they’re supposed to be good at handling. So researchers from City College of New York, Harvard, a",
-      "link": "https://spectrum.ieee.org/mesh-network-political-protests-amigo",
-      "source": "IEEE Spectrum",
+      "title": "Congress close to passing law that would freeze out certain Chinese biotechs",
+      "description": "Latest version of Biosecure Act could raise costs for academic biology labs in an effort to prevent theft of Americans’ health data",
+      "link": "https://www.science.org/content/article/congress-close-passing-law-would-freeze-out-certain-chinese-biotechs",
+      "source": "Science",
       "field": "technology",
-      "date": "2025-10-19"
+      "date": "2025-10-27"
+    },
+    {
+      "title": "Man’s pig kidney fails just shy of setting record",
+      "description": "The xenotransplant, from a gene-edited pig, had survived for nearly 9 months in Tim Andrews",
+      "link": "https://www.science.org/content/article/man-s-pig-kidney-fails-just-shy-setting-record",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-27"
+    },
+    {
+      "title": "Justice Department unexpectedly drops fraud case against Alzheimer’s scientist",
+      "description": "Decision comes after disclosure of university letter concluding Hoau-Yan Wang did not engage in misconduct",
+      "link": "https://www.science.org/content/article/justice-department-unexpectedly-drops-fraud-case-against-alzheimer-s-scientist",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "Rats filmed snatching bats from air for first time",
+      "description": "Stunning hunting behaviour captured in German cave",
+      "link": "https://www.science.org/content/article/rats-filmed-snatching-bats-air-first-time",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "Ambient noise can track dangerous ocean acidification",
+      "description": "Acoustic technique could make it easier to monitor threat to marine life stemming from rising carbon emissions",
+      "link": "https://www.science.org/content/article/ambient-noise-can-track-dangerous-ocean-acidification",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "How NSF hopes to keep Antarctic scientists afloat without an icebreaker",
+      "description": "Ending Palmer lease is one of many belt-tightening moves amid budget uncertainty",
+      "link": "https://www.science.org/content/article/how-nsf-hopes-keep-antarctic-scientists-afloat-without-icebreaker",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "At futuristic meeting, AIs took the lead in producing and reviewing all the studies",
+      "description": "Organizers aim to tune AI to help accelerate science",
+      "link": "https://www.science.org/content/article/futuristic-meeting-ais-took-lead-producing-and-reviewing-all-studies",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-23"
+    },
+    {
+      "title": "Can the Deadliest Catch crab fishery survive warming seas?",
+      "description": "After a brutal heat wave, scientists race to predict how Bering Sea snow crabs will cope with climate change",
+      "link": "https://www.science.org/content/article/can-deadliest-catch-crab-fishery-survive-warming-seas",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-10-23"
     },
     {
       "title": "The joy of life (sciences)",
@@ -1920,94 +1977,6 @@
       "date": "2025-10-16"
     },
     {
-      "title": "An AI adoption riddle",
-      "description": "A few weeks ago, I set out on what I thought would be a straightforward reporting journey. After years of momentum for AI—even if you didn’t think it would be good for the world, you probably thought it was powerful enough to take seriously—hype for the technology had been slightly punctured. First there was the…",
-      "link": "https://www.technologyreview.com/2025/10/28/1126687/an-ai-adoption-riddle/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-10-28"
-    },
-    {
-      "title": "Stand Up for Research, Innovation, and Education",
-      "description": "Right now, MIT alumni and friends are voicing their support for: America’s scientific and technological leadership Merit-based admissions and affordable education Advances that increase US health, security, and prosperity Our community is standing up for MIT and its mission to serve the nation and the world. And we need you to join us at this…",
-      "link": "https://www.technologyreview.com/2025/10/24/1126584/stand-up-for-research-innovation-and-education-2/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "University of California sets world record for Nobel Prizes in a single year",
-      "description": "“These remarkable achievements by five UC-affiliated Nobel Prize winners reflect the very best of the world-changing teaching, research, and public service happening across our University,” said UC President James B. Milliken. The post University of California sets world record for Nobel Prizes in a single year appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2025/10/17/university-of-california-sets-world-record-for-nobel-prizes-in-a-single-year/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2025-10-17"
-    },
-    {
-      "title": "Electrifying Everything Will Require Multiphysics Modeling",
-      "description": "A prototyping problem is emerging in today’s efforts to electrify everything. What works as a lab-bench mockup breaks in reality. Harnessing and safely storing energy at grid scale and in cars, trucks, and planes is a very hard problem that simplified models sometimes can’t touch. “In electrification, at its core, you have this combination of electromagnetic effects, heat transfer, and structural mechanics in a complicated interplay,” says Bjorn Sjodin, senior vice president of product management at the Stockholm-based software company COMSOL. COMSOL is an engineering R&D software company that",
-      "link": "https://spectrum.ieee.org/comsol-multiphysics-electrification-of-everything",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-10-16"
-    },
-    {
-      "title": "Scientists just changed the nature of matter with a flash of light",
-      "description": "Researchers in Konstanz discovered a way to manipulate materials with light by exciting magnon pairs, reshaping their magnetic “fingerprint.” This allows non-thermal control of magnetic states and data transmission at terahertz speeds. Using simple haematite crystals, the technique could enable room-temperature quantum effects. The breakthrough blurs the line between physics and magic.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251024041822.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "Japanese scientists unveil a quantum battery that defies energy loss",
-      "description": "A team of researchers has designed a theoretical model for a topological quantum battery capable of long-distance energy transfer and immunity to dissipation. By exploiting topological properties in photonic waveguides, they showed that energy loss can not only be prevented but briefly enhance charging power. This breakthrough may lead to efficient nanoscale batteries and pave the way for practical quantum devices.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251023031612.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "AI turns x-rays into time machines for arthritis care",
-      "description": "Researchers at the University of Surrey developed an AI that predicts what a person’s knee X-ray will look like in a year, helping track osteoarthritis progression. The tool provides both a visual forecast and a risk score, offering doctors and patients a clearer understanding of the disease. Faster and more interpretable than earlier systems, it could soon expand to predict other conditions like lung or heart disease.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251022023116.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-22"
-    },
-    {
-      "title": "Scientists finally spot hidden waves powering the Sun’s corona",
-      "description": "Researchers have directly observed torsional Alfvén waves twisting through the Sun’s corona — magnetic waves first predicted over 80 years ago. Captured using the Daniel K. Inouye Solar Telescope, these motions could explain why the corona is millions of degrees hotter than the Sun’s surface. The finding helps validate decades of solar physics theories and opens new paths to studying solar energy transfer.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251027023741.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-27"
-    },
-    {
-      "title": "The math says life shouldn’t exist, but somehow it does",
-      "description": "Life’s origin story just became even more mysterious. Using mathematics and information theory, Robert G. Endres of Imperial College London found that the spontaneous emergence of life from nonliving matter may be far more difficult than scientists once thought.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251026021759.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-26"
-    },
-    {
-      "title": "Living computers powered by mushrooms",
-      "description": "Scientists have found that mushrooms can act as organic memory devices, mimicking neural activity while consuming minimal power. The Ohio State team grew and trained shiitake fungi to perform like computer chips, capable of switching between electrical states thousands of times per second. These fungal circuits are biodegradable and low-cost, opening the door to sustainable, brain-like computing.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251026021724.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-26"
-    },
-    {
-      "title": "How algae learned to harness the Sun without getting burned",
-      "description": "Under the sea, green algae have evolved a clever way to handle too much sunlight. Scientists found that a special pigment called siphonein acts like a natural sun shield, protecting the algae’s delicate photosynthetic machinery from burning out. Using advanced imaging and simulations, researchers showed how siphonein helps algae safely manage excess light energy. The discovery could inspire new solar technologies that mimic nature’s built-in protection systems.",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251022023110.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-10-22"
-    },
-    {
       "title": "Roundtables: Seeking Climate Solutions in Turbulent Times",
       "description": "Companies are pursuing climate solutions amid shifting U.S. politics and economic uncertainty. Drawing from MIT Technology Review’s 10 Climate Tech Companies to Watch list, this session highlights the most promising technologies—from electric trucks to gene-edited crops—and explores the challenges companies face in advancing climate progress today. Speakers: Casey Crownhart, Senior Climate Reporter; James Temple, Senior Climate…",
       "link": "https://www.technologyreview.com/2025/10/28/1125962/roundtables-seeking-climate-solutions-in-turbulent-times/",
@@ -2238,6 +2207,38 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-10-27"
+    },
+    {
+      "title": "Scientists finally spot hidden waves powering the Sun’s corona",
+      "description": "Researchers have directly observed torsional Alfvén waves twisting through the Sun’s corona — magnetic waves first predicted over 80 years ago. Captured using the Daniel K. Inouye Solar Telescope, these motions could explain why the corona is millions of degrees hotter than the Sun’s surface. The finding helps validate decades of solar physics theories and opens new paths to studying solar energy transfer.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251027023741.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-10-27"
+    },
+    {
+      "title": "The math says life shouldn’t exist, but somehow it does",
+      "description": "Life’s origin story just became even more mysterious. Using mathematics and information theory, Robert G. Endres of Imperial College London found that the spontaneous emergence of life from nonliving matter may be far more difficult than scientists once thought.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251026021759.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-10-26"
+    },
+    {
+      "title": "Living computers powered by mushrooms",
+      "description": "Scientists have found that mushrooms can act as organic memory devices, mimicking neural activity while consuming minimal power. The Ohio State team grew and trained shiitake fungi to perform like computer chips, capable of switching between electrical states thousands of times per second. These fungal circuits are biodegradable and low-cost, opening the door to sustainable, brain-like computing.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251026021724.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-10-26"
+    },
+    {
+      "title": "How algae learned to harness the Sun without getting burned",
+      "description": "Under the sea, green algae have evolved a clever way to handle too much sunlight. Scientists found that a special pigment called siphonein acts like a natural sun shield, protecting the algae’s delicate photosynthetic machinery from burning out. Using advanced imaging and simulations, researchers showed how siphonein helps algae safely manage excess light energy. The discovery could inspire new solar technologies that mimic nature’s built-in protection systems.",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251022023110.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-10-22"
     }
   ]
 }
