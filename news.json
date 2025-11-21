@@ -1,9 +1,9 @@
 {
   "date": "2025-11-21",
-  "lastUpdated": "2025-11-21T01:12:35.870Z",
+  "lastUpdated": "2025-11-21T04:19:39.427Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "47.3s",
+    "executionTime": "51.4s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 22,
     "totalCandidates": 264,
@@ -12,11 +12,11 @@
       "health": 55,
       "climate": 24,
       "energy": 3,
-      "technology": 123,
+      "technology": 122,
       "education": 4,
       "development": 15,
       "peace": 8,
-      "agriculture": 4,
+      "agriculture": 5,
       "space": 28
     },
     "categoryIntegrity": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 123,
+        "kept": 122,
         "changed": 2
       },
       "education": {
@@ -42,7 +42,7 @@
       },
       "development": {
         "kept": 15,
-        "changed": 4
+        "changed": 5
       },
       "peace": {
         "kept": 8,
@@ -58,9 +58,9 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 53,
+      "highScoreEntries": 55,
       "topTierSources": 142,
-      "highCredibilitySources": 239
+      "highCredibilitySources": 240
     }
   },
   "entries": [
@@ -561,6 +561,14 @@
       "date": "2025-09-29"
     },
     {
+      "title": "ADB Launches Project to Conserve Key Philippine Wetlands",
+      "description": "ADB has launched the Philippines Flyway Project to strengthen the conservation of vital wetland ecosystems that protect migratory bird habitats and local livelihoods.",
+      "link": "https://www.adb.org/news/adb-launches-project-conserve-key-philippine-wetlands",
+      "source": "Asian Development Bank",
+      "field": "climate",
+      "date": "2025-11-11"
+    },
+    {
       "title": "IPCC calls for nominations of authors for 2027 Methodology Report on Carbon Dioxide Removal Technologies, Carbon Capture, Utilization and Storage",
       "description": "GENEVA, Nov 19 – The Intergovernmental Panel on Climate Change (IPCC) is calling for nominations of the authors for the 2027 Methodology Report on Carbon Dioxide Removal Technologies, Carbon Capture, Utilization and Storage. Carbon Dioxide Removal refers to anthropogenic activities that remove CO2 from the atmosphere and store it durably in geological reservoirs or in […]",
       "link": "https://www.ipcc.ch/2025/11/19/calltficdrccus/",
@@ -655,14 +663,6 @@
       "source": "IPCC",
       "field": "climate",
       "date": "2025-09-18"
-    },
-    {
-      "title": "ADB Launches Project to Conserve Key Philippine Wetlands",
-      "description": "ADB has launched the Philippines Flyway Project to strengthen the conservation of vital wetland ecosystems that protect migratory bird habitats and local livelihoods.",
-      "link": "https://www.adb.org/news/adb-launches-project-conserve-key-philippine-wetlands",
-      "source": "Asian Development Bank",
-      "field": "climate",
-      "date": "2025-11-11"
     },
     {
       "title": "COP30: Carbon Brief’s second ‘ask us anything’ webinar",
@@ -761,6 +761,22 @@
       "date": "2025-11-05"
     },
     {
+      "title": "Quantum modeling for breakthroughs in materials science and sustainable energy",
+      "description": "Quantum chemist Ernest Opoku is working on computational methods to study how electrons behave as a School of Science Dean’s Postdoctoral Fellow.",
+      "link": "https://news.mit.edu/2025/quantum-modeling-breakthroughs-materials-science-sustainable-energy-ernest-opoku-1119",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "An improved way to detach cells from culture surfaces",
+      "description": "The approach could transform large-scale biomanufacturing by enabling automated and contamination-conscious workflows for cell therapies, tissue engineering, and regenerative medicine.",
+      "link": "https://news.mit.edu/2025/improved-way-detach-cells-culture-surfaces-1118",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
       "title": "Amazon Pilots New Pedal-Assist Electric Delivery Vehicle",
       "description": "Amazon is piloting a new four-wheel, pedal-assist electric delivery vehicle built by Also, a spin-off from electric-truck maker Rivian, in a bid to make city logistics cleaner and more efficient. The vehicle—called the TM-Q—combines the stability and cargo capacity of a small van with the compact footprint of an e-bike. Amazon plans to deploy the TM-Q in several major cities as part of its broader strategy to decarbonize last-mile delivery. The TM-Q aims to solve one of the toughest challenges in urban logistics: moving heavy loads quickly through crowded city centers where trucks are ineffici",
       "link": "https://spectrum.ieee.org/electric-delivery-vehicles-amazon-also",
@@ -799,70 +815,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-11-17"
-    },
-    {
-      "title": "Narrowing focus can increase productivity",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Taro and delivered to your inbox for free! The most productive engineer I worked with at Meta joined the company as a staff engineer. This is already a relatively senior position, but he then proceeded to earn two promotions within three years, becoming one of the most senior engineers in the entire company. Interestingly, what made him so productive was also frequently a source of annoyance fo",
-      "link": "https://spectrum.ieee.org/produ",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "Video Friday: DARPA Challenge Focuses on Heavy Lift Drones",
-      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026: 1–5 June 2026, VIENNA Enjoy today’s videos! Current multirotor drones provide simplicity, affordability, and ease of operation; however, their primary limitation is their low payload-to-weight ratio, which typically falls at 1:1 or less. The DARPA Lift Challenge aims to shatter the heavy lift bottleneck, seeking novel drone designs that can c",
-      "link": "https://spectrum.ieee.org/video-friday-heavy-lift-drones",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "Apple’s Failed Foray Into Mac Clones",
-      "description": "There’s a class of consumer that wants something they know they cannot have. For some of those people, a Macintosh computer not made by Apple has long been a desired goal. For most of the Mac’s history, you could only really get one from Apple, if you wanted to go completely by the book. Sure, there were less-legit ways to get Apple software on off-brand hardware, and plenty of people were willing to try them. But there was a short period, roughly 36 months, when it was possible to get a licensed Mac that had the blessing of the team in Cupertino. They called it the Mac clone era. It was Apple",
-      "link": "https://spectrum.ieee.org/apple-mac-clones-history",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "China’s Tech Giants Race to Replace Nvidia’s AI Chips",
-      "description": "This post originally appeared on Recode China AI. For more than a decade, Nvidia’s chips have been the beating heart of China’s AI ecosystem. Its GPUs powered search engines, video apps, smartphones, electric vehicles, and the current wave of generative AI models. Even as Washington tightened export rules for advanced AI chips, Chinese companies kept settling for and buying “China-only” Nvidia chips stripped of their most advanced features—H800, A800, and H20. But by 2025, patience in Beijing had seemingly snapped. State media began labeling Nvidia’s China-compliant H20 as unsafe and possibly ",
-      "link": "https://spectrum.ieee.org/china-ai-chip",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-11-13"
-    },
-    {
-      "title": "The Complicated Reality of 3D Printed Prosthetics",
-      "description": "Around ten years ago, fantastical media coverage of 3D printing dramatically increased expectations for the technology. A particular darling of that coverage was the use of 3D-printing for prosthetic limbs: For example, in 2015, The New York Times celebrated the US $15 to $20 3D-printed prosthetic hands facilitated by the nonprofit E-nable, which paired hobbyist 3D printer owners with children with limb differences. The magic felt undeniable: disabled children could get cheap, freely accessible mechanical hands made by a neighbor with an unusual hobby. Similar stories about prosthetics abounde",
-      "link": "https://spectrum.ieee.org/how-3d-printing-helping-prosthetics",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-11-12"
-    },
-    {
-      "title": "Nanoscale trick makes “dark excitons” glow 300,000 times stronger",
-      "description": "Researchers have found a way to make “dark excitons”—normally invisible quantum states of light—shine dramatically brighter by trapping them inside a tiny gold-nanotube optical cavity. This breakthrough boosts their emission 300,000-fold and allows scientists to switch and tune them with unprecedented precision. The work unlocks new possibilities for ultrafast photonics, on-chip quantum communication, and exploring previously unreachable quantum states in 2D materials.",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251118220058.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "Quantum modeling for breakthroughs in materials science and sustainable energy",
-      "description": "Quantum chemist Ernest Opoku is working on computational methods to study how electrons behave as a School of Science Dean’s Postdoctoral Fellow.",
-      "link": "https://news.mit.edu/2025/quantum-modeling-breakthroughs-materials-science-sustainable-energy-ernest-opoku-1119",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "An improved way to detach cells from culture surfaces",
-      "description": "The approach could transform large-scale biomanufacturing by enabling automated and contamination-conscious workflows for cell therapies, tissue engineering, and regenerative medicine.",
-      "link": "https://news.mit.edu/2025/improved-way-detach-cells-culture-surfaces-1118",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-18"
     },
     {
       "title": "New AI agent learns to use CAD to create 3D objects from sketches",
@@ -929,172 +881,52 @@
       "date": "2025-10-30"
     },
     {
-      "title": "In red states, many academic researchers feel fear–and resolve",
-      "description": "State-level mandates prompt changes and small acts of resistance at universities",
-      "link": "https://www.science.org/content/article/red-states-many-academic-researchers-feel-fear-and-resolve",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Headless bodies hint at why Europe’s first farmers vanished",
-      "description": "Wave of mass brutality accompanied the collapse of the first pan-European culture",
-      "link": "https://www.science.org/content/article/headless-bodies-hint-why-europe-s-first-farmers-vanished",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Pigeons sense Earth’s magnetic field in an entirely new way",
-      "description": "Specialized hair cells pick electric currents induced by magnetism",
-      "link": "https://www.science.org/content/article/pigeons-sense-earth-s-magnetic-field-entirely-new-way",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "‘This is censorship.’ Conference requires abstracts to comply with Trump anti-DEI order",
-      "description": "NASA-funded planetary science institute previously scrubbed hundreds of records from its archive",
-      "link": "https://www.science.org/content/article/censorship-conference-requires-abstracts-comply-trump-anti-dei-order",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Why does biology keep building things out of tiles?",
-      "description": "Science talks with two scientists about finding the beauty in nature’s mosaics",
-      "link": "https://www.science.org/content/article/why-does-biology-keep-building-things-out-tiles",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Watch superstretchy bloodworms turn themselves inside out",
-      "description": "The marine worm’s unusually structured proboscis could inspire future soft-bodied robots",
-      "link": "https://www.science.org/content/article/watch-superstretchy-bloodworms-turn-themselves-inside-out",
-      "source": "Science",
+      "title": "Narrowing focus can increase productivity",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Taro and delivered to your inbox for free! The most productive engineer I worked with at Meta joined the company as a staff engineer. This is already a relatively senior position, but he then proceeded to earn two promotions within three years, becoming one of the most senior engineers in the entire company. Interestingly, what made him so productive was also frequently a source of annoyance fo",
+      "link": "https://spectrum.ieee.org/produ",
+      "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-11-19"
     },
     {
-      "title": "Despite Trump chaos, NSF avoided feared dip in research financing",
-      "description": "Number of new grants fell by 20%, but got larger, as funder braced for potential budget cut",
-      "link": "https://www.science.org/content/article/despite-trump-chaos-nsf-avoided-feared-dip-research-financing",
-      "source": "Science",
+      "title": "Video Friday: DARPA Challenge Focuses on Heavy Lift Drones",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026: 1–5 June 2026, VIENNA Enjoy today’s videos! Current multirotor drones provide simplicity, affordability, and ease of operation; however, their primary limitation is their low payload-to-weight ratio, which typically falls at 1:1 or less. The DARPA Lift Challenge aims to shatter the heavy lift bottleneck, seeking novel drone designs that can c",
+      "link": "https://spectrum.ieee.org/video-friday-heavy-lift-drones",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Apple’s Failed Foray Into Mac Clones",
+      "description": "There’s a class of consumer that wants something they know they cannot have. For some of those people, a Macintosh computer not made by Apple has long been a desired goal. For most of the Mac’s history, you could only really get one from Apple, if you wanted to go completely by the book. Sure, there were less-legit ways to get Apple software on off-brand hardware, and plenty of people were willing to try them. But there was a short period, roughly 36 months, when it was possible to get a licensed Mac that had the blessing of the team in Cupertino. They called it the Mac clone era. It was Apple",
+      "link": "https://spectrum.ieee.org/apple-mac-clones-history",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "China’s Tech Giants Race to Replace Nvidia’s AI Chips",
+      "description": "This post originally appeared on Recode China AI. For more than a decade, Nvidia’s chips have been the beating heart of China’s AI ecosystem. Its GPUs powered search engines, video apps, smartphones, electric vehicles, and the current wave of generative AI models. Even as Washington tightened export rules for advanced AI chips, Chinese companies kept settling for and buying “China-only” Nvidia chips stripped of their most advanced features—H800, A800, and H20. But by 2025, patience in Beijing had seemingly snapped. State media began labeling Nvidia’s China-compliant H20 as unsafe and possibly ",
+      "link": "https://spectrum.ieee.org/china-ai-chip",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "The Complicated Reality of 3D Printed Prosthetics",
+      "description": "Around ten years ago, fantastical media coverage of 3D printing dramatically increased expectations for the technology. A particular darling of that coverage was the use of 3D-printing for prosthetic limbs: For example, in 2015, The New York Times celebrated the US $15 to $20 3D-printed prosthetic hands facilitated by the nonprofit E-nable, which paired hobbyist 3D printer owners with children with limb differences. The magic felt undeniable: disabled children could get cheap, freely accessible mechanical hands made by a neighbor with an unusual hobby. Similar stories about prosthetics abounde",
+      "link": "https://spectrum.ieee.org/how-3d-printing-helping-prosthetics",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Nanoscale trick makes “dark excitons” glow 300,000 times stronger",
+      "description": "Researchers have found a way to make “dark excitons”—normally invisible quantum states of light—shine dramatically brighter by trapping them inside a tiny gold-nanotube optical cavity. This breakthrough boosts their emission 300,000-fold and allows scientists to switch and tune them with unprecedented precision. The work unlocks new possibilities for ultrafast photonics, on-chip quantum communication, and exploring previously unreachable quantum states in 2D materials.",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251118220058.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-19"
-    },
-    {
-      "title": "Black holes may be source of Milky Way’s mysterious high-energy cosmic rays",
-      "description": "Researchers at Tibetan observatory trace gamma ray light back to violent microquasars",
-      "link": "https://www.science.org/content/article/black-holes-may-be-source-milky-way-s-mysterious-high-energy-cosmic-rays",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "Curious gravitational wave may be hint at primordial black holes—or just noise",
-      "description": "Astronomers approach unusual observation with caution and excitement",
-      "link": "https://www.science.org/content/article/curious-gravitational-wave-may-be-hint-primordial-black-holes-or-just-noise",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Lab-grown models of human brains are advancing rapidly. Can ethics keep pace?",
-      "description": "Whether neural organoids feel pain or should be placed in animals are among the questions swirling around biology’s hot new technology",
-      "link": "https://www.science.org/content/article/lab-grown-models-human-brains-are-advancing-rapidly-can-ethics-keep-pace",
-      "source": "Science",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Faces of MIT: Brian Hanna",
-      "description": "MIT Venture Mentoring Services Operations Manager Brian Hanna matches entrepreneurs with industry professionals who help take their ventures to the next level through personalized mentorship and expert advice.",
-      "link": "https://news.mit.edu/2025/faces-of-mit-brian-hanna-1120",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Scientists get a first look at the innermost region of a white dwarf system",
-      "description": "X-ray observations reveal surprising features of the dying star’s most energetic environment.",
-      "link": "https://news.mit.edu/2025/first-look-innermost-region-white-dwarf-system-1120",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "The cost of thinking",
-      "description": "MIT neuroscientists find a surprising parallel in the ways humans and new AI models solve complex problems.",
-      "link": "https://news.mit.edu/2025/cost-of-thinking-1119",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "How a building creates and defines a region",
-      "description": "A new MIT course explores how built environments can both emerge from and reveal the internal dynamics of their geographic context.",
-      "link": "https://news.mit.edu/2025/how-building-creates-and-defines-region-1119",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "Symposium examines the neural circuits that keep us alive and well",
-      "description": "Seven speakers from around the country convened at MIT to describe some of the latest research on the neural mechanisms that we need to survive.",
-      "link": "https://news.mit.edu/2025/symposium-examines-neural-circuits-keep-us-alive-well-1119",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "A new take on carbon capture",
-      "description": "Mantel, founded by MIT alumni, developed a system that captures CO2 from factories and power plants while delivering steam to customers.",
-      "link": "https://news.mit.edu/2025/mantel-develops-new-take-carbon-capture-1119",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "MIT Energy Initiative conference spotlights research priorities amidst a changing energy landscape",
-      "description": "Industry leaders agree collaboration is key to advancing critical technologies.",
-      "link": "https://news.mit.edu/2025/mit-energy-initiative-conference-1118",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "MIT researchers use CT scans to unravel mysteries of early metal production",
-      "description": "The team adapted the medical technique to study slag waste that was a byproduct of ancient copper smelting.",
-      "link": "https://news.mit.edu/2025/mit-researchers-use-ct-scans-unravel-mysteries-early-metal-production-1118",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Ultrasonic device dramatically speeds harvesting of water from the air",
-      "description": "The system can be paired with any atmospheric water harvesting material to shake out drinking water in minutes instead of hours.",
-      "link": "https://news.mit.edu/2025/ultrasonic-device-dramatically-speeds-harvesting-water-air-1118",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Bigger datasets aren’t always better",
-      "description": "MIT researchers developed a way to identify the smallest dataset that guarantees optimal solutions to complex problems.",
-      "link": "https://news.mit.edu/2025/bigger-datasets-arent-always-better-1118",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Small, inexpensive hydrophone boosts undersea signals",
-      "description": "MIT Lincoln Laboratory researchers designed the hydrophone using common MEMS parts for defense, industrial, and undersea research applications.",
-      "link": "https://news.mit.edu/2025/small-inexpensive-hydrophone-boosts-undersea-signals-1117",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-17"
     },
     {
       "title": "A compact fusion machine just hit gigapascal pressures",
@@ -1159,478 +991,6 @@
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2025-11-20"
-    },
-    {
-      "title": "Education in Mozambique",
-      "description": "Education in Mozambique Ed Stone Sun, 10/26/2025 - 11:04 2003 US$532,502,521 Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership Compact Priority: Improve the service delivery and quality of basic education. UNICEFKoffi Segniagbeto Domestic financing commitment Ministry of Education GPE 2025 data Mozambique’s net primary school enrollment rate is 99%, but less than half of students complete primary education. Education system challenges include management inefficiencies, protracted conflicts in the north, recurrent natural disasters, an",
-      "link": "https://www.globalpartnership.org/where-we-work/mozambique",
-      "source": "GPE",
-      "field": "education",
-      "date": "2025-10-26"
-    },
-    {
-      "title": "Education in Mauritania",
-      "description": "Education in Mauritania Ed Stone Sun, 10/26/2025 - 03:06 2002 US$52,102,665 Multiplier System capacity System transformation Other key documents Partnership compact Priority: Improve teachers' qualification and competences for an efficient and equitable education system. UNESCO, UNICEFAdria Rakotoarivony Ministry of Education GPE 2025 data Mauritania has improved access to education, but 30% of children are still out of school. Those facing the greatest barriers to education include children in rural areas, from poor families, with disabilities, and girls. For children in school, learning is l",
-      "link": "https://www.globalpartnership.org/where-we-work/mauritania",
-      "source": "GPE",
-      "field": "education",
-      "date": "2025-10-26"
-    },
-    {
-      "title": "Donor contributions to GPE",
-      "description": "Donor contributions to GPE Language English Chantal Rigaud Wed, 11/05/2025 - 04:20 File 2025-11-gpe-donor-contributions.xlsx Annual and total donor contributions to the GPE fund as of October 31, 2025, including share of total contributions. The Excel sheet also includes tracking of donor pledges for the 2021-2025 financing period. Document type Financial reports Contribution Date Tue, 01/14/2014 - 12:00 Approving Date Tue, 01/14/2014 - 12:00 Review Date Tue, 01/14/2014 - 12:00 Document Year 2025 Custom background colour Search keywords donors, contributions, replenishment Summary Annual and t",
-      "link": "https://www.globalpartnership.org/content/donor-contributions-gpe",
-      "source": "GPE",
-      "field": "education",
-      "date": "2025-11-05"
-    },
-    {
-      "title": "Education in Mongolia",
-      "description": "Education in Mongolia Ed Stone Sun, 10/26/2025 - 13:11 2006 US$46,238,675 Multiplier System capacity Other key documents Education sector plan Objective: Enhance quality and relevance of education; Increase equal access and inclusiveness; Improve efficiency of education governance. Embassy of Japan in MongoliaMuhammad Tariq Khan Ministry of Education GPE 2025 data The education sector in Mongolia achieved significant outcomes over the past years in modifying pre-primary, primary and secondary education curricula and vocational education and training, higher education and program content; revis",
-      "link": "https://www.globalpartnership.org/where-we-work/mongolia",
-      "source": "GPE",
-      "field": "education",
-      "date": "2025-10-26"
-    },
-    {
-      "title": "ADB Governors Agree to Amend Bank Charter, Opening Path to 50% Expansion of Operations",
-      "description": "Voting by the Board of Governors of ADB has reached the requirement for ratification of a landmark amendment to the Bank’s founding charter that will remove the lending limitation set out in Article 12.1. This will enable a 50% increase in lending to more than $36 billion annually to support developing member countries’ efforts to address critical development priorities in the region.",
-      "link": "https://www.adb.org/news/adb-governors-agree-amend-bank-charter-opening-path-50-percent-expansion-operations",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-17"
-    },
-    {
-      "title": "ADB Approves $10 Million Grant to Combat Noncommunicable Diseases in Vanuatu",
-      "description": "ADB has approved a $10 million grant to help reduce the incidence of noncommunicable diseases and improve access to quality health care across four northern provinces of Vanuatu: Malampa, Penama, Sanma, and Torba.",
-      "link": "https://www.adb.org/news/adb-approves-10-million-grant-combat-noncommunicable-diseases-vanuatu",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-11"
-    },
-    {
-      "title": "New ADB Program to Help Kyrgyz Republic and Tajikistan Respond to Disasters",
-      "description": "ADB has approved a $56.4 million program to help the Kyrgyz Republic and Tajikistan boost their capacity to respond to disasters.",
-      "link": "https://www.adb.org/news/new-adb-program-help-kyrgyz-republic-and-tajikistan-respond-disasters",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "ADB President Announces Plans to Invest Up to $2.5B in Azerbaijan, Strengthen Partnership",
-      "description": "ADB President Masato Kanda met with Azerbaijan President Ilham Aliyev to discuss ADB’s strategic support for the country’s development priorities, aimed at transforming Azerbaijan into a regional hub for connectivity, trade, and energy linking Central Asia and Europe. Mr. Kanda announced that ADB plans to invest up to $2.5 billion to support its objectives through the new Country Partnership Strategy (2025–2029).",
-      "link": "https://www.adb.org/news/adb-president-announces-plans-invest-up-to-2-5-billion-azerbaijan-strengthen-partnership",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-15"
-    },
-    {
-      "title": "ADB Launches Operations in Türkiye with $3 Billion Annual Financing Planned for 2026-2027",
-      "description": "ADB President Masato Kanda met with Türkiye President Recep Tayyip Erdoğan today in Ankara to discuss ADB’s commitment to support the country’s national development agenda, including ADB’s intention to deliver $3 billion annually in project financing for 2026 and 2027.",
-      "link": "https://www.adb.org/news/adb-launches-operations-turkiye-3-billion-annual-financing-planned-2026-2027",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-13"
-    },
-    {
-      "title": "ADB Support to Expand Inclusive Finance, Strengthen Microfinance Sector in Uzbekistan",
-      "description": "ADB has approved a $300 million policy-based loan—$100 million of which is concessional—to support the Government of Uzbekistan’s ongoing efforts to expand access to finance for underserved micro, small, and medium-sized enterprises, particularly those led by women, while strengthening the country’s microfinance sector.",
-      "link": "https://www.adb.org/news/adb-support-expand-inclusive-finance-strengthen-microfinance-sector-uzbekistan",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-12"
-    },
-    {
-      "title": "ADB Approves $7 Million Grant to Strengthen Tuvalu’s Fiscal Resilience and Inclusive Growth",
-      "description": "ADB has approved a $7 million policy-based grant to help enhance public financial management.",
-      "link": "https://www.adb.org/news/adb-approves-7-million-grant-strengthen-tuvalu-fiscal-resilience-and-inclusive-growth",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-11"
-    },
-    {
-      "title": "ADB Approves $100 Million to Strengthen Macroeconomic Resilience, Transparency in Sri Lanka",
-      "description": "ADB has approved a $100 million financing package to build on Sri Lanka’s progress toward macroeconomic stability and to help achieve sustainable growth following the economic crisis.",
-      "link": "https://www.adb.org/news/adb-approves-100-million-strengthen-macroeconomic-resilience-transparency-sri-lanka",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-10"
-    },
-    {
-      "title": "ADB Invests $145 Million to Improve Water Infrastructure in the Philippines",
-      "description": "The Asian Development Bank (ADB) has made a $145 million (in Philippine pesos equivalent) investment in Maynilad Water Services, Inc. to enhance water security and improve wastewater services in Metro Manila.",
-      "link": "https://www.adb.org/news/adb-invests-145-million-improve-water-infrastructure-philippines",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-07"
-    },
-    {
-      "title": "ADB President Visits Uzbekistan to Strengthen Partnership, Celebrate 30 Years of Cooperation",
-      "description": "ADB President Masato Kanda met with Uzbekistan President Shavkat Mirziyoyev to reaffirm the strength of ADB’s partnership with the Republic of Uzbekistan and to commemorate 30 years of development cooperation.",
-      "link": "https://www.adb.org/news/adb-president-visits-uzbekistan-strengthen-partnership-celebrate-30-years-cooperation",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Independent Evaluation Calls for Stronger Strategy and Oversight to Maximize Impact of ADB Trust Funds",
-      "description": "A new corporate evaluation by ADB's Independent Evaluation Department finds that ADB-administered trust funds and other cofinancing mechanisms have added significant value to development efforts in Asia and the Pacific, particularly by supporting innovation and climate priorities.",
-      "link": "https://www.adb.org/news/independent-evaluation-calls-stronger-strategy-and-oversight-maximize-impact-adb-trust-funds",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-17"
-    },
-    {
-      "title": "ADB President Visits Turkmenistan, Marks 25 Years of Partnership",
-      "description": "ADB President Masato Kanda met with Turkmenistan President Serdar Berdimuhamedov at the Presidential Palace to strengthen ADB’s long-standing partnership with Turkmenistan and discuss ways to deepen cooperation in support of the country’s sustainable and inclusive growth.",
-      "link": "https://www.adb.org/news/adb-president-visits-turkmenistan-marks-25-years-partnership",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-11"
-    },
-    {
-      "title": "Joint MDB Statement for COP30",
-      "description": "As Multilateral Development Banks, we are aligned in our commitment to respond to the priorities of our clients—grow their economies, improving livelihoods and creating jobs, making communities and businesses resilient, in the face of intensified climate shocks and ecosystem degradation.",
-      "link": "https://www.adb.org/news/joint-mdb-statement-cop30",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-11"
-    },
-    {
-      "title": "Multilateral Development Banks Unite at COP30 in Call to Action for Resilience and Delivery",
-      "description": "Multilateral Development Banks reaffirmed at COP30 their commitment to respond to their clients' priorities to improve livelihoods and create jobs for the resilience of communities and businesses in the face of intensified climate shocks and ecosystem degradation.",
-      "link": "https://www.adb.org/news/multilateral-development-banks-unite-cop30-call-action-resilience-and-delivery",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-11"
-    },
-    {
-      "title": "ADB President Announces Emergency Grant Ready for Typhoon Relief in the Philippines",
-      "description": "ADB President Masato Kanda on Friday extended condolences for the lives lost and communities affected by the torrential rains and floods caused by Typhoon Tino (international name Kalmaegi), which hit central Philippines on 3 November, leaving nearly 200 people dead and dozens still missing.",
-      "link": "https://www.adb.org/news/adb-president-announces-emergency-grant-ready-typhoon-relief-philippines",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-07"
-    },
-    {
-      "title": "Fighting disease: “Bloodlines, Mississippi”",
-      "description": "Around the world, scientists and healthcare professionals continue to build on the foundations laid by Nobel Prize laureates. In this short clip from the film Bloodlines, Mississippi, we follow a doctor’s mission to advocate for an often-overlooked community facing preventable losses. Short clip: “Bloodlines, Mississippi” Despite advances in diabetes treatment, amputations continue to devastate communities […] The post Fighting disease: “Bloodlines, Mississippi” appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/fighting-disease-bloodlines-mississippi/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-11-12"
-    },
-    {
-      "title": "High hopes for quantum technologies",
-      "description": "Although still in its early stages, quantum computing is advancing rapidly, along with quantum technologies as a whole. Nobel Prize-awarded work on entangled quantum states and quantum mechanical tunnelling were driving forces behind this progress. Applications of quantum technologies are anticipated to improve our daily lives and contribute to solving global challenges. Quantum mechanics underpins […] The post High hopes for quantum technologies appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/high-hopes-for-quantum-technologies/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-29"
-    },
-    {
-      "title": "Frances Arnold: “Science thrives when ideas are exchanged”",
-      "description": "The risk of losing free flow of ideas and people is one of the most pressing challenges for science, says 2018 chemistry laureate Frances Arnold. In this interview, she also elaborates on the importance of enzymes in healthcare, the promises of AI and the uses of “useless” knowledge in science. How important is basic research […] The post Frances Arnold: “Science thrives when ideas are exchanged” appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/frances-arnold-science-thrives-when-ideas-get-exchanged/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-28"
-    },
-    {
-      "title": "Nobel Prize award ceremony 2025",
-      "description": "The Nobel Prize award ceremony takes place at the Stockholm Concert Hall, Sweden, on 10 December – the anniversary of Alfred Nobel’s death. At the ceremony, the Nobel Prize in Physics, Chemistry, Physiology or Medicine, Literature and the prize in economic sciences are awarded to the Nobel Prize laureates. More information to follow. The post Nobel Prize award ceremony 2025 appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/ceremonies/nobel-prize-award-ceremony-2025/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "Streams during Nobel Week 2025",
-      "description": "Here you will be able to find the livestreams during Nobel Week 2025. The livestreams include the official Nobel Prize lectures, Nobel Week Dialogue, the Nobel Prize award ceremonies and Nobel Peace Prize Forum. All times are in CET. See Terms of use for Youtube streams. 7 December 14:00 Nobel Prize lectures in physiology or medicine […] The post Streams during Nobel Week 2025 appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/ceremonies/streams-during-nobel-week-2025/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "Fighting disease: “Shadows in Sunlight”",
-      "description": "Around the world, scientists and healthcare professionals continue to build on the foundations laid by Nobel Prize laureates. In the short clip Shadows in Sunlight, directed by Ruhi Hamid, we follow Ishrat Rahim who vaccinates children against polio in Pakistan. Short clip: “Shadows in Sunlight” Ishrat Rahim is one of almost 400,000 women working across […] The post Fighting disease: “Shadows in Sunlight” appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/fighting-disease-shadows-in-sunlight/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "Press programme for Nobel Week 2025",
-      "description": "Press programme Stockholm This is the press programme for Nobel Week 2025 in Stockholm. You will need to apply for accreditation for some of the activities during the week. More information and activities will be added.All times are in CET.Media contacts for Nobel Week in Stockholm Press programme for OsloMedia contact for Nobel Week in […] The post Press programme for Nobel Week 2025 appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/press-programme-for-nobel-week-2025/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-17"
-    },
-    {
-      "title": "The 2025 medicine prize – The immune system’s security guards",
-      "description": "The 2025 Nobel Prize in Physiology or Medicine recognises discoveries that have increased our understanding of how the immune system works. The Nobel Prize laureates discovered a previously unknown immune cell called regulatory T cell (TREG). The immune system – one of the masterpieces of evolution We would not survive without a functioning immune system. […] The post The 2025 medicine prize – The immune system’s security guards appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/the-2025-medicine-prize-the-immune-systems-security-guards/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-15"
-    },
-    {
-      "title": "Harvesting Collaboration for Food Security. Science Week Closes.",
-      "description": "11th April, Nairobi, Kenya: After a remarkable week of science, innovation, and cementing of partnerships, CGIAR’s inaugural Science Week wrapped up at the official closing ceremony led by Ismahane Elouafi, Executive Managing Director, CGIAR, and Eliud Kireger, Director General, Kenya Agricultural & Livestock Research Organization (KALRO). “Over the past days, we’ve explored groundbreaking research, forged […] The post Harvesting Collaboration for Food Security. Science Week Closes. appeared first onCGIAR. The post Harvesting Collaboration for Food Security. Science Week Closes. appeared first",
-      "link": "https://www.cgiar.org/cgiar-science-week-closing/",
-      "source": "CGIAR",
-      "field": "agriculture",
-      "date": "2025-04-14"
-    },
-    {
-      "title": "Bridging Innovation and Implementation: A Collaborative Leap Forward with the Government of India in Transforming Agriculture",
-      "description": "The Government of India recently hosted a significant workshop that brought together representatives from CGIAR centers across India to showcase groundbreaking technologies and innovations ready for immediate scaling, with the goal of aligning these innovations with India’s existing priorities and plans to support the national agenda for agri-food systems transformation. Building on the success of […] The post Bridging Innovation and Implementation: A Collaborative Leap Forward with the Government of India in Transforming Agriculture appeared first onCGIAR. The post Bridging Innovation and Imp",
-      "link": "https://www.cgiar.org/bridging-innovation-and-implementation-a-collaborative-leap-forward-with-the-government-of-india-in-transforming-agriculture/",
-      "source": "CGIAR",
-      "field": "agriculture",
-      "date": "2024-06-17"
-    },
-    {
-      "title": "Acquia DAM portal embed",
-      "description": "The post Acquia DAM portal embed appeared first on CGIAR.",
-      "link": "https://www.cgiar.org/acquia-dam-portal-embed/",
-      "source": "CGIAR",
-      "field": "agriculture",
-      "date": "2025-10-30"
-    },
-    {
-      "title": "Escuchar para impulsar la investigación e innovación agrícola del CGIAR y alcanzar sistemas alimentarios sostenibles, inclusivos y equitativos en América Latina y el Caribe",
-      "description": "Sesión con instituciones académicas y de investigación, y organizaciones internacionales. Sede del CIMMYT, Texcoco, México. ©CIMMYT Por Joaquín Lozano, Director Regional para América Latina y el Caribe del CGIAR En los últimos tres meses, los equipos de país y regionales del CGIAR de todo el mundo han hecho grandes esfuerzos para preparar, llevar a cabo […] The post Escuchar para impulsar la investigación e innovación agrícola del CGIAR y alcanzar sistemas alimentarios sostenibles, inclusivos y equitativos en América Latina y el Caribe appeared first onCGIAR. The post Escuchar para impulsar la",
-      "link": "https://www.cgiar.org/escuchar-para-impulsar-la-investigacion-e-innovacion-agricola-del-cgiar-y-alcanzar-sistemas-alimentarios-sostenibles-inclusivos-y-equitativos-en-america-latina-y-el-caribe/",
-      "source": "CGIAR",
-      "field": "agriculture",
-      "date": "2024-03-25"
-    },
-    {
-      "title": "Black Hole Flare is Biggest and Most Distant Seen",
-      "description": "The most massive stars in the universe are destined to explode as brilliant supernova before collapsing into black holes. Yet one huge star appears to have never fulfilled its destiny; in a twist of irony, the star wandered too close to a gargantuan black hole, which gobbled it up, shredding the star to bits and pieces.That is the most likely explanation to come from authors of a new Nature Astronomy report describing the most powerful and most distant flare of energy ever recorded from a supermassive black hole. The cosmic object was first observed in 2018 by the US National Science Foundatio",
-      "link": "https://www.caltech.edu/about/news/black-hole-flare-is-biggest-and-most-distant-seen",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2025-11-04"
-    },
-    {
-      "title": "NASA’s Quesst Mission Marks X-59’s Historic First Flight",
-      "description": "NASA’s X-59 quiet supersonic research aircraft took off for its historic first flight on Oct. 28, 2025, at 11:14 a.m. EDT from Lockheed Martin Skunk Works in Palmdale, California. The one-of-a-kind aircraft flew for 67 minutes before landing and taxiing to NASA’s Armstrong Flight Research Center in Edwards, California. NASA test pilot Nils Larson flew […]",
-      "link": "https://www.nasa.gov/image-article/nasas-quesst-mission-marks-x-59s-historic-first-flight-2/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Europa Clipper Captures Uranus With Star Tracker Camera",
-      "description": "Description NASA’s Europa Clipper captured this image of a starfield — and the planet Uranus — on Nov. 5, 2025, while experimenting with one of its two stellar reference units. These star-tracking cameras are used for maintaining spacecraft orientation. Within the camera’s field of view — representing 0.1% of the full sky around the spacecraft […]",
-      "link": "https://science.nasa.gov/photojournal/europa-clipper-captures-uranus-with-star-tracker-camera/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "NASA’s Scott Tingle to Serve as Agency’s Chief Astronaut",
-      "description": "NASA named astronaut Scott Tingle as chief of the Astronaut Office at the agency’s Johnson Space Center in Houston, effective Nov. 10. A decorated spaceflight veteran and former captain in the United States Navy, Tingle has logged more than 4,500 flight hours in 51 different aircraft and served as a flight engineer aboard the International […]",
-      "link": "https://www.nasa.gov/news-release/nasas-scott-tingle-to-serve-as-agencys-chief-astronaut/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "NASA Celebrates Five Years of Artemis Accords, Welcomes 3 New Nations",
-      "description": "October marked the fifth anniversary of NASA and the original founders signing the Artemis Accords, as well as the recognition of Hungary, Malaysia and the Philippines joining the expanding coalition dedicated to the peaceful exploration of space. The number of countries involved now totals 59. “NASA welcomes the newest signatories, whose participation strengthens the global […]",
-      "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-celebrates-five-years-of-artemis-accords-welcomes-3-new-nations/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "NASA Sets Coverage for Crew Launch to Join Station Expedition",
-      "description": "NASA astronaut Chris Williams will launch aboard the Roscosmos Soyuz MS-28 spacecraft to the International Space Station on Thursday, Nov. 27, accompanied by cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev, where they will join the Expedition 73 crew advancing scientific research. Williams, Kud-Sverchkov, and Mikaev will lift off at 4:27 a.m. EST (2:27 p.m. Baikonur time) […]",
-      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-crew-launch-to-join-station-expedition/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "NASA Fuels Discovery from Earth to Sky: One Crayon at a Time",
-      "description": "A collaboration between the NASA Earth Science Education Collaborative (NESEC) and Earth to Sky (ETS) – an exciting, growing partnership between NASA, the National Park Service, and other federal, state, and local organizations – is facilitating the implementation of a simple, yet incredibly effective activity that will help millions of national park visitors connect with […]",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-fuels-discovery-from-earth-to-sky-one-crayon-at-a-time/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "NASA Progresses Toward Artemis II Moon Mission",
-      "description": "As 2026 nears, NASA continues moving forward to launching and flying Artemis II, the first crewed mission under the Artemis campaign, no later than April next year. NASA’s Orion spacecraft, complete with its launch abort system escape tower, is now integrated with the SLS (Space Launch System) rocket in the Vehicle Assembly Building (VAB) at […]",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-progresses-toward-artemis-ii-moon-mission/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Smile approved for launch in spring 2026",
-      "description": "Smile has passed its qualification and flight acceptance review, meaning that it meets all requirements for launch. The launch window has been set for 8 April to 7 May 2026.",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_approved_for_launch_in_spring_2026",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "ESA’s Argonaut press conference",
-      "description": "Video: 01:00:00 The press conference, at the European Astronaut Centre in Cologne, Germany, follows the signing of contracts between Thales Alenia Space Italy, UK and France, OHB system AG (Germany) and Nammo (UK) for the ESA’s lunar lander programme Argonaut. The programme is a key part of ESA’s lunar strategy and will support future robotic and crewed missions, contributing to international efforts to establish a long-term human presence on the Moon.",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/11/ESA_s_Argonaut_press_conference",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Galileo to take its first flight on Ariane 6 on 17 December",
-      "description": "On 17 December 2025, two Galileo satellites will be launched by Arianespace on Ariane 6 from Europe’s Spaceport in French Guiana. This 14th operational launch in the Galileo programme will improve the precision, availability and robustness of the Galileo system. These satellites will benefit the billions of people who use Galileo daily via their smartphone as well as key sectors such as critical infrastructure, autonomous driving, air traffic, maritime, agriculture, emergency services and rescue operations.",
-      "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_to_take_its_first_flight_on_Ariane_6_on_17_December",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "What’s Up: November 2025 Skywatching Tips from NASA",
-      "description": "Mars and Mercury will cozy up together in the night sky just after sunset on November 12th. The planets will experience what is known as a conjunction, meaning they appear close together in the sky from our view (even though in real life, Mars and Mercury are well over 100 million miles apart).",
-      "link": "https://science.nasa.gov/solar-system/whats-up-november-2025-skywatching-tips-from-nasa/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "NASA, Aerospace Corporation Study Sharpens Focus on Ammonia Emissions",
-      "description": "The pungent gas contributes to fine airborne particulate pollution, which endangers human health when inhaled and absorbed in the bloodstream. A recent study led by scientists at NASA’s Jet Propulsion Laboratory in Southern California and the nonprofit Aerospace Corporation shows how high-resolution maps of ground-level ammonia plumes can be generated with airborne sensors, highlighting a […]",
-      "link": "https://www.nasa.gov/missions/maia/nasa-aerospace-corporation-study-sharpens-focus-on-ammonia-emissions/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "ESA awards excellent suppliers",
-      "description": "The European Space Agency (ESA) brings public and ESA-wide recognition of the outstanding performance of European companies working in the frame of ESA programmes and projects.",
-      "link": "https://www.esa.int/About_Us/Business_with_ESA/ESA_awards_excellent_suppliers",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Argonaut lunar lander family grows",
-      "description": "Today, the European Space Agency’s Argonaut lunar lander programme welcomes new members to its growing family. At ESA’s European Astronaut Centre (EAC) near Cologne, Germany, Thales Alenia Space Italy – the prime contractor for Argonaut’s first lander – signed agreements with Thales Alenia Space in France, OHB in Germany, and Thales Alenia Space and Nammo in the United Kingdom.",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Argonaut_lunar_lander_family_grows",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Sentinel-6B launch highlights",
-      "description": "Video: 00:02:09 Copernicus Sentinel-6B was launched on 17 November 2025, ready to continue a decades-long mission to track the height of the planet’s seas – a key measure of climate change. The satellite was carried into orbit on a Falcon 9 rocket from the Vandenberg Space Force Base in California, US. Sentinel-6B follows in the footsteps of its predecessor, Sentinel-6 Michael Freilich, which was launched in 2020. The mission is the reference radar altimetry mission that continues the vital record of sea-surface height measurements until at least 2030. Copernicus Sentinel-6 has become the gold",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/11/Sentinel-6B_launch_highlights",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-17"
-    },
-    {
-      "title": "Rare Star System Gives Insights into the Origins of Carbon Dust in the Galaxy",
-      "description": "A detailed new image from NASA's James Webb Space Telescope (JWST) has unveiled the most precise portrait yet of a rare cosmic system: a pair of massive dying stars, known as Wolf–Rayet stars, orbiting tightly around each other. The rare system, named Apep after an ancient Egyptian deity that shares a similar shape, was first imaged in 2016 by the Very Large Telescope in Chile. The new JWST image zooms out to capture the concentric spherical waves of dust that emanate from the star system, giving insight to the primordial origins of the carbon building blocks that could ultimately contribute t",
-      "link": "https://www.caltech.edu/about/news/rare-star-system-gives-insights-into-the-origins-of-carbon-dust-in-the-galaxy",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "Live coverage: Falcon 9 Starlink mission marks 100th launch of the year from Florida’s Space Coast",
-      "description": "The Starlink 6-78 mission, carrying 29 satellites for SpaceX’s internet service, is targeted to roar away from launch complex 39A at 10:39 p.m. EST (0339 UTC).",
-      "link": "https://spaceflightnow.com/2025/11/20/live-coverage-falcon-9-starlink-mission-marks-100th-launch-of-the-year-from-floridas-space-coast/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "SpaceX resumes early evening launches after FAA restrictions lifted",
-      "description": "The Starlink 6-94 mission is scheduled to liftoff from pad 40 at Cape Canaveral Space Force Station, Florida, at 7:12 p.m. EST (0012 UTC), carrying 29 satellites for SpaceX’s Starlink internet service.",
-      "link": "https://spaceflightnow.com/2025/11/18/live-coverage-spacex-resumes-early-evening-launches-after-faa-restrictions-lifted/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Week in images: 10-14 November 2025",
-      "description": "Week in images: 10-14 November 2025 Discover our week through the lens",
-      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_10-14_November_2025",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "SpaceX launches joint NASA-European sea level monitor",
-      "description": "SpaceX launched a joint NASA-European environmental research satellite early Monday, the second in an ongoing billion-dollar project to measure long-term changes in sea level, a key indicator of climate change.",
-      "link": "https://spaceflightnow.com/2025/11/17/spacex-launches-joint-nasa-european-sea-level-monitor/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-17"
-    },
-    {
-      "title": "SpaceX Falcon 9 to launch international satellite to keep watch on rising sea levels",
-      "description": "The Sentinel-6B satellite will liftoff atop a SpaceX Falcon 9 rocket from Space Launch Complex-4E at Vandenberg Space Force Base at 9:21:42 p.m. PST (12:21:42 a.m. EST / 0521:42 UTC), almost exactly five years after its twin, the Sentinel-6 Michael Freilich, launched from the same pad.",
-      "link": "https://spaceflightnow.com/2025/11/17/live-coverage-spacex-falcon-9-to-launch-international-satellite-to-keep-watch-on-rising-sea-levels/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-17"
-    },
-    {
-      "title": "SpaceX completes second fastest turnaround between Falcon 9 launches from Cape Canaveral",
-      "description": "The mission is one of two Starlink flights scheduled to fly from Florida within a four-hour window of opportunity. Liftoff of the Starlink 6-85 mission from pad 40 at Cape Canaveral Space Force Station is scheduled for 1:44 a.m. EST (0644 UTC).",
-      "link": "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-predawn-starlink-mission-from-cape-canaveral/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "SpaceX launches 29 Starlink satellites on Falcon 9 rocket from NASA’s Kennedy Space Center",
-      "description": "This was the first of planned back-to-back Falcon 9 launches from Florida, less than four hours apart. Liftoff of the Starlink 6-89 mission happened at 10:08 p.m. EST (0308 UTC).",
-      "link": "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-center-2/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "Blue Origin launches twin Mars probes for NASA as New Glenn makes first landing",
-      "description": "Blue Origin launched its second heavy-lift New Glenn rocket Thursday, putting two small NASA satellites onto a long, looping course to Mars to learn more about how the sun has slowly blown away the red planet's once thick atmosphere.",
-      "link": "https://spaceflightnow.com/2025/11/13/blue-origin-launches-twin-mars-probes-for-nasa-as-new-glenn-makes-first-landing/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-13"
-    },
-    {
-      "title": "ULA launches ViaSat-3 following valve replacement on Atlas 5 rocket",
-      "description": "The mission was the second of three planned spacecraft that Viasat plans to operate in geostationary orbit. United Launch Alliance launched from pad 41 at Cape Canaveral Space Force Station at 10:04 p.m. EST (0304 UTC).",
-      "link": "https://spaceflightnow.com/2025/11/13/live-coverage-ula-to-launch-viasat-3-following-valve-replacement-on-atlas-5-rocket/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-13"
-    },
-    {
-      "title": "Launch preview: Blue Origin to launch NASA’s ESCAPADE following scrubs from clouds, space weather",
-      "description": "Blue Origin was able to secure permission from the Federal Aviation Administration for a daytime launch attempt while the emergency order constraining commercial launches remains in place even after the end of the government shutdown. Liftoff is scheduled during an 88-minute-long window that opens at 2:57 p.m. EST (1957 UTC).",
-      "link": "https://spaceflightnow.com/2025/11/13/live-coverage-blue-origin-to-launch-nasas-escapade-following-scrubs-from-clouds-space-weather/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-13"
-    },
-    {
-      "title": "NASA scrubs ESCAPADE launch due to ‘highly elevated solar activity’",
-      "description": "Blue Origin was able to secure permission from the Federal Aviation Administration for a daytime launch attempt while the emergency order constraining commercial launches remains in place during the government shutdown. However, the solar storms are forcing Blue Origin and NASA to find a new launch opportunity.",
-      "link": "https://spaceflightnow.com/2025/11/11/live-coverage-blue-origin-targets-nov-12-new-glenn-launch-following-weekend-weather-scrub/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2025-11-11"
     },
     {
       "title": "Could Terahertz Radar in Cars Save Lives?",
@@ -1801,6 +1161,486 @@
       "date": "2025-11-18"
     },
     {
+      "title": "Education in Mozambique",
+      "description": "Education in Mozambique Ed Stone Sun, 10/26/2025 - 11:04 2003 US$532,502,521 Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership Compact Priority: Improve the service delivery and quality of basic education. UNICEFKoffi Segniagbeto Domestic financing commitment Ministry of Education GPE 2025 data Mozambique’s net primary school enrollment rate is 99%, but less than half of students complete primary education. Education system challenges include management inefficiencies, protracted conflicts in the north, recurrent natural disasters, an",
+      "link": "https://www.globalpartnership.org/where-we-work/mozambique",
+      "source": "GPE",
+      "field": "education",
+      "date": "2025-10-26"
+    },
+    {
+      "title": "Education in Mauritania",
+      "description": "Education in Mauritania Ed Stone Sun, 10/26/2025 - 03:06 2002 US$52,102,665 Multiplier System capacity System transformation Other key documents Partnership compact Priority: Improve teachers' qualification and competences for an efficient and equitable education system. UNESCO, UNICEFAdria Rakotoarivony Ministry of Education GPE 2025 data Mauritania has improved access to education, but 30% of children are still out of school. Those facing the greatest barriers to education include children in rural areas, from poor families, with disabilities, and girls. For children in school, learning is l",
+      "link": "https://www.globalpartnership.org/where-we-work/mauritania",
+      "source": "GPE",
+      "field": "education",
+      "date": "2025-10-26"
+    },
+    {
+      "title": "Donor contributions to GPE",
+      "description": "Donor contributions to GPE Language English Chantal Rigaud Wed, 11/05/2025 - 04:20 File 2025-11-gpe-donor-contributions.xlsx Annual and total donor contributions to the GPE fund as of October 31, 2025, including share of total contributions. The Excel sheet also includes tracking of donor pledges for the 2021-2025 financing period. Document type Financial reports Contribution Date Tue, 01/14/2014 - 12:00 Approving Date Tue, 01/14/2014 - 12:00 Review Date Tue, 01/14/2014 - 12:00 Document Year 2025 Custom background colour Search keywords donors, contributions, replenishment Summary Annual and t",
+      "link": "https://www.globalpartnership.org/content/donor-contributions-gpe",
+      "source": "GPE",
+      "field": "education",
+      "date": "2025-11-05"
+    },
+    {
+      "title": "Education in Mongolia",
+      "description": "Education in Mongolia Ed Stone Sun, 10/26/2025 - 13:11 2006 US$46,238,675 Multiplier System capacity Other key documents Education sector plan Objective: Enhance quality and relevance of education; Increase equal access and inclusiveness; Improve efficiency of education governance. Embassy of Japan in MongoliaMuhammad Tariq Khan Ministry of Education GPE 2025 data The education sector in Mongolia achieved significant outcomes over the past years in modifying pre-primary, primary and secondary education curricula and vocational education and training, higher education and program content; revis",
+      "link": "https://www.globalpartnership.org/where-we-work/mongolia",
+      "source": "GPE",
+      "field": "education",
+      "date": "2025-10-26"
+    },
+    {
+      "title": "ADB Governors Agree to Amend Bank Charter, Opening Path to 50% Expansion of Operations",
+      "description": "Voting by the Board of Governors of ADB has reached the requirement for ratification of a landmark amendment to the Bank’s founding charter that will remove the lending limitation set out in Article 12.1. This will enable a 50% increase in lending to more than $36 billion annually to support developing member countries’ efforts to address critical development priorities in the region.",
+      "link": "https://www.adb.org/news/adb-governors-agree-amend-bank-charter-opening-path-50-percent-expansion-operations",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "ADB Boosts Skills and Employment for Inclusive and Green Growth in Lao PDR",
+      "description": "ADB has approved a $36 million financing package to align technical and vocational education and training with labor market needs in the Lao People’s Democratic Republic.",
+      "link": "https://www.adb.org/news/adb-boosts-skills-and-employment-inclusive-and-green-growth-lao-pdr",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "ADB Support to Expand Inclusive Finance, Strengthen Microfinance Sector in Uzbekistan",
+      "description": "ADB has approved a $300 million policy-based loan—$100 million of which is concessional—to support the Government of Uzbekistan’s ongoing efforts to expand access to finance for underserved micro, small, and medium-sized enterprises, particularly those led by women, while strengthening the country’s microfinance sector.",
+      "link": "https://www.adb.org/news/adb-support-expand-inclusive-finance-strengthen-microfinance-sector-uzbekistan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "New ADB Program to Help Kyrgyz Republic and Tajikistan Respond to Disasters",
+      "description": "ADB has approved a $56.4 million program to help the Kyrgyz Republic and Tajikistan boost their capacity to respond to disasters.",
+      "link": "https://www.adb.org/news/new-adb-program-help-kyrgyz-republic-and-tajikistan-respond-disasters",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "ADB President Announces Plans to Invest Up to $2.5B in Azerbaijan, Strengthen Partnership",
+      "description": "ADB President Masato Kanda met with Azerbaijan President Ilham Aliyev to discuss ADB’s strategic support for the country’s development priorities, aimed at transforming Azerbaijan into a regional hub for connectivity, trade, and energy linking Central Asia and Europe. Mr. Kanda announced that ADB plans to invest up to $2.5 billion to support its objectives through the new Country Partnership Strategy (2025–2029).",
+      "link": "https://www.adb.org/news/adb-president-announces-plans-invest-up-to-2-5-billion-azerbaijan-strengthen-partnership",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-15"
+    },
+    {
+      "title": "ADB Launches Operations in Türkiye with $3 Billion Annual Financing Planned for 2026-2027",
+      "description": "ADB President Masato Kanda met with Türkiye President Recep Tayyip Erdoğan today in Ankara to discuss ADB’s commitment to support the country’s national development agenda, including ADB’s intention to deliver $3 billion annually in project financing for 2026 and 2027.",
+      "link": "https://www.adb.org/news/adb-launches-operations-turkiye-3-billion-annual-financing-planned-2026-2027",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "ADB Approves $10 Million Grant to Combat Noncommunicable Diseases in Vanuatu",
+      "description": "ADB has approved a $10 million grant to help reduce the incidence of noncommunicable diseases and improve access to quality health care across four northern provinces of Vanuatu: Malampa, Penama, Sanma, and Torba.",
+      "link": "https://www.adb.org/news/adb-approves-10-million-grant-combat-noncommunicable-diseases-vanuatu",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-11"
+    },
+    {
+      "title": "ADB Approves $7 Million Grant to Strengthen Tuvalu’s Fiscal Resilience and Inclusive Growth",
+      "description": "ADB has approved a $7 million policy-based grant to help enhance public financial management.",
+      "link": "https://www.adb.org/news/adb-approves-7-million-grant-strengthen-tuvalu-fiscal-resilience-and-inclusive-growth",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-11"
+    },
+    {
+      "title": "ADB Approves $100 Million to Strengthen Macroeconomic Resilience, Transparency in Sri Lanka",
+      "description": "ADB has approved a $100 million financing package to build on Sri Lanka’s progress toward macroeconomic stability and to help achieve sustainable growth following the economic crisis.",
+      "link": "https://www.adb.org/news/adb-approves-100-million-strengthen-macroeconomic-resilience-transparency-sri-lanka",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-10"
+    },
+    {
+      "title": "ADB Invests $145 Million to Improve Water Infrastructure in the Philippines",
+      "description": "The Asian Development Bank (ADB) has made a $145 million (in Philippine pesos equivalent) investment in Maynilad Water Services, Inc. to enhance water security and improve wastewater services in Metro Manila.",
+      "link": "https://www.adb.org/news/adb-invests-145-million-improve-water-infrastructure-philippines",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "ADB President Visits Uzbekistan to Strengthen Partnership, Celebrate 30 Years of Cooperation",
+      "description": "ADB President Masato Kanda met with Uzbekistan President Shavkat Mirziyoyev to reaffirm the strength of ADB’s partnership with the Republic of Uzbekistan and to commemorate 30 years of development cooperation.",
+      "link": "https://www.adb.org/news/adb-president-visits-uzbekistan-strengthen-partnership-celebrate-30-years-cooperation",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Independent Evaluation Calls for Stronger Strategy and Oversight to Maximize Impact of ADB Trust Funds",
+      "description": "A new corporate evaluation by ADB's Independent Evaluation Department finds that ADB-administered trust funds and other cofinancing mechanisms have added significant value to development efforts in Asia and the Pacific, particularly by supporting innovation and climate priorities.",
+      "link": "https://www.adb.org/news/independent-evaluation-calls-stronger-strategy-and-oversight-maximize-impact-adb-trust-funds",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "ADB President Visits Turkmenistan, Marks 25 Years of Partnership",
+      "description": "ADB President Masato Kanda met with Turkmenistan President Serdar Berdimuhamedov at the Presidential Palace to strengthen ADB’s long-standing partnership with Turkmenistan and discuss ways to deepen cooperation in support of the country’s sustainable and inclusive growth.",
+      "link": "https://www.adb.org/news/adb-president-visits-turkmenistan-marks-25-years-partnership",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-11"
+    },
+    {
+      "title": "Joint MDB Statement for COP30",
+      "description": "As Multilateral Development Banks, we are aligned in our commitment to respond to the priorities of our clients—grow their economies, improving livelihoods and creating jobs, making communities and businesses resilient, in the face of intensified climate shocks and ecosystem degradation.",
+      "link": "https://www.adb.org/news/joint-mdb-statement-cop30",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-11"
+    },
+    {
+      "title": "Multilateral Development Banks Unite at COP30 in Call to Action for Resilience and Delivery",
+      "description": "Multilateral Development Banks reaffirmed at COP30 their commitment to respond to their clients' priorities to improve livelihoods and create jobs for the resilience of communities and businesses in the face of intensified climate shocks and ecosystem degradation.",
+      "link": "https://www.adb.org/news/multilateral-development-banks-unite-cop30-call-action-resilience-and-delivery",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-11"
+    },
+    {
+      "title": "High hopes for quantum technologies",
+      "description": "Although still in its early stages, quantum computing is advancing rapidly, along with quantum technologies as a whole. Nobel Prize-awarded work on entangled quantum states and quantum mechanical tunnelling were driving forces behind this progress. Applications of quantum technologies are anticipated to improve our daily lives and contribute to solving global challenges. Quantum mechanics underpins […] The post High hopes for quantum technologies appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/high-hopes-for-quantum-technologies/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-10-29"
+    },
+    {
+      "title": "Fighting disease: “Bloodlines, Mississippi”",
+      "description": "Around the world, scientists and healthcare professionals continue to build on the foundations laid by Nobel Prize laureates. In this short clip from the film Bloodlines, Mississippi, we follow a doctor’s mission to advocate for an often-overlooked community facing preventable losses. Short clip: “Bloodlines, Mississippi” Despite advances in diabetes treatment, amputations continue to devastate communities […] The post Fighting disease: “Bloodlines, Mississippi” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/fighting-disease-bloodlines-mississippi/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Frances Arnold: “Science thrives when ideas are exchanged”",
+      "description": "The risk of losing free flow of ideas and people is one of the most pressing challenges for science, says 2018 chemistry laureate Frances Arnold. In this interview, she also elaborates on the importance of enzymes in healthcare, the promises of AI and the uses of “useless” knowledge in science. How important is basic research […] The post Frances Arnold: “Science thrives when ideas are exchanged” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/frances-arnold-science-thrives-when-ideas-get-exchanged/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-10-28"
+    },
+    {
+      "title": "Nobel Prize award ceremony 2025",
+      "description": "The Nobel Prize award ceremony takes place at the Stockholm Concert Hall, Sweden, on 10 December – the anniversary of Alfred Nobel’s death. At the ceremony, the Nobel Prize in Physics, Chemistry, Physiology or Medicine, Literature and the prize in economic sciences are awarded to the Nobel Prize laureates. More information to follow. The post Nobel Prize award ceremony 2025 appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/ceremonies/nobel-prize-award-ceremony-2025/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "Streams during Nobel Week 2025",
+      "description": "Here you will be able to find the livestreams during Nobel Week 2025. The livestreams include the official Nobel Prize lectures, Nobel Week Dialogue, the Nobel Prize award ceremonies and Nobel Peace Prize Forum. All times are in CET. See Terms of use for Youtube streams. 7 December 14:00 Nobel Prize lectures in physiology or medicine […] The post Streams during Nobel Week 2025 appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/ceremonies/streams-during-nobel-week-2025/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "Fighting disease: “Shadows in Sunlight”",
+      "description": "Around the world, scientists and healthcare professionals continue to build on the foundations laid by Nobel Prize laureates. In the short clip Shadows in Sunlight, directed by Ruhi Hamid, we follow Ishrat Rahim who vaccinates children against polio in Pakistan. Short clip: “Shadows in Sunlight” Ishrat Rahim is one of almost 400,000 women working across […] The post Fighting disease: “Shadows in Sunlight” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/fighting-disease-shadows-in-sunlight/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-10-24"
+    },
+    {
+      "title": "Press programme for Nobel Week 2025",
+      "description": "Press programme Stockholm This is the press programme for Nobel Week 2025 in Stockholm. You will need to apply for accreditation for some of the activities during the week. More information and activities will be added.All times are in CET.Media contacts for Nobel Week in Stockholm Press programme for OsloMedia contact for Nobel Week in […] The post Press programme for Nobel Week 2025 appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/press-programme-for-nobel-week-2025/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-10-17"
+    },
+    {
+      "title": "The 2025 medicine prize – The immune system’s security guards",
+      "description": "The 2025 Nobel Prize in Physiology or Medicine recognises discoveries that have increased our understanding of how the immune system works. The Nobel Prize laureates discovered a previously unknown immune cell called regulatory T cell (TREG). The immune system – one of the masterpieces of evolution We would not survive without a functioning immune system. […] The post The 2025 medicine prize – The immune system’s security guards appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/the-2025-medicine-prize-the-immune-systems-security-guards/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-10-15"
+    },
+    {
+      "title": "ADB Approves $17 Million Grant to Digitalize Livestock Farming in Tajikistan",
+      "description": "ADB has approved $17 million in grant financing to help Tajikistan digitalize and modernize livestock farming, helping people earn more and improve access to nutritious food.",
+      "link": "https://www.adb.org/news/adb-approves-17-million-grant-digitalize-livestock-farming-tajikistan",
+      "source": "Asian Development Bank",
+      "field": "agriculture",
+      "date": "2025-11-21"
+    },
+    {
+      "title": "Harvesting Collaboration for Food Security. Science Week Closes.",
+      "description": "11th April, Nairobi, Kenya: After a remarkable week of science, innovation, and cementing of partnerships, CGIAR’s inaugural Science Week wrapped up at the official closing ceremony led by Ismahane Elouafi, Executive Managing Director, CGIAR, and Eliud Kireger, Director General, Kenya Agricultural & Livestock Research Organization (KALRO). “Over the past days, we’ve explored groundbreaking research, forged […] The post Harvesting Collaboration for Food Security. Science Week Closes. appeared first onCGIAR. The post Harvesting Collaboration for Food Security. Science Week Closes. appeared first",
+      "link": "https://www.cgiar.org/cgiar-science-week-closing/",
+      "source": "CGIAR",
+      "field": "agriculture",
+      "date": "2025-04-14"
+    },
+    {
+      "title": "Bridging Innovation and Implementation: A Collaborative Leap Forward with the Government of India in Transforming Agriculture",
+      "description": "The Government of India recently hosted a significant workshop that brought together representatives from CGIAR centers across India to showcase groundbreaking technologies and innovations ready for immediate scaling, with the goal of aligning these innovations with India’s existing priorities and plans to support the national agenda for agri-food systems transformation. Building on the success of […] The post Bridging Innovation and Implementation: A Collaborative Leap Forward with the Government of India in Transforming Agriculture appeared first onCGIAR. The post Bridging Innovation and Imp",
+      "link": "https://www.cgiar.org/bridging-innovation-and-implementation-a-collaborative-leap-forward-with-the-government-of-india-in-transforming-agriculture/",
+      "source": "CGIAR",
+      "field": "agriculture",
+      "date": "2024-06-17"
+    },
+    {
+      "title": "Acquia DAM portal embed",
+      "description": "The post Acquia DAM portal embed appeared first on CGIAR.",
+      "link": "https://www.cgiar.org/acquia-dam-portal-embed/",
+      "source": "CGIAR",
+      "field": "agriculture",
+      "date": "2025-10-30"
+    },
+    {
+      "title": "Escuchar para impulsar la investigación e innovación agrícola del CGIAR y alcanzar sistemas alimentarios sostenibles, inclusivos y equitativos en América Latina y el Caribe",
+      "description": "Sesión con instituciones académicas y de investigación, y organizaciones internacionales. Sede del CIMMYT, Texcoco, México. ©CIMMYT Por Joaquín Lozano, Director Regional para América Latina y el Caribe del CGIAR En los últimos tres meses, los equipos de país y regionales del CGIAR de todo el mundo han hecho grandes esfuerzos para preparar, llevar a cabo […] The post Escuchar para impulsar la investigación e innovación agrícola del CGIAR y alcanzar sistemas alimentarios sostenibles, inclusivos y equitativos en América Latina y el Caribe appeared first onCGIAR. The post Escuchar para impulsar la",
+      "link": "https://www.cgiar.org/escuchar-para-impulsar-la-investigacion-e-innovacion-agricola-del-cgiar-y-alcanzar-sistemas-alimentarios-sostenibles-inclusivos-y-equitativos-en-america-latina-y-el-caribe/",
+      "source": "CGIAR",
+      "field": "agriculture",
+      "date": "2024-03-25"
+    },
+    {
+      "title": "Black Hole Flare is Biggest and Most Distant Seen",
+      "description": "The most massive stars in the universe are destined to explode as brilliant supernova before collapsing into black holes. Yet one huge star appears to have never fulfilled its destiny; in a twist of irony, the star wandered too close to a gargantuan black hole, which gobbled it up, shredding the star to bits and pieces.That is the most likely explanation to come from authors of a new Nature Astronomy report describing the most powerful and most distant flare of energy ever recorded from a supermassive black hole. The cosmic object was first observed in 2018 by the US National Science Foundatio",
+      "link": "https://www.caltech.edu/about/news/black-hole-flare-is-biggest-and-most-distant-seen",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2025-11-04"
+    },
+    {
+      "title": "NASA’s Quesst Mission Marks X-59’s Historic First Flight",
+      "description": "NASA’s X-59 quiet supersonic research aircraft took off for its historic first flight on Oct. 28, 2025, at 11:14 a.m. EDT from Lockheed Martin Skunk Works in Palmdale, California. The one-of-a-kind aircraft flew for 67 minutes before landing and taxiing to NASA’s Armstrong Flight Research Center in Edwards, California. NASA test pilot Nils Larson flew […]",
+      "link": "https://www.nasa.gov/image-article/nasas-quesst-mission-marks-x-59s-historic-first-flight-2/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Europa Clipper Captures Uranus With Star Tracker Camera",
+      "description": "Description NASA’s Europa Clipper captured this image of a starfield — and the planet Uranus — on Nov. 5, 2025, while experimenting with one of its two stellar reference units. These star-tracking cameras are used for maintaining spacecraft orientation. Within the camera’s field of view — representing 0.1% of the full sky around the spacecraft […]",
+      "link": "https://science.nasa.gov/photojournal/europa-clipper-captures-uranus-with-star-tracker-camera/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "NASA’s Scott Tingle to Serve as Agency’s Chief Astronaut",
+      "description": "NASA named astronaut Scott Tingle as chief of the Astronaut Office at the agency’s Johnson Space Center in Houston, effective Nov. 10. A decorated spaceflight veteran and former captain in the United States Navy, Tingle has logged more than 4,500 flight hours in 51 different aircraft and served as a flight engineer aboard the International […]",
+      "link": "https://www.nasa.gov/news-release/nasas-scott-tingle-to-serve-as-agencys-chief-astronaut/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "NASA Celebrates Five Years of Artemis Accords, Welcomes 3 New Nations",
+      "description": "October marked the fifth anniversary of NASA and the original founders signing the Artemis Accords, as well as the recognition of Hungary, Malaysia and the Philippines joining the expanding coalition dedicated to the peaceful exploration of space. The number of countries involved now totals 59. “NASA welcomes the newest signatories, whose participation strengthens the global […]",
+      "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-celebrates-five-years-of-artemis-accords-welcomes-3-new-nations/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "NASA Sets Coverage for Crew Launch to Join Station Expedition",
+      "description": "NASA astronaut Chris Williams will launch aboard the Roscosmos Soyuz MS-28 spacecraft to the International Space Station on Thursday, Nov. 27, accompanied by cosmonauts Sergey Kud-Sverchkov and Sergei Mikaev, where they will join the Expedition 73 crew advancing scientific research. Williams, Kud-Sverchkov, and Mikaev will lift off at 4:27 a.m. EST (2:27 p.m. Baikonur time) […]",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-crew-launch-to-join-station-expedition/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "NASA Fuels Discovery from Earth to Sky: One Crayon at a Time",
+      "description": "A collaboration between the NASA Earth Science Education Collaborative (NESEC) and Earth to Sky (ETS) – an exciting, growing partnership between NASA, the National Park Service, and other federal, state, and local organizations – is facilitating the implementation of a simple, yet incredibly effective activity that will help millions of national park visitors connect with […]",
+      "link": "https://science.nasa.gov/learning-resources/science-activation/nasa-fuels-discovery-from-earth-to-sky-one-crayon-at-a-time/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "NASA Progresses Toward Artemis II Moon Mission",
+      "description": "As 2026 nears, NASA continues moving forward to launching and flying Artemis II, the first crewed mission under the Artemis campaign, no later than April next year. NASA’s Orion spacecraft, complete with its launch abort system escape tower, is now integrated with the SLS (Space Launch System) rocket in the Vehicle Assembly Building (VAB) at […]",
+      "link": "https://www.nasa.gov/missions/artemis/artemis-2/nasa-progresses-toward-artemis-ii-moon-mission/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Smile approved for launch in spring 2026",
+      "description": "Smile has passed its qualification and flight acceptance review, meaning that it meets all requirements for launch. The launch window has been set for 8 April to 7 May 2026.",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_approved_for_launch_in_spring_2026",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "ESA’s Argonaut press conference",
+      "description": "Video: 01:00:00 The press conference, at the European Astronaut Centre in Cologne, Germany, follows the signing of contracts between Thales Alenia Space Italy, UK and France, OHB system AG (Germany) and Nammo (UK) for the ESA’s lunar lander programme Argonaut. The programme is a key part of ESA’s lunar strategy and will support future robotic and crewed missions, contributing to international efforts to establish a long-term human presence on the Moon.",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/11/ESA_s_Argonaut_press_conference",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Galileo to take its first flight on Ariane 6 on 17 December",
+      "description": "On 17 December 2025, two Galileo satellites will be launched by Arianespace on Ariane 6 from Europe’s Spaceport in French Guiana. This 14th operational launch in the Galileo programme will improve the precision, availability and robustness of the Galileo system. These satellites will benefit the billions of people who use Galileo daily via their smartphone as well as key sectors such as critical infrastructure, autonomous driving, air traffic, maritime, agriculture, emergency services and rescue operations.",
+      "link": "https://www.esa.int/Applications/Satellite_navigation/Galileo_to_take_its_first_flight_on_Ariane_6_on_17_December",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Rare Star System Gives Insights into the Origins of Carbon Dust in the Galaxy",
+      "description": "A detailed new image from NASA's James Webb Space Telescope (JWST) has unveiled the most precise portrait yet of a rare cosmic system: a pair of massive dying stars, known as Wolf–Rayet stars, orbiting tightly around each other. The rare system, named Apep after an ancient Egyptian deity that shares a similar shape, was first imaged in 2016 by the Very Large Telescope in Chile. The new JWST image zooms out to capture the concentric spherical waves of dust that emanate from the star system, giving insight to the primordial origins of the carbon building blocks that could ultimately contribute t",
+      "link": "https://www.caltech.edu/about/news/rare-star-system-gives-insights-into-the-origins-of-carbon-dust-in-the-galaxy",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "What’s Up: November 2025 Skywatching Tips from NASA",
+      "description": "Mars and Mercury will cozy up together in the night sky just after sunset on November 12th. The planets will experience what is known as a conjunction, meaning they appear close together in the sky from our view (even though in real life, Mars and Mercury are well over 100 million miles apart).",
+      "link": "https://science.nasa.gov/solar-system/whats-up-november-2025-skywatching-tips-from-nasa/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "NASA, Aerospace Corporation Study Sharpens Focus on Ammonia Emissions",
+      "description": "The pungent gas contributes to fine airborne particulate pollution, which endangers human health when inhaled and absorbed in the bloodstream. A recent study led by scientists at NASA’s Jet Propulsion Laboratory in Southern California and the nonprofit Aerospace Corporation shows how high-resolution maps of ground-level ammonia plumes can be generated with airborne sensors, highlighting a […]",
+      "link": "https://www.nasa.gov/missions/maia/nasa-aerospace-corporation-study-sharpens-focus-on-ammonia-emissions/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "ESA awards excellent suppliers",
+      "description": "The European Space Agency (ESA) brings public and ESA-wide recognition of the outstanding performance of European companies working in the frame of ESA programmes and projects.",
+      "link": "https://www.esa.int/About_Us/Business_with_ESA/ESA_awards_excellent_suppliers",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Argonaut lunar lander family grows",
+      "description": "Today, the European Space Agency’s Argonaut lunar lander programme welcomes new members to its growing family. At ESA’s European Astronaut Centre (EAC) near Cologne, Germany, Thales Alenia Space Italy – the prime contractor for Argonaut’s first lander – signed agreements with Thales Alenia Space in France, OHB in Germany, and Thales Alenia Space and Nammo in the United Kingdom.",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Argonaut_lunar_lander_family_grows",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Sentinel-6B launch highlights",
+      "description": "Video: 00:02:09 Copernicus Sentinel-6B was launched on 17 November 2025, ready to continue a decades-long mission to track the height of the planet’s seas – a key measure of climate change. The satellite was carried into orbit on a Falcon 9 rocket from the Vandenberg Space Force Base in California, US. Sentinel-6B follows in the footsteps of its predecessor, Sentinel-6 Michael Freilich, which was launched in 2020. The mission is the reference radar altimetry mission that continues the vital record of sea-surface height measurements until at least 2030. Copernicus Sentinel-6 has become the gold",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2025/11/Sentinel-6B_launch_highlights",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Live coverage: Falcon 9 Starlink mission marks 100th launch of the year from Florida’s Space Coast",
+      "description": "The Starlink 6-78 mission, carrying 29 satellites for SpaceX’s internet service, is targeted to roar away from launch complex 39A at 10:39 p.m. EST (0339 UTC).",
+      "link": "https://spaceflightnow.com/2025/11/20/live-coverage-falcon-9-starlink-mission-marks-100th-launch-of-the-year-from-floridas-space-coast/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "SpaceX resumes early evening launches after FAA restrictions lifted",
+      "description": "The Starlink 6-94 mission is scheduled to liftoff from pad 40 at Cape Canaveral Space Force Station, Florida, at 7:12 p.m. EST (0012 UTC), carrying 29 satellites for SpaceX’s Starlink internet service.",
+      "link": "https://spaceflightnow.com/2025/11/18/live-coverage-spacex-resumes-early-evening-launches-after-faa-restrictions-lifted/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Week in images: 10-14 November 2025",
+      "description": "Week in images: 10-14 November 2025 Discover our week through the lens",
+      "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_10-14_November_2025",
+      "source": "ESA",
+      "field": "space",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "SpaceX launches joint NASA-European sea level monitor",
+      "description": "SpaceX launched a joint NASA-European environmental research satellite early Monday, the second in an ongoing billion-dollar project to measure long-term changes in sea level, a key indicator of climate change.",
+      "link": "https://spaceflightnow.com/2025/11/17/spacex-launches-joint-nasa-european-sea-level-monitor/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "SpaceX Falcon 9 to launch international satellite to keep watch on rising sea levels",
+      "description": "The Sentinel-6B satellite will liftoff atop a SpaceX Falcon 9 rocket from Space Launch Complex-4E at Vandenberg Space Force Base at 9:21:42 p.m. PST (12:21:42 a.m. EST / 0521:42 UTC), almost exactly five years after its twin, the Sentinel-6 Michael Freilich, launched from the same pad.",
+      "link": "https://spaceflightnow.com/2025/11/17/live-coverage-spacex-falcon-9-to-launch-international-satellite-to-keep-watch-on-rising-sea-levels/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "SpaceX completes second fastest turnaround between Falcon 9 launches from Cape Canaveral",
+      "description": "The mission is one of two Starlink flights scheduled to fly from Florida within a four-hour window of opportunity. Liftoff of the Starlink 6-85 mission from pad 40 at Cape Canaveral Space Force Station is scheduled for 1:44 a.m. EST (0644 UTC).",
+      "link": "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-predawn-starlink-mission-from-cape-canaveral/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "SpaceX launches 29 Starlink satellites on Falcon 9 rocket from NASA’s Kennedy Space Center",
+      "description": "This was the first of planned back-to-back Falcon 9 launches from Florida, less than four hours apart. Liftoff of the Starlink 6-89 mission happened at 10:08 p.m. EST (0308 UTC).",
+      "link": "https://spaceflightnow.com/2025/11/14/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-nasas-kennedy-space-center-2/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "Blue Origin launches twin Mars probes for NASA as New Glenn makes first landing",
+      "description": "Blue Origin launched its second heavy-lift New Glenn rocket Thursday, putting two small NASA satellites onto a long, looping course to Mars to learn more about how the sun has slowly blown away the red planet's once thick atmosphere.",
+      "link": "https://spaceflightnow.com/2025/11/13/blue-origin-launches-twin-mars-probes-for-nasa-as-new-glenn-makes-first-landing/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "ULA launches ViaSat-3 following valve replacement on Atlas 5 rocket",
+      "description": "The mission was the second of three planned spacecraft that Viasat plans to operate in geostationary orbit. United Launch Alliance launched from pad 41 at Cape Canaveral Space Force Station at 10:04 p.m. EST (0304 UTC).",
+      "link": "https://spaceflightnow.com/2025/11/13/live-coverage-ula-to-launch-viasat-3-following-valve-replacement-on-atlas-5-rocket/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "Launch preview: Blue Origin to launch NASA’s ESCAPADE following scrubs from clouds, space weather",
+      "description": "Blue Origin was able to secure permission from the Federal Aviation Administration for a daytime launch attempt while the emergency order constraining commercial launches remains in place even after the end of the government shutdown. Liftoff is scheduled during an 88-minute-long window that opens at 2:57 p.m. EST (1957 UTC).",
+      "link": "https://spaceflightnow.com/2025/11/13/live-coverage-blue-origin-to-launch-nasas-escapade-following-scrubs-from-clouds-space-weather/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "NASA scrubs ESCAPADE launch due to ‘highly elevated solar activity’",
+      "description": "Blue Origin was able to secure permission from the Federal Aviation Administration for a daytime launch attempt while the emergency order constraining commercial launches remains in place during the government shutdown. However, the solar storms are forcing Blue Origin and NASA to find a new launch opportunity.",
+      "link": "https://spaceflightnow.com/2025/11/11/live-coverage-blue-origin-targets-nov-12-new-glenn-launch-following-weekend-weather-scrub/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-11"
+    },
+    {
       "title": "Building momentum on open inquiry",
       "description": "Schools implement recommendations to foster more, better conversations on tough topics around campus",
       "link": "https://news.harvard.edu/gazette/story/2025/11/building-momentum-on-open-inquiry/",
@@ -1833,12 +1673,212 @@
       "date": "2025-11-12"
     },
     {
-      "title": "This tiny quantum clock packs a billion-fold energy mystery",
-      "description": "Scientists built a tiny clock from single-electron jumps to probe the true energy cost of quantum timekeeping. They discovered that reading the clock’s output requires vastly more energy than the clock uses to function. This measurement process also drives the irreversibility that defines time’s forward direction. The insight could push researchers to rethink how quantum devices handle information.",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251117091138.htm",
-      "source": "ScienceDaily Tech",
+      "title": "In red states, many academic researchers feel fear–and resolve",
+      "description": "State-level mandates prompt changes and small acts of resistance at universities",
+      "link": "https://www.science.org/content/article/red-states-many-academic-researchers-feel-fear-and-resolve",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Headless bodies hint at why Europe’s first farmers vanished",
+      "description": "Wave of mass brutality accompanied the collapse of the first pan-European culture",
+      "link": "https://www.science.org/content/article/headless-bodies-hint-why-europe-s-first-farmers-vanished",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Pigeons sense Earth’s magnetic field in an entirely new way",
+      "description": "Specialized hair cells pick electric currents induced by magnetism",
+      "link": "https://www.science.org/content/article/pigeons-sense-earth-s-magnetic-field-entirely-new-way",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "‘This is censorship.’ Conference requires abstracts to comply with Trump anti-DEI order",
+      "description": "NASA-funded planetary science institute previously scrubbed hundreds of records from its archive",
+      "link": "https://www.science.org/content/article/censorship-conference-requires-abstracts-comply-trump-anti-dei-order",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Why does biology keep building things out of tiles?",
+      "description": "Science talks with two scientists about finding the beauty in nature’s mosaics",
+      "link": "https://www.science.org/content/article/why-does-biology-keep-building-things-out-tiles",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Watch superstretchy bloodworms turn themselves inside out",
+      "description": "The marine worm’s unusually structured proboscis could inspire future soft-bodied robots",
+      "link": "https://www.science.org/content/article/watch-superstretchy-bloodworms-turn-themselves-inside-out",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Despite Trump chaos, NSF avoided feared dip in research financing",
+      "description": "Number of new grants fell by 20%, but got larger, as funder braced for potential budget cut",
+      "link": "https://www.science.org/content/article/despite-trump-chaos-nsf-avoided-feared-dip-research-financing",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Black holes may be source of Milky Way’s mysterious high-energy cosmic rays",
+      "description": "Researchers at Tibetan observatory trace gamma ray light back to violent microquasars",
+      "link": "https://www.science.org/content/article/black-holes-may-be-source-milky-way-s-mysterious-high-energy-cosmic-rays",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Curious gravitational wave may be hint at primordial black holes—or just noise",
+      "description": "Astronomers approach unusual observation with caution and excitement",
+      "link": "https://www.science.org/content/article/curious-gravitational-wave-may-be-hint-primordial-black-holes-or-just-noise",
+      "source": "Science",
       "field": "technology",
       "date": "2025-11-18"
+    },
+    {
+      "title": "Lab-grown models of human brains are advancing rapidly. Can ethics keep pace?",
+      "description": "Whether neural organoids feel pain or should be placed in animals are among the questions swirling around biology’s hot new technology",
+      "link": "https://www.science.org/content/article/lab-grown-models-human-brains-are-advancing-rapidly-can-ethics-keep-pace",
+      "source": "Science",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Faces of MIT: Brian Hanna",
+      "description": "MIT Venture Mentoring Services Operations Manager Brian Hanna matches entrepreneurs with industry professionals who help take their ventures to the next level through personalized mentorship and expert advice.",
+      "link": "https://news.mit.edu/2025/faces-of-mit-brian-hanna-1120",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Scientists get a first look at the innermost region of a white dwarf system",
+      "description": "X-ray observations reveal surprising features of the dying star’s most energetic environment.",
+      "link": "https://news.mit.edu/2025/first-look-innermost-region-white-dwarf-system-1120",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "The cost of thinking",
+      "description": "MIT neuroscientists find a surprising parallel in the ways humans and new AI models solve complex problems.",
+      "link": "https://news.mit.edu/2025/cost-of-thinking-1119",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "How a building creates and defines a region",
+      "description": "A new MIT course explores how built environments can both emerge from and reveal the internal dynamics of their geographic context.",
+      "link": "https://news.mit.edu/2025/how-building-creates-and-defines-region-1119",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "Symposium examines the neural circuits that keep us alive and well",
+      "description": "Seven speakers from around the country convened at MIT to describe some of the latest research on the neural mechanisms that we need to survive.",
+      "link": "https://news.mit.edu/2025/symposium-examines-neural-circuits-keep-us-alive-well-1119",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "A new take on carbon capture",
+      "description": "Mantel, founded by MIT alumni, developed a system that captures CO2 from factories and power plants while delivering steam to customers.",
+      "link": "https://news.mit.edu/2025/mantel-develops-new-take-carbon-capture-1119",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "MIT Energy Initiative conference spotlights research priorities amidst a changing energy landscape",
+      "description": "Industry leaders agree collaboration is key to advancing critical technologies.",
+      "link": "https://news.mit.edu/2025/mit-energy-initiative-conference-1118",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "MIT researchers use CT scans to unravel mysteries of early metal production",
+      "description": "The team adapted the medical technique to study slag waste that was a byproduct of ancient copper smelting.",
+      "link": "https://news.mit.edu/2025/mit-researchers-use-ct-scans-unravel-mysteries-early-metal-production-1118",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Ultrasonic device dramatically speeds harvesting of water from the air",
+      "description": "The system can be paired with any atmospheric water harvesting material to shake out drinking water in minutes instead of hours.",
+      "link": "https://news.mit.edu/2025/ultrasonic-device-dramatically-speeds-harvesting-water-air-1118",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Bigger datasets aren’t always better",
+      "description": "MIT researchers developed a way to identify the smallest dataset that guarantees optimal solutions to complex problems.",
+      "link": "https://news.mit.edu/2025/bigger-datasets-arent-always-better-1118",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Small, inexpensive hydrophone boosts undersea signals",
+      "description": "MIT Lincoln Laboratory researchers designed the hydrophone using common MEMS parts for defense, industrial, and undersea research applications.",
+      "link": "https://news.mit.edu/2025/small-inexpensive-hydrophone-boosts-undersea-signals-1117",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Q&A: On the ethics of catastrophe",
+      "description": "Jack Carson, an MIT second-year undergraduate and EECS major, is the recent winner of the Elie Wiesel Prize in Ethics.",
+      "link": "https://news.mit.edu/2025/qa-jack-carson-ethics-of-catastrophe-1117",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-17"
+    },
+    {
+      "title": "Four from MIT named 2026 Rhodes Scholars",
+      "description": "Vivian Chinoda ’25, Alice Hall, Sofia Lara, and Sophia Wang ’24 will begin postgraduate studies at Oxford University next fall.",
+      "link": "https://news.mit.edu/2025/four-mit-named-2026-rhodes-scholars-1115",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-16"
+    },
+    {
+      "title": "Study suggests 40Hz sensory stimulation may benefit some Alzheimer’s patients for years",
+      "description": "Five volunteers received 40Hz stimulation for around two years after an early-stage clinical study. Those with late-onset Alzheimer’s performed better on assessments than Alzheimer’s patients outside the trial.",
+      "link": "https://news.mit.edu/2025/study-suggests-40hz-sensory-stimulation-may-benefit-some-alzheimers-patients-1114",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "MIT Haystack scientists study recent geospace storms and resulting light shows",
+      "description": "Solar maximum occurred within the past year — good news for aurora watchers, as the most active period for displays at New England latitudes occurs in the three years following solar maximum.",
+      "link": "https://news.mit.edu/2025/mit-haystack-scientists-study-recent-geospace-storms-resulting-auroras-1114",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-14"
+    },
+    {
+      "title": "MIT startup aims to expand America’s lithium production",
+      "description": "Lithios, founded by Mo Alkhadra PhD ’22 and Professor Martin Bazant, is scaling up an electrochemical lithium extraction technology to secure supply chains of the critical metal.",
+      "link": "https://news.mit.edu/2025/mit-startup-lithios-expand-americas-lithium-production-1114",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-14"
     },
     {
       "title": "“Great Unified Microscope” reveals micro and nano worlds in a single view",
@@ -1855,6 +1895,102 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-17"
+    },
+    {
+      "title": "How drones are altering contemporary warfare",
+      "description": "A new book by scholar and military officer Erik Lin-Greenberg examines the evolving dynamics of military and state action centered around drones.",
+      "link": "https://news.mit.edu/2025/how-drones-are-altering-contemporary-warfare-erik-lin-greenberg-book-1113",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-13"
+    },
+    {
+      "title": "New lightweight polymer film can prevent corrosion",
+      "description": "Because it’s nearly impermeable to gases, the polymer coating developed by MIT engineers could be used to protect solar panels, machinery, infrastructure, and more.",
+      "link": "https://news.mit.edu/2025/new-lightweight-polymer-film-can-prevent-corrosion-1112",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Teaching large language models how to absorb new knowledge",
+      "description": "With a new method developed at MIT, an LLM behaves more like a student, writing notes that it studies to memorize new information.",
+      "link": "https://news.mit.edu/2025/teaching-large-language-models-to-absorb-new-knowledge-1112",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-12"
+    },
+    {
+      "title": "Understanding the nuances of human-like intelligence",
+      "description": "Associate Professor Phillip Isola studies the ways in which intelligent machines “think,” in an effort to safely integrate AI into human society.",
+      "link": "https://news.mit.edu/2025/understanding-nuances-human-intelligence-phillip-isola-1111",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-11"
+    },
+    {
+      "title": "Particles that enhance mRNA delivery could reduce vaccine dosage and costs",
+      "description": "Using these nanoparticles to deliver a flu vaccine, researchers observed an effective immune response at a much lower dose.",
+      "link": "https://news.mit.edu/2025/particles-enhance-mrna-delivery-could-reduce-vaccine-dosage-costs-1107",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Giving buildings an “MRI” to make them more energy-efficient and resilient",
+      "description": "Founded by a team from MIT, Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.",
+      "link": "https://news.mit.edu/2025/lamarrai-giving-buildings-mri-to-make-them-more-energy-efficient-resilient-1107",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Charting the future of AI, from safer answers to faster thinking",
+      "description": "MIT PhD students who interned with the MIT-IBM Watson AI Lab Summer Program are pushing AI tools to be more flexible, efficient, and grounded in truth.",
+      "link": "https://news.mit.edu/2025/charting-the-future-of-ai-from-safer-answers-to-faster-thinking-1106",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "MIT physicists observe key evidence of unconventional superconductivity in magic-angle graphene",
+      "description": "The findings could open a route to new forms of higher-temperature superconductors.",
+      "link": "https://news.mit.edu/2025/physicists-observe-evidence-unconventional-superconductivity-graphene-1106",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "Q&A: How folk ballads explain the world",
+      "description": "Ruth Perry’s new book profiles Anna Gordon, a Scotswoman who preserved and transmitted precious popular ballads, and with them national traditions.",
+      "link": "https://news.mit.edu/2025/qa-how-folk-ballads-explain-world-ruth-perry-book-1106",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "Watson Lecture: Ashwin Vasavada (PhD '98) on the Curiosity Rover's Quest to Understand the Habitability of Mars",
+      "description": "Was life ever possible on Mars? On November 19, 2025, at 7:30 p.m., Ashwin Vasavada (PhD '98), a project scientist at the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, will discuss the Curiosity rover's 13-year endeavor to investigate the habitability of the Red Planet.In a public talk called \"Thirteen Years in the Dust: How a Robot Showed that Mars Was Once Habitable,\" Vasavada will explain the prerequisites for life that he, his team of 500 scientists around the world, and the Curiosity rover are looking for on Mars. Vasavada will also describe his day-to-day work with Cur",
+      "link": "https://www.caltech.edu/about/news/watson-lecture-ashwin-vasavada-phd-98-on-curiosity-rovers-quest-to-understand-the-habitability-of-mars",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-11-06"
+    },
+    {
+      "title": "Tracy K. Smith thinks poetry could help bring us together, if we let it",
+      "description": "Two-time U.S. poet laureate recalls her national project to encourage ‘notion that your life must be as important to you as mine is to me’",
+      "link": "https://news.harvard.edu/gazette/story/2025/11/tracy-k-smith-thinks-poetry-could-help-bring-us-together-if-we-let-it/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "On the sea or in the lab, Olivia Hogan-Lopez knows the value of perseverance",
+      "description": "Senior is researching how PFAS chemicals impact humans and the environment",
+      "link": "https://news.harvard.edu/gazette/story/2025/11/on-the-sea-or-in-the-lab-olivia-hogan-lopez-knows-the-value-of-perseverance/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2025-11-20"
     },
     {
       "title": "Scaling innovation in manufacturing with AI",
@@ -2015,142 +2151,6 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-19"
-    },
-    {
-      "title": "Q&A: On the ethics of catastrophe",
-      "description": "Jack Carson, an MIT second-year undergraduate and EECS major, is the recent winner of the Elie Wiesel Prize in Ethics.",
-      "link": "https://news.mit.edu/2025/qa-jack-carson-ethics-of-catastrophe-1117",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-17"
-    },
-    {
-      "title": "Four from MIT named 2026 Rhodes Scholars",
-      "description": "Vivian Chinoda ’25, Alice Hall, Sofia Lara, and Sophia Wang ’24 will begin postgraduate studies at Oxford University next fall.",
-      "link": "https://news.mit.edu/2025/four-mit-named-2026-rhodes-scholars-1115",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-16"
-    },
-    {
-      "title": "Study suggests 40Hz sensory stimulation may benefit some Alzheimer’s patients for years",
-      "description": "Five volunteers received 40Hz stimulation for around two years after an early-stage clinical study. Those with late-onset Alzheimer’s performed better on assessments than Alzheimer’s patients outside the trial.",
-      "link": "https://news.mit.edu/2025/study-suggests-40hz-sensory-stimulation-may-benefit-some-alzheimers-patients-1114",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "MIT Haystack scientists study recent geospace storms and resulting light shows",
-      "description": "Solar maximum occurred within the past year — good news for aurora watchers, as the most active period for displays at New England latitudes occurs in the three years following solar maximum.",
-      "link": "https://news.mit.edu/2025/mit-haystack-scientists-study-recent-geospace-storms-resulting-auroras-1114",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "MIT startup aims to expand America’s lithium production",
-      "description": "Lithios, founded by Mo Alkhadra PhD ’22 and Professor Martin Bazant, is scaling up an electrochemical lithium extraction technology to secure supply chains of the critical metal.",
-      "link": "https://news.mit.edu/2025/mit-startup-lithios-expand-americas-lithium-production-1114",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-14"
-    },
-    {
-      "title": "How drones are altering contemporary warfare",
-      "description": "A new book by scholar and military officer Erik Lin-Greenberg examines the evolving dynamics of military and state action centered around drones.",
-      "link": "https://news.mit.edu/2025/how-drones-are-altering-contemporary-warfare-erik-lin-greenberg-book-1113",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-13"
-    },
-    {
-      "title": "New lightweight polymer film can prevent corrosion",
-      "description": "Because it’s nearly impermeable to gases, the polymer coating developed by MIT engineers could be used to protect solar panels, machinery, infrastructure, and more.",
-      "link": "https://news.mit.edu/2025/new-lightweight-polymer-film-can-prevent-corrosion-1112",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-12"
-    },
-    {
-      "title": "Teaching large language models how to absorb new knowledge",
-      "description": "With a new method developed at MIT, an LLM behaves more like a student, writing notes that it studies to memorize new information.",
-      "link": "https://news.mit.edu/2025/teaching-large-language-models-to-absorb-new-knowledge-1112",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-12"
-    },
-    {
-      "title": "Understanding the nuances of human-like intelligence",
-      "description": "Associate Professor Phillip Isola studies the ways in which intelligent machines “think,” in an effort to safely integrate AI into human society.",
-      "link": "https://news.mit.edu/2025/understanding-nuances-human-intelligence-phillip-isola-1111",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-11"
-    },
-    {
-      "title": "Particles that enhance mRNA delivery could reduce vaccine dosage and costs",
-      "description": "Using these nanoparticles to deliver a flu vaccine, researchers observed an effective immune response at a much lower dose.",
-      "link": "https://news.mit.edu/2025/particles-enhance-mrna-delivery-could-reduce-vaccine-dosage-costs-1107",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-07"
-    },
-    {
-      "title": "Giving buildings an “MRI” to make them more energy-efficient and resilient",
-      "description": "Founded by a team from MIT, Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.",
-      "link": "https://news.mit.edu/2025/lamarrai-giving-buildings-mri-to-make-them-more-energy-efficient-resilient-1107",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-07"
-    },
-    {
-      "title": "Charting the future of AI, from safer answers to faster thinking",
-      "description": "MIT PhD students who interned with the MIT-IBM Watson AI Lab Summer Program are pushing AI tools to be more flexible, efficient, and grounded in truth.",
-      "link": "https://news.mit.edu/2025/charting-the-future-of-ai-from-safer-answers-to-faster-thinking-1106",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-06"
-    },
-    {
-      "title": "MIT physicists observe key evidence of unconventional superconductivity in magic-angle graphene",
-      "description": "The findings could open a route to new forms of higher-temperature superconductors.",
-      "link": "https://news.mit.edu/2025/physicists-observe-evidence-unconventional-superconductivity-graphene-1106",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-06"
-    },
-    {
-      "title": "Q&A: How folk ballads explain the world",
-      "description": "Ruth Perry’s new book profiles Anna Gordon, a Scotswoman who preserved and transmitted precious popular ballads, and with them national traditions.",
-      "link": "https://news.mit.edu/2025/qa-how-folk-ballads-explain-world-ruth-perry-book-1106",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-06"
-    },
-    {
-      "title": "Watson Lecture: Ashwin Vasavada (PhD '98) on the Curiosity Rover's Quest to Understand the Habitability of Mars",
-      "description": "Was life ever possible on Mars? On November 19, 2025, at 7:30 p.m., Ashwin Vasavada (PhD '98), a project scientist at the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, will discuss the Curiosity rover's 13-year endeavor to investigate the habitability of the Red Planet.In a public talk called \"Thirteen Years in the Dust: How a Robot Showed that Mars Was Once Habitable,\" Vasavada will explain the prerequisites for life that he, his team of 500 scientists around the world, and the Curiosity rover are looking for on Mars. Vasavada will also describe his day-to-day work with Cur",
-      "link": "https://www.caltech.edu/about/news/watson-lecture-ashwin-vasavada-phd-98-on-curiosity-rovers-quest-to-understand-the-habitability-of-mars",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-11-06"
-    },
-    {
-      "title": "Tracy K. Smith thinks poetry could help bring us together, if we let it",
-      "description": "Two-time U.S. poet laureate recalls her national project to encourage ‘notion that your life must be as important to you as mine is to me’",
-      "link": "https://news.harvard.edu/gazette/story/2025/11/tracy-k-smith-thinks-poetry-could-help-bring-us-together-if-we-let-it/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "On the sea or in the lab, Olivia Hogan-Lopez knows the value of perseverance",
-      "description": "Senior is researching how PFAS chemicals impact humans and the environment",
-      "link": "https://news.harvard.edu/gazette/story/2025/11/on-the-sea-or-in-the-lab-olivia-hogan-lopez-knows-the-value-of-perseverance/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2025-11-20"
     },
     {
       "title": "Supercomputers decode the strange behavior of Enceladus’s plumes",
