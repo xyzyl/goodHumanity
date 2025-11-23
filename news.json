@@ -1,18 +1,18 @@
 {
   "date": "2025-11-23",
-  "lastUpdated": "2025-11-23T12:28:07.943Z",
+  "lastUpdated": "2025-11-23T16:18:17.167Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "50.8s",
+    "executionTime": "54.1s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 22,
     "totalCandidates": 269,
     "totalSelected": 269,
     "entriesByField": {
       "health": 56,
-      "climate": 24,
+      "climate": 25,
       "energy": 3,
-      "technology": 128,
+      "technology": 127,
       "education": 4,
       "development": 15,
       "peace": 8,
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 23,
+        "kept": 24,
         "changed": 0
       },
       "energy": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 128,
+        "kept": 127,
         "changed": 2
       },
       "education": {
@@ -58,7 +58,7 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 47,
+      "highScoreEntries": 46,
       "topTierSources": 139,
       "highCredibilitySources": 238
     }
@@ -561,14 +561,6 @@
       "date": "2025-09-29"
     },
     {
-      "title": "ADB Launches Project to Conserve Key Philippine Wetlands",
-      "description": "ADB has launched the Philippines Flyway Project to strengthen the conservation of vital wetland ecosystems that protect migratory bird habitats and local livelihoods.",
-      "link": "https://www.adb.org/news/adb-launches-project-conserve-key-philippine-wetlands",
-      "source": "Asian Development Bank",
-      "field": "climate",
-      "date": "2025-11-11"
-    },
-    {
       "title": "IPCC calls for nominations of authors for 2027 Methodology Report on Carbon Dioxide Removal Technologies, Carbon Capture, Utilization and Storage",
       "description": "GENEVA, Nov 19 – The Intergovernmental Panel on Climate Change (IPCC) is calling for nominations of the authors for the 2027 Methodology Report on Carbon Dioxide Removal Technologies, Carbon Capture, Utilization and Storage. Carbon Dioxide Removal refers to anthropogenic activities that remove CO2 from the atmosphere and store it durably in geological reservoirs or in […]",
       "link": "https://www.ipcc.ch/2025/11/19/calltficdrccus/",
@@ -665,6 +657,14 @@
       "date": "2025-09-18"
     },
     {
+      "title": "ADB Launches Project to Conserve Key Philippine Wetlands",
+      "description": "ADB has launched the Philippines Flyway Project to strengthen the conservation of vital wetland ecosystems that protect migratory bird habitats and local livelihoods.",
+      "link": "https://www.adb.org/news/adb-launches-project-conserve-key-philippine-wetlands",
+      "source": "Asian Development Bank",
+      "field": "climate",
+      "date": "2025-11-11"
+    },
+    {
       "title": "COP30: Carbon Brief’s second ‘ask us anything’ webinar",
       "description": "As COP30 reaches its midway point in the Brazilian city of Belém, Carbon Brief has... The post COP30: Carbon Brief’s second ‘ask us anything’ webinar appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/cop30-carbon-briefs-second-ask-us-anything-webinar/",
@@ -687,6 +687,14 @@
       "source": "IUCN",
       "field": "climate",
       "date": "2017-03-28"
+    },
+    {
+      "title": "COP30: Key outcomes agreed at the UN climate talks in Belém",
+      "description": "A voluntary plan to curb fossil fuels, a goal to triple adaptation finance and new... The post COP30: Key outcomes agreed at the UN climate talks in Belém appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/cop30-key-outcomes-agreed-at-the-un-climate-talks-in-belem/",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2025-11-23"
     },
     {
       "title": "COP30 DeBriefed 21 November 2025: ‘Mutirão’ text latest; ‘Roadmaps’ explained; COP finish times plotted",
@@ -721,14 +729,6 @@
       "date": "2025-11-10"
     },
     {
-      "title": "Get to Know the IEEE Board of Directors",
-      "description": "The IEEE Board of Directors shapes the future direction of IEEE and is committed to ensuring IEEE remains a strong and vibrant organization—serving the needs of its members and the engineering and technology community worldwide while fulfilling the IEEE mission of advancing technology for the benefit of humanity. This article features IEEE Board of Directors members Antonio Luque, Ravinder Dahiya, and Joseph Wei. IEEE Senior Member Antonio Luque Director and vice president, Member and Geographic Activities Antonio LuqueAntonio Luque Luque is a professor of electronics engineering at the Univer",
-      "link": "https://spectrum.ieee.org/ieee-board-of-directors-oct25",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-11-13"
-    },
-    {
       "title": "Conference on AI+Science at Caltech a Success",
       "description": "Caltech and the University of Chicago co-hosted the second Conference on AI+Science on November 10 and 11, 2025. The conference—held at the Institute; the Huntington; and online—spotlighted the promise of artificial intelligence (AI) and machine learning in furthering scientific discovery across the physical and biological sciences. Funded by the Margot and Tom Pritzker Foundation, the conference also included the announcement of the inaugural winners of the Margot and Tom Pritzker Prize for AI in Science Research Excellence.\"Over the years, Margot and I have come to believe that science is wh",
       "link": "https://www.caltech.edu/about/news/conference-on-aiscience-at-caltech-a-success",
@@ -745,68 +745,12 @@
       "date": "2025-11-05"
     },
     {
-      "title": "Global carbon emissions will soon flatten or decline",
-      "description": "With China’s surge in renewable energy, greenhouse gases are reaching a turning point",
-      "link": "https://www.science.org/content/article/global-carbon-emissions-will-soon-flatten-or-decline",
-      "source": "Science",
+      "title": "Trillions Spent and Big Software Projects Are Still Failing",
+      "description": "“Why worry about something that isn’t going to happen?” KGB Chairman Charkov’s question to inorganic chemist Valery Legasov in HBO’s “Chernobyl” miniseries makes a good epitaph for the hundreds of software development, modernization, and operational failures I have covered for IEEE Spectrum since my first contribution, to its September 2005 special issue on learning—or rather, not learning—from software failures. I noted then, and it’s still true two decades later: Software failures are universally unbiased. They happen in every country, to large companies and small. They happen in commercial,",
+      "link": "https://spectrum.ieee.org/it-management-software-failures",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2025-11-21"
-    },
-    {
-      "title": "Quantum modeling for breakthroughs in materials science and sustainable energy",
-      "description": "Quantum chemist Ernest Opoku is working on computational methods to study how electrons behave as a School of Science Dean’s Postdoctoral Fellow.",
-      "link": "https://news.mit.edu/2025/quantum-modeling-breakthroughs-materials-science-sustainable-energy-ernest-opoku-1119",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "An improved way to detach cells from culture surfaces",
-      "description": "The approach could transform large-scale biomanufacturing by enabling automated and contamination-conscious workflows for cell therapies, tissue engineering, and regenerative medicine.",
-      "link": "https://news.mit.edu/2025/improved-way-detach-cells-culture-surfaces-1118",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Introducing the MIT-GE Vernova Climate and Energy Alliance",
-      "description": "Five-year collaboration between MIT and GE Vernova aims to accelerate the energy transition and scale new innovations.",
-      "link": "https://news.mit.edu/2025/introducing-mit-ge-vernova-climate-energy-alliance-1118",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Postdoc Awarded L'Oréal USA For Women in Science Grant",
-      "description": "L'Oréal USA has awarded one of five 2025 For Women in Science grants to Caltech's Georgia Squyres, a postdoctoral scholar in the laboratory of Dianne Newman, Gordon M. Binder/Amgen Professor of Biology and Geobiology and Merkin Institute Professor.Squyres investigates the complex world of bacterial communities, specifically biofilms. Biofilms are found in nearly every environment on Earth and have dominated the history of life on our planet. These communities often see bacteria taking on specialized roles to execute intricate group tasks. Squyres employs advanced microscopy techniques to obser",
-      "link": "https://www.caltech.edu/about/news/postdoc-awarded-lor%C3%A9al-usa-for-women-in-science-grant",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-11-18"
-    },
-    {
-      "title": "Leading quantum at an inflection point",
-      "description": "The MIT Quantum Initiative is taking shape, leveraging quantum breakthroughs to drive the future of scientific and technological progress.",
-      "link": "https://news.mit.edu/2025/leading-quantum-inflection-point-1110",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2025-11-10"
-    },
-    {
-      "title": "Precision Genetic Engineering Points to a Future of Sustainable Agriculture",
-      "description": "As Earth's climate warms and changes, sustainable agricultural practices are critical for feeding a rapidly growing population. Can we genetically engineer crops to adapt to drought and other effects of a warming climate?A roadmap for how new techniques and approaches in genomics and plant developmental biology can enable this is illustrated in a recent series of papers by Trevor Nolan, a plant developmental biologist and assistant professor of biology and biological engineering at Caltech. A new review paper in the journal Science outlines a path to improving and enhancing crops by using tool",
-      "link": "https://www.caltech.edu/about/news/precision-genetic-engineering-points-to-a-future-of-sustainable-agriculture",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-11-07"
-    },
-    {
-      "title": "Bill Gates Discusses Human Welfare at the Heart of Climate Progress at Caltech",
-      "description": "On Monday, November 3, 2025, Microsoft founder and philanthropist Bill Gates addressed more than 1,000 Caltech students, postdoctoral scholars, faculty, and staff at Beckman Auditorium speaking on his vision of climate resiliency that prioritizes human welfare.\"Tonight's turnout and the Beckman buzz here are testaments to Bill Gates's ability to capture the public imagination as an entrepreneur, as a businessman, an inventor grappling with implications of science and technology, and as a philanthropist concerned with human health and well-being across the globe,\" said Caltech President Thomas ",
-      "link": "https://www.caltech.edu/about/news/bill-gates-discusses-human-welfare-at-the-heart-of-climate-progress-at-caltech",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-11-05"
+      "date": "2025-11-23"
     },
     {
       "title": "Tips for How to Think Like an Entrepreneur",
@@ -873,12 +817,12 @@
       "date": "2025-11-19"
     },
     {
-      "title": "How to Spot a Counterfeit Lithium-Ion Battery",
-      "description": "As an auditor of battery manufacturers around the world, University of Maryland mechanical engineer Michael Pecht frequently finds himself touring spotless production floors. They’re akin to “the cleanest hospital that you could imagine–it’s semiconductor-type cleanliness,” he says. But he’s also seen the opposite, and plenty of it. Pecht estimates he’s audited dozens of battery factories where he found employees watering plants next to a production line or smoking cigarettes where particulates and contaminants can get into battery components and compromise their performance and safety. Unfort",
-      "link": "https://spectrum.ieee.org/counterfeit-lithium-ion-batteries",
-      "source": "IEEE Spectrum",
+      "title": "Global carbon emissions will soon flatten or decline",
+      "description": "With China’s surge in renewable energy, greenhouse gases are reaching a turning point",
+      "link": "https://www.science.org/content/article/global-carbon-emissions-will-soon-flatten-or-decline",
+      "source": "Science",
       "field": "technology",
-      "date": "2025-11-22"
+      "date": "2025-11-21"
     },
     {
       "title": "Video Friday: DARPA Challenge Focuses on Heavy Lift Drones",
@@ -903,6 +847,14 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-23"
+    },
+    {
+      "title": "How to Spot a Counterfeit Lithium-Ion Battery",
+      "description": "As an auditor of battery manufacturers around the world, University of Maryland mechanical engineer Michael Pecht frequently finds himself touring spotless production floors. They’re akin to “the cleanest hospital that you could imagine–it’s semiconductor-type cleanliness,” he says. But he’s also seen the opposite, and plenty of it. Pecht estimates he’s audited dozens of battery factories where he found employees watering plants next to a production line or smoking cigarettes where particulates and contaminants can get into battery components and compromise their performance and safety. Unfort",
+      "link": "https://spectrum.ieee.org/counterfeit-lithium-ion-batteries",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-11-22"
     },
     {
       "title": "Could Terahertz Radar in Cars Save Lives?",
@@ -937,6 +889,22 @@
       "date": "2025-11-19"
     },
     {
+      "title": "Designing digital resilience in the agentic AI era",
+      "description": "Digital resilience—the ability to prevent, withstand, and recover from digital disruptions—has long been a strategic priority for enterprises. With the rise of agentic AI, the urgency for robust resilience is greater than ever. Agentic AI represents a new generation of autonomous systems capable of proactive planning, reasoning, and executing tasks with minimal human intervention. As…",
+      "link": "https://www.technologyreview.com/2025/11/20/1127941/designing-digital-resilience-in-the-agentic-ai-era/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "Why Is Everyone’s Robot Folding Clothes?",
+      "description": "It seems like every week there’s a new video of a robot folding clothes. We’ve had some fantastic demonstrations, like this semi-autonomous video from Weave Robotics on X. It’s awesome stuff, but Weave is far from the only company producing these kinds of videos. Figure 02 is folding clothes. Figure 03 is folding clothes. Physical Intelligence launched their flagship vision-language-action model, pi0, with an amazing video of a robot folding clothes after unloading a laundry machine. You can see robots folding clothes live at robotics expos. Even before all this, Google showed clothes folding ",
+      "link": "https://spectrum.ieee.org/robots-folding-clothes",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
       "title": "Students Compete—and Cooperate—in FIRST Global Robotics Challenge",
       "description": "Aspiring engineers from 191 countries gathered in Panama City in October to compete in the FIRST Global Robotics Challenge. The annual contest aims to foster problem-solving, cooperation, and inspire the next generation of engineers through three challenges that are inspired by a different theme every year. Teams of students from 14 to 18 years old from around the world compete in the three day event, remotely operating their robots to complete the challenges. This year’s topic was “Eco-equilibrium,” emphasizing the importance of preserving ecosystems and protecting vulnerable species. Turning",
       "link": "https://spectrum.ieee.org/first-global-robotics-challenge",
@@ -945,20 +913,76 @@
       "date": "2025-11-15"
     },
     {
-      "title": "Hidden copper switch supercharges green ammonia production",
-      "description": "Researchers discovered that copper oxide catalysts form metallic copper mid-reaction, triggering a dramatic boost in ammonia output. The insight offers a roadmap for designing cleaner, more efficient ammonia-production technologies.",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251122044325.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-11-22"
-    },
-    {
       "title": "Century-old catalysis puzzle cracked by measuring a fraction of an electron",
       "description": "Scientists have directly measured the minuscule electron sharing that makes precious-metal catalysts so effective. Their new technique, IET, reveals how molecules bind and react on metal surfaces with unprecedented clarity. The insights promise faster discovery of advanced catalysts for energy, chemicals, and manufacturing.",
       "link": "https://www.sciencedaily.com/releases/2025/11/251120002617.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-21"
+    },
+    {
+      "title": "Quantum modeling for breakthroughs in materials science and sustainable energy",
+      "description": "Quantum chemist Ernest Opoku is working on computational methods to study how electrons behave as a School of Science Dean’s Postdoctoral Fellow.",
+      "link": "https://news.mit.edu/2025/quantum-modeling-breakthroughs-materials-science-sustainable-energy-ernest-opoku-1119",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-19"
+    },
+    {
+      "title": "An improved way to detach cells from culture surfaces",
+      "description": "The approach could transform large-scale biomanufacturing by enabling automated and contamination-conscious workflows for cell therapies, tissue engineering, and regenerative medicine.",
+      "link": "https://news.mit.edu/2025/improved-way-detach-cells-culture-surfaces-1118",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Introducing the MIT-GE Vernova Climate and Energy Alliance",
+      "description": "Five-year collaboration between MIT and GE Vernova aims to accelerate the energy transition and scale new innovations.",
+      "link": "https://news.mit.edu/2025/introducing-mit-ge-vernova-climate-energy-alliance-1118",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Postdoc Awarded L'Oréal USA For Women in Science Grant",
+      "description": "L'Oréal USA has awarded one of five 2025 For Women in Science grants to Caltech's Georgia Squyres, a postdoctoral scholar in the laboratory of Dianne Newman, Gordon M. Binder/Amgen Professor of Biology and Geobiology and Merkin Institute Professor.Squyres investigates the complex world of bacterial communities, specifically biofilms. Biofilms are found in nearly every environment on Earth and have dominated the history of life on our planet. These communities often see bacteria taking on specialized roles to execute intricate group tasks. Squyres employs advanced microscopy techniques to obser",
+      "link": "https://www.caltech.edu/about/news/postdoc-awarded-lor%C3%A9al-usa-for-women-in-science-grant",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-11-18"
+    },
+    {
+      "title": "Leading quantum at an inflection point",
+      "description": "The MIT Quantum Initiative is taking shape, leveraging quantum breakthroughs to drive the future of scientific and technological progress.",
+      "link": "https://news.mit.edu/2025/leading-quantum-inflection-point-1110",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2025-11-10"
+    },
+    {
+      "title": "Precision Genetic Engineering Points to a Future of Sustainable Agriculture",
+      "description": "As Earth's climate warms and changes, sustainable agricultural practices are critical for feeding a rapidly growing population. Can we genetically engineer crops to adapt to drought and other effects of a warming climate?A roadmap for how new techniques and approaches in genomics and plant developmental biology can enable this is illustrated in a recent series of papers by Trevor Nolan, a plant developmental biologist and assistant professor of biology and biological engineering at Caltech. A new review paper in the journal Science outlines a path to improving and enhancing crops by using tool",
+      "link": "https://www.caltech.edu/about/news/precision-genetic-engineering-points-to-a-future-of-sustainable-agriculture",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-11-07"
+    },
+    {
+      "title": "Bill Gates Discusses Human Welfare at the Heart of Climate Progress at Caltech",
+      "description": "On Monday, November 3, 2025, Microsoft founder and philanthropist Bill Gates addressed more than 1,000 Caltech students, postdoctoral scholars, faculty, and staff at Beckman Auditorium speaking on his vision of climate resiliency that prioritizes human welfare.\"Tonight's turnout and the Beckman buzz here are testaments to Bill Gates's ability to capture the public imagination as an entrepreneur, as a businessman, an inventor grappling with implications of science and technology, and as a philanthropist concerned with human health and well-being across the globe,\" said Caltech President Thomas ",
+      "link": "https://www.caltech.edu/about/news/bill-gates-discusses-human-welfare-at-the-heart-of-climate-progress-at-caltech",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-11-05"
+    },
+    {
+      "title": "Two-Volume Essential Einstein Collection is Now Available",
+      "description": "Two Caltech historians associated with the Einstein Papers Project have gathered together what they consider to be the most important of Einstein's writings, scientific and otherwise, in a two-volume set titled The Essential Einstein, published by Princeton University Press.Diana Kormos-Buchwald, the Robert M. Abbey Professor of History and director and general editor of the Einstein Papers Project teamed up with Tilman Sauer, a visiting associate in history at Caltech and professor for the history of mathematics and natural sciences at Johannes Gutenberg Universität in Mainz, Germany, to sele",
+      "link": "https://www.caltech.edu/about/news/two-volume-essential-einstein-collection",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2025-10-31"
     },
     {
       "title": "Can a smaller U.S. National Academies remain relevant?",
@@ -1031,14 +1055,6 @@
       "source": "Science",
       "field": "technology",
       "date": "2025-11-19"
-    },
-    {
-      "title": "Nearly 47 million Americans live near hidden fossil fuel sites",
-      "description": "A nationwide analysis has uncovered how sprawling fossil fuel infrastructure sits surprisingly close to millions of American homes. The research shows that 46.6 million people live within about a mile of wells, refineries, pipelines, storage sites, or transport facilities. Many of these locations release pollutants that may affect nearby communities, yet mid-supply-chain sites have rarely been studied. The findings reveal major gaps in understanding how this hidden network affects health.",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251118212039.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-11-20"
     },
     {
       "title": "Josh Randolph: Taking care of others as an EMT and ROTC leader",
@@ -1119,14 +1135,6 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2025-11-06"
-    },
-    {
-      "title": "Two-Volume Essential Einstein Collection is Now Available",
-      "description": "Two Caltech historians associated with the Einstein Papers Project have gathered together what they consider to be the most important of Einstein's writings, scientific and otherwise, in a two-volume set titled The Essential Einstein, published by Princeton University Press.Diana Kormos-Buchwald, the Robert M. Abbey Professor of History and director and general editor of the Einstein Papers Project teamed up with Tilman Sauer, a visiting associate in history at Caltech and professor for the history of mathematics and natural sciences at Johannes Gutenberg Universität in Mainz, Germany, to sele",
-      "link": "https://www.caltech.edu/about/news/two-volume-essential-einstein-collection",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2025-10-31"
     },
     {
       "title": "MIT Energy Initiative conference spotlights research priorities amidst a changing energy landscape",
@@ -1281,6 +1289,14 @@
       "date": "2025-11-18"
     },
     {
+      "title": "Multilateral Development Banks Unite at COP30 in Call to Action for Resilience and Delivery",
+      "description": "Multilateral Development Banks reaffirmed at COP30 their commitment to respond to their clients' priorities to improve livelihoods and create jobs for the resilience of communities and businesses in the face of intensified climate shocks and ecosystem degradation.",
+      "link": "https://www.adb.org/news/multilateral-development-banks-unite-cop30-call-action-resilience-and-delivery",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2025-11-11"
+    },
+    {
       "title": "Independent Evaluation Calls for Stronger Strategy and Oversight to Maximize Impact of ADB Trust Funds",
       "description": "A new corporate evaluation by ADB's Independent Evaluation Department finds that ADB-administered trust funds and other cofinancing mechanisms have added significant value to development efforts in Asia and the Pacific, particularly by supporting innovation and climate priorities.",
       "link": "https://www.adb.org/news/independent-evaluation-calls-stronger-strategy-and-oversight-maximize-impact-adb-trust-funds",
@@ -1297,20 +1313,20 @@
       "date": "2025-11-11"
     },
     {
-      "title": "Multilateral Development Banks Unite at COP30 in Call to Action for Resilience and Delivery",
-      "description": "Multilateral Development Banks reaffirmed at COP30 their commitment to respond to their clients' priorities to improve livelihoods and create jobs for the resilience of communities and businesses in the face of intensified climate shocks and ecosystem degradation.",
-      "link": "https://www.adb.org/news/multilateral-development-banks-unite-cop30-call-action-resilience-and-delivery",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2025-11-11"
-    },
-    {
       "title": "ADB President Visits Turkmenistan, Marks 25 Years of Partnership",
       "description": "ADB President Masato Kanda met with Turkmenistan President Serdar Berdimuhamedov at the Presidential Palace to strengthen ADB’s long-standing partnership with Turkmenistan and discuss ways to deepen cooperation in support of the country’s sustainable and inclusive growth.",
       "link": "https://www.adb.org/news/adb-president-visits-turkmenistan-marks-25-years-partnership",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2025-11-11"
+    },
+    {
+      "title": "Fighting disease: “Bloodlines, Mississippi”",
+      "description": "Around the world, scientists and healthcare professionals continue to build on the foundations laid by Nobel Prize laureates. In this short clip from the film Bloodlines, Mississippi, we follow a doctor’s mission to advocate for an often-overlooked community facing preventable losses. Short clip: “Bloodlines, Mississippi” Despite advances in diabetes treatment, amputations continue to devastate communities […] The post Fighting disease: “Bloodlines, Mississippi” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/fighting-disease-bloodlines-mississippi/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2025-11-12"
     },
     {
       "title": "High hopes for quantum technologies",
@@ -1321,12 +1337,12 @@
       "date": "2025-10-29"
     },
     {
-      "title": "Fighting disease: “Bloodlines, Mississippi”",
-      "description": "Around the world, scientists and healthcare professionals continue to build on the foundations laid by Nobel Prize laureates. In this short clip from the film Bloodlines, Mississippi, we follow a doctor’s mission to advocate for an often-overlooked community facing preventable losses. Short clip: “Bloodlines, Mississippi” Despite advances in diabetes treatment, amputations continue to devastate communities […] The post Fighting disease: “Bloodlines, Mississippi” appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/fighting-disease-bloodlines-mississippi/",
+      "title": "Streams during Nobel Week 2025",
+      "description": "Here you will be able to find the livestreams during Nobel Week 2025. The livestreams include the official Nobel Prize lectures, Nobel Week Dialogue, the Nobel Prize award ceremonies and Nobel Peace Prize Forum. All times are in CET. See Terms of use for Youtube streams. 7 December 8 December 9 December 10 December 11 […] The post Streams during Nobel Week 2025 appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/ceremonies/streams-during-nobel-week-2025/",
       "source": "Nobel Prize",
       "field": "peace",
-      "date": "2025-11-12"
+      "date": "2025-10-24"
     },
     {
       "title": "Frances Arnold: “Science thrives when ideas are exchanged”",
@@ -1340,14 +1356,6 @@
       "title": "Nobel Prize award ceremony 2025",
       "description": "The Nobel Prize award ceremony takes place at the Stockholm Concert Hall, Sweden, on 10 December – the anniversary of Alfred Nobel’s death. At the ceremony, the Nobel Prize in Physics, Chemistry, Physiology or Medicine, Literature and the prize in economic sciences are awarded to the Nobel Prize laureates. More information to follow. The post Nobel Prize award ceremony 2025 appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/ceremonies/nobel-prize-award-ceremony-2025/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2025-10-24"
-    },
-    {
-      "title": "Streams during Nobel Week 2025",
-      "description": "Here you will be able to find the livestreams during Nobel Week 2025. The livestreams include the official Nobel Prize lectures, Nobel Week Dialogue, the Nobel Prize award ceremonies and Nobel Peace Prize Forum. All times are in CET. See Terms of use for Youtube streams. 7 December 8 December 9 December 10 December 11 […] The post Streams during Nobel Week 2025 appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/ceremonies/streams-during-nobel-week-2025/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2025-10-24"
@@ -1521,6 +1529,14 @@
       "date": "2025-11-20"
     },
     {
+      "title": "Rare Star System Gives Insights into the Origins of Carbon Dust in the Galaxy",
+      "description": "A detailed new image from NASA's James Webb Space Telescope (JWST) has unveiled the most precise portrait yet of a rare cosmic system: a pair of massive dying stars, known as Wolf–Rayet stars, orbiting tightly around each other. The rare system, named Apep after an ancient Egyptian deity that shares a similar shape, was first imaged in 2016 by the Very Large Telescope in Chile. The new JWST image zooms out to capture the concentric spherical waves of dust that emanate from the star system, giving insight to the primordial origins of the carbon building blocks that could ultimately contribute t",
+      "link": "https://www.caltech.edu/about/news/rare-star-system-gives-insights-into-the-origins-of-carbon-dust-in-the-galaxy",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2025-11-19"
+    },
+    {
       "title": "Week in images: 17-21 November 2025",
       "description": "Week in images: 17-21 November 2025 Discover our week through the lens",
       "link": "https://www.esa.int/About_Us/Week_in_images/Week_in_images_17-21_November_2025",
@@ -1537,22 +1553,6 @@
       "date": "2025-11-21"
     },
     {
-      "title": "ESA awards excellent suppliers",
-      "description": "The European Space Agency (ESA) brings public and ESA-wide recognition of the outstanding performance of European companies working in the frame of ESA programmes and projects.",
-      "link": "https://www.esa.int/About_Us/Business_with_ESA/ESA_awards_excellent_suppliers",
-      "source": "ESA",
-      "field": "space",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "Rare Star System Gives Insights into the Origins of Carbon Dust in the Galaxy",
-      "description": "A detailed new image from NASA's James Webb Space Telescope (JWST) has unveiled the most precise portrait yet of a rare cosmic system: a pair of massive dying stars, known as Wolf–Rayet stars, orbiting tightly around each other. The rare system, named Apep after an ancient Egyptian deity that shares a similar shape, was first imaged in 2016 by the Very Large Telescope in Chile. The new JWST image zooms out to capture the concentric spherical waves of dust that emanate from the star system, giving insight to the primordial origins of the carbon building blocks that could ultimately contribute t",
-      "link": "https://www.caltech.edu/about/news/rare-star-system-gives-insights-into-the-origins-of-carbon-dust-in-the-galaxy",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2025-11-19"
-    },
-    {
       "title": "Falcon 9 rocket continues Starlink deployments with launch from Cape Canaveral",
       "description": "Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station occurred at 2:53 a.m. EST (0753 UTC).",
       "link": "https://spaceflightnow.com/2025/11/21/live-coverage-falcon-9-rocket-to-continue-starlink-deployments-with-launch-from-cape-canaveral/",
@@ -1565,6 +1565,14 @@
       "description": "The Starlink 6-78 mission, carrying 29 satellites for SpaceX’s internet service, is targeted to roar away from launch complex 39A at 10:39 p.m. EST (0339 UTC).",
       "link": "https://spaceflightnow.com/2025/11/20/live-coverage-falcon-9-starlink-mission-marks-100th-launch-of-the-year-from-floridas-space-coast/",
       "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "ESA awards excellent suppliers",
+      "description": "The European Space Agency (ESA) brings public and ESA-wide recognition of the outstanding performance of European companies working in the frame of ESA programmes and projects.",
+      "link": "https://www.esa.int/About_Us/Business_with_ESA/ESA_awards_excellent_suppliers",
+      "source": "ESA",
       "field": "space",
       "date": "2025-11-20"
     },
@@ -1713,6 +1721,22 @@
       "date": "2025-11-07"
     },
     {
+      "title": "Nearly 47 million Americans live near hidden fossil fuel sites",
+      "description": "A nationwide analysis has uncovered how sprawling fossil fuel infrastructure sits surprisingly close to millions of American homes. The research shows that 46.6 million people live within about a mile of wells, refineries, pipelines, storage sites, or transport facilities. Many of these locations release pollutants that may affect nearby communities, yet mid-supply-chain sites have rarely been studied. The findings reveal major gaps in understanding how this hidden network affects health.",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251118212039.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
+      "title": "MIT ultrasonic tech pulls drinking water from air in minutes",
+      "description": "MIT engineers have created an ultrasonic device that rapidly frees water from materials designed to absorb moisture from the air. Instead of waiting hours for heat to evaporate the trapped water, the system uses high-frequency vibrations to release droplets in just minutes. It can be powered by a small solar cell and programmed to cycle continuously throughout the day. The breakthrough could help communities with limited access to fresh water.",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251120002834.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-11-20"
+    },
+    {
       "title": "Giving buildings an “MRI” to make them more energy-efficient and resilient",
       "description": "Founded by a team from MIT, Lamarr.AI uses drones, thermal imaging, and AI to help property owners make targeted investments in their buildings.",
       "link": "https://news.mit.edu/2025/lamarrai-giving-buildings-mri-to-make-them-more-energy-efficient-resilient-1107",
@@ -1857,33 +1881,9 @@
       "date": "2025-11-20"
     },
     {
-      "title": "Designing digital resilience in the agentic AI era",
-      "description": "Digital resilience—the ability to prevent, withstand, and recover from digital disruptions—has long been a strategic priority for enterprises. With the rise of agentic AI, the urgency for robust resilience is greater than ever. Agentic AI represents a new generation of autonomous systems capable of proactive planning, reasoning, and executing tasks with minimal human intervention. As…",
-      "link": "https://www.technologyreview.com/2025/11/20/1127941/designing-digital-resilience-in-the-agentic-ai-era/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "The Download: what’s next for electricity, and living in the conspiracy age",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things to know about the future of electricity The International Energy Agency recently released the latest version of the World Energy Outlook, the annual report that takes stock of the current state…",
-      "link": "https://www.technologyreview.com/2025/11/20/1128183/the-download-whats-next-for-electricity-and-living-in-the-conspiracy-age/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
       "title": "This IBM Engineer Is Pushing Quantum Computing Out of the Lab",
       "description": "Genya Crossman is a lifelong learner passionate about helping people understand and use quantum computing to solve the world’s most complex problems. So, she is excited that quantum computing is in the spotlight this year. UNESCO declared 2025 the International Year of Quantum Science and Technology. It’s also the 100th anniversary of physicist Werner Heisenberg’s “On the Quantum-Theoretical Reinterpretation of Kinematic and Mechanical Relationships,” the first published paper on quantum mechanics. Crossman, an IEEE member, is a quantum strategy consultant at IBM in Germany. As a full-time sta",
       "link": "https://spectrum.ieee.org/quantum-computing-ieee-genya-crossman",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2025-11-19"
-    },
-    {
-      "title": "Why Is Everyone’s Robot Folding Clothes?",
-      "description": "It seems like every week there’s a new video of a robot folding clothes. We’ve had some fantastic demonstrations, like this semi-autonomous video from Weave Robotics on X. It’s awesome stuff, but Weave is far from the only company producing these kinds of videos. Figure 02 is folding clothes. Figure 03 is folding clothes. Physical Intelligence launched their flagship vision-language-action model, pi0, with an amazing video of a robot folding clothes after unloading a laundry machine. You can see robots folding clothes live at robotics expos. Even before all this, Google showed clothes folding ",
-      "link": "https://spectrum.ieee.org/robots-folding-clothes",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2025-11-19"
@@ -1921,6 +1921,14 @@
       "date": "2025-11-22"
     },
     {
+      "title": "Hidden copper switch supercharges green ammonia production",
+      "description": "Researchers discovered that copper oxide catalysts form metallic copper mid-reaction, triggering a dramatic boost in ammonia output. The insight offers a roadmap for designing cleaner, more efficient ammonia-production technologies.",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251122044325.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2025-11-22"
+    },
+    {
       "title": "Japanese spacecraft faces a massive challenge from a house-size asteroid",
       "description": "New observations show that asteroid 1998 KY26 is a mere 11 meters across and spinning twice as fast as previously thought. The discovery adds complexity to Hayabusa2’s 2031 mission but also heightens scientific interest. The asteroid’s composition remains uncertain, making the encounter even more compelling. Insights from this work could improve future asteroid-defense and exploration efforts.",
       "link": "https://www.sciencedaily.com/releases/2025/11/251120002619.htm",
@@ -1932,14 +1940,6 @@
       "title": "A compact fusion machine just hit gigapascal pressures",
       "description": "Operating a new device named the Fusion Z-pinch Experiment 3, or FuZE-3, Zap Energy has now achieved plasmas with electron pressures as high as 830 megapascals (MPa), or 1.6 gigapascals (GPa) total, comparable to the pressures found deep below Earth’s crust.",
       "link": "https://www.sciencedaily.com/releases/2025/11/251120002836.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-11-20"
-    },
-    {
-      "title": "MIT ultrasonic tech pulls drinking water from air in minutes",
-      "description": "MIT engineers have created an ultrasonic device that rapidly frees water from materials designed to absorb moisture from the air. Instead of waiting hours for heat to evaporate the trapped water, the system uses high-frequency vibrations to release droplets in just minutes. It can be powered by a small solar cell and programmed to cycle continuously throughout the day. The breakthrough could help communities with limited access to fresh water.",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251120002834.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-20"
@@ -1975,6 +1975,14 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-17"
+    },
+    {
+      "title": "The Download: what’s next for electricity, and living in the conspiracy age",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things to know about the future of electricity The International Energy Agency recently released the latest version of the World Energy Outlook, the annual report that takes stock of the current state…",
+      "link": "https://www.technologyreview.com/2025/11/20/1128183/the-download-whats-next-for-electricity-and-living-in-the-conspiracy-age/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2025-11-20"
     },
     {
       "title": "Three things to know about the future of electricity",
@@ -2199,14 +2207,6 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2025-11-21"
-    },
-    {
-      "title": "Light has been hiding a magnetic secret for nearly 200 years",
-      "description": "New research shows that light’s magnetic field is far more influential than scientists once believed. The team found that this magnetic component significantly affects how light rotates as it passes through certain materials. Their work challenges a 180-year-old understanding of the Faraday Effect and opens pathways to new optical and magnetic technologies.",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251120091945.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2025-11-20"
     },
     {
       "title": "Massive hidden structures deep inside Earth may explain how life began",
