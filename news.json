@@ -1,22 +1,22 @@
 {
   "date": "2026-02-18",
-  "lastUpdated": "2026-02-18T16:58:42.560Z",
+  "lastUpdated": "2026-02-18T20:34:51.270Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "46.2s",
+    "executionTime": "61.0s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 22,
-    "totalCandidates": 255,
-    "totalSelected": 255,
+    "totalCandidates": 257,
+    "totalSelected": 257,
     "entriesByField": {
       "health": 52,
       "climate": 24,
       "energy": 2,
-      "technology": 117,
+      "technology": 118,
       "education": 9,
       "development": 18,
       "peace": 9,
-      "space": 24
+      "space": 25
     },
     "categoryIntegrity": {
       "health": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 117,
+        "kept": 118,
         "changed": 2
       },
       "education": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 24,
+        "kept": 25,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 47,
-      "topTierSources": 139,
-      "highCredibilitySources": 231
+      "highScoreEntries": 49,
+      "topTierSources": 140,
+      "highCredibilitySources": 233
     }
   },
   "entries": [
@@ -78,6 +78,14 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-02-14"
+    },
+    {
+      "title": "Tomorrow’s Smart Pills Will Deliver Drugs and Take Biopsies",
+      "description": "One day soon, a doctor might prescribe a pill that doesn’t just deliver medicine but also reports back on what it finds inside you—and then takes actions based on its findings. Instead of scheduling an endoscopy or CT scan, you’d swallow an electronic capsule smaller than a multivitamin. As it travels through your digestive system, it could check tissue health, look for cancerous changes, and send data to your doctor. It could even release drugs exactly where they’re needed or snip a tiny biopsy sample before passing harmlessly out of your body. This dream of a do-it-all pill is driving a surg",
+      "link": "https://spectrum.ieee.org/ingestible-electronics",
+      "source": "IEEE Spectrum",
+      "field": "health",
+      "date": "2026-02-18"
     },
     {
       "title": "[Editorial] Statin safety: when warnings outlive the evidence",
@@ -142,14 +150,6 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-01-16"
-    },
-    {
-      "title": "Tomorrow’s Smart Pills Will Deliver Drugs and Take Biopsies",
-      "description": "One day soon, a doctor might prescribe a pill that doesn’t just deliver medicine but also reports back on what it finds inside you—and then takes actions based on its findings. Instead of scheduling an endoscopy or CT scan, you’d swallow an electronic capsule smaller than a multivitamin. As it travels through your digestive system, it could check tissue health, look for cancerous changes, and send data to your doctor. It could even release drugs exactly where they’re needed or snip a tiny biopsy sample before passing harmlessly out of your body. This dream of a do-it-all pill is driving a surg",
-      "link": "https://spectrum.ieee.org/ingestible-electronics",
-      "source": "IEEE Spectrum",
-      "field": "health",
-      "date": "2026-02-18"
     },
     {
       "title": "[Viewpoint] The NHS 10-year plan: between aspiration and implementation",
@@ -480,18 +480,18 @@
       "date": "2026-01-29"
     },
     {
-      "title": "NOAA installs new PORTS® in Boston Harbor",
-      "description": "NOAA installs new PORTS® in Boston Harbor New navigational system will improve safety in one of nation’s busiest ports February 17, 2026 A container ship is docked at Massports Conley Container Terminal on Boston Harbor in 2024. (Image credit: Colleen Roche/NOAA Office of Coast Survey) Download Image NOAA announced today the successful installation of a Physical Oceanographic Real-Time System (PORTS®) in Boston Harbor. The system includes observational equipment at MassPort’s Conley Terminal and on the Tobin Memorial Bridge. The Boston Harbor PORTS, established in partnership with the Massachu",
-      "link": "https://www.noaa.gov/news-release/noaa-installs-new-ports-in-boston-harbor",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-02-17"
-    },
-    {
       "title": "Science Officer in the IPCC Working Group I Technical Support Unit",
       "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Science Officer in the Technical Support Unit (Ref. SCO003) The position is located in the Paris area, in Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
       "link": "https://www.ipcc.ch/2026/02/17/science-officer-ipcc-wg1-tsu/",
       "source": "IPCC",
+      "field": "climate",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "NOAA installs new PORTS® in Boston Harbor",
+      "description": "NOAA installs new PORTS® in Boston Harbor New navigational system will improve safety in one of nation’s busiest ports February 17, 2026 A container ship is docked at Massports Conley Container Terminal on Boston Harbor in 2024. (Image credit: Colleen Roche/NOAA Office of Coast Survey) Download Image NOAA announced today the successful installation of a Physical Oceanographic Real-Time System (PORTS®) in Boston Harbor. The system includes observational equipment at MassPort’s Conley Terminal and on the Tobin Memorial Bridge. The Boston Harbor PORTS, established in partnership with the Massachu",
+      "link": "https://www.noaa.gov/news-release/noaa-installs-new-ports-in-boston-harbor",
+      "source": "NOAA",
       "field": "climate",
       "date": "2026-02-17"
     },
@@ -504,12 +504,12 @@
       "date": "2026-02-09"
     },
     {
-      "title": "Emergency groundfish rule keeps fleet fishing as species prove more abundant",
-      "description": "Emergency groundfish rule keeps fleet fishing as species prove more abundant An emergency rule increases catch limits for shortspine thornyhead (shown) and two other groundfish species, increasing fishing opportunities off the West Coast. (Image credit: NOAA Fisheries West Coast Division) Download Image February 3, 2026 Fisheries commercial fishing recreational fishing 0 Off",
-      "link": "https://www.noaa.gov/news/emergency-groundfish-rule-keeps-fleet-fishing-as-species-prove-more-abundant-ext",
-      "source": "NOAA",
+      "title": "Artificial Intelligence (AI) Officer in the IPCC Working Group I Technical Support Unit [Closed]",
+      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Artificial Intelligence (AI) Officer The position is located in the Paris area (Plateau de Saclay, France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and the World Meteorological Organization […]",
+      "link": "https://www.ipcc.ch/2026/01/12/ai-officer-wg1-tsu/",
+      "source": "IPCC",
       "field": "climate",
-      "date": "2026-02-03"
+      "date": "2026-01-12"
     },
     {
       "title": "DeBriefed 13 February 2026: Trump repeals landmark ‘endangerment finding’ | China’s emissions flatlining | UK’s ‘relentless rain’",
@@ -518,14 +518,6 @@
       "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-02-13"
-    },
-    {
-      "title": "Artificial Intelligence (AI) Officer in the IPCC Working Group I Technical Support Unit [Closed]",
-      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Artificial Intelligence (AI) Officer The position is located in the Paris area (Plateau de Saclay, France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and the World Meteorological Organization […]",
-      "link": "https://www.ipcc.ch/2026/01/12/ai-officer-wg1-tsu/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2026-01-12"
     },
     {
       "title": "Join us for Whale Week 2026",
@@ -550,6 +542,14 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-02-09"
+    },
+    {
+      "title": "Emergency groundfish rule keeps fleet fishing as species prove more abundant",
+      "description": "Emergency groundfish rule keeps fleet fishing as species prove more abundant An emergency rule increases catch limits for shortspine thornyhead (shown) and two other groundfish species, increasing fishing opportunities off the West Coast. (Image credit: NOAA Fisheries West Coast Division) Download Image February 3, 2026 Fisheries commercial fishing recreational fishing 0 Off",
+      "link": "https://www.noaa.gov/news/emergency-groundfish-rule-keeps-fleet-fishing-as-species-prove-more-abundant-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-02-03"
     },
     {
       "title": "NOAA Ocean Exploration to host blue technology education workshop",
@@ -689,8 +689,16 @@
     },
     {
       "title": "Brian Stoltz Receives Malcom Prize for Excellence in Mentoring",
-      "description": "Brian Stoltz, the Victor and Elizabeth Atkins Professor of Chemistry and Heritage Medical Research Institute Investigator, has been awarded this year's Shirley M. Malcom Prize for Excellence in Mentoring.The annual prize, named for Shirley Malcom, a senior trustee at Caltech and first established in 2021, was created to recognize and celebrate the important role mentors serve during the education, training, and advancement of promising students and scientists.Stoltz, whose research group works to advance organic chemistry through the development of new strategies and tactics for the synthesis ",
+      "description": "Brian Stoltz, the Victor and Elizabeth Atkins Professor of Chemistry and Heritage Medical Research Institute Investigator, has been awarded this year's Shirley M. Malcom Prize for Excellence in Mentoring.The annual prize, first established in 2021 and named for Shirley Malcom, a senior trustee at Caltech, was created to recognize and celebrate the important role mentors serve during the education, training, and advancement of promising students and scientists.Stoltz, whose research group works to advance organic chemistry through the development of new strategies and tactics for the synthesis ",
       "link": "https://www.caltech.edu/about/news/brian-stoltz-receives-malcom-prize-for-excellence-in-mentoring",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "New KISS Report Presents Blueprint for Combining Greenhouse Gas and Wind Data",
+      "description": "A new study published by the Keck Institute for Space Studies (KISS), in collaboration with Caltech, Rutgers University, and NASA's Jet Propulsion Laboratory (JPL), which is managed by Caltech for NASA, presents a roadmap for simultaneously combining data on the abundance of greenhouses gases with data on winds to better pinpoint emission sources. The findings will help improve the monitoring and mitigation of these gases, such as carbon dioxide and methane, which drive climate change.\"We have very good data on the abundance of greenhouse gases from space- and ground-based sensors but determin",
+      "link": "https://www.caltech.edu/about/news/new-kiss-report-presents-blueprint-for-combining-greenhouse-gas-and-wind-data",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-02-18"
@@ -726,6 +734,14 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-02-04"
+    },
+    {
+      "title": "IEEE Course Improves Engineers’ Writing Skills",
+      "description": "In the rapidly evolving world of engineering technology, professionals devote enormous energy to such tasks as mastering the latest frameworks, optimizing architectures, and refining machine learning models. It’s easy to let technical expertise become the sole measure of professional value. However, one of the most important skills an engineer can develop is the capacity to write and communicate effectively. Whether you’re conducting research at a university or leading systems development projects at a global firm, your expertise can become impactful only when you share it in a way that others",
+      "link": "https://spectrum.ieee.org/ieee-course-technical-writing",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-02-18"
     },
     {
       "title": "This Former Physicist Helps Keep the Internet Secure",
@@ -768,6 +784,22 @@
       "date": "2026-02-11"
     },
     {
+      "title": "How and When the Memory Chip Shortage Will End",
+      "description": "If it feels these days as if everything in technology is about AI, that’s because it is. And nowhere is that more true than in the market for computer memory. Demand, and profitability, for the type of DRAM used to feed GPUs and other accelerators in AI data centers is so huge that it’s diverting away supply of memory for other uses and causing prices to skyrocket. According to Counterpoint Research, DRAM prices have risen 80-90 precent so far this quarter. The largest AI hardware companies say they have secured their chips out as far as 2028, but that leaves everybody else—makers of PCs, cons",
+      "link": "https://spectrum.ieee.org/dram-shortage",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-02-10"
+    },
+    {
+      "title": "New Devices Might Scale the Memory Wall",
+      "description": "The hunt is on for anything that can surmount AI’s perennial memory wall–even quick models are bogged down by the time and energy needed to carry data between processor and memory. Resistive RAM (RRAM)could circumvent the wall by allowing computation to happen in the memory itself. Unfortunately, most types of this nonvolatile memory are too unstable and unwieldy for that purpose. Fortunately, a potential solution may be at hand. At December’s IEEE International Electron Device Meeting (IEDM), researchers from the University of California, San Diego, showed they could run a learning algorithm ",
+      "link": "https://spectrum.ieee.org/ai-and-memory-wall",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-02-09"
+    },
+    {
       "title": "Three Professors Named 2026 Sloan Fellows",
       "description": "A trio of Caltech faculty members have been selected to receive the 2026 Sloan Research Fellowship: Elias Most, assistant professor of theoretical astrophysics; Huy Tuan Pham, assistant professor of mathematics and Rosenberg Scholar; and Lingfu Zhang, assistant professor of mathematics.Awarded annually since 1955, the fellowships honor \"early-career researchers whose creativity, innovation, and research accomplishments make them stand out as the next generation of leaders,\" according to the Alfred P. Sloan Foundation, which bestows the awards. This year, 126 early career researchers were chose",
       "link": "https://www.caltech.edu/about/news/three-professors-named-2026-sloan-fellows",
@@ -800,20 +832,20 @@
       "date": "2026-02-09"
     },
     {
-      "title": "New AI model could cut the costs of developing protein drugs",
-      "description": "MIT researchers used a large language model to optimize the genetic sequences of proteins manufactured by yeast, making production more efficient.",
-      "link": "https://news.mit.edu/2026/new-ai-model-could-cut-costs-developing-protein-drugs-0216",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-02-16"
-    },
-    {
       "title": "I’m walking here! A new model maps foot traffic in New York City",
       "description": "The first complete charting of foot traffic in any US city can be used for infrastructure decisions and safety improvements.",
       "link": "https://news.mit.edu/2026/new-model-maps-foot-traffic-new-york-city-0206",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-02-06"
+    },
+    {
+      "title": "Google DeepMind wants to know if chatbots are just virtue signaling",
+      "description": "Google DeepMind is calling for the moral behavior of large language models—such as what they do when called on to act as companions, therapists, medical advisors, and so on—to be scrutinized with the same kind of rigor as their ability to code or do math. As LLMs improve, people are asking them to play more…",
+      "link": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-02-18"
     },
     {
       "title": "Welcome to the dark side of crypto’s permissionless dream",
@@ -832,52 +864,20 @@
       "date": "2026-02-17"
     },
     {
-      "title": "How and When the Memory Chip Shortage Will End",
-      "description": "If it feels these days as if everything in technology is about AI, that’s because it is. And nowhere is that more true than in the market for computer memory. Demand, and profitability, for the type of DRAM used to feed GPUs and other accelerators in AI data centers is so huge that it’s diverting away supply of memory for other uses and causing prices to skyrocket. According to Counterpoint Research, DRAM prices have risen 80-90 precent so far this quarter. The largest AI hardware companies say they have secured their chips out as far as 2028, but that leaves everybody else—makers of PCs, cons",
-      "link": "https://spectrum.ieee.org/dram-shortage",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-02-10"
-    },
-    {
-      "title": "New Devices Might Scale the Memory Wall",
-      "description": "The hunt is on for anything that can surmount AI’s perennial memory wall–even quick models are bogged down by the time and energy needed to carry data between processor and memory. Resistive RAM (RRAM)could circumvent the wall by allowing computation to happen in the memory itself. Unfortunately, most types of this nonvolatile memory are too unstable and unwieldy for that purpose. Fortunately, a potential solution may be at hand. At December’s IEEE International Electron Device Meeting (IEDM), researchers from the University of California, San Diego, showed they could run a learning algorithm ",
-      "link": "https://spectrum.ieee.org/ai-and-memory-wall",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-02-09"
-    },
-    {
-      "title": "IEEE Online Mini-MBA Aims to Fill Leadership Skills Gaps in AI",
-      "description": "Boardroom priorities are shifting from financial metrics toward technical oversight. Although market share and operational efficiency remain business bedrocks, executives also must now manage the complexities of machine learning, the integrity of their data systems, and the risks of algorithmic bias. The change represents more than just a tech update; it marks a fundamental redefinition of the skills required for business leadership. Research from the McKinsey Global Institute on the economic impact of artificial intelligence shows that companies integrating it effectively have boosted profit ",
-      "link": "https://spectrum.ieee.org/ieee-online-mini-ai-mba",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-02-06"
-    },
-    {
-      "title": "Majorana qubits decoded in quantum computing breakthrough",
-      "description": "Scientists have developed a new way to read the hidden states of Majorana qubits, which store information in paired quantum modes that resist noise. The results confirm their protected nature and show millisecond scale coherence, bringing robust quantum computers closer to reality.",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260216084525.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-02-16"
-    },
-    {
-      "title": "Google DeepMind wants to know if chatbots are just virtue signaling",
-      "description": "Google DeepMind is calling for the moral behavior of large language models—such as what they do when called on to act as companions, therapists, medical advisors, and so on—to be scrutinized with the same kind of rigor as their ability to code or do math. As LLMs improve, people are asking them to play more…",
-      "link": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-02-18"
-    },
-    {
       "title": "We’re Measuring Data Center Sustainability Wrong",
       "description": "In 2024, Google claimed that their data centers are 1.5x more energy efficient than industry average. In 2025, Microsoft committed billions to nuclear power for AI workloads. The data center industry tracks power usage effectiveness to three decimal places and optimizes water usage intensity with machine precision. We report direct emissions and energy emissions with religious fervor. These are laudable advances, but these metrics account for only 30 percent of total emissions from the IT sector. The majority of the emissions are not directly from data centers or the energy they use, but from ",
       "link": "https://spectrum.ieee.org/data-center-sustainability-metrics",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-02-17"
+    },
+    {
+      "title": "Tuning into the future of collaboration",
+      "description": "When work went remote, the sound of business changed. What began as a scramble to make home offices functional has evolved into a revolution in how people hear and are heard. From education to enterprises, companies across industries have reimagined what clear, reliable communication can mean in a hybrid world. For major audio and communications…",
+      "link": "https://www.technologyreview.com/2026/02/16/1125881/tuning-into-the-future-of-collaboration/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-02-16"
     },
     {
       "title": "Wildfire safety to move-out waste: UC Berkeley students pitch fixes for top city problems",
@@ -944,20 +944,52 @@
       "date": "2026-02-09"
     },
     {
-      "title": "Low-Vision Programmers Can Now Design 3D Models Independently",
-      "description": "Most 3D design software requires visual dragging and rotating—posing a challenge for blind and low-vision users. As a result, a range of hardware design, robotics, coding, and engineering work is inaccessible to interested programmers. A visually-impaired programmer might write great code. But because of the lack of accessible modeling software, the coder can’t model, design, and verify physical and virtual components of their system. However, new 3D modeling tools are beginning to change this equation. A new prototype program called A11yShape aims to close the gap. There are already code-base",
-      "link": "https://spectrum.ieee.org/3d-modeling-blind-programmers",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-02-07"
-    },
-    {
-      "title": "Universe may end in a “big crunch,” new dark energy data suggests",
-      "description": "New data from major dark-energy observatories suggest the universe may not expand forever after all. A Cornell physicist calculates that the cosmos is heading toward a dramatic reversal: after reaching its maximum size in about 11 billion years, it could begin collapsing, ultimately ending in a “big crunch” roughly 20 billion years from now.",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260215225537.htm",
+      "title": "Majorana qubits decoded in quantum computing breakthrough",
+      "description": "Scientists have developed a new way to read the hidden states of Majorana qubits, which store information in paired quantum modes that resist noise. The results confirm their protected nature and show millisecond scale coherence, bringing robust quantum computers closer to reality.",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260216084525.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-02-16"
+    },
+    {
+      "title": "Magnetic mixer improves 3D bioprinting",
+      "description": "MagMix, an onboard mixing device, enables scalable manufacturing of 3D-printed tissues.",
+      "link": "https://news.mit.edu/2026/magnetic-mixer-improves-3d-bioprinting-0210",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-02-10"
+    },
+    {
+      "title": "3 Questions: Using AI to help Olympic skaters land a quint",
+      "description": "MIT Sports Lab researchers are applying AI technologies to help figure skaters improve. They also have thoughts on whether five-rotation jumps are humanly possible.",
+      "link": "https://news.mit.edu/2026/3-questions-using-ai-help-olympic-skaters-land-quint-0210",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-02-10"
+    },
+    {
+      "title": "Economics Puzzle Leads to a New Understanding of a Fundamental Law of Physics",
+      "description": "Right now, molecules in the air are moving around you in chaotic and unpredictable ways. To make sense of such systems, physicists use a law known as the Boltzmann distribution, which, rather than describe exactly where each particle is, describes the chance of finding the system in any of its possible states. This allows them to make predictions about the whole system even though the individual particle motions are random. It's like rolling a single die: Any one roll is unpredictable, but if you keep rolling it again and again, a pattern of probabilities will emerge.Developed in the latter ha",
+      "link": "https://www.caltech.edu/about/news/economics-puzzle-leads-to-a-new-understanding-of-a-fundamental-law-of-physics",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-02-05"
+    },
+    {
+      "title": "Preserving learning in the age of AI shortcuts",
+      "description": "In podcast, teachers talk about how they’re using technology to supercharge critical thinking rather than replace it",
+      "link": "https://news.harvard.edu/gazette/story/2026/02/preserving-learning-in-the-age-of-ai-shortcuts/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Squashed skulls found in China belong to first known East Asians",
+      "description": "Revised dating of enigmatic Yunxian skulls pushes their age back 800,000 years, challenges idea of Denisovan ancestry",
+      "link": "https://www.science.org/content/article/squashed-skulls-found-china-belong-first-known-east-asians",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-02-18"
     },
     {
       "title": "This glass wafer could back up your phone—and last 10,000 years",
@@ -1000,6 +1032,14 @@
       "date": "2026-02-16"
     },
     {
+      "title": "New AI model could cut the costs of developing protein drugs",
+      "description": "MIT researchers used a large language model to optimize the genetic sequences of proteins manufactured by yeast, making production more efficient.",
+      "link": "https://news.mit.edu/2026/new-ai-model-could-cut-costs-developing-protein-drugs-0216",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-02-16"
+    },
+    {
       "title": "Another NIH institute loses its director",
       "description": "Health department declines to renew Lindsey Criswell, head of arthritis institute, to another 5-year term",
       "link": "https://www.science.org/content/article/another-nih-institute-loses-its-director",
@@ -1027,14 +1067,6 @@
       "title": "A vanishing star births a black hole—without the fireworks",
       "description": "Failed supernova candidate points to a stealthy pathway of stellar collapse",
       "link": "https://www.science.org/content/article/vanishing-star-births-black-hole-without-fireworks",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-02-12"
-    },
-    {
-      "title": "Boosting origin of life theory, RNA comes close to copying itself",
-      "description": "Some RNA molecules can create their own mirror images, suggesting similar molecules could have sparked life",
-      "link": "https://www.science.org/content/article/boosting-origin-life-theory-rna-comes-close-copying-itself",
       "source": "Science",
       "field": "technology",
       "date": "2026-02-12"
@@ -1094,38 +1126,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-02-13"
-    },
-    {
-      "title": "Brain inspired machines are better at math than expected",
-      "description": "Neuromorphic computers modeled after the human brain can now solve the complex equations behind physics simulations — something once thought possible only with energy-hungry supercomputers. The breakthrough could lead to powerful, low-energy supercomputers while revealing new secrets about how our brains process information.",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260213223923.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-02-14"
-    },
-    {
-      "title": "James Webb reveals extraordinary organic molecules in an ultra luminous infrared galaxy",
-      "description": "Deep inside a nearby galaxy cloaked in thick clouds of gas and dust, astronomers have uncovered a surprising treasure trove of organic molecules using the James Webb Space Telescope. Peering through the cosmic veil in infrared light, researchers detected an extraordinary mix of carbon-rich compounds — including benzene, methane, and even the highly reactive methyl radical, never before seen outside the Milky Way.",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260211073026.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-02-12"
-    },
-    {
-      "title": "Interstellar comet 3I/ATLAS is spraying water across the solar system",
-      "description": "For millions of years, a frozen wanderer drifted between the stars before slipping into our solar system as 3I/ATLAS—only the third known interstellar comet ever spotted. When scientists turned NASA’s Swift Observatory toward it, they caught the first-ever hint of water from such an object, detected through a faint ultraviolet glow of hydroxyl gas. Even more surprising, the comet was blasting out water at a rate of about 40 kilograms per second while still far from the Sun—much farther than where most comets “switch on.”",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260211073047.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-02-11"
-    },
-    {
-      "title": "New J-PAL research and policy initiative to test and scale AI innovations to fight poverty",
-      "description": "Project AI Evidence will connect governments, tech companies, and nonprofits with world-class economists at MIT and across J-PAL's global network to evaluate and improve AI solutions.",
-      "link": "https://news.mit.edu/2026/new-j-pal-research-policy-initiative-to-test-scale-ai-innovations-fight-poverty-0212",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-02-12"
     },
     {
       "title": "Education in Grenada",
@@ -1240,12 +1240,28 @@
       "date": "2026-02-06"
     },
     {
+      "title": "ADB President Welcomes Palau President in First-Ever Headquarters Visit",
+      "description": "ADB President Masato Kanda met with Palau President Surangel S. Whipps Jr. today in the first-ever visit by a Palau head of state to the bank’s Manila headquarters.",
+      "link": "https://www.adb.org/news/adb-president-welcomes-palau-president-first-ever-headquarters-visit",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-01-28"
+    },
+    {
       "title": "ADB and Yaodou Sign Loan to Expand Out-of-Hospital Pharmaceutical Distribution in the PRC",
       "description": "ADB has signed a CNY141.4 million (equivalent to $20 million) senior secured loan with Zhejiang Xinghan Bona Pharmaceutical Technology Co., Ltd to support the distribution of pharmaceuticals in the out-of-hospital segment in the People’s Republic of China (PRC).",
       "link": "https://www.adb.org/news/adb-and-yaodou-sign-loan-expand-out-hospital-pharmaceutical-distribution-prc",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-01-27"
+    },
+    {
+      "title": "ADB President Meets Vanuatu Prime Minister to Advance Partnership, Unlock Private Sector Investment",
+      "description": "ADB President Masato Kanda met today with Vanuatu Prime Minister Jotham Napat to celebrate a long-term partnership for development and acknowledge Vanuatu’s ambition to scale up private investment.",
+      "link": "https://www.adb.org/news/adb-president-meets-vanuatu-prime-minister-advance-partnership-unlock-private-sector",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-02-18"
     },
     {
       "title": "ADB President Pledges Support for Solomon Islands Development Goals in Meeting with Prime Minister",
@@ -1262,22 +1278,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-02-12"
-    },
-    {
-      "title": "ADB President Welcomes Palau President in First-Ever Headquarters Visit",
-      "description": "ADB President Masato Kanda met with Palau President Surangel S. Whipps Jr. today in the first-ever visit by a Palau head of state to the bank’s Manila headquarters.",
-      "link": "https://www.adb.org/news/adb-president-welcomes-palau-president-first-ever-headquarters-visit",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-01-28"
-    },
-    {
-      "title": "ADB President Meets Vanuatu Prime Minister to Advance Partnership, Unlock Private Sector Investment",
-      "description": "ADB President Masato Kanda met today with Vanuatu Prime Minister Jotham Napat to celebrate a long-term partnership for development and acknowledge Vanuatu’s ambition to scale up private investment.",
-      "link": "https://www.adb.org/news/adb-president-meets-vanuatu-prime-minister-advance-partnership-unlock-private-sector",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-02-18"
     },
     {
       "title": "ADB Celebrates Partnership with Europe, Highlights Private Sector Opportunities",
@@ -1352,14 +1352,6 @@
       "date": "2026-02-04"
     },
     {
-      "title": "Five documentaries inspired by the Nobel Peace Prize",
-      "description": "The Nobel Prize, National Geographic Documentary Films and Academy Award-winning filmmaker Orlando von Einsiedel have collaborated on a 5-part short documentary series, celebrating the ongoing impact and influence of Nobel Peace Prize laureates around the world. Watch the films here. The post Five documentaries inspired by the Nobel Peace Prize appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/peace-prize-documentaries/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-02-12"
-    },
-    {
       "title": "How X-rays and crystals revealed the true nature of things",
       "description": "The story behind the 100-year-old discovery that continues to render Nobel Prizes. Alone in the Martian desert, a robot was looking for answers. In 2012, Nasa’s Curiosity rover scooped up a small pile of sand, ingested it, and blasted it with X-rays. The intrepid bot was going to find out what that sand was made […] The post How X-rays and crystals revealed the true nature of things appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/stories/x-rays-and-crystals/",
@@ -1368,17 +1360,41 @@
       "date": "2026-02-10"
     },
     {
-      "title": "An Unfinished Symphony: Nobel Peace Prize documentary",
-      "description": "The Miagi Orchestra is a South African orchestra dedicated to helping the nation overcome decades of violence, conflict and division through the power of music. The film follows two of its musicians: Tsepo Pooe, who grew up in Soweto Township; and Lize Schaap, who grew up in wealthy Pretoria. Through their eyes, and differing experiences […] The post An Unfinished Symphony: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/an-unfinished-symphony/",
+      "title": "Still Human: Nobel Peace Prize documentary",
+      "description": "In war-torn South Sudan, Makur Diet knows all too well the horror of conflict. Over ten years ago, he lost his leg to a bullet. Despairing for his future, Makur was close to giving up, until one day he was given a prosthetic leg, and with it a new lease of life. Makur now devotes […] The post Still Human: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/still-human/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-02-04"
     },
     {
-      "title": "Still Human: Nobel Peace Prize documentary",
-      "description": "In war-torn South Sudan, Makur Diet knows all too well the horror of conflict. Over ten years ago, he lost his leg to a bullet. Despairing for his future, Makur was close to giving up, until one day he was given a prosthetic leg, and with it a new lease of life. Makur now devotes […] The post Still Human: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/still-human/",
+      "title": "Citat om Nobel Center",
+      "description": "Här kan du hitta citat om Nobel Center-projektet i Stockholm. “Det nya Nobelhuset blir en viktig mötesplats, ett nav i internationellt akademiskt liv, där Sverige genom Nobelprisets starka lyskraft intar en plats i hjärtat av kunskaps- och vetenskapssamhället. Det är ett hus där kunskap blir till, där forskning delas och perspektiv bryts, för möten mellan Nobelpristagare […] The post Citat om Nobel Center appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/citat-om-nobel-center/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-01-15"
+    },
+    {
+      "title": "Quotes about Nobel Center",
+      "description": "Here you can find quotes about the Nobel Center project in Stockholm. “The new Nobel house will become an important meeting place, a hub in international academia where Sweden, due to the strong appeal of the Nobel Prize, occupies a position at the very centre of the knowledge and science society. This is a house where knowledge is generated, […] The post Quotes about Nobel Center appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/quotes-about-nobel-center/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-01-15"
+    },
+    {
+      "title": "Five documentaries inspired by the Nobel Peace Prize",
+      "description": "The Nobel Prize, National Geographic Documentary Films and Academy Award-winning filmmaker Orlando von Einsiedel have collaborated on a 5-part short documentary series, celebrating the ongoing impact and influence of Nobel Peace Prize laureates around the world. Watch the films here. The post Five documentaries inspired by the Nobel Peace Prize appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/peace-prize-documentaries/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "An Unfinished Symphony: Nobel Peace Prize documentary",
+      "description": "The Miagi Orchestra is a South African orchestra dedicated to helping the nation overcome decades of violence, conflict and division through the power of music. The film follows two of its musicians: Tsepo Pooe, who grew up in Soweto Township; and Lize Schaap, who grew up in wealthy Pretoria. Through their eyes, and differing experiences […] The post An Unfinished Symphony: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/an-unfinished-symphony/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-02-04"
@@ -1400,84 +1416,76 @@
       "date": "2026-01-15"
     },
     {
-      "title": "Citat om Nobel Center",
-      "description": "Här kan du hitta citat om Nobel Center-projektet i Stockholm. “Det nya Nobelhuset blir en viktig mötesplats, ett nav i internationellt akademiskt liv, där Sverige genom Nobelprisets starka lyskraft intar en plats i hjärtat av kunskaps- och vetenskapssamhället. Det är ett hus där kunskap blir till, där forskning delas och perspektiv bryts, för möten mellan Nobelpristagare […] The post Citat om Nobel Center appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/citat-om-nobel-center/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-01-15"
-    },
-    {
-      "title": "Quotes about Nobel Center",
-      "description": "Here you can find quotes about the Nobel Center project in Stockholm. “The new Nobel house will become an important meeting place, a hub in international academia where Sweden, due to the strong appeal of the Nobel Prize, occupies a position at the very centre of the knowledge and science society. This is a house where knowledge is generated, […] The post Quotes about Nobel Center appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/quotes-about-nobel-center/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-01-15"
-    },
-    {
-      "title": "I Am Artemis: Katie Oriti",
-      "description": "Listen to this audio excerpt from Katie Oriti, Orion European Service Module Integration Office manager: Growing up in rural America, Katie Oriti could only dream of working for NASA. Not because she wasn’t inspired by the dark, star-filled skies of her hometown Shelby, Ohio, but because it felt out of reach. “I think NASA was […]",
-      "link": "https://www.nasa.gov/general/i-am-artemis-katie-oriti/",
+      "title": "42 Years of Measuring the Sun, the Earth and the Energy in Between",
+      "description": "By Denise Lineberry On Jan. 31, 1958, Explorer 1 became the first satellite launched by the United States. Its primary science instrument, a cosmic ray detector, was designed to measure the radiation environment in Earth orbit. Though its final transmission was in May 1958, it continued to revolve around Earth more than 58,000 times. As […]",
+      "link": "https://science.nasa.gov/missions/explorer/42-years-of-measuring-the-sun-the-earth-and-the-energy-in-between/",
       "source": "NASA",
       "field": "space",
       "date": "2026-02-18"
     },
     {
-      "title": "Curiosity Blog Sols 4804-4811: Kicking Off the Final Phase of Boxwork Exploration",
-      "description": "Written by Abigail Fraeman, Curiosity Deputy Project Scientist Earth planning date: Friday, Feb. 13, 2026 Curiosity spent this week at Gale crater completing the last few activities associated with the “Nevado Sajama 2” drill before kicking off our final phase of the boxwork exploration campaign. As we’ve explored the boxwork region, the science team has […]",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4804-4811-kicking-off-the-final-phase-of-boxwork-exploration/",
+      "title": "Peering Homeward, 1972",
+      "description": "By Laura Rocchio On July 23, 1972 the first civilian satellite designed to image Earth’s land surfaces was launched from Vandenberg Air Force Base in California. On board the satellite, originally named the Earth Resources Technology Satellite (ERTS), but later known as Landsat 1, were two sensors. The primary sensor, called the Return Beam Vidicon […]",
+      "link": "https://science.nasa.gov/missions/explorer/peering-homeward-1972/",
       "source": "NASA",
       "field": "space",
       "date": "2026-02-18"
     },
     {
-      "title": "NASA’s Hubble Identifies One of Darkest Known Galaxies",
-      "description": "In the vast tapestry of the universe, most galaxies shine brightly across cosmic time and space. Yet a rare class of galaxies remains nearly invisible — low-surface-brightness galaxies dominated by dark matter and containing only a sparse scattering of faint stars. One such elusive object, dubbed CDG-2, may be among the most heavily dark matter-dominated […]",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-identifies-one-of-darkest-known-galaxies/",
+      "title": "NASA to Provide Coverage of Artemis II Wet Dress Rehearsal",
+      "description": "As NASA continues preparations for the Artemis II test flight, the agency will provide coverage Thursday, Feb. 19, of its next wet dress rehearsal, a fueling test of the SLS (Space Launch System) rocket, and hold a news conference on Friday, Feb. 20. Teams are counting down to the opening of a simulated launch window at 8:30 p.m. EST on Feb. […]",
+      "link": "https://www.nasa.gov/news-release/nasa-to-provide-coverage-of-artemis-ii-wet-dress-rehearsal/",
       "source": "NASA",
       "field": "space",
       "date": "2026-02-18"
     },
     {
-      "title": "TB 26-02 Effects of Large Grain Size in Composite Overwrapped Pressure Vessel",
-      "description": "The NASA Engineering and Safety Center (NESC) performed an assessment to characterize the effects of abnormal grain growth (AGG) within a metallic liner of a composite overwrapped pressure vessel (COPV). This effort focused on evaluating the mechanical response of the liner material, including the strain amplification factor (SAF), using a series of custom-designed coupons that […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-02-effects-of-large-grain-size-in-composite-overwrapped-pressure-vessel/",
+      "title": "Notes from the Field",
+      "description": "Looking at Chlorophyll from Space By Compton “Jim” Tucker NASA scientists are able to study plants from space, but this wasn’t always the case. “I love using satellite data to study the Earth,” says Dr. Compton “Jim” Tucker. When Tucker was a graduate student, he and some friends discovered a new way to study photosynthesis. […]",
+      "link": "https://science.nasa.gov/missions/explorer/notes-from-the-field/",
       "source": "NASA",
       "field": "space",
       "date": "2026-02-18"
     },
     {
-      "title": "A Second Cyclone Slams Madagascar",
-      "description": "Widespread flooding affected tens of thousands of people after cyclones Fytia and Gezani drenched the island.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-second-cyclone-slams-madagascar/",
+      "title": "The Sky Belongs to All of Us",
+      "description": "By Hashima Hasan How did a little girl born in India soon after its independence from the British Empire, become a program scientist for NASA’s Hubble Space Telescope, and the first female program scientist for the James Webb Space Telescope, Stratospheric Observatory for Infrared Astronomy (SOFIA), Gravity Probe B, and other astrophysics flight missions? The […]",
+      "link": "https://science.nasa.gov/missions/explorer/the-sky-belongs-to-all-of-us/",
       "source": "NASA",
       "field": "space",
       "date": "2026-02-18"
     },
     {
-      "title": "Stormy, Snowy Winter for Hokkaido",
-      "description": "On February 5, 2026, the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite acquired this image of snow-covered landscapes across Hokkaido. With more than 31 active volcanoes, the island features several large caldera lakes, including at least five that are visible in the image. (Calderas are large depressions formed by volcanic eruptions.) In the east, forested windbreaks around Nakashibetsu form […]",
-      "link": "https://www.nasa.gov/image-article/stormy-snowy-winter-for-hokkaido/",
+      "title": "Measuring the Big Bang with the COBE satellite",
+      "description": "By John Mather The Cosmic Background Explorer satellite (COBE) went up on a Delta rocket on Nov. 18, 1989, into a polar sun-synchronous orbit 900 km up. Our team at NASA Goddard Space Flight Center (GSFC), Ball Aerospace, the Jet Propulsion Laboratory (JPL) and universities built it to look at the cosmic microwave and infrared […]",
+      "link": "https://science.nasa.gov/missions/explorer/measuring-the-big-bang-with-the-cobe-satellite/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-02-17"
+      "date": "2026-02-18"
     },
     {
-      "title": "NASA Advances High-Altitude Traffic Management",
-      "description": "High-altitude flight is getting increasing attention from sectors ranging from telecommunications to emergency response. To make that airspace more accessible, NASA is developing an air traffic management system covering those altitudes and supplementing its work with real-time data from a research balloon in Earth’s stratosphere. Aircraft at high altitudes – 50,000 feet or higher, or roughly 10,000 to 20,000 feet above most commercial traffic – offer new […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasa-advances-high-altitude-traffic-management/",
+      "title": "The Gestation of the Hubble",
+      "description": "By Nancy Grace Roman Looking through the atmosphere is like looking through a piece of old stained glass. The glass has defects that distort the image. The atmosphere also has defects that distort the image, but the defects in the atmosphere move, thus blurring the image as well. The glass is colored, so only some […]",
+      "link": "https://science.nasa.gov/missions/explorer/the-gestation-of-the-hubble/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-02-17"
+      "date": "2026-02-18"
     },
     {
-      "title": "NASA’s SpaceX Crew-12 Launches to International Space Station",
-      "description": "Four crew members of NASA’s SpaceX Crew-12 mission launched at 5:15 a.m. EST Friday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. A SpaceX Falcon 9 rocket propelled a Dragon spacecraft into orbit carrying NASA astronauts Jessica Meir and Jack Hathaway, […]",
-      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-launches-to-international-space-station/",
+      "title": "Commodity Classic 2026 Hyperwall Schedule",
+      "description": "Commodity Classic, February 25 – 27, 2026 Join NASA in the Exhibit Hall (Booth #3481) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. WEDNESDAY, FEBRUARY 25 4:30 – 4:50 PMNASA: Your Space and Science AgencyKaren St Germain THURSDAY, FEBRUARY 26 11:00 – 11:20 AMInforming Water and Agricultural Management Apps with NASA Modeling and […]",
+      "link": "https://science.nasa.gov/earth/commodity-classic-2026-hyperwall-schedule/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-02-13"
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Fishing Boats and City Lights",
+      "description": "Fishing boats illuminate the Arabian Sea along India’s west coast with green lights designed to attract squid, shrimp, sardines, and mackerel in this nighttime photograph from the International Space Station, orbiting 259 miles above Earth on Dec. 25, 2025. Studying nighttime light offers a unique perspective for investigations into human behaviors, such as tracking the […]",
+      "link": "https://www.nasa.gov/image-article/fishing-boats-and-city-lights/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-02-18"
     },
     {
       "title": "Revealed: 10 new insights in climate science",
@@ -1512,14 +1520,6 @@
       "date": "2026-02-17"
     },
     {
-      "title": "SpaceX launches predawn Starlink mission on President’s Day",
-      "description": "The Starlink 6-103 mission was the 10th orbital flight from Cape Canaveral Space Force Station in 2026. Liftoff from pad 40 happened at 2:59:40 a.m. EST (0759:40 UTC) on Monday, Feb. 16.",
-      "link": "https://spaceflightnow.com/2026/02/15/live-coverage-spacex-to-launch-predawn-falcon-9-rocket-launch-on-presidents-day/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-02-15"
-    },
-    {
       "title": "Replacement crew docks at space station, boosts crew back to seven",
       "description": "The Crew Dragon docked at the space-facing port of the lab's forward Harmony module at 3:15 p.m. EST, 34 hours after launch Friday from the Kennedy Space Center atop a Falcon 9 rocket.",
       "link": "https://spaceflightnow.com/2026/02/15/replacement-crew-docks-at-space-station-boosts-crew-back-to-seven/",
@@ -1536,20 +1536,20 @@
       "date": "2026-02-12"
     },
     {
-      "title": "Crew-12: Docking, hatch opening and welcome remarks",
-      "description": "Video: 00:02:44 Watch the docking operations of Crew-12 to the International Space Station (ISS), which took place on 14 February 2026 at 21:15 CET. The docking is followed by the hatch opening and the welcome remarks by the astronauts already present in the ISS. ESA astronaut Sophie Adenot flies as mission specialist. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, mission specialist. The French ESA astronaut is the first of her class, the Hoppers, to fly. Sophie has chosen t",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Crew-12_Docking_hatch_opening_and_welcome_remarks",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-02-13"
-    },
-    {
       "title": "Official start of ESA astronaut Sophie Adenot’s εpsilon mission",
       "description": "The SpaceX Dragon Freedom capsule carrying ESA astronaut Sophie Adenot, NASA astronauts Jessica Meir and Jack Hathaway, and Roscosmos cosmonaut Andrei Fedyaev, docked with the International Space Station on 14 February, at 20:15 GMT/21:15 CET, marking the official start of ESA’s εpsilon mission.",
       "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Official_start_of_ESA_astronaut_Sophie_Adenot_s_epsilon_mission",
       "source": "ESA",
       "field": "space",
       "date": "2026-02-14"
+    },
+    {
+      "title": "Crew-12: Docking, hatch opening and welcome remarks",
+      "description": "Video: 00:02:44 Watch the docking operations of Crew-12 to the International Space Station (ISS), which took place on 14 February 2026 at 21:15 CET. The docking is followed by the hatch opening and the welcome remarks by the astronauts already present in the ISS. ESA astronaut Sophie Adenot flies as mission specialist. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, mission specialist. The French ESA astronaut is the first of her class, the Hoppers, to fly. Sophie has chosen t",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/02/Crew-12_Docking_hatch_opening_and_welcome_remarks",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-02-13"
     },
     {
       "title": "Week in images: 09-13 February 2026",
@@ -1566,6 +1566,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-02-13"
+    },
+    {
+      "title": "SpaceX launches predawn Starlink mission on President’s Day",
+      "description": "The Starlink 6-103 mission was the 10th orbital flight from Cape Canaveral Space Force Station in 2026. Liftoff from pad 40 happened at 2:59:40 a.m. EST (0759:40 UTC) on Monday, Feb. 16.",
+      "link": "https://spaceflightnow.com/2026/02/15/live-coverage-spacex-to-launch-predawn-falcon-9-rocket-launch-on-presidents-day/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-02-15"
     },
     {
       "title": "SpaceX launches 600th Falcon 9 rocket to date with Starlink flight from Vandenberg",
@@ -1608,6 +1616,14 @@
       "date": "2026-02-11"
     },
     {
+      "title": "New J-PAL research and policy initiative to test and scale AI innovations to fight poverty",
+      "description": "Project AI Evidence will connect governments, tech companies, and nonprofits with world-class economists at MIT and across J-PAL's global network to evaluate and improve AI solutions.",
+      "link": "https://news.mit.edu/2026/new-j-pal-research-policy-initiative-to-test-scale-ai-innovations-fight-poverty-0212",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-02-12"
+    },
+    {
       "title": "Maria Yang named vice provost for faculty",
       "description": "Design leader brings extensive interdisciplinary track record to key role supporting faculty across the Institute.",
       "link": "https://news.mit.edu/2026/maria-yang-named-vice-provost-faculty-0212",
@@ -1624,22 +1640,6 @@
       "date": "2026-02-12"
     },
     {
-      "title": "Economics Puzzle Leads to a New Understanding of a Fundamental Law of Physics",
-      "description": "Right now, molecules in the air are moving around you in chaotic and unpredictable ways. To make sense of such systems, physicists use a law known as the Boltzmann distribution, which, rather than describe exactly where each particle is, describes the chance of finding the system in any of its possible states. This allows them to make predictions about the whole system even though the individual particle motions are random. It's like rolling a single die: Any one roll is unpredictable, but if you keep rolling it again and again, a pattern of probabilities will emerge.Developed in the latter ha",
-      "link": "https://www.caltech.edu/about/news/economics-puzzle-leads-to-a-new-understanding-of-a-fundamental-law-of-physics",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-02-05"
-    },
-    {
-      "title": "Watson Lecture: Kimberly See Explores the Future of Sustainable Battery Chemistries",
-      "description": "Can we reimagine the way we power modern life? On Wednesday, February 25, 2026, Kimberly See, professor of chemistry, will discuss her group's research on next-generation battery chemistry that may lead to more efficient and sustainable ways of energizing the world.In a public talk titled \"Chasing Sustainable Battery Chemistries for the Future,\" See will explain how the lithium-ion battery, which can be found in nearly every home, works on a chemical level and detail the limitations of its current chemistry.\"Batteries have been around for quite a long time—conventional state-of-the-art lithium",
-      "link": "https://www.caltech.edu/about/news/watson-lecture-kimberly-see-sustainable-battery-chemistries",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-02-03"
-    },
-    {
       "title": "Using synthetic biology and AI to address global antimicrobial resistance threat",
       "description": "Driven by overuse and misuse of antibiotics, drug-resistant infections are on the rise, while development of new antibacterial tools has slowed.",
       "link": "https://news.mit.edu/2026/using-synthetic-biology-ai-address-global-antimicrobial-resistance-0211",
@@ -1651,22 +1651,6 @@
       "title": "AI algorithm enables tracking of vital white matter pathways",
       "description": "Opening a new window on the brainstem, a new tool reliably and finely resolves distinct nerve bundles in live diffusion MRI scans, revealing signs of injury or disease.",
       "link": "https://news.mit.edu/2026/new-window-on-brainstem-ai-algorithm-enables-tracking-white-matter-pathways-0210",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-02-10"
-    },
-    {
-      "title": "Magnetic mixer improves 3D bioprinting",
-      "description": "MagMix, an onboard mixing device, enables scalable manufacturing of 3D-printed tissues.",
-      "link": "https://news.mit.edu/2026/magnetic-mixer-improves-3d-bioprinting-0210",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-02-10"
-    },
-    {
-      "title": "3 Questions: Using AI to help Olympic skaters land a quint",
-      "description": "MIT Sports Lab researchers are applying AI technologies to help figure skaters improve. They also have thoughts on whether five-rotation jumps are humanly possible.",
-      "link": "https://news.mit.edu/2026/3-questions-using-ai-help-olympic-skaters-land-quint-0210",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-02-10"
@@ -1784,6 +1768,70 @@
       "date": "2026-02-04"
     },
     {
+      "title": "What’s next for GLP-1s?",
+      "description": "Scientists eye new treatment targets for popular weight-loss drugs, from heart failure to addiction",
+      "link": "https://news.harvard.edu/gazette/story/2026/02/whats-next-for-glp-1s/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Kicking back with Rose Byrne",
+      "description": "Australian actress feted, roasted as Hasty Pudding Woman of the Year",
+      "link": "https://news.harvard.edu/gazette/story/2026/02/kicking-back-with-rose-byrne/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-02-18"
+    },
+    {
+      "title": "Crush your goals the Ohtani way",
+      "description": "Baseball superstar’s method for acing ambitions can help anyone, says Business School professor",
+      "link": "https://news.harvard.edu/gazette/story/2026/02/crush-your-goals-the-ohtani-way/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-02-17"
+    },
+    {
+      "title": "Low-Vision Programmers Can Now Design 3D Models Independently",
+      "description": "Most 3D design software requires visual dragging and rotating—posing a challenge for blind and low-vision users. As a result, a range of hardware design, robotics, coding, and engineering work is inaccessible to interested programmers. A visually-impaired programmer might write great code. But because of the lack of accessible modeling software, the coder can’t model, design, and verify physical and virtual components of their system. However, new 3D modeling tools are beginning to change this equation. A new prototype program called A11yShape aims to close the gap. There are already code-base",
+      "link": "https://spectrum.ieee.org/3d-modeling-blind-programmers",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-02-07"
+    },
+    {
+      "title": "Universe may end in a “big crunch,” new dark energy data suggests",
+      "description": "New data from major dark-energy observatories suggest the universe may not expand forever after all. A Cornell physicist calculates that the cosmos is heading toward a dramatic reversal: after reaching its maximum size in about 11 billion years, it could begin collapsing, ultimately ending in a “big crunch” roughly 20 billion years from now.",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260215225537.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Brain inspired machines are better at math than expected",
+      "description": "Neuromorphic computers modeled after the human brain can now solve the complex equations behind physics simulations — something once thought possible only with energy-hungry supercomputers. The breakthrough could lead to powerful, low-energy supercomputers while revealing new secrets about how our brains process information.",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260213223923.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-02-14"
+    },
+    {
+      "title": "James Webb reveals extraordinary organic molecules in an ultra luminous infrared galaxy",
+      "description": "Deep inside a nearby galaxy cloaked in thick clouds of gas and dust, astronomers have uncovered a surprising treasure trove of organic molecules using the James Webb Space Telescope. Peering through the cosmic veil in infrared light, researchers detected an extraordinary mix of carbon-rich compounds — including benzene, methane, and even the highly reactive methyl radical, never before seen outside the Milky Way.",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260211073026.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-02-12"
+    },
+    {
+      "title": "Interstellar comet 3I/ATLAS is spraying water across the solar system",
+      "description": "For millions of years, a frozen wanderer drifted between the stars before slipping into our solar system as 3I/ATLAS—only the third known interstellar comet ever spotted. When scientists turned NASA’s Swift Observatory toward it, they caught the first-ever hint of water from such an object, detected through a faint ultraviolet glow of hydroxyl gas. Even more surprising, the comet was blasting out water at a rate of about 40 kilograms per second while still far from the Sun—much farther than where most comets “switch on.”",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260211073047.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-02-11"
+    },
+    {
       "title": "The Download: a blockchain enigma, and the algorithms governing our lives",
       "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Welcome to the dark side of crypto’s permissionless dream Jean-Paul Thorbjornsen, an Australian man in his mid-30s, with a rural Catholic upbringing, is a founder of THORChain, a blockchain through which users can…",
       "link": "https://www.technologyreview.com/2026/02/18/1133291/the-download-a-blockchain-enigma-and-the-algorithms-governing-our-lives/",
@@ -1800,14 +1848,6 @@
       "date": "2026-02-18"
     },
     {
-      "title": "Crush your goals the Ohtani way",
-      "description": "Baseball superstar’s method for acing ambitions can help anyone, says Business School professor",
-      "link": "https://news.harvard.edu/gazette/story/2026/02/crush-your-goals-the-ohtani-way/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-02-17"
-    },
-    {
       "title": "Seven UC Berkeley faculty named 2026 Sloan Fellows",
       "description": "A Sloan Research Fellowship is one of the most prestigious awards available to early-career researchers. The post Seven UC Berkeley faculty named 2026 Sloan Fellows appeared first on Berkeley News.",
       "link": "https://news.berkeley.edu/2026/02/17/seven-uc-berkeley-faculty-named-2026-sloan-fellows/",
@@ -1822,14 +1862,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-02-17"
-    },
-    {
-      "title": "Tuning into the future of collaboration",
-      "description": "When work went remote, the sound of business changed. What began as a scramble to make home offices functional has evolved into a revolution in how people hear and are heard. From education to enterprises, companies across industries have reimagined what clear, reliable communication can mean in a hybrid world. For major audio and communications…",
-      "link": "https://www.technologyreview.com/2026/02/16/1125881/tuning-into-the-future-of-collaboration/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-02-16"
     },
     {
       "title": "The Download: the rise of luxury car theft, and fighting antimicrobial resistance",
@@ -2046,22 +2078,6 @@
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-02-07"
-    },
-    {
-      "title": "Breaking chess’s rating stalemate",
-      "description": "Ranking skill can be tricky when the best players draw more than they win, so a Harvard statistician invented a new method",
-      "link": "https://news.harvard.edu/gazette/story/2026/02/breaking-chesss-rating-stalemate/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-02-06"
-    },
-    {
-      "title": "Border security isn’t really the problem",
-      "description": "Former Homeland Security Secretary Jeh Johnson says current backlash is owing to cloudy mission, aggressive tactics",
-      "link": "https://news.harvard.edu/gazette/story/2026/02/border-security-isnt-really-the-problem/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-02-05"
     },
     {
       "title": "A spinning gyroscope could finally unlock ocean wave energy",
