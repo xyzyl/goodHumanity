@@ -1,9 +1,9 @@
 {
   "date": "2026-03-10",
-  "lastUpdated": "2026-03-10T01:29:52.342Z",
+  "lastUpdated": "2026-03-10T05:07:59.067Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "51.4s",
+    "executionTime": "54.6s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 22,
     "totalCandidates": 255,
@@ -11,10 +11,10 @@
     "entriesByField": {
       "health": 53,
       "climate": 22,
-      "energy": 2,
+      "energy": 1,
       "technology": 119,
       "education": 4,
-      "development": 19,
+      "development": 20,
       "peace": 9,
       "space": 27
     },
@@ -40,8 +40,8 @@
         "changed": 0
       },
       "development": {
-        "kept": 19,
-        "changed": 1
+        "kept": 20,
+        "changed": 0
       },
       "peace": {
         "kept": 9,
@@ -57,7 +57,7 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 38,
+      "highScoreEntries": 39,
       "topTierSources": 136,
       "highCredibilitySources": 232
     }
@@ -664,14 +664,6 @@
       "date": "2026-03-05"
     },
     {
-      "title": "ADB, GRE Sign $350 Million Deal to Accelerate Thailand’s Green Energy Transition",
-      "description": "ADB and Gulf Renewable Energy Company Limited (GRE), a subsidiary of Gulf Development Public Company Limited (GULF), have signed a $350 million loan to expand renewable energy generation and decarbonize Thailand’s power sector.",
-      "link": "https://www.adb.org/news/adb-gre-sign-350-million-deal-accelerate-thailand-green-energy-transition",
-      "source": "Asian Development Bank",
-      "field": "energy",
-      "date": "2026-02-06"
-    },
-    {
       "title": "Battery Supported Electric Cooking Technologies and Battery Swap Models",
       "description": "Battery Supported Electric Cooking Technologies and Battery Swap Models robert.magori@… Tue, 02/17/2026 - 12:28 17 Feb 2026 This white paper explores the potential of battery-enabled electric cooking (eCooking) as a pathway to expand access to clean, energy-efficient cooking in settings where electricity supply is limited, unreliable, or entirely absent. It examines how battery systems can bridge gaps in electricity access across three key scenarios: weak or low-power grids, systems with time-of-use incentives, and fully off-grid environments. In weak-grid contexts, batteries can trickle-charg",
       "link": "https://www.seforall.org/publications/battery-supported-electric-cooking-technologies-and-battery-swap-models",
@@ -742,30 +734,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-03-01"
-    },
-    {
-      "title": "U.S. agency will devote $144 million to studies that slow aging, extend quality of life",
-      "description": "ARPA-H will “build the train tracks” for first large clinical studies of aging interventions",
-      "link": "https://www.science.org/content/article/u-s-agency-will-devote-144-million-studies-slow-aging-extend-quality-life",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-03-09"
-    },
-    {
-      "title": "Many heat-stressed tropical insects are reaching their limits",
-      "description": "Vast study in Peru and Kenya confirms limited defenses against rising temperatures, redoubling climate concerns",
-      "link": "https://www.science.org/content/article/many-heat-stressed-tropical-insects-are-reaching-their-limits",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-03-04"
-    },
-    {
-      "title": "Measuring Local Well-Being from Space",
-      "description": "Since 1990, the United Nations (UN) has used the Human Development Index (HDI) to assess the development of a country using indicators of well-being and quality of life gathered via census data. HDI scores are then used by government agencies and nonprofits to help allocate resources. But the index rankings do not reflect information at the local level, meaning, for example, that people in less-developed areas of higher-ranking countries could be missing out on critical aid.Now, in partnership with researchers at the UN, a team of researchers including Caltech's Hannah Druckenmiller have devel",
-      "link": "https://www.caltech.edu/about/news/measuring-local-well-being-from-space",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-03-05"
     },
     {
       "title": "How Cross-Cultural Engineering Drives Tech Advancement",
@@ -840,20 +808,28 @@
       "date": "2026-02-28"
     },
     {
-      "title": "From TV Repairman to Electromagnetic Compatibility Expert",
-      "description": "No one had very high career aspirations for teenager David A. Weston—except for Weston himself. Growing up in London, he scored low on the U.K. national assessment test given to students finishing primary school. The result meant that his next path was either to become a laborer or attend a vocational school to learn a trade. What Weston really wanted to do was to work as a radio and TV repairman. He was fascinated by how the devices worked. He had taught himself to build an AM radio when he was 15. Even after showing it to his parents and teachers, though, they still didn’t think he was smart",
-      "link": "https://spectrum.ieee.org/from-tv-repairman-to-electromagnetic-compatibility-expert",
-      "source": "IEEE Spectrum",
+      "title": "U.S. agency will devote $144 million to studies that slow aging, extend quality of life",
+      "description": "ARPA-H will “build the train tracks” for first large clinical studies of aging interventions",
+      "link": "https://www.science.org/content/article/u-s-agency-will-devote-144-million-studies-slow-aging-extend-quality-life",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-03-05"
+      "date": "2026-03-09"
     },
     {
-      "title": "This Student-Built EV Focuses on Repairability",
-      "description": "At first glance, the Aria EV doesn’t look much different from any other student-built electric prototype—no different from the battery-powered cars built by engineering students from dozens of universities every year. Beneath its panels, however, is a challenge to the modern auto industry: What if electric vehicles were designed to be repaired by their owners? The Aria project began in 2024, when roughly 20 students assembled at Eindhoven University of Technology in the Netherlands under the university’s Ecomotive team structure, which operates like a small startup. Students apply, are selecte",
-      "link": "https://spectrum.ieee.org/ev-battery-swapping-aria-ev",
-      "source": "IEEE Spectrum",
+      "title": "Many heat-stressed tropical insects are reaching their limits",
+      "description": "Vast study in Peru and Kenya confirms limited defenses against rising temperatures, redoubling climate concerns",
+      "link": "https://www.science.org/content/article/many-heat-stressed-tropical-insects-are-reaching-their-limits",
+      "source": "Science",
       "field": "technology",
       "date": "2026-03-04"
+    },
+    {
+      "title": "Measuring Local Well-Being from Space",
+      "description": "Since 1990, the United Nations (UN) has used the Human Development Index (HDI) to assess the development of a country using indicators of well-being and quality of life gathered via census data. HDI scores are then used by government agencies and nonprofits to help allocate resources. But the index rankings do not reflect information at the local level, meaning, for example, that people in less-developed areas of higher-ranking countries could be missing out on critical aid.Now, in partnership with researchers at the UN, a team of researchers including Caltech's Hannah Druckenmiller have devel",
+      "link": "https://www.caltech.edu/about/news/measuring-local-well-being-from-space",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-03-05"
     },
     {
       "title": "Using Tiny Ripples at Skin Level to Monitor for Possible Health Problems Below",
@@ -912,12 +888,12 @@
       "date": "2026-02-18"
     },
     {
-      "title": "Three Professors Named 2026 Sloan Fellows",
-      "description": "A trio of Caltech faculty members have been selected to receive the 2026 Sloan Research Fellowship: Elias Most, assistant professor of theoretical astrophysics; Huy Tuan Pham, assistant professor of mathematics and Rosenberg Scholar; and Lingfu Zhang, assistant professor of mathematics.Awarded annually since 1955, the fellowships honor \"early-career researchers whose creativity, innovation, and research accomplishments make them stand out as the next generation of leaders,\" according to the Alfred P. Sloan Foundation, which bestows the awards. This year, 126 early career researchers were chose",
-      "link": "https://www.caltech.edu/about/news/three-professors-named-2026-sloan-fellows",
-      "source": "Caltech",
+      "title": "From TV Repairman to Electromagnetic Compatibility Expert",
+      "description": "No one had very high career aspirations for teenager David A. Weston—except for Weston himself. Growing up in London, he scored low on the U.K. national assessment test given to students finishing primary school. The result meant that his next path was either to become a laborer or attend a vocational school to learn a trade. What Weston really wanted to do was to work as a radio and TV repairman. He was fascinated by how the devices worked. He had taught himself to build an AM radio when he was 15. Even after showing it to his parents and teachers, though, they still didn’t think he was smart",
+      "link": "https://spectrum.ieee.org/from-tv-repairman-to-electromagnetic-compatibility-expert",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-02-17"
+      "date": "2026-03-05"
     },
     {
       "title": "Career effects of preprints get mixed reviews from biomedical researchers",
@@ -974,6 +950,14 @@
       "source": "Science",
       "field": "technology",
       "date": "2026-03-03"
+    },
+    {
+      "title": "MIT undergraduates help US high schoolers tackle calculus",
+      "description": "The MIT4America Calculus Project is a growing source of tutoring support on a topic that’s a “gateway” to many STEM careers.",
+      "link": "https://news.mit.edu/2026/mit-undergraduates-help-us-high-schoolers-tackle-calculus-0310",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-10"
     },
     {
       "title": "Understanding how “marine snow” acts as a carbon sink",
@@ -1080,6 +1064,14 @@
       "date": "2026-03-04"
     },
     {
+      "title": "Three Professors Named 2026 Sloan Fellows",
+      "description": "A trio of Caltech faculty members have been selected to receive the 2026 Sloan Research Fellowship: Elias Most, assistant professor of theoretical astrophysics; Huy Tuan Pham, assistant professor of mathematics and Rosenberg Scholar; and Lingfu Zhang, assistant professor of mathematics.Awarded annually since 1955, the fellowships honor \"early-career researchers whose creativity, innovation, and research accomplishments make them stand out as the next generation of leaders,\" according to the Alfred P. Sloan Foundation, which bestows the awards. This year, 126 early career researchers were chose",
+      "link": "https://www.caltech.edu/about/news/three-professors-named-2026-sloan-fellows",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-02-17"
+    },
+    {
       "title": "How some skills become second nature",
       "description": "Patterns of gaze and attention can reveal how some people unconsciously figure out how to master a task, new research shows.",
       "link": "https://news.mit.edu/2026/how-some-skills-become-second-nature-0304",
@@ -1150,6 +1142,14 @@
       "source": "GPE",
       "field": "education",
       "date": "2026-02-25"
+    },
+    {
+      "title": "ADB, Linknet to Boost Digital Infrastructure in Indonesia",
+      "description": "ADB announced a $150 million loan with PT Link Net Tbk (Linknet) to boost digital infrastructure in Indonesia and improve broadband quality.",
+      "link": "https://www.adb.org/news/adb-linknet-boost-digital-infrastructure-indonesia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-03-10"
     },
     {
       "title": "ADB Approves $182 Million Loan to Scale Up Flood and Erosion Management Along Brahmaputra in Assam",
@@ -1232,20 +1232,12 @@
       "date": "2026-03-04"
     },
     {
-      "title": "ADB President Announces Up to $5.4 Billion in Planned Financing for Kazakhstan",
-      "description": "ADB President Masato Kanda met with President of Kazakhstan Kassym-Jomart Tokayev to reaffirm ADB’s strong partnership with the country and announced up to $5.4 billion in indicative financing during 2026–2029 in support of Kazakhstan’s development agenda.",
-      "link": "https://www.adb.org/news/adb-president-announces-up-to-5-4-billion-planned-financing-kazakhstan",
+      "title": "ADB President, Fiji Prime Minister Open Expanded Office to Strengthen Partnership and Scale Up Impact",
+      "description": "ADB President Masato Kanda and Fiji Prime Minister Sitiveni Rabuka today officially opened ADB’s expanded Pacific Subregional Office in Suva. The inauguration followed talks earlier in the day between the two leaders on advancing ADB’s support for Fiji’s inclusive economic growth and reinforcing Fiji’s role as a regional hub for Pacific cooperation.",
+      "link": "https://www.adb.org/news/adb-president-fiji-prime-minister-open-expanded-office-strengthen-partnership-and-scale-impact",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-03-02"
-    },
-    {
-      "title": "ADB President Pledges Support for Solomon Islands Development Goals in Meeting with Prime Minister",
-      "description": "ADB President Masato Kanda met Solomon Islands Prime Minister Jeremiah Manele in Honiara to discuss strengthening ADB’s long-standing support for the country’s economic development and expanding cooperation on public financial management reforms.",
-      "link": "https://www.adb.org/news/adb-president-pledges-support-solomon-islands-development-goals-meeting-prime-minister",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-02-17"
+      "date": "2026-02-20"
     },
     {
       "title": "ADB Appoints Sona Shrestha as Director General for South Asia",
@@ -1254,6 +1246,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-02-12"
+    },
+    {
+      "title": "ADB President Announces Up to $5.4 Billion in Planned Financing for Kazakhstan",
+      "description": "ADB President Masato Kanda met with President of Kazakhstan Kassym-Jomart Tokayev to reaffirm ADB’s strong partnership with the country and announced up to $5.4 billion in indicative financing during 2026–2029 in support of Kazakhstan’s development agenda.",
+      "link": "https://www.adb.org/news/adb-president-announces-up-to-5-4-billion-planned-financing-kazakhstan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-03-02"
     },
     {
       "title": "ADB Convenes First 2026 Meeting of Heads of MDBs Group as Chair",
@@ -1272,20 +1272,20 @@
       "date": "2026-02-20"
     },
     {
-      "title": "ADB President, Fiji Prime Minister Open Expanded Office to Strengthen Partnership and Scale Up Impact",
-      "description": "ADB President Masato Kanda and Fiji Prime Minister Sitiveni Rabuka today officially opened ADB’s expanded Pacific Subregional Office in Suva. The inauguration followed talks earlier in the day between the two leaders on advancing ADB’s support for Fiji’s inclusive economic growth and reinforcing Fiji’s role as a regional hub for Pacific cooperation.",
-      "link": "https://www.adb.org/news/adb-president-fiji-prime-minister-open-expanded-office-strengthen-partnership-and-scale-impact",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-02-20"
-    },
-    {
       "title": "ADB President Meets Vanuatu Prime Minister to Advance Partnership, Unlock Private Sector Investment",
       "description": "ADB President Masato Kanda met today with Vanuatu Prime Minister Jotham Napat to celebrate a long-term partnership for development and acknowledge Vanuatu’s ambition to scale up private investment.",
       "link": "https://www.adb.org/news/adb-president-meets-vanuatu-prime-minister-advance-partnership-unlock-private-sector",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-02-18"
+    },
+    {
+      "title": "ADB President Pledges Support for Solomon Islands Development Goals in Meeting with Prime Minister",
+      "description": "ADB President Masato Kanda met Solomon Islands Prime Minister Jeremiah Manele in Honiara to discuss strengthening ADB’s long-standing support for the country’s economic development and expanding cooperation on public financial management reforms.",
+      "link": "https://www.adb.org/news/adb-president-pledges-support-solomon-islands-development-goals-meeting-prime-minister",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-02-17"
     },
     {
       "title": "ADB Appoints Shannon Cowlin as New Country Director for Sri Lanka",
@@ -1352,14 +1352,6 @@
       "date": "2026-02-04"
     },
     {
-      "title": "Citat om Nobel Center",
-      "description": "Här kan du hitta citat om Nobel Center-projektet i Stockholm. “Det nya Nobelhuset blir en viktig mötesplats, ett nav i internationellt akademiskt liv, där Sverige genom Nobelprisets starka lyskraft intar en plats i hjärtat av kunskaps- och vetenskapssamhället. Det är ett hus där kunskap blir till, där forskning delas och perspektiv bryts, för möten mellan Nobelpristagare […] The post Citat om Nobel Center appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/citat-om-nobel-center/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-01-15"
-    },
-    {
       "title": "Lost and Found: Nobel Peace Prize documentary",
       "description": "Lost and Found tells the inspiring story of humanity in the world’s largest refugee camp. The film follows Kamal Hussein, a Rohingya refugee who has dedicated his life to reuniting children with their parents with the support of the double Nobel Prize-awarded organisation, the United Nations High Commissioner for Refugees (UNHCR.) Lost and Found, from […] The post Lost and Found: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/stories/lost-and-found/",
@@ -1376,20 +1368,28 @@
       "date": "2026-01-15"
     },
     {
+      "title": "Citat om Nobel Center",
+      "description": "Här kan du hitta citat om Nobel Center-projektet i Stockholm. “Det nya Nobelhuset blir en viktig mötesplats, ett nav i internationellt akademiskt liv, där Sverige genom Nobelprisets starka lyskraft intar en plats i hjärtat av kunskaps- och vetenskapssamhället. Det är ett hus där kunskap blir till, där forskning delas och perspektiv bryts, för möten mellan Nobelpristagare […] The post Citat om Nobel Center appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/citat-om-nobel-center/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-01-15"
+    },
+    {
+      "title": "Shades of a Lunar Eclipse",
+      "description": "A series of nighttime satellite images revealed how moonlight reaching Earth varied throughout a total lunar eclipse.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/shades-of-a-lunar-eclipse/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-03-10"
+    },
+    {
       "title": "NASA’s Van Allen Probe A to Re-Enter Atmosphere",
       "description": "NASA’s Van Allen Probe A is expected to re-enter Earth’s atmosphere almost 14 years after launch. From 2012 to 2019, the spacecraft and its twin, Van Allen Probe B, flew through the Van Allen belts, rings of charged particles trapped by Earth’s magnetic field, to understand how particles were gained and lost. The belts shield Earth from cosmic radiation, solar storms, and the constantly streaming […]",
       "link": "https://www.nasa.gov/missions/van-allen-probes/nasa-van-allen-probe-a-to-re-enter-atmosphere/",
       "source": "NASA",
       "field": "space",
       "date": "2026-03-09"
-    },
-    {
-      "title": "5 ways NOAA scientists helped improve human and marine life in 2025",
-      "description": "5 ways NOAA scientists helped improve human and marine life in 2025 Highlights from the annual NOAA Science Report Liftoff of SpaceX’s Falcon 9 rocket carrying NOAA’s SWFO-L1 satellite observatory along with NASA’s Interstellar Mapping and Acceleration Probe (IMAP) and Carruthers Geocorona Observatory from the launch pad at Kennedy Space Center in Florida, September 24, 2025, at 7:30 a.m. EDT. (Still photo from livestream broadcast of the launch). (Image credit: NASA Kennedy) February 25, 2026 Across NOAA earth science marine life human health 0 Off",
-      "link": "https://www.noaa.gov/stories/5-ways-noaa-scientists-helped-improve-human-and-marine-life-in-2025",
-      "source": "NOAA",
-      "field": "space",
-      "date": "2026-02-24"
     },
     {
       "title": "Smile arrives at Europe’s Spaceport",
@@ -1406,6 +1406,38 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-03-06"
+    },
+    {
+      "title": "5 ways NOAA scientists helped improve human and marine life in 2025",
+      "description": "5 ways NOAA scientists helped improve human and marine life in 2025 Highlights from the annual NOAA Science Report Liftoff of SpaceX’s Falcon 9 rocket carrying NOAA’s SWFO-L1 satellite observatory along with NASA’s Interstellar Mapping and Acceleration Probe (IMAP) and Carruthers Geocorona Observatory from the launch pad at Kennedy Space Center in Florida, September 24, 2025, at 7:30 a.m. EDT. (Still photo from livestream broadcast of the launch). (Image credit: NASA Kennedy) February 25, 2026 Across NOAA earth science marine life human health 0 Off",
+      "link": "https://www.noaa.gov/stories/5-ways-noaa-scientists-helped-improve-human-and-marine-life-in-2025",
+      "source": "NOAA",
+      "field": "space",
+      "date": "2026-02-24"
+    },
+    {
+      "title": "NASA Armstrong Director Brad Flick to Retire After 40 Years of Service",
+      "description": "On Monday, NASA announced Bradley Flick, director of NASA’s Armstrong Flight Research Center in Edwards, California, will retire Thursday, March 19, after a nearly 40-year career advancing aeronautics and flight research. Flick began his NASA journey in 1986 as a flight systems engineer and rose through the ranks to lead the center. His career spanned […]",
+      "link": "https://www.nasa.gov/news-release/nasa-armstrong-director-brad-flick-to-retire-after-40-years-of-service/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Webb Studies Cranium Nebula",
+      "description": "Nebula PMR 1 is a cloud of gas and dust that bears an uncanny resemblance to a brain in a transparent skull, inspiring its nickname, the “Exposed Cranium” nebula. Webb captured its unusual features in both near- and mid-infrared light. The nebula was first revealed in infrared light by a predecessor to Webb, NASA’s now-retired Spitzer Space […]",
+      "link": "https://www.nasa.gov/image-article/webb-studies-cranium-nebula/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "NASA administrator talks to Science about studying the Moon, Mars—and Earth",
+      "description": "Jared Isaacman says agency may accelerate lunar science program and could tackle a new Mars mission in 2028",
+      "link": "https://www.science.org/content/article/nasa-administrator-talks-science-about-studying-moon-mars-and-earth",
+      "source": "Science",
+      "field": "space",
+      "date": "2026-03-09"
     },
     {
       "title": "Spanish launch startup PLD Space raises $209 million to scale its rocket production",
@@ -1440,14 +1472,6 @@
       "date": "2026-03-09"
     },
     {
-      "title": "NASA Armstrong Director Brad Flick to Retire After 40 Years of Service",
-      "description": "On Monday, NASA announced Bradley Flick, director of NASA’s Armstrong Flight Research Center in Edwards, California, will retire Thursday, March 19, after a nearly 40-year career advancing aeronautics and flight research. Flick began his NASA journey in 1986 as a flight systems engineer and rose through the ranks to lead the center. His career spanned […]",
-      "link": "https://www.nasa.gov/news-release/nasa-armstrong-director-brad-flick-to-retire-after-40-years-of-service/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-03-09"
-    },
-    {
       "title": "La NASA compartirá información actualizada sobre la evaluación de aptitud para el vuelo de Artemis II",
       "description": "Read this media advisory in English here. La NASA ofrecerá una rueda de prensa a las 3 p.m. EDT (hora del este) del jueves 12 de marzo para dar a conocer el progreso de la misión tripulada Artemis II alrededor de la Luna. La rueda de prensa tendrá lugar en el Centro Espacial Kennedy de la […]",
       "link": "https://www.nasa.gov/news-release/la-nasa-compartira-informacion-actualizada-sobre-la-evaluacion-de-aptitud-para-el-vuelo-de-artemis-ii/",
@@ -1472,30 +1496,6 @@
       "date": "2026-03-09"
     },
     {
-      "title": "Webb Studies Cranium Nebula",
-      "description": "Nebula PMR 1 is a cloud of gas and dust that bears an uncanny resemblance to a brain in a transparent skull, inspiring its nickname, the “Exposed Cranium” nebula. Webb captured its unusual features in both near- and mid-infrared light. The nebula was first revealed in infrared light by a predecessor to Webb, NASA’s now-retired Spitzer Space […]",
-      "link": "https://www.nasa.gov/image-article/webb-studies-cranium-nebula/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-03-09"
-    },
-    {
-      "title": "NASA Astronauts to Answer Questions from Students in New York",
-      "description": "Students in New York will hear from NASA astronauts Jack Hathaway and Chris Williams as they answer prerecorded science, technology, engineering, and mathematics (STEM) questions while aboard the International Space Station. The Earth-to-space call will begin at 12:05 p.m. EDT Wednesday, March 11, and will stream live on the agency’s Learn With NASA YouTube channel. […]",
-      "link": "https://www.nasa.gov/news-release/nasa-astronauts-to-answer-questions-from-students-in-new-york-3/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-03-09"
-    },
-    {
-      "title": "NASA administrator talks to Science about studying the Moon, Mars—and Earth",
-      "description": "Jared Isaacman says agency may accelerate lunar science program and could tackle a new Mars mission in 2028",
-      "link": "https://www.science.org/content/article/nasa-administrator-talks-science-about-studying-moon-mars-and-earth",
-      "source": "Science",
-      "field": "space",
-      "date": "2026-03-09"
-    },
-    {
       "title": "ESA analysing fireball over Europe on 8 March 2026",
       "description": "At approximately 18:55 CET (17:55 UTC) on Sunday 8 March 2026, a very bright fireball moving from the southwest to the northeast was observed by many people in Belgium, France, Germany, Luxembourg, and the Netherlands.",
       "link": "https://www.esa.int/Space_Safety/Planetary_Defence/ESA_analysing_fireball_over_Europe_on_8_March_2026",
@@ -1513,11 +1513,27 @@
     },
     {
       "title": "Live coverage: SpaceX to launch direct television satellite for EchoStar",
-      "description": "The launch of the EchoStar 25 satellite is SpaceX’s first launch to a geosynchronous transfer orbit so far this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 11:19 p.m. EDT (0319 UTC).",
+      "description": "The launch of the EchoStar 25 satellite is SpaceX’s first launch to a geosynchronous transfer orbit so far this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 12:19 a.m. EDT (0419 UTC)).",
       "link": "https://spaceflightnow.com/2026/03/09/live-coverage-spacex-to-launch-direct-television-satellite-for-echostar/",
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-03-09"
+    },
+    {
+      "title": "SpaceX launches Falcon 9 rocket launch from Vandenberg SFB Sunday",
+      "description": "The Starlink 17-18 mission added 25 more satellites to SpaceX’s low Earth orbit megaconstellation. Liftoff from pad 4E happened at 4:00:19 a.m. PDT (7:00:19 a.m. EDT / 1100:19 UTC).",
+      "link": "https://spaceflightnow.com/2026/03/06/live-coverage-spacex-plans-mid-afternoon-falcon-9-rocket-launch-from-vandenberg-sfb/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "SLS rocket hauled back to VAB for repairs",
+      "description": "A 6.6-million-pound Apollo-era crawler-transporter rolled up the ramp to pad 38B on Tuesday and was positioned directly under the 3.5-million-pound Space Launch System rocket and its 11.3-million-pound mobile launch platform.",
+      "link": "https://spaceflightnow.com/2026/02/25/sls-rocket-hauled-back-to-vab-for-repairs/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-02-25"
     },
     {
       "title": "Week in images: 02-06 March 2026",
@@ -1552,14 +1568,6 @@
       "date": "2026-03-07"
     },
     {
-      "title": "SpaceX launches Falcon 9 rocket launch from Vandenberg SFB Sunday",
-      "description": "The Starlink 17-18 mission added 25 more satellites to SpaceX’s low Earth orbit megaconstellation. Liftoff from pad 4E happened at 4:00:19 a.m. PDT (7:00:19 a.m. EDT / 1100:19 UTC).",
-      "link": "https://spaceflightnow.com/2026/03/06/live-coverage-spacex-plans-mid-afternoon-falcon-9-rocket-launch-from-vandenberg-sfb/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-03-06"
-    },
-    {
       "title": "SpaceX launches 600th Starlink satellite of 2026 during predawn Falcon 9 rocket flight from Cape Canaveral",
       "description": "The Starlink 10-40 mission included the 600th Starlink satellite launched so far in 2026. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 5:52:20 a.m. EST (1052:20 UTC).",
       "link": "https://spaceflightnow.com/2026/03/03/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-10/",
@@ -1574,14 +1582,6 @@
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-03-01"
-    },
-    {
-      "title": "SLS rocket hauled back to VAB for repairs",
-      "description": "A 6.6-million-pound Apollo-era crawler-transporter rolled up the ramp to pad 38B on Tuesday and was positioned directly under the 3.5-million-pound Space Launch System rocket and its 11.3-million-pound mobile launch platform.",
-      "link": "https://spaceflightnow.com/2026/02/25/sls-rocket-hauled-back-to-vab-for-repairs/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-02-25"
     },
     {
       "title": "NASA DART mission reveals asteroids throw “cosmic snowballs” at each other",
@@ -1672,20 +1672,20 @@
       "date": "2026-02-23"
     },
     {
-      "title": "3 Questions: Exploring the mechanisms underlying changes during infection",
-      "description": "Zuri Sullivan, a new assistant professor of biology and Whitehead Institute member, studies why we get sick, and whether aspects of illness, such as disrupted appetite, contribute to host defense.",
-      "link": "https://news.mit.edu/2026/3-questions-zuri-sullivan-exploring-changes-during-infection-0220",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-02-20"
-    },
-    {
       "title": "Anne Applebaum inspects the shards of post-war orderUkraine",
       "description": "Atlantic staff writer weighs Ukraine’s future, ‘radical’ threats to global stability",
       "link": "https://news.harvard.edu/gazette/story/2026/03/anne-applebaum-inspects-the-shards-of-post-war-order-ukraine/",
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-03-09"
+    },
+    {
+      "title": "This Student-Built EV Focuses on Repairability",
+      "description": "At first glance, the Aria EV doesn’t look much different from any other student-built electric prototype—no different from the battery-powered cars built by engineering students from dozens of universities every year. Beneath its panels, however, is a challenge to the modern auto industry: What if electric vehicles were designed to be repaired by their owners? The Aria project began in 2024, when roughly 20 students assembled at Eindhoven University of Technology in the Netherlands under the university’s Ecomotive team structure, which operates like a small startup. Students apply, are selecte",
+      "link": "https://spectrum.ieee.org/ev-battery-swapping-aria-ev",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-04"
     },
     {
       "title": "AI discovers the hidden signal of liquid-like ion flow in solid-state batteries",
