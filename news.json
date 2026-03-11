@@ -1,13 +1,13 @@
 {
   "date": "2026-03-11",
-  "lastUpdated": "2026-03-11T01:30:17.554Z",
+  "lastUpdated": "2026-03-11T05:09:16.283Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "66.8s",
+    "executionTime": "55.2s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 22,
-    "totalCandidates": 258,
-    "totalSelected": 258,
+    "totalCandidates": 256,
+    "totalSelected": 256,
     "entriesByField": {
       "health": 54,
       "climate": 25,
@@ -16,7 +16,7 @@
       "education": 4,
       "development": 20,
       "peace": 9,
-      "space": 26
+      "space": 24
     },
     "categoryIntegrity": {
       "health": {
@@ -33,7 +33,7 @@
       },
       "technology": {
         "kept": 119,
-        "changed": 3
+        "changed": 2
       },
       "education": {
         "kept": 4,
@@ -52,25 +52,17 @@
         "changed": 0
       },
       "space": {
-        "kept": 24,
+        "kept": 23,
         "changed": 0
       }
     },
     "qualityMetrics": {
       "highScoreEntries": 40,
-      "topTierSources": 136,
-      "highCredibilitySources": 233
+      "topTierSources": 135,
+      "highCredibilitySources": 232
     }
   },
   "entries": [
-    {
-      "title": "The Millisecond That Could Change Cancer Treatment",
-      "description": "Inside a cavernous hall at the Swiss-French border, the air hums with high voltage and possibility. From his perch on the wraparound observation deck, physicist Walter Wuensch surveys a multimillion-dollar array of accelerating cavities, klystrons, modulators, and pulse compressors—hardware being readied to drive a new generation of linear particle accelerators. Wuensch has spent decades working with these machines to crack the deepest mysteries of the universe. Now he and his colleagues are aiming at a new target: cancer. Here at CERN (the European Organization for Nuclear Research) and other",
-      "link": "https://spectrum.ieee.org/flash-radiotherapy",
-      "source": "IEEE Spectrum",
-      "field": "health",
-      "date": "2026-03-06"
-    },
     {
       "title": "[Comment] When the rules are rewritten, strengthen the coalition for gender justice",
       "description": "In April, 2025, we contributed, with many international colleagues, to the report of the Lancet Commission on Gender and Global Health, “Achieving gender justice for global health equity”1—the result of a 5-year review of the history and politics of gender justice within the global health system. While noting formidable challenges, the Commission identified milestones of progress and urged the global health community and its allies to press forward for equality and justice recognising gender justice is foundational to global health's effectiveness, legitimacy, and sustainability.",
@@ -78,6 +70,14 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-03-07"
+    },
+    {
+      "title": "The Millisecond That Could Change Cancer Treatment",
+      "description": "Inside a cavernous hall at the Swiss-French border, the air hums with high voltage and possibility. From his perch on the wraparound observation deck, physicist Walter Wuensch surveys a multimillion-dollar array of accelerating cavities, klystrons, modulators, and pulse compressors—hardware being readied to drive a new generation of linear particle accelerators. Wuensch has spent decades working with these machines to crack the deepest mysteries of the universe. Now he and his colleagues are aiming at a new target: cancer. Here at CERN (the European Organization for Nuclear Research) and other",
+      "link": "https://spectrum.ieee.org/flash-radiotherapy",
+      "source": "IEEE Spectrum",
+      "field": "health",
+      "date": "2026-03-06"
     },
     {
       "title": "Private Equity’s Transformation of American Medicine — Implications for Health Equity",
@@ -192,54 +192,6 @@
       "date": "2026-02-27"
     },
     {
-      "title": "Women are leading polio outbreak response efforts across Africa",
-      "description": "Every child protected from polio represents a conversation that worked, a door that opened, a mother reassured, a family reached. Behind each of those moments, in the Democratic Republic of the Congo (DRC), in Ethiopia, in Nigeria, is a woman who is making it happen. Across all three countries, when women are provided genuine authority, […]",
-      "link": "https://polioeradication.org/news/women-are-leading-polio-outbreak-response-efforts-across-africa/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-03-06"
-    },
-    {
-      "title": "Mobilizing 400 000 WHO-trained polio workers to vaccinate 45 million children in Pakistan",
-      "description": "11 February 2026, Islamabad – “We climb mountains and walk through the snow for hours with great difficulty. There is also a risk of snow falling on us from the mountains. Yet we do not give up. We reach our assigned area to vaccinate all children and protect them from polio,” says Rabia, a polio worker […]",
-      "link": "https://polioeradication.org/news/mobilizing-400000-who-trained-polio-workers-to-vaccinate-45-million-children-in-pakistan/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-02-16"
-    },
-    {
-      "title": "Novel oral polio vaccine type 2 by India’s Biological E achieves WHO prequalification",
-      "description": "12 February 2026 – The Global Polio Eradication Initiative (GPEI) welcomes the World Health Organization (WHO)’s decision to grant prequalification (PQ) status to the novel oral polio vaccine type 2 (nOPV2) by India’s Biological E. Limited (BE). This new recommendation expands BE’s role from fill‑finish activities using bulk vaccine supplied by PT Bio Farma (PTB) to […]",
-      "link": "https://polioeradication.org/news/novel-oral-polio-vaccine-type-2-by-indias-biological-e-achieves-who-prequalification/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-02-13"
-    },
-    {
-      "title": "Japan supports polio eradication and immunization in Afghanistan with US$6.3 million contribution",
-      "description": "KABUL, 10 February 2026 – The Government of Japan, through the Japan International Cooperation Agency (JICA), has provided US$6.3 million to UNICEF to renew its partnership on polio eradication and strengthen routine immunization across all 34 provinces of Afghanistan. The 12-month initiative aims to reach over 12 million children under five with lifesaving polio vaccines […]",
-      "link": "https://polioeradication.org/news/japan-supports-polio-eradication-and-immunization-in-afghanistan-with-us6-3-million-contribution/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-02-11"
-    },
-    {
-      "title": "“Vaccines are bringing us closer to the eradication of polio”",
-      "description": "Geneva, Switzerland, 4 February 2026 —WHO Member States have reaffirmed their collective commitment to finishing polio eradication, following extensive discussions at this week’s WHO Executive Board. Coming after the global pledging moment hosted in Abu Dhabi in December 2025, the deliberations sent a clear signal: the world remains united behind the goal of a polio-free […]",
-      "link": "https://polioeradication.org/news/vaccines-are-bringing-us-closer-to-the-eradication-of-polio/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-02-04"
-    },
-    {
-      "title": "Alwaleed Philanthropies (Global) continues its long-standing commitment with US$15 million for global polio eradication efforts",
-      "description": "Davos, Switzerland (22 January) The Global Polio Eradication Initiative (GPEI) welcomed a new US$15 million commitment from Alwaleed Philanthropies Global today, announced by Bill Gates, Chair of the Gates Foundation, and HRH Princess Lamia Bint Majed Al Saud, Secretary General of Alwaleed Philanthropies during the World Economic Forum Annual Meeting 2026 in Davos, Switzerland. The new […]",
-      "link": "https://polioeradication.org/news/alwaleed-philanthropies-global-continues-its-long-standing-commitment-with-us15-million-for-global-polio-eradication-efforts/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-01-22"
-    },
-    {
       "title": "[Obituary] Stephen Vickers Boyden",
       "description": "Human ecologist, immunologist, and author. Born on Feb 8, 1925 in Croydon, UK, he died on Dec 26, 2025 in Canberra, ACT, Australia, aged 100 years.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00427-7/fulltext?rss=yes",
@@ -310,6 +262,54 @@
       "source": "NEJM",
       "field": "health",
       "date": "2026-03-04"
+    },
+    {
+      "title": "Women are leading polio outbreak response efforts across Africa",
+      "description": "Every child protected from polio represents a conversation that worked, a door that opened, a mother reassured, a family reached. Behind each of those moments, in the Democratic Republic of the Congo (DRC), in Ethiopia, in Nigeria, is a woman who is making it happen. Across all three countries, when women are provided genuine authority, […]",
+      "link": "https://polioeradication.org/news/women-are-leading-polio-outbreak-response-efforts-across-africa/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "Mobilizing 400 000 WHO-trained polio workers to vaccinate 45 million children in Pakistan",
+      "description": "11 February 2026, Islamabad – “We climb mountains and walk through the snow for hours with great difficulty. There is also a risk of snow falling on us from the mountains. Yet we do not give up. We reach our assigned area to vaccinate all children and protect them from polio,” says Rabia, a polio worker […]",
+      "link": "https://polioeradication.org/news/mobilizing-400000-who-trained-polio-workers-to-vaccinate-45-million-children-in-pakistan/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-02-16"
+    },
+    {
+      "title": "Novel oral polio vaccine type 2 by India’s Biological E achieves WHO prequalification",
+      "description": "12 February 2026 – The Global Polio Eradication Initiative (GPEI) welcomes the World Health Organization (WHO)’s decision to grant prequalification (PQ) status to the novel oral polio vaccine type 2 (nOPV2) by India’s Biological E. Limited (BE). This new recommendation expands BE’s role from fill‑finish activities using bulk vaccine supplied by PT Bio Farma (PTB) to […]",
+      "link": "https://polioeradication.org/news/novel-oral-polio-vaccine-type-2-by-indias-biological-e-achieves-who-prequalification/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Japan supports polio eradication and immunization in Afghanistan with US$6.3 million contribution",
+      "description": "KABUL, 10 February 2026 – The Government of Japan, through the Japan International Cooperation Agency (JICA), has provided US$6.3 million to UNICEF to renew its partnership on polio eradication and strengthen routine immunization across all 34 provinces of Afghanistan. The 12-month initiative aims to reach over 12 million children under five with lifesaving polio vaccines […]",
+      "link": "https://polioeradication.org/news/japan-supports-polio-eradication-and-immunization-in-afghanistan-with-us6-3-million-contribution/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-02-11"
+    },
+    {
+      "title": "“Vaccines are bringing us closer to the eradication of polio”",
+      "description": "Geneva, Switzerland, 4 February 2026 —WHO Member States have reaffirmed their collective commitment to finishing polio eradication, following extensive discussions at this week’s WHO Executive Board. Coming after the global pledging moment hosted in Abu Dhabi in December 2025, the deliberations sent a clear signal: the world remains united behind the goal of a polio-free […]",
+      "link": "https://polioeradication.org/news/vaccines-are-bringing-us-closer-to-the-eradication-of-polio/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-02-04"
+    },
+    {
+      "title": "Alwaleed Philanthropies (Global) continues its long-standing commitment with US$15 million for global polio eradication efforts",
+      "description": "Davos, Switzerland (22 January) The Global Polio Eradication Initiative (GPEI) welcomed a new US$15 million commitment from Alwaleed Philanthropies Global today, announced by Bill Gates, Chair of the Gates Foundation, and HRH Princess Lamia Bint Majed Al Saud, Secretary General of Alwaleed Philanthropies during the World Economic Forum Annual Meeting 2026 in Davos, Switzerland. The new […]",
+      "link": "https://polioeradication.org/news/alwaleed-philanthropies-global-continues-its-long-standing-commitment-with-us15-million-for-global-polio-eradication-efforts/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-01-22"
     },
     {
       "title": "Updated Evidence Base for Covid-19, RSV, and Influenza Immunizations",
@@ -520,20 +520,20 @@
       "date": "2026-03-10"
     },
     {
-      "title": "NOAA Satellites — and you — are helping better identify hazardous blowing snow",
-      "description": "NOAA Satellites — and you — are helping better identify hazardous blowing snow A traffic camera in Pembina, North Dakota captured blowing snow on Dec. 18, 2025. (Image credit: North Dakota Department of Transportation) Download Image March 10, 2026 When hazardous winter weather threatens public safety, forecasters want as much information as possible to issue their live-saving warnings. One wintertime hazard—blowing snow—can be an often overlooked but significant threat. Blowing snow is snow that has already fallen and is being lofted from the ground by strong winds. It can cause a sudden redu",
-      "link": "https://www.noaa.gov/education/stories/noaa-satellites-and-you-are-helping-better-identify-hazardous-blowing-snow-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-03-10"
-    },
-    {
       "title": "Becoming an Iconic Reef Guardian: A purposeful dive in Florida Keys National Marine Sanctuary",
       "description": "Becoming an Iconic Reef Guardian: A purposeful dive in Florida Keys National Marine Sanctuary Maintaining the world’s largest Coral Tree™ nursery is a lot of work and requires routine cleaning of the trees to remove biofoul, algae, and bivalves using brushes, chisels, and other tools. (Image credit: Jay Clue) Download Image February 24, 2026 The first time I laid eyes on a coral reef was in the Florida Keys in 2012 after I had just learned to scuba dive. I remember hovering above the reef in awe trying to take in the colors of coral and sponges, the fish moving through them, and the realizatio",
       "link": "https://www.noaa.gov/education/stories/becoming-iconic-reef-guardian-purposeful-dive-in-florida-keys-national-marine-sanctuary-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-03-04"
+    },
+    {
+      "title": "NOAA Satellites — and you — are helping better identify hazardous blowing snow",
+      "description": "NOAA Satellites — and you — are helping better identify hazardous blowing snow A traffic camera in Pembina, North Dakota captured blowing snow on Dec. 18, 2025. (Image credit: North Dakota Department of Transportation) Download Image March 10, 2026 When hazardous winter weather threatens public safety, forecasters want as much information as possible to issue their live-saving warnings. One wintertime hazard—blowing snow—can be an often overlooked but significant threat. Blowing snow is snow that has already fallen and is being lofted from the ground by strong winds. It can cause a sudden redu",
+      "link": "https://www.noaa.gov/education/stories/noaa-satellites-and-you-are-helping-better-identify-hazardous-blowing-snow-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-03-10"
     },
     {
       "title": "Science Officer in the IPCC Working Group I Technical Support Unit",
@@ -704,14 +704,6 @@
       "date": "2026-02-17"
     },
     {
-      "title": "Intel Demos Chip to Compute With Encrypted Data",
-      "description": "Summary Fully homomorphic encryption (FHE) allows computing on encrypted data without decryption, but it’s currently slow on standard CPUs and GPUs. Intel’s Heracles chip accelerates FHE tasks up to 5,000 times faster than top Intel server CPUs. Heracles uses a 3-nanometer FinFET technology and high-bandwidth memory, enabling efficient encrypted computing at scale. Startups and Intel are racing to commercialize FHE accelerators, with potential applications in AI and secure data processing. Worried that your latest ask to a cloud-based AI reveals a bit too much about you? Want to know your gene",
-      "link": "https://spectrum.ieee.org/fhe-intel",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-10"
-    },
-    {
       "title": "Just the Right Amount: Microbial Nutrients Drive Success and Failure of Antibiotics",
       "description": "Antibiotics are medical marvels that have transformed once deadly bacterial infections into manageable conditions. But with a rise in antibiotic resistance that renders existing treatments ineffective, new agents are urgently needed. Scientists at Caltech and Princeton University have now shed fresh light on why antibiotics that work well in laboratory tests often fail against real infections in humans.By studying antibiotic and bacterial interactions in environments resembling those found in the body, they have revealed that microbial nutrients, such as glucose, play a crucial role in antibio",
       "link": "https://www.caltech.edu/about/news/just-the-right-amount-microbial-nutrients-drive-success-iandi-failure-of-antibiotics",
@@ -728,20 +720,12 @@
       "date": "2026-02-19"
     },
     {
-      "title": "U.S. agency will devote $144 million to studies that slow aging, extend quality of life",
-      "description": "ARPA-H will “build the train tracks” for first large clinical studies of aging interventions",
-      "link": "https://www.science.org/content/article/u-s-agency-will-devote-144-million-studies-slow-aging-extend-quality-life",
-      "source": "Science",
+      "title": "Intel Demos Chip to Compute With Encrypted Data",
+      "description": "Summary Fully homomorphic encryption (FHE) allows computing on encrypted data without decryption, but it’s currently slow on standard CPUs and GPUs. Intel’s Heracles chip accelerates FHE tasks up to 5,000 times faster than top Intel server CPUs. Heracles uses a 3-nanometer FinFET technology and high-bandwidth memory, enabling efficient encrypted computing at scale. Startups and Intel are racing to commercialize FHE accelerators, with potential applications in AI and secure data processing. Worried that your latest ask to a cloud-based AI reveals a bit too much about you? Want to know your gene",
+      "link": "https://spectrum.ieee.org/fhe-intel",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-03-09"
-    },
-    {
-      "title": "Measuring Local Well-Being from Space",
-      "description": "Since 1990, the United Nations (UN) has used the Human Development Index (HDI) to assess the development of a country using indicators of well-being and quality of life gathered via census data. HDI scores are then used by government agencies and nonprofits to help allocate resources. But the index rankings do not reflect information at the local level, meaning, for example, that people in less-developed areas of higher-ranking countries could be missing out on critical aid.Now, in partnership with researchers at the UN, a team of researchers including Caltech's Hannah Druckenmiller have devel",
-      "link": "https://www.caltech.edu/about/news/measuring-local-well-being-from-space",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-03-05"
+      "date": "2026-03-10"
     },
     {
       "title": "Brian Stoltz Receives Malcom Prize for Excellence in Mentoring",
@@ -758,46 +742,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-03-03"
-    },
-    {
-      "title": "How Cross-Cultural Engineering Drives Tech Advancement",
-      "description": "Innovation rarely happens in isolation. Usually, the systems that engineers design are shaped by global teams whose members’ knowledge and ideas move across borders as easily as data. That is especially true in my field of robotics and automation—where hardware, software, and human workflows function together. Progress depends not only on technical skill but also on how engineers frame problems and evaluate trade-offs. My career has shown me how cross-cultural experiences can shape the framing. Working across different cultures has influenced how I approach collaboration, design decisions, and",
-      "link": "https://spectrum.ieee.org/cross-cultural-engineering-tech-advancement",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-09"
-    },
-    {
-      "title": "Do Offshore Wind Farms Pose National Security Risks?",
-      "description": "When the Trump administration last year sought to freeze construction of offshore wind farms by citing concerns about interference with military radar and sonar, the implication was that these were new issues. But for more than a decade, the United States, Taiwan, and many European countries have successfully mitigated wind turbines’ security impacts. Some European countries are even integrating wind farms with national defense schemes. “It’s not a choice of whether we go for wind farms or security. We need both,” says Ben Bekkering, a retired vice admiral in the Netherlands and current partne",
-      "link": "https://spectrum.ieee.org/offshore-wind-military-radar",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-09"
-    },
-    {
-      "title": "Military AI Policy Needs Democratic Oversight",
-      "description": "A simmering dispute between the United States Department of Defense (DOD) and Anthropic has now escalated into a full-blown confrontation, raising an uncomfortable but important question: who gets to set the guardrails for military use of artificial intelligence — the executive branch, private companies or Congress and the broader democratic process? The conflict began when Defense Secretary Pete Hegseth reportedly gave Anthropic CEO Dario Amodei a deadline to allow the DOD unrestricted use of its AI systems. When the company refused, the administration moved to designate Anthropic a supply ch",
-      "link": "https://spectrum.ieee.org/military-ai-governance",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-08"
-    },
-    {
-      "title": "What do parasitic worms and wages have in common? More than you think",
-      "description": "Nearly 30 years of data from a landmark UC Berkeley project in Kenya show that treating children's intestinal parasites does more than improve health — it boosts adult earnings and secures the lives of the next generation. The post What do parasitic worms and wages have in common? More than you think appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/03/05/berkeley-voices-s2e5-deworming/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "Berkeley’s Blue and Gold satellites are now flying through Earth’s magnetotail — a first",
-      "description": "Launched to Mars in November, NASA’s ESCAPADE probes — operated by UC Berkeley’s Space Sciences Lab — are now testing their instruments in a never-before-visited region of Earth's magnetic field. The post Berkeley’s Blue and Gold satellites are now flying through Earth’s magnetotail — a first appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/03/04/berkeleys-blue-and-gold-satellites-are-now-flying-through-earths-magnetotail-a-first/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-03-04"
     },
     {
       "title": "Watershed Moment for AI–Human Collaboration in Math",
@@ -840,116 +784,20 @@
       "date": "2026-03-01"
     },
     {
-      "title": "Antarctica has a strange gravity hole and scientists finally know why",
-      "description": "Gravity may seem constant, but it actually varies across the planet—and one of the strangest places is Antarctica, where gravity is slightly weaker than expected. Scientists have traced this “gravity hole” to slow, deep movements of rock inside Earth that unfolded over tens of millions of years. Using earthquake data to essentially create a CT scan of the planet’s interior, researchers reconstructed how the anomaly evolved and discovered that it strengthened between about 50 and 30 million years ago.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260306224213.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-07"
-    },
-    {
-      "title": "Electrons catapult across solar materials in just 18 femtoseconds",
-      "description": "Electrons in solar materials can be launched across molecules almost as fast as nature allows, thanks to tiny atomic vibrations acting like a “molecular catapult.” In experiments lasting just 18 femtoseconds, researchers at the University of Cambridge observed electrons blasting across a boundary in a single burst, far faster than long-standing theories predicted. Instead of slow, random movement, the electron rides the natural vibrations of the molecule itself, challenging decades of design rules for solar materials.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260305223219.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-06"
-    },
-    {
-      "title": "Record-breaking photodetector captures light in just 125 picoseconds",
-      "description": "A new ultrathin photodetector from Duke University can sense light across the entire electromagnetic spectrum and generate a signal in just 125 picoseconds, making it the fastest pyroelectric detector ever built. The breakthrough could power next-generation multispectral cameras used in medicine, agriculture, and space-based sensing.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260304184218.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
-      "description": "Through the Artemis Program, NASA hopes to establish a permanent human presence on the Moon in its southern polar region. China, Russia, and the European Space Agency (ESA) have similar plans, all of which involve building bases near the permanently shadowed regions (PSRs)—craters that contain water ice—that dot the South Pole-Aitken Basin. For these and other agencies, it is vital that these bases be as self-sufficient as possible since resupply missions cannot be launched regularly and take several days to arrive. Therefore, any plan for a lunar base must come down to harvesting local resour",
-      "link": "https://spectrum.ieee.org/lunar-base-3d-printing",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-07"
-    },
-    {
-      "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
-      "description": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squirtle or (with a huge amount…",
-      "link": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-03-10"
-    },
-    {
-      "title": "Prioritizing energy intelligence for sustainable growth",
-      "description": "Loudoun County, Virginia, once known for its pastoral scenery and proximity to Washington, DC, has earned a more modern reputation in recent years: The area has the highest concentration of data centers on the planet. Ten years ago, these facilities powered email and e-commerce. Today, thanks to the meteoric rise in demand for AI-infused everything,…",
-      "link": "https://www.technologyreview.com/2026/03/10/1133972/prioritizing-energy-intelligence-for-sustainable-growth/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-03-10"
-    },
-    {
-      "title": "How AI is turning the Iran conflict into theater",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. “Anyone wanna host a get together in SF and pull this up on a 100 inch TV?” The author of that post on X was referring to an online intelligence dashboard following…",
-      "link": "https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/",
-      "source": "MIT Tech Review",
+      "title": "U.S. agency will devote $144 million to studies that slow aging, extend quality of life",
+      "description": "ARPA-H will “build the train tracks” for first large clinical studies of aging interventions",
+      "link": "https://www.science.org/content/article/u-s-agency-will-devote-144-million-studies-slow-aging-extend-quality-life",
+      "source": "Science",
       "field": "technology",
       "date": "2026-03-09"
     },
     {
-      "title": "The Download: murky AI surveillance laws, and the White House cracks down on defiant labs",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Is the Pentagon allowed to surveil Americans with AI? The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question:…",
-      "link": "https://www.technologyreview.com/2026/03/09/1134050/the-download-ai-surveillance-laws-white-house-cracks-down-defiant-labs/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-03-09"
-    },
-    {
-      "title": "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)",
-      "description": "Non-terrestrial networks (NTNs) using low earth orbit (LEO) satellites present unique technical challenges, from managing large satellite constellations to ensuring reliable communication links. In this webinar, we’ll explore how to address these complexities using comprehensive modeling and simulation techniques. Discover how to model and analyze satellite orbits, onboard antennas and arrays, transmitter power amplifiers (PAs), signal propagation channels, and the RF and digital receiver segments—all within an integrated workflow. Learn the importance of including every link component to achi",
-      "link": "https://content.knowledgehub.wiley.com/scenario-modeling-and-array-design-for-non-terrestrial-networks-ntns/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-06"
-    },
-    {
-      "title": "From TV Repairman to Electromagnetic Compatibility Expert",
-      "description": "No one had very high career aspirations for teenager David A. Weston—except for Weston himself. Growing up in London, he scored low on the U.K. national assessment test given to students finishing primary school. The result meant that his next path was either to become a laborer or attend a vocational school to learn a trade. What Weston really wanted to do was to work as a radio and TV repairman. He was fascinated by how the devices worked. He had taught himself to build an AM radio when he was 15. Even after showing it to his parents and teachers, though, they still didn’t think he was smart",
-      "link": "https://spectrum.ieee.org/from-tv-repairman-to-electromagnetic-compatibility-expert",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "This Student-Built EV Focuses on Repairability",
-      "description": "At first glance, the Aria EV doesn’t look much different from any other student-built electric prototype—no different from the battery-powered cars built by engineering students from dozens of universities every year. Beneath its panels, however, is a challenge to the modern auto industry: What if electric vehicles were designed to be repaired by their owners? The Aria project began in 2024, when roughly 20 students assembled at Eindhoven University of Technology in the Netherlands under the university’s Ecomotive team structure, which operates like a small startup. Students apply, are selecte",
-      "link": "https://spectrum.ieee.org/ev-battery-swapping-aria-ev",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-04"
-    },
-    {
-      "title": "Scientists turn scrap car aluminum into high-performance metal for new vehicles",
-      "description": "Scientists at Oak Ridge National Laboratory have created a new aluminum alloy called RidgeAlloy that can turn contaminated car-body scrap into strong structural vehicle parts. Normally, impurities introduced during recycling make this scrap unsuitable for high-performance applications. RidgeAlloy overcomes that challenge, enabling recycled aluminum to meet the strength and durability standards required for modern vehicles. The technology could slash energy use, reduce imports, and unlock a huge new supply of domestic aluminum.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260309225217.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-11"
-    },
-    {
-      "title": "Scientists may have discovered a brand-new mineral on Mars",
-      "description": "Scientists studying Mars may have uncovered a brand-new mineral hidden in the planet’s ancient sulfate deposits. By combining laboratory experiments with orbital data, researchers identified an unusual iron sulfate—ferric hydroxysulfate—forming in layered deposits near the massive Valles Marineris canyon system. The mineral likely formed when sulfate-rich deposits left behind by ancient water were later heated by volcanic or geothermal activity, transforming their chemistry.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260309225228.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-10"
-    },
-    {
-      "title": "Using Tiny Ripples at Skin Level to Monitor for Possible Health Problems Below",
-      "description": "Caltech scientists have developed a method that detects tiny, imperceptible movements at the surface of objects to reveal details about what lies beneath. By analyzing the physics of waves traveling across the surface of an object—whether that be a manufactured product or the human body—the new technique can determine both the stiffness and thickness of the underlying material or tissue. This lays the groundwork for the project's ultimate goal of enabling inexpensive, at-home health monitoring using little more than a smartphone camera.\"There is information scattered all around us in plain sig",
-      "link": "https://www.caltech.edu/about/news/using-tiny-ripples-at-skin-level-to-monitor-for-possible-health-problems-below",
+      "title": "Measuring Local Well-Being from Space",
+      "description": "Since 1990, the United Nations (UN) has used the Human Development Index (HDI) to assess the development of a country using indicators of well-being and quality of life gathered via census data. HDI scores are then used by government agencies and nonprofits to help allocate resources. But the index rankings do not reflect information at the local level, meaning, for example, that people in less-developed areas of higher-ranking countries could be missing out on critical aid.Now, in partnership with researchers at the UN, a team of researchers including Caltech's Hannah Druckenmiller have devel",
+      "link": "https://www.caltech.edu/about/news/measuring-local-well-being-from-space",
       "source": "Caltech",
       "field": "technology",
-      "date": "2026-03-04"
+      "date": "2026-03-05"
     },
     {
       "title": "Ancient Zircon Crystals Provide a Window into Early Earth History",
@@ -966,6 +814,70 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-02-24"
+    },
+    {
+      "title": "How Cross-Cultural Engineering Drives Tech Advancement",
+      "description": "Innovation rarely happens in isolation. Usually, the systems that engineers design are shaped by global teams whose members’ knowledge and ideas move across borders as easily as data. That is especially true in my field of robotics and automation—where hardware, software, and human workflows function together. Progress depends not only on technical skill but also on how engineers frame problems and evaluate trade-offs. My career has shown me how cross-cultural experiences can shape the framing. Working across different cultures has influenced how I approach collaboration, design decisions, and",
+      "link": "https://spectrum.ieee.org/cross-cultural-engineering-tech-advancement",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Do Offshore Wind Farms Pose National Security Risks?",
+      "description": "When the Trump administration last year sought to freeze construction of offshore wind farms by citing concerns about interference with military radar and sonar, the implication was that these were new issues. But for more than a decade, the United States, Taiwan, and many European countries have successfully mitigated wind turbines’ security impacts. Some European countries are even integrating wind farms with national defense schemes. “It’s not a choice of whether we go for wind farms or security. We need both,” says Ben Bekkering, a retired vice admiral in the Netherlands and current partne",
+      "link": "https://spectrum.ieee.org/offshore-wind-military-radar",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Military AI Policy Needs Democratic Oversight",
+      "description": "A simmering dispute between the United States Department of Defense (DOD) and Anthropic has now escalated into a full-blown confrontation, raising an uncomfortable but important question: who gets to set the guardrails for military use of artificial intelligence — the executive branch, private companies or Congress and the broader democratic process? The conflict began when Defense Secretary Pete Hegseth reportedly gave Anthropic CEO Dario Amodei a deadline to allow the DOD unrestricted use of its AI systems. When the company refused, the administration moved to designate Anthropic a supply ch",
+      "link": "https://spectrum.ieee.org/military-ai-governance",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-08"
+    },
+    {
+      "title": "Laser-Based 3D Printing Could Build Future Bases on the Moon",
+      "description": "Through the Artemis Program, NASA hopes to establish a permanent human presence on the Moon in its southern polar region. China, Russia, and the European Space Agency (ESA) have similar plans, all of which involve building bases near the permanently shadowed regions (PSRs)—craters that contain water ice—that dot the South Pole-Aitken Basin. For these and other agencies, it is vital that these bases be as self-sufficient as possible since resupply missions cannot be launched regularly and take several days to arrive. Therefore, any plan for a lunar base must come down to harvesting local resour",
+      "link": "https://spectrum.ieee.org/lunar-base-3d-printing",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "What do parasitic worms and wages have in common? More than you think",
+      "description": "Nearly 30 years of data from a landmark UC Berkeley project in Kenya show that treating children's intestinal parasites does more than improve health — it boosts adult earnings and secures the lives of the next generation. The post What do parasitic worms and wages have in common? More than you think appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/03/05/berkeley-voices-s2e5-deworming/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Berkeley’s Blue and Gold satellites are now flying through Earth’s magnetotail — a first",
+      "description": "Launched to Mars in November, NASA’s ESCAPADE probes — operated by UC Berkeley’s Space Sciences Lab — are now testing their instruments in a never-before-visited region of Earth's magnetic field. The post Berkeley’s Blue and Gold satellites are now flying through Earth’s magnetotail — a first appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/03/04/berkeleys-blue-and-gold-satellites-are-now-flying-through-earths-magnetotail-a-first/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Improving AI models’ ability to explain their predictions",
+      "description": "A new approach could help users know whether to trust a model’s predictions in safety-critical applications like health care and autonomous driving.",
+      "link": "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Using Tiny Ripples at Skin Level to Monitor for Possible Health Problems Below",
+      "description": "Caltech scientists have developed a method that detects tiny, imperceptible movements at the surface of objects to reveal details about what lies beneath. By analyzing the physics of waves traveling across the surface of an object—whether that be a manufactured product or the human body—the new technique can determine both the stiffness and thickness of the underlying material or tissue. This lays the groundwork for the project's ultimate goal of enabling inexpensive, at-home health monitoring using little more than a smartphone camera.\"There is information scattered all around us in plain sig",
+      "link": "https://www.caltech.edu/about/news/using-tiny-ripples-at-skin-level-to-monitor-for-possible-health-problems-below",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-03-04"
     },
     {
       "title": "Caltech Mourns the Passing of Carl Grillmair (1959–2026)",
@@ -1104,14 +1016,6 @@
       "date": "2026-03-09"
     },
     {
-      "title": "Improving AI models’ ability to explain their predictions",
-      "description": "A new approach could help users know whether to trust a model’s predictions in safety-critical applications like health care and autonomous driving.",
-      "link": "https://news.mit.edu/2026/improving-ai-models-ability-explain-predictions-0309",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-09"
-    },
-    {
       "title": "Personal tech, social media, and the “decline of humanity”",
       "description": "In Compton Lecture at MIT, social psychologist Jonathan Haidt warns of dramatic global decay in cognition, attention spans, and civic life, and urges curbs to tech use.",
       "link": "https://news.mit.edu/2026/personal-tech-social-media-and-humanity-decline-0306",
@@ -1142,6 +1046,102 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-03-06"
+    },
+    {
+      "title": "A winning formula for student project teams at MIT",
+      "description": "The teamwork, leadership, and communication skills developed in the Gordon Engineering Leadership (GEL) Program drive success of Edgerton Center project teams.",
+      "link": "https://news.mit.edu/2026/winning-formula-student-project-teams-at-mit-0305",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "New insights into a hidden process that protects cells from harmful mutations",
+      "description": "Research reveals how cells may activate a compensation system that can reduce the effects of harmful genetic mutations. This could inform gene therapy development.",
+      "link": "https://news.mit.edu/2026/new-insights-hidden-process-protects-cells-harmful-mutations-0305",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Recreating the forms and sounds of historical musical instruments",
+      "description": "Through an interdisciplinary collaboration between MIT and the Museum of Fine Arts, Boston, researchers are creating playable physical and synthesized replicas.",
+      "link": "https://news.mit.edu/2026/recreating-forms-sounds-historic-musical-instruments-0305",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "For one learner, online MIT courses are “like getting a Ferrari for the price of an electric scooter”",
+      "description": "Senior engineer Badri Ratnam has enhanced his education and career with 40 courses offered by MITx at MIT Open Learning.",
+      "link": "https://news.mit.edu/2026/online-mit-courses-are-like-ferrari-for-price-of-scooter-0305",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "New catalog more than doubles the number of gravitational-wave detections made by LIGO, Virgo, and KAGRA observatories",
+      "description": "The latest crop of space-time wobbles includes a variety of heavy, fast-spinning, and lopsided colliding black holes.",
+      "link": "https://news.mit.edu/2026/new-catalog-doubles-gravitational-wave-detections-made-ligo-virgo-kagra-0305",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "Nitrous oxide, a product of fertilizer use, may harm some soil bacteria",
+      "description": "While some N2O is produced naturally at the plant root, agricultural practices can increase its levels, to the detriment of some microbes that support plant growth.",
+      "link": "https://news.mit.edu/2026/nitrous-oxide-product-fertilizer-use-may-harm-some-soil-bacteria-0304",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Les Perelman, expert in writing assessment and champion of writing education, dies at 77",
+      "description": "The longtime MIT faculty member and former dean established an influential writing program at the Institute and was known for his fierce criticism of automated essay grading.",
+      "link": "https://news.mit.edu/2026/les-perelman-dies-0302",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-02"
+    },
+    {
+      "title": "Finding New Ways to Kill Bacteria: New Insights into the Transporter MurJ",
+      "description": "A Caltech-led team of biochemists has homed in on an underexplored small transporter called MurJ that is a vital part of the pathway bacteria use to build their chain-mail-like cell wall. An essential component of the cell wall, called peptidoglycan, provides the strength that allows bacteria to resist pressure. Using advanced tools, the scientists have determined the common mechanism used by three different bacteria-killing viruses to block MurJ from doing its job. The findings reveal a novel target for designing new antibiotics.A paper about the new work was published online in the journal N",
+      "link": "https://www.caltech.edu/about/news/finding-new-ways-to-kill-bacteria-new-insights-into-the-transporter-murj",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "How some skills become second nature",
+      "description": "Patterns of gaze and attention can reveal how some people unconsciously figure out how to master a task, new research shows.",
+      "link": "https://news.mit.edu/2026/how-some-skills-become-second-nature-0304",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "A “ChatGPT for spreadsheets” helps solve difficult engineering challenges faster",
+      "description": "The approach could help engineers tackle extremely complex design problems, from power grid optimization to vehicle design.",
+      "link": "https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Injectable “satellite livers” could offer an alternative to liver transplantation",
+      "description": "The engineered tissue grafts could take on the liver’s function and help thousands of people with liver failure.",
+      "link": "https://news.mit.edu/2026/injectable-satellite-livers-could-offer-alternative-liver-transplantation-0303",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-03"
+    },
+    {
+      "title": "LAB14 joins the MIT.nano Consortium",
+      "description": "The advanced manufacturing group becomes a member and will contribute equipment to MIT.nano.",
+      "link": "https://news.mit.edu/2026/lab14-joins-mitnano-consortium-0303",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-03"
     },
     {
       "title": "Education in Grenada",
@@ -1200,6 +1200,14 @@
       "date": "2026-03-10"
     },
     {
+      "title": "ADB, Prima Sign Landmark Cable Deal to Boost Connectivity and Disaster Resilience in Vanuatu",
+      "description": "ADB signed a financing package today with Prima Limited to support the design, build, and installation of the 411-kilometer Tamtam submarine cable connecting Port Vila, Vanuatu, to Lifou, New Caledonia.",
+      "link": "https://www.adb.org/news/adb-prima-sign-landmark-cable-deal-boost-connectivity-and-disaster-resilience-vanuatu",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-02-18"
+    },
+    {
       "title": "ADB Approves $182 Million Loan to Scale Up Flood and Erosion Management Along Brahmaputra in Assam",
       "description": "ADB has approved $182 million in additional financing to expand its support for strengthening Assam’s resilience to chronic flooding and severe riverbank erosion along the Brahmaputra River.",
       "link": "https://www.adb.org/news/adb-approves-182-million-loan-scale-flood-and-erosion-management-along-brahmaputra-assam",
@@ -1248,14 +1256,6 @@
       "date": "2026-02-25"
     },
     {
-      "title": "ADB, Prima Sign Landmark Cable Deal to Boost Connectivity and Disaster Resilience in Vanuatu",
-      "description": "ADB signed a financing package today with Prima Limited to support the design, build, and installation of the 411-kilometer Tamtam submarine cable connecting Port Vila, Vanuatu, to Lifou, New Caledonia.",
-      "link": "https://www.adb.org/news/adb-prima-sign-landmark-cable-deal-boost-connectivity-and-disaster-resilience-vanuatu",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-02-18"
-    },
-    {
       "title": "ADB Supports Bhutan’s Trade Expansion and Diversification to Build a Competitive, Resilient Economy",
       "description": "ADB has approved a $25 million financing package to help the Royal Government of Bhutan accelerate trade expansion and economic diversification. The assistance comprises a $13 million policy-based loan and a $12 million policy-based grant funded through the ADB-administered Asian Development Fund.",
       "link": "https://www.adb.org/news/adb-supports-bhutan-trade-expansion-and-diversification-build-competitive-resilient-economy",
@@ -1264,12 +1264,20 @@
       "date": "2026-02-10"
     },
     {
-      "title": "ADB President Welcomes Sri Lanka Prime Minister, Reaffirms Support for Recovery and Reform",
-      "description": "ADB President Masato Kanda met with Sri Lanka Prime Minister Harini Amarasuriya at ADB’s Manila headquarters. The meeting reaffirmed the strong development partnership between ADB and Sri Lanka, with both leaders underscoring their commitment to post-cyclone recovery, inclusive growth, and advancing women’s equality.",
-      "link": "https://www.adb.org/news/adb-president-welcomes-sri-lanka-prime-minister-reaffirms-support-recovery-and-reform",
+      "title": "ADB President, Fiji Prime Minister Open Expanded Office to Strengthen Partnership and Scale Up Impact",
+      "description": "ADB President Masato Kanda and Fiji Prime Minister Sitiveni Rabuka today officially opened ADB’s expanded Pacific Subregional Office in Suva. The inauguration followed talks earlier in the day between the two leaders on advancing ADB’s support for Fiji’s inclusive economic growth and reinforcing Fiji’s role as a regional hub for Pacific cooperation.",
+      "link": "https://www.adb.org/news/adb-president-fiji-prime-minister-open-expanded-office-strengthen-partnership-and-scale-impact",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-03-10"
+      "date": "2026-02-20"
+    },
+    {
+      "title": "ADB President Pledges Support for Solomon Islands Development Goals in Meeting with Prime Minister",
+      "description": "ADB President Masato Kanda met Solomon Islands Prime Minister Jeremiah Manele in Honiara to discuss strengthening ADB’s long-standing support for the country’s economic development and expanding cooperation on public financial management reforms.",
+      "link": "https://www.adb.org/news/adb-president-pledges-support-solomon-islands-development-goals-meeting-prime-minister",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-02-17"
     },
     {
       "title": "ADB Appoints Sona Shrestha as Director General for South Asia",
@@ -1278,6 +1286,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-02-12"
+    },
+    {
+      "title": "ADB President Welcomes Sri Lanka Prime Minister, Reaffirms Support for Recovery and Reform",
+      "description": "ADB President Masato Kanda met with Sri Lanka Prime Minister Harini Amarasuriya at ADB’s Manila headquarters. The meeting reaffirmed the strong development partnership between ADB and Sri Lanka, with both leaders underscoring their commitment to post-cyclone recovery, inclusive growth, and advancing women’s equality.",
+      "link": "https://www.adb.org/news/adb-president-welcomes-sri-lanka-prime-minister-reaffirms-support-recovery-and-reform",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-03-10"
     },
     {
       "title": "ADB Issues Green Bond to Raise Awareness of Glacier Melt",
@@ -1312,14 +1328,6 @@
       "date": "2026-02-20"
     },
     {
-      "title": "ADB President, Fiji Prime Minister Open Expanded Office to Strengthen Partnership and Scale Up Impact",
-      "description": "ADB President Masato Kanda and Fiji Prime Minister Sitiveni Rabuka today officially opened ADB’s expanded Pacific Subregional Office in Suva. The inauguration followed talks earlier in the day between the two leaders on advancing ADB’s support for Fiji’s inclusive economic growth and reinforcing Fiji’s role as a regional hub for Pacific cooperation.",
-      "link": "https://www.adb.org/news/adb-president-fiji-prime-minister-open-expanded-office-strengthen-partnership-and-scale-impact",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-02-20"
-    },
-    {
       "title": "ADB President Meets Vanuatu Prime Minister to Advance Partnership, Unlock Private Sector Investment",
       "description": "ADB President Masato Kanda met today with Vanuatu Prime Minister Jotham Napat to celebrate a long-term partnership for development and acknowledge Vanuatu’s ambition to scale up private investment.",
       "link": "https://www.adb.org/news/adb-president-meets-vanuatu-prime-minister-advance-partnership-unlock-private-sector",
@@ -1328,33 +1336,9 @@
       "date": "2026-02-18"
     },
     {
-      "title": "ADB President Pledges Support for Solomon Islands Development Goals in Meeting with Prime Minister",
-      "description": "ADB President Masato Kanda met Solomon Islands Prime Minister Jeremiah Manele in Honiara to discuss strengthening ADB’s long-standing support for the country’s economic development and expanding cooperation on public financial management reforms.",
-      "link": "https://www.adb.org/news/adb-president-pledges-support-solomon-islands-development-goals-meeting-prime-minister",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-02-17"
-    },
-    {
-      "title": "Five documentaries inspired by the Nobel Peace Prize",
-      "description": "The Nobel Prize, National Geographic Documentary Films and Academy Award-winning filmmaker Orlando von Einsiedel have collaborated on a 5-part short documentary series, celebrating the ongoing impact and influence of Nobel Peace Prize laureates around the world. Watch the films here. The post Five documentaries inspired by the Nobel Peace Prize appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/peace-prize-documentaries/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-02-12"
-    },
-    {
-      "title": "An Unfinished Symphony: Nobel Peace Prize documentary",
-      "description": "The Miagi Orchestra is a South African orchestra dedicated to helping the nation overcome decades of violence, conflict and division through the power of music. The film follows two of its musicians: Tsepo Pooe, who grew up in Soweto Township; and Lize Schaap, who grew up in wealthy Pretoria. Through their eyes, and differing experiences […] The post An Unfinished Symphony: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/an-unfinished-symphony/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-02-04"
-    },
-    {
-      "title": "Lost and Found: Nobel Peace Prize documentary",
-      "description": "Lost and Found tells the inspiring story of humanity in the world’s largest refugee camp. The film follows Kamal Hussein, a Rohingya refugee who has dedicated his life to reuniting children with their parents with the support of the double Nobel Prize-awarded organisation, the United Nations High Commissioner for Refugees (UNHCR.) Lost and Found, from […] The post Lost and Found: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/lost-and-found/",
+      "title": "Into the Fire: Nobel Peace Prize documentary",
+      "description": "In an area of Iraq destroyed by ISIS, Hana Khider leads an all-female team of Yazidi deminers in their attempts to clear the land of mines. Their job involves painstakingly searching for booby traps in bombed out buildings and fields, where one wrong move means certain death. Hana works for the Mines Advisory Group, an […] The post Into the Fire: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/into-the-fire/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-02-04"
@@ -1368,12 +1352,28 @@
       "date": "2026-03-02"
     },
     {
+      "title": "Five documentaries inspired by the Nobel Peace Prize",
+      "description": "The Nobel Prize, National Geographic Documentary Films and Academy Award-winning filmmaker Orlando von Einsiedel have collaborated on a 5-part short documentary series, celebrating the ongoing impact and influence of Nobel Peace Prize laureates around the world. Watch the films here. The post Five documentaries inspired by the Nobel Peace Prize appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/peace-prize-documentaries/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-02-12"
+    },
+    {
       "title": "How X-rays and crystals revealed the true nature of things",
       "description": "The story behind the 100-year-old discovery that continues to render Nobel Prizes. Alone in the Martian desert, a robot was looking for answers. In 2012, Nasa’s Curiosity rover scooped up a small pile of sand, ingested it, and blasted it with X-rays. The intrepid bot was going to find out what that sand was made […] The post How X-rays and crystals revealed the true nature of things appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/stories/x-rays-and-crystals/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-02-10"
+    },
+    {
+      "title": "An Unfinished Symphony: Nobel Peace Prize documentary",
+      "description": "The Miagi Orchestra is a South African orchestra dedicated to helping the nation overcome decades of violence, conflict and division through the power of music. The film follows two of its musicians: Tsepo Pooe, who grew up in Soweto Township; and Lize Schaap, who grew up in wealthy Pretoria. Through their eyes, and differing experiences […] The post An Unfinished Symphony: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/an-unfinished-symphony/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-02-04"
     },
     {
       "title": "Still Human: Nobel Peace Prize documentary",
@@ -1384,9 +1384,9 @@
       "date": "2026-02-04"
     },
     {
-      "title": "Into the Fire: Nobel Peace Prize documentary",
-      "description": "In an area of Iraq destroyed by ISIS, Hana Khider leads an all-female team of Yazidi deminers in their attempts to clear the land of mines. Their job involves painstakingly searching for booby traps in bombed out buildings and fields, where one wrong move means certain death. Hana works for the Mines Advisory Group, an […] The post Into the Fire: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/into-the-fire/",
+      "title": "Lost and Found: Nobel Peace Prize documentary",
+      "description": "Lost and Found tells the inspiring story of humanity in the world’s largest refugee camp. The film follows Kamal Hussein, a Rohingya refugee who has dedicated his life to reuniting children with their parents with the support of the double Nobel Prize-awarded organisation, the United Nations High Commissioner for Refugees (UNHCR.) Lost and Found, from […] The post Lost and Found: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/lost-and-found/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-02-04"
@@ -1416,6 +1416,14 @@
       "date": "2026-03-10"
     },
     {
+      "title": "About Subsonic Vehicle Technologies and Tools Project",
+      "description": "Project Overview NASA’s Subsonic Vehicle Technologies and Tools (SVTT) project develops technologies and tools for various types of aircraft that fly in different speed regimes, including next-generation vertical take-off and landing and fixed-wing subsonic aircraft. The research advances knowledge, technologies, and concepts that enable major steps to lowering operating costs of the next-generation single-aisle aircraft. […]",
+      "link": "https://www.nasa.gov/directorates/armd/aavp/svtt/about-svtt/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-03-11"
+    },
+    {
       "title": "Insights into Spallation Mechanisms of Thermal Protection System Materials from Mass Spectrometry and HyMETS Testing",
       "description": "Download PDF: Insights into Spallation Mechanisms of Thermal Protection System Materials from Mass Spectrometry and HyMETS Testing An effort was undertaken to investigate the mechanisms responsible for internal pressure build up within thermal protection system (TPS) materials subjected to high-enthalpy environments. Understanding how gases evolve, migrate, and interact with the microstructure of a TPS is essential for […]",
       "link": "https://www.nasa.gov/centers-and-facilities/nesc/insights-into-spallation-mechanisms-of-thermal-protection-system-materials-from-mass-spectrometry-and-hymets-testing/",
@@ -1432,12 +1440,20 @@
       "date": "2026-03-10"
     },
     {
-      "title": "Spanish launch startup PLD Space raises $209 million to scale its rocket production",
-      "description": "This Series C funding was led by Mitsubishi Electric Corporation, which invested €50 million ($58 million). To date, PLD Space raised more than €350 million ($407 million).",
-      "link": "https://spaceflightnow.com/2026/03/05/spanish-launch-startup-pld-space-raises-209-million-to-scale-its-rocket-production/",
-      "source": "Spaceflight Now",
+      "title": "COPV Damage Tolerance Life Demonstration Guidelines",
+      "description": "This article is from the 2025 Technical Update. The NESC has invested significant time and resources to better understand composite overwrapped pressure vessels (COPV) performance and more importantly, how these complex, high-pressure storage systems can fail. These vessels, which store high pressure propulsion and life-support system fluids on launch vehicles and spacecraft, are ubiquitous at NASA, and failures have […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/copv-damage-tolerance-life-demonstration-guidelines/",
+      "source": "NASA",
       "field": "space",
-      "date": "2026-03-05"
+      "date": "2026-03-10"
+    },
+    {
+      "title": "Earth from Space: Dhaka, Bangladesh",
+      "description": "Image: These two views from Copernicus Sentinel-2 reveal the landscape transformation in the area around Dhaka, the capital of Bangladesh.",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Dhaka_Bangladesh",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-03-06"
     },
     {
       "title": "March 2026 Satellite Puzzler",
@@ -1451,14 +1467,6 @@
       "title": "Expanding the Human Factors Toolbox: An Approach to Balancing Crew and Mission Design Parameters",
       "description": "This article is from the 2025 Technical Update. The human factors TDT looks for and creates opportunities to influence design to leverage human strengths and to protect people and missions. The human factors team has experts with knowledge of human performance in all aspects of NASA missions as well as from other safety-critical industries. The […]",
       "link": "https://www.nasa.gov/centers-and-facilities/nesc/expanding-the-human-factors-toolbox-an-approach-to-balancing-crew-and-mission-design-parameters/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-03-10"
-    },
-    {
-      "title": "COPV Damage Tolerance Life Demonstration Guidelines",
-      "description": "This article is from the 2025 Technical Update. The NESC has invested significant time and resources to better understand composite overwrapped pressure vessels (COPV) performance and more importantly, how these complex, high-pressure storage systems can fail. These vessels, which store high pressure propulsion and life-support system fluids on launch vehicles and spacecraft, are ubiquitous at NASA, and failures have […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/copv-damage-tolerance-life-demonstration-guidelines/",
       "source": "NASA",
       "field": "space",
       "date": "2026-03-10"
@@ -1480,36 +1488,28 @@
       "date": "2026-03-10"
     },
     {
-      "title": "Celebrating NASA’s Mars Reconnaissance Orbiter’s 20th Anniversary: Crater Near Sirenum Fossae",
-      "description": "NASA’s Mars Reconnaissance Orbiter (MRO) captures a detailed view of a relatively fresh crater in this image released on June 3, 2015. The crater has a sharp rim and well-preserved ejecta. The steep inner slopes are carved by gullies and include possible recurring slope lineae on the equator-facing slopes. This crater is monitored for changes […]",
-      "link": "https://www.nasa.gov/image-article/celebrating-nasas-mars-reconnaissance-orbiters-20th-anniversary-crater-near-sirenum-fossae/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-03-10"
-    },
-    {
-      "title": "Earth from Space: Dhaka, Bangladesh",
-      "description": "Image: These two views from Copernicus Sentinel-2 reveal the landscape transformation in the area around Dhaka, the capital of Bangladesh.",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/03/Earth_from_Space_Dhaka_Bangladesh",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-03-06"
-    },
-    {
-      "title": "NASA Discovers Crash of Extreme Stars in Unexpected Site",
-      "description": "A fleet of NASA missions has likely uncovered a collision between two ultradense stars in a tiny galaxy buried in a huge stream of gas. Astronomers have never seen this type of explosive event in an environment like this before — and it may help solve two outstanding cosmic mysteries. A paper describing these results […]",
-      "link": "https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-03-10"
-    },
-    {
       "title": "Smile arrives at Europe’s Spaceport",
       "description": "The Smile spacecraft has arrived at Europe’s Spaceport in French Guiana. During the coming weeks, the spacecraft will go through final preparations for its launch on a Vega-C rocket between 8 April and 7 May.",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/Smile_arrives_at_Europe_s_Spaceport",
       "source": "ESA",
       "field": "space",
       "date": "2026-03-09"
+    },
+    {
+      "title": "NASA administrator talks to Science about studying the Moon, Mars—and Earth",
+      "description": "Jared Isaacman says agency may accelerate lunar science program and could tackle a new Mars mission in 2028",
+      "link": "https://www.science.org/content/article/nasa-administrator-talks-science-about-studying-moon-mars-and-earth",
+      "source": "Science",
+      "field": "space",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "Spanish launch startup PLD Space raises $209 million to scale its rocket production",
+      "description": "This Series C funding was led by Mitsubishi Electric Corporation, which invested €50 million ($58 million). To date, PLD Space raised more than €350 million ($407 million).",
+      "link": "https://spaceflightnow.com/2026/03/05/spanish-launch-startup-pld-space-raises-209-million-to-scale-its-rocket-production/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-03-05"
     },
     {
       "title": "Sophie Adenot shares an inspiring message from the ISS for International Women’s Day",
@@ -1536,14 +1536,6 @@
       "date": "2026-03-09"
     },
     {
-      "title": "NASA administrator talks to Science about studying the Moon, Mars—and Earth",
-      "description": "Jared Isaacman says agency may accelerate lunar science program and could tackle a new Mars mission in 2028",
-      "link": "https://www.science.org/content/article/nasa-administrator-talks-science-about-studying-moon-mars-and-earth",
-      "source": "Science",
-      "field": "space",
-      "date": "2026-03-09"
-    },
-    {
       "title": "SpaceX launches direct television satellite for EchoStar",
       "description": "The launch of the EchoStar 25 satellite was SpaceX’s first launch to a geosynchronous transfer orbit so far this year. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 12:19 a.m. EDT (0419 UTC)).",
       "link": "https://spaceflightnow.com/2026/03/09/live-coverage-spacex-to-launch-direct-television-satellite-for-echostar/",
@@ -1566,14 +1558,6 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-03-06"
-    },
-    {
-      "title": "NASA DART mission reveals asteroids throw “cosmic snowballs” at each other",
-      "description": "Asteroids with tiny moons may be quietly trading material across space. Images from NASA’s DART mission revealed faint streaks on the moon Dimorphos—evidence of slow “cosmic snowballs” drifting from its parent asteroid, Didymos. The discovery provides the first direct visual proof that sunlight can spin asteroids fast enough to shed debris that lands on nearby companions. It also shows that near-Earth asteroids are much more active and constantly reshaped than scientists once believed.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260307213226.htm",
-      "source": "ScienceDaily Tech",
-      "field": "space",
-      "date": "2026-03-08"
     },
     {
       "title": "NASA inspector general assesses agency’s management of moon lander risk",
@@ -1614,110 +1598,6 @@
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-03-01"
-    },
-    {
-      "title": "A winning formula for student project teams at MIT",
-      "description": "The teamwork, leadership, and communication skills developed in the Gordon Engineering Leadership (GEL) Program drive success of Edgerton Center project teams.",
-      "link": "https://news.mit.edu/2026/winning-formula-student-project-teams-at-mit-0305",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "New insights into a hidden process that protects cells from harmful mutations",
-      "description": "Research reveals how cells may activate a compensation system that can reduce the effects of harmful genetic mutations. This could inform gene therapy development.",
-      "link": "https://news.mit.edu/2026/new-insights-hidden-process-protects-cells-harmful-mutations-0305",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "Recreating the forms and sounds of historical musical instruments",
-      "description": "Through an interdisciplinary collaboration between MIT and the Museum of Fine Arts, Boston, researchers are creating playable physical and synthesized replicas.",
-      "link": "https://news.mit.edu/2026/recreating-forms-sounds-historic-musical-instruments-0305",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "For one learner, online MIT courses are “like getting a Ferrari for the price of an electric scooter”",
-      "description": "Senior engineer Badri Ratnam has enhanced his education and career with 40 courses offered by MITx at MIT Open Learning.",
-      "link": "https://news.mit.edu/2026/online-mit-courses-are-like-ferrari-for-price-of-scooter-0305",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "Les Perelman, expert in writing assessment and champion of writing education, dies at 77",
-      "description": "The longtime MIT faculty member and former dean established an influential writing program at the Institute and was known for his fierce criticism of automated essay grading.",
-      "link": "https://news.mit.edu/2026/les-perelman-dies-0302",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-02"
-    },
-    {
-      "title": "New catalog more than doubles the number of gravitational-wave detections made by LIGO, Virgo, and KAGRA observatories",
-      "description": "The latest crop of space-time wobbles includes a variety of heavy, fast-spinning, and lopsided colliding black holes.",
-      "link": "https://news.mit.edu/2026/new-catalog-doubles-gravitational-wave-detections-made-ligo-virgo-kagra-0305",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "Nitrous oxide, a product of fertilizer use, may harm some soil bacteria",
-      "description": "While some N2O is produced naturally at the plant root, agricultural practices can increase its levels, to the detriment of some microbes that support plant growth.",
-      "link": "https://news.mit.edu/2026/nitrous-oxide-product-fertilizer-use-may-harm-some-soil-bacteria-0304",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-04"
-    },
-    {
-      "title": "Finding New Ways to Kill Bacteria: New Insights into the Transporter MurJ",
-      "description": "A Caltech-led team of biochemists has homed in on an underexplored small transporter called MurJ that is a vital part of the pathway bacteria use to build their chain-mail-like cell wall. An essential component of the cell wall, called peptidoglycan, provides the strength that allows bacteria to resist pressure. Using advanced tools, the scientists have determined the common mechanism used by three different bacteria-killing viruses to block MurJ from doing its job. The findings reveal a novel target for designing new antibiotics.A paper about the new work was published online in the journal N",
-      "link": "https://www.caltech.edu/about/news/finding-new-ways-to-kill-bacteria-new-insights-into-the-transporter-murj",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-02-25"
-    },
-    {
-      "title": "Three Professors Named 2026 Sloan Fellows",
-      "description": "A trio of Caltech faculty members have been selected to receive the 2026 Sloan Research Fellowship: Elias Most, assistant professor of theoretical astrophysics; Huy Tuan Pham, assistant professor of mathematics and Rosenberg Scholar; and Lingfu Zhang, assistant professor of mathematics.Awarded annually since 1955, the fellowships honor \"early-career researchers whose creativity, innovation, and research accomplishments make them stand out as the next generation of leaders,\" according to the Alfred P. Sloan Foundation, which bestows the awards. This year, 126 early career researchers were chose",
-      "link": "https://www.caltech.edu/about/news/three-professors-named-2026-sloan-fellows",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-02-17"
-    },
-    {
-      "title": "How some skills become second nature",
-      "description": "Patterns of gaze and attention can reveal how some people unconsciously figure out how to master a task, new research shows.",
-      "link": "https://news.mit.edu/2026/how-some-skills-become-second-nature-0304",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-04"
-    },
-    {
-      "title": "A “ChatGPT for spreadsheets” helps solve difficult engineering challenges faster",
-      "description": "The approach could help engineers tackle extremely complex design problems, from power grid optimization to vehicle design.",
-      "link": "https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-04"
-    },
-    {
-      "title": "Injectable “satellite livers” could offer an alternative to liver transplantation",
-      "description": "The engineered tissue grafts could take on the liver’s function and help thousands of people with liver failure.",
-      "link": "https://news.mit.edu/2026/injectable-satellite-livers-could-offer-alternative-liver-transplantation-0303",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-03"
-    },
-    {
-      "title": "LAB14 joins the MIT.nano Consortium",
-      "description": "The advanced manufacturing group becomes a member and will contribute equipment to MIT.nano.",
-      "link": "https://news.mit.edu/2026/lab14-joins-mitnano-consortium-0303",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-03"
     },
     {
       "title": "Engineering confidence to navigate uncertainty",
@@ -1768,12 +1648,12 @@
       "date": "2026-02-26"
     },
     {
-      "title": "AI to help researchers see the bigger picture in cell biology",
-      "description": "By providing holistic information on a cell, an AI-driven method could help scientists better understand disease mechanisms and plan experiments.",
-      "link": "https://news.mit.edu/2026/ai-help-researchers-see-bigger-picture-cell-biology-0225",
-      "source": "MIT News",
+      "title": "Three Professors Named 2026 Sloan Fellows",
+      "description": "A trio of Caltech faculty members have been selected to receive the 2026 Sloan Research Fellowship: Elias Most, assistant professor of theoretical astrophysics; Huy Tuan Pham, assistant professor of mathematics and Rosenberg Scholar; and Lingfu Zhang, assistant professor of mathematics.Awarded annually since 1955, the fellowships honor \"early-career researchers whose creativity, innovation, and research accomplishments make them stand out as the next generation of leaders,\" according to the Alfred P. Sloan Foundation, which bestows the awards. This year, 126 early career researchers were chose",
+      "link": "https://www.caltech.edu/about/news/three-professors-named-2026-sloan-fellows",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2026-02-25"
+      "date": "2026-02-17"
     },
     {
       "title": "How Ben Franklin put a charge into American independence",
@@ -1800,8 +1680,8 @@
       "date": "2026-03-10"
     },
     {
-      "title": "UC Berkeley Library unveils student-led exhibition on Etruscan civilization",
-      "description": "Open through Aug. 31 in Doe Library, The Etruscans Uncovered showcases ancient artifacts from the Phoebe A. Hearst Collection, highlighting a civilization that deeply influenced Roman culture through its unique artistry and religious practices. The post UC Berkeley Library unveils student-led exhibition on Etruscan civilization appeared first on Berkeley News.",
+      "title": "UC Berkeley Library opens student-led exhibition on Etruscan civilization",
+      "description": "Open through Aug. 31 in Doe Library, The Etruscans Uncovered showcases ancient artifacts from the Phoebe A. Hearst Collection, highlighting a civilization that deeply influenced Roman culture through its unique artistry and religious practices. The post UC Berkeley Library opens student-led exhibition on Etruscan civilization appeared first on Berkeley News.",
       "link": "https://www.lib.berkeley.edu/about/news/etruscans",
       "source": "UC Berkeley",
       "field": "technology",
@@ -1880,6 +1760,94 @@
       "date": "2026-03-06"
     },
     {
+      "title": "Scenario Modeling and Array Design for Non-Terrestrial Networks (NTNs)",
+      "description": "Non-terrestrial networks (NTNs) using low earth orbit (LEO) satellites present unique technical challenges, from managing large satellite constellations to ensuring reliable communication links. In this webinar, we’ll explore how to address these complexities using comprehensive modeling and simulation techniques. Discover how to model and analyze satellite orbits, onboard antennas and arrays, transmitter power amplifiers (PAs), signal propagation channels, and the RF and digital receiver segments—all within an integrated workflow. Learn the importance of including every link component to achi",
+      "link": "https://content.knowledgehub.wiley.com/scenario-modeling-and-array-design-for-non-terrestrial-networks-ntns/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-06"
+    },
+    {
+      "title": "From TV Repairman to Electromagnetic Compatibility Expert",
+      "description": "No one had very high career aspirations for teenager David A. Weston—except for Weston himself. Growing up in London, he scored low on the U.K. national assessment test given to students finishing primary school. The result meant that his next path was either to become a laborer or attend a vocational school to learn a trade. What Weston really wanted to do was to work as a radio and TV repairman. He was fascinated by how the devices worked. He had taught himself to build an AM radio when he was 15. Even after showing it to his parents and teachers, though, they still didn’t think he was smart",
+      "link": "https://spectrum.ieee.org/from-tv-repairman-to-electromagnetic-compatibility-expert",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "This Student-Built EV Focuses on Repairability",
+      "description": "At first glance, the Aria EV doesn’t look much different from any other student-built electric prototype—no different from the battery-powered cars built by engineering students from dozens of universities every year. Beneath its panels, however, is a challenge to the modern auto industry: What if electric vehicles were designed to be repaired by their owners? The Aria project began in 2024, when roughly 20 students assembled at Eindhoven University of Technology in the Netherlands under the university’s Ecomotive team structure, which operates like a small startup. Students apply, are selecte",
+      "link": "https://spectrum.ieee.org/ev-battery-swapping-aria-ev",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-04"
+    },
+    {
+      "title": "Scientists turn scrap car aluminum into high-performance metal for new vehicles",
+      "description": "Scientists at Oak Ridge National Laboratory have created a new aluminum alloy called RidgeAlloy that can turn contaminated car-body scrap into strong structural vehicle parts. Normally, impurities introduced during recycling make this scrap unsuitable for high-performance applications. RidgeAlloy overcomes that challenge, enabling recycled aluminum to meet the strength and durability standards required for modern vehicles. The technology could slash energy use, reduce imports, and unlock a huge new supply of domestic aluminum.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260309225217.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-11"
+    },
+    {
+      "title": "Scientists may have discovered a brand-new mineral on Mars",
+      "description": "Scientists studying Mars may have uncovered a brand-new mineral hidden in the planet’s ancient sulfate deposits. By combining laboratory experiments with orbital data, researchers identified an unusual iron sulfate—ferric hydroxysulfate—forming in layered deposits near the massive Valles Marineris canyon system. The mineral likely formed when sulfate-rich deposits left behind by ancient water were later heated by volcanic or geothermal activity, transforming their chemistry.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260309225228.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "NASA’s DART asteroid smash shows we could deflect a future threat",
+      "description": "When NASA’s DART spacecraft deliberately crashed into the asteroid moonlet Dimorphos, it did more than change the asteroid’s local orbit — it slightly shifted the path of the entire asteroid pair around the Sun. The impact blasted debris into space, doubling the force of the spacecraft’s hit and nudging the system’s solar orbit by a tiny but measurable amount. It marks the first time humans have altered the trajectory of a celestial object around the Sun. The result strengthens the case for using spacecraft impacts as a future planetary defense strategy.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260307213238.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "A perfectly balanced atom just broke one of nuclear physics’ biggest rules",
+      "description": "Physicists have discovered a surprising new “Island of Inversion” in a place no one expected: among nuclei where the number of protons equals the number of neutrons. For decades, these strange regions—where atomic nuclei abandon their usual orderly structure and become strongly deformed—were thought to exist only in highly neutron-rich isotopes far from stability. But experiments on molybdenum isotopes revealed that molybdenum-84 behaves dramatically differently from its close neighbor molybdenum-86, even though they differ by just two neutrons.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260307213241.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-08"
+    },
+    {
+      "title": "Record-breaking photodetector captures light in just 125 picoseconds",
+      "description": "A new ultrathin photodetector from Duke University can sense light across the entire electromagnetic spectrum and generate a signal in just 125 picoseconds, making it the fastest pyroelectric detector ever built. The breakthrough could power next-generation multispectral cameras used in medicine, agriculture, and space-based sensing.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260304184218.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
+      "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
+      "description": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squirtle or (with a huge amount…",
+      "link": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-03-10"
+    },
+    {
+      "title": "How AI is turning the Iran conflict into theater",
+      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. “Anyone wanna host a get together in SF and pull this up on a 100 inch TV?” The author of that post on X was referring to an online intelligence dashboard following…",
+      "link": "https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-03-09"
+    },
+    {
+      "title": "‘Reprogramming’ our gut bacteria could be key to fighting disease",
+      "description": "UC Berkeley’s Carlotta Ronda explains how CRISPR is turning our gut microbes into tiny, health-boosting factories in just 101 seconds. The post ‘Reprogramming’ our gut bacteria could be key to fighting disease appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/03/05/reprogramming-our-gut-bacteria-could-be-key-to-fighting-disease/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-03-05"
+    },
+    {
       "title": "Singer to step down as senior vice provost for faculty",
       "description": "Education scholar lauded for achievements in overseeing, leading changes in faculty development, support for academics since 2008",
       "link": "https://news.harvard.edu/gazette/story/2026/03/singer-to-step-down-as-senior-vice-provost-for-faculty/",
@@ -1904,12 +1872,28 @@
       "date": "2026-03-02"
     },
     {
-      "title": "NASA’s DART asteroid smash shows we could deflect a future threat",
-      "description": "When NASA’s DART spacecraft deliberately crashed into the asteroid moonlet Dimorphos, it did more than change the asteroid’s local orbit — it slightly shifted the path of the entire asteroid pair around the Sun. The impact blasted debris into space, doubling the force of the spacecraft’s hit and nudging the system’s solar orbit by a tiny but measurable amount. It marks the first time humans have altered the trajectory of a celestial object around the Sun. The result strengthens the case for using spacecraft impacts as a future planetary defense strategy.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260307213238.htm",
-      "source": "ScienceDaily Tech",
+      "title": "AI to help researchers see the bigger picture in cell biology",
+      "description": "By providing holistic information on a cell, an AI-driven method could help scientists better understand disease mechanisms and plan experiments.",
+      "link": "https://news.mit.edu/2026/ai-help-researchers-see-bigger-picture-cell-biology-0225",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-02-25"
+    },
+    {
+      "title": "Prioritizing energy intelligence for sustainable growth",
+      "description": "Loudoun County, Virginia, once known for its pastoral scenery and proximity to Washington, DC, has earned a more modern reputation in recent years: The area has the highest concentration of data centers on the planet. Ten years ago, these facilities powered email and e-commerce. Today, thanks to the meteoric rise in demand for AI-infused everything,…",
+      "link": "https://www.technologyreview.com/2026/03/10/1133972/prioritizing-energy-intelligence-for-sustainable-growth/",
+      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-03-10"
+    },
+    {
+      "title": "The Download: murky AI surveillance laws, and the White House cracks down on defiant labs",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Is the Pentagon allowed to surveil Americans with AI? The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question:…",
+      "link": "https://www.technologyreview.com/2026/03/09/1134050/the-download-ai-surveillance-laws-white-house-cracks-down-defiant-labs/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-03-09"
     },
     {
       "title": "Scientists create slippery nanopores that supercharge blue energy",
@@ -1918,14 +1902,6 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-03-09"
-    },
-    {
-      "title": "A perfectly balanced atom just broke one of nuclear physics’ biggest rules",
-      "description": "Physicists have discovered a surprising new “Island of Inversion” in a place no one expected: among nuclei where the number of protons equals the number of neutrons. For decades, these strange regions—where atomic nuclei abandon their usual orderly structure and become strongly deformed—were thought to exist only in highly neutron-rich isotopes far from stability. But experiments on molybdenum isotopes revealed that molybdenum-84 behaves dramatically differently from its close neighbor molybdenum-86, even though they differ by just two neutrons.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260307213241.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-08"
     },
     {
       "title": "‘A moment of real possibility’ in Alzheimer’s care",
@@ -1996,14 +1972,6 @@
       "description": "Comedy legend who once led Lampoon will deliver principal address on May 28",
       "link": "https://news.harvard.edu/gazette/story/2026/03/conan-obrien-85-named-commencement-speaker/",
       "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-03-05"
-    },
-    {
-      "title": "‘Reprogramming’ our gut bacteria could be key to fighting disease",
-      "description": "UC Berkeley’s Carlotta Ronda explains how CRISPR is turning our gut microbes into tiny, health-boosting factories in just 101 seconds. The post ‘Reprogramming’ our gut bacteria could be key to fighting disease appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/03/05/reprogramming-our-gut-bacteria-could-be-key-to-fighting-disease/",
-      "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-03-05"
     },
@@ -2126,6 +2094,22 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-03-09"
+    },
+    {
+      "title": "Antarctica has a strange gravity hole and scientists finally know why",
+      "description": "Gravity may seem constant, but it actually varies across the planet—and one of the strangest places is Antarctica, where gravity is slightly weaker than expected. Scientists have traced this “gravity hole” to slow, deep movements of rock inside Earth that unfolded over tens of millions of years. Using earthquake data to essentially create a CT scan of the planet’s interior, researchers reconstructed how the anomaly evolved and discovered that it strengthened between about 50 and 30 million years ago.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260306224213.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "Electrons catapult across solar materials in just 18 femtoseconds",
+      "description": "Electrons in solar materials can be launched across molecules almost as fast as nature allows, thanks to tiny atomic vibrations acting like a “molecular catapult.” In experiments lasting just 18 femtoseconds, researchers at the University of Cambridge observed electrons blasting across a boundary in a single burst, far faster than long-standing theories predicted. Instead of slow, random movement, the electron rides the natural vibrations of the molecule itself, challenging decades of design rules for solar materials.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260305223219.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-06"
     }
   ]
 }
