@@ -1,18 +1,18 @@
 {
   "date": "2026-04-01",
-  "lastUpdated": "2026-04-01T08:58:52.901Z",
+  "lastUpdated": "2026-04-01T13:11:02.672Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "49.6s",
+    "executionTime": "61.7s",
     "sourcesQueried": 62,
     "sourcesSuccessful": 22,
     "totalCandidates": 261,
     "totalSelected": 261,
     "entriesByField": {
-      "health": 52,
+      "health": 53,
       "climate": 23,
       "energy": 1,
-      "technology": 125,
+      "technology": 124,
       "education": 4,
       "development": 20,
       "peace": 9,
@@ -32,8 +32,8 @@
         "changed": 0
       },
       "technology": {
-        "kept": 125,
-        "changed": 1
+        "kept": 124,
+        "changed": 2
       },
       "education": {
         "kept": 4,
@@ -57,12 +57,20 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 37,
+      "highScoreEntries": 38,
       "topTierSources": 136,
       "highCredibilitySources": 233
     }
   },
   "entries": [
+    {
+      "title": "What Exoskeletons Learned From One Relentless User",
+      "description": "It’s easy to assume that Robert Woo was defined by the accident that took away his ability to walk. Certainly, the day of his accident—14 December 2007—was a turning point. Woo, an architect working on the new Goldman Sachs headquarters in New York City, hadn’t attended his company’s holiday party the night before, and that morning he was the only one in the trailer that served as the construction-site office. He was bent over his laptop when, 30 floors above, a crane’s nylon sling gave way, sending about 6 tonnes of steel plummeting toward the trailer. The roof collapsed, folding Woo in half ",
+      "link": "https://spectrum.ieee.org/exoskeleton-user-experience",
+      "source": "IEEE Spectrum",
+      "field": "health",
+      "date": "2026-04-01"
+    },
     {
       "title": "[Editorial] Politicisation of the US FDA: eroding integrity and trust",
       "description": "The principle that medicines should not reach patients without strong safety guardrails forms the bedrock of the US Food and Drug Administration (FDA). The FDA shapes decisions about which medicines reach consumers around the world, through robust standards for safety, efficacy, and post-marketing oversight in drug regulatory practices, with a 2026 budget of $6·8 billion. It faces a tough balancing act in maintaining scientific standards and rigorous review while bringing medicines and devices to the patients who need them as quickly as possible.",
@@ -672,14 +680,6 @@
       "date": "2026-02-17"
     },
     {
-      "title": "The ’80s Submersible That Transformed Underwater Exploration",
-      "description": "As a kid, I loved the 1980s aquatic adventure show Danger Bay. True to the TV show’s name, danger was always lurking at the Vancouver Aquarium, where the show was set. In one memorable episode, young Jonah and a friend get trapped in a sabotaged mini-submarine, and Jonah’s dad, a marine-mammal veterinarian, comes to the rescue in a bubble-shaped underwater vehicle. Good stuff! Only recently—as in when I started working on this column—did I learn that the rescue vehicle was not a stage prop but rather a real-world research submersible named Deep Rover. What Was Deep Rover and What Did It Do? Bu",
-      "link": "https://spectrum.ieee.org/deep-sea-submersible",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-31"
-    },
-    {
       "title": "How NYU’s Quantum Institute Bridges Science and Application",
       "description": "This sponsored article is brought to you by NYU Tandon School of Engineering. Within a 6 mile radius of New York University’s (NYU) campus, there are more than 500 tech industry giants, banks, and hospitals. This isn’t just a fact about real estate, it’s the foundation for advancing quantum discovery and application. While the world races to harness quantum technology, NYU is betting that the ultimate advantage lies not solely in a lab, but in the dense, demanding, and hyper-connected urban ecosystem that surrounds it. With the launch of its NYU Quantum Institute (NYUQI), NYU is positioning it",
       "link": "https://spectrum.ieee.org/nyu-quantum-institute",
@@ -694,6 +694,14 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-03-24"
+    },
+    {
+      "title": "The ’80s Submersible That Transformed Underwater Exploration",
+      "description": "As a kid, I loved the 1980s aquatic adventure show Danger Bay. True to the TV show’s name, danger was always lurking at the Vancouver Aquarium, where the show was set. In one memorable episode, young Jonah and a friend get trapped in a sabotaged mini-submarine, and Jonah’s dad, a marine-mammal veterinarian, comes to the rescue in a bubble-shaped underwater vehicle. Good stuff! Only recently—as in when I started working on this column—did I learn that the rescue vehicle was not a stage prop but rather a real-world research submersible named Deep Rover. What Was Deep Rover and What Did It Do? Bu",
+      "link": "https://spectrum.ieee.org/deep-sea-submersible",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-31"
     },
     {
       "title": "Caltech Team Finds Useful Quantum Computers Could Be Built with as Few as 10,000 Qubits",
@@ -816,22 +824,6 @@
       "date": "2026-03-26"
     },
     {
-      "title": "Championing fusion’s promising underdog",
-      "description": "Sophia Henneberg, assistant professor in the Department of Nuclear Science and Engineering, is developing stellarators to harness fusion energy.",
-      "link": "https://news.mit.edu/2026/championing-stellarators-sophia-henneberg-0325",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-25"
-    },
-    {
-      "title": "Topological Solitons Power a Chip-Scale Frequency Comb Source",
-      "description": "Caltech scientists have developed a new way to produce optical frequency combs—important tools in devices that keep time and measure distances very precisely—at the chip scale, an advance that should make it easier to incorporate such combs in optical devices and more practical to use them outside the laboratory. To generate the combs, the new research demonstrates the utility of a robust class of light pulses, called topological solitons, that had been previously predicted but largely unexplored until now.The scientists, led by Caltech's Alireza Marandi, professor of electrical engineering an",
-      "link": "https://www.caltech.edu/about/news/topological-solitons-power-a-chip-scale-frequency-comb-source",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-03-25"
-    },
-    {
       "title": "This hidden state of water could explain why life exists",
       "description": "Scientists have finally found a hidden “critical point” in supercooled water that explains why it behaves so strangely. At this point, two different liquid forms of water merge, triggering powerful fluctuations that affect water even at normal temperatures. The breakthrough was made possible by ultra-fast X-ray lasers that captured water before it froze. This discovery could reshape our understanding of water’s role in nature—and possibly even life itself.",
       "link": "https://www.sciencedaily.com/releases/2026/03/260328043551.htm",
@@ -904,6 +896,22 @@
       "date": "2026-03-30"
     },
     {
+      "title": "Organ-on-a-chip can quickly test anti-aging drugs — in as little as four days",
+      "description": "UC Berkeley scientists grew human fat and liver tissues on a chip, making it easier to study aging mechanisms and screen longevity drugs without waiting years for results. The post Organ-on-a-chip can quickly test anti-aging drugs — in as little as four days appeared first on Berkeley News.",
+      "link": "https://nature.berkeley.edu/news/2026/03/organ-chip-technology-replicates-decades-human-aging-just-four-days",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold",
+      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026: 1–5 June 2026, VIENNA RSS 2026: 13–17 July 2026, SYDNEY Summer School on Multi-Robot Systems: 29 July–4 August 2026, PRAGUE Enjoy today’s videos! “Roadrunner” is a new bipedal wheeled robot prototype designed for multimodal locomotion. It weighs around 15 kg (33 lb) and can seamlessly switch between its side-by-side and in-line wheel modes an",
+      "link": "https://spectrum.ieee.org/roadrunner-bipedal-robot",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-03-27"
+    },
+    {
       "title": "A New Way to Spray Paint Color",
       "description": "We’re all familiar with mixing red, yellow, and blue paint in various ratios to instantly make all kinds of colors. This works great for oils or watercolors, but fails when it comes to cans of spray paint. The paint droplets can’t be blended once they are aerosolized. Consequently, although spray cans are great for applying even coats of paint to large areas very quickly, spray-paint artists need a separate can for every color they want to use—until now. Back in 2018, when I first saw professional spray artists lugging dozens to hundreds of cans to their work sites, I was inspired to start noo",
       "link": "https://spectrum.ieee.org/spray-paint-color-creator",
@@ -944,44 +952,28 @@
       "date": "2026-03-31"
     },
     {
-      "title": "Organ-on-a-chip can quickly test anti-aging drugs — in as little as four days",
-      "description": "UC Berkeley scientists grew human fat and liver tissues on a chip, making it easier to study aging mechanisms and screen longevity drugs without waiting years for results. The post Organ-on-a-chip can quickly test anti-aging drugs — in as little as four days appeared first on Berkeley News.",
-      "link": "https://nature.berkeley.edu/news/2026/03/organ-chip-technology-replicates-decades-human-aging-just-four-days",
-      "source": "UC Berkeley",
+      "title": "‘We’re failing newborns’: The global push to reduce infant deaths is losing steam",
+      "description": "More than 60 countries are off track to meet U.N. target for 2030—even though solutions exist",
+      "link": "https://www.science.org/content/article/we-re-failing-newborns-global-push-reduce-infant-deaths-losing-steam",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-03-30"
+      "date": "2026-04-01"
     },
     {
-      "title": "The Pentagon’s culture war tactic against Anthropic has backfired",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Thursday, a California judge temporarily blocked the Pentagon from labeling Anthropic a supply chain risk and ordering government agencies to stop using its AI. It’s the latest development in the month-long…",
-      "link": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
-      "source": "MIT Tech Review",
+      "title": "Championing fusion’s promising underdog",
+      "description": "Sophia Henneberg, assistant professor in the Department of Nuclear Science and Engineering, is developing stellarators to harness fusion energy.",
+      "link": "https://news.mit.edu/2026/championing-stellarators-sophia-henneberg-0325",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-03-30"
+      "date": "2026-03-25"
     },
     {
-      "title": "The Download: brainless human clones and the first uterus kept alive outside a body",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the stealthy startup that pitched brainless human clones After operating in secrecy for years, R3 Bio, a California-based startup, suddenly revealed last week that it had raised money to create nonsentient monkey “organ sacks”…",
-      "link": "https://www.technologyreview.com/2026/03/30/1134836/the-download-brainless-human-clones-first-uterus-kept-alive-outside-body/",
-      "source": "MIT Tech Review",
+      "title": "Topological Solitons Power a Chip-Scale Frequency Comb Source",
+      "description": "Caltech scientists have developed a new way to produce optical frequency combs—important tools in devices that keep time and measure distances very precisely—at the chip scale, an advance that should make it easier to incorporate such combs in optical devices and more practical to use them outside the laboratory. To generate the combs, the new research demonstrates the utility of a robust class of light pulses, called topological solitons, that had been previously predicted but largely unexplored until now.The scientists, led by Caltech's Alireza Marandi, professor of electrical engineering an",
+      "link": "https://www.caltech.edu/about/news/topological-solitons-power-a-chip-scale-frequency-comb-source",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2026-03-30"
-    },
-    {
-      "title": "Inside the stealthy startup that pitched brainless human clones",
-      "description": "After operating in secrecy for years, a startup company called R3 Bio, in Richmond, California, suddenly shared details about its work last week—saying it had raised money to create nonsentient monkey “organ sacks” as an alternative to animal testing. In an interview with Wired, R3 listed three investors: billionaire Tim Draper, the Singapore-based fund Immortal…",
-      "link": "https://www.technologyreview.com/2026/03/30/1134780/r3-bio-brainless-human-clones-full-body-replacement-john-schloendorn-aging-longevity/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-03-30"
-    },
-    {
-      "title": "Video Friday: Beep! Beep! Roadrunner Bipedal Bot Breaks the Mold",
-      "description": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. ICRA 2026: 1–5 June 2026, VIENNA RSS 2026: 13–17 July 2026, SYDNEY Summer School on Multi-Robot Systems: 29 July–4 August 2026, PRAGUE Enjoy today’s videos! “Roadrunner” is a new bipedal wheeled robot prototype designed for multimodal locomotion. It weighs around 15 kg (33 lb) and can seamlessly switch between its side-by-side and in-line wheel modes an",
-      "link": "https://spectrum.ieee.org/roadrunner-bipedal-robot",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-27"
+      "date": "2026-03-25"
     },
     {
       "title": "Bridging medical realities in the study of technology and health",
@@ -1104,12 +1096,28 @@
       "date": "2026-03-27"
     },
     {
-      "title": "Two years after it emerged, ‘cow flu’ is still circulating—and baffling scientists",
-      "description": "Researchers still aren’t sure how H5N1 influenza spreads between cows and from farm to farm",
-      "link": "https://www.science.org/content/article/two-years-after-it-emerged-cow-flu-still-circulating-and-baffling-scientists",
-      "source": "Science",
+      "title": "Preview tool helps makers visualize 3D-printed objects",
+      "description": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
+      "link": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-03-27"
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Two physicists and a curious host walk into a studio…",
+      "description": "On GBH’s new show The Curiosity Desk, MIT LIGO researchers revel in the beauties of fundamental discovery science and MIT astronomers talk planetary defense.",
+      "link": "https://news.mit.edu/2026/two-physicists-and-curious-host-walk-studio",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-31"
+    },
+    {
+      "title": "Building the blocks of life",
+      "description": "Computational biologist Sergei Kotelnikov is working to develop new methods in protein modeling as part of the School of Science Dean’s Postdoctoral Fellowship.",
+      "link": "https://news.mit.edu/2026/building-blocks-of-life-sergei-kotelnikov-0331",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-03-31"
     },
     {
       "title": "Education in Grenada",
@@ -1304,20 +1312,20 @@
       "date": "2026-03-02"
     },
     {
-      "title": "How microwaves let us tune into one another – and the universe",
-      "description": "Learn more about how microwaves revolutionised our ways of communicating and helped us understand the origins of the universe. The Pope is watching. This had better work. Such thoughts perhaps ran through the mind of Guglielmo Marconi in 1932 as he set up a special antenna in the Vatican gardens while His Holiness Pope Pius […] The post How microwaves let us tune into one another – and the universe appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/stories/microwaves/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-03-30"
-    },
-    {
       "title": "Into the Fire: Nobel Peace Prize documentary",
       "description": "In an area of Iraq destroyed by ISIS, Hana Khider leads an all-female team of Yazidi deminers in their attempts to clear the land of mines. Their job involves painstakingly searching for booby traps in bombed out buildings and fields, where one wrong move means certain death. Hana works for the Mines Advisory Group, an […] The post Into the Fire: Nobel Peace Prize documentary appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/stories/into-the-fire/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-02-04"
+    },
+    {
+      "title": "How microwaves let us tune into one another – and the universe",
+      "description": "Learn more about how microwaves revolutionised our ways of communicating and helped us understand the origins of the universe. The Pope is watching. This had better work. Such thoughts perhaps ran through the mind of Guglielmo Marconi in 1932 as he set up a special antenna in the Vatican gardens while His Holiness Pope Pius […] The post How microwaves let us tune into one another – and the universe appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/stories/microwaves/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-03-30"
     },
     {
       "title": "The clock that starts ticking when something dies",
@@ -1456,6 +1464,14 @@
       "date": "2026-03-31"
     },
     {
+      "title": "How Two Dim Stars Came Together to Shine Brightly",
+      "description": "Brown dwarfs get a bad rap in the stellar world, often labeled as \"failed stars\" for their inability to sustain nuclear fusion at their cores. The mass of these objects falls between planets and stars, ranging from 13 to 80 times the mass of Jupiter. Because they aren't massive enough to sustain fusion, they are far fainter and cooler than their stellar comrades.Now, a new finding led by researchers at Caltech shows how these dim bulbs can join together to shine brightly. Searching through archival observations captured by the Zwicky Transient Facility (ZTF) at Caltech's Palomar Observatory, r",
+      "link": "https://www.caltech.edu/about/news/how-two-dim-stars-came-together-to-shine-brightly",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2026-03-18"
+    },
+    {
       "title": "Fires Tear Through Nebraska Grasslands",
       "description": "Dry, warm, and windy conditions across the U.S. Great Plains led to extreme fire activity in March 2026.",
       "link": "https://science.nasa.gov/earth/earth-observatory/fires-tear-through-nebraska-grasslands/",
@@ -1478,14 +1494,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-03-30"
-    },
-    {
-      "title": "How Two Dim Stars Came Together to Shine Brightly",
-      "description": "Brown dwarfs get a bad rap in the stellar world, often labeled as \"failed stars\" for their inability to sustain nuclear fusion at their cores. The mass of these objects falls between planets and stars, ranging from 13 to 80 times the mass of Jupiter. Because they aren't massive enough to sustain fusion, they are far fainter and cooler than their stellar comrades.Now, a new finding led by researchers at Caltech shows how these dim bulbs can join together to shine brightly. Searching through archival observations captured by the Zwicky Transient Facility (ZTF) at Caltech's Palomar Observatory, r",
-      "link": "https://www.caltech.edu/about/news/how-two-dim-stars-came-together-to-shine-brightly",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2026-03-18"
     },
     {
       "title": "Géraldine Naja takes up duty as Director of Space Transportation",
@@ -1592,30 +1600,6 @@
       "date": "2026-03-19"
     },
     {
-      "title": "Preview tool helps makers visualize 3D-printed objects",
-      "description": "By quickly generating aesthetically accurate previews of fabricated objects, the VisiPrint system could make prototyping faster and less wasteful.",
-      "link": "https://news.mit.edu/2026/preview-tool-helps-makers-visualize-3d-printed-objects-0401",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-04-01"
-    },
-    {
-      "title": "Two physicists and a curious host walk into a studio…",
-      "description": "On GBH’s new show The Curiosity Desk, MIT LIGO researchers revel in the beauties of fundamental discovery science and MIT astronomers talk planetary defense.",
-      "link": "https://news.mit.edu/2026/two-physicists-and-curious-host-walk-studio",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-31"
-    },
-    {
-      "title": "Building the blocks of life",
-      "description": "Computational biologist Sergei Kotelnikov is working to develop new methods in protein modeling as part of the School of Science Dean’s Postdoctoral Fellowship.",
-      "link": "https://news.mit.edu/2026/building-blocks-of-life-sergei-kotelnikov-0331",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-03-31"
-    },
-    {
       "title": "Tomás Palacios named director of the Institute for Soldier Nanotechnologies",
       "description": "The electrical engineering and nanotechnology leader will guide the US Army-sponsored research center as it advances next-generation materials, electronics, and photonics for national security.",
       "link": "https://news.mit.edu/2026/tomas-palacios-named-director-institute-soldier-nanotechnologies-0331",
@@ -1648,6 +1632,14 @@
       "date": "2026-03-30"
     },
     {
+      "title": "Social media firms lost two bellwether cases, but future remains unclear",
+      "description": "Legal scholar on next move for tech giants, chances of ‘master settlement,’ more",
+      "link": "https://news.harvard.edu/gazette/story/2026/03/social-media-firms-lost-two-bellwether-cases-but-future-remains-unclear/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-03-27"
+    },
+    {
       "title": "Leading with rigor, kindness, and care",
       "description": "“We cannot be effective scientists if we are unhappy or unhealthy outside of the lab,” says “Committed to Caring” honoree Sara Prescott.",
       "link": "https://news.mit.edu/2026/leading-with-rigor-kindness-care-sara-prescott-0327",
@@ -1678,14 +1670,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-03-26"
-    },
-    {
-      "title": "Social media firms lost two bellwether cases, but future remains unclear",
-      "description": "Legal scholar on next move for tech giants, chances of ‘master settlement,’ more",
-      "link": "https://news.harvard.edu/gazette/story/2026/03/social-media-firms-lost-two-bellwether-cases-but-future-remains-unclear/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-03-27"
     },
     {
       "title": "Implantable islet cells could control diabetes without insulin injections",
@@ -1816,28 +1800,28 @@
       "date": "2026-03-23"
     },
     {
-      "title": "After 20 years, scientists finally explain the Crab Pulsar’s strange “zebra stripes”",
-      "description": "For decades, astronomers have been puzzled by strange “zebra stripe” patterns in radio waves from the Crab Pulsar — bright bands separated by complete darkness. Now, new research suggests the answer lies in a cosmic tug-of-war between gravity and plasma. The pulsar’s plasma spreads light apart, while gravity bends it back together, creating interference patterns that form the striking stripes.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260328043605.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-28"
-    },
-    {
-      "title": "This quantum computing breakthrough may not be what it seemed",
-      "description": "A team of physicists set out to test some of the most exciting claims in quantum computing—and found a very different story. Instead of confirming breakthroughs, their careful replication studies revealed that signals once hailed as major advances could actually be explained in simpler ways. Despite the importance of these findings, their work initially struggled to get published, highlighting a deeper issue in science.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-28"
-    },
-    {
       "title": "What’s the right path for AI?",
       "description": "Conference speakers discussed the unfolding trajectory of AI and the benefits of shaping technology to meet people’s needs.",
       "link": "https://news.mit.edu/2026/right-path-for-ai-karen-hao-paola-ricaurte-0320",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-03-20"
+    },
+    {
+      "title": "The Download: gig workers training humanoids, and better AI benchmarks",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The gig workers who are training humanoid robots at home When Zeus, a medical student in Nigeria, returns to his apartment from a long day at the hospital, he straps his…",
+      "link": "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "The gig workers who are training humanoid robots at home",
+      "description": "When Zeus, a medical student living in a hilltop city in central Nigeria, returns to his studio apartment from a long day at the hospital, he turns on his ring light, straps his iPhone to his forehead, and starts recording himself. He raises his hands in front of him like a sleepwalker and puts a…",
+      "link": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-04-01"
     },
     {
       "title": "A world-shifting moment (literally)",
@@ -1862,6 +1846,46 @@
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-03-31"
+    },
+    {
+      "title": "The Pentagon’s culture war tactic against Anthropic has backfired",
+      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Thursday, a California judge temporarily blocked the Pentagon from labeling Anthropic a supply chain risk and ordering government agencies to stop using its AI. It’s the latest development in the month-long…",
+      "link": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "The Download: brainless human clones and the first uterus kept alive outside a body",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the stealthy startup that pitched brainless human clones After operating in secrecy for years, R3 Bio, a California-based startup, suddenly revealed last week that it had raised money to create nonsentient monkey “organ sacks”…",
+      "link": "https://www.technologyreview.com/2026/03/30/1134836/the-download-brainless-human-clones-first-uterus-kept-alive-outside-body/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "Inside the stealthy startup that pitched brainless human clones",
+      "description": "After operating in secrecy for years, a startup company called R3 Bio, in Richmond, California, suddenly shared details about its work last week—saying it had raised money to create nonsentient monkey “organ sacks” as an alternative to animal testing. In an interview with Wired, R3 listed three investors: billionaire Tim Draper, the Singapore-based fund Immortal…",
+      "link": "https://www.technologyreview.com/2026/03/30/1134780/r3-bio-brainless-human-clones-full-body-replacement-john-schloendorn-aging-longevity/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "After 20 years, scientists finally explain the Crab Pulsar’s strange “zebra stripes”",
+      "description": "For decades, astronomers have been puzzled by strange “zebra stripe” patterns in radio waves from the Crab Pulsar — bright bands separated by complete darkness. Now, new research suggests the answer lies in a cosmic tug-of-war between gravity and plasma. The pulsar’s plasma spreads light apart, while gravity bends it back together, creating interference patterns that form the striking stripes.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260328043605.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-28"
+    },
+    {
+      "title": "This quantum computing breakthrough may not be what it seemed",
+      "description": "A team of physicists set out to test some of the most exciting claims in quantum computing—and found a very different story. Instead of confirming breakthroughs, their careful replication studies revealed that signals once hailed as major advances could actually be explained in simpler ways. Despite the importance of these findings, their work initially struggled to get published, highlighting a deeper issue in science.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-28"
     },
     {
       "title": "A woman’s uterus has been kept alive outside the body for the first time",
@@ -1892,22 +1916,6 @@
       "description": "Management, branding, marketing, history scholars trace all ways Apple changed industries, our relationship to tech — and to each other",
       "link": "https://news.harvard.edu/gazette/story/2026/03/think-different-for-50-years/",
       "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-03-27"
-    },
-    {
-      "title": "The Download: the internet’s best weather app, and why people freeze their brains",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How a couple of ski bums built the internet’s best weather app The best snow-forecasting app for skiers isn’t a federally-funded service or a big-name brand. It’s OpenSnow, a startup that uses government data, its own AI…",
-      "link": "https://www.technologyreview.com/2026/03/27/1134755/the-download-best-weather-forecasting-app-why-people-freeze-brains/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-03-27"
-    },
-    {
-      "title": "Here’s why some people choose cryonics to store their bodies and brains after death",
-      "description": "This week I reported on some rather unusual research that focuses on the brain of L. Stephen Coles. Coles was a gerontologist who died from pancreatic cancer in 2014. He had spent the latter part of his career specializing in human longevity. And before he died, he decided to have his brain preserved by a…",
-      "link": "https://www.technologyreview.com/2026/03/27/1134705/cryonics-store-bodies-brains-after-death/",
-      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-03-27"
     },
@@ -2016,46 +2024,6 @@
       "date": "2026-03-25"
     },
     {
-      "title": "Why Thermal Metrology Must Evolve for Next-Generation Semiconductors",
-      "description": "An in-depth examination of how rising power density, 3D integration, and novel materials are outpacing legacy thermal measurement — and what advanced metrology must deliver. What Attendees will Learn Why heat is now the dominant constraint on semiconductor scaling — Explore how heterogeneous integration, 3D stacking, and AI-driven power density have shifted the primary bottleneck from lithography to thermal management, with heat flux projections exceeding 1,000 W/cm² for next-generation accelerators. How extreme material properties are redefining thermal design requirements —Understand the mea",
-      "link": "https://content.knowledgehub.wiley.com/heat-beneath-the-surface-thermal-metrology-for-advanced-semiconductor-materials-and-architectures/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-03-23"
-    },
-    {
-      "title": "NASA’s asteroid Bennu sample reveals a hidden chemical patchwork",
-      "description": "Scientists studying Bennu samples have discovered that its chemistry is far from uniform. Organic compounds and minerals cluster into three distinct types of regions, each shaped differently by past water activity. This uneven pattern shows that water altered the asteroid in a complex, localized way. The survival of delicate organic molecules adds an important clue to how life’s building blocks may persist in space.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260331231739.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-01"
-    },
-    {
-      "title": "DNA robots could deliver drugs and hunt viruses inside your body",
-      "description": "DNA robots are emerging as tiny programmable machines that could one day deliver drugs, hunt viruses, and build molecular-scale devices. By borrowing ideas from traditional robotics and combining them with DNA folding techniques, scientists are creating structures that can move and act with precision. These robots can be guided using chemical reactions or external signals like light and magnetic fields.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260331001104.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-31"
-    },
-    {
-      "title": "Lost in space: Microgravity makes sperm lose their sense of direction",
-      "description": "Making babies in space may be more complicated than expected, as new research shows sperm struggle to navigate in microgravity. Scientists found that while sperm can still swim normally, they lose their sense of direction without gravity, making it harder to reach and fertilize an egg. In lab experiments simulating space conditions, far fewer sperm successfully made it through a maze designed to mimic the reproductive tract, and fertilization rates in mice dropped by about 30%.",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260329222934.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-03-30"
-    },
-    {
-      "title": "‘Best college tradition anywhere’",
-      "description": "Smurf-blue hair, chain-mail suits, vuvuzelas, and bagpipes abound as students flood Yard for annual raucous rite of Housing Day",
-      "link": "https://news.harvard.edu/gazette/story/2026/03/best-college-tradition-anywhere/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-03-27"
-    },
-    {
       "title": "Study suggests healing skin without scarring may be possible",
       "description": "Researchers unblock embryonic regrowth mechanism that shuts down after birth in mice",
       "link": "https://news.harvard.edu/gazette/story/2026/03/study-suggests-healing-skin-without-scarring-may-be-possible/",
@@ -2094,6 +2062,38 @@
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-03-23"
+    },
+    {
+      "title": "NASA’s asteroid Bennu sample reveals a hidden chemical patchwork",
+      "description": "Scientists studying Bennu samples have discovered that its chemistry is far from uniform. Organic compounds and minerals cluster into three distinct types of regions, each shaped differently by past water activity. This uneven pattern shows that water altered the asteroid in a complex, localized way. The survival of delicate organic molecules adds an important clue to how life’s building blocks may persist in space.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260331231739.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-01"
+    },
+    {
+      "title": "Lost in space: Microgravity makes sperm lose their sense of direction",
+      "description": "Making babies in space may be more complicated than expected, as new research shows sperm struggle to navigate in microgravity. Scientists found that while sperm can still swim normally, they lose their sense of direction without gravity, making it harder to reach and fertilize an egg. In lab experiments simulating space conditions, far fewer sperm successfully made it through a maze designed to mimic the reproductive tract, and fertilization rates in mice dropped by about 30%.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260329222934.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-30"
+    },
+    {
+      "title": "‘Best college tradition anywhere’",
+      "description": "Smurf-blue hair, chain-mail suits, vuvuzelas, and bagpipes abound as students flood Yard for annual raucous rite of Housing Day",
+      "link": "https://news.harvard.edu/gazette/story/2026/03/best-college-tradition-anywhere/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-03-27"
+    },
+    {
+      "title": "DNA robots could deliver drugs and hunt viruses inside your body",
+      "description": "DNA robots are emerging as tiny programmable machines that could one day deliver drugs, hunt viruses, and build molecular-scale devices. By borrowing ideas from traditional robotics and combining them with DNA folding techniques, scientists are creating structures that can move and act with precision. These robots can be guided using chemical reactions or external signals like light and magnetic fields.",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260331001104.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-03-31"
     },
     {
       "title": "These “smart” crystals bend and snap back when hit with light",
