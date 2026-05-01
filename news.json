@@ -1,22 +1,22 @@
 {
   "date": "2026-05-01",
-  "lastUpdated": "2026-05-01T16:53:01.417Z",
+  "lastUpdated": "2026-05-01T20:45:31.307Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "56.2s",
+    "executionTime": "51.4s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 21,
-    "totalCandidates": 256,
-    "totalSelected": 256,
+    "sourcesSuccessful": 20,
+    "totalCandidates": 246,
+    "totalSelected": 246,
     "entriesByField": {
-      "health": 45,
+      "health": 44,
       "climate": 27,
       "energy": 1,
-      "technology": 122,
+      "technology": 123,
       "education": 6,
       "development": 20,
       "peace": 10,
-      "space": 25
+      "space": 15
     },
     "categoryIntegrity": {
       "health": {
@@ -32,8 +32,8 @@
         "changed": 0
       },
       "technology": {
-        "kept": 122,
-        "changed": 4
+        "kept": 123,
+        "changed": 3
       },
       "education": {
         "kept": 5,
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 25,
+        "kept": 15,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 42,
-      "topTierSources": 136,
-      "highCredibilitySources": 225
+      "highScoreEntries": 37,
+      "topTierSources": 126,
+      "highCredibilitySources": 215
     }
   },
   "entries": [
@@ -126,14 +126,6 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-04-02"
-    },
-    {
-      "title": "A novel gene-therapy approach to ‘functionally cure’ HIV succeeds in some monkeys",
-      "description": "Six animals suppressed AIDS virus after one shot of treatment that makes cell-receptor antibody",
-      "link": "https://www.science.org/content/article/novel-gene-therapy-approach-functionally-cure-hiv-succeeds-some-monkeys",
-      "source": "Science",
-      "field": "health",
-      "date": "2026-04-29"
     },
     {
       "title": "[Comment] Offline: Ten lessons for women's and children's health",
@@ -216,25 +208,9 @@
       "date": "2026-04-29"
     },
     {
-      "title": "CD19 CAR T-Cell Therapy for Treatment of Chronic Graft-versus-Host Disease",
-      "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1759-1762, April 30, 2026.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2517629?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2026-04-29"
-    },
-    {
       "title": "A Second Factor VIIIa Mimetic for Hemophilia A",
       "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1754-1756, April 30, 2026.",
       "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2602685?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2026-04-29"
-    },
-    {
-      "title": "Tackling Maternal Sepsis — Doing the Basics, and Doing Them Well",
-      "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1752-1753, April 30, 2026.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2518018?af=R&rss=currentIssue",
       "source": "NEJM",
       "field": "health",
       "date": "2026-04-29"
@@ -259,14 +235,6 @@
       "title": "Membranoproliferative Glomerulonephritis Due to Cryoglobulinemia",
       "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1736-1736, April 30, 2026.",
       "link": "https://www.nejm.org/doi/full/10.1056/NEJMicm2513605?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2026-04-25"
-    },
-    {
-      "title": "GLP-1 Receptor Agonists and Eating Disorders — Cause for Concern",
-      "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1665-1667, April 30, 2026.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2600300?af=R&rss=currentIssue",
       "source": "NEJM",
       "field": "health",
       "date": "2026-04-25"
@@ -368,6 +336,30 @@
       "date": "2026-04-29"
     },
     {
+      "title": "CD19 CAR T-Cell Therapy for Treatment of Chronic Graft-versus-Host Disease",
+      "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1759-1762, April 30, 2026.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2517629?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "Tackling Maternal Sepsis — Doing the Basics, and Doing Them Well",
+      "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1752-1753, April 30, 2026.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2518018?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "GLP-1 Receptor Agonists and Eating Disorders — Cause for Concern",
+      "description": "New England Journal of Medicine, Volume 394, Issue 17, Page 1665-1667, April 30, 2026.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2600300?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2026-04-25"
+    },
+    {
       "title": "[Articles] Efficacy and safety of cemdisiran siRNA in myasthenia gravis (NIMBLE): a double-blind, randomised, placebo-controlled, phase 3 trial",
       "description": "Cemdisiran monotherapy and combination therapy were effective in the treatment of generalised myasthenia gravis, and were generally well tolerated. Subcutaneous dosing of cemdisiran, administered every 3 months, could provide a convenient treatment approach for generalised myasthenia gravis.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00690-2/fulltext?rss=yes",
@@ -424,14 +416,6 @@
       "date": "2026-04-24"
     },
     {
-      "title": "Artemis II returns: How NOAA helped protect astronauts during the 10-day NASA mission",
-      "description": "Artemis II returns: How NOAA helped protect astronauts during the 10-day NASA mission NASA’s Artemis II astronauts returned to Earth April 10 after a 10-day journey beyond the magnetosphere during which NOAA scientists monitored solar activity for radiation risks. (Image credit: NASA/nasa.gov) April 28, 2026 Satellites space satellites 0 Off",
-      "link": "https://www.noaa.gov/stories/artemis-ii-returns-how-noaa-helped-protect-astronauts-during-10-day-nasa-mission-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-04-28"
-    },
-    {
       "title": "Citizen scientists wanted: Find a project that's right for you",
       "description": "Citizen scientists wanted: Find a project that's right for you NOAA offers a variety of volunteer opportunities that can be done outdoors and online. Meet some of the decided volunteers who make NOAA's citizen science efforts possible. (Image credit: Courtesy of Eva L., Linda Palewicz, and Mary-Sue Atkinson) Download Image April 21, 2026 April is Citizen Science Month, and NOAA has launched a new, searchable catalog of citizen science projects to connect volunteers with research opportunities across the country. The catalog makes it easier for individuals, educators, and community groups to di",
       "link": "https://www.noaa.gov/office-education/news/citizen-scientists-wanted-find-project-thats-right-for-you",
@@ -454,6 +438,14 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-04-17"
+    },
+    {
+      "title": "Science Officer in the IPCC Working Group II Technical Support Unit (College of the Integrative Studies, Singapore)",
+      "description": "Working Group II of the Intergovernmental Panel on Climate Change is filling the position of Science Officer Deadline: to apply before May 1, 2026 Contract till 30 March 2030 About us Singapore Management University is a place where high-level professionalism blends together with a healthy informality. The ‘family-like’ atmosphere among the SMU community fosters a […]",
+      "link": "https://www.ipcc.ch/2026/04/28/sc-off-wg2-tsu/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2026-04-28"
     },
     {
       "title": "Iran war: EU strategy sets out 44 actions to limit ‘fossil-fuel price shocks’",
@@ -480,10 +472,10 @@
       "date": "2026-04-29"
     },
     {
-      "title": "Science Officer in the IPCC Working Group II Technical Support Unit (College of the Integrative Studies, Singapore)",
-      "description": "Working Group II of the Intergovernmental Panel on Climate Change is filling the position of Science Officer Deadline: to apply before May 1, 2026 Contract till 30 March 2030 About us Singapore Management University is a place where high-level professionalism blends together with a healthy informality. The ‘family-like’ atmosphere among the SMU community fosters a […]",
-      "link": "https://www.ipcc.ch/2026/04/28/sc-off-wg2-tsu/",
-      "source": "IPCC",
+      "title": "Artemis II returns: How NOAA helped protect astronauts during the 10-day NASA mission",
+      "description": "Artemis II returns: How NOAA helped protect astronauts during the 10-day NASA mission NASA’s Artemis II astronauts returned to Earth April 10 after a 10-day journey beyond the magnetosphere during which NOAA scientists monitored solar activity for radiation risks. (Image credit: NASA/nasa.gov) April 28, 2026 Satellites space satellites 0 Off",
+      "link": "https://www.noaa.gov/stories/artemis-ii-returns-how-noaa-helped-protect-astronauts-during-10-day-nasa-mission-ext",
+      "source": "NOAA",
       "field": "climate",
       "date": "2026-04-28"
     },
@@ -688,36 +680,12 @@
       "date": "2026-04-28"
     },
     {
-      "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
-      "description": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, Anthropic is not releasing the model to the general public, but instead to a limited number of companie",
-      "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-23"
-    },
-    {
       "title": "Building an Interregional Transmission Overlay for a Resilient U.S. Grid",
       "description": "Examining how a U.S. Interregional Transmission Overlay could address aging grid infrastructure, surging demand, and renewable integration challenges. What Attendees will Learn Why the current regional grid structure is approaching its limits — Explore how coal-fired generation retirements, renewable integration, aging infrastructure past its 50-year lifespan, and exponential large-load growth from data centers and manufacturing reshoring are creating unprecedented pressure on the U.S. transmission system. How an Interregional Transmission Overlay (ITO) would work — Understand the architecture",
       "link": "https://content.knowledgehub.wiley.com/energy-in-motion-unlocking-the-interconnected-grid-of-tomorrow/",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-04-22"
-    },
-    {
-      "title": "The USC Professor Who Pioneered Socially Assistive Robotics",
-      "description": "When the robotics engineering field that Maja Matarić wanted to work in didn’t exist, she helped create it. In 2005 she helped define the new area of socially assistive robotics. As an associate professor of computer science, neuroscience, and pediatrics at the University of Southern California, in Los Angeles, she developed robots to provide personalized therapy and care through social interactions. Maja Matarić Employer University of Southern California, Los Angeles Job Title Professor of computer science, neuroscience, and pediatrics Member grade Fellow Alma maters University of Kansas and ",
-      "link": "https://spectrum.ieee.org/socially-assistive-robotics",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-20"
-    },
-    {
-      "title": "How Engineers Kick-Started the Scientific Method",
-      "description": "In 1627, a year after the death of the philosopher and statesman Francis Bacon, a short, evocative tale of his was published. The New Atlantis describes how a ship blown off course arrives at an unknown island called Bensalem. At its heart stands Salomon’s House, an institution devoted to “the knowledge of causes, and secret motions of things” and to “the effecting of all things possible.” The novel captured Bacon’s vision of a science built on skepticism and empiricism and his belief that understanding and creating were one and the same pursuit. No mere scholar’s study filled with curiosities",
-      "link": "https://spectrum.ieee.org/francis-bacon-scientific-method",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-19"
     },
     {
       "title": "Oxford physicists achieve first-ever “quadsqueezing” breakthrough in quantum physics",
@@ -736,12 +704,52 @@
       "date": "2026-04-30"
     },
     {
-      "title": "New “optical tornado” technology could transform quantum communication",
-      "description": "Scientists have created tiny “optical tornadoes” — swirling beams of light that twist like miniature whirlwinds — using a surprisingly simple setup based on liquid crystals. Instead of relying on complex nanotechnology, the team used self-organizing structures called torons to trap and manipulate light, causing it to spiral and rotate in intricate ways. Even more impressively, they achieved this effect in light’s most stable, lowest-energy state, making it far easier to generate laser-like beams with these unusual properties.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260424233215.htm",
-      "source": "ScienceDaily Tech",
+      "title": "The Download: a new Christian phone network, and debugging LLMs",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A new US phone network for Christians aims to block porn and gender-related content A new US-wide cell phone network marketed to Christians is set to launch next week. It blocks…",
+      "link": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
+      "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-04-25"
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Transmission Hardware Corona Performance and HVDC Submarine Cable EM Fields",
+      "description": "Laboratory or in-field measurements are often considered the gold standard for certain aspects of power system design; however, measurement approaches always have limitations. Simulation can help overcome some of these limitations, including speeding up the design process, reducing design costs, and assessing situations that are often not feasible to measure directly. In this presentation, we will discuss two examples from the power system industry. The first case we will discuss involves corona performance testing of high-voltage transmission line hardware. Corona-free insulator hardware perf",
+      "link": "https://events.bizzabo.com/860041",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Yong Wang Turns Information Into Insights",
+      "description": "When Yong Wang recently received one of the highest honors for early-career data visualization researchers, it marked a milestone in an extraordinary journey that began far from the world’s technology hubs. Wang was born in a small farming village in southern China to parents with limited formal education. Today the IEEE member and associate editor of IEEE Transactions on Visualization and Computer Graphics is an assistant professor in the College of Computing and Data Science atNanyang Technological University, in Singapore. He studies how people can employdata visualization techniques to get",
+      "link": "https://spectrum.ieee.org/yong-wang-data-visualization",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "What Anthropic’s Mythos Means for the Future of Cybersecurity",
+      "description": "Two weeks ago, Anthropic announced that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, Anthropic is not releasing the model to the general public, but instead to a limited number of companie",
+      "link": "https://spectrum.ieee.org/ai-cybersecurity-mythos",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-23"
+    },
+    {
+      "title": "The USC Professor Who Pioneered Socially Assistive Robotics",
+      "description": "When the robotics engineering field that Maja Matarić wanted to work in didn’t exist, she helped create it. In 2005 she helped define the new area of socially assistive robotics. As an associate professor of computer science, neuroscience, and pediatrics at the University of Southern California, in Los Angeles, she developed robots to provide personalized therapy and care through social interactions. Maja Matarić Employer University of Southern California, Los Angeles Job Title Professor of computer science, neuroscience, and pediatrics Member grade Fellow Alma maters University of Kansas and ",
+      "link": "https://spectrum.ieee.org/socially-assistive-robotics",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "How Engineers Kick-Started the Scientific Method",
+      "description": "In 1627, a year after the death of the philosopher and statesman Francis Bacon, a short, evocative tale of his was published. The New Atlantis describes how a ship blown off course arrives at an unknown island called Bensalem. At its heart stands Salomon’s House, an institution devoted to “the knowledge of causes, and secret motions of things” and to “the effecting of all things possible.” The novel captured Bacon’s vision of a science built on skepticism and empiricism and his belief that understanding and creating were one and the same pursuit. No mere scholar’s study filled with curiosities",
+      "link": "https://spectrum.ieee.org/francis-bacon-scientific-method",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-19"
     },
     {
       "title": "Modeling Aerodynamics: A Conversation with Adrián Lozano-Durán",
@@ -760,12 +768,132 @@
       "date": "2026-04-29"
     },
     {
-      "title": "Caltech Faculty Honored with New Horizons Prizes",
-      "description": "Kimmy Wu and Vesselin Dimitrov honored for physics and math researchTwo Caltech professors were awarded 2026 New Horizons Prizes as part of the Breakthrough Foundation's annual prize ceremony, known colloquially as the \"Oscars of Science.\" Wai Ling (Kimmy) Wu, assistant professor of physics at Caltech, has received a New Horizons in Physics prize for her \"advances in cosmic microwave background and supernovae cosmology,\" according to the foundation.Vesselin Dimitrov, professor of mathematics, was awarded a New Horizons in Mathematics Prize for his \"work in Diophantine geometry, including the p",
-      "link": "https://www.caltech.edu/about/news/caltech-faculty-honored-with-new-horizons-prizes",
-      "source": "Caltech",
+      "title": "This massive 3D map of 47 million galaxies could unlock dark energy",
+      "description": "A massive cosmic milestone has just been reached: scientists have completed the largest high-resolution 3D map of the universe ever created. Built using data from over 47 million galaxies and quasars, this map could unlock new clues about dark energy—the mysterious force driving the universe’s expansion. Despite setbacks like wildfire disruptions, the international DESI collaboration powered through, gathering an unprecedented dataset that already hints dark energy may behave in unexpected ways.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260427050604.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-04-20"
+      "date": "2026-04-28"
+    },
+    {
+      "title": "New “optical tornado” technology could transform quantum communication",
+      "description": "Scientists have created tiny “optical tornadoes” — swirling beams of light that twist like miniature whirlwinds — using a surprisingly simple setup based on liquid crystals. Instead of relying on complex nanotechnology, the team used self-organizing structures called torons to trap and manipulate light, causing it to spiral and rotate in intricate ways. Even more impressively, they achieved this effect in light’s most stable, lowest-energy state, making it far easier to generate laser-like beams with these unusual properties.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260424233215.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-25"
+    },
+    {
+      "title": "Cyber-Insecurity in the AI Era",
+      "description": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review’s EmTech AI conference explores why security must be rethought with AI at its core, not layered on after…",
+      "link": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Trump’s mass firing just dealt another blow to American science",
+      "description": "This past week delivered another gut punch for science in the US. This time, the target was the National Science Foundation—a federal agency that funds major research projects to the tune of around $9 billion. The foundation’s efforts were overseen by a board of 22 prominent scientists. On Friday last week, they were all fired.…",
+      "link": "https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "A new US phone network for Christians aims to block porn and gender-related content",
+      "description": "A new US-wide cell phone network marketed to Christians is set to launch next week. It blocks porn, which experts in network security say marks the first time a US cell plan has used network-level blocking for such content that can’t be turned off even by adult account owners. It’s also rolling out a filter…",
+      "link": "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "The Download: the North Pole’s future and humanoid data",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Digging for clues about the North Pole’s past In the past, getting to the North Pole involved a treacherous trip through ice many meters thick. But last year, a research vessel…",
+      "link": "https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Breyer makes case for civic education",
+      "description": "Retired SCOTUS justice says path to less polarization runs through the classroom",
+      "link": "https://news.harvard.edu/gazette/story/2026/04/breyer-makes-case-for-civic-education/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Harvard deepens commitment to HBCUs with $1.05 million grant",
+      "description": "The award, through the Harvard & the Legacy of Slavery Initiative, will strengthen research capacity at 15 schools",
+      "link": "https://news.harvard.edu/gazette/story/2026/04/harvard-deepens-commitment-to-hbcus-with-1-05-million-grant/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "A lost archive of Black history",
+      "description": "25 years after landmark photography book, Deborah Willis is still scouring albums, attics, cabinets, cards to fill in the record",
+      "link": "https://news.harvard.edu/gazette/story/2026/04/a-lost-archive-of-black-history/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "120 years of artistry: Cal Performances announces its 2026-27 season",
+      "description": "The UC Berkeley performing arts center marks its milestone anniversary with an expansive lineup of world-renowned creators and emerging talent in dance, music and theater. The post 120 years of artistry: Cal Performances announces its 2026-27 season appeared first on Berkeley News.",
+      "link": "https://calperformances.org/2026/04/28/jeremy-geffen-introduces-the-2026-27-season",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Walking in Harvard’s ‘Revolutionary footsteps’",
+      "description": "Exhibit traces University’s role in America’s birth — from campus barracks to Founding Father alumni",
+      "link": "https://news.harvard.edu/gazette/story/2026/04/walking-in-harvards-revolutionary-footsteps/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Hearing breakthrough holds up",
+      "description": "Gene therapy yields lasting gains for patients with inherited deafness: ‘How well it worked is really amazing.’",
+      "link": "https://news.harvard.edu/gazette/story/2026/04/hearing-breakthrough-holds-up/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "The Forgotten History of Hershey’s Electric Railway in Cuba",
+      "description": "Why does a chocolatier build a railroad? For Milton S. Hershey, it was a logical response to a sugar shortage brought on by World War I. The Hershey Chocolate Co. was by then a chocolate-making powerhouse, having refined the automation and mass production of its products, including the eponymous Hershey’s Milk Chocolate Bar and the bite-size Hershey’s Kiss. To satisfy its many customers, the company needed a steady supply of sugar. Plus, it wanted a way to circumvent the American Sugar Refining Co., also known as the Sugar Trust, which had a virtual monopoly on sugar processing in the United S",
+      "link": "https://spectrum.ieee.org/hershey-electric-railway-cuba",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "This AI knew the answers but didn’t understand the questions",
+      "description": "For decades, psychologists have debated whether the human mind can be explained by one unified theory or must be broken into separate parts like memory and attention. A recent AI model called Centaur seemed to offer a breakthrough, claiming it could mimic human thinking across 160 different cognitive tasks. But new research is challenging that bold claim, suggesting the model isn’t truly “thinking” at all—it’s just memorizing patterns.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260429102035.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Scientists catch antimatter “atom” acting like a wave for the first time",
+      "description": "Quantum physics once shocked scientists by revealing that particles can behave like waves—and now, that strange behavior has been pushed even further. For the first time, researchers have observed wave-like interference in positronium, an exotic “atom” made of an electron and its antimatter partner, a positron. This breakthrough not only strengthens the weird reality of quantum mechanics but also opens the door to new experiments involving antimatter, including the possibility of testing how gravity affects it—something never directly measured before.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260428045612.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "The MIT-IBM Computing Research Lab launches to shape the future of AI and quantum computing",
+      "description": "Building on a long-standing MIT–IBM collaboration, the new lab will chart the convergence of AI, algorithms, and quantum computing.",
+      "link": "https://news.mit.edu/2026/mit-ibm-computing-research-lab-launches-0429",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-04-29"
     },
     {
       "title": "Chemistry Grad Student Awarded Future Leaders Award",
@@ -790,6 +918,54 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-04-28"
+    },
+    {
+      "title": "Inside DiscoTech: Admitted Students Explore Caltech",
+      "description": "A rainy Sunday morning gave way to clear skies just in time to welcome more than 290 admitted students and their guests to campus for Caltech's annual Discover Caltech program, known as DiscoTech.Over four days, from April 12 to April 15, attendees explored the Institute's academic offerings, campus traditions, and community—while weighing one of the biggest decisions ahead of them: where to spend the next four years of their lives.In his welcome keynote to DiscoTech attendees, Kevin Noertker (BS '09), the co-founder and CEO of hybrid-electric aircraft company Ampaire, encouraged students to r",
+      "link": "https://www.caltech.edu/about/news/inside-discotech-admitted-students-explore-caltech",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Caltech Faculty Honored with New Horizons Prizes",
+      "description": "Kimmy Wu and Vesselin Dimitrov honored for physics and math researchTwo Caltech professors were awarded 2026 New Horizons Prizes as part of the Breakthrough Foundation's annual prize ceremony, known colloquially as the \"Oscars of Science.\" Wai Ling (Kimmy) Wu, assistant professor of physics at Caltech, has received a New Horizons in Physics prize for her \"advances in cosmic microwave background and supernovae cosmology,\" according to the foundation.Vesselin Dimitrov, professor of mathematics, was awarded a New Horizons in Mathematics Prize for his \"work in Diophantine geometry, including the p",
+      "link": "https://www.caltech.edu/about/news/caltech-faculty-honored-with-new-horizons-prizes",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "How Melatonin Promotes Sleep",
+      "description": "Melatonin is a naturally produced molecule that has long been suspected to play a role in healthy sleep, but it has been unclear how it does so. Now, Caltech researchers have discovered a mechanism through which melatonin promotes sleep, using zebrafish models in the laboratory.The research was conducted in the lab of Professor of Biology David Prober and is described in a paper appearing in Current Biology on April 20.Sleep is a vital and evolutionarily ancient behavioral state, yet there are still many open scientific questions about how sleep is regulated by the body, and there are few effe",
+      "link": "https://www.caltech.edu/about/news/how-melatonin-promotes-sleep",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-04-20"
+    },
+    {
+      "title": "Building useful quantum computers ‘in our direct line of sight’",
+      "description": "Researchers say creation of startups suggests game-changing tech may be developing at faster pace than expected",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/building-useful-quantum-computers-in-our-direct-line-of-sight/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Newton’s law of gravity passes its biggest test ever",
+      "description": "Galaxy clusters obey the inverse square law across hundreds of millions of light-years",
+      "link": "https://www.science.org/content/article/newton-s-law-gravity-passes-its-biggest-test-ever",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Pushed by Trump policies, top U.S. battery scientist is moving to Singapore",
+      "description": "Shirley Meng explains why her passion for decarbonizing the global economy required her to relocate",
+      "link": "https://www.science.org/content/article/pushed-trump-policies-top-u-s-battery-scientist-moving-singapore",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-05-01"
     },
     {
       "title": "Deep-Earth map reveals a lost U.S. continent",
@@ -856,14 +1032,6 @@
       "date": "2026-04-29"
     },
     {
-      "title": "To misinformation researchers, AI is a scourge—and a powerful new tool",
-      "description": "Surge in generative AI is upending a field that was just finding its feet",
-      "link": "https://www.science.org/content/article/misinformation-researchers-ai-scourge-and-powerful-new-tool",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-04-29"
-    },
-    {
       "title": "Testing sustainable agriculture in Barcelona",
       "description": "Students in a MISTI Global Classroom confronted the challenges of climate change, one farm and co-op visit at a time.",
       "link": "https://news.mit.edu/2026/testing-sustainable-agriculture-barcelona-0501",
@@ -907,182 +1075,6 @@
       "title": "How neurons sense bacteria in the gut",
       "description": "Neural interaction with bacteria has important effects on animal brains. A new study investigates how neurons sense bacteria by revealing, in nematodes, the bacterial signals that a key neuron detects.",
       "link": "https://news.mit.edu/2026/how-neurons-sense-gut-bacteria-0430",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "A materials scientist’s playground",
-      "description": "New system at MIT.nano will support quantum technology research.",
-      "link": "https://news.mit.edu/2026/materials-scientists-playground-0430",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "The MIT-IBM Computing Research Lab launches to shape the future of AI and quantum computing",
-      "description": "Building on a long-standing MIT–IBM collaboration, the new lab will chart the convergence of AI, algorithms, and quantum computing.",
-      "link": "https://news.mit.edu/2026/mit-ibm-computing-research-lab-launches-0429",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-04-29"
-    },
-    {
-      "title": "Cyber-Insecurity in the AI Era",
-      "description": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review’s EmTech AI conference explores why security must be rethought with AI at its core, not layered on after…",
-      "link": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "The Download: a new Christian phone network, and debugging LLMs",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A new US phone network for Christians aims to block porn and gender-related content A new US-wide cell phone network marketed to Christians is set to launch next week. It blocks…",
-      "link": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Trump’s mass firing just dealt another blow to American science",
-      "description": "This past week delivered another gut punch for science in the US. This time, the target was the National Science Foundation—a federal agency that funds major research projects to the tune of around $9 billion. The foundation’s efforts were overseen by a board of 22 prominent scientists. On Friday last week, they were all fired.…",
-      "link": "https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "A new US phone network for Christians aims to block porn and gender-related content",
-      "description": "A new US-wide cell phone network marketed to Christians is set to launch next week. It blocks porn, which experts in network security say marks the first time a US cell plan has used network-level blocking for such content that can’t be turned off even by adult account owners. It’s also rolling out a filter…",
-      "link": "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Transmission Hardware Corona Performance and HVDC Submarine Cable EM Fields",
-      "description": "Laboratory or in-field measurements are often considered the gold standard for certain aspects of power system design; however, measurement approaches always have limitations. Simulation can help overcome some of these limitations, including speeding up the design process, reducing design costs, and assessing situations that are often not feasible to measure directly. In this presentation, we will discuss two examples from the power system industry. The first case we will discuss involves corona performance testing of high-voltage transmission line hardware. Corona-free insulator hardware perf",
-      "link": "https://events.bizzabo.com/860041",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "The Download: the North Pole’s future and humanoid data",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Digging for clues about the North Pole’s past In the past, getting to the North Pole involved a treacherous trip through ice many meters thick. But last year, a research vessel…",
-      "link": "https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "The Download: storing nuclear waste and orchestrating agents",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. It’s time to make a plan for nuclear waste Today, nuclear energy enjoys rare support across the political spectrum. Public approval has spiked, and Big Tech is throwing money around to…",
-      "link": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-04-29"
-    },
-    {
-      "title": "A lost archive of Black history",
-      "description": "25 years after landmark photography book, Deborah Willis is still scouring albums, attics, cabinets, cards to fill in the record",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/a-lost-archive-of-black-history/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "120 years of artistry: Cal Performances announces its 2026-27 season",
-      "description": "The UC Berkeley performing arts center marks its milestone anniversary with an expansive lineup of world-renowned creators and emerging talent in dance, music and theater. The post 120 years of artistry: Cal Performances announces its 2026-27 season appeared first on Berkeley News.",
-      "link": "https://calperformances.org/2026/04/28/jeremy-geffen-introduces-the-2026-27-season",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "Yong Wang Turns Information Into Insights",
-      "description": "When Yong Wang recently received one of the highest honors for early-career data visualization researchers, it marked a milestone in an extraordinary journey that began far from the world’s technology hubs. Wang was born in a small farming village in southern China to parents with limited formal education. Today the IEEE member and associate editor of IEEE Transactions on Visualization and Computer Graphics is an assistant professor in the College of Computing and Data Science atNanyang Technological University, in Singapore. He studies how people can employdata visualization techniques to get",
-      "link": "https://spectrum.ieee.org/yong-wang-data-visualization",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-24"
-    },
-    {
-      "title": "“Entanglement: A Brief History of Human Connection”",
-      "description": "It started with word, cave, and storytelling, A line scratched on stone walls: “Meet me when the young moon rises.” The first protocol for connection. Coyote tales, forbidden scripts, Medieval texts hidden from flame. What lived in Aristotle’s lost Poetics II? Was it God who laughed last, or we who made God laugh? Letters carried by doves, telepathic waves. Then Nikola Tesla conjured radio, electromagnetic pulses across the void, the founding signal of our networked age. Wiener dreamed in feedback loops. Shannon mapped the mathematics of longing. The internet unfurled: ARPANET to World Wide We",
-      "link": "https://spectrum.ieee.org/entanglement-poem",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "Walking in Harvard’s ‘Revolutionary footsteps’",
-      "description": "Exhibit traces University’s role in America’s birth — from campus barracks to Founding Father alumni",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/walking-in-harvards-revolutionary-footsteps/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-24"
-    },
-    {
-      "title": "Hearing breakthrough holds up",
-      "description": "Gene therapy yields lasting gains for patients with inherited deafness: ‘How well it worked is really amazing.’",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/hearing-breakthrough-holds-up/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-22"
-    },
-    {
-      "title": "This AI knew the answers but didn’t understand the questions",
-      "description": "For decades, psychologists have debated whether the human mind can be explained by one unified theory or must be broken into separate parts like memory and attention. A recent AI model called Centaur seemed to offer a breakthrough, claiming it could mimic human thinking across 160 different cognitive tasks. But new research is challenging that bold claim, suggesting the model isn’t truly “thinking” at all—it’s just memorizing patterns.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260429102035.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "Scientists catch antimatter “atom” acting like a wave for the first time",
-      "description": "Quantum physics once shocked scientists by revealing that particles can behave like waves—and now, that strange behavior has been pushed even further. For the first time, researchers have observed wave-like interference in positronium, an exotic “atom” made of an electron and its antimatter partner, a positron. This breakthrough not only strengthens the weird reality of quantum mechanics but also opens the door to new experiments involving antimatter, including the possibility of testing how gravity affects it—something never directly measured before.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260428045612.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "This massive 3D map of 47 million galaxies could unlock dark energy",
-      "description": "A massive cosmic milestone has just been reached: scientists have completed the largest high-resolution 3D map of the universe ever created. Built using data from over 47 million galaxies and quasars, this map could unlock new clues about dark energy—the mysterious force driving the universe’s expansion. Despite setbacks like wildfire disruptions, the international DESI collaboration powered through, gathering an unprecedented dataset that already hints dark energy may behave in unexpected ways.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260427050604.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "National Academy of Sciences elects six Berkeley researchers to its ranks",
-      "description": "Membership in the Academy is one of the most prestigious honors in American science. The post National Academy of Sciences elects six Berkeley researchers to its ranks appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/04/30/national-academy-of-sciences-elects-six-berkeley-researchers-to-its-ranks/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "UC Berkeley-led biodegradable fabric research awarded $10 million from Bezos Earth Fund",
-      "description": "Protein-based spider silk inspires new fibers sourced from compost The post UC Berkeley-led biodegradable fabric research awarded $10 million from Bezos Earth Fund appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/04/24/uc-berkeley-led-biodegradable-fabric-research-awarded-10-million-from-bezos-earth-fund/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-24"
-    },
-    {
-      "title": "Making the case for curiosity-driven science",
-      "description": "President Sally Kornbluth spoke in front of a packed crowd about growing challenges to the U.S. research ecosystem as funding for America’s top research universities becomes increasingly strained.",
-      "link": "https://news.mit.edu/2026/making-case-curiosity-driven-science",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "Study: Immigrants help address the US eldercare shortage",
-      "description": "Economists find that in metro areas with more immigration, nurses are spending more time with elderly patients.",
-      "link": "https://news.mit.edu/2026/study-immigrants-help-address-us-eldercare-shortage-0430",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-04-30"
@@ -1168,28 +1160,12 @@
       "date": "2026-04-17"
     },
     {
-      "title": "MDB Heads Deepen Collaboration to Support Countries Through Heightened Global Uncertainty",
-      "description": "In a period of heightened global uncertainty, including the evolving situation in the Middle East, the Heads of Multilateral Development Banks (MDBs) today underscored the importance of close cooperation to support stability, safeguarding development progress, and responding to mounting pressures in their member economies.",
-      "link": "https://www.adb.org/news/mdb-heads-deepen-collaboration-support-countries-through-heightened-global-uncertainty",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-04-17"
-    },
-    {
       "title": "MDB Common Approach to Measuring Jobs Outcomes",
       "description": "The following Multilateral Development Banks (MDBs) have agreed to closer collaboration on a common approach to measuring the impact of our operations on creating more and better jobs. To achieve this, we will deepen coordination and partnership across countries, MDBs, the private sector, and other stakeholders.",
       "link": "https://www.adb.org/news/mdb-common-approach-measuring-jobs-outcomes",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-04-16"
-    },
-    {
-      "title": "Fiji's Growth to Ease Amid Global Headwinds—ADB",
-      "description": "Economic growth in Fiji, the Pacific’s second largest economy, is expected to soften in the medium-term as visitor arrivals slow, pre-election uncertainty increases, and external conditions deteriorate, according to a new ADB report.",
-      "link": "https://www.adb.org/news/fiji-growth-ease-amid-global-headwinds-adb",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-04-13"
     },
     {
       "title": "3.4% Growth Expected in the Pacific Region in 2026, 3.2% in 2027—ADB",
@@ -1256,12 +1232,28 @@
       "date": "2026-04-20"
     },
     {
+      "title": "MDB Heads Deepen Collaboration to Support Countries Through Heightened Global Uncertainty",
+      "description": "In a period of heightened global uncertainty, including the evolving situation in the Middle East, the Heads of Multilateral Development Banks (MDBs) today underscored the importance of close cooperation to support stability, safeguarding development progress, and responding to mounting pressures in their member economies.",
+      "link": "https://www.adb.org/news/mdb-heads-deepen-collaboration-support-countries-through-heightened-global-uncertainty",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-04-17"
+    },
+    {
       "title": "PNG’s Economic Growth to Ease to 3.6% in 2026 and 3.4% in 2027—ADB",
       "description": "Papua New Guinea’s (PNG) economy is forecast to moderate to 3.6% in 2026 and 3.4% in 2027, according to the Asian Development Outlook (ADO) 2026, ADB's flagship economic publication.",
       "link": "https://www.adb.org/news/png-economic-growth-ease-3-6-percent-2026-and-3-4-percent-2027-adb",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-04-17"
+    },
+    {
+      "title": "Fiji's Growth to Ease Amid Global Headwinds—ADB",
+      "description": "Economic growth in Fiji, the Pacific’s second largest economy, is expected to soften in the medium-term as visitor arrivals slow, pre-election uncertainty increases, and external conditions deteriorate, according to a new ADB report.",
+      "link": "https://www.adb.org/news/fiji-growth-ease-amid-global-headwinds-adb",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-04-13"
     },
     {
       "title": "Pakistan’s Economy Poised to Grow, But Downside Risks Significant—ADB",
@@ -1384,90 +1376,10 @@
       "date": "2026-05-01"
     },
     {
-      "title": "Key Support Equipment Arrives at Kennedy for Roman Space Telescope",
-      "description": "Technicians at NASA’s Payload Hazardous Servicing Facility (PHSF) at the agency’s Kennedy Space Center in Florida offloaded eight high-efficiency particulate air (HEPA) wall modules and other ground support equipment on April 27. The equipment will support launch processing of the agency’s Nancy Grace Roman Space Telescope. Each 1,800-pound module enhances the PHSF’s clean room systems, helping meet […]",
-      "link": "https://www.nasa.gov/image-article/key-support-equipment-arrives-at-kennedy-for-roman-space-telescope/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "NASA Artemis II Crew Rings Nasdaq Closing Bell",
-      "description": "Nasdaq Chair and Chief Executive Officer Adena T. Friedman, left, and NASA’s Artemis II crewmembers CSA (Canadian Space Agency) astronaut Jeremy Hansen, and NASA astronauts Christina Koch, Victor Glover, and Reid Wiseman, right, ring the closing bell of the Nasdaq market session, Thursday, April 30, 2026. NASA’s Artemis II mission took Wiseman, Glover, Koch, and […]",
-      "link": "https://www.nasa.gov/image-article/nasa-artemis-ii-crew-rings-nasdaq-closing-bell/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Space Out This Summer with Variety of NASA STEM Activities",
-      "description": "Summer is “Go” for launch, and NASA has a universe of ways to help you to jump in, explore, and create! Whether you prefer to spend this season fueling your creativity, going outdoors into nature, or daydreaming about your future, NASA offers ways to take your interests to the next level. Here are some opportunities […]",
-      "link": "https://www.nasa.gov/learning-resources/space-out-this-summer-with-variety-of-nasa-stem-activities/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Odyssey Team Celebrates on a Global Map of Mars",
-      "description": "Description Team members past and present from NASA’s 2001 Mars Odyssey orbiter mission gathered on April 15, 2026, to celebrate 25 years since the spacecraft’s launch, which took place April 7, 2001. For the occasion, the team rolled out a giant global map of Mars created using imagery from Odyssey’s THEMIS (Thermal Emission Imaging System) […]",
-      "link": "https://science.nasa.gov/photojournal/odyssey-team-celebrates-on-a-global-map-of-mars/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "Artemis III Moon Rocket Core Stage on the Move",
-      "description": "Teams move the core stage, or largest section, of the SLS (Space Launch System) rocket for NASA’s Artemis III mission into the Vehicle Assembly Building at the agency’s Kennedy Space Center in Florida in this photo from April 27, 2026. The SLS core stage traveled 900 miles on the Pegasus barge from NASA’s Michoud Assembly Facility in New Orleans where the stage is manufactured, to complete […]",
-      "link": "https://www.nasa.gov/image-article/artemis-iii-moon-rocket-core-stage-on-the-move/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-04-30"
-    },
-    {
       "title": "Baking a parachute for Mars",
       "description": "Video: 00:02:02 Watch ESA’s Mars chief engineer Albert Haldemann explain the sterilisation process of one of the parachutes of the ExoMars Rosalind Franklin rover mission and why it matters. Carefully wrapped inside a donut-shaped bag is a 35-m diameter parachute, about to be baked inside a specialised dry-heat steriliser oven. The parachute needs to be at least 10 000 times cleaner than your smartphone. To get rid of any microbes it might have picked up during its time on Earth, the parachute was heated up in a specialised oven at the European Space Agency’s Life Support and Physical Sciences",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/04/Baking_a_parachute_for_Mars",
       "source": "ESA",
-      "field": "space",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "NASA’s STORIE Mission to Tell Tale of Earth’s Ring Current",
-      "description": "Earth’s magnetic field is like a powerful trap. It lures electrically charged particles in space, near our planet, and snares them in an invisible, doughnut-shaped pen around Earth known as the ring current. This captive swarm of charged particles plays an important role in how Earth reacts to changing conditions in space, called space weather, which […]",
-      "link": "https://science.nasa.gov/science-research/heliophysics/nasas-storie-mission-to-tell-tale-of-earths-ring-current/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Hubble Spots a Starry Spiral",
-      "description": "In this new picture from NASA’s Hubble Space Telescope, a spiral galaxy glittering with star clusters is the center of attention. NGC 3137 is located 53 million light-years away in the constellation Antlia (the Air Pump). As a nearby spiral galaxy, this target offers astronomers an excellent opportunity to study the cycle of stellar birth and death, […]",
-      "link": "https://science.nasa.gov/missions/hubble/hubble-spots-a-starry-spiral/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Cyclone Rains Spur Papua New Guinea Landslides",
-      "description": "Heavy rains from Tropical Cyclone Maila triggered a deadly landslide in the mountains of East New Britain.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/cyclone-rains-spur-papua-new-guinea-landslides/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "NASA Invites Media to Ireland Artemis Accords Signing",
-      "description": "Ireland will sign the Artemis Accords during a ceremony at 3 p.m. EDT Monday, May 4, at NASA Headquarters in Washington. NASA Administrator Jared Isaacman will host Ambassador of Ireland to the United States of America Geraldine Byrne Nason; Minister for Enterprise, Tourism and Employment Peter Burke, T.D., of Ireland; and U.S. Department of State […]",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-ireland-artemis-accords-signing/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "What’s Up: May 2026 Skywatching Tips from NASA",
-      "description": "Shooting stars before dawn, a brilliant meetup between the Moon and Venus and a rare blue moon to end the month.",
-      "link": "https://science.nasa.gov/solar-system/whats-up-may-2026-skywatching-tips-from-nasa/",
-      "source": "NASA",
       "field": "space",
       "date": "2026-04-30"
     },
@@ -1488,8 +1400,16 @@
       "date": "2026-05-01"
     },
     {
-      "title": "Live coverage: SpaceX marks May Day with Starlink mission on a Falcon 9 rocket from Cape Canaveral",
-      "description": "The Starlink 10-38 mission will see SpaceX deploy 29 broadband internet satellites into low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 2:06:10 p.m. EDT (1806:10 UTC).",
+      "title": "Another one: Ariane 6 flies with four boosters once more",
+      "description": "Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time. Flight VA268 took 32 satellites for Amazon’s Leo constellation to low-Earth orbit. Liftoff occurred at 05:57 local time (09:57 BST/10:57 CET) from Europe’s Spaceport in French Guiana, with separation of the last satellites after 114 minutes. The upper stage was then fired a third time to ensure a safe deorbit and allowing Ariane 6 to adhere to the zero debris approach.",
+      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Another_one_Ariane_6_flies_with_four_boosters_once_more",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "SpaceX marks May Day, National Space Day with Starlink mission on a Falcon 9 rocket from Cape Canaveral",
+      "description": "The Starlink 10-38 mission saw SpaceX deploy 29 broadband internet satellites into low Earth orbit. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 2:06:10 p.m. EDT (1806:10 UTC).",
       "link": "https://spaceflightnow.com/2026/05/01/live-coverage-spacex-marks-may-day-with-starlink-mission-on-a-falcon-9-rocket-from-cape-canaveral/",
       "source": "Spaceflight Now",
       "field": "space",
@@ -1499,14 +1419,6 @@
       "title": "This Month at ESA: April 2026",
       "description": "Video: 00:03:10 What did space deliver for Europe this month? From the Moon to low Earth orbit and beyond, here’s what the European Space Agency has been up to.",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/04/This_Month_at_ESA_April_2026",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "Another one: Ariane 6 flies with four boosters once more",
-      "description": "Updated on 30 April 2026 On 30 April 2026, four P120C boosters ignited and lifted Ariane 6 to the skies, for the second time. Flight VA268 took 32 satellites for Amazon’s Leo constellation to low-Earth orbit. Liftoff occurred at 05:57 local time (09:57 BST/10:57 CET) from Europe’s Spaceport in French Guiana, with separation of the last satellites after 114 minutes. The upper stage was then fired a third time to ensure a safe deorbit and allowing Ariane 6 to adhere to the zero debris approach.",
-      "link": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Another_one_Ariane_6_flies_with_four_boosters_once_more",
       "source": "ESA",
       "field": "space",
       "date": "2026-04-30"
@@ -1576,6 +1488,30 @@
       "date": "2026-04-20"
     },
     {
+      "title": "A materials scientist’s playground",
+      "description": "New system at MIT.nano will support quantum technology research.",
+      "link": "https://news.mit.edu/2026/materials-scientists-playground-0430",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Making the case for curiosity-driven science",
+      "description": "President Sally Kornbluth spoke in front of a packed crowd about growing challenges to the U.S. research ecosystem as funding for America’s top research universities becomes increasingly strained.",
+      "link": "https://news.mit.edu/2026/making-case-curiosity-driven-science",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Study: Immigrants help address the US eldercare shortage",
+      "description": "Economists find that in metro areas with more immigration, nurses are spending more time with elderly patients.",
+      "link": "https://news.mit.edu/2026/study-immigrants-help-address-us-eldercare-shortage-0430",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
       "title": "Solving the “Whac-a-mole dilemma”: A smarter way to debias AI vision models",
       "description": "A new debiasing technique called WRING avoids creating or amplifying biases that can occur with existing debiasing approaches.",
       "link": "https://news.mit.edu/2026/smarter-way-to-debias-ai-vision-models-0429",
@@ -1598,6 +1534,22 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-04-29"
+    },
+    {
+      "title": "Three from MIT named 2026 Goldwater Scholars",
+      "description": "Rising seniors Deeksha Kumaresh, Anna Liu, and Charlotte Myers are honored for their academic achievements.",
+      "link": "https://news.mit.edu/2026/three-mit-named-2026-goldwater-scholars-0423",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-04-23"
+    },
+    {
+      "title": "At the heart of the Science and Engineering Complex, a library named for a trailblazing alumna",
+      "description": "Gift from the Troper Wojcicki Foundation honors the late technology executive Susan Wojcicki",
+      "link": "https://news.harvard.edu/gazette/story/2026/04/at-the-heart-of-the-science-and-engineering-complex-a-library-named-for-a-trailblazing-alumna/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-30"
     },
     {
       "title": "With a swipe of a magnet, microscopic “magno-bots” perform complex maneuvers",
@@ -1654,38 +1606,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-04-27"
-    },
-    {
-      "title": "Three from MIT named 2026 Goldwater Scholars",
-      "description": "Rising seniors Deeksha Kumaresh, Anna Liu, and Charlotte Myers are honored for their academic achievements.",
-      "link": "https://news.mit.edu/2026/three-mit-named-2026-goldwater-scholars-0423",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-04-23"
-    },
-    {
-      "title": "Inside DiscoTech: Admitted Students Explore Caltech",
-      "description": "A rainy Sunday morning gave way to clear skies just in time to welcome more than 290 admitted students and their guests to campus for Caltech's annual Discover Caltech program, known as DiscoTech.Over four days, from April 12 to April 15, attendees explored the Institute's academic offerings, campus traditions, and community—while weighing one of the biggest decisions ahead of them: where to spend the next four years of their lives.In his welcome keynote to DiscoTech attendees, Kevin Noertker (BS '09), the co-founder and CEO of hybrid-electric aircraft company Ampaire, encouraged students to r",
-      "link": "https://www.caltech.edu/about/news/inside-discotech-admitted-students-explore-caltech",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-04-22"
-    },
-    {
-      "title": "How Melatonin Promotes Sleep",
-      "description": "Melatonin is a naturally produced molecule that has long been suspected to play a role in healthy sleep, but it has been unclear how it does so. Now, Caltech researchers have discovered a mechanism through which melatonin promotes sleep, using zebrafish models in the laboratory.The research was conducted in the lab of Professor of Biology David Prober and is described in a paper appearing in Current Biology on April 20.Sleep is a vital and evolutionarily ancient behavioral state, yet there are still many open scientific questions about how sleep is regulated by the body, and there are few effe",
-      "link": "https://www.caltech.edu/about/news/how-melatonin-promotes-sleep",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-04-20"
-    },
-    {
-      "title": "Harvard deepens commitment to HBCUs with $1.05 million grant",
-      "description": "The award, through the Harvard & the Legacy of Slavery Initiative, will strengthen research capacity at 15 schools",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/harvard-deepens-commitment-to-hbcus-with-1-05-million-grant/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-29"
     },
     {
       "title": "The power of “and” in energy and climate entrepreneurship",
@@ -1752,14 +1672,6 @@
       "date": "2026-04-22"
     },
     {
-      "title": "At the heart of the Science and Engineering Complex, a library named for a trailblazing alumna",
-      "description": "Gift from the Troper Wojcicki Foundation honors the late technology executive Susan Wojcicki",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/at-the-heart-of-the-science-and-engineering-complex-a-library-named-for-a-trailblazing-alumna/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
       "title": "Plants can sense the sound of rain, a new study finds",
       "description": "Experiments by MIT engineers show rice seeds sprout faster to the sound of rain.",
       "link": "https://news.mit.edu/2026/plants-can-sense-sound-rain-new-study-finds-0422",
@@ -1776,10 +1688,98 @@
       "date": "2026-04-21"
     },
     {
-      "title": "Breyer makes case for civic education",
-      "description": "Retired SCOTUS justice says path to less polarization runs through the classroom",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/breyer-makes-case-for-civic-education/",
+      "title": "Worried about how online firms use data they get from you?",
+      "description": "Berkman Klein researchers unveil new tool to verify identity, let users limit information they share, where it is stored",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/worried-about-how-online-firms-use-data-they-get-from-you/",
       "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Berkeley Talks: How the American university’s success led to its modern challenges",
+      "description": "Princeton President Christopher Eisgruber explains how the shift of American universities to the center of society made them a high-stakes target for public frustration. The post Berkeley Talks: How the American university’s success led to its modern challenges appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/01/berkeley-talks-the-american-university/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Operationalizing AI for Scale and Sovereignty",
+      "description": "Companies are taking control of their own data to tailor AI for their needs. The challenge lies in balancing ownership with the safe, trusted flow of high‑quality data needed to power reliable insights. This conversation from MIT Technology Review’s EmTech AI conference examines how AI factories unlock new levels of scale, sustainability, and governance—positioning data…",
+      "link": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining",
+      "description": "Smack dab between Australia and South America, the US National Oceanic and Atmospheric Administration (NOAA) research vessel Rainier is currently on a mission to map more than 8,000 square nautical miles of the Pacific seafloor in search of critical mineral deposits. But it isn’t doing it alone; for a month starting this week, it will…",
+      "link": "https://www.technologyreview.com/2026/05/01/1136734/inexpensive-seafloor-hopping-submersibles-could-stoke-deep-sea-science-and-mining/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "National Academy of Sciences elects six Berkeley researchers to its ranks",
+      "description": "Membership in the Academy is one of the most prestigious honors in American science. The post National Academy of Sciences elects six Berkeley researchers to its ranks appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/04/30/national-academy-of-sciences-elects-six-berkeley-researchers-to-its-ranks/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "The Download: storing nuclear waste and orchestrating agents",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. It’s time to make a plan for nuclear waste Today, nuclear energy enjoys rare support across the political spectrum. Public approval has spiked, and Big Tech is throwing money around to…",
+      "link": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "UC Berkeley-led biodegradable fabric research awarded $10 million from Bezos Earth Fund",
+      "description": "Protein-based spider silk inspires new fibers sourced from compost The post UC Berkeley-led biodegradable fabric research awarded $10 million from Bezos Earth Fund appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/04/24/uc-berkeley-led-biodegradable-fabric-research-awarded-10-million-from-bezos-earth-fund/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "This new aluminum could replace rare metals and cut costs dramatically",
+      "description": "A team at King’s College London has created a powerful new aluminum compound capable of doing the work of expensive rare metals. Its unique triangular structure gives it remarkable stability and reactivity, allowing it to drive chemical reactions in ways never seen before. The discovery could lead to greener and far more affordable industrial processes. It may even enable the creation of entirely new materials.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260429102032.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-05-01"
+    },
+    {
+      "title": "From L.A. to the East Bay, a student finds her Oaxacan community at Berkeley",
+      "description": "Architecture student Tania Lopez reflects on ballet folklórico’s role in her life and her goal to design public spaces that foster safety and connection. The post From L.A. to the East Bay, a student finds her Oaxacan community at Berkeley appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/04/30/from-l-a-to-the-east-bay-a-student-finds-her-oaxacan-community-at-berkeley/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "What your voice gives away",
+      "description": "In the debut of our new After Office Hours series, linguist Nicole Holliday reveals the signals hidden in how we speak. The post What your voice gives away appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/04/29/what-your-voice-gives-away/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
+      "description": "The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for “brainless clones” to serve the role of backup human bodies. byAntonio Regalado March 30, 2026 Related Stories: Access all subscriber-only eBooks:",
+      "link": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-04-30"
+    },
+    {
+      "title": "This startup’s new mechanistic interpretability tool lets you debug LLMs",
+      "description": "The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the settings that determine a model’s behavior—during training. This could give model makers more fine-grained control over how this technology is built than was once thought possible. Goodfire claims Silico…",
+      "link": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
+      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-04-30"
     },
@@ -1796,6 +1796,86 @@
       "description": "Jochen Hellbeck wants the West to acknowledge the Soviet role in stopping Hitler",
       "link": "https://news.harvard.edu/gazette/story/2026/04/call-for-historical-truth-in-our-narrative-of-nazi-defeat/",
       "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "As Sudan conflict rages, Berkeley-trained refugees use digital tools to track rights violations",
+      "description": "After training with the International Center for Transitional Justice and the UC Berkeley Human Rights Center, Sudanese refugees are using open-source tools to document abuses at home. Their hope: Peace, and justice for victims. The post As Sudan conflict rages, Berkeley-trained refugees use digital tools to track rights violations appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/04/29/as-sudan-conflict-rages-berkeley-trained-refugees-use-digital-tools-to-track-rights-violations/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "“Entanglement: A Brief History of Human Connection”",
+      "description": "It started with word, cave, and storytelling, A line scratched on stone walls: “Meet me when the young moon rises.” The first protocol for connection. Coyote tales, forbidden scripts, Medieval texts hidden from flame. What lived in Aristotle’s lost Poetics II? Was it God who laughed last, or we who made God laugh? Letters carried by doves, telepathic waves. Then Nikola Tesla conjured radio, electromagnetic pulses across the void, the founding signal of our networked age. Wiener dreamed in feedback loops. Shannon mapped the mathematics of longing. The internet unfurled: ARPANET to World Wide We",
+      "link": "https://spectrum.ieee.org/entanglement-poem",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Seven UC Berkeley faculty elected to the American Academy of Arts and Sciences",
+      "description": "The Academy recognizes accomplished individuals and engages them in addressing the greatest challenges facing the U.S. The post Seven UC Berkeley faculty elected to the American Academy of Arts and Sciences appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/04/24/seven-uc-berkeley-faculty-elected-to-the-american-academy-of-arts-and-sciences/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-04-24"
+    },
+    {
+      "title": "Deterring the next nuclear arms race",
+      "description": "Experts assess threat landscape amid war, lapsing treaties, declining faith in U.S. security guarantee",
+      "link": "https://news.harvard.edu/gazette/story/2026/04/deterring-the-next-nuclear-arms-race/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "Reviving Teletext for Ham Radio",
+      "description": "Once upon a time in Europe, television remote controls had a magic teletext button. Years before the internet stole into homes, pressing that button brought up teletext digital information services with hundreds of constantly updated pages. Living in Ireland in the 1980s and ’90s, my family accessed the national teletext service—Aertel—multiple times a day for weather and news bulletins, as well as things like TV program guides and updates on airport flight arrivals. It was an elegant system: fast, low bandwidth, unaffected by user load, and delivering readable text even on analog television s",
+      "link": "https://spectrum.ieee.org/reviving-teletext-for-ham-radio",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-22"
+    },
+    {
+      "title": "What to Consider Before You Accept a Management Role",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! The Individual Contributor–Manager Fork: It’s Not a Promotion. It’s a Profession Change. When I was promoted to engineering manager of a mid-sized team at Clorox, I thought I had made it. More money. More stock. More visibility. More proximity to senior leadership. From the outside, and on paper, it was clearly a promotion. I had often heard the phr",
+      "link": "https://spectrum.ieee.org/ic-or-manager",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-21"
+    },
+    {
+      "title": "Scientists just captured a mysterious quantum “dance” inside superconductors",
+      "description": "In a breakthrough experiment, scientists directly imaged how particles pair up in a system that mimics superconductors. Instead of behaving independently, the pairs moved in a synchronized, dance-like pattern—something never predicted before. This suggests a major gap in the classic theory of superconductivity.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260427050550.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-27"
+    },
+    {
+      "title": "Gravitational waves may have created dark matter in the early universe",
+      "description": "In the chaotic first moments after the Big Bang, ripples in spacetime may have done more than just echo through the cosmos—they could have helped create dark matter itself. New research suggests that faint, ancient gravitational waves might have transformed into particles that eventually became the invisible substance shaping galaxies today.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260424233217.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-25"
+    },
+    {
+      "title": "This new brain-like chip could slash AI energy use by 70%",
+      "description": "A breakthrough in brain-inspired computing could make today’s energy-hungry AI systems far more efficient. Researchers have engineered a new nanoelectronic device using a modified form of hafnium oxide that mimics how neurons process and store information at the same time. Unlike conventional chips that waste energy moving data back and forth, this device operates with ultra-low power—potentially slashing energy use by up to 70%.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260422044633.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-23"
+    },
+    {
+      "title": "A one-in-a-million supernova seen five times could reveal the Universe’s true speed",
+      "description": "A spectacular cosmic event nicknamed “SN Winny” could help solve one of astronomy’s biggest mysteries: how fast the universe is expanding. This rare superluminous supernova, located 10 billion light-years away, appears five times in the sky thanks to gravitational lensing, creating a dazzling “cosmic fireworks” effect. By measuring the slight delays between each appearance—caused by light taking different paths around two foreground galaxies—scientists can directly calculate the universe’s expansion rate.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260428045603.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-04-29"
     },
@@ -1822,174 +1902,6 @@
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-04-28"
-    },
-    {
-      "title": "Deterring the next nuclear arms race",
-      "description": "Experts assess threat landscape amid war, lapsing treaties, declining faith in U.S. security guarantee",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/deterring-the-next-nuclear-arms-race/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-22"
-    },
-    {
-      "title": "Got personal financial, medical data you’d like to keep private? Good luck.",
-      "description": "AI and society expert warns new agentic releases to increase odds cybercriminals, hackers will be able to breach secure systems",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/got-personal-financial-medical-data-youd-like-to-keep-private-good-luck/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-22"
-    },
-    {
-      "title": "From L.A. to the East Bay, a student finds her Oaxacan community at Berkeley",
-      "description": "Architecture student Tania Lopez reflects on ballet folklórico’s role in her life and her goal to design public spaces that foster safety and connection. The post From L.A. to the East Bay, a student finds her Oaxacan community at Berkeley appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/04/30/from-l-a-to-the-east-bay-a-student-finds-her-oaxacan-community-at-berkeley/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "What your voice gives away",
-      "description": "In the debut of our new After Office Hours series, linguist Nicole Holliday reveals the signals hidden in how we speak. The post What your voice gives away appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/04/29/what-your-voice-gives-away/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "As Sudan conflict rages, Berkeley-trained refugees use digital tools to track rights violations",
-      "description": "After training with the International Center for Transitional Justice and the UC Berkeley Human Rights Center, Sudanese refugees are using open-source tools to document abuses at home. Their hope: Peace, and justice for victims. The post As Sudan conflict rages, Berkeley-trained refugees use digital tools to track rights violations appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/04/29/as-sudan-conflict-rages-berkeley-trained-refugees-use-digital-tools-to-track-rights-violations/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-29"
-    },
-    {
-      "title": "Seven UC Berkeley faculty elected to the American Academy of Arts and Sciences",
-      "description": "The Academy recognizes accomplished individuals and engages them in addressing the greatest challenges facing the U.S. The post Seven UC Berkeley faculty elected to the American Academy of Arts and Sciences appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/04/24/seven-uc-berkeley-faculty-elected-to-the-american-academy-of-arts-and-sciences/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-24"
-    },
-    {
-      "title": "Reviving Teletext for Ham Radio",
-      "description": "Once upon a time in Europe, television remote controls had a magic teletext button. Years before the internet stole into homes, pressing that button brought up teletext digital information services with hundreds of constantly updated pages. Living in Ireland in the 1980s and ’90s, my family accessed the national teletext service—Aertel—multiple times a day for weather and news bulletins, as well as things like TV program guides and updates on airport flight arrivals. It was an elegant system: fast, low bandwidth, unaffected by user load, and delivering readable text even on analog television s",
-      "link": "https://spectrum.ieee.org/reviving-teletext-for-ham-radio",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-22"
-    },
-    {
-      "title": "Dangers coming from inside the house",
-      "description": "John D. Spengler reflects on 50-year career of clearing the air — including in hockey rinks and on airplanes",
-      "link": "https://news.harvard.edu/gazette/story/2026/04/dangers-coming-from-inside-the-house/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-04-21"
-    },
-    {
-      "title": "What to Consider Before You Accept a Management Role",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! The Individual Contributor–Manager Fork: It’s Not a Promotion. It’s a Profession Change. When I was promoted to engineering manager of a mid-sized team at Clorox, I thought I had made it. More money. More stock. More visibility. More proximity to senior leadership. From the outside, and on paper, it was clearly a promotion. I had often heard the phr",
-      "link": "https://spectrum.ieee.org/ic-or-manager",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-21"
-    },
-    {
-      "title": "The Forgotten History of Hershey’s Electric Railway in Cuba",
-      "description": "Why does a chocolatier build a railroad? For Milton S. Hershey, it was a logical response to a sugar shortage brought on by World War I. The Hershey Chocolate Co. was by then a chocolate-making powerhouse, having refined the automation and mass production of its products, including the eponymous Hershey’s Milk Chocolate Bar and the bite-size Hershey’s Kiss. To satisfy its many customers, the company needed a steady supply of sugar. Plus, it wanted a way to circumvent the American Sugar Refining Co., also known as the Sugar Trust, which had a virtual monopoly on sugar processing in the United S",
-      "link": "https://spectrum.ieee.org/hershey-electric-railway-cuba",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-21"
-    },
-    {
-      "title": "Scientists just captured a mysterious quantum “dance” inside superconductors",
-      "description": "In a breakthrough experiment, scientists directly imaged how particles pair up in a system that mimics superconductors. Instead of behaving independently, the pairs moved in a synchronized, dance-like pattern—something never predicted before. This suggests a major gap in the classic theory of superconductivity.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260427050550.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-27"
-    },
-    {
-      "title": "Operationalizing AI for Scale and Sovereignty",
-      "description": "Companies are taking control of their own data to tailor AI for their needs. The challenge lies in balancing ownership with the safe, trusted flow of high‑quality data needed to power reliable insights. This conversation from MIT Technology Review’s EmTech AI conference examines how AI factories unlock new levels of scale, sustainability, and governance—positioning data…",
-      "link": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining",
-      "description": "Smack dab between Australia and South America, the US National Oceanic and Atmospheric Administration (NOAA) research vessel Rainier is currently on a mission to map more than 8,000 square nautical miles of the Pacific seafloor in search of critical mineral deposits. But it isn’t doing it alone; for a month starting this week, it will…",
-      "link": "https://www.technologyreview.com/2026/05/01/1136734/inexpensive-seafloor-hopping-submersibles-could-stoke-deep-sea-science-and-mining/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
-      "description": "The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for “brainless clones” to serve the role of backup human bodies. byAntonio Regalado March 30, 2026 Related Stories: Access all subscriber-only eBooks:",
-      "link": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "This new aluminum could replace rare metals and cut costs dramatically",
-      "description": "A team at King’s College London has created a powerful new aluminum compound capable of doing the work of expensive rare metals. Its unique triangular structure gives it remarkable stability and reactivity, allowing it to drive chemical reactions in ways never seen before. The discovery could lead to greener and far more affordable industrial processes. It may even enable the creation of entirely new materials.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260429102032.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "This startup’s new mechanistic interpretability tool lets you debug LLMs",
-      "description": "The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the settings that determine a model’s behavior—during training. This could give model makers more fine-grained control over how this technology is built than was once thought possible. Goodfire claims Silico…",
-      "link": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
-      "title": "A one-in-a-million supernova seen five times could reveal the Universe’s true speed",
-      "description": "A spectacular cosmic event nicknamed “SN Winny” could help solve one of astronomy’s biggest mysteries: how fast the universe is expanding. This rare superluminous supernova, located 10 billion light-years away, appears five times in the sky thanks to gravitational lensing, creating a dazzling “cosmic fireworks” effect. By measuring the slight delays between each appearance—caused by light taking different paths around two foreground galaxies—scientists can directly calculate the universe’s expansion rate.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260428045603.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-29"
-    },
-    {
-      "title": "Gravitational waves may have created dark matter in the early universe",
-      "description": "In the chaotic first moments after the Big Bang, ripples in spacetime may have done more than just echo through the cosmos—they could have helped create dark matter itself. New research suggests that faint, ancient gravitational waves might have transformed into particles that eventually became the invisible substance shaping galaxies today.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260424233217.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-25"
-    },
-    {
-      "title": "This exotic particle could finally explain why matter has mass",
-      "description": "A major physics experiment has uncovered evidence for a strange new form of matter, where a fleeting particle gets trapped inside a nucleus. This exotic state may reveal how mass is generated, suggesting that particles can weigh less when surrounded by dense nuclear matter. The findings support long-standing theories about how the vacuum of space influences mass.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260424233214.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-25"
-    },
-    {
-      "title": "NASA scientist says a mysterious \"fifth force\" may be hiding in our solar system",
-      "description": "Scientists are grappling with a cosmic mystery: why does the Universe behave differently on massive scales compared to our own solar system? While distant galaxies reveal clear signs of something bending the rules of gravity—often attributed to dark energy or a hidden “fifth force”—everything nearby seems to follow Einstein’s playbook perfectly.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260423031528.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-23"
-    },
-    {
-      "title": "This new brain-like chip could slash AI energy use by 70%",
-      "description": "A breakthrough in brain-inspired computing could make today’s energy-hungry AI systems far more efficient. Researchers have engineered a new nanoelectronic device using a modified form of hafnium oxide that mimics how neurons process and store information at the same time. Unlike conventional chips that waste energy moving data back and forth, this device operates with ultra-low power—potentially slashing energy use by up to 70%.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260422044633.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-23"
     },
     {
       "title": "Guide to a healthy gut",
@@ -2024,6 +1936,46 @@
       "date": "2026-04-27"
     },
     {
+      "title": "Scientists just found the Milky Way’s edge and it’s closer than expected",
+      "description": "Scientists have uncovered the true boundary of the Milky Way’s star-forming region using stellar “age mapping.” They found a telltale U-shaped pattern showing that star formation drops sharply around 35,000–40,000 light-years from the center. Beyond that, stars are mostly migrants, slowly drifting outward rather than forming in place. The discovery gives a long-sought answer to where our galaxy’s stellar nursery really ends.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260428045553.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-29"
+    },
+    {
+      "title": "NASA Curiosity rover finds mysterious life linked molecules on Mars",
+      "description": "Curiosity has detected a surprising variety of organic molecules on Mars, including compounds tied to the chemistry of life. Some of these molecules may be billions of years old, preserved in ancient clay-rich rocks that once held water. One standout find resembles building blocks of DNA, raising exciting questions about Mars’ past. Although not proof of life, the discovery suggests the Red Planet may have once been far more biologically promising than we thought.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260428045549.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Scientists capture electrons forming strange patchy patterns inside quantum materials",
+      "description": "Researchers have, for the first time, directly visualized how electronic patterns known as charge density waves evolve across a phase transition. Using cutting-edge microscopy, they found these patterns form unevenly, breaking into patches influenced by tiny structural distortions. Unexpectedly, small pockets of order persist even above the transition temperature. This reveals that electronic order fades gradually rather than disappearing all at once.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260427050623.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "This exotic particle could finally explain why matter has mass",
+      "description": "A major physics experiment has uncovered evidence for a strange new form of matter, where a fleeting particle gets trapped inside a nucleus. This exotic state may reveal how mass is generated, suggesting that particles can weigh less when surrounded by dense nuclear matter. The findings support long-standing theories about how the vacuum of space influences mass.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260424233214.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-25"
+    },
+    {
+      "title": "NASA scientist says a mysterious \"fifth force\" may be hiding in our solar system",
+      "description": "Scientists are grappling with a cosmic mystery: why does the Universe behave differently on massive scales compared to our own solar system? While distant galaxies reveal clear signs of something bending the rules of gravity—often attributed to dark energy or a hidden “fifth force”—everything nearby seems to follow Einstein’s playbook perfectly.",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260423031528.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-04-23"
+    },
+    {
       "title": "Modeling and Simulation Approaches for Modern Power System Studies",
       "description": "This webinar covers power system modeling and simulation across multiple timescales, from quasi-static 8760 analysis through EMT studies, fault classification, and inverter-based resource grid integration. What Attendees will Learn Programmatic network construction and multi-fidelity modeling — Learn how to build power system networks programmatically from standard data formats, configure models for specific engineering objectives, and work across fidelity levels from quasi-static phasor simulation through switched-linear and nonlinear electromagnetic transient (EMT) analysis. Quasi-static and",
       "link": "https://content.knowledgehub.wiley.com/power-systems-studies-with-simulink-and-simscape-electrical/",
@@ -2043,14 +1995,6 @@
       "title": "A new way to measure breast cancer risk before tumors appear",
       "description": "Researchers at UC Berkeley and City of Hope are using AI to determine a cell's \"mechanical age\" — and cancer risk. The post A new way to measure breast cancer risk before tumors appear appeared first on Berkeley News.",
       "link": "https://engineering.berkeley.edu/news/2026/04/researchers-teach-ai-to-spot-cancer-risk-by-squeezing-individual-breast-cells",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-04-23"
-    },
-    {
-      "title": "For this environmental health researcher, science is an ‘act of hope’",
-      "description": "David J.X. Gonzalez, an assistant professor of public health, works to protect communities from environmental harms like air pollution and oil and gas emissions. The post For this environmental health researcher, science is an ‘act of hope’ appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/04/23/for-this-environmental-health-researcher-science-is-an-act-of-hope/",
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-04-23"
@@ -2086,30 +2030,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-04-17"
-    },
-    {
-      "title": "Scientists just found the Milky Way’s edge and it’s closer than expected",
-      "description": "Scientists have uncovered the true boundary of the Milky Way’s star-forming region using stellar “age mapping.” They found a telltale U-shaped pattern showing that star formation drops sharply around 35,000–40,000 light-years from the center. Beyond that, stars are mostly migrants, slowly drifting outward rather than forming in place. The discovery gives a long-sought answer to where our galaxy’s stellar nursery really ends.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260428045553.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-29"
-    },
-    {
-      "title": "NASA Curiosity rover finds mysterious life linked molecules on Mars",
-      "description": "Curiosity has detected a surprising variety of organic molecules on Mars, including compounds tied to the chemistry of life. Some of these molecules may be billions of years old, preserved in ancient clay-rich rocks that once held water. One standout find resembles building blocks of DNA, raising exciting questions about Mars’ past. Although not proof of life, the discovery suggests the Red Planet may have once been far more biologically promising than we thought.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260428045549.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "Scientists capture electrons forming strange patchy patterns inside quantum materials",
-      "description": "Researchers have, for the first time, directly visualized how electronic patterns known as charge density waves evolve across a phase transition. Using cutting-edge microscopy, they found these patterns form unevenly, breaking into patches influenced by tiny structural distortions. Unexpectedly, small pockets of order persist even above the transition temperature. This reveals that electronic order fades gradually rather than disappearing all at once.",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260427050623.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-04-28"
     }
   ]
 }
