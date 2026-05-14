@@ -1,22 +1,22 @@
 {
   "date": "2026-05-14",
-  "lastUpdated": "2026-05-14T10:11:58.466Z",
+  "lastUpdated": "2026-05-14T13:58:47.072Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "58.3s",
+    "executionTime": "55.0s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 20,
-    "totalCandidates": 249,
-    "totalSelected": 249,
+    "sourcesSuccessful": 21,
+    "totalCandidates": 258,
+    "totalSelected": 258,
     "entriesByField": {
       "health": 53,
       "climate": 23,
       "energy": 5,
-      "technology": 118,
+      "technology": 117,
       "education": 6,
       "development": 16,
       "peace": 9,
-      "space": 19
+      "space": 29
     },
     "categoryIntegrity": {
       "health": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 118,
+        "kept": 117,
         "changed": 7
       },
       "education": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 16,
+        "kept": 26,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 29,
-      "topTierSources": 134,
-      "highCredibilitySources": 222
+      "highScoreEntries": 30,
+      "topTierSources": 144,
+      "highCredibilitySources": 232
     }
   },
   "entries": [
@@ -70,6 +70,14 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-05-09"
+    },
+    {
+      "title": "Engineering Collisions: How NYU Is Remaking Health Research",
+      "description": "This sponsored article is brought to you by NYU Tandon School of Engineering. The traditional approach to academic research goes something like this: Assemble experts from a discipline, put them in a building, and hope something useful emerges. Biology departments do biology. Engineering departments do engineering. Medical schools treat patients. NYU is turning that model inside out. At its new Institute for Engineering Health, the organizing principle centers around disease states rather than traditional disciplines. Instead of asking “what can electrical engineers contribute to medicine?,” t",
+      "link": "https://spectrum.ieee.org/nyu-health-research",
+      "source": "IEEE Spectrum",
+      "field": "health",
+      "date": "2026-04-27"
     },
     {
       "title": "[Correspondence] Toxicology-informed sequencing to optimise cancer therapy",
@@ -86,14 +94,6 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-04-29"
-    },
-    {
-      "title": "Engineering Collisions: How NYU Is Remaking Health Research",
-      "description": "This sponsored article is brought to you by NYU Tandon School of Engineering. The traditional approach to academic research goes something like this: Assemble experts from a discipline, put them in a building, and hope something useful emerges. Biology departments do biology. Engineering departments do engineering. Medical schools treat patients. NYU is turning that model inside out. At its new Institute for Engineering Health, the organizing principle centers around disease states rather than traditional disciplines. Instead of asking “what can electrical engineers contribute to medicine?,” t",
-      "link": "https://spectrum.ieee.org/nyu-health-research",
-      "source": "IEEE Spectrum",
-      "field": "health",
-      "date": "2026-04-27"
     },
     {
       "title": "[The Lancet Commissions] Implementing sustainable liver health in Europe: a second EASL–Lancet Commission",
@@ -792,14 +792,6 @@
       "date": "2026-05-13"
     },
     {
-      "title": "A new unit of measurement to honor an influential MIT alumnus",
-      "description": "In a nod to the prank that first introduced the smoot, an MIT team rolls out the “klein” in homage to Martin Klein ’62 and playfully renames a beloved Charles River span the “Shortfellow Bridge.”",
-      "link": "https://news.mit.edu/2026/new-unit-of-measurement-honors-influential-mit-alumnus-0512",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
       "title": "A Greener Route to Making Epoxides",
       "description": "When you hear the word \"epoxide,\" what do you think? If anything, likely \"glue.\" But epoxides are quite common in our everyday lives. You might be sitting on a foam seat cushion made from epoxides. There is a good chance the synthetic textiles in your clothing involve epoxides in their production. The same is true of the paint on your car and the printed circuit boards in your electronic devices.\"It's surprising how we think of epoxides as this really narrow category, but they're actually in so many things around us,\" says Karthish Manthiram, Bren Professor of Chemical Engineering and Chemistr",
       "link": "https://www.caltech.edu/about/news/a-greener-route-to-making-epoxides",
@@ -832,20 +824,12 @@
       "date": "2026-05-06"
     },
     {
-      "title": "Modeling Aerodynamics: A Conversation with Adrián Lozano-Durán",
-      "description": "Growing up in Madrid, Spain, Adrián Lozano-Durán was always interested in aerospace. He was fascinated by planes, rockets, and how things flew. Today, he is an associate professor of aerospace at Caltech, where he develops models that accurately simulate phenomena such as the entry of spacecraft into the Martian atmosphere and the production of sound by supersonic aircraft.Lozano-Durán completed his undergraduate and graduate degrees at the Technical University of Madrid. As an undergraduate student, he conducted experiments on titanium and its alloys, which are frequently used in aerospace. H",
-      "link": "https://www.caltech.edu/about/news/modeling-aerodynamics-a-conversation-with-adri%C3%A1n-lozano-dur%C3%A1n",
-      "source": "Caltech",
+      "title": "Helping to give birth to nation — and Harvard Med",
+      "description": "School founder John Warren numbered among alumni who were part of revolutionary generation",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/helping-to-give-birth-to-nation-and-harvard-med/",
+      "source": "Harvard Gazette",
       "field": "technology",
-      "date": "2026-05-01"
-    },
-    {
-      "title": "Simple New System Keeps Microscopes in Focus Automatically",
-      "description": "Anyone who has ever used a microscope knows that it takes time to bring a sample into sharp focus. Each time you move the slide, the image blurs, and you have to stop and carefully turn a knob to bring everything back into clear view. For scientists and clinicians, even if the motion is semi-automated, that time quickly adds up as they work with dozens or hundreds of samples.Now a team of scientists at Caltech has developed an inexpensive robust fix for this problem that involves little more than a couple of LED lights and some physics-based processing. They describe the new autofocus techniqu",
-      "link": "https://www.caltech.edu/about/news/simple-new-system-keeps-microscopes-in-focus-automatically",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-04-28"
+      "date": "2026-05-11"
     },
     {
       "title": "Boy’s brain tumor tied to gene therapy",
@@ -952,6 +936,22 @@
       "date": "2026-05-13"
     },
     {
+      "title": "Two Caltech-Affiliated Students Named 2026 Hertz Fellows",
+      "description": "On May 6, the Hertz Foundation announced this year's cohort of 19 Hertz Fellows. Among them are fourth-year undergraduate Sam Foxman and incoming graduate student Nikhil Seshadri.The Hertz Fellowship is one of the nation's most competitive and prestigious doctoral fellowships in applied science, engineering, and mathematics. Awarded through a rigorous selection process, the fellowship provides recipients with up to five years of funding and lifelong professional support to pursue innovative research with broad societal impact.\"Being a Hertz Fellow means having an opportunity to explore diverse",
+      "link": "https://www.caltech.edu/about/news/caltech-affiliated-students-awarded-2026-hertz-fellowships",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "A new unit of measurement to honor an influential MIT alumnus",
+      "description": "In a nod to the prank that first introduced the smoot, an MIT team rolls out the “klein” in homage to Martin Klein ’62 and playfully renames a beloved Charles River span the “Shortfellow Bridge.”",
+      "link": "https://news.mit.edu/2026/new-unit-of-measurement-honors-influential-mit-alumnus-0512",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
       "title": "A new approach to cancer vaccination yields more powerful T cells",
       "description": "Using immune-remodeling mRNA molecules, researchers generated T cells that can slow tumor growth and, in some cases, eradicate tumors.",
       "link": "https://news.mit.edu/2026/new-approach-cancer-vaccination-yields-more-powerful-t-cells-0513",
@@ -960,12 +960,68 @@
       "date": "2026-05-13"
     },
     {
-      "title": "Two Caltech-Affiliated Students Named 2026 Hertz Fellows",
-      "description": "On May 6, the Hertz Foundation announced this year's cohort of 19 Hertz Fellows. Among them are fourth-year undergraduate Sam Foxman and incoming graduate student Nikhil Seshadri.The Hertz Fellowship is one of the nation's most competitive and prestigious doctoral fellowships in applied science, engineering, and mathematics. Awarded through a rigorous selection process, the fellowship provides recipients with up to five years of funding and lifelong professional support to pursue innovative research with broad societal impact.\"Being a Hertz Fellow means having an opportunity to explore diverse",
-      "link": "https://www.caltech.edu/about/news/caltech-affiliated-students-awarded-2026-hertz-fellowships",
+      "title": "3 Questions: Shedding light on why power grids go dark",
+      "description": "Pablo Duenas-Martinez, a MITEI research scientist, describes the “death spiral” of events that caused the 12-hour Iberian peninsula power outage in 2025, and five lessons learned.",
+      "link": "https://news.mit.edu/2026/3-questions-why-power-grids-go-dark-0512",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "A new way to spot signs of dark matter",
+      "description": "Gravitational waves emitted by colliding black holes may bear imprints of dark matter, which physicists could detect with a new model.",
+      "link": "https://news.mit.edu/2026/new-way-spot-signs-dark-matter-0512",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Powerful shrinking technique could enable devices that compute with light",
+      "description": "MIT researchers created tiny 3D photonic devices with features small enough to channel visible light.",
+      "link": "https://news.mit.edu/2026/powerful-shrinking-technique-could-enable-devices-compute-light-0512",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Improving the reliability of circuits for quantum computers",
+      "description": "A new technique helps scientists measure a phenomenon that can cause quantum circuits to perform differently than expected, increasing the error in computations.",
+      "link": "https://news.mit.edu/2026/improving-circuit-reliability-quantum-computers-0512",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "For most US drivers, EVs offer emissions benefits and cost savings",
+      "description": "When it comes to emissions, individual driving patterns matter as much as how “green” the regional electricity mix is, MIT researchers report.",
+      "link": "https://news.mit.edu/2026/us-drivers-electric-vehicles-offer-emissions-benefits-cost-savings-0512",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Modeling Aerodynamics: A Conversation with Adrián Lozano-Durán",
+      "description": "Growing up in Madrid, Spain, Adrián Lozano-Durán was always interested in aerospace. He was fascinated by planes, rockets, and how things flew. Today, he is an associate professor of aerospace at Caltech, where he develops models that accurately simulate phenomena such as the entry of spacecraft into the Martian atmosphere and the production of sound by supersonic aircraft.Lozano-Durán completed his undergraduate and graduate degrees at the Technical University of Madrid. As an undergraduate student, he conducted experiments on titanium and its alloys, which are frequently used in aerospace. H",
+      "link": "https://www.caltech.edu/about/news/modeling-aerodynamics-a-conversation-with-adri%C3%A1n-lozano-dur%C3%A1n",
       "source": "Caltech",
       "field": "technology",
-      "date": "2026-05-13"
+      "date": "2026-05-01"
+    },
+    {
+      "title": "Simple New System Keeps Microscopes in Focus Automatically",
+      "description": "Anyone who has ever used a microscope knows that it takes time to bring a sample into sharp focus. Each time you move the slide, the image blurs, and you have to stop and carefully turn a knob to bring everything back into clear view. For scientists and clinicians, even if the motion is semi-automated, that time quickly adds up as they work with dozens or hundreds of samples.Now a team of scientists at Caltech has developed an inexpensive robust fix for this problem that involves little more than a couple of LED lights and some physics-based processing. They describe the new autofocus techniqu",
+      "link": "https://www.caltech.edu/about/news/simple-new-system-keeps-microscopes-in-focus-automatically",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
+      "description": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: “Capability now, control later.” Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely…",
+      "link": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-14"
     },
     {
       "title": "Why RF Coexistence Testing Is Critical for Shared Spectrum",
@@ -976,12 +1032,60 @@
       "date": "2026-05-14"
     },
     {
-      "title": "Helping to give birth to nation — and Harvard Med",
-      "description": "School founder John Warren numbered among alumni who were part of revolutionary generation",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/helping-to-give-birth-to-nation-and-harvard-med/",
-      "source": "Harvard Gazette",
+      "title": "Transmission Hardware Corona Performance and HVDC Submarine Cable EM Fields",
+      "description": "Laboratory or in-field measurements are often considered the gold standard for certain aspects of power system design; however, measurement approaches always have limitations. Simulation can help overcome some of these limitations, including speeding up the design process, reducing design costs, and assessing situations that are often not feasible to measure directly. In this presentation, we will discuss two examples from the power system industry. The first case we will discuss involves corona performance testing of high-voltage transmission line hardware. Corona-free insulator hardware perf",
+      "link": "https://events.bizzabo.com/860041",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-05-11"
+      "date": "2026-04-30"
+    },
+    {
+      "title": "Physicists discover quantum particles that break the rules of reality",
+      "description": "Physicists may have just cracked open a hidden side of the quantum world. For decades, every known particle was thought to belong to one of two categories — bosons or fermions — but researchers have now shown that bizarre “in-between” particles called anyons could also exist in a one-dimensional system. Even more exciting, these strange particles may be adjustable, allowing scientists to tune their behavior in ways never before possible.",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260508003131.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-05-09"
+    },
+    {
+      "title": "Data readiness for agentic AI in financial services",
+      "description": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of the system and more on…",
+      "link": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-14"
+    },
+    {
+      "title": "The Download: deepfake porn’s stolen bodies and AI sharing private numbers",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The shock of seeing your body used in deepfake porn When Jennifer got a research job in 2023, she ran her new professional headshot through a facial recognition program. She wanted…",
+      "link": "https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-14"
+    },
+    {
+      "title": "The Tesla Semi could be a big deal for electric trucking",
+      "description": "The Tesla Semi has officially arrived. The company recently released a photo of the first vehicle rolling off its new full-scale production line. This moment has been nearly a decade in the making: The company first announced the Tesla Semi in late 2017. And now we’ve got final battery specs, official prices, and big news…",
+      "link": "https://www.technologyreview.com/2026/05/14/1137197/tesla-semi-electric-trucking/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-14"
+    },
+    {
+      "title": "The shock of seeing your body used in deepfake porn",
+      "description": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return…",
+      "link": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-14"
+    },
+    {
+      "title": "AI chatbots are giving out people’s real phone numbers",
+      "description": "A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer, a product designer, a locksmith.” Callers were apparently misdirected by Google’s generative AI. In March, a software developer in Israel was contacted on WhatsApp…",
+      "link": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-13"
     },
     {
       "title": "Ana Inês Inácio Designs the Future of Wireless",
@@ -1000,14 +1104,6 @@
       "date": "2026-05-06"
     },
     {
-      "title": "Transmission Hardware Corona Performance and HVDC Submarine Cable EM Fields",
-      "description": "Laboratory or in-field measurements are often considered the gold standard for certain aspects of power system design; however, measurement approaches always have limitations. Simulation can help overcome some of these limitations, including speeding up the design process, reducing design costs, and assessing situations that are often not feasible to measure directly. In this presentation, we will discuss two examples from the power system industry. The first case we will discuss involves corona performance testing of high-voltage transmission line hardware. Corona-free insulator hardware perf",
-      "link": "https://events.bizzabo.com/860041",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-30"
-    },
-    {
       "title": "Quantum breakthrough could revolutionize teleportation and computing",
       "description": "Scientists in Japan have developed a new way to instantly detect elusive quantum “W states,” a major milestone for quantum technology. The breakthrough could help unlock faster quantum communication, teleportation, and powerful new computing systems.",
       "link": "https://www.sciencedaily.com/releases/2026/05/260513034640.htm",
@@ -1024,132 +1120,36 @@
       "date": "2026-05-13"
     },
     {
-      "title": "The shock of seeing your body used in deepfake porn",
-      "description": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return…",
-      "link": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
-      "source": "MIT Tech Review",
+      "title": "MIT student Jack Carson named 2026 Udall Scholar",
+      "description": "The Udall Foundation identifies and rewards future leaders in tribal public policy, Indigenous health policy, and the environment.",
+      "link": "https://news.mit.edu/2026/jack-carson-named-udall-scholar-0507",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-05-14"
+      "date": "2026-05-07"
     },
     {
-      "title": "‘Harvard Thinking’: Breaking the regret cycle",
-      "description": "In podcast, experts offer a better way to cope with mistakes and missed opportunities",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/harvard-thinking-breaking-the-regret-cycle/",
-      "source": "Harvard Gazette",
+      "title": "MIT School of Engineering faculty receive awards in winter 2026",
+      "description": "Faculty members and researchers were honored in recognition of their scholarship, service, and overall excellence.",
+      "link": "https://news.mit.edu/2026/school-engineering-faculty-receive-awards-0507",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-05-13"
+      "date": "2026-05-07"
     },
     {
-      "title": "Is napping a sign of a deeper health problem?",
-      "description": "New study finds link between certain sleep patterns and higher mortality in older adults",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/is-napping-a-sign-of-a-deeper-health-problem/",
-      "source": "Harvard Gazette",
+      "title": "Celebrating dorm-to-market social entrepreneurship at MIT",
+      "description": "At the 25th IDEAS Social Innovation Incubator Showcase and Awards, 21 student-led ventures joined 1,200 alumni-led ventures tackling the world’s most pressing problems through social entrepreneurship.",
+      "link": "https://news.mit.edu/2026/celebrating-dorm-to-market-social-entrepreneurship-0507",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-05-13"
+      "date": "2026-05-07"
     },
     {
-      "title": "Five takeaways from UC Berkeley’s new survey on psychedelics in society",
-      "description": "In this Q&A, postdoctoral research scientist Tyrone Sgambati unpacks some of the key findings from a sweeping new study on public perceptions of psychedelics. The post Five takeaways from UC Berkeley’s new survey on psychedelics in society appeared first on Berkeley News.",
-      "link": "https://psychedelics.berkeley.edu/five-big-takeaways-2025-uc-berkeley-psychedelics-survey/",
-      "source": "UC Berkeley",
+      "title": "Rethinking how our brains use categories to make sense of the world",
+      "description": "Researchers propose a challenge to the traditional view of how the brain uses its ability to categorize.",
+      "link": "https://news.mit.edu/2026/rethinking-how-our-brains-use-categories-0507",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-05-13"
-    },
-    {
-      "title": "In search of independence far from home, this graduate found it at Berkeley",
-      "description": "At 17, Hannah Rabbani left Dubai for the Bay Area with just two suitcases and her mom’s encouragement. Now she’s graduating with a degree in political economy and hopes to one day work for the United Nations. The post In search of independence far from home, this graduate found it at Berkeley appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/13/graduating-student-profile-hannah-rabbani/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-13"
-    },
-    {
-      "title": "Two UC Berkeley scholars elected to the American Philosophical Society",
-      "description": "Historian Carla Hesse and chemist Jeffrey Long were named to the oldest scholarly society in the nation. The post Two UC Berkeley scholars elected to the American Philosophical Society appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/13/two-uc-berkeley-scholars-elected-to-the-american-philosophical-society/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-13"
-    },
-    {
-      "title": "New Gateway building creates dedicated campus hub for AI, computing",
-      "description": "The state-of-the-art facility will be the new home of the UC Berkeley College of Computing, Data Science, and Society, promoting cross-collaboration and accelerating AI-driven discovery. The post New Gateway building creates dedicated campus hub for AI, computing appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/13/new-gateway-building-creates-dedicated-campus-hub-for-ai-computing/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-13"
-    },
-    {
-      "title": "AI chatbots are giving out people’s real phone numbers",
-      "description": "People report that their personal contact info was surfaced by Google AI—and there’s apparently no easy way to prevent it. A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer, a product designer, a…",
-      "link": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-13"
-    },
-    {
-      "title": "World Models: 10 Things That Matter in AI Right Now",
-      "description": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, “Can AI Learn to Understand the World?” exploring how AI may evolve to…",
-      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "2026 University Medal finalists: Eyes on the stars, feet on the ground",
-      "description": "Each of the four finalists for the 2026 University Medal embodies UC Berkeley’s core values: remarkable academic achievement and a deep commitment to public service. This year, all four come from the realms of science. The post 2026 University Medal finalists: Eyes on the stars, feet on the ground appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/11/2026-university-medal-finalists-eyes-on-the-stars-feet-on-the-ground/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "Fostering breakthrough AI innovation through customer-back engineering",
-      "description": "Despite years of digitization, organizations capture less than one-third of the value expected from digital investments, according to McKinsey research. That’s because most big companies begin with technological capabilities and bolt applications onto them, rather than starting with customer needs and working backward to technology solutions. Not prioritizing the customer can create fragmented solutions; disjointed…",
-      "link": "https://www.technologyreview.com/2026/05/11/1136967/fostering-breakthrough-ai-innovation-through-customer-back-engineering/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "Implementing advanced AI technologies in finance",
-      "description": "In finance departments that have long been defined by precision and control, AI has arrived less as a neatly managed upgrade than as a quiet insurgency. Employees are already using it while leadership races to impose structure, governance, and strategy after the fact. The result is a paradox: one of the most tightly regulated functions…",
-      "link": "https://www.technologyreview.com/2026/05/11/1136786/implementing-advanced-ai-technologies-in-finance/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "A plan to make drugs in orbit is going commercial",
-      "description": "Varda Space Industries, a startup that’s been pitching its ability to perform drug experiments in space, says it has signed up the pharmaceutical company United Therapeutics in what may be remembered as a notable step toward in-orbit manufacturing. The idea of building things in outer space for use on Earth has so far been explored…",
-      "link": "https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-13"
-    },
-    {
-      "title": "Hantavirus likely to be fully contained but may take time, Hanage says",
-      "description": "Disease much deadlier than COVID but a lot harder to spread",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/hantavirus-likely-to-be-fully-contained-but-may-take-time-hanage-says/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "Harvard releases information on 1,613 enslaved individuals",
-      "description": "Public database advances research on University’s ties to slavery, bolsters effort to help descendants recover family histories",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/harvard-releases-information-on-1613-enslaved-individuals/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "Being on stage terrified her. So she majored in theater.",
-      "description": "Graduating student Kelly Mou moved to the U.S. in sixth grade, navigating language barriers and a deep fear of speaking. At UC Berkeley, she learned to find her natural voice and started a theater company. The post Being on stage terrified her. So she majored in theater. appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/12/graduating-student-profile-kelly-mou/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-12"
+      "date": "2026-05-07"
     },
     {
       "title": "Education in Cambodia",
@@ -1200,20 +1200,20 @@
       "date": "2026-05-08"
     },
     {
-      "title": "ADB, Arkas Holding Sign $40 Million Loan to Strengthen Türkiye’s Maritime and Logistics Sectors",
-      "description": "ADB has signed a $40 million loan with Arkas Holding to improve the capacity and sustainability of maritime logistics and infrastructure in Türkiye. The investment marks ADB’s first private sector infrastructure transaction in the country since commencing operations in October 2025.",
-      "link": "https://www.adb.org/news/adb-arkas-holding-sign-40-million-loan-strengthen-turkiye-maritime-and-logistics-sectors",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-05-14"
-    },
-    {
       "title": "IEEE Smart Village Is Helping to Electrify Rural Cameroon",
       "description": "More than 30 years ago, in the mountain village of Mbem in northwest Cameroon, the moon and stars in the night sky were the only light young Jude Numfor knew after the sunset. Electricity had not yet reached his rural community. “There was one person in the village with a petrol generator and a small television,” Numfor says. “When he turned it on, all the children would run to his house and peep through the window.” That memory became the spark for Numfor’s mission: to bring electricity to rural communities like his hometown. To accomplish his goal, in 2006 he cofounded Wireless Light and Pow",
       "link": "https://spectrum.ieee.org/ieee-smart-village-rei-cameroon",
       "source": "IEEE Spectrum",
       "field": "development",
       "date": "2026-05-04"
+    },
+    {
+      "title": "ADB, Arkas Holding Sign $40 Million Loan to Strengthen Türkiye’s Maritime and Logistics Sectors",
+      "description": "ADB has signed a $40 million loan with Arkas Holding to improve the capacity and sustainability of maritime logistics and infrastructure in Türkiye. The investment marks ADB’s first private sector infrastructure transaction in the country since commencing operations in October 2025.",
+      "link": "https://www.adb.org/news/adb-arkas-holding-sign-40-million-loan-strengthen-turkiye-maritime-and-logistics-sectors",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-05-14"
     },
     {
       "title": "ADB Approves $250 Million Loan to Implement Social Protection Reforms in Bangladesh",
@@ -1272,14 +1272,6 @@
       "date": "2026-05-03"
     },
     {
-      "title": "ADB Issues Inaugural Disaster Relief Bonds Targeting Earthquake and Extreme Precipitation Risk in the Kyrgyz Republic and Tajikistan",
-      "description": "ADB issued its first Disaster Relief Bond offerings, also known as catastrophe bonds, as part of its regional Risk-Layered Disaster Relief Finance Program which aims to reduce the financial impact of natural hazards and climate-related shocks. The bonds are designed to protect against severe disasters and provide quick liquidity to the Kyrgyz Republic and Tajikistan following a qualifying event.",
-      "link": "https://www.adb.org/news/adb-issues-inaugural-disaster-relief-bonds-targeting-earthquake-and-extreme-precipitation-risk",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-05-03"
-    },
-    {
       "title": "ADB, Far East Horizon Sign Loan to Accelerate Transition Finance in the PRC",
       "description": "ADB and Far East Horizon Limited have signed a CNY709 million ($100 million equivalent) loan to support financial leasing to accelerate the green and low-emission transition of its client enterprises in the People’s Republic of China (PRC).",
       "link": "https://www.adb.org/news/adb-far-east-horizon-sign-loan-accelerate-transition-finance-prc",
@@ -1310,6 +1302,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-05-04"
+    },
+    {
+      "title": "ADB Issues Inaugural Disaster Relief Bonds Targeting Earthquake and Extreme Precipitation Risk in the Kyrgyz Republic and Tajikistan",
+      "description": "ADB issued its first Disaster Relief Bond offerings, also known as catastrophe bonds, as part of its regional Risk-Layered Disaster Relief Finance Program which aims to reduce the financial impact of natural hazards and climate-related shocks. The bonds are designed to protect against severe disasters and provide quick liquidity to the Kyrgyz Republic and Tajikistan following a qualifying event.",
+      "link": "https://www.adb.org/news/adb-issues-inaugural-disaster-relief-bonds-targeting-earthquake-and-extreme-precipitation-risk",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-05-03"
     },
     {
       "title": "Asia and Pacific Growth Outlook Sharply Downgraded as Middle East Conflict Disruptions Deepen",
@@ -1408,6 +1408,70 @@
       "date": "2026-05-08"
     },
     {
+      "title": "NASA’s Planet-Hunting TESS Reveals Dazzling Night Sky",
+      "description": "NASA’s TESS has released its most complete view of the starry sky to date",
+      "link": "https://science.nasa.gov/missions/tess/nasas-planet-hunting-tess-reveals-dazzling-night-sky/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "Ganymede Might Still Be Forming Its Metal Core Today",
+      "description": "Jupiter's moon Ganymede is the largest moon in the solar system; at over 3,200 miles across, it is larger than the planet Mercury. It is also the only moon with its own intrinsic magnetic field, produced by a churning central core of electrically conductive metal called a dynamo. But how Ganymede's unique dynamo works is still a mystery.Models to explain Ganymede's formation and dynamo have been developed, but they are at odds with each other. Now, a study led by Caltech proposes a new mechanism to reconcile the two—one that suggests Ganymede's interior may still be warming up.A paper describi",
+      "link": "https://www.caltech.edu/about/news/ganymede-might-still-be-forming-its-metal-core-today",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2026-05-07"
+    },
+    {
+      "title": "Ice Moves Out of Aniak",
+      "description": "Spring melt along Alaska’s Kuskokwim River caused ice jams and flooding.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/ice-moves-out-of-aniak/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-14"
+    },
+    {
+      "title": "NASA-Supported Space Tech Advances Earthly Construction",
+      "description": "An innovative 3D printing process that advanced NASA’s approach to outfitting a lunar habitat is making buildings on Earth beautiful, efficient, and strong. Instead of building structures layer by layer, Branch Technology Inc. of Chattanooga, Tennessee, has developed a process the company calls Freeform 3D Printing, which creates shapes with lightweight lattice structures that can be filled or covered. The company uses the technique to manufacture […]",
+      "link": "https://www.nasa.gov/technology/tech-transfer-spinoffs/nasa-supported-space-tech-advances-earthly-construction/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "Rise Goes to Washington",
+      "description": "“Rise,” the Artemis II zero gravity indicator, is seen sitting on the dais as NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen speak with congressional staff, Tuesday, May 12, 2026, in Washington. NASA’s Artemis II mission took Wiseman, Glover, Koch, and Hansen on a nearly 10-day […]",
+      "link": "https://www.nasa.gov/image-article/rise-goes-to-washington/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "NASA Outlines Preliminary Artemis III Mission Plans",
+      "description": "NASA is moving quickly to define next year’s Artemis III mission in Earth orbit, a crewed flight that will test rendezvous and docking capabilities between the agency’s Orion spacecraft and commercial landers from Blue Origin and SpaceX. Since a February announcement adding an Artemis mission ahead of crewed landing missions to the Moon’s South Pole region, […]",
+      "link": "https://www.nasa.gov/missions/artemis/artemis-3/nasa-outlines-preliminary-artemis-iii-mission-plans/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "Studying Pneumonia in Space for Heart Health on Earth",
+      "description": "Expedition 74 astronauts aboard the International Space Station are uncovering how bacteria that causes pneumonia can lead to long-term damage in the heart. Researchers are leveraging the space environment to observe how stem cell derived heart tissues respond to bacterial infections, to discover new methods to manage cardiovascular health and infectious diseases. In space, bacteria […]",
+      "link": "https://www.nasa.gov/missions/station/iss-research/studying-pneumonia-in-space-for-heart-health-on-earth/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "NASA Langley Engineer Attends FAA Training",
+      "description": "At a busy airport, every aircraft in the area shares just a handful of radio frequencies. Spectrum and time are constrained and if multiple people speak at once, both messages can get lost. Communications like “clearance delivery,” which require long transmissions and readbacks, are challenging in high-traffic areas, particularly when weather or other factors require […]",
+      "link": "https://www.nasa.gov/general/nasa-langley-engineer-attends-faa-training/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-12"
+    },
+    {
       "title": "How to follow the Smile launch live",
       "description": "ESA will be broadcasting live as the European-Chinese Smile mission launches at 04:52 BST/05:52 CEST (00:52 local time) on 19 May 2026. Smile will launch on a European Vega-C rocket from Europe’s Spaceport in French Guiana. Times subject to change at short notice.",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Smile/How_to_follow_the_Smile_launch_live",
@@ -1424,20 +1488,36 @@
       "date": "2026-05-13"
     },
     {
+      "title": "America’s Emerald Isle",
+      "description": "Beaver Island is one in a string of verdant and scenic jewels in a northern Lake Michigan archipelago.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/americas-emerald-isle/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "Perseverance Stuns in New Selfie",
+      "description": "NASA’s Perseverance rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac de Charmes.” Assembled from 61 individual images, the selfie shows Perseverance training its mast on a rocky outcrop in the foreground after creating a circular abrasion patch, with the western rim of […]",
+      "link": "https://www.nasa.gov/image-article/perseverance-stuns-in-new-selfie/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "NASA’s Perseverance Rover Snaps Selfie in Mars’ Western Frontier",
+      "description": "Editor’s note: The text was updated on March 13, 2026, to correct the spelling of the outcrop nicknamed “Arathusa.” NASA’s Perseverance Mars rover recently took a self-portrait against a sweeping backdrop of ancient Martian terrain at a location the science team calls “Lac de Charmes.” Assembled from 61 individual images, the selfie shows Perseverance training […]",
+      "link": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/nasas-perseverance-rover-snaps-selfie-in-mars-western-frontier/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-05-12"
+    },
+    {
       "title": "Waterworn chaos on Mars",
       "description": "This month, ESA’s Mars Express takes us to Shalbatana Vallis: a fascinating martian valley surrounded by signs of water, lava, craters and chaos.",
       "link": "https://www.esa.int/Science_Exploration/Space_Science/Mars_Express/Waterworn_chaos_on_Mars",
       "source": "ESA",
       "field": "space",
       "date": "2026-05-13"
-    },
-    {
-      "title": "Ganymede Might Still Be Forming Its Metal Core Today",
-      "description": "Jupiter's moon Ganymede is the largest moon in the solar system; at over 3,200 miles across, it is larger than the planet Mercury. It is also the only moon with its own intrinsic magnetic field, produced by a churning central core of electrically conductive metal called a dynamo. But how Ganymede's unique dynamo works is still a mystery.Models to explain Ganymede's formation and dynamo have been developed, but they are at odds with each other. Now, a study led by Caltech proposes a new mechanism to reconcile the two—one that suggests Ganymede's interior may still be warming up.A paper describi",
-      "link": "https://www.caltech.edu/about/news/ganymede-might-still-be-forming-its-metal-core-today",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2026-05-07"
     },
     {
       "title": "SpaceX targets May 19 for debut of Starship Version 3, Launch Pad 2",
@@ -1454,6 +1534,14 @@
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-05-12"
+    },
+    {
+      "title": "SpaceX launches intelligence-gathering satellites for the National Reconnaissance Office",
+      "description": "The NROL-72 mission was the 13th to date supporting what the NRO calls its “proliferated architecture” satellite constellation. Liftoff of SpaceX’s Falcon 9 rocket from pad 4E at Vandenberg Space Force Base happened at 7:13:50 p.m. PDT (10:13:50 p.m. EDT / 0213:50 UTC).",
+      "link": "https://spaceflightnow.com/2026/05/11/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-05-11"
     },
     {
       "title": "Week in images: 04-08 May 2026",
@@ -1486,14 +1574,6 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-05-07"
-    },
-    {
-      "title": "SpaceX launches intelligence-gathering satellites for the National Reconnaissance Office",
-      "description": "The NROL-72 mission was the 13th to date supporting what the NRO calls its “proliferated architecture” satellite constellation. Liftoff of SpaceX’s Falcon 9 rocket from pad 4E at Vandenberg Space Force Base happened at 7:13:50 p.m. PDT (10:13:50 p.m. EDT / 0213:50 UTC).",
-      "link": "https://spaceflightnow.com/2026/05/11/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-05-11"
     },
     {
       "title": "Earth from Space: Netherlands in bloom",
@@ -1552,140 +1632,20 @@
       "date": "2026-05-11"
     },
     {
-      "title": "‘A system that called itself justice’ took his future. UC Berkeley helped him take it back.",
-      "description": "\"Every day is a new opportunity,\" said Charles Long, the 2026 University Medalist. \"Nothing is set in stone.\" The post ‘A system that called itself justice’ took his future. UC Berkeley helped him take it back. appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/12/a-system-that-called-itself-justice-took-his-future-uc-berkeley-helped-him-take-it-back/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned…",
-      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "‘Deskilling’ is bad. This is worse.",
-      "description": "Authors of book about classroom AI see growing void where foundational knowledge used to be",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/deskilling-is-bad-this-is-worse/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "In the tiny, vulnerable patients, she saw herself",
-      "description": "Caring for premature babies sparked Alison Farrar’s passion for psychiatry. Manning a crisis hotline during COVID sealed it.",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/in-the-tiny-vulnerable-patients-she-saw-herself/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "Why Mastering EVM Is Essential for Next-Generation Wireless Systems",
-      "description": "A comprehensive guide to error vector magnitude (EVM), the primary metric for quantifying modulation accuracy in Wi-Fi, LTE, and 5G NR systems. What Attendees will Learn What error vector magnitude is and how it is calculated — Understand EVM as the distance between ideal and measured constellation points, learn the difference between peak and RMS normalization, and see how EVM is expressed in both percentage and decibel formats. How digital modulation works and why it matters — Explore the fundamentals of ASK, FSK, PSK, APSK, and QAM modulation schemes, and understand why higher modulation or",
-      "link": "https://content.knowledgehub.wiley.com/understanding-evm-error-vector-magnitude-in-modern-wireless-communications/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "Three things in AI to watch, according to a Nobel-winning economist",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. A few months before he was awarded the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned him few fans in Silicon Valley. Contrary to what Big Tech…",
-      "link": "https://www.technologyreview.com/2026/05/11/1137090/three-things-in-ai-to-watch-according-to-a-nobel-winning-economist/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "Innovation abounds in device charging",
-      "description": "The changes may be less perceptible than in smartphones, tablets, or wearables, but chargers have also been quietly reinvented over the last decade. At one time a bulky mix of tangled cables and connectors, slow to perform and prone to overheating, they’re now smaller, safer, and faster, thanks to a slew of technological advances. These…",
-      "link": "https://www.technologyreview.com/2026/05/11/1136406/innovation-abounds-in-device-charging/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "“Entanglement: A Brief History of Human Connection”",
-      "description": "It started with word, cave, and storytelling, A line scratched on stone walls: “Meet me when the young moon rises.” The first protocol for connection. Coyote tales, forbidden scripts, Medieval texts hidden from flame. What lived in Aristotle’s lost Poetics II? Was it God who laughed last, or we who made God laugh? Letters carried by doves, telepathic waves. Then Nikola Tesla conjured radio, electromagnetic pulses across the void, the founding signal of our networked age. Wiener dreamed in feedback loops. Shannon mapped the mathematics of longing. The internet unfurled: ARPANET to World Wide We",
-      "link": "https://spectrum.ieee.org/entanglement-poem",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-04-28"
-    },
-    {
-      "title": "Scientists finally solve the 100-year mystery behind tough tires",
-      "description": "For nearly 100 years, reinforced rubber has powered everything from car tires to airplanes, yet scientists never fully understood why adding tiny particles of carbon black made rubber so incredibly strong. Now, researchers at the University of South Florida have finally cracked the mystery using massive computer simulations that took the equivalent of 15 years of computing time. They discovered that carbon black forces rubber to “fight against itself” when stretched, dramatically boosting its strength and durability.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260509210648.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-13"
-    },
-    {
-      "title": "James Webb telescope reveals the clearest map ever of the Universe’s cosmic web",
-      "description": "Astronomers using NASA’s James Webb Space Telescope have created the clearest map yet of the universe’s “cosmic web” — the enormous hidden structure that connects galaxies across space. By analyzing more than 164,000 galaxies through the massive COSMOS-Web survey, researchers were able to trace this vast network back to when the universe was just a billion years old.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260511213136.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "JUPITER supercomputer breaks world record with 50-qubit quantum simulation",
-      "description": "Scientists in Germany have pulled off a staggering computing feat by fully simulating a 50-qubit quantum computer for the first time ever using Europe’s new exascale supercomputer, JUPITER. The breakthrough shatters the previous 48-qubit record and highlights just how powerful next-generation supercomputers have become.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260510234715.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "Physicists discover quantum particles that break the rules of reality",
-      "description": "Physicists may have just cracked open a hidden side of the quantum world. For decades, every known particle was thought to belong to one of two categories — bosons or fermions — but researchers have now shown that bizarre “in-between” particles called anyons could also exist in a one-dimensional system. Even more exciting, these strange particles may be adjustable, allowing scientists to tune their behavior in ways never before possible.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260508003131.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-09"
-    },
-    {
-      "title": "3 Questions: Shedding light on why power grids go dark",
-      "description": "Pablo Duenas-Martinez, a MITEI research scientist, describes the “death spiral” of events that caused the 12-hour Iberian peninsula power outage in 2025, and five lessons learned.",
-      "link": "https://news.mit.edu/2026/3-questions-why-power-grids-go-dark-0512",
+      "title": "Photonics advance could enable compact, high-performance lidar sensors",
+      "description": "With a novel design, MIT researchers overcame a stubborn problem that has limited the effectiveness of chip-based systems for lidar.",
+      "link": "https://news.mit.edu/2026/photonics-advance-could-enable-compact-high-performance-lidar-sensors-0507",
       "source": "MIT News",
       "field": "technology",
-      "date": "2026-05-12"
+      "date": "2026-05-07"
     },
     {
-      "title": "A new way to spot signs of dark matter",
-      "description": "Gravitational waves emitted by colliding black holes may bear imprints of dark matter, which physicists could detect with a new model.",
-      "link": "https://news.mit.edu/2026/new-way-spot-signs-dark-matter-0512",
+      "title": "Study: Firms often use automation to control certain workers’ wages",
+      "description": "MIT economists found US companies tend to target employees earning a “wage premium,” which increases inequality but not necessarily productivity.",
+      "link": "https://news.mit.edu/2026/study-firms-often-use-automation-control-certain-workers-wages-0507",
       "source": "MIT News",
       "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "Powerful shrinking technique could enable devices that compute with light",
-      "description": "MIT researchers created tiny 3D photonic devices with features small enough to channel visible light.",
-      "link": "https://news.mit.edu/2026/powerful-shrinking-technique-could-enable-devices-compute-light-0512",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "Improving the reliability of circuits for quantum computers",
-      "description": "A new technique helps scientists measure a phenomenon that can cause quantum circuits to perform differently than expected, increasing the error in computations.",
-      "link": "https://news.mit.edu/2026/improving-circuit-reliability-quantum-computers-0512",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
-      "title": "For most US drivers, EVs offer emissions benefits and cost savings",
-      "description": "When it comes to emissions, individual driving patterns matter as much as how “green” the regional electricity mix is, MIT researchers report.",
-      "link": "https://news.mit.edu/2026/us-drivers-electric-vehicles-offer-emissions-benefits-cost-savings-0512",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-12"
+      "date": "2026-05-07"
     },
     {
       "title": "Chemistry Grad Student Awarded Future Leaders Award",
@@ -1702,54 +1662,6 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-04-29"
-    },
-    {
-      "title": "MIT student Jack Carson named 2026 Udall Scholar",
-      "description": "The Udall Foundation identifies and rewards future leaders in tribal public policy, Indigenous health policy, and the environment.",
-      "link": "https://news.mit.edu/2026/jack-carson-named-udall-scholar-0507",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-07"
-    },
-    {
-      "title": "MIT School of Engineering faculty receive awards in winter 2026",
-      "description": "Faculty members and researchers were honored in recognition of their scholarship, service, and overall excellence.",
-      "link": "https://news.mit.edu/2026/school-engineering-faculty-receive-awards-0507",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-07"
-    },
-    {
-      "title": "Celebrating dorm-to-market social entrepreneurship at MIT",
-      "description": "At the 25th IDEAS Social Innovation Incubator Showcase and Awards, 21 student-led ventures joined 1,200 alumni-led ventures tackling the world’s most pressing problems through social entrepreneurship.",
-      "link": "https://news.mit.edu/2026/celebrating-dorm-to-market-social-entrepreneurship-0507",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-07"
-    },
-    {
-      "title": "Rethinking how our brains use categories to make sense of the world",
-      "description": "Researchers propose a challenge to the traditional view of how the brain uses its ability to categorize.",
-      "link": "https://news.mit.edu/2026/rethinking-how-our-brains-use-categories-0507",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-07"
-    },
-    {
-      "title": "Photonics advance could enable compact, high-performance lidar sensors",
-      "description": "With a novel design, MIT researchers overcame a stubborn problem that has limited the effectiveness of chip-based systems for lidar.",
-      "link": "https://news.mit.edu/2026/photonics-advance-could-enable-compact-high-performance-lidar-sensors-0507",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-07"
-    },
-    {
-      "title": "Study: Firms often use automation to control certain workers’ wages",
-      "description": "MIT economists found US companies tend to target employees earning a “wage premium,” which increases inequality but not necessarily productivity.",
-      "link": "https://news.mit.edu/2026/study-firms-often-use-automation-control-certain-workers-wages-0507",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-07"
     },
     {
       "title": "MIT BrainTrust supports neighbors living with brain injuries",
@@ -1832,6 +1744,94 @@
       "date": "2026-05-03"
     },
     {
+      "title": "James Webb telescope reveals the clearest map ever of the Universe’s cosmic web",
+      "description": "Astronomers using NASA’s James Webb Space Telescope have created the clearest map yet of the universe’s “cosmic web” — the enormous hidden structure that connects galaxies across space. By analyzing more than 164,000 galaxies through the massive COSMOS-Web survey, researchers were able to trace this vast network back to when the universe was just a billion years old.",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260511213136.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "A plan to make drugs in orbit is going commercial",
+      "description": "Varda Space Industries, a startup that’s been pitching its ability to perform drug experiments in space, says it has signed up the pharmaceutical company United Therapeutics in what may be remembered as a notable step toward in-orbit manufacturing. The idea of building things in outer space for use on Earth has so far been explored…",
+      "link": "https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "World Models: 10 Things That Matter in AI Right Now",
+      "description": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, “Can AI Learn to Understand the World?” exploring how AI may evolve to…",
+      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned…",
+      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "“Entanglement: A Brief History of Human Connection”",
+      "description": "It started with word, cave, and storytelling, A line scratched on stone walls: “Meet me when the young moon rises.” The first protocol for connection. Coyote tales, forbidden scripts, Medieval texts hidden from flame. What lived in Aristotle’s lost Poetics II? Was it God who laughed last, or we who made God laugh? Letters carried by doves, telepathic waves. Then Nikola Tesla conjured radio, electromagnetic pulses across the void, the founding signal of our networked age. Wiener dreamed in feedback loops. Shannon mapped the mathematics of longing. The internet unfurled: ARPANET to World Wide We",
+      "link": "https://spectrum.ieee.org/entanglement-poem",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-04-28"
+    },
+    {
+      "title": "JUPITER supercomputer breaks world record with 50-qubit quantum simulation",
+      "description": "Scientists in Germany have pulled off a staggering computing feat by fully simulating a 50-qubit quantum computer for the first time ever using Europe’s new exascale supercomputer, JUPITER. The breakthrough shatters the previous 48-qubit record and highlights just how powerful next-generation supercomputers have become.",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260510234715.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Five takeaways from UC Berkeley’s new survey on psychedelics in society",
+      "description": "In this Q&A, postdoctoral research scientist Tyrone Sgambati unpacks some of the key findings from a sweeping new study on public perceptions of psychedelics. The post Five takeaways from UC Berkeley’s new survey on psychedelics in society appeared first on Berkeley News.",
+      "link": "https://psychedelics.berkeley.edu/five-big-takeaways-2025-uc-berkeley-psychedelics-survey/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "In search of independence far from home, this graduate found it at Berkeley",
+      "description": "At 17, Hannah Rabbani left Dubai for the Bay Area with just two suitcases and her mom’s encouragement. Now she’s graduating with a degree in political economy and hopes to one day work for the United Nations. The post In search of independence far from home, this graduate found it at Berkeley appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/13/graduating-student-profile-hannah-rabbani/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "Two UC Berkeley scholars elected to the American Philosophical Society",
+      "description": "Historian Carla Hesse and chemist Jeffrey Long were named to the oldest scholarly society in the nation. The post Two UC Berkeley scholars elected to the American Philosophical Society appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/13/two-uc-berkeley-scholars-elected-to-the-american-philosophical-society/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "New Gateway building creates dedicated campus hub for AI, computing",
+      "description": "The state-of-the-art facility will be the new home of the UC Berkeley College of Computing, Data Science, and Society, promoting cross-collaboration and accelerating AI-driven discovery. The post New Gateway building creates dedicated campus hub for AI, computing appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/13/new-gateway-building-creates-dedicated-campus-hub-for-ai-computing/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "2026 University Medal finalists: Eyes on the stars, feet on the ground",
+      "description": "Each of the four finalists for the 2026 University Medal embodies UC Berkeley’s core values: remarkable academic achievement and a deep commitment to public service. This year, all four come from the realms of science. The post 2026 University Medal finalists: Eyes on the stars, feet on the ground appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/11/2026-university-medal-finalists-eyes-on-the-stars-feet-on-the-ground/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-11"
+    },
+    {
       "title": "MIT affiliates awarded 2026 Guggenheim Fellowships",
       "description": "Afreen Siddiqi, Kathleen Thelen, and Vinod Vaikuntanathan, along with alumna Kate Manne, are appointed to the 2026 class of “trail-blazing fellows.”",
       "link": "https://news.mit.edu/2026/mit-affiliates-awarded-guggenheim-fellowships-0501",
@@ -1854,6 +1854,78 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-04-28"
+    },
+    {
+      "title": "‘Harvard Thinking’: Breaking the regret cycle",
+      "description": "In podcast, experts offer a better way to cope with mistakes and missed opportunities",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/harvard-thinking-breaking-the-regret-cycle/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "Is napping a sign of a deeper health problem?",
+      "description": "New study finds link between certain sleep patterns and higher mortality in older adults",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/is-napping-a-sign-of-a-deeper-health-problem/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
+      "title": "Hantavirus likely to be fully contained but may take time, Hanage says",
+      "description": "Disease much deadlier than COVID but a lot harder to spread",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/hantavirus-likely-to-be-fully-contained-but-may-take-time-hanage-says/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Harvard releases information on 1,613 enslaved individuals",
+      "description": "Public database advances research on University’s ties to slavery, bolsters effort to help descendants recover family histories",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/harvard-releases-information-on-1613-enslaved-individuals/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "Being on stage terrified her. So she majored in theater.",
+      "description": "Graduating student Kelly Mou moved to the U.S. in sixth grade, navigating language barriers and a deep fear of speaking. At UC Berkeley, she learned to find her natural voice and started a theater company. The post Being on stage terrified her. So she majored in theater. appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/12/graduating-student-profile-kelly-mou/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "‘A system that called itself justice’ took his future. UC Berkeley helped him take it back.",
+      "description": "\"Every day is a new opportunity,\" said Charles Long, the 2026 University Medalist. \"Nothing is set in stone.\" The post ‘A system that called itself justice’ took his future. UC Berkeley helped him take it back. appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/12/a-system-that-called-itself-justice-took-his-future-uc-berkeley-helped-him-take-it-back/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-12"
+    },
+    {
+      "title": "‘Deskilling’ is bad. This is worse.",
+      "description": "Authors of book about classroom AI see growing void where foundational knowledge used to be",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/deskilling-is-bad-this-is-worse/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "In the tiny, vulnerable patients, she saw herself",
+      "description": "Caring for premature babies sparked Alison Farrar’s passion for psychiatry. Manning a crisis hotline during COVID sealed it.",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/in-the-tiny-vulnerable-patients-she-saw-herself/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-11"
+    },
+    {
+      "title": "Why Mastering EVM Is Essential for Next-Generation Wireless Systems",
+      "description": "A comprehensive guide to error vector magnitude (EVM), the primary metric for quantifying modulation accuracy in Wi-Fi, LTE, and 5G NR systems. What Attendees will Learn What error vector magnitude is and how it is calculated — Understand EVM as the distance between ideal and measured constellation points, learn the difference between peak and RMS normalization, and see how EVM is expressed in both percentage and decibel formats. How digital modulation works and why it matters — Explore the fundamentals of ASK, FSK, PSK, APSK, and QAM modulation schemes, and understand why higher modulation or",
+      "link": "https://content.knowledgehub.wiley.com/understanding-evm-error-vector-magnitude-in-modern-wireless-communications/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-11"
     },
     {
       "title": "Glint of light in therapy for deadly ALS after decades of struggle",
@@ -2016,6 +2088,14 @@
       "date": "2026-05-13"
     },
     {
+      "title": "Scientists finally solve the 100-year mystery behind tough tires",
+      "description": "For nearly 100 years, reinforced rubber has powered everything from car tires to airplanes, yet scientists never fully understood why adding tiny particles of carbon black made rubber so incredibly strong. Now, researchers at the University of South Florida have finally cracked the mystery using massive computer simulations that took the equivalent of 15 years of computing time. They discovered that carbon black forces rubber to “fight against itself” when stretched, dramatically boosting its strength and durability.",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260509210648.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-05-13"
+    },
+    {
       "title": "NASA’s Hubble reveals a giant chaotic planet nursery unlike anything seen before",
       "description": "Hubble has revealed a giant planet-forming disk unlike anything astronomers have seen before. Nicknamed “Dracula’s Chivito,” the enormous structure appears turbulent and oddly lopsided, with towering filaments visible on only one side. The disk contains enough material to potentially create multiple giant planets, making it a fascinating new laboratory for studying how planetary systems are born.",
       "link": "https://www.sciencedaily.com/releases/2026/05/260511213151.htm",
@@ -2035,14 +2115,6 @@
       "title": "Researchers say AI chatbots may blur the line between reality and delusion",
       "description": "A new study suggests AI chatbots may do more than spread misinformation — they can actively strengthen a user’s false beliefs. Because conversational AI often validates and builds on what users say, it can make distorted memories, conspiracy theories, or delusions feel more believable and emotionally real. Researchers warn that AI companions may be especially risky for isolated or vulnerable people seeking reassurance and connection.",
       "link": "https://www.sciencedaily.com/releases/2026/05/260509210652.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-11"
-    },
-    {
-      "title": "Scientists put a tiny lump of metal in two places at once in record-breaking quantum experiment",
-      "description": "Scientists have pulled off a mind-bending quantum experiment that sounds almost impossible: they showed that tiny metal particles made of thousands of atoms can exist in multiple places at once. Using advanced laser techniques, researchers at the University of Vienna observed quantum interference in sodium nanoparticles far larger than the kinds of particles usually seen behaving this way. The finding pushes quantum mechanics into a new realm, suggesting that even surprisingly “large” objects still obey the bizarre rules of the quantum world.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260509210650.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-05-11"
