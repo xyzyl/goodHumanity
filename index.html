@@ -3,988 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HumanityCheck - Verified Human Progress</title>
+    <title>HumanityCheck — Verified Human Progress</title>
     <meta name="description" content="Track verified breakthroughs and measurable progress across health, climate, technology, and human development.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🌍</text></svg>">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
-
-    <style>
-        :root {
-            --primary: #6366f1;
-            --primary-hover: #4f46e5;
-            --success: #10b981;
-            --warning: #f59e0b;
-            --error: #ef4444;
-            
-            /* Light Theme */
-            --bg-base: #f8fafc;
-            --bg-surface: rgba(255, 255, 255, 0.7);
-            --bg-surface-solid: #ffffff;
-            --text-main: #0f172a;
-            --text-muted: #475569;
-            --text-subtle: #94a3b8;
-            --border: rgba(226, 232, 240, 0.8);
-            --border-light: rgba(241, 245, 249, 0.8);
-            
-            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
-            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
-            --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
-            
-            --radius-md: 0.75rem;
-            --radius-lg: 1rem;
-            --radius-xl: 1.5rem;
-            --radius-full: 9999px;
-            
-            --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
-            --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            --transition-bounce: 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
-
-            /* Category Colors */
-            --cat-health: #059669;
-            --cat-technology: #4f46e5;
-            --cat-climate: #ea580c;
-            --cat-energy: #8b5cf6;
-            --cat-education: #db2777;
-            --cat-development: #2563eb;
-            --cat-peace: #0d9488;
-            --cat-agriculture: #65a30d;
-            --cat-space: #7c3aed;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --primary: #818cf8;
-                --primary-hover: #6366f1;
-                --success: #34d399;
-                
-                --bg-base: #020617; /* Deep midnight */
-                --bg-surface: rgba(15, 23, 42, 0.65);
-                --bg-surface-solid: #0f172a;
-                --text-main: #f8fafc;
-                --text-muted: #cbd5e1;
-                --text-subtle: #64748b;
-                --border: rgba(51, 65, 85, 0.6);
-                --border-light: rgba(30, 41, 59, 0.5);
-                
-                --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-
-                /* Category Colors Dark Mode Tweaks */
-                --cat-health: #34d399;
-                --cat-technology: #818cf8;
-                --cat-climate: #fb923c;
-                --cat-energy: #a78bfa;
-                --cat-education: #f472b6;
-                --cat-development: #60a5fa;
-                --cat-peace: #2dd4bf;
-                --cat-agriculture: #a3e635;
-                --cat-space: #a78bfa;
-            }
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            line-height: 1.6;
-            color: var(--text-main);
-            background-color: var(--bg-base);
-            font-size: 16px;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            overflow-x: hidden;
-            position: relative;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Outfit', sans-serif;
-            color: var(--text-main);
-        }
-
-        /* Background Blobs */
-        .bg-blobs {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            z-index: -1;
-            overflow: hidden;
-            pointer-events: none;
-        }
-        .blob {
-            position: absolute;
-            filter: blur(80px);
-            opacity: 0.4;
-            border-radius: 50%;
-            animation: float 20s infinite ease-in-out alternate;
-        }
-        @media (prefers-color-scheme: dark) {
-            .blob { opacity: 0.15; }
-        }
-        .blob-1 {
-            top: -10%; left: -10%; width: 50vw; height: 50vw;
-            background: radial-gradient(circle, rgba(99,102,241,1) 0%, rgba(99,102,241,0) 70%);
-        }
-        .blob-2 {
-            bottom: -10%; right: -10%; width: 60vw; height: 60vw;
-            background: radial-gradient(circle, rgba(16,185,129,1) 0%, rgba(16,185,129,0) 70%);
-            animation-delay: -5s;
-        }
-        .blob-3 {
-            top: 40%; left: 50%; width: 40vw; height: 40vw;
-            background: radial-gradient(circle, rgba(236,72,153,1) 0%, rgba(236,72,153,0) 70%);
-            animation-delay: -10s;
-        }
-
-        @keyframes float {
-            0% { transform: translate(0, 0) scale(1); }
-            100% { transform: translate(5%, 5%) scale(1.1); }
-        }
-
-        /* Header */
-        header {
-            border-bottom: 1px solid var(--border);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            background: var(--bg-surface);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .header-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-            height: 72px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            color: var(--text-main);
-            transition: transform var(--transition-fast);
-        }
-        .logo:hover {
-            transform: scale(1.02);
-        }
-
-        .logo-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: var(--radius-md);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
-            box-shadow: var(--shadow-md);
-            border: 1px solid var(--border);
-        }
-
-        .logo h1 {
-            font-size: 22px;
-            font-weight: 800;
-            letter-spacing: -0.02em;
-            background: linear-gradient(135deg, var(--text-main) 0%, var(--primary) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .tagline {
-            color: var(--text-subtle);
-            font-size: 13px;
-            font-weight: 500;
-            display: none;
-        }
-
-        .header-actions {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-
-        .last-update {
-            font-size: 13px;
-            color: var(--text-muted);
-            font-weight: 500;
-            display: none;
-        }
-
-        .shuffle-indicator {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text-muted);
-            padding: 6px 14px;
-            background: var(--bg-surface-solid);
-            border-radius: var(--radius-full);
-            border: 1px solid var(--border);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .shuffle-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            background: var(--success);
-            box-shadow: 0 0 8px var(--success);
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.6; transform: scale(0.8); }
-        }
-
-        /* Hero Section */
-        .hero {
-            padding: 80px 24px 48px;
-            max-width: 1000px;
-            margin: 0 auto;
-            text-align: center;
-            animation: heroFadeIn 0.8s ease-out;
-        }
-
-        @keyframes heroFadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .hero h2 {
-            font-size: clamp(36px, 5vw, 56px);
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            margin-bottom: 24px;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--success) 50%, var(--primary-hover) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            line-height: 1.1;
-        }
-
-        .hero p {
-            font-size: clamp(18px, 2vw, 22px);
-            color: var(--text-muted);
-            max-width: 700px;
-            margin: 0 auto;
-            font-weight: 400;
-        }
-
-        /* Stats Bar */
-        .stats-bar {
-            padding: 0 24px;
-            max-width: 1200px;
-            margin: 0 auto 64px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
-
-        .stat-card {
-            background: var(--bg-surface);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-lg);
-            padding: 24px;
-            text-align: center;
-            transition: var(--transition-bounce);
-            box-shadow: var(--shadow-sm);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .stat-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%);
-            pointer-events: none;
-        }
-
-        .stat-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-glass);
-            border-color: var(--primary);
-        }
-
-        .stat-value {
-            font-family: 'Outfit', sans-serif;
-            font-size: 36px;
-            font-weight: 800;
-            color: var(--text-main);
-            margin-bottom: 4px;
-            line-height: 1;
-        }
-
-        .stat-label {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-subtle);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        /* Main Content */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        /* Filters */
-        .controls {
-            margin-bottom: 48px;
-            display: flex;
-            flex-direction: column;
-            gap: 24px;
-        }
-
-        .search-box {
-            width: 100%;
-            padding: 16px 24px 16px 52px;
-            border: 1px solid var(--border);
-            border-radius: var(--radius-full);
-            font-size: 16px;
-            font-family: 'Inter', sans-serif;
-            background: var(--bg-surface-solid);
-            color: var(--text-main);
-            transition: var(--transition-normal);
-            box-shadow: var(--shadow-sm);
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cpath d='m21 21-4.35-4.35'%3E%3C/path%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: 20px center;
-        }
-
-        .search-box::placeholder {
-            color: var(--text-subtle);
-        }
-
-        .search-box:focus {
-            outline: none;
-            border-color: var(--primary);
-            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
-        }
-
-        .filters {
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        .filter-label {
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--text-subtle);
-            margin-right: 4px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        .filter-btn {
-            background: var(--bg-surface-solid);
-            border: 1px solid var(--border);
-            padding: 10px 20px;
-            border-radius: var(--radius-full);
-            font-size: 14px;
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            cursor: pointer;
-            transition: var(--transition-bounce);
-            white-space: nowrap;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            color: var(--text-muted);
-            box-shadow: var(--shadow-sm);
-        }
-
-        .filter-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-md);
-            border-color: var(--border-light);
-            color: var(--text-main);
-        }
-
-        .filter-btn.active {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
-        }
-
-        .filter-btn .count {
-            opacity: 0.8;
-            font-size: 12px;
-            background: rgba(0,0,0,0.1);
-            padding: 2px 6px;
-            border-radius: var(--radius-full);
-        }
-
-        /* Feed */
-        .feed {
-            margin-bottom: 80px;
-        }
-
-        .feed-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 32px;
-            padding-bottom: 16px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .feed-title {
-            font-size: 20px;
-            color: var(--text-main);
-            font-weight: 700;
-        }
-
-        .view-controls {
-            display: flex;
-            gap: 16px;
-            align-items: center;
-        }
-
-        .view-toggle {
-            display: flex;
-            gap: 4px;
-            background: var(--border);
-            padding: 4px;
-            border-radius: var(--radius-lg);
-        }
-
-        .view-btn {
-            padding: 8px 16px;
-            border: none;
-            background: none;
-            font-size: 14px;
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            cursor: pointer;
-            border-radius: var(--radius-md);
-            transition: var(--transition-fast);
-            color: var(--text-muted);
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .view-btn.active {
-            background: var(--bg-surface-solid);
-            box-shadow: var(--shadow-sm);
-            color: var(--text-main);
-        }
-
-        .sort-dropdown {
-            padding: 10px 16px;
-            border: 1px solid var(--border);
-            border-radius: var(--radius-lg);
-            background: var(--bg-surface-solid);
-            font-size: 14px;
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            color: var(--text-main);
-            cursor: pointer;
-            box-shadow: var(--shadow-sm);
-            transition: var(--transition-normal);
-        }
-        
-        .sort-dropdown:focus {
-            outline: none;
-            border-color: var(--primary);
-        }
-
-        /* Entry Styles */
-        .entries-grid {
-            display: grid;
-            gap: 24px;
-        }
-
-        .entries-grid.card-view {
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        }
-
-        .entries-grid.compact-view .entry {
-            padding: 16px 24px;
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .entries-grid.compact-view .entry-header {
-            flex-direction: row;
-            align-items: center;
-            flex: 1;
-            margin-bottom: 0;
-        }
-
-        .entries-grid.compact-view .entry-description {
-            display: none;
-        }
-        
-        .entries-grid.compact-view .entry-meta {
-            border-top: none;
-            padding-top: 0;
-            margin-left: auto;
-        }
-
-        .entry {
-            background: var(--bg-surface-solid);
-            border: 1px solid var(--border);
-            border-radius: var(--radius-xl);
-            padding: 32px;
-            transition: var(--transition-bounce);
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: var(--shadow-sm);
-        }
-
-        .entry::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 4px;
-            background: var(--category-color, var(--primary));
-            opacity: 0.8;
-            transition: var(--transition-normal);
-        }
-
-        .entry:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-glass);
-            border-color: var(--border-light);
-        }
-        
-        .entry:hover::before {
-            opacity: 1;
-            height: 6px;
-        }
-
-        .entry-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 16px;
-            margin-bottom: 4px;
-        }
-
-        .entry-title {
-            font-family: 'Outfit', sans-serif;
-            font-size: 22px;
-            font-weight: 700;
-            line-height: 1.3;
-            color: var(--text-main);
-            text-decoration: none;
-            flex: 1;
-            transition: color var(--transition-fast);
-        }
-
-        .entry-title:hover {
-            color: var(--primary);
-        }
-
-        .entry-field {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            padding: 6px 12px;
-            background: rgba(0,0,0,0.03);
-            border-radius: var(--radius-full);
-            font-size: 13px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            flex-shrink: 0;
-            color: var(--category-color, var(--text-muted));
-            border: 1px solid rgba(0,0,0,0.05);
-        }
-        @media (prefers-color-scheme: dark) {
-            .entry-field { background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1); }
-        }
-
-        /* Enhanced category colors via CSS Variables setup */
-        .field-health { --category-color: var(--cat-health); }
-        .field-technology { --category-color: var(--cat-technology); }
-        .field-climate { --category-color: var(--cat-climate); }
-        .field-energy { --category-color: var(--cat-energy); }
-        .field-education { --category-color: var(--cat-education); }
-        .field-development { --category-color: var(--cat-development); }
-        .field-peace { --category-color: var(--cat-peace); }
-        .field-agriculture { --category-color: var(--cat-agriculture); }
-        .field-space { --category-color: var(--cat-space); }
-
-        .entry-description {
-            color: var(--text-muted);
-            font-size: 16px;
-            line-height: 1.6;
-        }
-
-        .entry-meta {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 16px;
-            font-size: 14px;
-            color: var(--text-subtle);
-            padding-top: 16px;
-            border-top: 1px solid var(--border-light);
-            margin-top: auto;
-        }
-
-        .entry-source {
-            font-weight: 600;
-            color: var(--text-muted);
-        }
-
-        .entry-trust-badge {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            font-size: 12px;
-            font-weight: 600;
-            color: var(--success);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            background: rgba(16, 185, 129, 0.1);
-            padding: 2px 8px;
-            border-radius: var(--radius-full);
-        }
-
-        .entry-actions {
-            display: flex;
-            gap: 8px;
-            margin-left: auto;
-        }
-
-        .action-btn {
-            padding: 8px 12px;
-            background: var(--bg-surface);
-            border: 1px solid var(--border);
-            color: var(--text-muted);
-            cursor: pointer;
-            border-radius: var(--radius-md);
-            font-size: 13px;
-            font-family: 'Inter', sans-serif;
-            font-weight: 600;
-            transition: var(--transition-fast);
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .action-btn:hover {
-            background: var(--border);
-            color: var(--text-main);
-        }
-
-        /* Loading & States */
-        .loading, .error, .empty {
-            text-align: center;
-            padding: 80px 24px;
-            color: var(--text-muted);
-            font-size: 18px;
-        }
-
-        .loading-spinner {
-            width: 48px;
-            height: 48px;
-            border: 4px solid var(--border);
-            border-top-color: var(--primary);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 24px;
-        }
-
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-
-        .error {
-            color: var(--error);
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 96px;
-            padding: 64px 24px;
-            border-top: 1px solid var(--border);
-            background: var(--bg-surface-solid);
-        }
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 48px;
-        }
-
-        .footer-section h3 {
-            font-size: 14px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--text-main);
-            margin-bottom: 24px;
-        }
-
-        .footer-links {
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .footer-links a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 15px;
-            font-weight: 500;
-            transition: var(--transition-fast);
-        }
-
-        .footer-links a:hover {
-            color: var(--primary);
-            transform: translateX(4px);
-        }
-
-        .footer-bottom {
-            margin-top: 64px;
-            padding-top: 32px;
-            border-top: 1px solid var(--border-light);
-            text-align: center;
-            font-size: 14px;
-            color: var(--text-subtle);
-        }
-
-        /* Responsive */
-        @media (min-width: 640px) {
-            .tagline { display: block; }
-            .last-update { display: block; }
-        }
-
-        @media (min-width: 768px) {
-            .controls { flex-direction: row; align-items: center; justify-content: space-between; }
-            .search-box { max-width: 400px; }
-            .filters { flex: 1; justify-content: flex-end; }
-        }
-
-        @media (max-width: 640px) {
-            .header-content { padding: 0 16px; }
-            .hero { padding: 48px 16px 32px; }
-            .stats-bar { padding: 16px; gap: 16px; grid-template-columns: 1fr 1fr; }
-            .container { padding: 0 16px; }
-            .entry { padding: 20px; }
-            .entries-grid.card-view { grid-template-columns: 1fr; }
-            .shuffle-indicator { display: none; }
-            .feed-header { flex-direction: column; align-items: flex-start; gap: 16px; }
-            .view-controls { width: 100%; justify-content: space-between; }
-        }
-
-        /* Fade animation for shuffled content */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .entry.fade-in {
-            animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-blobs">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-    </div>
-    <header>
-        <div class="header-content">
-            <a href="https://x.com/checkonhumanity" class="logo">
-                <div class="logo-icon">🌍</div>
-                <div>
-                    <h1>HumanityCheck</h1>
-                    <p class="tagline">Tracking verified human progress</p>
-                </div>
+
+    <header id="siteHeader">
+        <div class="header-inner">
+            <a href="https://x.com/checkonhumanity" class="logo" aria-label="HumanityCheck home">
+                <span class="logo-mark" aria-hidden="true">HC</span>
+                <span class="logo-text">HumanityCheck</span>
             </a>
-            <div class="header-actions">
-                <span class="last-update">Last updated: <span id="lastUpdateTime">--</span></span>
-                <div class="shuffle-indicator">
-                    <div class="shuffle-dot"></div>
-                    <span>Auto-refresh active</span>
-                </div>
-            </div>
+            <nav class="header-right">
+                <span class="live-badge" aria-label="Data is live">
+                    <span class="live-dot"></span>
+                    Live
+                </span>
+                <span class="last-updated">Updated <span id="lastUpdateTime">—</span></span>
+            </nav>
         </div>
     </header>
 
-    <section class="hero">
-        <h2>Humanity is making progress.</h2>
-        <p>Real breakthroughs and measurable improvements happening right now across health, climate, technology, and human development.</p>
-    </section>
-
-    <section class="stats-bar">
-        <div class="stat-card">
-            <div class="stat-value" id="totalEntries">--</div>
-            <div class="stat-label">Updates This Week</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="totalSources">--</div>
-            <div class="stat-label">Verified Sources</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="topField">--</div>
-            <div class="stat-label">Most Active Field</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-value" id="updateFreq">--</div>
-            <div class="stat-label">Updates Daily</div>
-        </div>
-    </section>
-
-    <main class="container">
-        <div class="controls">
-            <input type="search" class="search-box" placeholder="Search breakthroughs..." id="searchBox">
-            <div class="filters">
-                <span class="filter-label">Filter by field:</span>
-                <button class="filter-btn active" data-field="all">All <span class="count"></span></button>
-                <button class="filter-btn" data-field="health">
-                    <span class="filter-icon">🏥</span>
-                    Health <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="technology">
-                    <span class="filter-icon">💻</span>
-                    Technology <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="climate">
-                    <span class="filter-icon">🌡️</span>
-                    Climate <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="energy">
-                    <span class="filter-icon">⚡</span>
-                    Energy <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="education">
-                    <span class="filter-icon">📚</span>
-                    Education <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="development">
-                    <span class="filter-icon">🏗️</span>
-                    Development <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="peace">
-                    <span class="filter-icon">🕊️</span>
-                    Peace <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="agriculture">
-                    <span class="filter-icon">🌾</span>
-                    Agriculture <span class="count"></span>
-                </button>
-                <button class="filter-btn" data-field="space">
-                    <span class="filter-icon">🚀</span>
-                    Space <span class="count"></span>
-                </button>
+    <section class="hero" aria-labelledby="heroHeading">
+        <p class="hero-kicker">Verified progress from 22+ institutional sources</p>
+        <h1 id="heroHeading">The world is getting<br><em>better</em>, measurably.</h1>
+        <p class="hero-sub">Breakthroughs in health, climate, technology and human development — sourced from peer-reviewed research and trusted institutions.</p>
+        <div class="hero-stats" role="list" aria-label="Key statistics">
+            <div class="hero-stat" role="listitem">
+                <span class="hero-stat-value" id="totalEntries">—</span>
+                <span class="hero-stat-label">This week</span>
+            </div>
+            <div class="hero-stat-divider" aria-hidden="true"></div>
+            <div class="hero-stat" role="listitem">
+                <span class="hero-stat-value" id="totalSources">—</span>
+                <span class="hero-stat-label">Sources</span>
+            </div>
+            <div class="hero-stat-divider" aria-hidden="true"></div>
+            <div class="hero-stat" role="listitem">
+                <span class="hero-stat-value" id="topField">—</span>
+                <span class="hero-stat-label">Top field</span>
+            </div>
+            <div class="hero-stat-divider" aria-hidden="true"></div>
+            <div class="hero-stat" role="listitem">
+                <span class="hero-stat-value" id="updateFreq">—</span>
+                <span class="hero-stat-label">Daily avg</span>
             </div>
         </div>
+    </section>
 
-        <div class="feed">
-            <div class="feed-header">
-                <h3 class="feed-title">Latest Progress Updates</h3>
-                <div class="view-controls">
-                    <select class="sort-dropdown" id="sortDropdown">
-                        <option value="recent">Most Recent</option>
-                        <option value="impact">Highest Impact</option>
-                        <option value="category">By Category</option>
-                        <option value="random">Random Order</option>
-                    </select>
-                    <div class="view-toggle">
-                        <button class="view-btn active" onclick="setView('list')">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="8" y1="6" x2="21" y2="6"></line>
-                                <line x1="8" y1="12" x2="21" y2="12"></line>
-                                <line x1="8" y1="18" x2="21" y2="18"></line>
-                                <line x1="3" y1="6" x2="3" y2="6"></line>
-                                <line x1="3" y1="12" x2="3" y2="12"></line>
-                                <line x1="3" y1="18" x2="3" y2="18"></line>
-                            </svg>
-                            List
-                        </button>
-                        <button class="view-btn" onclick="setView('card')">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="3" width="7" height="7"></rect>
-                                <rect x="14" y="14" width="7" height="7"></rect>
-                                <rect x="3" y="14" width="7" height="7"></rect>
-                            </svg>
-                            Cards
-                        </button>
-                        <button class="view-btn" onclick="setView('compact')">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="3" y1="6" x2="21" y2="6"></line>
-                                <line x1="3" y1="12" x2="21" y2="12"></line>
-                                <line x1="3" y1="18" x2="21" y2="18"></line>
-                            </svg>
-                            Compact
-                        </button>
-                    </div>
+    <main class="main-content">
+        <div class="toolbar">
+            <div class="search-wrapper">
+                <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+                <input type="search" class="search-input" placeholder="Search updates…" id="searchBox" aria-label="Search updates">
+            </div>
+            <div class="toolbar-right">
+                <select class="sort-select" id="sortDropdown" aria-label="Sort order">
+                    <option value="recent">Newest</option>
+                    <option value="impact">Impact</option>
+                    <option value="category">Category</option>
+                    <option value="random">Shuffle</option>
+                </select>
+                <div class="view-toggle" role="radiogroup" aria-label="View mode">
+                    <button class="vt-btn active" onclick="setView('list')" role="radio" aria-checked="true" aria-label="List view">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><circle cx="4" cy="6" r="1"></circle><circle cx="4" cy="12" r="1"></circle><circle cx="4" cy="18" r="1"></circle></svg>
+                    </button>
+                    <button class="vt-btn" onclick="setView('card')" role="radio" aria-checked="false" aria-label="Card view">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect></svg>
+                    </button>
+                    <button class="vt-btn" onclick="setView('compact')" role="radio" aria-checked="false" aria-label="Compact view">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+                    </button>
                 </div>
             </div>
-            <div class="entries-grid" id="feed">
-                <div class="loading">
-                    <div class="loading-spinner"></div>
-                    <p>Loading progress updates...</p>
-                </div>
+        </div>
+
+        <div class="filters-bar" role="tablist" aria-label="Filter by category">
+            <button class="pill active" data-field="all" role="tab" aria-selected="true">All <span class="count"></span></button>
+            <button class="pill" data-field="health" role="tab" aria-selected="false">Health <span class="count"></span></button>
+            <button class="pill" data-field="technology" role="tab" aria-selected="false">Technology <span class="count"></span></button>
+            <button class="pill" data-field="climate" role="tab" aria-selected="false">Climate <span class="count"></span></button>
+            <button class="pill" data-field="energy" role="tab" aria-selected="false">Energy <span class="count"></span></button>
+            <button class="pill" data-field="education" role="tab" aria-selected="false">Education <span class="count"></span></button>
+            <button class="pill" data-field="development" role="tab" aria-selected="false">Development <span class="count"></span></button>
+            <button class="pill" data-field="peace" role="tab" aria-selected="false">Peace <span class="count"></span></button>
+            <button class="pill" data-field="agriculture" role="tab" aria-selected="false">Agriculture <span class="count"></span></button>
+            <button class="pill" data-field="space" role="tab" aria-selected="false">Space <span class="count"></span></button>
+        </div>
+
+        <div class="entries-grid" id="feed" role="feed" aria-label="Progress updates">
+            <div class="loading-state">
+                <div class="loader"></div>
+                <p>Loading updates…</p>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>About</h3>
-                <div class="footer-links">
-                    <a href="#" onclick="showAbout(); return false;">Our Mission</a>
-                    <a href="#" onclick="showMethodology(); return false;">Methodology</a>
-                    <a href="#" onclick="showCategories(); return false;">Categories Explained</a>
-                </div>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-mark footer-mark" aria-hidden="true">HC</span>
+                <p class="footer-tagline">Countering pessimism with peer-reviewed facts.</p>
             </div>
-            <div class="footer-section">
-                <h3>Sources</h3>
-                <div class="footer-links">
-                    <a href="#" onclick="showCriteria(); return false;">Selection Criteria</a>
-                    <a href="#" onclick="showVerification(); return false;">Verification Process</a>
-                </div>
+            <div class="footer-col">
+                <h4>About</h4>
+                <a href="#" onclick="showAbout(); return false;">Our Mission</a>
+                <a href="#" onclick="showMethodology(); return false;">Methodology</a>
+                <a href="#" onclick="showCategories(); return false;">Categories</a>
             </div>
-            <div class="footer-section">
-                <h3>Contribute</h3>
-                <div class="footer-links">
-                    <a href="#" onclick="showDonate(); return false;">Support Us</a>
-                </div>
+            <div class="footer-col">
+                <h4>Sources</h4>
+                <a href="#" onclick="showCriteria(); return false;">Selection Criteria</a>
+                <a href="#" onclick="showVerification(); return false;">Verification</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contribute</h4>
+                <a href="#" onclick="showDonate(); return false;">Support Us</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2025 HumanityCheck. Data updated every 4 hours from verified sources. Content refreshes every 30 minutes.</p>
+            <p>&copy; 2025 HumanityCheck. Data refreshed every 4 hours from verified sources.</p>
         </div>
     </footer>
 
@@ -1279,20 +422,25 @@
 
         // Update filter counts
         function updateFilterCounts() {
-            document.querySelectorAll('.filter-btn').forEach(btn => {
+            document.querySelectorAll('.pill').forEach(btn => {
                 const field = btn.dataset.field;
                 const count = fieldCounts[field] || 0;
-                btn.querySelector('.count').textContent = count > 0 ? `(${count})` : '';
+                const countEl = btn.querySelector('.count');
+                if (countEl) countEl.textContent = count > 0 ? count : '';
             });
         }
 
         // Setup event listeners
         function setupEventListeners() {
             // Filter buttons
-            document.querySelectorAll('.filter-btn').forEach(btn => {
+            document.querySelectorAll('.pill').forEach(btn => {
                 btn.addEventListener('click', (e) => {
-                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    document.querySelectorAll('.pill').forEach(b => {
+                        b.classList.remove('active');
+                        b.setAttribute('aria-selected', 'false');
+                    });
                     e.currentTarget.classList.add('active');
+                    e.currentTarget.setAttribute('aria-selected', 'true');
                     activeFilter = e.currentTarget.dataset.field;
                     applyFilters();
                 });
@@ -1369,31 +517,23 @@
                 
                 return `
                     <article class="entry field-${entry.field}">
-                        
-                        <div class="entry-header">
+                        <div class="entry-head">
                             <a href="${entry.link}" target="_blank" rel="noopener" class="entry-title">
                                 ${escapeHtml(entry.title)}
                             </a>
-                            <span class="entry-field field-${entry.field}">
-                                <span class="field-icon">${fieldMeta.icon}</span>
+                            <span class="entry-tag field-${entry.field}">
                                 ${fieldMeta.name}
                             </span>
                         </div>
-                        <p class="entry-description">${escapeHtml(entry.description)}</p>
-                        <div class="entry-meta">
+                        <p class="entry-body">${escapeHtml(entry.description)}</p>
+                        <div class="entry-footer">
                             <span class="entry-source">${escapeHtml(entry.source)}</span>
-                            ${trustInfo.badge ? `<span class="entry-trust-badge">${trustInfo.badge}</span>` : ''}
+                            ${trustInfo.badge ? `<span class="trust-badge">${trustInfo.badge}</span>` : ''}
                             <span>${formatDate(entry.date)}</span>
-                            <div class="entry-actions">
-                                <button class="action-btn" onclick="shareEntry('${encodeURIComponent(entry.title)}', '${entry.link}')">
-                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
-                                        <polyline points="16 6 12 2 8 6"></polyline>
-                                        <line x1="12" y1="2" x2="12" y2="15"></line>
-                                    </svg>
-                                    Share
-                                </button>
-                            </div>
+                            <button class="share-btn" onclick="shareEntry('${encodeURIComponent(entry.title)}', '${entry.link}')">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></svg>
+                                Share
+                            </button>
                         </div>
                     </article>
                 `;
@@ -1403,8 +543,11 @@
         // Set view mode
         function setView(view) {
             currentView = view;
-            document.querySelectorAll('.view-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.textContent.trim().toLowerCase() === view);
+            document.querySelectorAll('.vt-btn').forEach(btn => {
+                const label = btn.getAttribute('aria-label') || '';
+                const isActive = label.toLowerCase().includes(view);
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-checked', isActive);
             });
             
             const grid = document.getElementById('feed');
@@ -1471,13 +614,15 @@
                 bottom: 24px;
                 left: 50%;
                 transform: translateX(-50%);
-                background: var(--text-primary);
-                color: var(--bg-primary);
-                padding: 12px 24px;
-                border-radius: 999px;
-                font-size: 14px;
+                background: var(--ink);
+                color: var(--surface-0);
+                padding: 10px 20px;
+                border-radius: 100px;
+                font-size: 13px;
+                font-weight: 500;
                 z-index: 1000;
-                animation: slideUp 0.3s ease;
+                animation: slideUp 0.3s var(--ease);
+                box-shadow: var(--shadow-3);
             `;
             toast.textContent = message;
             document.body.appendChild(toast);
