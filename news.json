@@ -1,13 +1,13 @@
 {
   "date": "2026-05-28",
-  "lastUpdated": "2026-05-28T07:53:46.502Z",
+  "lastUpdated": "2026-05-28T11:34:29.151Z",
   "metadata": {
     "version": "2.0",
     "executionTime": "87.9s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 20,
-    "totalCandidates": 227,
-    "totalSelected": 227,
+    "sourcesSuccessful": 19,
+    "totalCandidates": 218,
+    "totalSelected": 218,
     "entriesByField": {
       "health": 31,
       "climate": 25,
@@ -16,7 +16,7 @@
       "education": 9,
       "development": 16,
       "peace": 9,
-      "space": 26
+      "space": 17
     },
     "categoryIntegrity": {
       "health": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 24,
+        "kept": 15,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 32,
-      "topTierSources": 106,
-      "highCredibilitySources": 200
+      "highScoreEntries": 31,
+      "topTierSources": 97,
+      "highCredibilitySources": 191
     }
   },
   "entries": [
@@ -552,6 +552,22 @@
       "date": "2026-05-14"
     },
     {
+      "title": "Five recognized with honorary degrees",
+      "description": "Recipients chosen for their lifetime contributions and transformative achievements",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/five-recognized-with-honorary-degrees/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
+      "title": "Climate tech companies are going public. What’s next?",
+      "description": "This year, there’s been a wave of notable energy companies going public via IPO in the US. The solar and battery company Solv Energy went public in February, to the tune of $6 billion. X-energy, which is building small modular nuclear reactors, did the same in April, and its stocks surged on its first day…",
+      "link": "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
       "title": "South Africa Has AI Leverage. Its Draft Policy Leaves It Unused",
       "description": "This article is adapted by the author with permission from Tech Policy Press. Read the original article. South Africa is not just another developing country struggling to govern artificial intelligence; it is the exception with leverage, and the window to act on it is closing. It holds approximately 88 percent of global platinum-group metal reserves, critical inputs to parts of the semiconductor and data-center supply chains that make AI infrastructure possible. It hosts the largest data-center market on the continent. Its existing hyperscaler relationships give it procurement leverage that mo",
       "link": "https://spectrum.ieee.org/south-africa-ai-policy",
@@ -584,9 +600,9 @@
       "date": "2026-05-18"
     },
     {
-      "title": "Neutralizing the Gigascale Problem: How to Solve the Physical Power Paradox of Extreme AI Training Loads",
-      "description": "This sponsored article is brought to you by Ampace. As AI workloads grow to gigascale levels, the global data center industry has hit a hidden physical wall. The real bottleneck is no longer just the thermal limit of the chip or the capacity of the cooling system — it is the dynamic resilience of the power chain. Modern AI computing clusters, driven by massive GPU clusters, generate high-frequency, abrupt, and synchronized spikey pulse loads. As rack densities soar beyond 100 kW, these fluctuations are amplified into a “power paradox”: while the digital logic of AI is moving faster than ever, ",
-      "link": "https://spectrum.ieee.org/gigascale-ai-datacenter-power",
+      "title": "IEEE Program Aims to Connect the Billions Who Are Still Offline",
+      "description": "Given how integral the Internet has become to everyday tasks such as shopping, paying bills, and holding virtual meetings, it’s interesting that nearly 30 percent of the global population still has no access to it. More than 2 billion people are still offline, according to a report released in November by the International Telecommunication Union. More and more people are being connected, though, thanks to IEEE Future Networks’ Connecting the Unconnected (CTU) and similar programs. Since 2021, the technical community has been working to accelerate the development, standardization, and deployme",
+      "link": "https://spectrum.ieee.org/ieee-connect-the-unconnected",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-05-12"
@@ -600,20 +616,12 @@
       "date": "2026-05-27"
     },
     {
-      "title": "It’s official: Europe physicists plan to build 91-kilometer particle collider",
-      "description": "The $19 billion Future Circular Collider would build on results from CERN’s Large Hadron Collider, currently the world’s largest",
-      "link": "https://www.science.org/content/article/it-s-official-europe-physicists-plan-build-91-kilometer-particle-collider",
-      "source": "Science",
+      "title": "Understanding Phase Noise and Its Impact on RF System Performance",
+      "description": "A practical introduction to phase noise concepts, explaining how oscillator instability affects RF systems and how phase noise is measured, analyzed, and reported. What Attendees will Learn What phase noise is and why it matters — Learn how real-world oscillators differ from ideal ones, why short-term frequency instability arises, and why phase variations typically have a much greater impact than amplitude variations on system performance. How phase noise degrades system performance — Understand the most common effects of excessive phase noise: spectral regrowth, reciprocal mixing, and constel",
+      "link": "https://content.knowledgehub.wiley.com/understanding-phase-noise-fundamentals/",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-05-22"
-    },
-    {
-      "title": "U.S. agencies aren’t ready for the rising cost of making research papers free, report warns",
-      "description": "Science agencies could soon face nearly $1 billion publishing bill, Congressional analysts find",
-      "link": "https://www.science.org/content/article/u-s-agencies-aren-t-ready-rising-cost-making-research-papers-free-report-warns",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-05-22"
+      "date": "2026-05-28"
     },
     {
       "title": "Meet NASA Low Outgassing Standards With Adhesives for Aerospace and Optical Systems",
@@ -640,10 +648,50 @@
       "date": "2026-05-22"
     },
     {
+      "title": "Developers: Get Your Medical Mobile App Verified By IEEE",
+      "description": "Patients who use mobile applications to manage medical conditions including depression and chronic pain might assume the apps have been evaluated by regulatory agencies to be safe and effective. But that isn’t necessarily the case. Most of the more than 55,000 medical apps that claim to diagnose or treat a condition—or ones that provide clinical decision support, known as “therapeutic” apps—have never been assessed by any trusted neutral bodies or regulatory agencies to evaluate them for technical soundness, ethical design, or clinical benefit. The apps often don’t comply with regional data se",
+      "link": "https://spectrum.ieee.org/medical-mobile-app-ieee-verified",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
+      "description": "This sponsored article is brought to you by Wetour Robotics. A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at her belt. A logistics worker on a loading dock, gloves on, eyes on the pallet, needs to redirect a connected lift. A person using an assistive mobility device on a crowded street wants to nudge it forward without taking out a phone or speaking aloud. None of these moments call for a smarter robot. They call for a smarter way to be heard by the machines that already exist. The industry has been bui",
+      "link": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Manchester Code Made Bits Behave",
+      "description": "In the late 1940s—when computer engineers were grappling with unreliable hardware and noisy transmission environments—a team of engineers inside a modest lab at the University of Manchester, England, confronted a problem so fundamental that it threatened the viability of digital computing itself. Machines could generate bits, but they could not reliably read them back. The inconsistent reading back of memory data did not initially present itself as a grand theoretical challenge. It showed up as something more mundane: inconsistent computing results. Engineers including Frederic C. Williams, To",
+      "link": "https://spectrum.ieee.org/manchester-code-ieee-milestone",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-18"
+    },
+    {
+      "title": "The AI Hype Index: AI gets booed in graduation season",
+      "description": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can…",
+      "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
       "title": "Three UC Berkeley faculty members elected to UK’s Royal Society",
       "description": "A geophysicist, a chemist and a computer vision expert will become fellows of the 365-year-old science academy. The post Three UC Berkeley faculty members elected to UK’s Royal Society appeared first on Berkeley News.",
       "link": "https://news.berkeley.edu/2026/05/27/three-uc-berkeley-faculty-members-elected-to-uks-royal-society/",
       "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "The Download: keeping up with AI, and the future of IVF",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Stay on top of what’s going on in AI this summer Here at MIT Technology Review, we understand exactly how relentless the pace of news from the world of artificial intelligence…",
+      "link": "https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/",
+      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-05-27"
     },
@@ -672,38 +720,6 @@
       "date": "2026-05-26"
     },
     {
-      "title": "Developers: Get Your Medical Mobile App Verified By IEEE",
-      "description": "Patients who use mobile applications to manage medical conditions including depression and chronic pain might assume the apps have been evaluated by regulatory agencies to be safe and effective. But that isn’t necessarily the case. Most of the more than 55,000 medical apps that claim to diagnose or treat a condition—or ones that provide clinical decision support, known as “therapeutic” apps—have never been assessed by any trusted neutral bodies or regulatory agencies to evaluate them for technical soundness, ethical design, or clinical benefit. The apps often don’t comply with regional data se",
-      "link": "https://spectrum.ieee.org/medical-mobile-app-ieee-verified",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
-      "description": "This sponsored article is brought to you by Wetour Robotics. A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at her belt. A logistics worker on a loading dock, gloves on, eyes on the pallet, needs to redirect a connected lift. A person using an assistive mobility device on a crowded street wants to nudge it forward without taking out a phone or speaking aloud. None of these moments call for a smarter robot. They call for a smarter way to be heard by the machines that already exist. The industry has been bui",
-      "link": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "Manchester Code Made Bits Behave",
-      "description": "In the late 1940s—when computer engineers were grappling with unreliable hardware and noisy transmission environments—a team of engineers inside a modest lab at the University of Manchester, England, confronted a problem so fundamental that it threatened the viability of digital computing itself. Machines could generate bits, but they could not reliably read them back. The inconsistent reading back of memory data did not initially present itself as a grand theoretical challenge. It showed up as something more mundane: inconsistent computing results. Engineers including Frederic C. Williams, To",
-      "link": "https://spectrum.ieee.org/manchester-code-ieee-milestone",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-18"
-    },
-    {
-      "title": "IEEE Program Aims to Connect the Billions Who Are Still Offline",
-      "description": "Given how integral the Internet has become to everyday tasks such as shopping, paying bills, and holding virtual meetings, it’s interesting that nearly 30 percent of the global population still has no access to it. More than 2 billion people are still offline, according to a report released in November by the International Telecommunication Union. More and more people are being connected, though, thanks to IEEE Future Networks’ Connecting the Unconnected (CTU) and similar programs. Since 2021, the technical community has been working to accelerate the development, standardization, and deployme",
-      "link": "https://spectrum.ieee.org/ieee-connect-the-unconnected",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-12"
-    },
-    {
       "title": "Rethinking organizational design in the age of agentic AI",
       "description": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution. Although 85% of organizations say they want to be agentic within the next three years, 76% say their current operations and infrastructure can’t support that change. They cite a lack of readiness across people, processes, and workflows. The sticky…",
       "link": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
@@ -715,6 +731,14 @@
       "title": "What Makes a Job Dull, Dirty, or Dangerous?",
       "description": "For years, the field of robotics has used the terms “dull, dirty, and dangerous” (DDD) to describe the types of tasks or jobs where robots might be useful—by doing work that’s undesirable for people. A classic example of a DDD job is one of “repetitive physical labor on a steaming hot factory floor involving heavy machinery that threatens life and limb.” But determining which human activities fit into these categories is not as straightforward as it seems. What exactly is a “dull” task, and who makes that assumption? Is “dirty” work just about needing to wash your hands afterwards, or is there",
       "link": "https://spectrum.ieee.org/dull-dirty-dangerous-robots",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-18"
+    },
+    {
+      "title": "Agentic AI for Robot Teams",
+      "description": "This presentation highlights recent efforts at the Johns Hopkins Applied Physics Laboratory to advance agentic AI for collaborative robotic teams. It begins by framing the core challenges of enabling autonomy, coordination, and adaptability across heterogeneous systems, then introduces a scalable architecture designed to support agentic behaviors in multi-robot environments. The talk concludes with key challenges encountered and practical lessons learned from ongoing research and development. Key learnings Provides an introduction to LLM-based AI Agents Describes an approach to applying LLM-ba",
+      "link": "https://events.bizzabo.com/867156",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-05-18"
@@ -744,36 +768,12 @@
       "date": "2026-05-26"
     },
     {
-      "title": "AI won’t replace you but someone using AI might",
-      "description": "Generative AI is transforming the workplace faster than ever, but new research from the University of Vaasa suggests the biggest threat may not be AI itself — it’s falling behind in learning how to use it. Researcher Zhe Zhu found that employees who see tools like ChatGPT and Gemini as helpful collaborators rather than job-stealing rivals tend to be more engaged, adaptable, and optimistic about their careers.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260525000448.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-25"
-    },
-    {
-      "title": "Scientists just found a faster, cleaner way to extract lithium for EV batteries",
-      "description": "A breakthrough lithium-extraction method could help solve one of clean energy’s dirtiest problems. Researchers at Columbia Engineering have developed a fast new technique that pulls lithium directly from salty underground brines using a temperature-sensitive solvent, avoiding the giant evaporation ponds that can take years and drain precious water supplies. Even better, the method works on low-quality lithium sources that current technologies struggle to use.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260522023132.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-23"
-    },
-    {
       "title": "Ancient chemistry trick unlocks new type of glass that traps CO2 and hydrogen",
       "description": "Researchers have discovered how to fine-tune a futuristic type of porous glass that can trap gases like CO2 and hydrogen. Inspired by centuries-old glassmaking techniques, the team added sodium and lithium compounds to make the material easier to process and shape. The breakthrough could accelerate the development of high-performance materials for clean energy, gas storage, and advanced manufacturing.",
       "link": "https://www.sciencedaily.com/releases/2026/05/260521072404.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-05-22"
-    },
-    {
-      "title": "The Download: keeping up with AI, and the future of IVF",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Stay on top of what’s going on in AI this summer Here at MIT Technology Review, we understand exactly how relentless the pace of news from the world of artificial intelligence…",
-      "link": "https://www.technologyreview.com/2026/05/27/1138048/the-download-ai-future-ivf-technology/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-27"
     },
     {
       "title": "The Download: puncturing the AI jobs panic",
@@ -808,124 +808,44 @@
       "date": "2026-05-26"
     },
     {
-      "title": "Hi-res microscopes give biologists petabytes of data. Scientists are creating an AI assistant to make sense of it.",
-      "description": "At UC Berkeley, high-resolution microscopes are generating images of cells and embryos day and night, collecting massive amounts of data to train an AI model for living biological systems. The post Hi-res microscopes give biologists petabytes of data. Scientists are creating an AI assistant to make sense of it. appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/22/hi-res-microscopes-give-biologists-petabytes-of-data-scientists-are-creating-an-ai-assistant-to-make-sense-of-it/",
-      "source": "UC Berkeley",
+      "title": "AI-powered spectrometer chip shrinks lab technology to the size of a grain of sand",
+      "description": "A new AI-powered chip from UC Davis can analyze light and chemicals using a device tiny enough to fit almost anywhere. By combining smart silicon sensors with machine learning, it achieves lab-style spectral analysis without the bulky equipment.",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260525000501.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-05-22"
+      "date": "2026-05-26"
     },
     {
-      "title": "This professor uses data to reveal hidden patterns in centuries of human storytelling",
-      "description": "UC Berkeley’s David Bamman applies data-driven analysis to human artistic output — often with surprising results. The post This professor uses data to reveal hidden patterns in centuries of human storytelling appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/21/this-professor-uses-data-to-reveal-hidden-patterns-in-centuries-of-human-storytelling/",
-      "source": "UC Berkeley",
+      "title": "AI won’t replace you but someone using AI might",
+      "description": "Generative AI is transforming the workplace faster than ever, but new research from the University of Vaasa suggests the biggest threat may not be AI itself — it’s falling behind in learning how to use it. Researcher Zhe Zhu found that employees who see tools like ChatGPT and Gemini as helpful collaborators rather than job-stealing rivals tend to be more engaged, adaptable, and optimistic about their careers.",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260525000448.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-05-22"
+      "date": "2026-05-25"
     },
     {
-      "title": "The Download: coding’s future, the ‘Steroid Olympics,’ and AI-driven science",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claude, attendees were asked if they’d shipped code…",
-      "link": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
-      "source": "MIT Tech Review",
+      "title": "Scientists just found a faster, cleaner way to extract lithium for EV batteries",
+      "description": "A breakthrough lithium-extraction method could help solve one of clean energy’s dirtiest problems. Researchers at Columbia Engineering have developed a fast new technique that pulls lithium directly from salty underground brines using a temperature-sensitive solvent, avoiding the giant evaporation ponds that can take years and drain precious water supplies. Even better, the method works on low-quality lithium sources that current technologies struggle to use.",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260522023132.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-05-22"
+      "date": "2026-05-23"
     },
     {
-      "title": "The Enhanced Games fit right in with the rest of 2026’s longevity vibes",
-      "description": "This Sunday, a group of 42 athletes will gather in Las Vegas to compete in a somewhat unusual sporting competition. Participants in the inaugural Enhanced Games are being encouraged to take performance-enhancing drugs. The goal is to “push the boundaries of human performance.” The games’ organizers have said that competitors will only be taking substances that…",
-      "link": "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-22"
-    },
-    {
-      "title": "The largest study of AI use by undergrads is in, revealing disparities in access — and in cheating",
-      "description": "Researchers found that how student use, and misuse, AI varies by subject and by socioeconomics. The post The largest study of AI use by undergrads is in, revealing disparities in access — and in cheating appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/21/the-largest-study-of-ai-use-by-undergrads-is-in-revealing-disparities-in-access-and-in-cheating/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "SEM-Guided Low-kV FIB Finishing for Leading-Edge Semiconductor Failure Analysis",
-      "description": "Discover how the ZEISS Crossbeam 750 FIBSEM sets a new benchmark for precise TEM lamella prep, tomography, and advanced nanofabrication. This delivers better resolution, better SNR, larger usable FOV, and shorter acquisition times. Learn how uninterrupted FIB milling will reduce damage and rework, accelerate time to TEM, and increase first pass success—so your FA, yield, and materials teams make faster, confident data driven decisions. Join us to discover how the new ZEISS Crossbeam 750 with its see while you mill capability delivers precision and clarity—every time—for demanding FIB-SEM workf",
-      "link": "https://events.bizzabo.com/868497/home",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "Roundtables: Can AI Learn to Understand the World?",
-      "description": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter…",
-      "link": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "Scaling creativity in the age of AI",
-      "description": "Storytelling is core to humanity’s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans’ innovation of natural pigments and charcoals for cave paintings to literal representation by the camera. The landscape of storytelling continues to shift under our…",
-      "link": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "Violence against women remains high — particularly for marginalized groups",
-      "description": "A UC Berkeley study of California hospital data reveals persistent racial disparities and the higher risks faced by Black, multiracial and Indigenous women. The post Violence against women remains high — particularly for marginalized groups appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/19/violence-against-women-remains-high-particularly-for-marginalized-groups/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-19"
-    },
-    {
-      "title": "Astrophysicist Alex Filippenko awarded Gruber Cosmology Prize for work on supernovae",
-      "description": "By clarifying the differences among various types of exploding stars, Filippenko enabled them to be used to measure the expansion of the universe. The post Astrophysicist Alex Filippenko awarded Gruber Cosmology Prize for work on supernovae appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/19/astrophysicist-alex-filippenko-awarded-gruber-cosmology-prize-for-work-on-supernovae/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-19"
-    },
-    {
-      "title": "For Black Americans, wealth offers scant protection from pregnancy risks, scholar finds",
-      "description": "Low-income Black women face higher risks of death in pregnancy — that’s accepted fact. But in a new book, UC Berkeley scholar Khiara M. Bridges shows the dangerous impact of interpersonal and structural racism even on wealthy Black mothers. The post For Black Americans, wealth offers scant protection from pregnancy risks, scholar finds appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/05/18/for-black-americans-wealth-offers-scant-protection-from-pregnancy-risks-scholar-finds/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-05-18"
-    },
-    {
-      "title": "Agentic AI for Robot Teams",
-      "description": "This presentation highlights recent efforts at the Johns Hopkins Applied Physics Laboratory to advance agentic AI for collaborative robotic teams. It begins by framing the core challenges of enabling autonomy, coordination, and adaptability across heterogeneous systems, then introduces a scalable architecture designed to support agentic behaviors in multi-robot environments. The talk concludes with key challenges encountered and practical lessons learned from ongoing research and development. Key learnings Provides an introduction to LLM-based AI Agents Describes an approach to applying LLM-ba",
-      "link": "https://events.bizzabo.com/867156",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-18"
-    },
-    {
-      "title": "Some spinosaurs cried salty tears to thrive in brackish waters",
-      "description": "Fossil evidence suggests some predatory dinosaurs could expel salt from their bloodstream like modern birds and crocodiles do",
-      "link": "https://www.science.org/content/article/some-spinosaurs-cried-salty-tears-thrive-brackish-waters",
+      "title": "It’s official: Europe physicists plan to build 91-kilometer particle collider",
+      "description": "The $19 billion Future Circular Collider would build on results from CERN’s Large Hadron Collider, currently the world’s largest",
+      "link": "https://www.science.org/content/article/it-s-official-europe-physicists-plan-build-91-kilometer-particle-collider",
       "source": "Science",
       "field": "technology",
-      "date": "2026-05-27"
+      "date": "2026-05-22"
     },
     {
-      "title": "Surveys capture the pulsing of mantle plumes—a potential cause of mass extinctions",
-      "description": "Seismic imaging and drilling cruises bolster a controversial explanation for ancient surges in warming",
-      "link": "https://www.science.org/content/article/surveys-capture-pulsing-mantle-plumes-potential-cause-mass-extinctions",
+      "title": "U.S. agencies aren’t ready for the rising cost of making research papers free, report warns",
+      "description": "Science agencies could soon face nearly $1 billion publishing bill, Congressional analysts find",
+      "link": "https://www.science.org/content/article/u-s-agencies-aren-t-ready-rising-cost-making-research-papers-free-report-warns",
       "source": "Science",
       "field": "technology",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Lawmakers propose banning all U.S.-Chinese research collaborations",
-      "description": "Critics say bill would weaken U.S. science by cutting flows of ideas and talent",
-      "link": "https://www.science.org/content/article/lawmakers-propose-banning-all-u-s-chinese-research-collaborations",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-05-27"
+      "date": "2026-05-22"
     },
     {
       "title": "Featured video: MIT teachings, free to the world",
@@ -952,6 +872,38 @@
       "date": "2026-05-18"
     },
     {
+      "title": "New drug ‘functionally cures’ many hepatitis B virus infections",
+      "description": "GSK’s “bepi” performs better than expected in efficacy trials, but its global impact is likely limited",
+      "link": "https://www.science.org/content/article/new-drug-functionally-cures-many-hepatitis-b-virus-infections",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
+      "title": "Some spinosaurs cried salty tears to thrive in brackish waters",
+      "description": "Fossil evidence suggests some predatory dinosaurs could expel salt from their bloodstream like modern birds and crocodiles do",
+      "link": "https://www.science.org/content/article/some-spinosaurs-cried-salty-tears-thrive-brackish-waters",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Surveys capture the pulsing of mantle plumes—a potential cause of mass extinctions",
+      "description": "Seismic imaging and drilling cruises bolster a controversial explanation for ancient surges in warming",
+      "link": "https://www.science.org/content/article/surveys-capture-pulsing-mantle-plumes-potential-cause-mass-extinctions",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Lawmakers propose banning all U.S.-Chinese research collaborations",
+      "description": "Critics say bill would weaken U.S. science by cutting flows of ideas and talent",
+      "link": "https://www.science.org/content/article/lawmakers-propose-banning-all-u-s-chinese-research-collaborations",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-05-27"
+    },
+    {
       "title": "Wikipedia’s gender gap has flipped for one group of scientists",
       "description": "A new study finds women biology faculty are now more likely than men to have a biography on the popular website",
       "link": "https://www.science.org/content/article/wikipedia-s-gender-gap-has-flipped-one-group-scientists",
@@ -972,6 +924,54 @@
       "description": "Past outbreaks spawned clever strategies for testing antivirals and antibodies, but researchers will still face major challenges on the ground",
       "link": "https://www.science.org/content/article/can-fast-nimble-clinical-trials-deliver-drug-halt-new-ebola-outbreak",
       "source": "Science",
+      "field": "technology",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "Meet the microbiologist and science advocate who’s headed to Congress",
+      "description": "Jasmine Clark led a March for Science in 2017. She just won a Georgia primary for a safe Democratic House seat",
+      "link": "https://www.science.org/content/article/meet-microbiologist-and-science-advocate-who-s-headed-congress",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Brighter MRI signals",
+      "description": "New MRI sensors developed at MIT sensitively detect target molecules in the brain and body.",
+      "link": "https://news.mit.edu/2026/brighter-mri-signals-0527",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Place-based pathways to a viable future",
+      "description": "Living Climate Futures Symposium explores climate challenges and solutions at the community level.",
+      "link": "https://news.mit.edu/2026/place-based-pathways-to-a-viable-future-0527",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Designing a career, on and off the track, at MIT",
+      "description": "Senior Krystal Montgomery explored design courses to shape a career in web development. As a national champion in track, learning to balance athletics and academics was key to her success.",
+      "link": "https://news.mit.edu/2026/designing-career-at-mit-krystal-montgomery-0527",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-27"
+    },
+    {
+      "title": "Ten from MIT accept 2026 Fulbright awards",
+      "description": "This year, over half of MIT’s Fulbright applicants won awards. The current students and alumni will embark on research projects abroad in 2026-27.",
+      "link": "https://news.mit.edu/2026/fulbright-awards-0526",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "Bridging real human movement with digital technology",
+      "description": "MIT.nano Immersion Lab collaborates with Emerson College students to advance the art of virtual production.",
+      "link": "https://news.mit.edu/2026/bridging-real-human-movement-digital-technology-0526",
+      "source": "MIT News",
       "field": "technology",
       "date": "2026-05-26"
     },
@@ -1024,20 +1024,20 @@
       "date": "2026-05-25"
     },
     {
-      "title": "Announcing the 2026 Hollings Scholarship recipients!",
-      "description": "Announcing the 2026 Hollings Scholarship recipients! The 2024 class of EPP/MSI and Hollings undergraduate scholars. (Image credit: Chris Zimmer Photography) Download Image May 20, 2026 NOAA’s Office of Education has selected 128 Ernest F. Hollings undergraduate scholars for the class of 2026-2028. Scholars receive a two-year academic scholarship for their junior and senior years, a paid summer internship opportunity, and funding to participate in up to two national scientific conferences. Congratulations to the 2026 Hollings scholars! This year's class of scholars brings incredible skill and p",
-      "link": "https://www.noaa.gov/office-education/hollings-scholarship/news/announcing-2026-hollings-scholarship-recipients",
-      "source": "NOAA",
-      "field": "education",
-      "date": "2026-05-19"
-    },
-    {
       "title": "Education in Sri Lanka",
       "description": "Education in Sri Lanka 2023 US$1,500,000 GPE 2025 grant eligibility Multiplier System capacity Other key documentsWorld BankJavier Luque Ministry of education 2026–2030 commitments GPE 2025 data Key documents For many decades, Sri Lanka implemented a free education policy, expanded the number of facilities and supported student welfare by providing free mid-day meals, subsidized transport, free textbooks and uniforms. The goal was to ensure inclusive and equitable quality general education for every school-age child in the country. The sudden economic downturn after the COVID-19 pandemic broug",
       "link": "https://www.globalpartnership.org/where-we-work/sri-lanka",
       "source": "GPE",
       "field": "education",
       "date": "2026-05-25"
+    },
+    {
+      "title": "Announcing the 2026 Hollings Scholarship recipients!",
+      "description": "Announcing the 2026 Hollings Scholarship recipients! The 2024 class of EPP/MSI and Hollings undergraduate scholars. (Image credit: Chris Zimmer Photography) Download Image May 20, 2026 NOAA’s Office of Education has selected 128 Ernest F. Hollings undergraduate scholars for the class of 2026-2028. Scholars receive a two-year academic scholarship for their junior and senior years, a paid summer internship opportunity, and funding to participate in up to two national scientific conferences. Congratulations to the 2026 Hollings scholars! This year's class of scholars brings incredible skill and p",
+      "link": "https://www.noaa.gov/office-education/hollings-scholarship/news/announcing-2026-hollings-scholarship-recipients",
+      "source": "NOAA",
+      "field": "education",
+      "date": "2026-05-19"
     },
     {
       "title": "ADB Supports Student Accommodation in Kazakhstan Through PPP Advisory",
@@ -1088,14 +1088,6 @@
       "date": "2026-05-14"
     },
     {
-      "title": "ADB President Says MDBs Are Mobilizing to Help Countries Hit by Crisis",
-      "description": "ADB President Masato Kanda told G7 finance ministers and central bank governors in Paris that multilateral development banks (MDBs) are moving together to help countries manage the economic fallout from the Middle East conflict, combining financing, policy support, private sector instruments, and technical expertise to protect vulnerable economies.",
-      "link": "https://www.adb.org/news/adb-president-says-mdbs-are-mobilizing-help-countries-hit-crisis",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-05-19"
-    },
-    {
       "title": "ADB to Mobilize $30 Billion by 2030 to Support ASEAN Countries",
       "description": "ADB has announced it will mobilize $30 billion by 2030 to help the Association of Southeast Asian Nations (ASEAN) advance long-term development priorities and withstand external shocks. ADB President Masato Kanda announced the commitment during his attendance at the 48th ASEAN Summit in Cebu, where its leaders welcomed ADB’s longstanding partnership with the bloc and its role as the region’s main bank.",
       "link": "https://www.adb.org/news/adb-mobilize-30-billion-2030-support-asean-countries",
@@ -1126,6 +1118,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-05-04"
+    },
+    {
+      "title": "ADB President Says MDBs Are Mobilizing to Help Countries Hit by Crisis",
+      "description": "ADB President Masato Kanda told G7 finance ministers and central bank governors in Paris that multilateral development banks (MDBs) are moving together to help countries manage the economic fallout from the Middle East conflict, combining financing, policy support, private sector instruments, and technical expertise to protect vulnerable economies.",
+      "link": "https://www.adb.org/news/adb-president-says-mdbs-are-mobilizing-help-countries-hit-crisis",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-05-19"
     },
     {
       "title": "ADB, Singapore Renew Partnership to Accelerate Cross-Border Clean Energy in Southeast Asia",
@@ -1248,42 +1248,10 @@
       "date": "2026-02-10"
     },
     {
-      "title": "NASA Develops Sensor to Improve Firefighter Safety",
-      "description": "With peak wildfire season approaching, scientists with NASA’s FireSense project have created low-cost thermal sensors to install on fire bulldozers that will alert firefighters when heat from a nearby fire reaches a dangerous level. The sensors also provide researchers with important data on what happens beneath the canopy during a fire. In April, researchers and […]",
-      "link": "https://www.nasa.gov/wildland-fire-management/nasa-develops-sensor-to-improve-firefighter-safety/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "NASA-European Sea Level Mission Homes in on El Niño",
-      "description": "Sea level data from a satellite launched by NASA and European partners shows that a swell of warm water hundreds of miles wide has arrived in the Pacific Ocean off the coast of South America, a sign that El Niño will likely emerge later in the year. Because water expands as it warms, a rise […]",
-      "link": "https://www.nasa.gov/missions/jason-cs-sentinel-6/sentinel-6-michael-freilich/nasa-european-sea-level-mission-homes-in-on-el-nino/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Released: NASA Goddard Issues Draft Request for Proposal for the Landsat 10 Spacecraft",
-      "description": "The Landsat 10 Spacecraft Draft Request for Proposal (DRFP) is available for review via SAM.gov.",
-      "link": "https://science.nasa.gov/missions/landsat/released-nasa-goddard-issues-draft-request-for-proposal-for-the-landsat-10-spacecraft/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "La NASA ofrece información actualizada sobre rovers, módulos de alunizaje y misiones de Base Lunar",
-      "description": "Durante una sesión informativa sobre el programa Base Lunar, celebrada en la sede de la NASA en Washington, la agencia anunció nuevos contratos para el desarrollo de vehículos lunares con capacidad para transportar tripulación y módulos de aterrizaje de carga no tripulados con destino a la Luna. Directivos de la NASA también dieron a conocer […]",
-      "link": "https://www.nasa.gov/news-release/la-nasa-ofrece-informacion-actualizada-sobre-rovers-modulos-de-alunizaje-y-misiones-de-base-lunar/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Girl Scouts Event Brings Space Science to the Next Generation",
-      "description": "In early May 2026, NASA employees, contractors, and volunteers helped to bring Heliophysics to girls of all ages in a fun-filled weekend of hands-on science activities and experiments.",
-      "link": "https://science.nasa.gov/learning-resources/science-activation/girl-scouts-event-brings-space-science-to-the-next-generation/",
-      "source": "NASA",
+      "title": "Webb reveals black hole that formed before its galaxy",
+      "description": "Using the unprecedented imaging and spectroscopic power of the NASA/ESA/CSA James Webb Space Telescope, researchers have mapped the motion and composition of gas orbiting a black hole in the centre of Abell2744-QSO1, a tiny galaxy more than 13 billion light-years away. The results suggest that the 50-million-solar-mass black hole predates its host galaxy, possibly forming within the first second of the Big Bang, and must have been immense from the start.",
+      "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_reveals_black_hole_that_formed_before_its_galaxy",
+      "source": "ESA",
       "field": "space",
       "date": "2026-05-27"
     },
@@ -1296,42 +1264,10 @@
       "date": "2026-05-27"
     },
     {
-      "title": "A Shift in What’s Shaping U.S. Landscapes",
-      "description": "Wild disturbances are on the rise, while land disturbed by human activity has been decreasing.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-shift-in-whats-shaping-u-s-landscapes/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-28"
-    },
-    {
-      "title": "La NASA anunciará la tripulación de Artemis III e informará sobre el progreso de la misión",
-      "description": "La NASA informará sobre los avances de la misión Artemis III de la agencia y anunciará los astronautas asignados a este vuelo de prueba durante un evento en vivo a las 11 a.m. EDT (hora del este) del martes 9 de junio en el Centro Espacial Johnson de la agencia en Houston. Siga la rueda […]",
-      "link": "https://www.nasa.gov/news-release/la-nasa-anunciara-la-tripulacion-de-artemis-iii-e-informara-sobre-el-progreso-de-la-mision/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Students Build Moon Robots for NASA’s 2026 Lunabotics Challenge",
-      "description": "Katherine Rauscher of Michigan Technological University prepares her team’s prototype lunar robot for its turn during the finals for NASA’s 2026 Lunabotics Challenge competition on Tuesday, May 19, 2026, at the Kennedy Space Center Visitor Complex in Florida. Forty-seven teams from around the U.S. designed and built remote-controlled robots capable of traversing challenging lunar terrain while […]",
-      "link": "https://www.nasa.gov/image-article/students-build-moon-robots-for-nasas-2026-lunabotics-challenge/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Webinar 6/17: Discover, Access, and Task Commercial Data with NASA’s Satellite Data Explorer",
-      "description": "Learn how to use the Satellite Data Explorer to search, access, and task commercial Earth Observation data.",
-      "link": "https://science.nasa.gov/science-research/earth-science/webinar-6-17-discover-access-and-task-commercial-data-with-nasas-satellite-data-explorer/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "NASA’s Webb Reveals Black Hole That Formed Before Its Galaxy",
-      "description": "Which comes first, the galaxy or the black hole? We don’t know, but scientists have long thought it could be the galaxy: Large stars within an existing galaxy consume their fuel and collapse to form black holes, which can gobble up surrounding material and merge over time to form more massive entities. But it’s hard […]",
-      "link": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-black-hole-that-formed-before-its-galaxy/",
-      "source": "NASA",
+      "title": "Hot surfaces during Europe's heatwave 'seen' by Sentinel-3",
+      "description": "Image: Europe is in the middle of a heatwave – Copernicus Sentinel-3 captured this image on Tuesday 26 May",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/05/Hot_surfaces_during_Europe_s_heatwave_seen_by_Sentinel-3",
+      "source": "ESA",
       "field": "space",
       "date": "2026-05-27"
     },
@@ -1342,14 +1278,6 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-05-22"
-    },
-    {
-      "title": "Hot surfaces during Europe's heatwave 'seen' by Sentinel-3",
-      "description": "Image: Europe is in the middle of a heatwave – Copernicus Sentinel-3 captured this image on Tuesday 26 May",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/05/Hot_surfaces_during_Europe_s_heatwave_seen_by_Sentinel-3",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-05-27"
     },
     {
       "title": "FAA requires SpaceX-led mishap investigation before resumption of Starship launches",
@@ -1454,62 +1382,6 @@
       "source": "ScienceDaily Tech",
       "field": "space",
       "date": "2026-05-23"
-    },
-    {
-      "title": "Meet the microbiologist and science advocate who’s headed to Congress",
-      "description": "Jasmine Clark led a March for Science in 2017. She just won a Georgia primary for a safe Democratic House seat",
-      "link": "https://www.science.org/content/article/meet-microbiologist-and-science-advocate-who-s-headed-congress",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-05-22"
-    },
-    {
-      "title": "Research groups want Senate to vet Trump’s nominee for NSF head",
-      "description": "A hearing would air questions about James O’Neill’s qualifications to lead the agency",
-      "link": "https://www.science.org/content/article/analysis-research-groups-want-senate-vet-trump-s-nominee-nsf-head",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "Brighter MRI signals",
-      "description": "New MRI sensors developed at MIT sensitively detect target molecules in the brain and body.",
-      "link": "https://news.mit.edu/2026/brighter-mri-signals-0527",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Place-based pathways to a viable future",
-      "description": "Living Climate Futures Symposium explores climate challenges and solutions at the community level.",
-      "link": "https://news.mit.edu/2026/place-based-pathways-to-a-viable-future-0527",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Designing a career, on and off the track, at MIT",
-      "description": "Senior Krystal Montgomery explored design courses to shape a career in web development. As a national champion in track, learning to balance athletics and academics was key to her success.",
-      "link": "https://news.mit.edu/2026/designing-career-at-mit-krystal-montgomery-0527",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-27"
-    },
-    {
-      "title": "Ten from MIT accept 2026 Fulbright awards",
-      "description": "This year, over half of MIT’s Fulbright applicants won awards. The current students and alumni will embark on research projects abroad in 2026-27.",
-      "link": "https://news.mit.edu/2026/fulbright-awards-0526",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-26"
-    },
-    {
-      "title": "Bridging real human movement with digital technology",
-      "description": "MIT.nano Immersion Lab collaborates with Emerson College students to advance the art of virtual production.",
-      "link": "https://news.mit.edu/2026/bridging-real-human-movement-digital-technology-0526",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-26"
     },
     {
       "title": "A day in the life of MIT Sloan Fellow Alecia Asiamigbe",
@@ -1768,6 +1640,38 @@
       "date": "2026-05-22"
     },
     {
+      "title": "Hi-res microscopes give biologists petabytes of data. Scientists are creating an AI assistant to make sense of it.",
+      "description": "At UC Berkeley, high-resolution microscopes are generating images of cells and embryos day and night, collecting massive amounts of data to train an AI model for living biological systems. The post Hi-res microscopes give biologists petabytes of data. Scientists are creating an AI assistant to make sense of it. appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/22/hi-res-microscopes-give-biologists-petabytes-of-data-scientists-are-creating-an-ai-assistant-to-make-sense-of-it/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "This professor uses data to reveal hidden patterns in centuries of human storytelling",
+      "description": "UC Berkeley’s David Bamman applies data-driven analysis to human artistic output — often with surprising results. The post This professor uses data to reveal hidden patterns in centuries of human storytelling appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/21/this-professor-uses-data-to-reveal-hidden-patterns-in-centuries-of-human-storytelling/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "The Download: coding’s future, the ‘Steroid Olympics,’ and AI-driven science",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claude, attendees were asked if they’d shipped code…",
+      "link": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "The Enhanced Games fit right in with the rest of 2026’s longevity vibes",
+      "description": "This Sunday, a group of 42 athletes will gather in Las Vegas to compete in a somewhat unusual sporting competition. Participants in the inaugural Enhanced Games are being encouraged to take performance-enhancing drugs. The goal is to “push the boundaries of human performance.” The games’ organizers have said that competitors will only be taking substances that…",
+      "link": "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-05-22"
+    },
+    {
       "title": "And you thought your adolescence was hard",
       "description": "Radcliffe fellow explores vulnerable life stage we share with chimps",
       "link": "https://news.harvard.edu/gazette/story/2026/05/think-your-adolescence-was-hard-try-being-a-chimp/",
@@ -1816,12 +1720,44 @@
       "date": "2026-05-21"
     },
     {
-      "title": "Need a time-saving robot? Find a busy person to build it.",
-      "description": "Lael Ayala’s thesis project combined her passions for softball and engineering",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/need-a-time-saving-robot-find-a-busy-person-to-build-it/",
-      "source": "Harvard Gazette",
+      "title": "The largest study of AI use by undergrads is in, revealing disparities in access — and in cheating",
+      "description": "Researchers found that how student use, and misuse, AI varies by subject and by socioeconomics. The post The largest study of AI use by undergrads is in, revealing disparities in access — and in cheating appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/21/the-largest-study-of-ai-use-by-undergrads-is-in-revealing-disparities-in-access-and-in-cheating/",
+      "source": "UC Berkeley",
       "field": "technology",
-      "date": "2026-05-20"
+      "date": "2026-05-21"
+    },
+    {
+      "title": "SEM-Guided Low-kV FIB Finishing for Leading-Edge Semiconductor Failure Analysis",
+      "description": "Discover how the ZEISS Crossbeam 750 FIBSEM sets a new benchmark for precise TEM lamella prep, tomography, and advanced nanofabrication. This delivers better resolution, better SNR, larger usable FOV, and shorter acquisition times. Learn how uninterrupted FIB milling will reduce damage and rework, accelerate time to TEM, and increase first pass success—so your FA, yield, and materials teams make faster, confident data driven decisions. Join us to discover how the new ZEISS Crossbeam 750 with its see while you mill capability delivers precision and clarity—every time—for demanding FIB-SEM workf",
+      "link": "https://events.bizzabo.com/868497/home",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Violence against women remains high — particularly for marginalized groups",
+      "description": "A UC Berkeley study of California hospital data reveals persistent racial disparities and the higher risks faced by Black, multiracial and Indigenous women. The post Violence against women remains high — particularly for marginalized groups appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/19/violence-against-women-remains-high-particularly-for-marginalized-groups/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-19"
+    },
+    {
+      "title": "Astrophysicist Alex Filippenko awarded Gruber Cosmology Prize for work on supernovae",
+      "description": "By clarifying the differences among various types of exploding stars, Filippenko enabled them to be used to measure the expansion of the universe. The post Astrophysicist Alex Filippenko awarded Gruber Cosmology Prize for work on supernovae appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/19/astrophysicist-alex-filippenko-awarded-gruber-cosmology-prize-for-work-on-supernovae/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-19"
+    },
+    {
+      "title": "For Black Americans, wealth offers scant protection from pregnancy risks, scholar finds",
+      "description": "Low-income Black women face higher risks of death in pregnancy — that’s accepted fact. But in a new book, UC Berkeley scholar Khiara M. Bridges shows the dangerous impact of interpersonal and structural racism even on wealthy Black mothers. The post For Black Americans, wealth offers scant protection from pregnancy risks, scholar finds appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/05/18/for-black-americans-wealth-offers-scant-protection-from-pregnancy-risks-scholar-finds/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-05-18"
     },
     {
       "title": "At UC Berkeley’s 2026 commencement, grads reflected on an education defined by connection",
@@ -1846,14 +1782,6 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-05-27"
-    },
-    {
-      "title": "AI-powered spectrometer chip shrinks lab technology to the size of a grain of sand",
-      "description": "A new AI-powered chip from UC Davis can analyze light and chemicals using a device tiny enough to fit almost anywhere. By combining smart silicon sensors with machine learning, it achieves lab-style spectral analysis without the bulky equipment.",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260525000501.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-05-26"
     },
     {
       "title": "Massive supercomputer simulations unlock cosmic magnetic mystery",
