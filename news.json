@@ -1,22 +1,22 @@
 {
   "date": "2026-06-07",
-  "lastUpdated": "2026-06-07T03:25:02.271Z",
+  "lastUpdated": "2026-06-07T07:51:26.941Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "44.2s",
+    "executionTime": "58.6s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 21,
-    "totalCandidates": 244,
-    "totalSelected": 244,
+    "sourcesSuccessful": 20,
+    "totalCandidates": 233,
+    "totalSelected": 233,
     "entriesByField": {
       "health": 29,
       "climate": 26,
       "energy": 3,
-      "technology": 122,
+      "technology": 121,
       "education": 11,
       "development": 17,
       "peace": 8,
-      "space": 28
+      "space": 18
     },
     "categoryIntegrity": {
       "health": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 122,
+        "kept": 121,
         "changed": 4
       },
       "education": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 26,
+        "kept": 16,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 33,
-      "topTierSources": 120,
-      "highCredibilitySources": 212
+      "highScoreEntries": 31,
+      "topTierSources": 110,
+      "highCredibilitySources": 202
     }
   },
   "entries": [
@@ -536,30 +536,6 @@
       "date": "2026-05-29"
     },
     {
-      "title": "Media Advisory: MIT to establish regional quantum hub",
-      "description": "With $25 million investment from the Commonwealth of Massachusetts, MIT to build a new shared-use facility to serve as a statewide quantum toolbox.",
-      "link": "https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-05-28"
-    },
-    {
-      "title": "Chan and Elowitz Named to Great Britain's Royal Society",
-      "description": "Caltech's Garnet Kin-Lic Chan, Bren Professor of Chemistry and director of the Rudolph A. Marcus Center for Theoretical Chemistry, and Michael Elowitz, Roscoe Gilkey Dickinson Professor of Biology and Bioengineering and Howard Hughes Medical Institute Investigator, have been named a fellow and a foreign member, respectively, of the Royal Society, the United Kingdom's national academy of sciences. Founded in 1660 under the patronage of King Charles II, the Royal Society is the oldest scientific academy in continuous existence. Chan and Elowitz are among more than 90 inductees to the society thi",
-      "link": "https://www.caltech.edu/about/news/chan-and-elowitz-named-to-great-britains-royal-society",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-05-28"
-    },
-    {
-      "title": "Caltech Names and Celebrates Its 2026 Distinguished Alumni Award Recipients",
-      "description": "The Caltech Distinguished Alumni Award (DAA) is the highest honor the Institute bestows upon a graduate. The DAAs are given in recognition of \"a particular achievement, a series of such achievements, or a career of noteworthy accomplishment.\"The members of the 2026 class of DAAs—first announced at Caltech's 89th Annual Seminar Day on May 16—join the 280 individuals who have been named since the award's inception in 1966. They are Leonidas Guibas (BS '71, MS '71), Eddy W. Hartenstein (MS '74), Shouleh Nikzad (MS '84, PhD '90), and David Van Essen (BS '67).\"The 2026 Distinguished Alumni Award re",
-      "link": "https://www.caltech.edu/about/news/caltech-names-and-celebrates-its-2026-distinguished-alumni-award-recipients",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-05-19"
-    },
-    {
       "title": "50 Years of The Institute",
       "description": "The Institute is celebrating its 50th anniversary this year. Launched in 1976, the publication was designed to keep members informed about IEEE and what its constituents were doing, as well as to report on the organization’s initiatives, technical standards, products, and services. That directive expanded over the years to include our reporting on key historical technical achievements recognized as IEEE Milestones and support for young professionals with career-guidance articles and information about educational resources. The Institute has gone through many iterations in the past 50 years. Wh",
       "link": "https://spectrum.ieee.org/50-years-ieee-the-institute",
@@ -582,6 +558,14 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-05-31"
+    },
+    {
+      "title": "Five recognized with honorary degrees",
+      "description": "Recipients chosen for their lifetime contributions and transformative achievements",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/five-recognized-with-honorary-degrees/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-28"
     },
     {
       "title": "South Africa Has AI Leverage. Its Draft Policy Leaves It Unused",
@@ -608,316 +592,28 @@
       "date": "2026-05-25"
     },
     {
-      "title": "Single Tissue Snapshot Reveals Biological Processes Unfolding Over Time",
-      "description": "A core challenge in biology is understanding how processes in the body, such as cellular development and regeneration, unfold over long stretches of time, making them notoriously difficult to view at the molecular level. Now, a team led by researchers at Caltech has shown that a single snapshot of a mouse testis is enough to reconstruct the entire weeks-long cycle of sperm production, along with the cell-to-cell coordination that organizes it.The key lies in using the spatial organization of the tissue. Each testis is essentially a tightly packed bundle of long tubes called seminiferous tubule",
-      "link": "https://www.caltech.edu/about/news/single-tissue-snapshot-reveals-biological-processes-unfolding-over-time",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-05-26"
-    },
-    {
-      "title": "Five recognized with honorary degrees",
-      "description": "Recipients chosen for their lifetime contributions and transformative achievements",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/five-recognized-with-honorary-degrees/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-28"
-    },
-    {
-      "title": "House spending panel proposes slight raise for NIH in 2027",
-      "description": "Draft bill rejects Trump’s plan to slash and rejigger the $47 billion biomedical research agency",
-      "link": "https://www.science.org/content/article/house-spending-panel-proposes-slight-raise-nih-2027",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "How Artemis II livestreamed hi-def videos and images from the moon to Earth",
-      "description": "This first use of laser communications on a crewed mission at lunar distance was a foundational step to establishing a high-speed internet in deep space.",
-      "link": "https://news.mit.edu/2026/how-artemis-ii-livestreamed-hi-def-videos-images-from-moon-to-earth-0605",
+      "title": "Media Advisory: MIT to establish regional quantum hub",
+      "description": "With $25 million investment from the Commonwealth of Massachusetts, MIT to build a new shared-use facility to serve as a statewide quantum toolbox.",
+      "link": "https://news.mit.edu/2026/media-advisory-mit-establish-regional-quantum-hub",
       "source": "MIT News",
       "field": "technology",
-      "date": "2026-06-05"
+      "date": "2026-05-28"
     },
     {
-      "title": "PATH to boost AI training and career opportunities for industry-aligned jobs",
-      "description": "MIT RAISE and Georgia State University announce an initiative to connect universities, community colleges, industry, and government to expand industry-aligned AI training and career pathways.",
-      "link": "https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "Caltech Engineers Without Borders Chapter Implements Revitalized Water Supply System in Ecuadorian Village",
-      "description": "Undergraduate students in the Caltech chapter of Engineers Without Borders (EWB) have been working for the past several years to design and fund an improved water supply system for Tandacato, a rural village in Ecuador. The community of about 500 families lies near the base of Cotopaxi, an active volcano in the area. In 2021, heavy rains in Ecuador caused major landslides, which buried one of Tandacato's key water catchments—a structure built to collect and filter groundwater. It also damaged parts of the existing water system's delivery pipeline, resulting in an unreliable water supply. This ",
-      "link": "https://www.caltech.edu/about/news/caltech-engineers-without-borders-chapter-implements-revitalized-water-supply-system-in-ecuadorian-village",
+      "title": "Chan and Elowitz Named to Great Britain's Royal Society",
+      "description": "Caltech's Garnet Kin-Lic Chan, Bren Professor of Chemistry and director of the Rudolph A. Marcus Center for Theoretical Chemistry, and Michael Elowitz, Roscoe Gilkey Dickinson Professor of Biology and Bioengineering and Howard Hughes Medical Institute Investigator, have been named a fellow and a foreign member, respectively, of the Royal Society, the United Kingdom's national academy of sciences. Founded in 1660 under the patronage of King Charles II, the Royal Society is the oldest scientific academy in continuous existence. Chan and Elowitz are among more than 90 inductees to the society thi",
+      "link": "https://www.caltech.edu/about/news/chan-and-elowitz-named-to-great-britains-royal-society",
       "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "Brian Stoltz Wins 2025 Tolman Award in Chemistry",
-      "description": "The Southern California Section of the American Chemical Society (SCALACS) has selected Brian M. Stoltz, the Victor and Elizabeth Atkins Professor of Chemistry to receive this year's Richard C. Tolman Award, an honor given in recognition of outstanding contributions to chemistry.Stoltz, who is also a Heritage Medical Research Institute Investigator, is known for his pioneering work in synthetic organic chemistry and catalysis. His group strives to find new reactions and strategies to synthesize complex target molecules such as natural products that have interesting structural and biological pr",
-      "link": "https://www.caltech.edu/about/news/brian-stoltz-wins-2025-tolman-award-in-chemistry",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-01"
-    },
-    {
-      "title": "Tuning Into Quantum Sounds",
-      "description": "When a singer belts out a tune while a guitar player strums along, sound waves travel through the air, driving collective oscillations of the molecules within. Meanwhile, at the quantum level, something similar is going on. Atoms inside materials, everything from our bodies to metals and more, naturally jiggle around, creating tiny vibrational waves that ripple across the material. These vibrations are known as phonons: the quantum version of sound waves.Now, physicists at Caltech and Stanford University have developed devices called nanoelectromechanical systems (NEMS) that allow phonons to e",
-      "link": "https://www.caltech.edu/about/news/tuning-into-quantum-sounds",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-05-22"
-    },
-    {
-      "title": "Exploring Education During Times of Economic Crisis",
-      "description": "Major economic crises affect a country in myriad ways, often resulting in unemployment spikes, increased inequality between financial classes, housing instability, and much more. But how do they impact the educational landscape, particularly at the secondary school level? That's what Pawel Janas, an assistant professor of economics at Caltech, examined in a new study investigating American education rates during the Great Depression.\"I expected that if jobs disappeared, many young people would stay in school, as we already have extensive research showing this effect across many settings,\" Jana",
-      "link": "https://www.caltech.edu/about/news/exploring-education-during-times-of-economic-crisis",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "Science Center to be named Zimmer Hall",
-      "description": "Harvard University announced on Friday that the Science Center on Oxford Street will be renamed Zimmer Hall, in recognition of a 2018 gift of $100 million from the Zimmer Family…",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/science-center-to-be-named-zimmer-hall/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "High-tech for the 1700s",
-      "description": "Exhibit showcases tools that powered Revolutionary America",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/high-tech-for-the-1700s/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "7 Ways New Engineers Can Flourish in the Age of AI",
-      "description": "New graduates’ careers are unfolding in an era when AI is not optional. The most successful engineers treat artificial intelligence as leverage, not competition. Here are seven tips to help keep young professionals in demand no matter how quickly the field’s tools evolve. 1. Master the fundamentals first. AI tools can help you code, but you still need strong fundamentals in: Data structures and algorithms for problem-solving. Operating systems, databases, and networking for system-level understanding. Core programming languages such as C++, Java, and Python. AI can autocomplete syntax, but if ",
-      "link": "https://spectrum.ieee.org/7-ways-engineers-flourish-ai",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "What It Takes for Future-Ready Power Distribution",
-      "description": "This sponsored article is brought to you by Black but they fundamentally change how the system operates. Power is no longer just delivered. It’s injected, stored and redirected in ways the system was never designed to manage. At scale, these challenges show up quickly — particularly on feeders where distributed generation is approaching or exceeding hosting capacity. Protection coordination becomes more difficult when fault current comes from multiple directions. Voltage becomes less predictable as generation fluctuates throughout the day. And planning models must now account for highly variab",
-      "link": "https://spectrum.ieee.org/distribution-grid-modernization",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "Tiny X-ray telescope could unlock the Moon's hidden chemistry",
-      "description": "A lightweight new X-ray telescope could finally give scientists something they’ve never had before: a complete chemical map of the Moon. Researchers used detailed mission simulations to show that a compact telescope orbiting the Moon could identify key elements across the entire lunar surface, helping reveal how the Moon formed and evolved.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260606075508.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-06"
-    },
-    {
-      "title": "Defending democracy is voters’ top priority in California governor’s race, poll finds",
-      "description": "A broad majority of California voters are worried about threats to democracy and the erosion of voting rights, according to a new Berkeley IGS Poll. The post Defending democracy is voters’ top priority in California governor’s race, poll finds appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/06/05/defending-democracy-is-voters-top-priority-in-california-governors-race-poll-finds/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Science of Happiness: Finding common ground in uncomfortable times",
-      "description": "In this episode of the Greater Good Science Center podcast, students and educators are discovering how listening, curiosity and everyday conversations can open pathways across differences and help restore a sense of shared humanity. The post Science of Happiness: Finding common ground in uncomfortable times appeared first on Berkeley News.",
-      "link": "https://greatergood.berkeley.edu/podcasts/series/the_science_of_happiness",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Are AI chatbots making us lose control of our brains?",
-      "description": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, who has spent the last 30 years studying how people interact with digital technologies. Early…",
-      "link": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "New book ‘Carryout’ illuminates life in a Midwestern Arab diaspora",
-      "description": "Drawing on memories of his youth, UC Berkeley alum Hasan Dudar spent a decade shaping a rich collection of stories about a tight-knit community of immigrants in Toledo, Ohio. The post New book ‘Carryout’ illuminates life in a Midwestern Arab diaspora appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/06/04/new-book-carryout-illuminates-life-in-a-midwestern-arab-diaspora/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "The new math of urban wildfires",
-      "description": "Michael Gollner, an associate professor of mechanical engineering, is building models to predict how wildfire spreads through communities. The post The new math of urban wildfires appeared first on Berkeley News.",
-      "link": "https://engineering.berkeley.edu/news/2026/05/from-forest-to-front-door/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by…",
-      "link": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
-      "description": "Direct-to-cell technology uses LEO satellites as spaceborne cell towers. It delivers LTE services to existing smartphones without hardware changes, bridging global coverage gaps. What Attendees will Learn How DTC works as a spaceborne cell tower — LEO satellites carry LTE eNodeB payloads in regenerative mode. How they serve unmodified phones using quasi-earth-fixed multi-beam antennas. How the satellite compensates for Doppler shift and time delay on thenetwork side. Why Doppler shift and round-trip time are critical challenges — A LEO satellite’s high velocity causes carrier frequency offsets",
-      "link": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "Make a Soft Digital Clock Tick With Millifluidics",
-      "description": "Electrons are great. We use them to move vehicles, illuminate cities, and, of course, compute. But computation is not confined to the world of electronics. And shifting to alternative nonelectronic realms can unlock unique advantages: Photonic chips, for instance, process information with light while generating little heat. Another compelling alternative is fluidics, which uses pressurized gases or liquids to build logic circuits. Pioneered in the 1960s but sidelined by microchips, the field reemerged in the 1990s as “microfluidics.” This approach aims to shrink laboratories onto a single chip",
-      "link": "https://spectrum.ieee.org/soft-robotics-2676960499",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-29"
-    },
-    {
-      "title": "Finding Success in Industry as a Chip Designer",
-      "description": "I have been an application-specific IC (ASIC) designer for almost three decades. Over that time, I’ve moved through the full academic trajectory, from graduate student to full professor; later, I transitioned to industry after an unsuccessful stint at entrepreneurship. When I made the switch to the private sector in 2019, I began focusing on a critically important aspect of the electronic industry: silicon intellectual property. As much as 80 percent of the physical area in today’s most advanced chips is occupied by blocks that aren’t made for specific products or even designed by the consumer",
-      "link": "https://spectrum.ieee.org/chip-design-academic-vs-industry",
-      "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-05-28"
     },
     {
-      "title": "Meet NASA Low Outgassing Standards With Adhesives for Aerospace and Optical Systems",
-      "description": "This sponsored article is brought to you by Master Bond. Outgassing is the release of volatile substances from a cured adhesive over time. These released materials, which may include residual solvents, unreacted monomers, or other chemical species, can deposit on nearby surfaces, causing contamination that interferes with sensitive components. What Is Outgassing and How Is It Measured? The industry standard for measuring outgassing is ASTM E595, developed by NASA. This test exposes a cured sample to 125 °C at high vacuum (10⁻⁵ to 10⁻⁶ torr) for 24 hours, measuring Total Mass Loss (TML) and Col",
-      "link": "https://spectrum.ieee.org/adhesive-outgassing-nasa-standards",
-      "source": "IEEE Spectrum",
+      "title": "Caltech Names and Celebrates Its 2026 Distinguished Alumni Award Recipients",
+      "description": "The Caltech Distinguished Alumni Award (DAA) is the highest honor the Institute bestows upon a graduate. The DAAs are given in recognition of \"a particular achievement, a series of such achievements, or a career of noteworthy accomplishment.\"The members of the 2026 class of DAAs—first announced at Caltech's 89th Annual Seminar Day on May 16—join the 280 individuals who have been named since the award's inception in 1966. They are Leonidas Guibas (BS '71, MS '71), Eddy W. Hartenstein (MS '74), Shouleh Nikzad (MS '84, PhD '90), and David Van Essen (BS '67).\"The 2026 Distinguished Alumni Award re",
+      "link": "https://www.caltech.edu/about/news/caltech-names-and-celebrates-its-2026-distinguished-alumni-award-recipients",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2026-05-26"
-    },
-    {
-      "title": "20 societal problems, 20 solutions",
-      "description": "Projects translating research into public good — spanning fields from medicine and climate to civics and arts — win $4 million from new Harvard fund",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/20-societal-problems-20-solutions/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "AI-designed universal coronavirus vaccine passes first human trial",
-      "description": "Scientists have successfully tested an AI-designed universal coronavirus vaccine in humans for the first time, finding it to be safe and well tolerated. The vaccine generated immune responses against multiple coronaviruses, including SARS-CoV-2, SARS, and related bat viruses with pandemic potential. By targeting features shared across an entire virus family, it aims to provide protection even as viruses evolve.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Newly acquired archive offers a peek inside the singular mind of ‘a beautiful artist’",
-      "description": "For more than 50 years, artist Mildred Howard has made meaning and memory her muses. Her first major museum retrospective opens at the Oakland Museum of California on June 12, and The Bancroft Library recently acquired her archive. The post Newly acquired archive offers a peek inside the singular mind of ‘a beautiful artist’ appeared first on Berkeley News.",
-      "link": "https://www.lib.berkeley.edu/about/news/howard",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "The Strauch Hypercube lets there be light in the Grimes Engineering Center",
-      "description": "\"Fiat Lux\" takes form as installation illuminates UC Berkeley's newest engineering building. The post The Strauch Hypercube lets there be light in the Grimes Engineering Center appeared first on Berkeley News.",
-      "link": "https://engineering.berkeley.edu/news/2026/05/let-there-be-light/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "Automating the art of grasping",
-      "description": "UC Berkeley engineer Ken Goldberg is redefining robot manipulation with creativity and code. The post Automating the art of grasping appeared first on Berkeley News.",
-      "link": "https://engineering.berkeley.edu/news/2026/05/the-art-of-grasping/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "Nicholas de Monchaux appointed dean of the College of Environmental Design",
-      "description": "The internationally recognized architect, urbanist and scholar will be the thirteenth dean to lead the college since its founding by William W. Wurster in 1959. The post Nicholas de Monchaux appointed dean of the College of Environmental Design appeared first on Berkeley News.",
-      "link": "https://ced.berkeley.edu/news/nicholas-de-monchaux-appointed-dean-uc-berkeley-ced",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-01"
-    },
-    {
-      "title": "Poetry for Engineers: Cyborg Laboratory",
-      "description": "This is the place where you face yourself, the you that could be you with a few different parts, a pump for your heart, eyes off color, and fresh off the shelf fake hair (a bit obvious), skin smoothed. You’re not perfect, but it’s a good start. Down to small digits, you’ll be improved. Memory maintained by small motors, as long as these gizmos don’t glitch. What’s before you? Full replacement or a constant game of test and switch, pieces peeled off, disconnected, removed, until you are not yourself, at least, not the self you knew. That self has ceased, bit by bit less you at each release.",
-      "link": "https://spectrum.ieee.org/poetry-for-engineers-cyborg-laboratory",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-30"
-    },
-    {
-      "title": "Understanding Phase Noise and Its Impact on RF System Performance",
-      "description": "A practical introduction to phase noise concepts, explaining how oscillator instability affects RF systems and how phase noise is measured, analyzed, and reported. What Attendees will Learn What phase noise is and why it matters — Learn how real-world oscillators differ from ideal ones, why short-term frequency instability arises, and why phase variations typically have a much greater impact than amplitude variations on system performance. How phase noise degrades system performance — Understand the most common effects of excessive phase noise: spectral regrowth, reciprocal mixing, and constel",
-      "link": "https://content.knowledgehub.wiley.com/understanding-phase-noise-fundamentals/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-28"
-    },
-    {
-      "title": "AI with Model-Based Design: Virtual Sensor Modeling",
-      "description": "This webinar presents a workflow offering end-to-end solutions for designing, training, validating and verifying, compressing, and deploying AI-based virtual sensor models to embedded processors within a single environment. Highlights Integrate AI models into Simulink for system-level simulation, verification, and simulation-based testing Apply formal verification techniques to assert neural network behavior Compress the AI model for memory footprint reduction and execution speedup Generate library-free C code from AI models and performing PIL tests Profile code performance and evaluate design",
-      "link": "https://content.knowledgehub.wiley.com/ai-with-model-based-design-virtual-sensor-modeling/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-25"
-    },
-    {
-      "title": "Developers: Get Your Medical Mobile App Verified By IEEE",
-      "description": "Patients who use mobile applications to manage medical conditions including depression and chronic pain might assume the apps have been evaluated by regulatory agencies to be safe and effective. But that isn’t necessarily the case. Most of the more than 55,000 medical apps that claim to diagnose or treat a condition—or ones that provide clinical decision support, known as “therapeutic” apps—have never been assessed by any trusted neutral bodies or regulatory agencies to evaluate them for technical soundness, ethical design, or clinical benefit. The apps often don’t comply with regional data se",
-      "link": "https://spectrum.ieee.org/medical-mobile-app-ieee-verified",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
-      "description": "This sponsored article is brought to you by Wetour Robotics. A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at her belt. A logistics worker on a loading dock, gloves on, eyes on the pallet, needs to redirect a connected lift. A person using an assistive mobility device on a crowded street wants to nudge it forward without taking out a phone or speaking aloud. None of these moments call for a smarter robot. They call for a smarter way to be heard by the machines that already exist. The industry has been bui",
-      "link": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-05-21"
-    },
-    {
-      "title": "New hydrogen breakthrough turns waste heat into clean fuel",
-      "description": "A breakthrough hydrogen-production method could make clean fuel far cheaper and easier to generate. Researchers at the University of Birmingham developed a perovskite-based catalyst that splits water into hydrogen at much lower temperatures than existing technologies, potentially allowing factories, steel plants, cement works, and renewable energy sites to turn waste heat into valuable hydrogen.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260601025345.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "NASA's Webb detects methane and strange chemistry on interstellar comet 3I/ATLAS",
-      "description": "NASA's James Webb Space Telescope has uncovered unusual chemistry in interstellar comet 3I/ATLAS, including the first direct detection of methane on a visitor from another star system. The comet also contains exceptionally high levels of carbon dioxide, making it unlike most comets born in our solar system. Scientists believe the methane was hidden beneath the surface and only emerged after solar heating reached deeper icy layers.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260603023116.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "New light-powered chip could accelerate AI and quantum computing",
-      "description": "Scientists have created a tiny chip that can generate, steer, and read light-based information all in one device, marking a major leap toward ultra-fast, energy-efficient computing. The breakthrough uses atomically thin materials and nanoscale structures to control a unique quantum property of light called the “valley” degree of freedom, allowing information to be encoded in new ways.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260601025343.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "NASA’s X-59 is about to break the sound barrier for the first time",
-      "description": "NASA’s futuristic X-59 jet is about to face its biggest challenge yet: breaking the sound barrier for the first time. After a successful series of test flights that pushed the aircraft to near-supersonic speeds, engineers are preparing to fly it faster than Mach 1 and eventually up to Mach 1.6 at 60,000 feet. The sleek experimental aircraft is designed to replace the thunderous sonic boom with a much quieter “thump,” a breakthrough that could help bring supersonic passenger travel back over populated areas.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260601025338.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-01"
+      "date": "2026-05-19"
     },
     {
       "title": "Protein name confusion created antibody mix-up affecting hundreds of papers",
@@ -960,12 +656,316 @@
       "date": "2026-06-04"
     },
     {
+      "title": "House spending panel proposes slight raise for NIH in 2027",
+      "description": "Draft bill rejects Trump’s plan to slash and rejigger the $47 billion biomedical research agency",
+      "link": "https://www.science.org/content/article/house-spending-panel-proposes-slight-raise-nih-2027",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "How Artemis II livestreamed hi-def videos and images from the moon to Earth",
+      "description": "This first use of laser communications on a crewed mission at lunar distance was a foundational step to establishing a high-speed internet in deep space.",
+      "link": "https://news.mit.edu/2026/how-artemis-ii-livestreamed-hi-def-videos-images-from-moon-to-earth-0605",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "PATH to boost AI training and career opportunities for industry-aligned jobs",
+      "description": "MIT RAISE and Georgia State University announce an initiative to connect universities, community colleges, industry, and government to expand industry-aligned AI training and career pathways.",
+      "link": "https://news.mit.edu/2026/mit-raise-georgia-state-university-announce-path-0604",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "MIT chemists design impact-resistant plastics",
+      "description": "Introducing weaker bonds into polystyrene and rubber helps these materials dissipate energy, making them more resistant to destructive forces.",
+      "link": "https://news.mit.edu/2026/mit-chemists-design-impact-resistant-plastics-0603",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "Caltech Engineers Without Borders Chapter Implements Revitalized Water Supply System in Ecuadorian Village",
+      "description": "Undergraduate students in the Caltech chapter of Engineers Without Borders (EWB) have been working for the past several years to design and fund an improved water supply system for Tandacato, a rural village in Ecuador. The community of about 500 families lies near the base of Cotopaxi, an active volcano in the area. In 2021, heavy rains in Ecuador caused major landslides, which buried one of Tandacato's key water catchments—a structure built to collect and filter groundwater. It also damaged parts of the existing water system's delivery pipeline, resulting in an unreliable water supply. This ",
+      "link": "https://www.caltech.edu/about/news/caltech-engineers-without-borders-chapter-implements-revitalized-water-supply-system-in-ecuadorian-village",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Brian Stoltz Wins 2025 Tolman Award in Chemistry",
+      "description": "The Southern California Section of the American Chemical Society (SCALACS) has selected Brian M. Stoltz, the Victor and Elizabeth Atkins Professor of Chemistry to receive this year's Richard C. Tolman Award, an honor given in recognition of outstanding contributions to chemistry.Stoltz, who is also a Heritage Medical Research Institute Investigator, is known for his pioneering work in synthetic organic chemistry and catalysis. His group strives to find new reactions and strategies to synthesize complex target molecules such as natural products that have interesting structural and biological pr",
+      "link": "https://www.caltech.edu/about/news/brian-stoltz-wins-2025-tolman-award-in-chemistry",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-06-01"
+    },
+    {
+      "title": "Single Tissue Snapshot Reveals Biological Processes Unfolding Over Time",
+      "description": "A core challenge in biology is understanding how processes in the body, such as cellular development and regeneration, unfold over long stretches of time, making them notoriously difficult to view at the molecular level. Now, a team led by researchers at Caltech has shown that a single snapshot of a mouse testis is enough to reconstruct the entire weeks-long cycle of sperm production, along with the cell-to-cell coordination that organizes it.The key lies in using the spatial organization of the tissue. Each testis is essentially a tightly packed bundle of long tubes called seminiferous tubule",
+      "link": "https://www.caltech.edu/about/news/single-tissue-snapshot-reveals-biological-processes-unfolding-over-time",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "Tuning Into Quantum Sounds",
+      "description": "When a singer belts out a tune while a guitar player strums along, sound waves travel through the air, driving collective oscillations of the molecules within. Meanwhile, at the quantum level, something similar is going on. Atoms inside materials, everything from our bodies to metals and more, naturally jiggle around, creating tiny vibrational waves that ripple across the material. These vibrations are known as phonons: the quantum version of sound waves.Now, physicists at Caltech and Stanford University have developed devices called nanoelectromechanical systems (NEMS) that allow phonons to e",
+      "link": "https://www.caltech.edu/about/news/tuning-into-quantum-sounds",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-05-22"
+    },
+    {
+      "title": "Exploring Education During Times of Economic Crisis",
+      "description": "Major economic crises affect a country in myriad ways, often resulting in unemployment spikes, increased inequality between financial classes, housing instability, and much more. But how do they impact the educational landscape, particularly at the secondary school level? That's what Pawel Janas, an assistant professor of economics at Caltech, examined in a new study investigating American education rates during the Great Depression.\"I expected that if jobs disappeared, many young people would stay in school, as we already have extensive research showing this effect across many settings,\" Jana",
+      "link": "https://www.caltech.edu/about/news/exploring-education-during-times-of-economic-crisis",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "Science Center to be named Zimmer Hall",
+      "description": "Harvard University announced on Friday that the Science Center on Oxford Street will be renamed Zimmer Hall, in recognition of a 2018 gift of $100 million from the Zimmer Family…",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/science-center-to-be-named-zimmer-hall/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "High-tech for the 1700s",
+      "description": "Exhibit showcases tools that powered Revolutionary America",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/high-tech-for-the-1700s/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "20 societal problems, 20 solutions",
+      "description": "Projects translating research into public good — spanning fields from medicine and climate to civics and arts — win $4 million from new Harvard fund",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/20-societal-problems-20-solutions/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "New hydrogen breakthrough turns waste heat into clean fuel",
+      "description": "A breakthrough hydrogen-production method could make clean fuel far cheaper and easier to generate. Researchers at the University of Birmingham developed a perovskite-based catalyst that splits water into hydrogen at much lower temperatures than existing technologies, potentially allowing factories, steel plants, cement works, and renewable energy sites to turn waste heat into valuable hydrogen.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260601025345.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "7 Ways New Engineers Can Flourish in the Age of AI",
+      "description": "New graduates’ careers are unfolding in an era when AI is not optional. The most successful engineers treat artificial intelligence as leverage, not competition. Here are seven tips to help keep young professionals in demand no matter how quickly the field’s tools evolve. 1. Master the fundamentals first. AI tools can help you code, but you still need strong fundamentals in: Data structures and algorithms for problem-solving. Operating systems, databases, and networking for system-level understanding. Core programming languages such as C++, Java, and Python. AI can autocomplete syntax, but if ",
+      "link": "https://spectrum.ieee.org/7-ways-engineers-flourish-ai",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "What It Takes for Future-Ready Power Distribution",
+      "description": "This sponsored article is brought to you by Black but they fundamentally change how the system operates. Power is no longer just delivered. It’s injected, stored and redirected in ways the system was never designed to manage. At scale, these challenges show up quickly — particularly on feeders where distributed generation is approaching or exceeding hosting capacity. Protection coordination becomes more difficult when fault current comes from multiple directions. Voltage becomes less predictable as generation fluctuates throughout the day. And planning models must now account for highly variab",
+      "link": "https://spectrum.ieee.org/distribution-grid-modernization",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "Make a Soft Digital Clock Tick With Millifluidics",
+      "description": "Electrons are great. We use them to move vehicles, illuminate cities, and, of course, compute. But computation is not confined to the world of electronics. And shifting to alternative nonelectronic realms can unlock unique advantages: Photonic chips, for instance, process information with light while generating little heat. Another compelling alternative is fluidics, which uses pressurized gases or liquids to build logic circuits. Pioneered in the 1960s but sidelined by microchips, the field reemerged in the 1990s as “microfluidics.” This approach aims to shrink laboratories onto a single chip",
+      "link": "https://spectrum.ieee.org/soft-robotics-2676960499",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-29"
+    },
+    {
+      "title": "Finding Success in Industry as a Chip Designer",
+      "description": "I have been an application-specific IC (ASIC) designer for almost three decades. Over that time, I’ve moved through the full academic trajectory, from graduate student to full professor; later, I transitioned to industry after an unsuccessful stint at entrepreneurship. When I made the switch to the private sector in 2019, I began focusing on a critically important aspect of the electronic industry: silicon intellectual property. As much as 80 percent of the physical area in today’s most advanced chips is occupied by blocks that aren’t made for specific products or even designed by the consumer",
+      "link": "https://spectrum.ieee.org/chip-design-academic-vs-industry",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
+      "title": "Tiny X-ray telescope could unlock the Moon's hidden chemistry",
+      "description": "A lightweight new X-ray telescope could finally give scientists something they’ve never had before: a complete chemical map of the Moon. Researchers used detailed mission simulations to show that a compact telescope orbiting the Moon could identify key elements across the entire lunar surface, helping reveal how the Moon formed and evolved.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260606075508.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-06"
+    },
+    {
+      "title": "Defending democracy is voters’ top priority in California governor’s race, poll finds",
+      "description": "A broad majority of California voters are worried about threats to democracy and the erosion of voting rights, according to a new Berkeley IGS Poll. The post Defending democracy is voters’ top priority in California governor’s race, poll finds appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/06/05/defending-democracy-is-voters-top-priority-in-california-governors-race-poll-finds/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "Science of Happiness: Finding common ground in uncomfortable times",
+      "description": "In this episode of the Greater Good Science Center podcast, students and educators are discovering how listening, curiosity and everyday conversations can open pathways across differences and help restore a sense of shared humanity. The post Science of Happiness: Finding common ground in uncomfortable times appeared first on Berkeley News.",
+      "link": "https://greatergood.berkeley.edu/podcasts/series/the_science_of_happiness",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "New book ‘Carryout’ illuminates life in a Midwestern Arab diaspora",
+      "description": "Drawing on memories of his youth, UC Berkeley alum Hasan Dudar spent a decade shaping a rich collection of stories about a tight-knit community of immigrants in Toledo, Ohio. The post New book ‘Carryout’ illuminates life in a Midwestern Arab diaspora appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/06/04/new-book-carryout-illuminates-life-in-a-midwestern-arab-diaspora/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "The new math of urban wildfires",
+      "description": "Michael Gollner, an associate professor of mechanical engineering, is building models to predict how wildfire spreads through communities. The post The new math of urban wildfires appeared first on Berkeley News.",
+      "link": "https://engineering.berkeley.edu/news/2026/05/from-forest-to-front-door/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
+      "description": "Direct-to-cell technology uses LEO satellites as spaceborne cell towers. It delivers LTE services to existing smartphones without hardware changes, bridging global coverage gaps. What Attendees will Learn How DTC works as a spaceborne cell tower — LEO satellites carry LTE eNodeB payloads in regenerative mode. How they serve unmodified phones using quasi-earth-fixed multi-beam antennas. How the satellite compensates for Doppler shift and time delay on thenetwork side. Why Doppler shift and round-trip time are critical challenges — A LEO satellite’s high velocity causes carrier frequency offsets",
+      "link": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Understanding Phase Noise and Its Impact on RF System Performance",
+      "description": "A practical introduction to phase noise concepts, explaining how oscillator instability affects RF systems and how phase noise is measured, analyzed, and reported. What Attendees will Learn What phase noise is and why it matters — Learn how real-world oscillators differ from ideal ones, why short-term frequency instability arises, and why phase variations typically have a much greater impact than amplitude variations on system performance. How phase noise degrades system performance — Understand the most common effects of excessive phase noise: spectral regrowth, reciprocal mixing, and constel",
+      "link": "https://content.knowledgehub.wiley.com/understanding-phase-noise-fundamentals/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
+      "title": "Meet NASA Low Outgassing Standards With Adhesives for Aerospace and Optical Systems",
+      "description": "This sponsored article is brought to you by Master Bond. Outgassing is the release of volatile substances from a cured adhesive over time. These released materials, which may include residual solvents, unreacted monomers, or other chemical species, can deposit on nearby surfaces, causing contamination that interferes with sensitive components. What Is Outgassing and How Is It Measured? The industry standard for measuring outgassing is ASTM E595, developed by NASA. This test exposes a cured sample to 125 °C at high vacuum (10⁻⁵ to 10⁻⁶ torr) for 24 hours, measuring Total Mass Loss (TML) and Col",
+      "link": "https://spectrum.ieee.org/adhesive-outgassing-nasa-standards",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "AI with Model-Based Design: Virtual Sensor Modeling",
+      "description": "This webinar presents a workflow offering end-to-end solutions for designing, training, validating and verifying, compressing, and deploying AI-based virtual sensor models to embedded processors within a single environment. Highlights Integrate AI models into Simulink for system-level simulation, verification, and simulation-based testing Apply formal verification techniques to assert neural network behavior Compress the AI model for memory footprint reduction and execution speedup Generate library-free C code from AI models and performing PIL tests Profile code performance and evaluate design",
+      "link": "https://content.knowledgehub.wiley.com/ai-with-model-based-design-virtual-sensor-modeling/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Developers: Get Your Medical Mobile App Verified By IEEE",
+      "description": "Patients who use mobile applications to manage medical conditions including depression and chronic pain might assume the apps have been evaluated by regulatory agencies to be safe and effective. But that isn’t necessarily the case. Most of the more than 55,000 medical apps that claim to diagnose or treat a condition—or ones that provide clinical decision support, known as “therapeutic” apps—have never been assessed by any trusted neutral bodies or regulatory agencies to evaluate them for technical soundness, ethical design, or clinical benefit. The apps often don’t comply with regional data se",
+      "link": "https://spectrum.ieee.org/medical-mobile-app-ieee-verified",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "The Future of Physical AI Isn’t Smarter Robots, It’s Smarter Interfaces",
+      "description": "This sponsored article is brought to you by Wetour Robotics. A field technician on a wind turbine, harness clipped, both hands on a wrench, needs to send a command to the diagnostic device hanging at her belt. A logistics worker on a loading dock, gloves on, eyes on the pallet, needs to redirect a connected lift. A person using an assistive mobility device on a crowded street wants to nudge it forward without taking out a phone or speaking aloud. None of these moments call for a smarter robot. They call for a smarter way to be heard by the machines that already exist. The industry has been bui",
+      "link": "https://spectrum.ieee.org/wetour-robotics-physical-ai-human-interfaces",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-21"
+    },
+    {
+      "title": "New light-powered chip could accelerate AI and quantum computing",
+      "description": "Scientists have created a tiny chip that can generate, steer, and read light-based information all in one device, marking a major leap toward ultra-fast, energy-efficient computing. The breakthrough uses atomically thin materials and nanoscale structures to control a unique quantum property of light called the “valley” degree of freedom, allowing information to be encoded in new ways.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260601025343.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "NASA’s X-59 is about to break the sound barrier for the first time",
+      "description": "NASA’s futuristic X-59 jet is about to face its biggest challenge yet: breaking the sound barrier for the first time. After a successful series of test flights that pushed the aircraft to near-supersonic speeds, engineers are preparing to fly it faster than Mach 1 and eventually up to Mach 1.6 at 60,000 feet. The sleek experimental aircraft is designed to replace the thunderous sonic boom with a much quieter “thump,” a breakthrough that could help bring supersonic passenger travel back over populated areas.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260601025338.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-01"
+    },
+    {
       "title": "Amid a flood of AI advances, astrophysicists are questioning the soul of their field",
       "description": "Researchers see enormous power in new tools—but also the potential end of astrophysics as a human endeavor",
       "link": "https://www.science.org/content/article/amid-flood-ai-advances-astrophysicists-are-questioning-soul-their-field",
       "source": "Science",
       "field": "technology",
       "date": "2026-06-04"
+    },
+    {
+      "title": "Bees just did something no other insect has been shown to do",
+      "description": "Like humans, bumble bees can plan ahead when working through a problem, even pausing to consider the solution",
+      "link": "https://www.science.org/content/article/bees-just-did-something-no-other-insect-has-been-shown-do",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "U.S. health agencies join fight against ‘ultraprocessed foods’—whatever they are",
+      "description": "Some scientists criticize label as ambiguous and confusing; others call it a valuable lens on diet",
+      "link": "https://www.science.org/content/article/u-s-health-agencies-join-fight-against-ultraprocessed-foods-whatever-they-are",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Democrats on House China committee decry dismissal of National Science Board",
+      "description": "Letter also blames Trump for letting China surpass United States in research spending",
+      "link": "https://www.science.org/content/article/democrats-house-china-committee-decry-dismissal-national-science-board",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "The crucial human component in computing and AI",
+      "description": "The MIT Ethics of Computing Research Symposium brought together experts and researchers working at the heart of ethical and social impact in technology.",
+      "link": "https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "Startup helps retailers track their products in real-time",
+      "description": "Using technology invented at MIT, Cartesian’s system for locating objects could also find uses in manufacturing, logistics, and robotics.",
+      "link": "https://news.mit.edu/2026/cartesian-helps-retailers-track-their-products-in-real-time-0605",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "Developing innovative alternatives to conventional carbon capture methods",
+      "description": "MIT researchers present a promising new approach to efficient, flexible carbon capture and removal.",
+      "link": "https://news.mit.edu/2026/developing-innovative-carbon-capture-methods-0604",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Research from the ground up",
+      "description": "A leading innovator in community-based archaeology, Professor Sonya Atalay works to link local know-how with academic inquiry across the globe.",
+      "link": "https://news.mit.edu/2026/research-from-ground-up-sonya-atalay-0604",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Teaching AI agents to ask better questions by playing “Battleship”",
+      "description": "MIT researchers use the classic game as a test bed for AI agents, finding a small AI model can outperform the biggest ones at 1 percent of the cost.",
+      "link": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-03"
     },
     {
       "title": "Education in Papua New Guinea",
@@ -1008,20 +1008,20 @@
       "date": "2026-05-25"
     },
     {
-      "title": "Education in Saint Vincent and the Grenadines",
-      "description": "Education in Saint Vincent and the Grenadines 2016 US$33,264,283 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Harnessing the power of technology for education transformation. CDBMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Saint Vincent and the Grenadines has limited resources and cultural norms that contribute to disparities in education access. The Caribbean region’s susceptibility to natural disasters exacerbates challenges to delivering quality education. The gove",
-      "link": "https://www.globalpartnership.org/where-we-work/saint-vincent-and-grenadines",
-      "source": "GPE",
-      "field": "education",
-      "date": "2026-05-25"
-    },
-    {
       "title": "Announcing the 2026 Hollings Scholarship recipients!",
       "description": "Announcing the 2026 Hollings Scholarship recipients! The 2024 class of EPP/MSI and Hollings undergraduate scholars. (Image credit: Chris Zimmer Photography) Download Image May 20, 2026 NOAA’s Office of Education has selected 128 Ernest F. Hollings undergraduate scholars for the class of 2026-2028. Scholars receive a two-year academic scholarship for their junior and senior years, a paid summer internship opportunity, and funding to participate in up to two national scientific conferences. Congratulations to the 2026 Hollings scholars! This year's class of scholars brings incredible skill and p",
       "link": "https://www.noaa.gov/office-education/hollings-scholarship/news/announcing-2026-hollings-scholarship-recipients",
       "source": "NOAA",
       "field": "education",
       "date": "2026-05-19"
+    },
+    {
+      "title": "Education in Saint Vincent and the Grenadines",
+      "description": "Education in Saint Vincent and the Grenadines 2016 US$33,264,283 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Harnessing the power of technology for education transformation. CDBMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Saint Vincent and the Grenadines has limited resources and cultural norms that contribute to disparities in education access. The Caribbean region’s susceptibility to natural disasters exacerbates challenges to delivering quality education. The gove",
+      "link": "https://www.globalpartnership.org/where-we-work/saint-vincent-and-grenadines",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
     },
     {
       "title": "Education in Sri Lanka",
@@ -1056,20 +1056,20 @@
       "date": "2026-05-08"
     },
     {
-      "title": "ADB, ETG Sign Sustainability-Linked Loan to Support Coffee, Cashew Farmers in India and Viet Nam",
-      "description": "ADB has signed a $50 million sustainability-linked loan with ETC Group (ETG) to support the procurement, market access, and exports of coffee and cashew from smallholder farmers in India and Viet Nam.",
-      "link": "https://www.adb.org/news/adb-etg-sign-sustainability-linked-loan-support-coffee-cashew-farmers-india-and-viet-nam",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-06-04"
-    },
-    {
       "title": "ADB, Ameriabank Sign $100 Million Loan to Strengthen MSMEs and Green Finance in Armenia",
       "description": "ADB has signed a $100 million loan with Ameriabank Closed Joint Stock Company (Ameriabank) to support Armenia’s priorities to strengthen financing opportunities for micro, small, and medium-sized enterprises (MSMEs), particularly those led by women, while driving investment in sustainable solutions across Armenia.",
       "link": "https://www.adb.org/news/adb-ameriabank-sign-100-million-loan-strengthen-msmes-and-green-finance-armenia",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-05-27"
+    },
+    {
+      "title": "ADB, ETG Sign Sustainability-Linked Loan to Support Coffee, Cashew Farmers in India and Viet Nam",
+      "description": "ADB has signed a $50 million sustainability-linked loan with ETC Group (ETG) to support the procurement, market access, and exports of coffee and cashew from smallholder farmers in India and Viet Nam.",
+      "link": "https://www.adb.org/news/adb-etg-sign-sustainability-linked-loan-support-coffee-cashew-farmers-india-and-viet-nam",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-06-04"
     },
     {
       "title": "ADB President Meets Bangladesh Prime Minister, Highlights $5 Billion in Funding",
@@ -1256,38 +1256,6 @@
       "date": "2026-02-12"
     },
     {
-      "title": "NASA’s X-59 Aircraft Flies Supersonic for First Time",
-      "description": "NASA’s experimental X-59 aircraft marked a major milestone Friday, June 5, when it flew faster than the speed of sound for the first time, setting the stage for demonstrating its quiet supersonic capabilities later this year. NASA test pilot Jim “Clue” Less took off and landed at Edwards Air Force Base in California, reaching a top speed of approximately Mach 1.1 (713 mph) and altitude of 43,400 feet. The X-59’s flight began at 11:08 a.m. PDT and lasted 81 minutes, with the team focusing on flying qualities at both subsonic and then […]",
-      "link": "https://www.nasa.gov/aeronautics/x-59-first-supersonic-flight/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "NASA Announces Winners of 2026 University Innovation Competition",
-      "description": "NASA announced the Massachusetts Institute of Technology project, Exploration-Class Lunar Integrated Power SystEm, as the first place winner for the 2026 Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) competition, which challenges students to bridge gaps in aerospace technology by innovating new system concepts and prototypes. Another team from the same university won second place overall for their project, Mars Exploration Layered Infrastructure for Operations, Research, and Advancement, while Virginia Polytechnic Institute and State University took third place with the",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-announces-winners-of-2026-university-innovation-competition/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "NASA Concludes Antenna Mishap Investigation, Releases Report",
-      "description": "NASA has completed the investigation into the damage sustained last year at its 70-meter radio-frequency antenna, known as the Deep Space Station 14 (DSS-14), at the Goldstone Deep Space Communications Complex near Barstow, California. The agency has classified the event as a Type A mishap based on the total cost of damages. The antenna will […]",
-      "link": "https://www.nasa.gov/directorates/somd/space-communications-navigation-program/nasa-concludes-antenna-mishap-investigation-releases-report/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "First Steps: America’s Grueling Second Spacewalk",
-      "description": "One year after Gemini IV astronaut Edward H. White completed NASA’s first spacewalk the agency prepared for a demanding second excursion. Originally scheduled for Gemini VIII, the extravehicular activity (EVA) was reassigned to Gemini IX-A after that mission ended early, with Gene Cernan taking on the task. On June 5, 1966—the mission’s third day—Cernan exited […]",
-      "link": "https://www.nasa.gov/image-article/first-steps-americas-grueling-second-spacewalk/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-05"
-    },
-    {
       "title": "A new chapter for ESA’s brand",
       "description": "Last year, the European Space Agency (ESA) unveiled its long-term vision for the decades ahead with ESA Strategy 2040. Framed around five encompassing goals which demonstrate the important role space can play in every aspect of citizens’ lives across Europe. Today, ESA is taking a decisive step forward to bring this vision to life through a comprehensive brand transformation.",
       "link": "https://www.esa.int/About_Us/Branding_and_Partnerships/A_new_chapter_for_ESA_s_brand",
@@ -1296,68 +1264,12 @@
       "date": "2026-06-04"
     },
     {
-      "title": "Fighting Fire With Fire",
-      "description": "In fire-prone ecosystems in Australia’s Northern Territory, prescribed burns are lit to minimize the severity of fires later in the season.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/fighting-fire-with-fire/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Colorful, Chaotic Jupiter",
-      "description": "NASA’s Juno spacecraft captured this color-enhanced view of Jupiter’s northern hemisphere during its 61st close flyby of the giant planet on May 12, 2024. Citizen scientist Gary Eason made this image using raw data from the JunoCam instrument, applying digital processing techniques to enhance color and clarity. It provides a detailed view of chaotic clouds […]",
-      "link": "https://www.nasa.gov/image-article/colorful-chaotic-jupiter/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "NASA just proved spacecraft can switch between multiple satellite networks",
-      "description": "NASA’s PExT terminal has shown that spacecraft can seamlessly communicate through multiple government and commercial networks, a major step beyond traditional single-network systems. The mission is now expanding to test new capabilities that could help create a more flexible, reliable communications infrastructure for future space missions.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260605023405.htm",
-      "source": "ScienceDaily Tech",
-      "field": "space",
-      "date": "2026-06-06"
-    },
-    {
-      "title": "SpaceX to launch 2 Starshield satellites during Saturday night Starlink mission",
-      "description": "The mission represents a rare public announcement of the launch of SpaceX’s Starshield satellites, a government variant of Starlink satellites. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 9:24:30 p.m. PDT on Saturday, June 6 (12:24:30 a.m. EDT / 0424:30 UTC on Sunday, June 7).",
+      "title": "SpaceX launches 2 Starshield satellites during Saturday night Starlink mission",
+      "description": "The mission represents a rare public announcement of the launch of SpaceX’s Starshield satellites, a government variant of Starlink satellites. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:24:30 p.m. PDT on Saturday, June 6 (12:24:30 a.m. EDT / 0424:30 UTC on Sunday, June 7).",
       "link": "https://spaceflightnow.com/2026/06/06/spacex-to-launch-2-starshield-satellites-during-saturday-night-starlink-mission/",
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-06-06"
-    },
-    {
-      "title": "NASA’s Artemis II Moon Mission Research Continues on Earth",
-      "description": "Since NASA’s Artemis II crew members safely splashed down in the Pacific Ocean on April 10 after their record-setting mission around the Moon, science teams have been busy collecting more data and combing through observations collected on the test flight. Results from these science investigations will help support safe human exploration of deep space and […]",
-      "link": "https://science.nasa.gov/uncategorized/nasas-artemis-ii-moon-mission-research-continues-on-earth/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "NASA Hosts 2026 Review on Advanced Composite Manufacturing",
-      "description": "NASA’s Hi-Rate Composite Aircraft Manufacturing (HiCAM) project brought together its full team of Advanced Composites Consortium partners for a 2026 spring review at NASA’s Langley Research Center in Hampton, Virginia. The meeting took place May 5-7, bringing together about 150 people from the consortium, a 22-member public-private partnership. The review gave NASA and industry partners a chance to look at recent progress and […]",
-      "link": "https://www.nasa.gov/directorates/armd/aavp/hicam/nasa-hosts-2026-review-on-advanced-composite-manufacturing/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "NASA-Funded Study Shows Wildfire Smoke’s Hidden Ozone Toll",
-      "description": "Over the last decade, wildfires have worsened ground-level ozone pollution across much of the contiguous United States, creating unhealthy air far from active flames.",
-      "link": "https://science.nasa.gov/earth/nasa-funded-study-shows-wildfire-smokes-hidden-ozone-toll/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "A Moonlit Earth as Seen From Artemis II",
-      "description": "An astronaut’s photo, taken en route to the Moon, reveals our planet and its place in space in a novel way.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-moonlit-earth-as-seen-from-artemis-ii/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-06-04"
     },
     {
       "title": "Week in images: 01-05 Jun 2026",
@@ -1400,6 +1312,14 @@
       "date": "2026-06-04"
     },
     {
+      "title": "NASA head urges new launcher for Blue Origin’s moon landers to meet Artemis mission deadlines",
+      "description": "The change was confirmed by the agency a week after a New Glenn testing explosion destroyed the rocket and damaged Launch Complex 36.",
+      "link": "https://spaceflightnow.com/2026/06/04/nasa-head-urges-new-launcher-for-blue-origins-moon-landers-to-meet-artemis-mission-deadlines/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-06-04"
+    },
+    {
       "title": "ExoMars rover targets vast bed of clay in search for life",
       "description": "In the region where the ExoMars Rosalind Franklin rover will search for signs of life, clay deposits extend beyond previous estimates, a new study finds. One hypothesis even suggests a vast ocean once covered the landing site.",
       "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/ExoMars_rover_targets_vast_bed_of_clay_in_search_for_life",
@@ -1416,12 +1336,12 @@
       "date": "2026-05-20"
     },
     {
-      "title": "NASA head urges new launcher for Blue Origin’s moon landers to meet Artemis mission deadlines",
-      "description": "The change was confirmed by the agency a week after a New Glenn testing explosion destroyed the rocket and damaged Launch Complex 36.",
-      "link": "https://spaceflightnow.com/2026/06/04/nasa-head-urges-new-launcher-for-blue-origins-moon-landers-to-meet-artemis-mission-deadlines/",
-      "source": "Spaceflight Now",
+      "title": "NASA just proved spacecraft can switch between multiple satellite networks",
+      "description": "NASA’s PExT terminal has shown that spacecraft can seamlessly communicate through multiple government and commercial networks, a major step beyond traditional single-network systems. The mission is now expanding to test new capabilities that could help create a more flexible, reliable communications infrastructure for future space missions.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260605023405.htm",
+      "source": "ScienceDaily Tech",
       "field": "space",
-      "date": "2026-06-04"
+      "date": "2026-06-06"
     },
     {
       "title": "SpaceX launches 24 Starlink satellites on Falcon 9 rocket from Vandenberg",
@@ -1478,78 +1398,6 @@
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-06-05"
-    },
-    {
-      "title": "Bees just did something no other insect has been shown to do",
-      "description": "Like humans, bumble bees can plan ahead when working through a problem, even pausing to consider the solution",
-      "link": "https://www.science.org/content/article/bees-just-did-something-no-other-insect-has-been-shown-do",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "U.S. health agencies join fight against ‘ultraprocessed foods’—whatever they are",
-      "description": "Some scientists criticize label as ambiguous and confusing; others call it a valuable lens on diet",
-      "link": "https://www.science.org/content/article/u-s-health-agencies-join-fight-against-ultraprocessed-foods-whatever-they-are",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "Democrats on House China committee decry dismissal of National Science Board",
-      "description": "Letter also blames Trump for letting China surpass United States in research spending",
-      "link": "https://www.science.org/content/article/democrats-house-china-committee-decry-dismissal-national-science-board",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "The crucial human component in computing and AI",
-      "description": "The MIT Ethics of Computing Research Symposium brought together experts and researchers working at the heart of ethical and social impact in technology.",
-      "link": "https://news.mit.edu/2026/crucial-human-component-computing-and-ai-0605",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Startup helps retailers track their products in real-time",
-      "description": "Using technology invented at MIT, Cartesian’s system for locating objects could also find uses in manufacturing, logistics, and robotics.",
-      "link": "https://news.mit.edu/2026/cartesian-helps-retailers-track-their-products-in-real-time-0605",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "Developing innovative alternatives to conventional carbon capture methods",
-      "description": "MIT researchers present a promising new approach to efficient, flexible carbon capture and removal.",
-      "link": "https://news.mit.edu/2026/developing-innovative-carbon-capture-methods-0604",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "Research from the ground up",
-      "description": "A leading innovator in community-based archaeology, Professor Sonya Atalay works to link local know-how with academic inquiry across the globe.",
-      "link": "https://news.mit.edu/2026/research-from-ground-up-sonya-atalay-0604",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "MIT chemists design impact-resistant plastics",
-      "description": "Introducing weaker bonds into polystyrene and rubber helps these materials dissipate energy, making them more resistant to destructive forces.",
-      "link": "https://news.mit.edu/2026/mit-chemists-design-impact-resistant-plastics-0603",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "Teaching AI agents to ask better questions by playing “Battleship”",
-      "description": "MIT researchers use the classic game as a test bed for AI agents, finding a small AI model can outperform the biggest ones at 1 percent of the cost.",
-      "link": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-03"
     },
     {
       "title": "Tod Machover receives George Peabody Medal for contributions to music and technology",
@@ -1736,6 +1584,14 @@
       "date": "2026-06-05"
     },
     {
+      "title": "Are AI chatbots making us lose control of our brains?",
+      "description": "This week I’ve been at SXSW London. There’s been music, film, and a lot—and I mean a lot—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, who has spent the last 30 years studying how people interact with digital technologies. Early…",
+      "link": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
       "title": "The Meta hack shows there’s more to AI security than Mythos",
       "description": "On June 5, 404 Media reported that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link the accounts to email addresses that they controlled, and the agent complied. One attacker broke into the dormant Obama White House account and made pro-Iran…",
       "link": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
@@ -1744,12 +1600,76 @@
       "date": "2026-06-05"
     },
     {
+      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by…",
+      "link": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
       "title": "How courts are coping with a flood of AI-generated lawsuits",
       "description": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, mindful of how daunting…",
       "link": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-06-04"
+    },
+    {
+      "title": "AI-designed universal coronavirus vaccine passes first human trial",
+      "description": "Scientists have successfully tested an AI-designed universal coronavirus vaccine in humans for the first time, finding it to be safe and well tolerated. The vaccine generated immune responses against multiple coronaviruses, including SARS-CoV-2, SARS, and related bat viruses with pandemic potential. By targeting features shared across an entire virus family, it aims to provide protection even as viruses evolve.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "NASA's Webb detects methane and strange chemistry on interstellar comet 3I/ATLAS",
+      "description": "NASA's James Webb Space Telescope has uncovered unusual chemistry in interstellar comet 3I/ATLAS, including the first direct detection of methane on a visitor from another star system. The comet also contains exceptionally high levels of carbon dioxide, making it unlike most comets born in our solar system. Scientists believe the methane was hidden beneath the surface and only emerged after solar heating reached deeper icy layers.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260603023116.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-04"
+    },
+    {
+      "title": "Scientists simulated a nuclear fireball and found a surprise in the fallout",
+      "description": "Scientists at Lawrence Livermore National Laboratory recreated part of the intense chaos inside a nuclear fireball to better understand how radioactive fallout forms. Their experiments revealed that the way vaporized materials cool can dramatically change the particles that eventually form, especially for volatile elements like cesium.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260603023104.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "How loneliness became major public health issue",
+      "description": "U.K., U.S. experts trace rise in awareness through research, political involvement, pandemic",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/how-loneliness-became-major-public-health-issue/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "7 hours later, they didn’t want it to end",
+      "description": "Who watches a 439-minute movie in an age of epic distraction? We asked.",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/7-hours-later-they-didnt-want-it-to-end-satantango/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "Newly acquired archive offers a peek inside the singular mind of ‘a beautiful artist’",
+      "description": "For more than 50 years, artist Mildred Howard has made meaning and memory her muses. Her first major museum retrospective opens at the Oakland Museum of California on June 12, and The Bancroft Library recently acquired her archive. The post Newly acquired archive offers a peek inside the singular mind of ‘a beautiful artist’ appeared first on Berkeley News.",
+      "link": "https://www.lib.berkeley.edu/about/news/howard",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "The Strauch Hypercube lets there be light in the Grimes Engineering Center",
+      "description": "\"Fiat Lux\" takes form as installation illuminates UC Berkeley's newest engineering building. The post The Strauch Hypercube lets there be light in the Grimes Engineering Center appeared first on Berkeley News.",
+      "link": "https://engineering.berkeley.edu/news/2026/05/let-there-be-light/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-03"
     },
     {
       "title": "How virtual power plants could provide energy for data centers",
@@ -1768,12 +1688,36 @@
       "date": "2026-06-03"
     },
     {
-      "title": "Scientists simulated a nuclear fireball and found a surprise in the fallout",
-      "description": "Scientists at Lawrence Livermore National Laboratory recreated part of the intense chaos inside a nuclear fireball to better understand how radioactive fallout forms. Their experiments revealed that the way vaporized materials cool can dramatically change the particles that eventually form, especially for volatile elements like cesium.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260603023104.htm",
-      "source": "ScienceDaily Tech",
+      "title": "Why are white-Black marriage rates so low?",
+      "description": "New research suggests increased exposure between groups results in more couplings across class but not racial lines",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/why-are-white-black-marriage-rates-so-low/",
+      "source": "Harvard Gazette",
       "field": "technology",
-      "date": "2026-06-03"
+      "date": "2026-06-02"
+    },
+    {
+      "title": "SCOTUS might surprise you",
+      "description": "Sarah Isgur argues growing distrust of justices says more about our tribalism than any change in way judiciary works",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/scotus-might-surprise-you/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Thanks for the memories",
+      "description": "Photo highlights from Harvard’s 375th Commencement",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/thanks-for-the-memories/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-02"
+    },
+    {
+      "title": "Automating the art of grasping",
+      "description": "UC Berkeley engineer Ken Goldberg is redefining robot manipulation with creativity and code. The post Automating the art of grasping appeared first on Berkeley News.",
+      "link": "https://engineering.berkeley.edu/news/2026/05/the-art-of-grasping/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-02"
     },
     {
       "title": "The Download: AI can run your admin department now",
@@ -1800,6 +1744,46 @@
       "date": "2026-06-02"
     },
     {
+      "title": "‘It would have been safer to play nice and not rock the boat.’",
+      "description": "Radcliffe medalist Ruth J. Simmons lauded by Michelle Obama, Drew Faust, Tomiko Brown-Nagin for pioneering career",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/ruth-j-simmons-accepts-2026-radcliffe-medal/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-01"
+    },
+    {
+      "title": "‘Black Swan’ as a musical?",
+      "description": "New adaptation of dark, psychological thriller film premieres at American Repertory Theater",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/black-swan-as-a-musical/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-01"
+    },
+    {
+      "title": "Nicholas de Monchaux appointed dean of the College of Environmental Design",
+      "description": "The internationally recognized architect, urbanist and scholar will be the thirteenth dean to lead the college since its founding by William W. Wurster in 1959. The post Nicholas de Monchaux appointed dean of the College of Environmental Design appeared first on Berkeley News.",
+      "link": "https://ced.berkeley.edu/news/nicholas-de-monchaux-appointed-dean-uc-berkeley-ced",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-01"
+    },
+    {
+      "title": "Poetry for Engineers: Cyborg Laboratory",
+      "description": "This is the place where you face yourself, the you that could be you with a few different parts, a pump for your heart, eyes off color, and fresh off the shelf fake hair (a bit obvious), skin smoothed. You’re not perfect, but it’s a good start. Down to small digits, you’ll be improved. Memory maintained by small motors, as long as these gizmos don’t glitch. What’s before you? Full replacement or a constant game of test and switch, pieces peeled off, disconnected, removed, until you are not yourself, at least, not the self you knew. That self has ceased, bit by bit less you at each release.",
+      "link": "https://spectrum.ieee.org/poetry-for-engineers-cyborg-laboratory",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-05-30"
+    },
+    {
+      "title": "How U.S. ties to Japan help manage rising challenge of China",
+      "description": "Region expert Kenneth Weinstein argues real challenge in Indo-Pacific is economic, not military",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/how-u-s-ties-to-japan-help-manage-rising-challenge-of-china/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-29"
+    },
+    {
       "title": "Berkeley Talks: What punk subcultures can teach us about resisting hate",
       "description": "A filmmaker and activists explore how the tactics of 1980s West Coast movements offer a vital blueprint for countering modern political polarization. The post Berkeley Talks: What punk subcultures can teach us about resisting hate appeared first on Berkeley News.",
       "link": "https://news.berkeley.edu/2026/05/29/berkeley-talks-what-punk-subcultures-can-teach-us-about-resisting-hate/",
@@ -1808,12 +1792,36 @@
       "date": "2026-05-29"
     },
     {
+      "title": "‘A sea of happy faces’",
+      "description": "For students and their families, a day filled with joy, pride, appreciation",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/a-sea-of-happy-faces/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
+      "title": "O’Brien’s word of wisdom: Humility",
+      "description": "‘Your real education starts now,’ comedy legend tells graduates, urging them to defy ‘extreme narcissism’ of the times",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/obriens-word-of-wisdom-humility/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-28"
+    },
+    {
       "title": "How do Californians tolerate extreme inequality?",
       "description": "In their new book, 'Normalizing Inequality,' UC Berkeley professors G. Cristina Mora and Tianna Paschel detail the mental gymnastics Golden State residents use to reconcile a progressive identity with a dramatic wealth gap. The post How do Californians tolerate extreme inequality? appeared first on Berkeley News.",
       "link": "https://news.berkeley.edu/2026/05/28/how-do-californians-tolerate-extreme-inequality/",
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-05-28"
+    },
+    {
+      "title": "Funny but serious, Chieng issues an AI warning to grads",
+      "description": "‘Daily Show’ star and Class Day headliner is fine writing his own emails",
+      "link": "https://news.harvard.edu/gazette/story/2026/05/funny-but-serious-chieng-issues-an-ai-warning-to-grads/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-05-27"
     },
     {
       "title": "‘He took that explosion himself to save his men’",
@@ -1854,94 +1862,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-05-21"
-    },
-    {
-      "title": "How loneliness became major public health issue",
-      "description": "U.K., U.S. experts trace rise in awareness through research, political involvement, pandemic",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/how-loneliness-became-major-public-health-issue/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "7 hours later, they didn’t want it to end",
-      "description": "Who watches a 439-minute movie in an age of epic distraction? We asked.",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/7-hours-later-they-didnt-want-it-to-end-satantango/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "Why are white-Black marriage rates so low?",
-      "description": "New research suggests increased exposure between groups results in more couplings across class but not racial lines",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/why-are-white-black-marriage-rates-so-low/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "SCOTUS might surprise you",
-      "description": "Sarah Isgur argues growing distrust of justices says more about our tribalism than any change in way judiciary works",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/scotus-might-surprise-you/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "Thanks for the memories",
-      "description": "Photo highlights from Harvard’s 375th Commencement",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/thanks-for-the-memories/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "‘It would have been safer to play nice and not rock the boat.’",
-      "description": "Radcliffe medalist Ruth J. Simmons lauded by Michelle Obama, Drew Faust, Tomiko Brown-Nagin for pioneering career",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/ruth-j-simmons-accepts-2026-radcliffe-medal/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-01"
-    },
-    {
-      "title": "‘Black Swan’ as a musical?",
-      "description": "New adaptation of dark, psychological thriller film premieres at American Repertory Theater",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/black-swan-as-a-musical/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-01"
-    },
-    {
-      "title": "How U.S. ties to Japan help manage rising challenge of China",
-      "description": "Region expert Kenneth Weinstein argues real challenge in Indo-Pacific is economic, not military",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/how-u-s-ties-to-japan-help-manage-rising-challenge-of-china/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-29"
-    },
-    {
-      "title": "‘A sea of happy faces’",
-      "description": "For students and their families, a day filled with joy, pride, appreciation",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/a-sea-of-happy-faces/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-28"
-    },
-    {
-      "title": "O’Brien’s word of wisdom: Humility",
-      "description": "‘Your real education starts now,’ comedy legend tells graduates, urging them to defy ‘extreme narcissism’ of the times",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/obriens-word-of-wisdom-humility/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-28"
-    },
-    {
-      "title": "Funny but serious, Chieng issues an AI warning to grads",
-      "description": "‘Daily Show’ star and Class Day headliner is fine writing his own emails",
-      "link": "https://news.harvard.edu/gazette/story/2026/05/funny-but-serious-chieng-issues-an-ai-warning-to-grads/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-05-27"
     },
     {
       "title": "Scientists found a surprisingly simple way to create powerful quantum states",
@@ -1995,14 +1915,6 @@
       "title": "After 20 years, scientists finally shrink a powerful laser onto a chip",
       "description": "Researchers at EPFL have developed a chip-scale ultrafast laser that performs on par with traditional tabletop femtosecond lasers. The innovation could make advanced laser technologies far smaller, cheaper, and more accessible for applications ranging from medical diagnostics to atomic clocks.",
       "link": "https://www.sciencedaily.com/releases/2026/06/260604044240.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-04"
-    },
-    {
-      "title": "Scientists discover a quantum effect that could eliminate batteries",
-      "description": "Researchers have discovered how microscopic imperfections and atomic vibrations can be used to control a powerful quantum effect in an advanced material. The effect can turn alternating electrical signals from the environment directly into the kind of current electronic devices need, without traditional components. As temperature changes, the signal can even flip direction, giving scientists a new way to tune device performance.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260603023917.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-06-04"
