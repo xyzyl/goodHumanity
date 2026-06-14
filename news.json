@@ -1,22 +1,22 @@
 {
-  "date": "2026-06-13",
-  "lastUpdated": "2026-06-13T21:10:01.608Z",
+  "date": "2026-06-14",
+  "lastUpdated": "2026-06-14T03:32:11.194Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "46.3s",
+    "executionTime": "52.9s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 20,
-    "totalCandidates": 235,
-    "totalSelected": 235,
+    "sourcesSuccessful": 21,
+    "totalCandidates": 242,
+    "totalSelected": 242,
     "entriesByField": {
       "health": 34,
-      "climate": 26,
+      "climate": 25,
       "energy": 3,
       "technology": 119,
       "education": 10,
       "development": 18,
       "peace": 8,
-      "space": 17
+      "space": 25
     },
     "categoryIntegrity": {
       "health": {
@@ -24,7 +24,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 26,
+        "kept": 25,
         "changed": 1
       },
       "energy": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 14,
+        "kept": 22,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 32,
-      "topTierSources": 114,
-      "highCredibilitySources": 205
+      "highScoreEntries": 33,
+      "topTierSources": 123,
+      "highCredibilitySources": 214
     }
   },
   "entries": [
@@ -520,14 +520,6 @@
       "date": "2026-06-11"
     },
     {
-      "title": "Guest post: How a record-high ‘energy imbalance’ is driving global warming",
-      "description": "The planet is heating up more quickly than ever before. For decades, greenhouse gas emissions... The post Guest post: How a record-high ‘energy imbalance’ is driving global warming appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/guest-post-how-a-record-high-energy-imbalance-is-driving-global-warming/",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-06-10"
-    },
-    {
       "title": "DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans research | China’s solar slump",
       "description": "Welcome to Carbon Brief’s DeBriefed. An essential guide to the week’s key developments relating to climate... The post DeBriefed 5 June 2026: UK eyes 2040 emissions cut | US ‘dismantling’ oceans research | China’s solar slump appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/debriefed-5-june-2026-uk-eyes-2040-emissions-cut-us-dismantling-oceans-research-chinas-solar-slump/",
@@ -582,22 +574,6 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-05-29"
-    },
-    {
-      "title": "Deep-sea vehicles spot ‘alien’ sharks deep beneath the waves in the Pacific",
-      "description": "Goblin sharks have never before been filmed in their natural habitat",
-      "link": "https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Caltech Celebrates Graduates at 132nd Commencement",
-      "description": "On Friday, June 12th, Caltech celebrated its 132nd Commencement, awarding 235 bachelor's degrees, 1 engineer's degree, 126 master's degrees, and 255 doctoral degrees.It was a warm and bright morning on Beckman Mall, where the 2026 graduates gathered, dressed in caps and gowns, and in the company of their proud families and friends.At the ceremony, remarks from Board of Trustees Vice Chair Barbara Barrett; from President Thomas F. Rosenbaum, who was himself celebrating his final Commencement as the Institute's leader; and from the 2026 Commencement speaker, Kip Thorne (BS '62), celebrated the g",
-      "link": "https://www.caltech.edu/about/news/caltech-celebrates-graduates-at-132nd-commencement",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-13"
     },
     {
       "title": "Chan and Elowitz Named to Great Britain's Royal Society",
@@ -656,12 +632,52 @@
       "date": "2026-06-12"
     },
     {
+      "title": "Deep-sea vehicles spot ‘alien’ sharks deep beneath the waves in the Pacific",
+      "description": "Goblin sharks have never before been filmed in their natural habitat",
+      "link": "https://www.science.org/content/article/deep-sea-vehicles-spot-alien-sharks-deep-beneath-waves-pacific",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "Caltech Celebrates Graduates at 132nd Commencement",
+      "description": "On Friday, June 12th, Caltech celebrated its 132nd Commencement, awarding 235 bachelor's degrees, 1 engineer's degree, 126 master's degrees, and 255 doctoral degrees.It was a warm and bright morning on Beckman Mall, where the 2026 graduates gathered, dressed in caps and gowns, and in the company of their proud families and friends.At the ceremony, remarks from Board of Trustees Vice Chair Barbara Barrett; from President Thomas F. Rosenbaum, who was himself celebrating his final Commencement as the Institute's leader; and from the 2026 Commencement speaker, Kip Thorne (BS '62), celebrated the g",
+      "link": "https://www.caltech.edu/about/news/caltech-celebrates-graduates-at-132nd-commencement",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-06-13"
+    },
+    {
+      "title": "Single Tissue Snapshot Reveals Biological Processes Unfolding Over Time",
+      "description": "A core challenge in biology is understanding how processes in the body, such as cellular development and regeneration, unfold over long stretches of time, making them notoriously difficult to view at the molecular level. Now, a team led by researchers at Caltech has shown that a single snapshot of a mouse testis is enough to reconstruct the entire weeks-long cycle of sperm production, along with the cell-to-cell coordination that organizes it.The key lies in using the spatial organization of the tissue. Each testis is essentially a tightly packed bundle of long tubes called seminiferous tubule",
+      "link": "https://www.caltech.edu/about/news/single-tissue-snapshot-reveals-biological-processes-unfolding-over-time",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-05-26"
+    },
+    {
+      "title": "Brain-inspired chip runs near absolute zero and could transform quantum computing",
+      "description": "Scientists at the University of Hong Kong have created a remarkable new type of brain-inspired chip that can function just above absolute zero, one of the coldest environments imaginable. By using a standard silicon carbide transistor in a completely new way, the team made a single device behave like an energy-efficient neuron, firing electrical “spikes” similar to those in the human brain.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260612032024.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
       "title": "El Niño has begun. It may become the strongest this century",
       "description": "After clearing a spring forecasting hurdle, scientists see growing odds of a powerful climate event that could disrupt weather worldwide",
       "link": "https://www.science.org/content/article/el-nino-has-begun-it-may-become-strongest-century",
       "source": "Science",
       "field": "technology",
       "date": "2026-06-11"
+    },
+    {
+      "title": "The long history of vaccine hesitancy",
+      "description": "Thomas Levenson’s new book shows how arguments against vaccination reach back to the beginning of the technology itself.",
+      "link": "https://news.mit.edu/2026/long-history-of-vaccine-hesitancy-thomas-levenson-book-0612",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-12"
     },
     {
       "title": "Startup’s nuclear-inspired cooling system could make data centers more sustainable",
@@ -696,116 +712,12 @@
       "date": "2026-06-01"
     },
     {
-      "title": "Single Tissue Snapshot Reveals Biological Processes Unfolding Over Time",
-      "description": "A core challenge in biology is understanding how processes in the body, such as cellular development and regeneration, unfold over long stretches of time, making them notoriously difficult to view at the molecular level. Now, a team led by researchers at Caltech has shown that a single snapshot of a mouse testis is enough to reconstruct the entire weeks-long cycle of sperm production, along with the cell-to-cell coordination that organizes it.The key lies in using the spatial organization of the tissue. Each testis is essentially a tightly packed bundle of long tubes called seminiferous tubule",
-      "link": "https://www.caltech.edu/about/news/single-tissue-snapshot-reveals-biological-processes-unfolding-over-time",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-05-26"
-    },
-    {
-      "title": "Brain-inspired chip runs near absolute zero and could transform quantum computing",
-      "description": "Scientists at the University of Hong Kong have created a remarkable new type of brain-inspired chip that can function just above absolute zero, one of the coldest environments imaginable. By using a standard silicon carbide transistor in a completely new way, the team made a single device behave like an energy-efficient neuron, firing electrical “spikes” similar to those in the human brain.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260612032024.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "James Webb reveals two completely different twilights on an alien world",
-      "description": "JWST has revealed dramatic differences between the dawn and dusk regions of the scorching exoplanet WASP-121 b. Fierce winds appear to carry heat from the planet’s permanent dayside, making the evening side hotter and more expanded. Scientists also found signs that water is being broken apart by extreme temperatures and that mysterious mineral clouds may be shaping the cooler side’s atmosphere.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260611024559.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Heat breaks the rules at the nanoscale and scientists used it to their advantage",
-      "description": "Scientists used nanoscale gold metamaterials to supercharge heat transfer across tiny gaps, achieving up to four times more energy flow than similar conventional systems. The breakthrough could lead to better chip cooling, more efficient energy technologies, and a new era of precision heat engineering.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260606075511.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-08"
-    },
-    {
       "title": "Tuning Into Quantum Sounds",
       "description": "When a singer belts out a tune while a guitar player strums along, sound waves travel through the air, driving collective oscillations of the molecules within. Meanwhile, at the quantum level, something similar is going on. Atoms inside materials, everything from our bodies to metals and more, naturally jiggle around, creating tiny vibrational waves that ripple across the material. These vibrations are known as phonons: the quantum version of sound waves.Now, physicists at Caltech and Stanford University have developed devices called nanoelectromechanical systems (NEMS) that allow phonons to e",
       "link": "https://www.caltech.edu/about/news/tuning-into-quantum-sounds",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-05-22"
-    },
-    {
-      "title": "New documentary follows researchers’ increasingly fraught career path",
-      "description": "The Endless Frontier traces the lives of three scientists as they train students and deal with funding pressures",
-      "link": "https://www.science.org/content/article/new-documentary-follows-researchers-increasingly-fraught-career-path",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Metal-driven chemical reaction in deep sea may explain origin of life",
-      "description": "Group offers new scenario for how cells came to rely on phosphate molecules to build DNA and store energy",
-      "link": "https://www.science.org/content/article/metal-driven-chemical-reaction-deep-sea-may-explain-origin-life",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "After years of opposition, Mexico’s president is reconsidering fracking",
-      "description": "The government has tasked a group of scientists with assessing new technologies for “sustainable” oil and gas drilling—but many experts say it’s a fantasy",
-      "link": "https://www.science.org/content/article/after-years-opposition-mexico-s-president-reconsidering-fracking",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "How did the cruise ship hantavirus outbreak start? Scientists are investigating new scenarios",
-      "description": "Understanding how the first patient became infected may shed new light on Andes virus’ transmission patterns and incubation period",
-      "link": "https://www.science.org/content/article/how-did-cruise-ship-hantavirus-outbreak-start-scientists-are-investigating-new",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "The ocean current that warms Europe may be more resilient than feared",
-      "description": "Studies of the Atlantic's circulation find signs of both weakening and unexpected stability in the face of global warming",
-      "link": "https://www.science.org/content/article/ocean-current-warms-europe-may-be-more-resilient-feared",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Laser-boosted microscopes could reveal new drug targets, sharpen views inside cells",
-      "description": "Enhanced cryo–electron microscopy promises to bring previously elusive proteins into view",
-      "link": "https://www.science.org/content/article/laser-boosted-microscopes-could-reveal-new-drug-targets-sharpen-views-inside-cells",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "The long history of vaccine hesitancy",
-      "description": "Thomas Levenson’s new book shows how arguments against vaccination reach back to the beginning of the technology itself.",
-      "link": "https://news.mit.edu/2026/long-history-of-vaccine-hesitancy-thomas-levenson-book-0612",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "If scientists discover aliens, they have a plan for ‘disclosure day’",
-      "description": "New guidelines aim to help scientists verify, communicate, and manage evidence of extraterrestrial intelligence",
-      "link": "https://www.science.org/content/article/if-scientists-discover-aliens-they-have-plan-disclosure-day",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Study finds sharp decline in Black, Hispanic researchers receiving NIH funding",
-      "description": "Drop in those receiving grants and fellowships in 2025 shows impact of Trump administration rollbacks to diversity initiatives",
-      "link": "https://www.science.org/content/article/study-finds-sharp-decline-black-hispanic-researchers-receiving-nih-funding",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-06-10"
     },
     {
       "title": "Award-Winning Researcher Trains Robots to Make Educated Guesses",
@@ -822,6 +734,14 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-06-11"
+    },
+    {
+      "title": "Heat breaks the rules at the nanoscale and scientists used it to their advantage",
+      "description": "Scientists used nanoscale gold metamaterials to supercharge heat transfer across tiny gaps, achieving up to four times more energy flow than similar conventional systems. The breakthrough could lead to better chip cooling, more efficient energy technologies, and a new era of precision heat engineering.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260606075511.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-08"
     },
     {
       "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
@@ -856,9 +776,9 @@
       "date": "2026-06-10"
     },
     {
-      "title": "One-way quantum synchronization could make quantum computers more reliable",
-      "description": "Scientists at RIKEN have proposed a new way to make quantum systems synchronize in only one direction—like a one-way street for sound particles known as phonons. The breakthrough combines two quantum effects to create a form of one-way quantum synchronization that remains surprisingly stable even when exposed to manufacturing flaws and environmental noise, two major obstacles that have long hindered real-world quantum technologies.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
+      "title": "These tiny holes could change how the world cleans water",
+      "description": "A new nature-inspired membrane uses perfectly uniform one-nanometer pores to filter molecules with remarkable precision. The technology could transform industries such as pharmaceuticals and textiles by reducing energy consumption, improving water reuse, and delivering separation performance far beyond current filters.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260612032049.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-06-12"
@@ -867,14 +787,6 @@
       "title": "What Size Company Is Right for You?",
       "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! Small Startup, Mid-Size Company, or Fortune 100? The Pros and Cons Early in my career, I walked into a shared office space on my first day as a full stack software developer and sat down between the CTO and the CEO to get onboarded. There were four of us in total. Before the day was over, I received my first assignment. This was one of the most form",
       "link": "https://spectrum.ieee.org/fortune-500-companies-vs-startups",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-09"
-    },
-    {
-      "title": "The Pros and Cons of Job Hopping as an Engineer",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! Job Hopping as an Engineer: The Pros and Cons I’ve changed jobs more times than I ever imagined I would. In the past 12 years, I’ve worked at seven different organizations. Some of those moves were forced by layoffs. Others were deliberate bets on my own trajectory. Job hopping, done strategically, is one of the fastest ways to accelerate your compe",
-      "link": "https://spectrum.ieee.org/strategic-job-hopping",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-06-09"
@@ -902,22 +814,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-06-08"
-    },
-    {
-      "title": "Science Center to be named Zimmer Hall",
-      "description": "Harvard University announced on Friday that the Science Center on Oxford Street will be renamed Zimmer Hall, in recognition of a 2018 gift of $100 million from the Zimmer Family…",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/science-center-to-be-named-zimmer-hall/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-05"
-    },
-    {
-      "title": "High-tech for the 1700s",
-      "description": "Exhibit showcases tools that powered Revolutionary America",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/high-tech-for-the-1700s/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-04"
     },
     {
       "title": "20 societal problems, 20 solutions",
@@ -960,52 +856,148 @@
       "date": "2026-05-28"
     },
     {
-      "title": "These tiny holes could change how the world cleans water",
-      "description": "A new nature-inspired membrane uses perfectly uniform one-nanometer pores to filter molecules with remarkable precision. The technology could transform industries such as pharmaceuticals and textiles by reducing energy consumption, improving water reuse, and delivering separation performance far beyond current filters.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260612032049.htm",
+      "title": "One-way quantum synchronization could make quantum computers more reliable",
+      "description": "Scientists at RIKEN have proposed a new way to make quantum systems synchronize in only one direction—like a one-way street for sound particles known as phonons. The breakthrough combines two quantum effects to create a form of one-way quantum synchronization that remains surprisingly stable even when exposed to manufacturing flaws and environmental noise, two major obstacles that have long hindered real-world quantum technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260611024619.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-06-12"
     },
     {
-      "title": "Harriet having it all",
-      "description": "From Boston to Moscow and across the U.S., Harriet Latham Robinson SM ’61, PhD ’65 has balanced an exciting career at the forefront of molecular biology with family, friends, and adventure.",
-      "link": "https://news.mit.edu/2026/harriet-having-it-all-0612",
-      "source": "MIT News",
+      "title": "James Webb reveals two completely different twilights on an alien world",
+      "description": "JWST has revealed dramatic differences between the dawn and dusk regions of the scorching exoplanet WASP-121 b. Fierce winds appear to carry heat from the planet’s permanent dayside, making the evening side hotter and more expanded. Scientists also found signs that water is being broken apart by extreme temperatures and that mysterious mineral clouds may be shaping the cooler side’s atmosphere.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260611024559.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "Berkeley Talks: Why kids need awe — and how puppets can help",
+      "description": "Creators of the new Jim Henson Company puppet special “Wowsabout” join researchers from UC Berkeley’s Greater Good Science Center to discuss the complex psychology of wonder as a powerful tool for early childhood resilience. The post Berkeley Talks: Why kids need awe — and how puppets can help appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/06/12/berkeley-talks-why-kids-need-awe/",
+      "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-06-12"
     },
     {
-      "title": "MIT engineers find a way to deliver drugs directly to the esophagus",
-      "description": "Their new gel-like drug formulation can coat the esophageal lining and release drugs that could help treat inflammatory conditions affecting the esophagus.",
-      "link": "https://news.mit.edu/2026/mit-engineers-find-way-to-deliver-drugs-directly-to-esophagus-0612",
-      "source": "MIT News",
+      "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first…",
+      "link": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
+      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-06-12"
     },
     {
-      "title": "Jinhua Zhao named head of the Department of Urban Studies and Planning",
-      "description": "An expert in behavioral science and transportation, Zhao combines these studies with AI and public policy to address some of the most urgent challenges facing cities.",
-      "link": "https://news.mit.edu/2026/jinhua-zhao-named-head-department-urban-studies-planning-0611",
-      "source": "MIT News",
+      "title": "You do your own time",
+      "description": "There we were, a regular murderers’ row of librarians. Little Jo. Eustace. And me. Turning around in the nave of our library to greet the sound of footsteps, pistols leveled in case whoever was coming in didn’t respect sanctuary. Little Jo had a stack of books under one arm. Eustace was holding the screwdriver she’d…",
+      "link": "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
+      "description": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vision loss—by regenerating healthy nerves in the eye. But…",
+      "link": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Inside interoception: The hidden sense of how you feel inside",
+      "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Your brain lives in the dark space of your skull. Yet it knows when the wind lifts the hairs on your skin, when your heart is…",
+      "link": "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "A new $13.5 million gift will help UC Berkeley drive technology from lab to market",
+      "description": "The post A new $13.5 million gift will help UC Berkeley drive technology from lab to market appeared first on Berkeley News.",
+      "link": "https://inspire.berkeley.edu/o/sonsini/",
+      "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-06-11"
     },
     {
-      "title": "Q&A with an MIT dining influencer",
-      "description": "Michaela Brown loves telling stories about food and friends, from oxtail and ackee in Jamaica to Thanksgiving dinner in New Vassar, as an MIT Dining Ambassador.",
-      "link": "https://news.mit.edu/2026/qa-with-mit-dining-influencer-michaela-brown-0611",
-      "source": "MIT News",
+      "title": "Defining Autonomy for Wellness Robots in Senior Care",
+      "description": "An examination of how socially assistive wellness robots could support the seven dimensions of senior wellness, and how a framework can measure their autonomy. What Attendees will Learn Why the senior care crisis exceeds incremental automation. Demographic pressure, workforce shortages, and a daily wellness-programming gap all strain traditional care models. What defines a wellness robot as a category. The seven ICAA wellness dimensions and eight properties separate these robots from companion and medical devices. How autonomy can be measured with CRAS. This six-level scale, modeled on the SAE",
+      "link": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
+      "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-06-11"
     },
     {
-      "title": "When it comes to predicting people’s preferences, it pays to consider “the power of three”",
-      "description": "MIT researchers provide a major upgrade to the nearly century-old idea of random utility models.",
-      "link": "https://news.mit.edu/2026/when-predicting-preferences-it-pays-to-consider-power-of-three-0611",
-      "source": "MIT News",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "description": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other…",
+      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-06-11"
+    },
+    {
+      "title": "Job titles of the future: Nature’s drug designer",
+      "description": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use. For Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease while minimizing harm to healthy cells. But as a lifelong nature lover, he was increasingly concerned about…",
+      "link": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "Scientists discover a strange property in rice and turn it into a smart material",
+      "description": "Scientists discovered that rice behaves in a highly unusual way: it weakens under rapid compression but stays stronger when pressure is applied slowly. Using this effect, they engineered a new material that reacts differently to gentle movements and sudden impacts. The material can adapt its stiffness automatically, opening the door to safer soft robots and protective equipment that responds instantly to collisions.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260611024621.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "This student is reclaiming his Pomo culture, one recording at a time",
+      "description": "When a new collection arrived at UC Berkeley’s California Language Archive, graduate student Tyler Lee-Wynant found hours of recordings of his aunt speaking Northern Pomo — tapes he and his family had never heard before. The post This student is reclaiming his Pomo culture, one recording at a time appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/06/10/this-student-is-reclaiming-his-pomo-culture-one-recording-at-a-time/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-10"
+    },
+    {
+      "title": "The number of uninsured Californians could nearly double by 2030, says new report",
+      "description": "Historic cuts to Medicaid and low-cost California health insurance could leave 4.6 million residents with no coverage. A new report from the UC Berkeley Labor Center says the working poor, older workers and undocumented workers could bear the brunt. The post The number of uninsured Californians could nearly double by 2030, says new report appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/06/10/the-number-of-uninsured-californians-could-nearly-double-by-2030-says-new-report/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-10"
+    },
+    {
+      "title": "UC Berkeley to host 2026 College Horizons summer program",
+      "description": "The program will bring more than 120 students from federally recognized tribes together for an immersive college access experience focused on admissions, financial aid and academic opportunity. The post UC Berkeley to host 2026 College Horizons summer program appeared first on Berkeley News.",
+      "link": "https://thriving.berkeley.edu/news/uc-berkeley-host-2026-college-horizons-summer-program",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-09"
+    },
+    {
+      "title": "As California warms, cases of dengue fever are expected to grow",
+      "description": "Climate change may increase local transmission of “breakbone fever” in the state’s mosquito-friendly cities. The post As California warms, cases of dengue fever are expected to grow appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/06/09/as-california-warms-cases-of-dengue-fever-are-expected-to-grow/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-09"
+    },
+    {
+      "title": "The Pros and Cons of Job Hopping as an Engineer",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! Job Hopping as an Engineer: The Pros and Cons I’ve changed jobs more times than I ever imagined I would. In the past 12 years, I’ve worked at seven different organizations. Some of those moves were forced by layoffs. Others were deliberate bets on my own trajectory. Job hopping, done strategically, is one of the fastest ways to accelerate your compe",
+      "link": "https://spectrum.ieee.org/strategic-job-hopping",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-09"
+    },
+    {
+      "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
+      "description": "Direct-to-cell technology uses LEO satellites as spaceborne cell towers. It delivers LTE services to existing smartphones without hardware changes, bridging global coverage gaps. What Attendees will Learn How DTC works as a spaceborne cell tower — LEO satellites carry LTE eNodeB payloads in regenerative mode. How they serve unmodified phones using quasi-earth-fixed multi-beam antennas. How the satellite compensates for Doppler shift and time delay on thenetwork side. Why Doppler shift and round-trip time are critical challenges — A LEO satellite’s high velocity causes carrier frequency offsets",
+      "link": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-02"
     },
     {
       "title": "Education in Papua New Guinea",
@@ -1184,30 +1176,6 @@
       "date": "2026-06-04"
     },
     {
-      "title": "ADB President Says MDBs Are Mobilizing to Help Countries Hit by Crisis",
-      "description": "ADB President Masato Kanda told G7 finance ministers and central bank governors in Paris that multilateral development banks (MDBs) are moving together to help countries manage the economic fallout from the Middle East conflict, combining financing, policy support, private sector instruments, and technical expertise to protect vulnerable economies.",
-      "link": "https://www.adb.org/news/adb-president-says-mdbs-are-mobilizing-help-countries-hit-crisis",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-05-19"
-    },
-    {
-      "title": "Joint Statement by Seven Multilateral Development Banks Pledging Support to Address Impacts of the Middle East Conflict",
-      "description": "The signatory Multilateral Development Banks (MDBs) are responding to requests for support from countries and clients to help address the heterogeneous and compound impacts from the conflict in the Middle East, including disruptions to energy and fertilizer markets and trade routes, with spillover effects on inflation, food security, jobs, fiscal and external balances, and financing conditions.",
-      "link": "https://www.adb.org/news/joint-statement-seven-multilateral-development-banks-pledging-support-address-impacts-middle-east-conflict",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-05-18"
-    },
-    {
-      "title": "ADB President Meets Philippine President Marcos, Offers $1.75 Billion in Crisis Support",
-      "description": "ADB President Masato Kanda met Philippine President Ferdinand R. Marcos Jr. at Malacañan Palace and said ADB is ready to provide up to $1.75 billion in additional financing to support the Philippines to manage the economic impact of the Middle East conflict.",
-      "link": "https://www.adb.org/news/adb-president-meets-philippine-president-marcos-offers-1-75-billion-crisis-support",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-05-15"
-    },
-    {
       "title": "ADB President Backs Viet Nam’s “Era of National Rise”",
       "description": "ADB President Masato Kanda met General Secretary and President of the Socialist Republic of Viet Nam To Lam, congratulating him on his historic re-election and expressing strong support for Viet Nam’s new phase of high-quality, innovation-driven growth under the “Era of National Rise” agenda.",
       "link": "https://www.adb.org/news/adb-president-backs-viet-nam-era-national-rise",
@@ -1224,9 +1192,33 @@
       "date": "2026-05-19"
     },
     {
+      "title": "ADB President Says MDBs Are Mobilizing to Help Countries Hit by Crisis",
+      "description": "ADB President Masato Kanda told G7 finance ministers and central bank governors in Paris that multilateral development banks (MDBs) are moving together to help countries manage the economic fallout from the Middle East conflict, combining financing, policy support, private sector instruments, and technical expertise to protect vulnerable economies.",
+      "link": "https://www.adb.org/news/adb-president-says-mdbs-are-mobilizing-help-countries-hit-crisis",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-05-19"
+    },
+    {
+      "title": "Joint Statement by Seven Multilateral Development Banks Pledging Support to Address Impacts of the Middle East Conflict",
+      "description": "The signatory Multilateral Development Banks (MDBs) are responding to requests for support from countries and clients to help address the heterogeneous and compound impacts from the conflict in the Middle East, including disruptions to energy and fertilizer markets and trade routes, with spillover effects on inflation, food security, jobs, fiscal and external balances, and financing conditions.",
+      "link": "https://www.adb.org/news/joint-statement-seven-multilateral-development-banks-pledging-support-address-impacts-middle-east-conflict",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-05-18"
+    },
+    {
       "title": "ADB, AIIB Support First Panda Bond Issuance for Green Projects in Pakistan",
       "description": "ADB and the Asian Infrastructure Investment Bank (AIIB) have collaborated to support Pakistan’s first issuance of a Panda bond to finance its Sustainable and Green Infrastructure Project.",
       "link": "https://www.adb.org/news/adb-aiib-support-first-panda-bond-issuance-green-projects-pakistan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-05-15"
+    },
+    {
+      "title": "ADB President Meets Philippine President Marcos, Offers $1.75 Billion in Crisis Support",
+      "description": "ADB President Masato Kanda met Philippine President Ferdinand R. Marcos Jr. at Malacañan Palace and said ADB is ready to provide up to $1.75 billion in additional financing to support the Philippines to manage the economic impact of the Middle East conflict.",
+      "link": "https://www.adb.org/news/adb-president-meets-philippine-president-marcos-offers-1-75-billion-crisis-support",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-05-15"
@@ -1304,6 +1296,14 @@
       "date": "2026-06-08"
     },
     {
+      "title": "NASA Award Boosts Space Technology Research Capabilities",
+      "description": "NASA is introducing a new funding opportunity to accelerate academic research and technology development. The Minority University Research and Education Project Space Technology Artemis Research (M‑STAR) application window opened Thursday and will remain open through 11:59 p.m. EDT on Tuesday, Aug. 11. The research funded through this award supports the agency’s priorities for exploring the […]",
+      "link": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/murep/nasa-award-boosts-space-technology-research-capabilities/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-11"
+    },
+    {
       "title": "Earth from Space: Buenos Aires",
       "description": "Image: This radar image from the Copernicus Sentinel-1 mission captures Buenos Aires, the capital of Argentina, the surrounding countryside and the Rio de la Plata estuary. Zoom in to explore this image at its full resolution. This is a composite of three Sentinel-1 acquisitions taken in January, March and May this year, with each image assigned to a different colour channel (blue in January, green in March and red in May). As the environmental changes on the ground created a significant ‘backscatter’ reflection of the radar signal, they show up as bright shades that correspond to changes acro",
       "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Earth_from_Space_Buenos_Aires",
@@ -1320,6 +1320,62 @@
       "date": "2026-06-11"
     },
     {
+      "title": "World Cup Fever in Guadalajara",
+      "description": "The city’s metro area has pushed westward since it last hosted World Cup matches in 1986, expanding across a landscape shaped by ancient volcanoes.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/world-cup-fever-in-guadalajara/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "NASA’s Chandra Discovers Possible Supernova Remnant in Galactic Center",
+      "description": "Using data from NASA’s Chandra X-ray Observatory, astronomers may have found a supernova remnant in an intriguing neighborhood in the middle of our galaxy. A paper describing these new findings published in The Astrophysical Journal. Supernova remnants are the expanding remains of exploded stars and provide elements – like iron, oxygen, and silicon – that […]",
+      "link": "https://science.nasa.gov/missions/chandra/nasas-chandra-discovers-possible-supernova-remnant-in-galactic-center/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "I Am Artemis: Elkin Norena",
+      "description": "Listen to this audio excerpt from Elkin Norena, resident management officer, NASA’s Space Launch System Program: NASA’s Elkin Norena has helped the agency launch more than a dozen space shuttle missions – that’s more than a dozen crews to low Earth orbit and more than a dozen historic missions. They were missions that helped build […]",
+      "link": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-elkin-norena/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "NASA to Cover 34th SpaceX Resupply Mission Space Station Departure",
+      "description": "NASA and its international partners are set to receive scientific research samples and hardware as a SpaceX Dragon spacecraft is scheduled to depart the International Space Station on Tuesday, June 16, for its return to Earth. Watch NASA’s live undocking coverage beginning at 11:45 a.m. EDT on NASA+, Amazon Prime, and the agency’s YouTube channel. […]",
+      "link": "https://www.nasa.gov/news-release/nasa-to-cover-34th-spacex-resupply-mission-space-station-departure/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Hubble Sees Swarm of Galaxies",
+      "description": "Looking somewhat like a swarm of bees returning to their hive, this NASA Hubble Space Telescope image features the galaxy cluster MACS0329-0211.",
+      "link": "https://science.nasa.gov/missions/hubble/hubble-sees-swarm-of-galaxies/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors",
+      "description": "A new type of gamma-ray sensor developed by NASA will take part in a robotic arm demonstration on the agency’s upcoming Fly Foundational Robots mission.",
+      "link": "https://science.nasa.gov/missions/tech-demonstration/nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "Soccer Meets Space Science",
+      "description": "A soccer ball floats in microgravity in this March 2, 2026, picture from the International Space Station. The space station crew tested soccer balls to study how internal mass affects motion and stability in microgravity. The findings have improved understanding of how embedded technologies, including match-ball sensors, can influence performance during play. Through research aboard […]",
+      "link": "https://www.nasa.gov/image-article/soccer-meets-space-science/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-06-11"
+    },
+    {
       "title": "MIT’s new spacecraft engine could send tiny satellites to Mars",
       "description": "MIT researchers have shown that one fuel can power both chemical and electric spacecraft thrusters, potentially transforming what small satellites can do. The approach combines quick bursts of speed with highly efficient long-range propulsion in a single compact system. A NASA-supported CubeSat mission will soon test the technology in orbit.",
       "link": "https://www.sciencedaily.com/releases/2026/06/260610003051.htm",
@@ -1328,12 +1384,12 @@
       "date": "2026-06-10"
     },
     {
-      "title": "NASA names four-man crew to Artemis 3 mission",
-      "description": "The crew of NASA's next Artemis moon program mission was announced Tuesday, setting the stage for a flight to Earth orbit next year to test rendezvous and docking procedures with moon landers being built by SpaceX and Blue Origin, a critical milestone before sending astronauts back to the moon for landing in 2028.",
-      "link": "https://spaceflightnow.com/2026/06/09/73614/",
-      "source": "Spaceflight Now",
+      "title": "NASA’s Career Technical Education Day Highlights Technical Careers",
+      "description": "At NASA, remaining a global leader in exploration and innovation includes having a skilledand dedicated workforce. Technicians play a critical role in advancing the agency’sresearch and missions, applying hands-on expertise across engineering, fabrication,electronics, and countless other technical fields. To help cultivate the next generation of technical talent, NASA’s Office of STEM Engagementhosted Career Technical Education […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/langley/nasas-career-technical-education-day-highlights-technical-careers/",
+      "source": "NASA",
       "field": "space",
-      "date": "2026-06-09"
+      "date": "2026-06-11"
     },
     {
       "title": "SpaceX launches Falcon 9 rocket booster on record-breaking 35th flight",
@@ -1408,6 +1464,14 @@
       "date": "2026-06-11"
     },
     {
+      "title": "NASA names four-man crew to Artemis 3 mission",
+      "description": "The crew of NASA's next Artemis moon program mission was announced Tuesday, setting the stage for a flight to Earth orbit next year to test rendezvous and docking procedures with moon landers being built by SpaceX and Blue Origin, a critical milestone before sending astronauts back to the moon for landing in 2028.",
+      "link": "https://spaceflightnow.com/2026/06/09/73614/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-06-09"
+    },
+    {
       "title": "SpaceX launches 2 Starshield satellites during Saturday night Starlink mission",
       "description": "The mission represents a rare public announcement of the launch of SpaceX’s Starshield satellites, a government variant of Starlink satellites. Liftoff from pad 4E at Vandenberg Space Force Base happened at 9:24:45 p.m. PDT on Saturday, June 6 (12:24:45 a.m. EDT / 0424:45 UTC on Sunday, June 7).",
       "link": "https://spaceflightnow.com/2026/06/06/spacex-to-launch-2-starshield-satellites-during-saturday-night-starlink-mission/",
@@ -1424,12 +1488,108 @@
       "date": "2026-06-04"
     },
     {
-      "title": "NASA chief defends selection of all-male Artemis 3 crew",
-      "description": "During an event Tuesday at the Johnson Space Center, NASA revealed the astronauts who had been selected for next year's Artemis 3 mission, a flight to test rendezvous and docking procedures in low-Earth orbit with moon landers being built by SpaceX and Blue Origin.",
-      "link": "https://spaceflightnow.com/2026/06/10/nasa-chief-defends-selection-of-all-male-artemis-iii-crew/",
-      "source": "Spaceflight Now",
-      "field": "space",
+      "title": "New documentary follows researchers’ increasingly fraught career path",
+      "description": "The Endless Frontier traces the lives of three scientists as they train students and deal with funding pressures",
+      "link": "https://www.science.org/content/article/new-documentary-follows-researchers-increasingly-fraught-career-path",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Metal-driven chemical reaction in deep sea may explain origin of life",
+      "description": "Group offers new scenario for how cells came to rely on phosphate molecules to build DNA and store energy",
+      "link": "https://www.science.org/content/article/metal-driven-chemical-reaction-deep-sea-may-explain-origin-life",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "After years of opposition, Mexico’s president is reconsidering fracking",
+      "description": "The government has tasked a group of scientists with assessing new technologies for “sustainable” oil and gas drilling—but many experts say it’s a fantasy",
+      "link": "https://www.science.org/content/article/after-years-opposition-mexico-s-president-reconsidering-fracking",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "How did the cruise ship hantavirus outbreak start? Scientists are investigating new scenarios",
+      "description": "Understanding how the first patient became infected may shed new light on Andes virus’ transmission patterns and incubation period",
+      "link": "https://www.science.org/content/article/how-did-cruise-ship-hantavirus-outbreak-start-scientists-are-investigating-new",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "The ocean current that warms Europe may be more resilient than feared",
+      "description": "Studies of the Atlantic's circulation find signs of both weakening and unexpected stability in the face of global warming",
+      "link": "https://www.science.org/content/article/ocean-current-warms-europe-may-be-more-resilient-feared",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "Laser-boosted microscopes could reveal new drug targets, sharpen views inside cells",
+      "description": "Enhanced cryo–electron microscopy promises to bring previously elusive proteins into view",
+      "link": "https://www.science.org/content/article/laser-boosted-microscopes-could-reveal-new-drug-targets-sharpen-views-inside-cells",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "If scientists discover aliens, they have a plan for ‘disclosure day’",
+      "description": "New guidelines aim to help scientists verify, communicate, and manage evidence of extraterrestrial intelligence",
+      "link": "https://www.science.org/content/article/if-scientists-discover-aliens-they-have-plan-disclosure-day",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "Study finds sharp decline in Black, Hispanic researchers receiving NIH funding",
+      "description": "Drop in those receiving grants and fellowships in 2025 shows impact of Trump administration rollbacks to diversity initiatives",
+      "link": "https://www.science.org/content/article/study-finds-sharp-decline-black-hispanic-researchers-receiving-nih-funding",
+      "source": "Science",
+      "field": "technology",
       "date": "2026-06-10"
+    },
+    {
+      "title": "Harriet having it all",
+      "description": "From Boston to Moscow and across the U.S., Harriet Latham Robinson SM ’61, PhD ’65 has balanced an exciting career at the forefront of molecular biology with family, friends, and adventure.",
+      "link": "https://news.mit.edu/2026/harriet-having-it-all-0612",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "MIT engineers find a way to deliver drugs directly to the esophagus",
+      "description": "Their new gel-like drug formulation can coat the esophageal lining and release drugs that could help treat inflammatory conditions affecting the esophagus.",
+      "link": "https://news.mit.edu/2026/mit-engineers-find-way-to-deliver-drugs-directly-to-esophagus-0612",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-12"
+    },
+    {
+      "title": "Jinhua Zhao named head of the Department of Urban Studies and Planning",
+      "description": "An expert in behavioral science and transportation, Zhao combines these studies with AI and public policy to address some of the most urgent challenges facing cities.",
+      "link": "https://news.mit.edu/2026/jinhua-zhao-named-head-department-urban-studies-planning-0611",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "Q&A with an MIT dining influencer",
+      "description": "Michaela Brown loves telling stories about food and friends, from oxtail and ackee in Jamaica to Thanksgiving dinner in New Vassar, as an MIT Dining Ambassador.",
+      "link": "https://news.mit.edu/2026/qa-with-mit-dining-influencer-michaela-brown-0611",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "When it comes to predicting people’s preferences, it pays to consider “the power of three”",
+      "description": "MIT researchers provide a major upgrade to the nearly century-old idea of random utility models.",
+      "link": "https://news.mit.edu/2026/when-predicting-preferences-it-pays-to-consider-power-of-three-0611",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-11"
     },
     {
       "title": "A shot of carbon dioxide rewires how cement sets",
@@ -1486,6 +1646,22 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-06-01"
+    },
+    {
+      "title": "Science Center to be named Zimmer Hall",
+      "description": "Harvard University announced on Friday that the Science Center on Oxford Street will be renamed Zimmer Hall, in recognition of a 2018 gift of $100 million from the Zimmer Family…",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/science-center-to-be-named-zimmer-hall/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-05"
+    },
+    {
+      "title": "High-tech for the 1700s",
+      "description": "Exhibit showcases tools that powered Revolutionary America",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/high-tech-for-the-1700s/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-04"
     },
     {
       "title": "Myriam Heiman named director of The Picower Institute for Learning and Memory",
@@ -1616,134 +1792,6 @@
       "date": "2026-06-02"
     },
     {
-      "title": "Berkeley Talks: Why kids need awe — and how puppets can help",
-      "description": "Creators of the new Jim Henson Company puppet special “Wowsabout” join researchers from UC Berkeley’s Greater Good Science Center to discuss the complex psychology of wonder as a powerful tool for early childhood resilience. The post Berkeley Talks: Why kids need awe — and how puppets can help appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/06/12/berkeley-talks-why-kids-need-awe/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "The Download: “reprogramming” aging, and the hidden sense of interoception",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Why “reprogramming” is the buzziest approach to reversing aging right now Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first…",
-      "link": "https://www.technologyreview.com/2026/06/12/1138899/the-download-reprogramming-reverse-aging-interoception/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "You do your own time",
-      "description": "There we were, a regular murderers’ row of librarians. Little Jo. Eustace. And me. Turning around in the nave of our library to greet the sound of footsteps, pistols leveled in case whoever was coming in didn’t respect sanctuary. Little Jo had a stack of books under one arm. Eustace was holding the screwdriver she’d…",
-      "link": "https://www.technologyreview.com/2026/06/12/1138518/you-do-your-own-time-fiction/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Why “reprogramming” is the buzziest approach to reversing aging right now",
-      "description": "Earlier this week, Life Biosciences, a biotech company focused on reversing age-related diseases, announced that it had dosed its first volunteer. A person with glaucoma has had an experimental treatment injected straight into their eyeball. The idea is to try to treat the disease—which can cause vision loss—by regenerating healthy nerves in the eye. But…",
-      "link": "https://www.technologyreview.com/2026/06/12/1138829/reprogramming-buzziest-approach-reversing-aging-right-now/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "Inside interoception: The hidden sense of how you feel inside",
-      "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Your brain lives in the dark space of your skull. Yet it knows when the wind lifts the hairs on your skin, when your heart is…",
-      "link": "https://www.technologyreview.com/2026/06/12/1138833/inside-interoception-brain-body/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-12"
-    },
-    {
-      "title": "A new $13.5 million gift will help UC Berkeley drive technology from lab to market",
-      "description": "The post A new $13.5 million gift will help UC Berkeley drive technology from lab to market appeared first on Berkeley News.",
-      "link": "https://inspire.berkeley.edu/o/sonsini/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Defining Autonomy for Wellness Robots in Senior Care",
-      "description": "An examination of how socially assistive wellness robots could support the seven dimensions of senior wellness, and how a framework can measure their autonomy. What Attendees will Learn Why the senior care crisis exceeds incremental automation. Demographic pressure, workforce shortages, and a daily wellness-programming gap all strain traditional care models. What defines a wellness robot as a category. The seven ICAA wellness dimensions and eight properties separate these robots from companion and medical devices. How autonomy can be measured with CRAS. This six-level scale, modeled on the SAE",
-      "link": "https://content.knowledgehub.wiley.com/wellness-robots-and-the-path-to-full-autonomy-a-new-paradigm-in-ai-powered-senior-care/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
-      "description": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and alignment research, the mass-market arrival of agents that can carry out tasks without human oversight and follow instructions given to them by other…",
-      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "Job titles of the future: Nature’s drug designer",
-      "description": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use. For Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease while minimizing harm to healthy cells. But as a lifelong nature lover, he was increasingly concerned about…",
-      "link": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "This student is reclaiming his Pomo culture, one recording at a time",
-      "description": "When a new collection arrived at UC Berkeley’s California Language Archive, graduate student Tyler Lee-Wynant found hours of recordings of his aunt speaking Northern Pomo — tapes he and his family had never heard before. The post This student is reclaiming his Pomo culture, one recording at a time appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/06/10/this-student-is-reclaiming-his-pomo-culture-one-recording-at-a-time/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-10"
-    },
-    {
-      "title": "The number of uninsured Californians could nearly double by 2030, says new report",
-      "description": "Historic cuts to Medicaid and low-cost California health insurance could leave 4.6 million residents with no coverage. A new report from the UC Berkeley Labor Center says the working poor, older workers and undocumented workers could bear the brunt. The post The number of uninsured Californians could nearly double by 2030, says new report appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/06/10/the-number-of-uninsured-californians-could-nearly-double-by-2030-says-new-report/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-10"
-    },
-    {
-      "title": "UC Berkeley to host 2026 College Horizons summer program",
-      "description": "The program will bring more than 120 students from federally recognized tribes together for an immersive college access experience focused on admissions, financial aid and academic opportunity. The post UC Berkeley to host 2026 College Horizons summer program appeared first on Berkeley News.",
-      "link": "https://thriving.berkeley.edu/news/uc-berkeley-host-2026-college-horizons-summer-program",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-09"
-    },
-    {
-      "title": "As California warms, cases of dengue fever are expected to grow",
-      "description": "Climate change may increase local transmission of “breakbone fever” in the state’s mosquito-friendly cities. The post As California warms, cases of dengue fever are expected to grow appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/06/09/as-california-warms-cases-of-dengue-fever-are-expected-to-grow/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-09"
-    },
-    {
-      "title": "Direct-to-Cell Technology: Enabling Satellite Connectivity for Legacy Devices",
-      "description": "Direct-to-cell technology uses LEO satellites as spaceborne cell towers. It delivers LTE services to existing smartphones without hardware changes, bridging global coverage gaps. What Attendees will Learn How DTC works as a spaceborne cell tower — LEO satellites carry LTE eNodeB payloads in regenerative mode. How they serve unmodified phones using quasi-earth-fixed multi-beam antennas. How the satellite compensates for Doppler shift and time delay on thenetwork side. Why Doppler shift and round-trip time are critical challenges — A LEO satellite’s high velocity causes carrier frequency offsets",
-      "link": "https://content.knowledgehub.wiley.com/direct-to-cell-technology-enabling-satellite-connectivity-for-legacy-devices/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-02"
-    },
-    {
-      "title": "Scientists discover a strange property in rice and turn it into a smart material",
-      "description": "Scientists discovered that rice behaves in a highly unusual way: it weakens under rapid compression but stays stronger when pressure is applied slowly. Using this effect, they engineered a new material that reacts differently to gentle movements and sudden impacts. The material can adapt its stiffness automatically, opening the door to safer soft robots and protective equipment that responds instantly to collisions.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260611024621.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "How venom kills — and can lead to cures",
-      "description": "Mandë Holford uncovers the secrets of deadly marine mollusks, how their toxins work with such targeted efficiency",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/mande-holford-how-venom-kills-and-can-lead-to-cures/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-08"
-    },
-    {
       "title": "New CRISPR technique selectively shreds cancer cells, providing a new avenue for treating malignancies",
       "description": "IGI researchers used Cas12a proteins to target and destroy cells carrying a genetic mutation implicated in nearly half of all cancers. The post New CRISPR technique selectively shreds cancer cells, providing a new avenue for treating malignancies appeared first on Berkeley News.",
       "link": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/",
@@ -1768,44 +1816,12 @@
       "date": "2026-06-05"
     },
     {
-      "title": "How loneliness became major public health issue",
-      "description": "U.K., U.S. experts trace rise in awareness through research, political involvement, pandemic",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/how-loneliness-became-major-public-health-issue/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
-      "title": "7 hours later, they didn’t want it to end",
-      "description": "Who watches a 439-minute movie in an age of epic distraction? We asked.",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/7-hours-later-they-didnt-want-it-to-end-satantango/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-03"
-    },
-    {
       "title": "Why are white-Black marriage rates so low?",
       "description": "New research suggests increased exposure between groups results in more couplings across class but not racial lines",
       "link": "https://news.harvard.edu/gazette/story/2026/06/why-are-white-black-marriage-rates-so-low/",
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-06-02"
-    },
-    {
-      "title": "Scientists built a battery-free device that turns sunlight into fuel",
-      "description": "Scientists have developed an artificial photosynthesis system that essentially regulates itself, eliminating the need for batteries used in many current designs. The key innovation is an electrolyzer that automatically adapts to changing sunlight by altering its electrical properties as it heats up. This keeps solar fuel production more stable while reducing cost and complexity.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260611024601.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-11"
-    },
-    {
-      "title": "AI could uncover new physics faster but there’s a surprising catch",
-      "description": "Scientists found that transfer learning can make the search for new physics in the universe much faster, slashing the need for expensive simulations. Yet the approach can backfire when AI relies too heavily on familiar patterns, potentially missing evidence of something truly new.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260611024557.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-11"
     },
     {
       "title": "A classic brain test exposed AI's biggest weakness",
@@ -1880,6 +1896,30 @@
       "date": "2026-06-09"
     },
     {
+      "title": "How venom kills — and can lead to cures",
+      "description": "Mandë Holford uncovers the secrets of deadly marine mollusks, how their toxins work with such targeted efficiency",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/mande-holford-how-venom-kills-and-can-lead-to-cures/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-08"
+    },
+    {
+      "title": "How loneliness became major public health issue",
+      "description": "U.K., U.S. experts trace rise in awareness through research, political involvement, pandemic",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/how-loneliness-became-major-public-health-issue/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
+      "title": "7 hours later, they didn’t want it to end",
+      "description": "Who watches a 439-minute movie in an age of epic distraction? We asked.",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/7-hours-later-they-didnt-want-it-to-end-satantango/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-03"
+    },
+    {
       "title": "SCOTUS might surprise you",
       "description": "Sarah Isgur argues growing distrust of justices says more about our tribalism than any change in way judiciary works",
       "link": "https://news.harvard.edu/gazette/story/2026/06/scotus-might-surprise-you/",
@@ -1942,6 +1982,22 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-06-13"
+    },
+    {
+      "title": "Scientists built a battery-free device that turns sunlight into fuel",
+      "description": "Scientists have developed an artificial photosynthesis system that essentially regulates itself, eliminating the need for batteries used in many current designs. The key innovation is an electrolyzer that automatically adapts to changing sunlight by altering its electrical properties as it heats up. This keeps solar fuel production more stable while reducing cost and complexity.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260611024601.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-11"
+    },
+    {
+      "title": "AI could uncover new physics faster but there’s a surprising catch",
+      "description": "Scientists found that transfer learning can make the search for new physics in the universe much faster, slashing the need for expensive simulations. Yet the approach can backfire when AI relies too heavily on familiar patterns, potentially missing evidence of something truly new.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260611024557.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-11"
     }
   ]
 }
