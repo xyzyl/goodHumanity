@@ -1,22 +1,22 @@
 {
   "date": "2026-07-03",
-  "lastUpdated": "2026-07-03T06:58:17.911Z",
+  "lastUpdated": "2026-07-03T10:31:03.280Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "48.0s",
+    "executionTime": "48.1s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 18,
-    "totalCandidates": 187,
-    "totalSelected": 187,
+    "sourcesSuccessful": 19,
+    "totalCandidates": 196,
+    "totalSelected": 196,
     "entriesByField": {
       "health": 9,
       "climate": 23,
       "energy": 4,
-      "technology": 99,
+      "technology": 100,
       "education": 9,
       "development": 16,
       "peace": 8,
-      "space": 19
+      "space": 27
     },
     "categoryIntegrity": {
       "health": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 99,
+        "kept": 100,
         "changed": 1
       },
       "education": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 18,
+        "kept": 26,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 35,
-      "topTierSources": 87,
-      "highCredibilitySources": 162
+      "highScoreEntries": 37,
+      "topTierSources": 95,
+      "highCredibilitySources": 170
     }
   },
   "entries": [
@@ -440,20 +440,12 @@
       "date": "2026-07-01"
     },
     {
-      "title": "Agriculture is ready for AI, but its data isn’t",
-      "description": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile fertilizer costs, unpredictable weather, and margins that leave little room for error. Research shows AI-enabled predictive models can improve crop…",
-      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "source": "MIT Tech Review",
+      "title": "Scientists create quantum sound device that could transform communications",
+      "description": "A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures. The surprising behavior pushes beyond the limits predicted by current theories, suggesting scientists need to rethink how energy moves through advanced materials. In the future, the breakthrough could lead to phonon lasers, faster communications, improved medical technologies, and powerful new sensing systems.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Boleslaw Wyslouch steps down as director of Laboratory for Nuclear Science",
-      "description": "Wyslouch remains the director of the Bates Research and Engineering Center and will continue research on heavy ion collisions.",
-      "link": "https://news.mit.edu/2026/boleslaw-wyslouch-steps-down-director-laboratory-nuclear-science-0701",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-01"
+      "date": "2026-07-02"
     },
     {
       "title": "A Labor of Love: The Renaissance of Astronomy by Noel Swerdlow Has Been Published Posthumously with Help from Friends and Colleagues",
@@ -464,28 +456,12 @@
       "date": "2026-06-30"
     },
     {
-      "title": "Architecting a Better Lithium-Ion Battery",
-      "description": "Since the early 2000s, lithium-ion (Li-ion) batteries have become the predominant rechargeable power source for many mobile devices, electric vehicles, renewable-energy storage grids, and more. But the Li-ion batteries in commercial use carry both safety risks and limitations. Julia R. Greer, the Ruben F. and Donna Mettler Professor of Materials Science, Mechanics and Medical Engineering at Caltech, whose lab has been working to improve Li-ion batteries, now has established a new path toward making them less dangerous and more environmentally friendly, while also boosting performance.\"We've de",
-      "link": "https://www.caltech.edu/about/news/architecting-a-better-lithium-ion-battery",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-23"
-    },
-    {
       "title": "Stressed-Out Soil Bacteria Adapt to Environmental Conditions",
       "description": "A new study from Caltech demonstrates that soil bacteria can adapt under stress, particularly when a key nutrient, phosphorus, is running low in their environment. The work is important for understanding the complex relationships between microorganisms and the roots of plants, which has implications for soil health and food sustainability as the climate changes.The work was conducted in the laboratory of Dianne Newman, the Gordon M. Binder/Amgen Professor of Biology and Geobiology, and is described in a new paper appearing in the journal Current Biology on June 19.Quorum sensing is a molecular",
       "link": "https://www.caltech.edu/about/news/stressed-out-soil-bacteria-adapt-to-environmental-conditions",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-06-19"
-    },
-    {
-      "title": "Scientists create quantum sound device that could transform communications",
-      "description": "A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures. The surprising behavior pushes beyond the limits predicted by current theories, suggesting scientists need to rethink how energy moves through advanced materials. In the future, the breakthrough could lead to phonon lasers, faster communications, improved medical technologies, and powerful new sensing systems.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-02"
     },
     {
       "title": "UC Berkeley will launch new Nancy Pelosi Institute focused on strengthening democracy",
@@ -499,6 +475,14 @@
       "title": "A strange LIGO signal could reveal the missing link behind dark matter",
       "description": "An unusual gravitational wave signal has renewed hopes that primordial black holes, long considered purely theoretical, may finally be within reach of discovery. If confirmed, they could solve one of astronomy's greatest mysteries by explaining the nature of dark matter.",
       "link": "https://www.sciencedaily.com/releases/2026/06/260626125703.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-03"
+    },
+    {
+      "title": "Scientists make quantum time flow backward in stunning physics breakthrough",
+      "description": "Researchers have created quantum control techniques that can make a system appear to run backward in time. By precisely managing quantum measurements, they can reshape the system's arrow of time and even harvest energy from the measurement process itself. The breakthrough could lead to more powerful quantum computers, quantum batteries, and other advanced technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-07-03"
@@ -584,6 +568,14 @@
       "date": "2026-07-01"
     },
     {
+      "title": "Boleslaw Wyslouch steps down as director of Laboratory for Nuclear Science",
+      "description": "Wyslouch remains the director of the Bates Research and Engineering Center and will continue research on heavy ion collisions.",
+      "link": "https://news.mit.edu/2026/boleslaw-wyslouch-steps-down-director-laboratory-nuclear-science-0701",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-01"
+    },
+    {
       "title": "Lab-created ‘SpudCell’ marks ‘stunning’ step toward building life from scratch",
       "description": "A synthetic cell can now grow and divide—but it’s still far from alive",
       "link": "https://www.science.org/content/article/lab-created-spudcell-marks-major-step-toward-building-life-scratch",
@@ -627,14 +619,6 @@
       "title": "MIT in the media: Innovating and educating for the next 250 years of America",
       "description": "During a \"Washington Post Live\" panel discussion with ASU President Michael Crow, President Sally Kornbluth explored how universities are preparing the next generation of scientists to lead in America’s rapidly changing technological landscape.",
       "link": "https://news.mit.edu/2026/mit-media-innovating-and-educating-next-250-years-america",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "A portable ultrasound system could make reliable breast imaging more accessible",
-      "description": "The new technology, which generates high-resolution, 3D images of breast tissue, requires no expertise to operate and could be used at home.",
-      "link": "https://news.mit.edu/2026/portable-ultrasound-system-could-make-reliable-breast-imaging-more-accessible-0701",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-07-01"
@@ -704,12 +688,28 @@
       "date": "2026-06-25"
     },
     {
+      "title": "Architecting a Better Lithium-Ion Battery",
+      "description": "Since the early 2000s, lithium-ion (Li-ion) batteries have become the predominant rechargeable power source for many mobile devices, electric vehicles, renewable-energy storage grids, and more. But the Li-ion batteries in commercial use carry both safety risks and limitations. Julia R. Greer, the Ruben F. and Donna Mettler Professor of Materials Science, Mechanics and Medical Engineering at Caltech, whose lab has been working to improve Li-ion batteries, now has established a new path toward making them less dangerous and more environmentally friendly, while also boosting performance.\"We've de",
+      "link": "https://www.caltech.edu/about/news/architecting-a-better-lithium-ion-battery",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-06-23"
+    },
+    {
       "title": "First phase of Enterprise Research Campus completed",
       "description": "Local leaders join Harvard and Tishman Speyer to celebrate opening",
       "link": "https://news.harvard.edu/gazette/story/2026/06/first-phase-of-enterprise-research-campus-completed/",
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-06-29"
+    },
+    {
+      "title": "A clearer picture of drinking and disease",
+      "description": "New study attempts to reconcile conflicting findings on benefits vs. risks",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/a-clearer-picture-of-drinking-and-disease/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-17"
     },
     {
       "title": "Scientists find ozone depletion began decades before discovery of ozone hole",
@@ -832,6 +832,14 @@
       "date": "2026-05-25"
     },
     {
+      "title": "ADB Approves $182.89 Million Loan to Strengthen Public School System in Karnataka, India",
+      "description": "ADB has approved a $182.89 million (in yen equivalent) loan to help India strengthen the public school system in Karnataka, expanding access to high-quality learning and improving academic performance for more than a million students, including female and disadvantaged learners.",
+      "link": "https://www.adb.org/news/adb-approves-182-89-million-loan-strengthen-public-school-system-karnataka-india",
+      "source": "Asian Development Bank",
+      "field": "education",
+      "date": "2026-07-01"
+    },
+    {
       "title": "Education in Saint Vincent and the Grenadines",
       "description": "Education in Saint Vincent and the Grenadines 2016 US$36,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Harnessing the power of technology for education transformation. CDBMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Saint Vincent and the Grenadines has limited resources and cultural norms that contribute to disparities in education access. The Caribbean region’s susceptibility to natural disasters exacerbates challenges to delivering quality education. The gove",
       "link": "https://www.globalpartnership.org/where-we-work/saint-vincent-and-grenadines",
@@ -846,14 +854,6 @@
       "source": "GPE",
       "field": "education",
       "date": "2026-05-25"
-    },
-    {
-      "title": "ADB Approves $182.89 Million Loan to Strengthen Public School System in Karnataka, India",
-      "description": "ADB has approved a $182.89 million (in yen equivalent) loan to help India strengthen the public school system in Karnataka, expanding access to high-quality learning and improving academic performance for more than a million students, including female and disadvantaged learners.",
-      "link": "https://www.adb.org/news/adb-approves-182-89-million-loan-strengthen-public-school-system-karnataka-india",
-      "source": "Asian Development Bank",
-      "field": "education",
-      "date": "2026-07-01"
     },
     {
       "title": "Donor contributions to GPE",
@@ -888,30 +888,6 @@
       "date": "2026-07-01"
     },
     {
-      "title": "ADB Establishes North Pacific Subregional Office, Expanding Support in Region",
-      "description": "ADB announced the establishment of a subregional office to support its expanding operations in the North Pacific, strengthening the bank’s commitment to its Pacific developing member countries as a steadfast partner for growth, development, and resilience.",
-      "link": "https://www.adb.org/news/adb-establishes-north-pacific-subregional-office-expanding-support-region",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
-      "description": "ADB and Golomt Bank Joint Stock Company (Golomt Bank) have signed a $64 million loan agreement to support sustainable finance and expand lending to micro, small, and medium-sized enterprises (MSMEs), including women-owned businesses in Mongolia.",
-      "link": "https://www.adb.org/news/adb-golomt-bank-partner-expand-sustainable-and-inclusive-finance-mongolia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "ADB Approves $200 Million Emergency Assistance for Sri Lanka’s Post-Cyclone Ditwah Recovery",
-      "description": "ADB has approved a $200 million emergency assistance package for Sri Lanka’s recovery and reconstruction following Cyclone Ditwah.",
-      "link": "https://www.adb.org/news/adb-approves-200-million-emergency-assistance-sri-lanka-post-cyclone-ditwah-recovery",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-01"
-    },
-    {
       "title": "ADB Approves $11 Million Grant to Boost Health Services In Kiribati",
       "description": "ADB has approved an $11 million grant for health initiatives in Kiribati, highlighting the critical role the Asian Development Fund plays in supporting the country’s development priorities.",
       "link": "https://www.adb.org/news/adb-approves-11-million-grant-boost-health-services-kiribati",
@@ -928,6 +904,14 @@
       "date": "2026-06-27"
     },
     {
+      "title": "ADB Approves $200 Million Emergency Assistance for Sri Lanka’s Post-Cyclone Ditwah Recovery",
+      "description": "ADB has approved a $200 million emergency assistance package for Sri Lanka’s recovery and reconstruction following Cyclone Ditwah.",
+      "link": "https://www.adb.org/news/adb-approves-200-million-emergency-assistance-sri-lanka-post-cyclone-ditwah-recovery",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-01"
+    },
+    {
       "title": "ADB Approves Additional Financing to Strengthen Resilient Coffee Livelihoods in Timor-Leste",
       "description": "ADB has approved $4.95 million in additional financing for the Coffee and Agroforestry Livelihood Improvement Project in Timor-Leste, helping smallholder farmers adopt sustainable coffee-based agroforestry practices that improve coffee production and food security.",
       "link": "https://www.adb.org/news/adb-approves-additional-financing-strengthen-resilient-coffee-livelihoods-timor-leste",
@@ -942,6 +926,22 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-06-26"
+    },
+    {
+      "title": "ADB Establishes North Pacific Subregional Office, Expanding Support in Region",
+      "description": "ADB announced the establishment of a subregional office to support its expanding operations in the North Pacific, strengthening the bank’s commitment to its Pacific developing member countries as a steadfast partner for growth, development, and resilience.",
+      "link": "https://www.adb.org/news/adb-establishes-north-pacific-subregional-office-expanding-support-region",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
+      "description": "ADB and Golomt Bank Joint Stock Company (Golomt Bank) have signed a $64 million loan agreement to support sustainable finance and expand lending to micro, small, and medium-sized enterprises (MSMEs), including women-owned businesses in Mongolia.",
+      "link": "https://www.adb.org/news/adb-golomt-bank-partner-expand-sustainable-and-inclusive-finance-mongolia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-02"
     },
     {
       "title": "ADB Approves $42.2 Million Loan to Boost Bamboo Industry in India's Northeast Region",
@@ -1056,6 +1056,14 @@
       "date": "2026-05-13"
     },
     {
+      "title": "NASA’s Artemis II Breaks Agency Streaming Record",
+      "description": "NASA’s live coverage of the Artemis II mission mission drew unprecedented public interest – including more than 149.4 million views of the launch, lunar flyby, splashdown on NASA-owned platforms, including the 24/7 streams covering the mission and the Orion spacecraft views – demonstrating strong, sustained global engagement throughout the mission. Around the Clock Live Broadcast NASA’s Artemis II Crew Launches to the Moon broadcast set unprecedented viewership records across the agency’s […]",
+      "link": "https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-02"
+    },
+    {
       "title": "New Cohort of KISS Study Programs Push the Frontiers of Space Exploration",
       "description": "Five new study topics have been selected by the Keck Institute for Space Studies (KISS) at Caltech to develop collaborations, frameworks, and mission concepts to transform the future of space exploration. The projects were competitively selected as part of KISS's annual cohort from over two dozen proposals.KISS Study Programs focus on developing ideas and concepts that can revolutionize space science and engineering, leveraging Caltech's deep collaborative ties with JPL—which Caltech manages for NASA—and facilitating connections between academia, commercial industry, and government agencies. E",
       "link": "https://www.caltech.edu/about/news/new-cohort-of-kiss-study-programs-push-the-frontiers-of-space-exploration",
@@ -1072,6 +1080,46 @@
       "date": "2026-07-01"
     },
     {
+      "title": "Good Morning, Earth!",
+      "description": "NASA astronaut Chris Williams took this photo of an orbital sunrise from the International Space Station on June 26, 2026. In 24 hours, the space station makes 16 orbits of Earth, traveling through 16 sunrises and sunsets. Learn more about the orbiting laboratory. Image credit: NASA/Chris Williams",
+      "link": "https://www.nasa.gov/image-article/good-morning-earth/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "NASA’s Webb Reveals Stars Sparking to Life in Cosmic Celebration",
+      "description": "NASA’s James Webb Space Telescope has captured the infrared light of numerous features that previously were impossible to see beyond the thick dust of the FS Tau star system. In addition to myriad background galaxies that burst into view like fireworks for the United States’ 250th anniversary celebrations, this image flickers with a number of […]",
+      "link": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-stars-sparking-to-life-in-cosmic-celebration/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "NASA’s Chandra Examines Milky Way at Arms’ Length",
+      "description": "A new result using NASA’s Chandra X-ray Observatory shows that the outer spiral arms in the Milky Way galaxy may reach wider than previously thought. This finding may lead astronomers to adjust their understanding of our home galaxy’s structure. A team of astronomers made this discovery by making precise measurements of distances to dust clouds […]",
+      "link": "https://science.nasa.gov/missions/chandra/nasas-chandra-examines-milky-way-at-arms-length/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "LINK Spacecraft Set for Mission to Boost NASA’s Swift Observatory",
+      "description": "A first-of-its-kind mission to raise the orbit of NASA’s Neil Gehrels Swift Observatory is poised for launch no earlier than Thursday, July 2, 5:09 a.m. EDT (9:09 p.m. UTC+12), from Kwajalein Atoll, part of the Republic of the Marshall Islands in the South Pacific Ocean. A robotic servicing spacecraft called LINK, built by Katalyst Space, will blast […]",
+      "link": "https://www.nasa.gov/image-article/link-spacecraft-set-for-mission-to-boost-nasas-swift-observatory/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "Curiosity Blog, Sols 4934-4940: In the Land of the Polygons",
+      "description": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, June 26, 2026 There were two planning cycles over this span of sols. The Monday planning took place with Curiosity situated within a unit that from orbital imagery appeared light-toned, and from earlier rover positions appeared smooth. Reaching this unit, the […]",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4934-4940-in-the-land-of-the-polygons/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-01"
+    },
+    {
       "title": "Surface CubeSat contracted for Ramses asteroid mission",
       "description": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid. Don Quijote is a shoebox-sized spacecraft that will be deployed onto the Apophis asteroid by ESA’s Ramses mission before the asteroid flies by Earth on 13 April 2029.",
       "link": "https://www.esa.int/Space_Safety/Planetary_Defence/Surface_CubeSat_contracted_for_Ramses_asteroid_mission",
@@ -1080,20 +1128,52 @@
       "date": "2026-07-02"
     },
     {
+      "title": "This Month at ESA: June 2026",
+      "description": "Video: 00:03:15 What did space have in store for Europe this month? This June, ESA astronaut Luca Parmitano was named pilot of NASA's Artemis III mission, Ariane 6 set a new European launch record, Proba-3 returned to operations, ESA satellites detected early signs of El Niño, Euclid unveiled its most detailed view yet of the Milky Way's galactic centre, and Sophie Adenot reached the halfway point of her εpsilon mission aboard the International Space Station. Join us for another month of European space achievements.",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/This_Month_at_ESA_June_2026",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "What’s Up: July 2026 Skywatching Tips from NASA",
+      "description": "A predawn Moon-and-planets meetup, a returning comet, a great chance to see the Milky Way, and Saturn’s rings at a new angle. Skywatching Highlights Transcript An early morning hangout with the Moon and planets, a comet swings by, prime time for the Milky Way, and Saturn’s rings shine at a new angle. That’s What’s Up […]",
+      "link": "https://science.nasa.gov/solar-system/whats-up-july-2026-skywatching-tips-from-nasa/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "NASA Seeks Volunteers for New Yearlong Simulated Moon, Mars Mission",
+      "description": "NASA is recruiting research participants for the agency’s next simulated deep space mission. Beginning no earlier than August 2027, research volunteers will spend one year living and working in interplanetary environments at the agency’s Johnson Space Center in Houston, operating under isolated conditions expected during crewed missions to the Moon or Red Planet. Insights from this […]",
+      "link": "https://www.nasa.gov/humans-in-space/nasa-seeks-volunteers-for-new-yearlong-simulated-moon-mars-mission/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "NASA’s Webb Studies How Planet Survived Death of its Star",
+      "description": "NASA’s James Webb Space Telescope is giving us new insight into the far-future of solar systems like our own, as the agency continues to reveal the secrets of the universe and our place in it. Billions of years ago, a Sun-like star nearing the end of its life swelled tremendously in size to become a […]",
+      "link": "https://science.nasa.gov/missions/webb/nasas-webb-studies-how-planet-survived-death-of-its-star/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "Earth from Space: Grand Canyon, US",
+      "description": "Image: The Grand Canyon, a stunning natural feature in the landscape of Arizona, US, is featured in these two satellite views.",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Earth_from_Space_Grand_Canyon_US",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-03"
+    },
+    {
       "title": "Authorisation paves the way for Aeolus-2 wind mission",
       "description": "Building on the remarkable success of the Earth Explorer Aeolus wind mission, the European Space Agency has given Airbus Defence and Space in the UK the authorisation to proceed to begin the development of Aeolus’ successor, Aeolus-2 – which is set to be built to enhance operational weather forecasts.",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/Authorisation_paves_the_way_for_Aeolus-2_wind_mission",
       "source": "ESA",
       "field": "space",
       "date": "2026-07-02"
-    },
-    {
-      "title": "Webb studies how a planet survived the death of its star",
-      "description": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecting its atmosphere. They found that the planet is significantly warmer than expected and determined how it most likely reached its very tight orbit around the star, a white dwarf. The results are our first window into the future of planets like Jupiter after the death of the Sun, billions of years into the future.",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-01"
     },
     {
       "title": "Mediterranean Sea breaks June surface heat record",
@@ -1110,22 +1190,6 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-07-01"
-    },
-    {
-      "title": "This Month at ESA: June 2026",
-      "description": "Video: 00:03:15 What did space have in store for Europe this month? This June, ESA astronaut Luca Parmitano was named pilot of NASA's Artemis III mission, Ariane 6 set a new European launch record, Proba-3 returned to operations, ESA satellites detected early signs of El Niño, Euclid unveiled its most detailed view yet of the Milky Way's galactic centre, and Sophie Adenot reached the halfway point of her εpsilon mission aboard the International Space Station. Join us for another month of European space achievements.",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/This_Month_at_ESA_June_2026",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-06-29"
-    },
-    {
-      "title": "Sentinel-1 shows ground displacement after Venezuela earthquakes",
-      "description": "Image: The map is an interferogram derived from the comparison of Sentinel-1 data on two dates: on the 18 June before the earthquakes and on 25 June a day after.",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/06/Sentinel-1_shows_ground_displacement_after_Venezuela_earthquakes",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-06-29"
     },
     {
       "title": "ULA launches final Atlas 5 rocket supporting Amazon Leo’s broadband internet satellite constellation",
@@ -1280,6 +1344,62 @@
       "date": "2026-06-17"
     },
     {
+      "title": "Weirdest fashion trend ever",
+      "description": "Dad’s uniform might look boring, but the history behind it is not",
+      "link": "https://news.harvard.edu/gazette/story/2026/07/weirdest-fashion-trend-ever/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "Hot off the presses: The Declaration of Independence",
+      "description": "A flawed first copy — dashed off in all-nighter — endures as template for democracy in action",
+      "link": "https://news.harvard.edu/gazette/story/2026/07/hot-off-the-presses-the-declaration-of-independence/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "It’s easy — just learn everything",
+      "description": "‘Jeopardy!’ star Paolo Pasco ’22 on right (and wrong) answers",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/its-easy-just-learn-everything/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Remembering Jack Reardon, ‘the best of the University personified’",
+      "description": "‘Amazingly well-lived life’ marked by a gift for instilling in others a sense of their own potential",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/remembering-jack-reardon-the-best-of-the-university-personified/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "You take AI, I’ll take my iPod (if I can find it)",
+      "description": "‘The vision of the future being pushed by tech moguls is not necessarily a vision we’ve all bought into.’",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/ai-has-lots-of-people-digging-out-their-ipods/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "A portable ultrasound system could make reliable breast imaging more accessible",
+      "description": "The new technology, which generates high-resolution, 3D images of breast tissue, requires no expertise to operate and could be used at home.",
+      "link": "https://news.mit.edu/2026/portable-ultrasound-system-could-make-reliable-breast-imaging-more-accessible-0701",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
+      "description": "As the parent of two little girls, I often think about how their childhood is different from mine. The seven-year-old is learning about AI at school. The five-year-old is given internet-based homework every week. And they are both absolutely repulsed by the idea of smoking. That was not the prevailing sentiment when I was young.…",
+      "link": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-03"
+    },
+    {
       "title": "Supreme Court cites UC Berkeley history professor’s research in decision upholding birthright citizenship",
       "description": "Hidetaka Hirota said that the Chief Justice's opinion \"demonstrates how historians' work continues to matter in our society today.” The post Supreme Court cites UC Berkeley history professor’s research in decision upholding birthright citizenship appeared first on Berkeley News.",
       "link": "https://ls.berkeley.edu/news/supreme-court-cites-berkeley-history-professor%E2%80%99s-research-landmark-birthright-citizenship",
@@ -1300,6 +1420,14 @@
       "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1…",
       "link": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
       "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "390 gravitational wave detections reveal hidden population of black holes",
+      "description": "Astronomers have released the largest gravitational wave catalog ever, revealing 161 new black hole collisions and pushing the total number of detections to 390. Among the highlights are the clearest gravitational wave signal ever recorded, the most accurate location of a black hole merger, and growing evidence that some black holes are the products of previous black hole mergers. With discoveries now arriving several times a week, gravitational wave astronomy is entering an exciting new era.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625060203.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-07-02"
     },
@@ -1360,78 +1488,6 @@
       "date": "2026-06-30"
     },
     {
-      "title": "A clearer picture of drinking and disease",
-      "description": "New study attempts to reconcile conflicting findings on benefits vs. risks",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/a-clearer-picture-of-drinking-and-disease/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-17"
-    },
-    {
-      "title": "Scientists reveal what really happens when water is trapped in tiny spaces",
-      "description": "A decades-old puzzle about water has finally been unraveled. Researchers found that water trapped in tiny nanoscale spaces is not inherently more reactive. Instead, the intense pressures created inside these microscopic gaps explain most of the effect, while the surrounding material can further enhance water's chemistry if it interacts with the reaction products.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626124706.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "390 gravitational wave detections reveal hidden population of black holes",
-      "description": "Astronomers have released the largest gravitational wave catalog ever, revealing 161 new black hole collisions and pushing the total number of detections to 390. Among the highlights are the clearest gravitational wave signal ever recorded, the most accurate location of a black hole merger, and growing evidence that some black holes are the products of previous black hole mergers. With discoveries now arriving several times a week, gravitational wave astronomy is entering an exciting new era.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625060203.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "Weirdest fashion trend ever",
-      "description": "Dad’s uniform might look boring, but the history behind it is not",
-      "link": "https://news.harvard.edu/gazette/story/2026/07/weirdest-fashion-trend-ever/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "Hot off the presses: The Declaration of Independence",
-      "description": "A flawed first copy — dashed off in all-nighter — endures as template for democracy in action",
-      "link": "https://news.harvard.edu/gazette/story/2026/07/hot-off-the-presses-the-declaration-of-independence/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "It’s easy — just learn everything",
-      "description": "‘Jeopardy!’ star Paolo Pasco ’22 on right (and wrong) answers",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/its-easy-just-learn-everything/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Remembering Jack Reardon, ‘the best of the University personified’",
-      "description": "‘Amazingly well-lived life’ marked by a gift for instilling in others a sense of their own potential",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/remembering-jack-reardon-the-best-of-the-university-personified/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Earth may have been seeding Venus with life for billions of years",
-      "description": "A new study suggests Earth may have been sending tiny hitchhikers to Venus for billions of years. Researchers found that asteroid impacts could launch microbes into space, where some might survive the journey and end up suspended in Venus' clouds. If future missions detect life there, there's a surprising chance it didn't originate on Venus at all—it may have come from Earth.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625014805.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-26"
-    },
-    {
-      "title": "You take AI, I’ll take my iPod (if I can find it)",
-      "description": "‘The vision of the future being pushed by tech moguls is not necessarily a vision we’ve all bought into.’",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/ai-has-lots-of-people-digging-out-their-ipods/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-29"
-    },
-    {
       "title": "Colonialism was more than brutal force — it was an intellectual project",
       "description": "A new book by UC Berkeley Professor Diego Pirillo argues that settler colonialism was shaped by Euro-American scholars, who worked hand in hand with land speculators and military leaders to drive the violent formation of the United States. The post Colonialism was more than brutal force — it was an intellectual project appeared first on Berkeley News.",
       "link": "https://news.berkeley.edu/2026/06/29/colonialism-was-more-than-brutal-force-it-was-an-intellectual-project/",
@@ -1462,6 +1518,22 @@
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-06-25"
+    },
+    {
+      "title": "Scientists reveal what really happens when water is trapped in tiny spaces",
+      "description": "A decades-old puzzle about water has finally been unraveled. Researchers found that water trapped in tiny nanoscale spaces is not inherently more reactive. Instead, the intense pressures created inside these microscopic gaps explain most of the effect, while the surrounding material can further enhance water's chemistry if it interacts with the reaction products.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626124706.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "Earth may have been seeding Venus with life for billions of years",
+      "description": "A new study suggests Earth may have been sending tiny hitchhikers to Venus for billions of years. Researchers found that asteroid impacts could launch microbes into space, where some might survive the journey and end up suspended in Venus' clouds. If future missions detect life there, there's a surprising chance it didn't originate on Venus at all—it may have come from Earth.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625014805.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-26"
     },
     {
       "title": "Don’t believe everything you hear — or read",
