@@ -1,26 +1,26 @@
 {
   "date": "2026-07-07",
-  "lastUpdated": "2026-07-07T07:33:44.899Z",
+  "lastUpdated": "2026-07-07T10:51:12.486Z",
   "metadata": {
     "version": "2.0",
-    "executionTime": "47.9s",
+    "executionTime": "55.2s",
     "sourcesQueried": 62,
-    "sourcesSuccessful": 20,
-    "totalCandidates": 231,
-    "totalSelected": 231,
+    "sourcesSuccessful": 21,
+    "totalCandidates": 239,
+    "totalSelected": 239,
     "entriesByField": {
-      "health": 32,
+      "health": 33,
       "climate": 20,
       "energy": 4,
-      "technology": 125,
+      "technology": 123,
       "education": 9,
       "development": 17,
       "peace": 8,
-      "space": 16
+      "space": 25
     },
     "categoryIntegrity": {
       "health": {
-        "kept": 32,
+        "kept": 33,
         "changed": 0
       },
       "climate": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 125,
+        "kept": 123,
         "changed": 2
       },
       "education": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 15,
+        "kept": 24,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 43,
-      "topTierSources": 109,
-      "highCredibilitySources": 204
+      "highScoreEntries": 49,
+      "topTierSources": 118,
+      "highCredibilitySources": 214
     }
   },
   "entries": [
@@ -94,6 +94,14 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-07-04"
+    },
+    {
+      "title": "Polio simulation exercise strengthens system readiness to maintain Egypt’s polio-free status",
+      "description": "Egypt has maintained its polio-free status despite high and frequent population movement from polio-affected countries, a result of its strong routine immunization coverage and well-established surveillance system. To sustain this achievement requires continuous strengthening of early detection and rapid-response capacities. To support this, 68 technical staff from the Ministry of Health and Population, including participants […]",
+      "link": "https://polioeradication.org/news/polio-simulation-exercise-strengthens-system-readiness-to-maintain-egypts-polio-free-status/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-06-29"
     },
     {
       "title": "Technical Advisory Group sets priorities and benchmarks to end polio in Afghanistan and Pakistan",
@@ -640,14 +648,6 @@
       "date": "2026-07-02"
     },
     {
-      "title": "Boleslaw Wyslouch steps down as director of Laboratory for Nuclear Science",
-      "description": "Wyslouch remains the director of the Bates Research and Engineering Center and will continue research on heavy ion collisions.",
-      "link": "https://news.mit.edu/2026/boleslaw-wyslouch-steps-down-director-laboratory-nuclear-science-0701",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-01"
-    },
-    {
       "title": "Architecting a Better Lithium-Ion Battery",
       "description": "Since the early 2000s, lithium-ion (Li-ion) batteries have become the predominant rechargeable power source for many mobile devices, electric vehicles, renewable-energy storage grids, and more. But the Li-ion batteries in commercial use carry both safety risks and limitations. Julia R. Greer, the Ruben F. and Donna Mettler Professor of Materials Science, Mechanics and Medical Engineering at Caltech, whose lab has been working to improve Li-ion batteries, now has established a new path toward making them less dangerous and more environmentally friendly, while also boosting performance.\"We've de",
       "link": "https://www.caltech.edu/about/news/architecting-a-better-lithium-ion-battery",
@@ -656,12 +656,12 @@
       "date": "2026-06-23"
     },
     {
-      "title": "Stressed-Out Soil Bacteria Adapt to Environmental Conditions",
-      "description": "A new study from Caltech demonstrates that soil bacteria can adapt under stress, particularly when a key nutrient, phosphorus, is running low in their environment. The work is important for understanding the complex relationships between microorganisms and the roots of plants, which has implications for soil health and food sustainability as the climate changes.The work was conducted in the laboratory of Dianne Newman, the Gordon M. Binder/Amgen Professor of Biology and Geobiology, and is described in a new paper appearing in the journal Current Biology on June 19.Quorum sensing is a molecular",
-      "link": "https://www.caltech.edu/about/news/stressed-out-soil-bacteria-adapt-to-environmental-conditions",
-      "source": "Caltech",
+      "title": "Why worms (and microbes) are catching on as a manure pollution solution",
+      "description": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both hands and pulls up a clump of muck, turning it over to reveal a half-dozen squirming red earthworms.…",
+      "link": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
+      "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-06-19"
+      "date": "2026-07-07"
     },
     {
       "title": "UC Berkeley and UCSF launch computational biomedicine initiative",
@@ -688,12 +688,100 @@
       "date": "2026-07-03"
     },
     {
-      "title": "Philosophers call for their journals to require conflict of interest disclosures",
-      "description": "A new petition urges greater transparency amid growing ties to AI and other companies",
-      "link": "https://www.science.org/content/article/philosophers-call-their-journals-require-conflict-interest-disclosures",
-      "source": "Science",
+      "title": "Quantum mechanics once baffled scientists. Now it's changing the world",
+      "description": "Quantum mechanics has journeyed from a strange and controversial idea to the foundation of some of humanity’s most advanced technologies. Now researchers are pushing its boundaries even further, with potential breakthroughs in energy, medicine, computing, and our understanding of the universe.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260624025516.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-05"
+    },
+    {
+      "title": "Scientists make quantum time flow backward in stunning physics breakthrough",
+      "description": "Researchers have created quantum control techniques that can make a system appear to run backward in time. By precisely managing quantum measurements, they can reshape the system's arrow of time and even harvest energy from the measurement process itself. The breakthrough could lead to more powerful quantum computers, quantum batteries, and other advanced technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-03"
+    },
+    {
+      "title": "Scientists create quantum sound device that could transform communications",
+      "description": "A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures. The surprising behavior pushes beyond the limits predicted by current theories, suggesting scientists need to rethink how energy moves through advanced materials. In the future, the breakthrough could lead to phonon lasers, faster communications, improved medical technologies, and powerful new sensing systems.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "Why Public Speaking Skills Are Worth Investing In",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! You want to become a senior developer. A CTO, maybe. Start your own company, perhaps. Or maybe you just want to land your first role in tech. You will not get there from raw engineering skill alone. There’s a skill that’s quietly essential to technical leadership and yet consistently overlooked: public speaking. If you’re anything like I used to be,",
+      "link": "https://spectrum.ieee.org/improve-public-speaking-skills",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "Why Mentorship Is the Most Underrated Leadership Skill",
+      "description": "I started my professional journey as an engineer before moving into product strategy and innovation leadership roles for several global technology organizations. Over the years, I have served as a mentor for a variety of programs including Products That Count’s strategic product management, Women in Product mentorship initiatives, and Alchemist accelerator programs. In 2024 and 2025 I led Walmart’s Women in Product mentorship program. I was responsible for designing and implementing the programs, including managing participant registration, matching mentors with mentees, and establishing clear",
+      "link": "https://spectrum.ieee.org/mentorship-is-an-underrated-leadership-skill",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "UC Berkeley will launch new Nancy Pelosi Institute focused on strengthening democracy",
+      "description": "Announced Monday, the nonpartisan academic institute in the political science department will become a hub for research, teaching and civic engagement. The post UC Berkeley will launch new Nancy Pelosi Institute focused on strengthening democracy appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/06/29/uc-berkeley-will-launch-new-nancy-pelosi-institute-focused-on-strengthening-democracy/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Make an Origami Circuit Board",
+      "description": "What could you do if you could make a circuit trace by just bending a piece of paper? How about bridging modern technologies and traditional handicrafts while providing opportunities for learning skills in both. As part of our interdisciplinary research into digital craftsmanship at the MEI Lab at the School of Creative Media, City University of Hong Kong, we came across research that demonstrated how to impregnate paperlike material (technically a “nonwoven textile”) with the kind of liquid metal used to make conductive ink. Initially, the impregnated material is nonconductive because an insu",
+      "link": "https://spectrum.ieee.org/origami-circuit-boards",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "AI Is Designing Radio Chips That Humans Couldn’t Even Imagine",
+      "description": "Summary RFIC design is a complex “dark art” that limits progress in wireless technologies like 5G, autonomous vehicles, and satellite communications. Princeton researchers use reinforcement learning and inverse design to rapidly create RFICs from scratch. Diffusion models rapidly generate novel or human-interpretable RF layouts, achieving record performance and drastically reducing design time. Future progress needs large, shared chip design datasets and open ecosystems so AI can learn universal electromagnetic and circuit behaviors. Take a moment and try to imagine your life without the wirel",
+      "link": "https://spectrum.ieee.org/ai-radio-chip-design",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Home Broadband Is 5G’s Surprise Killer App",
+      "description": "5G telecommunications, according to industry hype when 5G first launched in 2019, was going to be all about buzzy applications like mobile augmented reality and autonomous vehicles. But the surprise plot twist came when replacing home cable internet turned into 5G’s most widely adopted new application. Fixed wireless access (FWA) now serves over 14 million U.S. customers, and contributes 28 percent of worldwide wireless traffic. Fixed wireless access is what the term sounds like: broadband internet delivered over a cellular radio link to a stationary location—no cable, no fiber, no trenching, ",
+      "link": "https://spectrum.ieee.org/fixed-wireless-access",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "Answering the call: How the Berkeley Law community is supporting democratic principles",
+      "description": "With the rule of law under intense pressure, faculty, students, staff and alumni are working to defend the American way. The post Answering the call: How the Berkeley Law community is supporting democratic principles appeared first on Berkeley News.",
+      "link": "https://www.law.berkeley.edu/article/standing-up-for-the-rule-of-law-democracy-threatened-faculty-staff-students/",
+      "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-07-06"
+    },
+    {
+      "title": "VHF Propagation: What Every RF Engineer Should Know",
+      "description": "A practical educational guide to common and uncommon VHF propagation modes, covering the physics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn 1. Why “line of sight” fails as a practical VHF planning model. 2. How refraction, reflection, diffraction, and scattering deliver or destroy signals where geometry alone cannot predict.3. How tropospheric refraction extends the VHF radio horizon roughly one-third beyond optical line of sight. 4. How temperature inversions form ducts that can carry VHF signals over 1,500 km.5. How sporadic E, meteo",
+      "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "Watch: Ending extreme global poverty is within reach — and we know the price tag",
+      "description": "UC Berkeley Professor Joshua Blumenstock uses machine learning and AI to solve the world's biggest global development challenges. The post Watch: Ending extreme global poverty is within reach — and we know the price tag appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/07/02/watch-ending-extreme-global-poverty-is-within-reach-and-we-know-the-price-tag/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-07-02"
     },
     {
       "title": "The Space-based Data Center Hype Machine Is Already in Orbit",
@@ -704,12 +792,28 @@
       "date": "2026-07-01"
     },
     {
-      "title": "Scientists create quantum sound device that could transform communications",
-      "description": "A new quantum device can generate precisely controlled bursts of sound-like particles, or phonons, by forcing electrons through an ultra-thin crystal at extremely low temperatures. The surprising behavior pushes beyond the limits predicted by current theories, suggesting scientists need to rethink how energy moves through advanced materials. In the future, the breakthrough could lead to phonon lasers, faster communications, improved medical technologies, and powerful new sensing systems.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260626030435.htm",
+      "title": "The Lab Mistake That Might Revolutionize Computing",
+      "description": "Today, you probably asked a question of a large language model, or accepted a connection suggestion on LinkedIn, or watched a recommended video on YouTube, or took a different route to work based on a traffic prediction from Google Maps. In other words, you probably used artificial intelligence. But what you might not know is how much energy that interaction consumed or why. AI requires processing massive amounts of data, which is usually done in large data centers populated by thousands of GPUs capable of executing up to trillions of operations per second. But each of those GPUs achieves that",
+      "link": "https://spectrum.ieee.org/artificial-neurons-on-silicon-chips",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
+      "description": "NASA's Hubble Space Telescope has captured a spectacular red, white, and blue view of one of the Milky Way's oldest star clusters to celebrate the nation's 250th anniversary. Hidden within the ancient cluster are clues to how exploding stars helped transform the young universe into one capable of forming planets and, eventually, life.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-07-02"
+      "date": "2026-07-05"
+    },
+    {
+      "title": "Philosophers call for their journals to require conflict of interest disclosures",
+      "description": "A new petition urges greater transparency amid growing ties to AI and other companies",
+      "link": "https://www.science.org/content/article/philosophers-call-their-journals-require-conflict-interest-disclosures",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-07-06"
     },
     {
       "title": "Being a taller tree doesn’t doom you to drought after all",
@@ -792,12 +896,20 @@
       "date": "2026-07-06"
     },
     {
-      "title": "First phase of Enterprise Research Campus completed",
-      "description": "Local leaders join Harvard and Tishman Speyer to celebrate opening",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/first-phase-of-enterprise-research-campus-completed/",
-      "source": "Harvard Gazette",
+      "title": "Boleslaw Wyslouch steps down as director of Laboratory for Nuclear Science",
+      "description": "Wyslouch remains the director of the Bates Research and Engineering Center and will continue research on heavy ion collisions.",
+      "link": "https://news.mit.edu/2026/boleslaw-wyslouch-steps-down-director-laboratory-nuclear-science-0701",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-06-29"
+      "date": "2026-07-01"
+    },
+    {
+      "title": "Stressed-Out Soil Bacteria Adapt to Environmental Conditions",
+      "description": "A new study from Caltech demonstrates that soil bacteria can adapt under stress, particularly when a key nutrient, phosphorus, is running low in their environment. The work is important for understanding the complex relationships between microorganisms and the roots of plants, which has implications for soil health and food sustainability as the climate changes.The work was conducted in the laboratory of Dianne Newman, the Gordon M. Binder/Amgen Professor of Biology and Geobiology, and is described in a new paper appearing in the journal Current Biology on June 19.Quorum sensing is a molecular",
+      "link": "https://www.caltech.edu/about/news/stressed-out-soil-bacteria-adapt-to-environmental-conditions",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-06-19"
     },
     {
       "title": "Lerna Ekmekcioglu named head of MIT's History Section",
@@ -846,110 +958,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-07-01"
-    },
-    {
-      "title": "The brain’s language network is more extensive than previously thought",
-      "description": "A new study reveals that parts of the brain located far from the canonical language-processing centers are also involved in language comprehension.",
-      "link": "https://news.mit.edu/2026/brain-language-network-more-extensive-than-previously-thought-0701",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "MIT-Kalaniyot program expands, with new cohort of scholars",
-      "description": "The innovative effort bringing researchers from Israel to campus keeps growing while enhancing community connections and academic inquiry.",
-      "link": "https://news.mit.edu/2026/mit-kalaniyot-program-expands-new-cohort-of-scholars-0701",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "MIT student teams win top honors in NASA competition",
-      "description": "Three MIT teams took five top awards in the 2026 NASA RASC-AL Competition for designing critical elements for the moon base and future missions to Mars.",
-      "link": "https://news.mit.edu/2026/interdisciplinary-mit-teams-win-top-honors-nasa-competition-0630",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "MIT researchers advance toward greater bandwidth, more energy-efficient communications",
-      "description": "The FUTUR-IC research program integrates electronics and photonics in microchip systems.",
-      "link": "https://news.mit.edu/2026/mit-researchers-advance-toward-greater-bandwidth-more-energy-efficient-0630",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "Q&A: What is agentic AI today, and what do we want it to be?",
-      "description": "Computer scientist Phillip Isola cuts through the hype to explain how AI agents work and what the future might hold for this rapidly advancing technology.",
-      "link": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "A Labor of Love: The Renaissance of Astronomy by Noel Swerdlow Has Been Published Posthumously with Help from Friends and Colleagues",
-      "description": "Noel Swerdlow, a renowned historian of science, spent nearly a decade at Caltech as a visiting associate following his retirement from the University of Chicago in 2010. The world's foremost expert on Copernicus—one of the most important contributors to premodern astronomy—Swerdlow passed away in 2021, but his legacy lives on in a new book thanks to Jed Buchwald, the Doris and Henry Dreyfuss Professor of History at Caltech.The Renaissance of Astronomy, published in May, is a comprehensive account by Swerdlow of the works of Regiomontanus, Copernicus, Tycho Brahe, Johannes Kepler, and Galileo, ",
-      "link": "https://www.caltech.edu/about/news/a-labor-of-love-ithe-renaissance-of-astronomyi-by-noel-swerdlow-has-been-published-posthumously-with-help-from-friends-and-colleagues",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "NSF Research Fellowships Awarded to Caltech Students and Alumni",
-      "description": "Each year, the National Science Foundation (NSF) selects students to receive Graduate Research Fellowships that fund three years of graduate study in master's or doctoral programs including research in science or engineering. This year, 33 Caltech alumni and 19 graduates students have received these fellowships.The Graduate Research Fellowship Program (GFRP) was established to \"recruit and support individuals who demonstrate the potential to make significant contributions in STEM, including STEM education\" and is designed \"ensure the quality, vitality, and strength of the scientific and engine",
-      "link": "https://www.caltech.edu/about/news/nsf-research-fellowships-awarded-to-caltech-students-and-alumni",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-29"
-    },
-    {
-      "title": "Answering the call: How the Berkeley Law community is supporting democratic principles",
-      "description": "With the rule of law under intense pressure, faculty, students, staff and alumni are working to defend the American way. The post Answering the call: How the Berkeley Law community is supporting democratic principles appeared first on Berkeley News.",
-      "link": "https://www.law.berkeley.edu/article/standing-up-for-the-rule-of-law-democracy-threatened-faculty-staff-students/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "Your family’s $300 stake in OpenAI",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in…",
-      "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "Watch: Ending extreme global poverty is within reach — and we know the price tag",
-      "description": "UC Berkeley Professor Joshua Blumenstock uses machine learning and AI to solve the world's biggest global development challenges. The post Watch: Ending extreme global poverty is within reach — and we know the price tag appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/07/02/watch-ending-extreme-global-poverty-is-within-reach-and-we-know-the-price-tag/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "Achieving operational excellence with AI",
-      "description": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to…",
-      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "UC Berkeley will launch new Nancy Pelosi Institute focused on strengthening democracy",
-      "description": "Announced Monday, the nonpartisan academic institute in the political science department will become a hub for research, teaching and civic engagement. The post UC Berkeley will launch new Nancy Pelosi Institute focused on strengthening democracy appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/06/29/uc-berkeley-will-launch-new-nancy-pelosi-institute-focused-on-strengthening-democracy/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-06-29"
-    },
-    {
-      "title": "The Lab Mistake That Might Revolutionize Computing",
-      "description": "Today, you probably asked a question of a large language model, or accepted a connection suggestion on LinkedIn, or watched a recommended video on YouTube, or took a different route to work based on a traffic prediction from Google Maps. In other words, you probably used artificial intelligence. But what you might not know is how much energy that interaction consumed or why. AI requires processing massive amounts of data, which is usually done in large data centers populated by thousands of GPUs capable of executing up to trillions of operations per second. But each of those GPUs achieves that",
-      "link": "https://spectrum.ieee.org/artificial-neurons-on-silicon-chips",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-29"
     },
     {
       "title": "Education in Papua New Guinea",
@@ -1032,17 +1040,17 @@
       "date": "2026-07-06"
     },
     {
-      "title": "ADB Approves $13 Million Financing for Resilient Urban Development in Bhutan",
-      "description": "ADB has approved a $13 million financing package to help the Government of Bhutan strengthen resilient urban infrastructure and expand affordable rental housing for low-income and vulnerable households, particularly in Thimphu and Phuentsholing.",
-      "link": "https://www.adb.org/news/adb-approves-13-million-financing-resilient-urban-development-bhutan",
+      "title": "ADB, HDBank Sign $100 Million Loan to Expand Access to Finance for MSMEs, Women-Owned Businesses in Viet Nam",
+      "description": "ADB has signed a $100 million loan with Ho Chi Minh City Development Joint Stock Commercial Bank (HDBank) to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) in Viet Nam, with a focus on women-owned MSMEs (WMSMEs).",
+      "link": "https://www.adb.org/news/adb-hdbank-sign-100-million-loan-expand-access-finance-msmes-women-owned-businesses-viet-nam",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-06-27"
+      "date": "2026-07-07"
     },
     {
-      "title": "ADB President Meets Nepal Prime Minister as Jobs and Investment Support is Stepped Up",
-      "description": "ADB President Masato Kanda met Prime Minister Balendra Shah in Kathmandu as ADB and Nepal mark 60 years of partnership and deepen support for the country’s economic transformation, job creation, and investment.",
-      "link": "https://www.adb.org/news/adb-president-meets-nepal-prime-minister-jobs-and-investment-support-stepped-up",
+      "title": "ADB, Premium Nexus JSC Sign Social Loan to Promote Efficient and Inclusive Food Distribution in Mongolia",
+      "description": "ADB and Premium Nexus JSC have signed a $10 million (MNT35.8 billion equivalent) social loan to improve access to safe, affordable food and essential goods through modernized retail infrastructure, strengthened cold chain logistics, and expanded convenience store networks across Mongolia.",
+      "link": "https://www.adb.org/news/adb-premium-nexus-jsc-sign-social-loan-promote-efficient-and-inclusive-food-distribution-mongolia",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-07-07"
@@ -1064,20 +1072,36 @@
       "date": "2026-07-01"
     },
     {
-      "title": "ADB Approves $50 Million Loan to Modernize Nepal’s Customs, Boost Trade and Jobs",
-      "description": "ADB has approved a $50 million policy-based loan to help Nepal modernize its customs administration, boost trade, and support job creation.",
-      "link": "https://www.adb.org/news/adb-approves-50-million-loan-modernize-nepal-customs-boost-trade-and-jobs",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-01"
-    },
-    {
       "title": "ADB Approves $11 Million Grant to Boost Health Services In Kiribati",
       "description": "ADB has approved an $11 million grant for health initiatives in Kiribati, highlighting the critical role the Asian Development Fund plays in supporting the country’s development priorities.",
       "link": "https://www.adb.org/news/adb-approves-11-million-grant-boost-health-services-kiribati",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-06-30"
+    },
+    {
+      "title": "ADB Approves $13 Million Financing for Resilient Urban Development in Bhutan",
+      "description": "ADB has approved a $13 million financing package to help the Government of Bhutan strengthen resilient urban infrastructure and expand affordable rental housing for low-income and vulnerable households, particularly in Thimphu and Phuentsholing.",
+      "link": "https://www.adb.org/news/adb-approves-13-million-financing-resilient-urban-development-bhutan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-06-27"
+    },
+    {
+      "title": "ADB President Meets Nepal Prime Minister as Jobs and Investment Support is Stepped Up",
+      "description": "ADB President Masato Kanda met Prime Minister Balendra Shah in Kathmandu as ADB and Nepal mark 60 years of partnership and deepen support for the country’s economic transformation, job creation, and investment.",
+      "link": "https://www.adb.org/news/adb-president-meets-nepal-prime-minister-jobs-and-investment-support-stepped-up",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "ADB Approves $50 Million Loan to Modernize Nepal’s Customs, Boost Trade and Jobs",
+      "description": "ADB has approved a $50 million policy-based loan to help Nepal modernize its customs administration, boost trade, and support job creation.",
+      "link": "https://www.adb.org/news/adb-approves-50-million-loan-modernize-nepal-customs-boost-trade-and-jobs",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-01"
     },
     {
       "title": "ADB Approves $12.5 Million Financing to Strengthen Fiscal Resilience and Sustainable Planning in Palau",
@@ -1112,14 +1136,6 @@
       "date": "2026-07-01"
     },
     {
-      "title": "ADB Approves Additional Financing to Strengthen Resilient Coffee Livelihoods in Timor-Leste",
-      "description": "ADB has approved $4.95 million in additional financing for the Coffee and Agroforestry Livelihood Improvement Project in Timor-Leste, helping smallholder farmers adopt sustainable coffee-based agroforestry practices that improve coffee production and food security.",
-      "link": "https://www.adb.org/news/adb-approves-additional-financing-strengthen-resilient-coffee-livelihoods-timor-leste",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-06-26"
-    },
-    {
       "title": "ADB, Converse Bank Sign $15 Million Financing to Boost Women-Owned MSMEs and Sustainable Lending in Armenia",
       "description": "ADB has signed a financing package of up to $15 million with Converse Bank Closed Joint Stock Company to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) and households, and to support sustainable lending in Armenia.",
       "link": "https://www.adb.org/news/adb-converse-bank-sign-15-million-financing-boost-women-owned-msmes-sustainable-lending-armenia",
@@ -1150,14 +1166,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-06-30"
-    },
-    {
-      "title": "ADB Backs Major Public Spending Reforms in the Philippines",
-      "description": "The Philippines has endorsed a government-wide plan, backed by ADB, to reform how public money is allocated, spent, and accounted for, with the aim of delivering better services for the Filipino people.",
-      "link": "https://www.adb.org/news/adb-backs-major-public-spending-reforms-philippines",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-06-25"
     },
     {
       "title": "How might AI transform science?",
@@ -1224,6 +1232,22 @@
       "date": "2026-06-22"
     },
     {
+      "title": "NASA Webb Uncovers Unusual Galaxy Shaped by Cosmic Collision",
+      "description": "In new images from NASA’s James Webb Space Telescope to celebrate its fourth science anniversary, a familiar galaxy transforms into something far richer, and far more complex, than ever seen before. Webb’s unprecedented sensitivity across near- and mid-infrared wavelengths cuts through the thick lanes of dust that obscure Centaurus A’s center in visible light, showing […]",
+      "link": "https://science.nasa.gov/missions/webb/nasa-webb-uncovers-unusual-galaxy-shaped-by-cosmic-collision/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "NASA’s Artemis II Breaks Agency Streaming Record",
+      "description": "NASA’s live coverage of the Artemis II mission mission drew unprecedented public interest – including more than 149.4 million views of the launch, lunar flyby, splashdown on NASA-owned platforms, including the 24/7 streams covering the mission and the Orion spacecraft views – demonstrating strong, sustained global engagement throughout the mission. Around the Clock Live Broadcast NASA’s Artemis II Crew Launches to the Moon broadcast set unprecedented viewership records across the agency’s […]",
+      "link": "https://www.nasa.gov/general/nasas-artemis-ii-breaks-agency-streaming-record/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-02"
+    },
+    {
       "title": "New Cohort of KISS Study Programs Push the Frontiers of Space Exploration",
       "description": "Five new study topics have been selected by the Keck Institute for Space Studies (KISS) at Caltech to develop collaborations, frameworks, and mission concepts to transform the future of space exploration. The projects were competitively selected as part of KISS's annual cohort from over two dozen proposals.KISS Study Programs focus on developing ideas and concepts that can revolutionize space science and engineering, leveraging Caltech's deep collaborative ties with JPL—which Caltech manages for NASA—and facilitating connections between academia, commercial industry, and government agencies. E",
       "link": "https://www.caltech.edu/about/news/new-cohort-of-kiss-study-programs-push-the-frontiers-of-space-exploration",
@@ -1232,12 +1256,28 @@
       "date": "2026-06-29"
     },
     {
-      "title": "Surface CubeSat contracted for Ramses asteroid mission",
-      "description": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid. Don Quijote is a shoebox-sized spacecraft that will be deployed onto the Apophis asteroid by ESA’s Ramses mission before the asteroid flies by Earth on 13 April 2029.",
-      "link": "https://www.esa.int/Space_Safety/Planetary_Defence/Surface_CubeSat_contracted_for_Ramses_asteroid_mission",
+      "title": "Unpacking Europe’s new weather imagers",
+      "description": "The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will launch it into space towards the end of the summer. So how will this 3800 kg satellite help improve weather forecasts for Europe and North Africa?",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Unpacking_Europe_s_new_weather_imagers",
       "source": "ESA",
       "field": "space",
-      "date": "2026-07-02"
+      "date": "2026-07-07"
+    },
+    {
+      "title": "NASA’s CAPSTONE Completes Extended Mission Testing Lunar Technologies",
+      "description": "As NASA prepares for a sustained human presence on the Moon, missions will increasingly require spacecraft that can navigate and communicate without a direct connection to Earth. NASA’s Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment, or CAPSTONE, validated and advanced these capabilities. Designed to test and validate technologies in lunar orbit, CAPSTONE launched […]",
+      "link": "https://www.nasa.gov/technology/space-comms/nasas-capstone-completes-extended-mission-testing-lunar-technologies/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "NASA Takes Flight For America’s 250th",
+      "description": "NASA Administrator Jared Isaacman leads a flyover featuring his personally owned Northrop F-5 Tiger during the Great American State Fair on July 4, 2026, on the National Mall in Washington, D.C. For 250 years, America has pushed the boundaries of what’s possible. From the earliest days of exploration, to the first steps on the Moon […]",
+      "link": "https://www.nasa.gov/image-article/nasa-takes-flight-for-americas-250th/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-06"
     },
     {
       "title": "The most spectacular aurora of the εpsilon mission (so far!)",
@@ -1248,12 +1288,52 @@
       "date": "2026-07-03"
     },
     {
-      "title": "Webb studies how a planet survived the death of its star",
-      "description": "An international team of astronomers has used the NASA/ESA/CSA James Webb Space Telescope to watch the Jupiter-sized exoplanet WD 1856 b transit its host star, measuring the planet’s mass and temperature and even detecting its atmosphere. They found that the planet is significantly warmer than expected and determined how it most likely reached its very tight orbit around the star, a white dwarf. The results are our first window into the future of planets like Jupiter after the death of the Sun, billions of years into the future.",
-      "link": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+      "title": "Semiconductor manufacturing test bed flies alongside Starlink satellites on Falcon 9 launch",
+      "description": "Liftoff of the Starlink 10-50 mission from Space Launch Complex 40 happened at 6:50 a.m. EDT (1050 UTC). The rocket's first-stage booster carried two semiconductor manufacturing pods for Besxar Space Industries.",
+      "link": "https://spaceflightnow.com/2026/07/04/live-coverage-semiconductor-manufacturing-test-bed-to-fly-alongside-starlink-satellites-on-falcon-9-launch/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "The World Cup From 250 Miles Up",
+      "description": "Over the years, astronauts aboard the International Space Station have photographed several of the cities hosting the 2026 FIFA World Cup.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/the-world-cup-from-250-miles-up/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "NASA Seeks Industry Input on Second Phase of Commercial Space Stations",
+      "description": "On Monday, NASA released a draft Request for Proposals (RFP) seeking feedback from American companies on the next phase of its commercial space stations strategy, aimed at ensuring a seamless transition of activities in low Earth orbit from the International Space Station. “NASA’s review reflects what we’ve been hearing from industry throughout this process. Industry […]",
+      "link": "https://www.nasa.gov/humans-in-space/commercial-space/nasa-seeks-industry-input-on-second-phase-of-commercial-space-stations/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "Examining Algal Blooms in Blue Mesa",
+      "description": "Using satellite data, researchers connected harmful algal blooms with warm water and low water levels at one of Colorado’s largest reservoirs.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/examining-algal-blooms-in-blue-mesa/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "NASA’s Hubble Spies Stellar Sparkler for July 4th",
+      "description": "Red, white, and blue stars glitter like a sparkler being waved on a dark night in this new image from NASA’s Hubble Space Telescope.",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-spies-stellar-sparkler-for-july-4th/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-04"
+    },
+    {
+      "title": "Surface CubeSat contracted for Ramses asteroid mission",
+      "description": "The European Space Agency has contracted Spanish company EMXYS for the first CubeSat designed to operate on the surface of an asteroid. Don Quijote is a shoebox-sized spacecraft that will be deployed onto the Apophis asteroid by ESA’s Ramses mission before the asteroid flies by Earth on 13 April 2029.",
+      "link": "https://www.esa.int/Space_Safety/Planetary_Defence/Surface_CubeSat_contracted_for_Ramses_asteroid_mission",
       "source": "ESA",
       "field": "space",
-      "date": "2026-07-01"
+      "date": "2026-07-02"
     },
     {
       "title": "Live coverage: Fire detectors, military tech demos, 3D printers among SpaceX rideshare payloads launching on midnight Falcon 9 flight",
@@ -1264,12 +1344,12 @@
       "date": "2026-07-06"
     },
     {
-      "title": "Semiconductor manufacturing test bed flies alongside Starlink satellites on Falcon 9 launch",
-      "description": "Liftoff of the Starlink 10-50 mission from Space Launch Complex 40 happened at 6:50 a.m. EDT (1050 UTC). The rocket's first-stage booster carried two semiconductor manufacturing pods for Besxar Space Industries.",
-      "link": "https://spaceflightnow.com/2026/07/04/live-coverage-semiconductor-manufacturing-test-bed-to-fly-alongside-starlink-satellites-on-falcon-9-launch/",
-      "source": "Spaceflight Now",
+      "title": "NASA’s Hubble Spots Star-Spangled Cosmic Scene",
+      "description": "More than 500,000 stars blaze red, white, and blue in this NASA Hubble image of the globular cluster Messier 3 (M3).",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-spots-star-spangled-cosmic-scene/",
+      "source": "NASA",
       "field": "space",
-      "date": "2026-07-04"
+      "date": "2026-07-03"
     },
     {
       "title": "Week in images: 29 June - 03 July 2026",
@@ -1352,84 +1432,68 @@
       "date": "2026-06-24"
     },
     {
-      "title": "NASA's Hubble spots a stellar sparkler for the Fourth of July",
-      "description": "NASA's Hubble Space Telescope has captured a spectacular red, white, and blue view of one of the Milky Way's oldest star clusters to celebrate the nation's 250th anniversary. Hidden within the ancient cluster are clues to how exploding stars helped transform the young universe into one capable of forming planets and, eventually, life.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260704232642.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-05"
-    },
-    {
-      "title": "VHF Propagation: What Every RF Engineer Should Know",
-      "description": "A practical educational guide to common and uncommon VHF propagation modes, covering the physics, range implications, and real-world behaviors engineers need to understand. What Attendees will Learn 1. Why “line of sight” fails as a practical VHF planning model. 2. How refraction, reflection, diffraction, and scattering deliver or destroy signals where geometry alone cannot predict.3. How tropospheric refraction extends the VHF radio horizon roughly one-third beyond optical line of sight. 4. How temperature inversions form ducts that can carry VHF signals over 1,500 km.5. How sporadic E, meteo",
-      "link": "https://content.knowledgehub.wiley.com/understanding-vhf-very-high-frequency-propagation/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a matchmaking company a year ago. In a…",
-      "link": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "Why Public Speaking Skills Are Worth Investing In",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! You want to become a senior developer. A CTO, maybe. Start your own company, perhaps. Or maybe you just want to land your first role in tech. You will not get there from raw engineering skill alone. There’s a skill that’s quietly essential to technical leadership and yet consistently overlooked: public speaking. If you’re anything like I used to be,",
-      "link": "https://spectrum.ieee.org/improve-public-speaking-skills",
-      "source": "IEEE Spectrum",
+      "title": "The brain’s language network is more extensive than previously thought",
+      "description": "A new study reveals that parts of the brain located far from the canonical language-processing centers are also involved in language comprehension.",
+      "link": "https://news.mit.edu/2026/brain-language-network-more-extensive-than-previously-thought-0701",
+      "source": "MIT News",
       "field": "technology",
       "date": "2026-07-01"
     },
     {
-      "title": "Why Mentorship Is the Most Underrated Leadership Skill",
-      "description": "I started my professional journey as an engineer before moving into product strategy and innovation leadership roles for several global technology organizations. Over the years, I have served as a mentor for a variety of programs including Products That Count’s strategic product management, Women in Product mentorship initiatives, and Alchemist accelerator programs. In 2024 and 2025 I led Walmart’s Women in Product mentorship program. I was responsible for designing and implementing the programs, including managing participant registration, matching mentors with mentees, and establishing clear",
-      "link": "https://spectrum.ieee.org/mentorship-is-an-underrated-leadership-skill",
-      "source": "IEEE Spectrum",
+      "title": "MIT-Kalaniyot program expands, with new cohort of scholars",
+      "description": "The innovative effort bringing researchers from Israel to campus keeps growing while enhancing community connections and academic inquiry.",
+      "link": "https://news.mit.edu/2026/mit-kalaniyot-program-expands-new-cohort-of-scholars-0701",
+      "source": "MIT News",
       "field": "technology",
       "date": "2026-07-01"
     },
     {
-      "title": "How America Engineered Its Independence",
-      "description": "In 1839, J.M.W. Turner painted The Fighting Temeraire. The old warship, once a hero of the Battle of Trafalgar in 1805, glides like a ghost across the canvas, towed by a small steam tug belching smoke on its final voyage to the ship-breakers. The image shows a clear moment of change: sail giving way to steam, and with it, a major shift in power. The ship relied on timber, rope, canvas, and Britain’s seafaring towns. The tug depended on coal mines and iron foundries that supplied machine shops in the Midlands. Turner showed the tension of this time, when new technology changed who held power. B",
-      "link": "https://spectrum.ieee.org/us-engineered-sovereignty",
-      "source": "IEEE Spectrum",
+      "title": "MIT student teams win top honors in NASA competition",
+      "description": "Three MIT teams took five top awards in the 2026 NASA RASC-AL Competition for designing critical elements for the moon base and future missions to Mars.",
+      "link": "https://news.mit.edu/2026/interdisciplinary-mit-teams-win-top-honors-nasa-competition-0630",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "MIT researchers advance toward greater bandwidth, more energy-efficient communications",
+      "description": "The FUTUR-IC research program integrates electronics and photonics in microchip systems.",
+      "link": "https://news.mit.edu/2026/mit-researchers-advance-toward-greater-bandwidth-more-energy-efficient-0630",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "Q&A: What is agentic AI today, and what do we want it to be?",
+      "description": "Computer scientist Phillip Isola cuts through the hype to explain how AI agents work and what the future might hold for this rapidly advancing technology.",
+      "link": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "A Labor of Love: The Renaissance of Astronomy by Noel Swerdlow Has Been Published Posthumously with Help from Friends and Colleagues",
+      "description": "Noel Swerdlow, a renowned historian of science, spent nearly a decade at Caltech as a visiting associate following his retirement from the University of Chicago in 2010. The world's foremost expert on Copernicus—one of the most important contributors to premodern astronomy—Swerdlow passed away in 2021, but his legacy lives on in a new book thanks to Jed Buchwald, the Doris and Henry Dreyfuss Professor of History at Caltech.The Renaissance of Astronomy, published in May, is a comprehensive account by Swerdlow of the works of Regiomontanus, Copernicus, Tycho Brahe, Johannes Kepler, and Galileo, ",
+      "link": "https://www.caltech.edu/about/news/a-labor-of-love-ithe-renaissance-of-astronomyi-by-noel-swerdlow-has-been-published-posthumously-with-help-from-friends-and-colleagues",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-06-30"
+    },
+    {
+      "title": "NSF Research Fellowships Awarded to Caltech Students and Alumni",
+      "description": "Each year, the National Science Foundation (NSF) selects students to receive Graduate Research Fellowships that fund three years of graduate study in master's or doctoral programs including research in science or engineering. This year, 33 Caltech alumni and 19 graduates students have received these fellowships.The Graduate Research Fellowship Program (GFRP) was established to \"recruit and support individuals who demonstrate the potential to make significant contributions in STEM, including STEM education\" and is designed \"ensure the quality, vitality, and strength of the scientific and engine",
+      "link": "https://www.caltech.edu/about/news/nsf-research-fellowships-awarded-to-caltech-students-and-alumni",
+      "source": "Caltech",
       "field": "technology",
       "date": "2026-06-29"
     },
     {
-      "title": "Make an Origami Circuit Board",
-      "description": "What could you do if you could make a circuit trace by just bending a piece of paper? How about bridging modern technologies and traditional handicrafts while providing opportunities for learning skills in both. As part of our interdisciplinary research into digital craftsmanship at the MEI Lab at the School of Creative Media, City University of Hong Kong, we came across research that demonstrated how to impregnate paperlike material (technically a “nonwoven textile”) with the kind of liquid metal used to make conductive ink. Initially, the impregnated material is nonconductive because an insu",
-      "link": "https://spectrum.ieee.org/origami-circuit-boards",
-      "source": "IEEE Spectrum",
+      "title": "First phase of Enterprise Research Campus completed",
+      "description": "Local leaders join Harvard and Tishman Speyer to celebrate opening",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/first-phase-of-enterprise-research-campus-completed/",
+      "source": "Harvard Gazette",
       "field": "technology",
-      "date": "2026-06-24"
-    },
-    {
-      "title": "AI Is Designing Radio Chips That Humans Couldn’t Even Imagine",
-      "description": "Summary RFIC design is a complex “dark art” that limits progress in wireless technologies like 5G, autonomous vehicles, and satellite communications. Princeton researchers use reinforcement learning and inverse design to rapidly create RFICs from scratch. Diffusion models rapidly generate novel or human-interpretable RF layouts, achieving record performance and drastically reducing design time. Future progress needs large, shared chip design datasets and open ecosystems so AI can learn universal electromagnetic and circuit behaviors. Take a moment and try to imagine your life without the wirel",
-      "link": "https://spectrum.ieee.org/ai-radio-chip-design",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-24"
-    },
-    {
-      "title": "Home Broadband Is 5G’s Surprise Killer App",
-      "description": "5G telecommunications, according to industry hype when 5G first launched in 2019, was going to be all about buzzy applications like mobile augmented reality and autonomous vehicles. But the surprise plot twist came when replacing home cable internet turned into 5G’s most widely adopted new application. Fixed wireless access (FWA) now serves over 14 million U.S. customers, and contributes 28 percent of worldwide wireless traffic. Fixed wireless access is what the term sounds like: broadband internet delivered over a cellular radio link to a stationary location—no cable, no fiber, no trenching, ",
-      "link": "https://spectrum.ieee.org/fixed-wireless-access",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-06-24"
-    },
-    {
-      "title": "Quantum mechanics once baffled scientists. Now it's changing the world",
-      "description": "Quantum mechanics has journeyed from a strange and controversial idea to the foundation of some of humanity’s most advanced technologies. Now researchers are pushing its boundaries even further, with potential breakthroughs in energy, medicine, computing, and our understanding of the universe.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260624025516.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-05"
+      "date": "2026-06-29"
     },
     {
       "title": "Scientists find ozone depletion began decades before discovery of ozone hole",
@@ -1502,6 +1566,14 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-06-26"
+    },
+    {
+      "title": "A clearer picture of drinking and disease",
+      "description": "New study attempts to reconcile conflicting findings on benefits vs. risks",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/a-clearer-picture-of-drinking-and-disease/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-17"
     },
     {
       "title": "Students from across the Northeast step inside MIT.nano’s cleanroom",
@@ -1584,14 +1656,6 @@
       "date": "2026-07-06"
     },
     {
-      "title": "South Korea’s hottest new bachelors are chip workers",
-      "description": "Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to be…",
-      "link": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-06"
-    },
-    {
       "title": "Weirdest fashion trend ever",
       "description": "Dad’s uniform might look boring, but the history behind it is not",
       "link": "https://news.harvard.edu/gazette/story/2026/07/weirdest-fashion-trend-ever/",
@@ -1632,12 +1696,44 @@
       "date": "2026-06-29"
     },
     {
-      "title": "A clearer picture of drinking and disease",
-      "description": "New study attempts to reconcile conflicting findings on benefits vs. risks",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/a-clearer-picture-of-drinking-and-disease/",
-      "source": "Harvard Gazette",
+      "title": "Your family’s $300 stake in OpenAI",
+      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the wealth AI creates was in the news again last week. On Thursday, the Financial Times reported that Altman is in…",
+      "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-06-17"
+      "date": "2026-07-06"
+    },
+    {
+      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. South Korea’s hottest new bachelors are chip workers Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in a matchmaking company a year ago. In a…",
+      "link": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "South Korea’s hottest new bachelors are chip workers",
+      "description": "Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son. Lately, says Baek (who asked to be…",
+      "link": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "Achieving operational excellence with AI",
+      "description": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how work should flow across departments. Both offered a repeatable way to…",
+      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "How America Engineered Its Independence",
+      "description": "In 1839, J.M.W. Turner painted The Fighting Temeraire. The old warship, once a hero of the Battle of Trafalgar in 1805, glides like a ghost across the canvas, towed by a small steam tug belching smoke on its final voyage to the ship-breakers. The image shows a clear moment of change: sail giving way to steam, and with it, a major shift in power. The ship relied on timber, rope, canvas, and Britain’s seafaring towns. The tug depended on coal mines and iron foundries that supplied machine shops in the Midlands. Turner showed the tension of this time, when new technology changed who held power. B",
+      "link": "https://spectrum.ieee.org/us-engineered-sovereignty",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-06-29"
     },
     {
       "title": "Scientists may have finally solved the black hole information paradox",
@@ -1648,44 +1744,12 @@
       "date": "2026-07-05"
     },
     {
-      "title": "Scientists make quantum time flow backward in stunning physics breakthrough",
-      "description": "Researchers have created quantum control techniques that can make a system appear to run backward in time. By precisely managing quantum measurements, they can reshape the system's arrow of time and even harvest energy from the measurement process itself. The breakthrough could lead to more powerful quantum computers, quantum batteries, and other advanced technologies.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-03"
-    },
-    {
-      "title": "New optical centrifuge unlocks the secrets of frictionless superfluids",
-      "description": "Physicists have developed a new optical centrifuge that can precisely spin molecules inside a superfluid for the first time. The advance could help unravel some of the biggest mysteries of quantum liquids and reveal how superfluidity breaks down at the atomic scale.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625014840.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-04"
-    },
-    {
       "title": "A strange LIGO signal could reveal the missing link behind dark matter",
       "description": "An unusual gravitational wave signal has renewed hopes that primordial black holes, long considered purely theoretical, may finally be within reach of discovery. If confirmed, they could solve one of astronomy's greatest mysteries by explaining the nature of dark matter.",
       "link": "https://www.sciencedaily.com/releases/2026/06/260626125703.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-07-03"
-    },
-    {
-      "title": "390 gravitational wave detections reveal hidden population of black holes",
-      "description": "Astronomers have released the largest gravitational wave catalog ever, revealing 161 new black hole collisions and pushing the total number of detections to 390. Among the highlights are the clearest gravitational wave signal ever recorded, the most accurate location of a black hole merger, and growing evidence that some black holes are the products of previous black hole mergers. With discoveries now arriving several times a week, gravitational wave astronomy is entering an exciting new era.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625060203.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "Earth may have been seeding Venus with life for billions of years",
-      "description": "A new study suggests Earth may have been sending tiny hitchhikers to Venus for billions of years. Researchers found that asteroid impacts could launch microbes into space, where some might survive the journey and end up suspended in Venus' clouds. If future missions detect life there, there's a surprising chance it didn't originate on Venus at all—it may have come from Earth.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625014805.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-06-26"
     },
     {
       "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
@@ -1731,14 +1795,6 @@
       "title": "The Download: a startup has a solution for AI’s groupthink problem",
       "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1…",
       "link": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "Why California’s carbon manure math doesn’t add up",
-      "description": "Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s become wildly popular because…",
-      "link": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-07-02"
@@ -1790,46 +1846,6 @@
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-06-25"
-    },
-    {
-      "title": "Don’t believe everything you hear — or read",
-      "description": "Faculty, staff recommend fiction with unreliable narrators — and try to explain why we can’t resist them",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/dont-believe-everything-you-hear-or-read/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-24"
-    },
-    {
-      "title": "It’s good to break a sweat, but don’t sweat the details",
-      "description": "‘What’s important is the total amount of human movement.’",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/its-good-to-break-a-sweat-but-dont-sweat-the-details/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-23"
-    },
-    {
-      "title": "Finding ways to ‘drug the undruggable’ diseases",
-      "description": "Greg Verdine’s approach embraces improvisational thinking, ‘crazy stuff,’ and he thinks it may be future of medical research",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/finding-ways-to-drug-the-undruggable-diseases/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-22"
-    },
-    {
-      "title": "When ‘base’ of Republican Party shifted",
-      "description": "In new memoir, Lamar Alexander says it used to be just elected officials, voters. Then came rise of more extreme activist groups, worsening polarization.",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/when-base-of-republican-party-shifted/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-22"
-    },
-    {
-      "title": "Furman on Social Security: Attention must be paid",
-      "description": "‘Interest in the problem has diminished over time, not grown.’ Meanwhile, day of reckoning is ahead of schedule.",
-      "link": "https://news.harvard.edu/gazette/story/2026/06/furman-on-social-security-attention-must-be-paid/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-06-17"
     },
     {
       "title": "There may be several on your beach reads list. Ever wonder why?",
@@ -1888,14 +1904,6 @@
       "date": "2026-07-05"
     },
     {
-      "title": "NASA celebrates America's 250th birthday with incredible views of space",
-      "description": "NASA is marking the United States' 250th birthday with four striking red, white, and blue images of deep space from the Chandra X-ray Observatory. The collection features an exploded star, a stellar nursery, a galaxy where stars are rapidly forming, and a galaxy cluster that provides evidence for dark matter.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260702230859.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-04"
-    },
-    {
       "title": "New research reveals the hidden pollution left behind by fireworks",
       "description": "Scientists have uncovered new evidence that fireworks can pollute both the air and water in ways that extend beyond the visible smoke. The findings show that leftover debris, fine particles, and airborne chemicals may affect ecosystems and increase people's exposure to air pollution during major celebrations.",
       "link": "https://www.sciencedaily.com/releases/2026/07/260701205009.htm",
@@ -1910,6 +1918,62 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-07-02"
+    },
+    {
+      "title": "390 gravitational wave detections reveal hidden population of black holes",
+      "description": "Astronomers have released the largest gravitational wave catalog ever, revealing 161 new black hole collisions and pushing the total number of detections to 390. Among the highlights are the clearest gravitational wave signal ever recorded, the most accurate location of a black hole merger, and growing evidence that some black holes are the products of previous black hole mergers. With discoveries now arriving several times a week, gravitational wave astronomy is entering an exciting new era.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625060203.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "Earth may have been seeding Venus with life for billions of years",
+      "description": "A new study suggests Earth may have been sending tiny hitchhikers to Venus for billions of years. Researchers found that asteroid impacts could launch microbes into space, where some might survive the journey and end up suspended in Venus' clouds. If future missions detect life there, there's a surprising chance it didn't originate on Venus at all—it may have come from Earth.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625014805.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-06-26"
+    },
+    {
+      "title": "Don’t believe everything you hear — or read",
+      "description": "Faculty, staff recommend fiction with unreliable narrators — and try to explain why we can’t resist them",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/dont-believe-everything-you-hear-or-read/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-24"
+    },
+    {
+      "title": "It’s good to break a sweat, but don’t sweat the details",
+      "description": "‘What’s important is the total amount of human movement.’",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/its-good-to-break-a-sweat-but-dont-sweat-the-details/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-23"
+    },
+    {
+      "title": "Finding ways to ‘drug the undruggable’ diseases",
+      "description": "Greg Verdine’s approach embraces improvisational thinking, ‘crazy stuff,’ and he thinks it may be future of medical research",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/finding-ways-to-drug-the-undruggable-diseases/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-22"
+    },
+    {
+      "title": "When ‘base’ of Republican Party shifted",
+      "description": "In new memoir, Lamar Alexander says it used to be just elected officials, voters. Then came rise of more extreme activist groups, worsening polarization.",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/when-base-of-republican-party-shifted/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-22"
+    },
+    {
+      "title": "Furman on Social Security: Attention must be paid",
+      "description": "‘Interest in the problem has diminished over time, not grown.’ Meanwhile, day of reckoning is ahead of schedule.",
+      "link": "https://news.harvard.edu/gazette/story/2026/06/furman-on-social-security-attention-must-be-paid/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-06-17"
     }
   ]
 }
