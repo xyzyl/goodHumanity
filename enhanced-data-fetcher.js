@@ -26,7 +26,7 @@ const CATEGORY_RULES = {
             medium: ['hospital', 'doctor', 'nurse', 'healthcare', 'mortality', 'morbidity', 'symptom', 'prevention', 'wellness'],
             weak: ['study', 'research', 'trial', 'test']
         },
-        sources: ['WHO', 'NIH', 'CDC', 'FDA', 'Gates Foundation', 'NEJM', 'Lancet', 'JAMA', 'BMJ', 'Nature Medicine', 'MSF', 'GAVI', 'Global Fund']
+        sources: ['WHO', 'NIH', 'CDC', 'FDA', 'Gates Foundation', 'NEJM', 'Lancet', 'JAMA', 'BMJ', 'Nature Medicine', 'MSF', 'GAVI', 'Global Fund', 'UN News Health', 'Polio Eradication']
     },
     climate: {
         priority: 2,
@@ -35,7 +35,7 @@ const CATEGORY_RULES = {
             medium: ['pollution', 'clean', 'green', 'eco', 'nature', 'wildlife', 'ecosystem', 'habitat'],
             weak: ['impact', 'change', 'future']
         },
-        sources: ['NASA Climate', 'IPCC', 'UNEP', 'NOAA', 'WWF', 'Conservation International', 'IUCN', 'Carbon Brief', 'Yale E360']
+        sources: ['NASA Climate', 'IPCC', 'UNEP', 'NOAA', 'WWF', 'Conservation International', 'IUCN', 'Carbon Brief', 'Yale E360', 'UN News Climate']
     },
     energy: {
         priority: 3,
@@ -62,7 +62,7 @@ const CATEGORY_RULES = {
             medium: ['classroom', 'lesson', 'teaching', 'academic', 'knowledge', 'skill'],
             weak: ['study', 'program', 'training']
         },
-        sources: ['UNESCO', 'UNICEF', 'GPE', 'World Bank Education', 'Brookings Education']
+        sources: ['UNESCO', 'UNICEF', 'GPE', 'World Bank Education', 'Brookings Education', 'UN News Education']
     },
     development: {
         priority: 6,
@@ -71,7 +71,7 @@ const CATEGORY_RULES = {
             medium: ['finance', 'fund', 'loan', 'grant', 'aid', 'assistance', 'support'],
             weak: ['project', 'program', 'initiative']
         },
-        sources: ['World Bank', 'UNDP', 'ADB', 'African Development Bank', 'IFC', 'IFAD']
+        sources: ['World Bank', 'UNDP', 'ADB', 'African Development Bank', 'IFC', 'IFAD', 'UN News Development', 'UN News SDGs', 'Our World in Data']
     },
     peace: {
         priority: 7,
@@ -80,7 +80,7 @@ const CATEGORY_RULES = {
             medium: ['cooperation', 'dialogue', 'unity', 'harmony', 'mediation'],
             weak: ['discussion', 'meeting', 'summit']
         },
-        sources: ['UN Peace & Security', 'USIP', 'Crisis Group', 'Nobel Prize']
+        sources: ['UN Peace & Security', 'USIP', 'US Institute of Peace', 'Crisis Group', 'Nobel Prize']
     },
     agriculture: {
         priority: 8,
@@ -114,6 +114,11 @@ const CONTENT_TYPE_EXCLUSIONS = [
     /\[correspondence\]/i,
     /\[seminar\]/i,
     /\[perspectives\]/i,
+    /\[comment\]/i,
+    /\[editorial\]/i,
+    /\[world report\]/i,
+    /\[review\]/i,
+    /\[viewpoint\]/i,
     /job\s+(posting|opening|vacancy|identification)/i,
     /\[closed\]/i,
     /apply\s+before/i,
@@ -128,12 +133,18 @@ const CONTENT_TYPE_EXCLUSIONS = [
 
 // Negative framing indicators — content describing problems, not solutions.
 // An entry with negative signals AND no hope signals is rejected.
-const NEGATIVE_FILTERS = [
-    'threat', 'risk', 'danger', 'crisis', 'disaster', 'collapse',
-    'fail', 'worse', 'decline', 'conflict', 'war', 'attack',
-    'plight', 'peril', 'damage', 'destroy', 'devastat',
-    'death toll', 'casualt', 'airstrike', 'bombing',
-    'complacency', 'erosion', 'eroded'
+// Word-boundary patterns: a bare substring like 'war' would wrongly match
+// "warming", "award", "software"; stems keep a trailing wildcard on purpose.
+const NEGATIVE_PATTERNS = [
+    /\bthreat/i, /\brisk/i, /\bdanger/i, /\bcrisis\b/i, /\bcrises\b/i,
+    /\bdisaster/i, /\bcollapse/i, /\bfail(s|ed|ing|ure)?\b/i, /\bworse/i,
+    /\bdeclin/i, /\bconflict/i, /\bwars?\b/i, /\bwarfare\b/i, /\battack/i,
+    /\bplight\b/i, /\bperil/i, /\bdamag/i, /\bdestroy/i, /\bdevastat/i,
+    /\bdeath toll\b/i, /\bcasualt/i, /\bairstrike/i, /\bbombing/i,
+    /\bcomplacency\b/i, /\berosion\b/i, /\beroded\b/i,
+    /\bwarn(s|ed|ing)?\b/i, /\burgent (need|action)\b/i,
+    /\bstill lack/i, /\bliving without\b/i,
+    /\boutbreak/i, /\b(cases|deaths|infections) (top|surge|soar|climb|rise)/i
 ];
 
 // Hope/progress indicators — at least one must be present to pass filtering
@@ -144,7 +155,8 @@ const HOPE_INDICATORS = [
     'restore', 'recover', 'innovation', 'discover', 'record',
     'launch', 'deploy', 'expand', 'increase', 'save',
     'renewable', 'clean energy', 'access', 'literacy',
-    'cooperation', 'peace', 'agreement', 'partnership'
+    'cooperation', 'peace', 'agreement', 'partnership',
+    'ceasefire', 'treaty', 'truce', 'accord', 'reconciliation'
 ];
 
 // Progress indicators with scoring
@@ -185,46 +197,34 @@ const PROGRESS_INDICATORS = {
 };
 
 // Enhanced source configuration
+// Feed list verified 2026-07-08: every URL below returned HTTP 200.
+// Removed feeds that are gone (404) or hard bot-blocked (403: NIH, UNDP,
+// UNEP, IEA, IRENA, WWF, JAMA, BMJ, Stanford, AfDB, CGIAR — these block
+// non-browser clients and will also fail from CI runners).
 const SOURCES = {
     health: [
-        { url: 'https://www.who.int/feeds/entity/mediacentre/news/en/rss.xml', name: 'WHO', tier: 1, credibility: 10 },
-        { url: 'https://www.gatesfoundation.org/ideas/rss', name: 'Gates Foundation', tier: 1, credibility: 9 },
-        { url: 'https://www.nih.gov/news-events/news-releases/feed', name: 'NIH', tier: 1, credibility: 10 },
-        { url: 'https://www.cancer.gov/news-events/press-releases/rss', name: 'NCI', tier: 1, credibility: 9 },
+        { url: 'https://www.who.int/rss-feeds/news-english.xml', name: 'WHO', tier: 1, credibility: 10 },
+        { url: 'https://news.un.org/feed/subscribe/en/news/topic/health/feed/rss.xml', name: 'UN News Health', tier: 1, credibility: 9 },
         { url: 'https://www.nature.com/nm/rss/current', name: 'Nature Medicine', tier: 1, credibility: 10 },
         { url: 'https://www.thelancet.com/rssfeed/lancet_current.xml', name: 'The Lancet', tier: 1, credibility: 10 },
         { url: 'https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm', name: 'NEJM', tier: 1, credibility: 10 },
-        { url: 'https://jamanetwork.com/feeds/site_feeds/jama', name: 'JAMA', tier: 2, credibility: 9 },
-        { url: 'https://www.bmj.com/rss', name: 'BMJ', tier: 2, credibility: 9 },
-        { url: 'https://www.gavi.org/programmes-impact/news/rss.xml', name: 'Gavi', tier: 1, credibility: 8 },
-        { url: 'https://www.theglobalfund.org/en/rss/news/', name: 'Global Fund', tier: 1, credibility: 8 },
-        { url: 'https://www.unaids.org/en/rss', name: 'UNAIDS', tier: 2, credibility: 8 },
-        { url: 'https://polioeradication.org/feed/', name: 'Polio Eradication', tier: 2, credibility: 8 },
-        { url: 'https://wellcome.org/news/feed', name: 'Wellcome Trust', tier: 1, credibility: 9 }
+        { url: 'https://polioeradication.org/feed/', name: 'Polio Eradication', tier: 2, credibility: 8 }
     ],
     climate: [
         { url: 'https://climate.nasa.gov/news/rss.xml', name: 'NASA Climate', tier: 1, credibility: 10 },
         { url: 'https://www.ipcc.ch/feed/', name: 'IPCC', tier: 1, credibility: 10 },
-        { url: 'https://www.unep.org/rss/news', name: 'UNEP', tier: 1, credibility: 9 },
+        { url: 'https://news.un.org/feed/subscribe/en/news/topic/climate-change/feed/rss.xml', name: 'UN News Climate', tier: 1, credibility: 9 },
         { url: 'https://www.noaa.gov/rss.xml', name: 'NOAA', tier: 1, credibility: 10 },
-        { url: 'https://www.worldwildlife.org/rss/news.xml', name: 'WWF', tier: 1, credibility: 8 },
-        { url: 'https://www.conservation.org/rss.xml', name: 'Conservation Intl', tier: 1, credibility: 8 },
         { url: 'https://www.iucn.org/rss.xml', name: 'IUCN', tier: 1, credibility: 8 },
-        { url: 'https://www.wri.org/feeds/all/rss.xml', name: 'WRI', tier: 2, credibility: 7 },
-        { url: 'https://e360.yale.edu/feed', name: 'Yale E360', tier: 2, credibility: 7 },
+        { url: 'https://e360.yale.edu/feed.xml', name: 'Yale E360', tier: 2, credibility: 7 },
         { url: 'https://www.carbonbrief.org/feed/', name: 'Carbon Brief', tier: 2, credibility: 7 }
     ],
     energy: [
-        { url: 'https://www.iea.org/feeds/newsroom.xml', name: 'IEA', tier: 1, credibility: 9 },
-        { url: 'https://www.irena.org/RSS', name: 'IRENA', tier: 1, credibility: 9 },
-        { url: 'https://www.nrel.gov/news/rss/news.xml', name: 'NREL', tier: 1, credibility: 9 },
-        { url: 'https://www.energy.gov/rss/articles.xml', name: 'US DOE', tier: 2, credibility: 8 },
         { url: 'https://www.seforall.org/rss.xml', name: 'SEforALL', tier: 2, credibility: 7 },
         { url: 'https://energy.mit.edu/feed/', name: 'MIT Energy', tier: 2, credibility: 8 }
     ],
     technology: [
         { url: 'https://news.mit.edu/rss/feed', name: 'MIT News', tier: 1, credibility: 9 },
-        { url: 'https://news.stanford.edu/feed/', name: 'Stanford News', tier: 1, credibility: 9 },
         { url: 'https://www.caltech.edu/about/news/rss', name: 'Caltech', tier: 1, credibility: 9 },
         { url: 'https://news.harvard.edu/gazette/feed/', name: 'Harvard Gazette', tier: 2, credibility: 8 },
         { url: 'https://news.berkeley.edu/feed/', name: 'UC Berkeley', tier: 2, credibility: 8 },
@@ -237,29 +237,25 @@ const SOURCES = {
     ],
     education: [
         { url: 'https://en.unesco.org/news/feed', name: 'UNESCO', tier: 1, credibility: 9 },
-        { url: 'https://www.unicef.org/rss/press-releases.xml', name: 'UNICEF', tier: 1, credibility: 9 },
+        { url: 'https://news.un.org/feed/subscribe/en/news/topic/culture-and-education/feed/rss.xml', name: 'UN News Education', tier: 1, credibility: 9 },
         { url: 'https://www.globalpartnership.org/rss.xml', name: 'GPE', tier: 1, credibility: 8 },
         { url: 'https://www.worldbank.org/en/topic/education/rss.xml', name: 'World Bank Education', tier: 2, credibility: 8 },
         { url: 'https://www.brookings.edu/topic/education/feed/', name: 'Brookings Education', tier: 2, credibility: 7 }
     ],
     development: [
         { url: 'https://www.worldbank.org/en/news/rss.xml', name: 'World Bank', tier: 1, credibility: 9 },
-        { url: 'https://www.undp.org/rss', name: 'UNDP', tier: 1, credibility: 9 },
-        { url: 'https://www.adb.org/rss/news', name: 'Asian Development Bank', tier: 2, credibility: 8 },
-        { url: 'https://www.afdb.org/en/rss-feeds', name: 'African Development Bank', tier: 2, credibility: 8 },
-        { url: 'https://www.ifad.org/en/rss-feeds', name: 'IFAD', tier: 2, credibility: 8 }
+        { url: 'https://news.un.org/feed/subscribe/en/news/topic/economic-development/feed/rss.xml', name: 'UN News Development', tier: 1, credibility: 9 },
+        { url: 'https://news.un.org/feed/subscribe/en/news/topic/sdgs/feed/rss.xml', name: 'UN News SDGs', tier: 1, credibility: 9 },
+        { url: 'https://ourworldindata.org/atom.xml', name: 'Our World in Data', tier: 1, credibility: 9 },
+        { url: 'https://www.adb.org/rss/news', name: 'Asian Development Bank', tier: 2, credibility: 8 }
     ],
     peace: [
-        { url: 'https://news.un.org/en/rss-feeds/peace-and-security', name: 'UN Peace & Security', tier: 1, credibility: 9 },
-        { url: 'https://www.usip.org/rss.xml', name: 'US Institute of Peace', tier: 2, credibility: 7 },
-        { url: 'https://www.crisisgroup.org/feed', name: 'Crisis Group', tier: 2, credibility: 7 },
+        { url: 'https://news.un.org/feed/subscribe/en/news/topic/peace-and-security/feed/rss.xml', name: 'UN Peace & Security', tier: 1, credibility: 9 },
+        { url: 'https://www.usip.org/publications/rss', name: 'US Institute of Peace', tier: 2, credibility: 7 },
         { url: 'https://www.nobelprize.org/rss/', name: 'Nobel Prize', tier: 2, credibility: 9 }
     ],
     agriculture: [
-        { url: 'https://www.fao.org/news/rss/news/en/', name: 'FAO', tier: 1, credibility: 9 },
-        { url: 'https://www.cgiar.org/feed/', name: 'CGIAR', tier: 1, credibility: 8 },
-        { url: 'https://www.ifpri.org/rss.xml', name: 'IFPRI', tier: 2, credibility: 8 },
-        { url: 'https://www.wfp.org/rss', name: 'WFP', tier: 1, credibility: 9 }
+        { url: 'https://www.fao.org/feeds/fao-newsroom-rss', name: 'FAO', tier: 1, credibility: 9 }
     ],
     space: [
         { url: 'https://www.nasa.gov/rss/dyn/breaking_news.rss', name: 'NASA', tier: 1, credibility: 10 },
@@ -373,13 +369,31 @@ function isExcludedContentType(title, description) {
 
 // Check negative/hope balance — reject entries with negative framing and no hope signal
 function passesContentFilter(title, description) {
-    const contentLower = `${title} ${description}`.toLowerCase();
-    const hasNegativeSignal = NEGATIVE_FILTERS.some(word => contentLower.includes(word));
+    const content = `${title} ${description}`;
+    const contentLower = content.toLowerCase();
+    const titleLower = title.toLowerCase();
+
+    // The headline carries the framing: a negative headline is a problem story
+    // even if the body mentions solutions (e.g. "Cancer cases could double by
+    // 2050 ... urged to strengthen treatment"). Only a strong hope word in the
+    // headline itself rescues it — weak ones like 'access' or 'record' appear
+    // in doom headlines too ("record number of cases").
+    const STRONG_TITLE_HOPE = [
+        'breakthrough', 'cure', 'success', 'achieve', 'progress', 'improve',
+        'advance', 'solution', 'overcome', 'milestone', 'eradicat', 'eliminat',
+        'restore', 'recover', 'innovation', 'discover', 'save', 'protect',
+        'vaccine', 'treatment', 'peace', 'agreement', 'ceasefire', 'treaty'
+    ];
+    const titleNegative = NEGATIVE_PATTERNS.some(pattern => pattern.test(title));
+    const titleHope = STRONG_TITLE_HOPE.some(word => titleLower.includes(word));
+    if (titleNegative && !titleHope) return false;
+
+    const hasNegativeSignal = NEGATIVE_PATTERNS.some(pattern => pattern.test(content));
     const hasHopeSignal = HOPE_INDICATORS.some(word => contentLower.includes(word));
-    
+
     // If negative and no hope: reject
     if (hasNegativeSignal && !hasHopeSignal) return false;
-    
+
     // If no negative: pass (hope signal not strictly required at this stage,
     // the scoring threshold will handle neutral content)
     return true;
@@ -456,11 +470,22 @@ function isDuplicate(title, description, link) {
     return false;
 }
 
+// Parse a feed URL, retrying once — UN News and journal feeds intermittently
+// rate-limit parallel requests, and a single retry recovers most of them
+async function parseFeedWithRetry(url) {
+    try {
+        return await parser.parseURL(url);
+    } catch (firstError) {
+        await new Promise(resolve => setTimeout(resolve, 2000 + Math.random() * 2000));
+        return parser.parseURL(url);
+    }
+}
+
 // Fetch RSS feed with enhanced processing
 async function fetchRSSFeed(source, field) {
     try {
         console.log(`  📡 ${source.name} (Tier ${source.tier}, Credibility ${source.credibility})...`);
-        const feed = await parser.parseURL(source.url);
+        const feed = await parseFeedWithRetry(source.url);
         const entries = [];
         
         const items = feed.items || [];
@@ -519,7 +544,7 @@ async function fetchRSSFeed(source, field) {
         
     } catch (error) {
         console.error(`     ✗ Error: ${error.message.substring(0, 50)}...`);
-        return [];
+        return null; // null = fetch failed; [] = fetched fine but nothing new qualified
     }
 }
 
@@ -601,11 +626,11 @@ async function main() {
         
         const results = await Promise.all(fetchPromises);
         
-        // Process results
+        // Process results (entries === null means the fetch itself failed)
         for (const { source, entries } of results) {
-            if (entries && entries.length > 0) {
+            if (entries !== null) {
                 stats.successfulSources++;
-                
+
                 // Track category integrity
                 entries.forEach(entry => {
                     if (entry.field === field) {
@@ -615,7 +640,7 @@ async function main() {
                     }
                     stats.byField[entry.field] = (stats.byField[entry.field] || 0) + 1;
                 });
-                
+
                 allEntries = allEntries.concat(entries);
             }
         }
@@ -640,15 +665,20 @@ async function main() {
                     _credibility: sourceData ? sourceData.credibility : 5
                 };
             });
-            // Only keep old entries that STILL qualify under the v3.0 rules and aren't duplicates of newly fetched ones
+            // Keep old entries that pass the content filters and are recent enough.
+            // Deliberately NOT re-applying the score threshold here: aging lowers
+            // scores (freshness decay) while the dedup cache blocks the same story
+            // from re-qualifying, so a score re-check slowly drains the dataset.
+            // Age is the retirement criterion; scores still drive sorting.
+            const MAX_AGE_DAYS = 45;
             const newLinks = new Set(allEntries.map(e => e.link));
-            const validOldEntries = oldEntries.filter(e => 
-                e._score >= 6 && 
-                e._matches.length >= 1 && 
-                !isExcludedContentType(e.title, e.description) && 
-                passesContentFilter(e.title, e.description) &&
-                !newLinks.has(e.link)
-            );
+            const validOldEntries = oldEntries.filter(e => {
+                const ageDays = (Date.now() - new Date(e.date).getTime()) / (1000 * 60 * 60 * 24);
+                return ageDays <= MAX_AGE_DAYS &&
+                    !isExcludedContentType(e.title, e.description) &&
+                    passesContentFilter(e.title, e.description) &&
+                    !newLinks.has(e.link);
+            });
             
             allEntries = allEntries.concat(validOldEntries);
             console.log(`📁 Loaded and re-verified ${validOldEntries.length} previous entries from news.json`);

@@ -18,6 +18,11 @@ permissions:
   contents: write
   issues: write
 
+# Never run two data updates at once — overlapping pushes cause merge conflicts
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -110,7 +115,11 @@ jobs:
         git commit -m "Update data: $TIMESTAMP" \
                    -m "Total entries: $ENTRY_COUNT" \
                    -m "Automated update from enhanced data fetcher"
-        
+
+        # If main moved while we were fetching, replay our data commit on top.
+        # -X theirs keeps our freshly generated news.json/cache.json on conflict,
+        # so conflict markers can never end up in the committed data files.
+        git pull --rebase -X theirs origin main
         git push
     
     - name: Trigger deployment

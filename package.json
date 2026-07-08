@@ -2,12 +2,12 @@
     "name": "humanitycheck",
     "version": "1.0.0",
     "description": "Automated data fetcher for HumanityCheck - tracking verified human progress",
-    "main": "data-fetcher.js",
+    "main": "enhanced-data-fetcher.js",
     "scripts": {
-        "fetch": "node data-fetcher.js",
-        "test": "node data-fetcher.js --dry-run",
+        "fetch": "node enhanced-data-fetcher.js",
+        "validate": "node -e \"JSON.parse(require('fs').readFileSync('news.json','utf8')); console.log('news.json is valid')\"",
         "serve": "npx http-server . -p 8000",
-        "lint": "eslint data-fetcher.js"
+        "lint": "eslint enhanced-data-fetcher.js"
     },
     "keywords": [
         "human-progress",
