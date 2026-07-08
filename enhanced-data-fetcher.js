@@ -592,11 +592,18 @@ async function main() {
             return b.credibility - a.credibility;
         });
         
-        for (const source of sortedSources) {
+        // Fetch all sources for this category in parallel
+        const fetchPromises = sortedSources.map(async (source) => {
             stats.totalSources++;
             const entries = await fetchRSSFeed(source, field);
-            
-            if (entries.length > 0) {
+            return { source, entries };
+        });
+        
+        const results = await Promise.all(fetchPromises);
+        
+        // Process results
+        for (const { source, entries } of results) {
+            if (entries && entries.length > 0) {
                 stats.successfulSources++;
                 
                 // Track category integrity
@@ -611,9 +618,6 @@ async function main() {
                 
                 allEntries = allEntries.concat(entries);
             }
-            
-            // Rate limiting
-            await new Promise(resolve => setTimeout(resolve, 200));
         }
     }
     
