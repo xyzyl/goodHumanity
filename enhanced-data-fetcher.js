@@ -532,7 +532,7 @@ async function saveState() {
     };
     
     try {
-        await fs.writeFile('fetcher-state.json', JSON.stringify(state, null, 2));
+        await fs.writeFile('cache.json', JSON.stringify(state, null, 2));
     } catch (error) {
         console.error('Failed to save state:', error.message);
     }
@@ -541,7 +541,7 @@ async function saveState() {
 // Load previous state
 async function loadState() {
     try {
-        const data = await fs.readFile('fetcher-state.json', 'utf8');
+        const data = await fs.readFile('cache.json', 'utf8');
         const state = JSON.parse(data);
         
         // Only load recent URLs (last 24 hours)
@@ -622,6 +622,40 @@ async function main() {
     }
     
     console.log('\n📊 Processing and ranking entries...');
+    
+    // Merge new entries with previous entries to prevent data wipe
+    try {
+        const data = await fs.readFile('news.json', 'utf8');
+        const parsed = JSON.parse(data);
+        if (parsed && parsed.entries) {
+            const oldEntries = parsed.entries.map(entry => {
+                // Re-score old entries to sort them properly
+                const scoring = scoreEntry({ title: entry.title, description: entry.description, source: entry.source, date: entry.date });
+                const sourceData = Object.values(SOURCES).flat().find(s => s.name === entry.source);
+                return {
+                    ...entry,
+                    _score: scoring.score,
+                    _matches: scoring.matches,
+                    _tier: sourceData ? sourceData.tier : 3,
+                    _credibility: sourceData ? sourceData.credibility : 5
+                };
+            });
+            // Only keep old entries that STILL qualify under the v3.0 rules and aren't duplicates of newly fetched ones
+            const newLinks = new Set(allEntries.map(e => e.link));
+            const validOldEntries = oldEntries.filter(e => 
+                e._score >= 6 && 
+                e._matches.length >= 1 && 
+                !isExcludedContentType(e.title, e.description) && 
+                passesContentFilter(e.title, e.description) &&
+                !newLinks.has(e.link)
+            );
+            
+            allEntries = allEntries.concat(validOldEntries);
+            console.log(`📁 Loaded and re-verified ${validOldEntries.length} previous entries from news.json`);
+        }
+    } catch (e) {
+        console.log('📁 No previous news.json found or failed to load');
+    }
     
     // Sort by score, credibility, and recency
     allEntries.sort((a, b) => {
