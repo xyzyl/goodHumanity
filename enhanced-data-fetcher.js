@@ -102,6 +102,51 @@ const CATEGORY_RULES = {
     }
 };
 
+// ═══════════════════════════════════════════════════════════════
+// CONTENT INTEGRITY FILTERS — the heart of the evolved methodology
+// ═══════════════════════════════════════════════════════════════
+
+// Content-type patterns that should NEVER pass through the pipeline.
+// These are structurally not "progress" regardless of source quality.
+const CONTENT_TYPE_EXCLUSIONS = [
+    /\[obituary\]/i,
+    /\[clinical rounds\]/i,
+    /\[correspondence\]/i,
+    /\[seminar\]/i,
+    /\[perspectives\]/i,
+    /job\s+(posting|opening|vacancy|identification)/i,
+    /\[closed\]/i,
+    /apply\s+before/i,
+    /deadline:\s*to\s+apply/i,
+    /case\s+\d+-\d+:/i,
+    /how\s+to\s+tell\s+the\s+difference/i,
+    /check\s+against\s+delivery/i,
+    /opening\s+remarks\s+by/i,
+    /born\s+on\s+.*died\s+/i,
+    /rss\s*feed/i,
+];
+
+// Negative framing indicators — content describing problems, not solutions.
+// An entry with negative signals AND no hope signals is rejected.
+const NEGATIVE_FILTERS = [
+    'threat', 'risk', 'danger', 'crisis', 'disaster', 'collapse',
+    'fail', 'worse', 'decline', 'conflict', 'war', 'attack',
+    'plight', 'peril', 'damage', 'destroy', 'devastat',
+    'death toll', 'casualt', 'airstrike', 'bombing',
+    'complacency', 'erosion', 'eroded'
+];
+
+// Hope/progress indicators — at least one must be present to pass filtering
+const HOPE_INDICATORS = [
+    'breakthrough', 'cure', 'success', 'achieve', 'progress',
+    'improve', 'advance', 'solution', 'overcome', 'milestone',
+    'eradicat', 'eliminat', 'vaccine', 'treatment', 'protect',
+    'restore', 'recover', 'innovation', 'discover', 'record',
+    'launch', 'deploy', 'expand', 'increase', 'save',
+    'renewable', 'clean energy', 'access', 'literacy',
+    'cooperation', 'peace', 'agreement', 'partnership'
+];
+
 // Progress indicators with scoring
 const PROGRESS_INDICATORS = {
     breakthrough: {
@@ -320,6 +365,26 @@ function categorizeEntry(entry, sourceField) {
     return bestCategory;
 }
 
+// Check if content is structurally excluded (obituaries, job postings, etc.)
+function isExcludedContentType(title, description) {
+    const content = `${title} ${description}`;
+    return CONTENT_TYPE_EXCLUSIONS.some(pattern => pattern.test(content));
+}
+
+// Check negative/hope balance — reject entries with negative framing and no hope signal
+function passesContentFilter(title, description) {
+    const contentLower = `${title} ${description}`.toLowerCase();
+    const hasNegativeSignal = NEGATIVE_FILTERS.some(word => contentLower.includes(word));
+    const hasHopeSignal = HOPE_INDICATORS.some(word => contentLower.includes(word));
+    
+    // If negative and no hope: reject
+    if (hasNegativeSignal && !hasHopeSignal) return false;
+    
+    // If no negative: pass (hope signal not strictly required at this stage,
+    // the scoring threshold will handle neutral content)
+    return true;
+}
+
 // Score entry for progress/impact
 function scoreEntry(entry) {
     const content = `${entry.title} ${entry.description}`;
@@ -336,21 +401,24 @@ function scoreEntry(entry) {
         }
     }
     
-    // Bonus for source credibility
+    // Bonus for source credibility (reduced weight — credibility alone shouldn't qualify)
     const sourceData = Object.values(SOURCES).flat().find(s => s.name === entry.source);
     if (sourceData) {
-        totalScore += sourceData.credibility * 0.5;
+        totalScore += sourceData.credibility * 0.3;
     }
     
-    // Bonus for recent entries
+    // Temporal freshness decay — strongly prefer recent content
     const daysSincePublished = (new Date() - new Date(entry.date)) / (1000 * 60 * 60 * 24);
-    if (daysSincePublished <= 1) totalScore += 2;
-    else if (daysSincePublished <= 3) totalScore += 1;
+    if (daysSincePublished <= 1) totalScore += 3;
+    else if (daysSincePublished <= 3) totalScore += 2;
+    else if (daysSincePublished <= 7) totalScore += 1;
+    else if (daysSincePublished > 30) totalScore -= 2; // Penalize stale content
     
     return {
         score: totalScore,
         matches: matches,
-        qualifies: totalScore >= 4
+        // EVOLVED: Require both a minimum score AND at least one progress indicator match
+        qualifies: totalScore >= 6 && matches.length >= 1
     };
 }
 
@@ -400,6 +468,7 @@ async function fetchRSSFeed(source, field) {
         
         let scanned = 0;
         let qualified = 0;
+        let excluded = { type: 0, filter: 0, score: 0, short: 0, dup: 0 };
         
         for (let i = 0; i < Math.min(maxItems, items.length); i++) {
             const item = items[i];
@@ -410,14 +479,20 @@ async function fetchRSSFeed(source, field) {
             const description = cleanText(item.contentSnippet || item.content || item.summary || '');
             
             // Skip short content
-            if (title.length < 20 || description.length < 50) continue;
+            if (title.length < 20 || description.length < 50) { excluded.short++; continue; }
+            
+            // EVOLVED: Content-type exclusion (obituaries, job postings, case reports, etc.)
+            if (isExcludedContentType(title, description)) { excluded.type++; continue; }
+            
+            // EVOLVED: Negative/hope content filter
+            if (!passesContentFilter(title, description)) { excluded.filter++; continue; }
             
             // Check for duplicates
-            if (isDuplicate(title, description, link)) continue;
+            if (isDuplicate(title, description, link)) { excluded.dup++; continue; }
             
-            // Score the entry
+            // Score the entry (with raised threshold and progress-match requirement)
             const scoring = scoreEntry({ title, description, source: source.name, date: item.pubDate });
-            if (!scoring.qualifies) continue;
+            if (!scoring.qualifies) { excluded.score++; continue; }
             
             // Categorize with high integrity
             const category = categorizeEntry({ title, description, source: source.name }, field);
@@ -438,7 +513,8 @@ async function fetchRSSFeed(source, field) {
             });
         }
         
-        console.log(`     ✓ ${qualified}/${scanned} qualified (${field} → ${entries.filter(e => e.field === field).length} stayed in category)`);
+        const excludeDetails = Object.entries(excluded).filter(([,v]) => v > 0).map(([k,v]) => `${k}:${v}`).join(', ');
+        console.log(`     ✓ ${qualified}/${scanned} qualified (${field} → ${entries.filter(e => e.field === field).length} in-category) [filtered: ${excludeDetails}]`);
         return entries;
         
     } catch (error) {
@@ -483,8 +559,8 @@ async function loadState() {
 // Main execution
 async function main() {
     console.log('╔═══════════════════════════════════════════════════════════════╗');
-    console.log('║       HumanityCheck Enhanced Data Fetcher v2.0                ║');
-    console.log('║         High-integrity categorization & curation               ║');
+    console.log('║       HumanityCheck Enhanced Data Fetcher v3.0                ║');
+    console.log('║       Evolved methodology — stricter curation pipeline         ║');
     console.log('╚═══════════════════════════════════════════════════════════════╝\n');
     
     const startTime = Date.now();
@@ -558,25 +634,34 @@ async function main() {
         return new Date(b.date) - new Date(a.date);
     });
     
-    // Take top entries with balanced representation
-    const maxEntries = 500;
+    // EVOLVED: Tighter category balance with more aggressive caps
+    const maxEntries = 400;
     const finalEntries = [];
+    const numCategories = Object.keys(CATEGORY_RULES).length;
+    const perCategoryTarget = Math.floor(maxEntries / numCategories);
+    const perCategoryCap = Math.ceil(perCategoryTarget * 1.5); // No category gets more than 1.5x its fair share
     const fieldQuotas = {};
     
-    // Ensure minimum representation for each field
+    // Set balanced quotas per field
     Object.keys(CATEGORY_RULES).forEach(field => {
-        fieldQuotas[field] = Math.max(10, Math.floor(maxEntries / Object.keys(CATEGORY_RULES).length));
+        fieldQuotas[field] = Math.max(15, perCategoryTarget);
     });
     
-    // Fill quotas first
+    // Fill quotas first — each category gets its fair share
     for (const field of Object.keys(fieldQuotas)) {
         const fieldEntries = allEntries.filter(e => e.field === field);
         finalEntries.push(...fieldEntries.slice(0, fieldQuotas[field]));
     }
     
-    // Fill remaining slots with best entries
+    // Fill remaining slots with best entries, but respect category caps
     const remaining = allEntries.filter(e => !finalEntries.includes(e));
-    finalEntries.push(...remaining.slice(0, maxEntries - finalEntries.length));
+    for (const entry of remaining) {
+        if (finalEntries.length >= maxEntries) break;
+        const currentFieldCount = finalEntries.filter(e => e.field === entry.field).length;
+        if (currentFieldCount < perCategoryCap) {
+            finalEntries.push(entry);
+        }
+    }
     
     stats.totalQualified = finalEntries.length;
     
@@ -603,7 +688,7 @@ async function main() {
         date: new Date().toISOString().split('T')[0],
         lastUpdated: new Date().toISOString(),
         metadata: {
-            version: '2.0',
+            version: '3.0',
             executionTime: `${((Date.now() - startTime) / 1000).toFixed(1)}s`,
             sourcesQueried: stats.totalSources,
             sourcesSuccessful: stats.successfulSources,

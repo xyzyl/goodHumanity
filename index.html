@@ -104,6 +104,19 @@
         </div>
     </main>
 
+    <!-- Modal overlay -->
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+        <div class="modal" role="dialog" aria-modal="true" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="modal-close" onclick="closeModal()" aria-label="Close">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
     <footer>
         <div class="footer-inner">
             <div class="footer-brand">
@@ -127,7 +140,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 HumanityCheck. Data refreshed every 4 hours from verified sources.</p>
+            <p>&copy; 2026 HumanityCheck. Data refreshed every 4 hours from verified sources.</p>
         </div>
     </footer>
 
@@ -342,6 +355,9 @@
                 // Setup event listeners
                 setupEventListeners();
                 
+                // Render quality banner
+                renderQualityBanner(data);
+                
                 // Update last update time
                 if (data.lastUpdated) {
                     document.getElementById('lastUpdateTime').textContent = 
@@ -360,6 +376,27 @@
                 document.getElementById('feed').innerHTML = 
                     '<div class="error">Unable to load data. Please try again later.</div>';
             }
+        }
+
+        // Render data quality banner from metadata
+        function renderQualityBanner(data) {
+            const meta = data.metadata;
+            if (!meta) return;
+            
+            const banner = document.createElement('div');
+            banner.className = 'quality-banner';
+            banner.innerHTML = `
+                <span class="qb-dot"></span>
+                <span>Pipeline v${meta.version || '?'} — curated from verified sources</span>
+                <div class="qb-stats">
+                    <span class="qb-stat"><strong>${meta.sourcesSuccessful || '?'}</strong>/${meta.sourcesQueried || '?'} sources</span>
+                    <span class="qb-stat"><strong>${meta.totalSelected || data.entries.length}</strong> stories</span>
+                    ${meta.qualityMetrics ? `<span class="qb-stat"><strong>${meta.qualityMetrics.highScoreEntries || 0}</strong> high-impact</span>` : ''}
+                </div>
+            `;
+            
+            const mainContent = document.querySelector('.main-content');
+            mainContent.insertBefore(banner, mainContent.firstChild);
         }
 
         // Start shuffle timer
@@ -629,33 +666,172 @@
             setTimeout(() => toast.remove(), 3000);
         }
 
-        // Info modals
+        // Modal system
+        function openModal(title, bodyHtml) {
+            document.getElementById('modalTitle').textContent = title;
+            document.getElementById('modalBody').innerHTML = bodyHtml;
+            document.getElementById('modalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(event) {
+            // If called from overlay click, only close if clicking the overlay itself
+            if (event && event.target !== event.currentTarget) return;
+            document.getElementById('modalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Close on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        // Info modals — rich HTML content
         function showAbout() {
-            alert(`HumanityCheck Mission:\n\nWe track and verify real progress happening across humanity. Our goal is to counter pessimism with facts - showcasing breakthroughs, improvements, and positive developments that often go unnoticed.\n\nEvery entry is sourced from verified institutions and peer-reviewed research. Content is automatically refreshed every 30 minutes to provide fresh perspectives on the same high-quality data.`);
+            openModal('Our Mission', `
+                <p>We track and verify real progress happening across humanity. Our goal is to counter pessimism with facts — showcasing breakthroughs, improvements, and positive developments that often go unnoticed in mainstream media.</p>
+                <h3>What We Believe</h3>
+                <ul>
+                    <li>The world is getting better in measurable, verifiable ways</li>
+                    <li>Evidence-based optimism is a force for action, not complacency</li>
+                    <li>Every breakthrough deserves to be known — from disease eradication to clean energy records</li>
+                    <li>Transparency in sourcing builds trust in an era of misinformation</li>
+                </ul>
+                <h3>How It Works</h3>
+                <p>Every entry is sourced from verified institutions and peer-reviewed research. Our pipeline automatically fetches, scores, and curates content every 4 hours — filtering out noise and surfacing genuine human progress.</p>
+                <p>Content is reshuffled every 30 minutes to provide fresh perspectives on the same high-quality data.</p>
+            `);
         }
 
         function showMethodology() {
-            alert(`Our Methodology:\n\n• Data sources: WHO, UNESCO, major universities, peer-reviewed journals\n• Update frequency: Data fetched every 4 hours, display refreshed every 30 minutes\n• Verification: Only official sources and peer-reviewed research\n• Categorization: AI-assisted with manual verification\n• Quality scoring: Based on impact keywords and source credibility\n• Transparency: All code is open source on GitHub`);
+            openModal('Methodology', `
+                <p>Our evolved curation pipeline (v3.0) uses multiple layers of filtering to ensure only genuine progress reaches you.</p>
+                <h3>Curation Pipeline</h3>
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <span class="stat-val">62+</span>
+                        <span class="stat-label">Sources Monitored</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">4hr</span>
+                        <span class="stat-label">Refresh Cycle</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">5</span>
+                        <span class="stat-label">Filter Layers</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">v3.0</span>
+                        <span class="stat-label">Pipeline Version</span>
+                    </div>
+                </div>
+                <h3>Filter Layers</h3>
+                <ul>
+                    <li><strong>Content-type gate:</strong> Rejects obituaries, job postings, case reports, speeches, and other non-progress content types</li>
+                    <li><strong>Sentiment filter:</strong> Entries with negative framing (war, disaster, collapse) must contain a hope signal to pass</li>
+                    <li><strong>Deduplication:</strong> Content hashing and title similarity analysis prevent duplicates</li>
+                    <li><strong>Progress scoring:</strong> Each entry is scored on breakthrough language, quantitative impact, achievement signals, and source credibility. Must score ≥ 6 with at least one progress indicator match</li>
+                    <li><strong>Freshness decay:</strong> Recent content is prioritized; entries older than 30 days are penalized</li>
+                </ul>
+                <h3>Categorization</h3>
+                <p>AI-assisted categorization uses weighted keyword analysis across strong, medium, and weak signals, combined with source-category alignment. Categories are balanced to prevent any single field from dominating the feed.</p>
+                <h3>Open Source</h3>
+                <p>All code is open source on GitHub. You can audit every filtering decision.</p>
+            `);
         }
 
         function showCategories() {
-            let categoriesText = 'Progress Categories:\n\n';
+            let categoriesHtml = '<p>We track progress across 9 domains of human advancement.</p>';
             Object.entries(fieldMetadata).forEach(([field, meta]) => {
-                categoriesText += `${meta.icon} ${meta.name}: ${meta.description}\n\n`;
+                categoriesHtml += `
+                    <h3>${meta.icon} ${meta.name}</h3>
+                    <p>${meta.description}</p>
+                `;
             });
-            alert(categoriesText);
+            openModal('Progress Categories', categoriesHtml);
         }
 
         function showVerification() {
-            alert(`Verification Process:\n\n• Source credibility: Only established institutions, agencies, and peer-reviewed publications\n• Content validation: Must contain measurable progress or concrete achievements\n• Deduplication: Advanced algorithms prevent duplicate stories\n• Trust indicators: Special badges for UN agencies, government sources, and peer-reviewed journals\n• Regular audits: Quarterly review of source quality and accuracy`);
+            openModal('Verification Process', `
+                <p>Every entry passes through a multi-stage verification process before reaching the feed.</p>
+                <h3>Source Credibility Tiers</h3>
+                <ul>
+                    <li><strong>Tier 1 (Credibility 9-10):</strong> UN agencies, government research institutions, top peer-reviewed journals (WHO, NIH, Nature, NASA)</li>
+                    <li><strong>Tier 2 (Credibility 7-8):</strong> Major international organizations, university news, established policy institutes</li>
+                    <li><strong>Tier 3 (Credibility 6-7):</strong> Specialized media and reputable journalism outlets</li>
+                </ul>
+                <h3>Trust Indicators</h3>
+                <div class="source-list">
+                    <span class="source-chip">✓ UN Agencies</span>
+                    <span class="source-chip">✓ Peer-Reviewed Journals</span>
+                    <span class="source-chip">✓ Gov Research Institutes</span>
+                    <span class="source-chip">✓ Major Universities</span>
+                    <span class="source-chip">✓ Int'l Foundations</span>
+                </div>
+                <h3>What We Reject</h3>
+                <ul>
+                    <li>Blogs, opinion pieces, and unverified claims</li>
+                    <li>Content without measurable progress or concrete achievements</li>
+                    <li>Obituaries, job postings, case reports, and editorial commentary</li>
+                    <li>Negatively-framed content without a solution or hope signal</li>
+                    <li>Duplicate stories from multiple sources</li>
+                </ul>
+            `);
         }
 
         function showCriteria() {
-            alert(`Selection Criteria:\n\n• Verified sources only (no blogs or opinion pieces)\n• Measurable progress or breakthroughs\n• Peer-reviewed research when applicable\n• Global impact preferred\n• Recent developments\n• Must pass quality scoring threshold`);
+            openModal('Selection Criteria', `
+                <p>An entry must pass all of the following criteria to appear in the feed.</p>
+                <h3>Required</h3>
+                <ul>
+                    <li>Sourced from a verified institution (Tier 1-3 credibility)</li>
+                    <li>Contains at least one progress indicator (breakthrough, achievement, positive impact, or quantitative improvement)</li>
+                    <li>Scores ≥ 6 on the composite quality score</li>
+                    <li>Title length ≥ 20 characters, description ≥ 50 characters</li>
+                    <li>Not a structural non-progress content type (obituary, job posting, etc.)</li>
+                </ul>
+                <h3>Preferred</h3>
+                <ul>
+                    <li>Global or large-scale impact</li>
+                    <li>Quantitative evidence ("X million people", "Y% improvement")</li>
+                    <li>Published within the last 7 days</li>
+                    <li>Peer-reviewed research when applicable</li>
+                    <li>Cross-border cooperation or systemic change</li>
+                </ul>
+                <h3>Scoring Weights</h3>
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <span class="stat-val">+5</span>
+                        <span class="stat-label">Breakthrough</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">+4</span>
+                        <span class="stat-label">Quantitative</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">+3</span>
+                        <span class="stat-label">Achievement</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">+2</span>
+                        <span class="stat-label">Positive Impact</span>
+                    </div>
+                </div>
+            `);
         }
 
         function showDonate() {
-            alert('HumanityCheck is a volunteer project!\n \nSupport us:\nSOL:7afpHEBzTD6wcvEbgqZpyvSu7mwcpzetui4sWwtdNhQ3\nBTC:bc1qultsc7tn9rek69t3gs4f7cd2f90vnwssxjys0h\nETH:0x1019ED9e78a9896C59896B38160ffbD40ADf97AA');
+            openModal('Support HumanityCheck', `
+                <p>HumanityCheck is a volunteer-driven project. Your support helps us maintain and expand our coverage of human progress.</p>
+                <h3>Cryptocurrency</h3>
+                <p><strong>SOL</strong></p>
+                <code class="crypto-addr" onclick="navigator.clipboard.writeText('7afpHEBzTD6wcvEbgqZpyvSu7mwcpzetui4sWwtdNhQ3'); showToast('SOL address copied!')">7afpHEBzTD6wcvEbgqZpyvSu7mwcpzetui4sWwtdNhQ3</code>
+                <p><strong>BTC</strong></p>
+                <code class="crypto-addr" onclick="navigator.clipboard.writeText('bc1qultsc7tn9rek69t3gs4f7cd2f90vnwssxjys0h'); showToast('BTC address copied!')">bc1qultsc7tn9rek69t3gs4f7cd2f90vnwssxjys0h</code>
+                <p><strong>ETH</strong></p>
+                <code class="crypto-addr" onclick="navigator.clipboard.writeText('0x1019ED9e78a9896C59896B38160ffbD40ADf97AA'); showToast('ETH address copied!')">0x1019ED9e78a9896C59896B38160ffbD40ADf97AA</code>
+                <p style="font-size: 12px; color: var(--ink-4); margin-top: 16px;">Click any address to copy it to your clipboard.</p>
+            `);
         }
 
         // Initialize on load
