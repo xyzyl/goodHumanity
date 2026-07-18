@@ -116,6 +116,9 @@ jobs:
                    -m "Total entries: $ENTRY_COUNT" \
                    -m "Automated update from enhanced data fetcher"
 
+        # Clean unstaged changes (npm ci artifacts, etc.) so rebase can run
+        git checkout -- .
+
         # If main moved while we were fetching, replay our data commit on top.
         # -X theirs keeps our freshly generated news.json/cache.json on conflict,
         # so conflict markers can never end up in the committed data files.
