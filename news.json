@@ -1,26 +1,26 @@
 {
   "date": "2026-07-23",
-  "lastUpdated": "2026-07-23T17:15:01.673Z",
+  "lastUpdated": "2026-07-23T20:57:07.670Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "24.3s",
+    "executionTime": "26.0s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 33,
-    "totalCandidates": 161,
-    "totalSelected": 160,
+    "sourcesSuccessful": 35,
+    "totalCandidates": 163,
+    "totalSelected": 163,
     "entriesByField": {
-      "health": 12,
+      "health": 13,
       "climate": 15,
       "energy": 2,
       "technology": 66,
       "education": 1,
       "development": 25,
       "peace": 5,
-      "space": 34
+      "space": 36
     },
     "categoryIntegrity": {
       "health": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "climate": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "education": {
@@ -52,17 +52,25 @@
         "changed": 0
       },
       "space": {
-        "kept": 1,
+        "kept": 2,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 19,
-      "topTierSources": 71,
-      "highCredibilitySources": 126
+      "highScoreEntries": 20,
+      "topTierSources": 73,
+      "highCredibilitySources": 128
     }
   },
   "entries": [
+    {
+      "title": "WHO launches seven strategies to prevent drowning",
+      "description": "Ahead of World Drowning Prevention Day on 25 July, the World Health Organization (WHO) is launching a new technical package to help governments and communities implement seven proven measures to reduce drowning deaths.",
+      "link": "https://www.who.int/news/item/23-07-2026-who-launches-seven-strategies-to-prevent-drowning",
+      "source": "WHO",
+      "field": "health",
+      "date": "2026-07-23"
+    },
     {
       "title": "UN report: Global hunger levels ease for third consecutive year as regional disparities persist",
       "description": "Global hunger declined for a third consecutive year in 2025, demonstrating that progress is possible. However, the improvements remain fragile, unevenly distributed and insufficient to achieve the Sustainable Development Goals by 2030, according to The State of Food Security and Nutrition in the World 2026 (SOFI 2026) report, released on Tuesday by five United Nations specialized agencies.",
@@ -112,20 +120,20 @@
       "date": "2026-07-22"
     },
     {
-      "title": "WHO marks 25 years of Research4Life, advancing access to scientific knowledge in more than 120 countries",
-      "description": "The World Health Organization (WHO) today marks the 25th anniversary of Research4Life, a public-private partnership that provides researchers, educators, health professionals and policy-makers in low- and middle-income countries with affordable or free access to scientific knowledge. The partnership has helped dramatically expand access to scientific knowledge for researchers, educators, health professionals and policy-makers in more than 120 countries.",
-      "link": "https://www.who.int/news/item/21-07-2026-who-marks-25-years-of-research4life--advancing-access-to-scientific-knowledge-in-more-than-120-countries",
-      "source": "WHO",
-      "field": "health",
-      "date": "2026-07-20"
-    },
-    {
       "title": "Polio simulation exercise strengthens system readiness to maintain Egypt’s polio-free status",
       "description": "Egypt has maintained its polio-free status despite high and frequent population movement from polio-affected countries, a result of its strong routine immunization coverage and well-established surveillance system. To sustain this achievement requires continuous strengthening of early detection and rapid-response capacities. To support this, 68 technical staff from the Ministry of Health and Population, including participants […]",
       "link": "https://polioeradication.org/news/polio-simulation-exercise-strengthens-system-readiness-to-maintain-egypts-polio-free-status/",
       "source": "Polio Eradication",
       "field": "health",
       "date": "2026-06-29"
+    },
+    {
+      "title": "WHO marks 25 years of Research4Life, advancing access to scientific knowledge in more than 120 countries",
+      "description": "The World Health Organization (WHO) today marks the 25th anniversary of Research4Life, a public-private partnership that provides researchers, educators, health professionals and policy-makers in low- and middle-income countries with affordable or free access to scientific knowledge. The partnership has helped dramatically expand access to scientific knowledge for researchers, educators, health professionals and policy-makers in more than 120 countries.",
+      "link": "https://www.who.int/news/item/21-07-2026-who-marks-25-years-of-research4life--advancing-access-to-scientific-knowledge-in-more-than-120-countries",
+      "source": "WHO",
+      "field": "health",
+      "date": "2026-07-20"
     },
     {
       "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
@@ -168,6 +176,14 @@
       "date": "2026-07-17"
     },
     {
+      "title": "Improved reporting needed on forest carbon emissions",
+      "description": "More analysis is needed to ensure that tropical forest degeneration and regeneration are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project. The study analysed how tropical forests store carbon under varying conditions and then release it back into the atmosphere. The scenarios studied range from complete forest destruction through deforestation, which is relatively well understood, to forest degradation, whereby the forest’s condition worsens over time due to damage and organic decompos",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
+      "source": "ESA",
+      "field": "climate",
+      "date": "2026-07-22"
+    },
+    {
       "title": "The 20th anniversary of the NOAA Marine Debris Program",
       "description": "The 20th anniversary of the NOAA Marine Debris Program Public participants in NOAA’s Marine Debris Monitoring and Assessment Project sort debris items and record data at Nukoli’i Beach, Hawaii in June of 2024. (Image credit: Kauai Surfrider) July 6, 2026 Twenty years ago, the NOAA Marine Debris Program was established as the U.S. Government’s lead to reduce and prevent the adverse impacts of marine debris on our ocean and Great Lakes. Education 0 On",
       "link": "https://www.noaa.gov/education/stories/20th-anniversary-of-noaa-marine-debris-program-ext",
@@ -184,20 +200,20 @@
       "date": "2026-06-30"
     },
     {
-      "title": "Improved reporting needed on forest carbon emissions",
-      "description": "More analysis is needed to ensure that tropical forest degeneration and regeneration are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project. The study analysed how tropical forests store carbon under varying conditions and then release it back into the atmosphere. The scenarios studied range from complete forest destruction through deforestation, which is relatively well understood, to forest degradation, whereby the forest’s condition worsens over time due to damage and organic decompos",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
-      "source": "ESA",
-      "field": "climate",
-      "date": "2026-07-22"
-    },
-    {
       "title": "‘Business as usual is a business of death’: UN adopts road safety pledge over US objection",
       "description": "The UN General Assembly closed its first ever High-level Meeting on road safety on Tuesday by adopting a sweeping new declaration aimed at halving road deaths by 2030 – over the sole objection of the United States.",
       "link": "https://news.un.org/feed/view/en/story/2026/07/1167993",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-07-21"
+    },
+    {
+      "title": "Europe Saw Deaths Spike During Brutal June Heat Wave",
+      "description": "Western Europe recorded more than 10,000 excess deaths during an unprecedented June heat wave, an analysis finds. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/europe-june-2026-heat-wave-excess-deaths",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-07-13"
     },
     {
       "title": "West Coast Gray Whale Population Increases",
@@ -222,6 +238,22 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-07-13"
+    },
+    {
+      "title": "Brazilian Amazon Sees Sharp Drop in Acres Burned",
+      "description": "Last year, the acreage burned in the Brazilian Amazon reached its lowest level in at least four decades. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/brazil-amazon-fires-2025",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
+      "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final... The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens/",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-07-10"
     },
     {
       "title": "Protecting the living waters of the Channel Islands from marine debris",
@@ -256,30 +288,6 @@
       "date": "2026-06-16"
     },
     {
-      "title": "Brazilian Amazon Sees Sharp Drop in Acres Burned",
-      "description": "Last year, the acreage burned in the Brazilian Amazon reached its lowest level in at least four decades. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/brazil-amazon-fires-2025",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Europe Saw Deaths Spike During Brutal June Heat Wave",
-      "description": "Western Europe recorded more than 10,000 excess deaths during an unprecedented June heat wave, an analysis finds. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/europe-june-2026-heat-wave-excess-deaths",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
-      "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final... The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens/",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-07-10"
-    },
-    {
       "title": "ADB Approves $160 Million Loan to Scale Up Bhutan’s Solar Power and Attract Private Investment",
       "description": "ADB has approved a $160 million ordinary capital resources loan to scale up solar power generation in Bhutan. The project will deploy at least 310 megawatts of new solar generation capacity and attract private investment through the country's first private-majority public–private partnership in the energy sector.",
       "link": "https://www.adb.org/news/adb-approves-160-million-loan-scale-bhutan-solar-power-and-attract-private-investment",
@@ -312,6 +320,30 @@
       "date": "2026-07-02"
     },
     {
+      "title": "MIT’s new lidar chip could give self-driving cars a wider view",
+      "description": "MIT engineers have found a way to give chip-based lidar a wider, clearer view without relying on moving parts. Their design uses differently shaped antennas that can sit close together without scrambling one another’s signals. In tests, the system sharply reduced interference while steering a single precise beam across a broad field of view.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260722032127.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "China’s Chang’e-6 reveals why solar wind hits the Moon’s two sides differently",
+      "description": "China’s Chang’e-6 samples have uncovered a surprising difference between the Moon’s two hemispheres. Solar wind particles penetrated deeper into the far-side soil because Earth’s magnetosphere slows the particles that reach the near side. Noble gases locked inside the lunar regolith preserved evidence of this uneven bombardment. These gases may even help scientists reconstruct the ancient history of Earth’s magnetic shield.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260718010145.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "NASA's Perseverance just completed a marathon on Mars",
+      "description": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet. It accomplished the feat in just five years and four months, reaching the distance on its 1,890th Martian day, less than half the time it took the previous record holder, NASA's Opportunity rover.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-14"
+    },
+    {
       "title": "China’s detention of U.S. seismologist and data-sharing crackdown alarm researchers",
       "description": "Youlin Chen analyzed earthquake data that can also aid nuclear-test monitoring",
       "link": "https://www.science.org/content/article/china-s-detention-u-s-seismologist-and-data-sharing-crackdown-alarm-researchers",
@@ -320,28 +352,12 @@
       "date": "2026-07-17"
     },
     {
-      "title": "Detection schemes could deter putting nuclear warheads in space",
-      "description": "Three approaches—including one that exploits Earth’s radiation belts—could help enforce ban on orbital nuclear weapons",
-      "link": "https://www.science.org/content/article/detection-schemes-could-deter-putting-nuclear-warheads-space",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-07-08"
-    },
-    {
       "title": "MIT projects selected for funding under US Department of Energy’s Genesis Mission",
       "description": "Initial research projects advance national priorities across natural resources, manufacturing, nuclear physics, and more.",
       "link": "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-07-23"
-    },
-    {
-      "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
-      "description": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
-      "link": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-22"
     },
     {
       "title": "MIT Professor Susumu Tonegawa, renowned molecular biologist and Nobel laureate, dies at 86",
@@ -368,28 +384,20 @@
       "date": "2026-07-17"
     },
     {
-      "title": "MIT’s new lidar chip could give self-driving cars a wider view",
-      "description": "MIT engineers have found a way to give chip-based lidar a wider, clearer view without relying on moving parts. Their design uses differently shaped antennas that can sit close together without scrambling one another’s signals. In tests, the system sharply reduced interference while steering a single precise beam across a broad field of view.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260722032127.htm",
-      "source": "ScienceDaily Tech",
+      "title": "Detection schemes could deter putting nuclear warheads in space",
+      "description": "Three approaches—including one that exploits Earth’s radiation belts—could help enforce ban on orbital nuclear weapons",
+      "link": "https://www.science.org/content/article/detection-schemes-could-deter-putting-nuclear-warheads-space",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+      "description": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
+      "link": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+      "source": "MIT News",
       "field": "technology",
       "date": "2026-07-22"
-    },
-    {
-      "title": "China’s Chang’e-6 reveals why solar wind hits the Moon’s two sides differently",
-      "description": "China’s Chang’e-6 samples have uncovered a surprising difference between the Moon’s two hemispheres. Solar wind particles penetrated deeper into the far-side soil because Earth’s magnetosphere slows the particles that reach the near side. Noble gases locked inside the lunar regolith preserved evidence of this uneven bombardment. These gases may even help scientists reconstruct the ancient history of Earth’s magnetic shield.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260718010145.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "NASA's Perseverance just completed a marathon on Mars",
-      "description": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet. It accomplished the feat in just five years and four months, reaching the distance on its 1,890th Martian day, less than half the time it took the previous record holder, NASA's Opportunity rover.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-14"
     },
     {
       "title": "Caltech Mourns the Passing of Mark B. Wise (1953–2026)",
@@ -640,12 +648,12 @@
       "date": "2026-07-08"
     },
     {
-      "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
-      "description": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
-      "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
-      "source": "MIT News",
+      "title": "Digital Surveillance Reshapes Fishery Enforcement in Indonesia",
+      "description": "In the eastern Indian Ocean, south of Java in the vast sea stretching toward Australia, a fishing vessel slightly alters its course while operating near the boundary of its authorized fishing ground. Nothing appears unusual on deck. Nets remain in the water. Engines maintain a steady speed. To the crew, it is an ordinary day at sea. Yet hundreds of kilometers above, satellites continuously record the vessel’s position. At Indonesia’s Marine and Fisheries Resources Surveillance Station, in Cilacap, where I work, a monitoring platform receives the signal and automatically compares it against fis",
+      "link": "https://spectrum.ieee.org/fishery-satellite-surveillance",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-07-07"
+      "date": "2026-07-16"
     },
     {
       "title": "ADB Approves $182.89 Million Loan to Strengthen Public School System in Karnataka, India",
@@ -654,6 +662,14 @@
       "source": "Asian Development Bank",
       "field": "education",
       "date": "2026-07-01"
+    },
+    {
+      "title": "Global hunger declines again but progress remains uneven across regions",
+      "description": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167987",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-21"
     },
     {
       "title": "ADB Puts Team on the Ground in Türkiye as Financing Demand Surges",
@@ -712,12 +728,44 @@
       "date": "2026-07-01"
     },
     {
+      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+      "description": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167939",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-14"
+    },
+    {
       "title": "‘Shared blueprint for peace’: Development goals deliver for billions, but challenges remain",
       "description": "With fewer than five years left to achieve the Sustainable Development Goals (SDGs), a new UN report says sustained investment and international cooperation have improved billions of lives, but warns that governments must urgently accelerate action if the goals are to be met by their 2030 deadline.",
       "link": "https://news.un.org/feed/view/en/story/2026/07/1167888",
       "source": "UN News SDGs",
       "field": "development",
       "date": "2026-07-07"
+    },
+    {
+      "title": "ADB Launches Initiative to Bring Japanese Startup Innovation to Southeast Asia and the Pacific",
+      "description": "ADB and the Japan International Cooperation Agency (JICA) have launched the Southeast Asia Emerging Entrepreneurs Kickstart initiative to help promising startups scale solutions to complex development challenges in Southeast Asia and the Pacific.",
+      "link": "https://www.adb.org/news/adb-launches-initiative-bring-japanese-startup-innovation-southeast-asia-and-pacific",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
+      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
+      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-17"
+    },
+    {
+      "title": "Multilateral Development Banks Increase Climate Finance to Record $163 Billion in 2025, Supporting Resilient and Sustainable Growth",
+      "description": "MDBs increased climate finance to record levels in 2025, reinforcing their role in supporting resilient and sustainable economies.",
+      "link": "https://www.adb.org/news/multilateral-development-banks-increase-climate-finance-record-163-billion-2025",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-13"
     },
     {
       "title": "ADB, Premium Nexus JSC Sign Social Loan to Promote Efficient and Inclusive Food Distribution in Mongolia",
@@ -736,6 +784,14 @@
       "date": "2026-07-07"
     },
     {
+      "title": "ADB President Meets Nepal Prime Minister as Jobs and Investment Support is Stepped Up",
+      "description": "ADB President Masato Kanda met Prime Minister Balendra Shah in Kathmandu as ADB and Nepal mark 60 years of partnership and deepen support for the country’s economic transformation, job creation, and investment.",
+      "link": "https://www.adb.org/news/adb-president-meets-nepal-prime-minister-jobs-and-investment-support-stepped-up",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-07"
+    },
+    {
       "title": "ADB Approves $12.5 Million Financing to Strengthen Fiscal Resilience and Sustainable Planning in Palau",
       "description": "ADB has approved $12.5 million in concessional financing for the Republic of Palau to support reforms that strengthen public financial management, enhance resilience to extreme weather events, and promote sustainable economic development.",
       "link": "https://www.adb.org/news/adb-approves-12-5-million-financing-strengthen-fiscal-resilience-and-sustainable-planning-palau",
@@ -747,6 +803,14 @@
       "title": "ADB Establishes North Pacific Subregional Office, Expanding Support in Region",
       "description": "ADB announced the establishment of a subregional office to support its expanding operations in the North Pacific, strengthening the bank’s commitment to its Pacific developing member countries as a steadfast partner for growth, development, and resilience.",
       "link": "https://www.adb.org/news/adb-establishes-north-pacific-subregional-office-expanding-support-region",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-02"
+    },
+    {
+      "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
+      "description": "ADB and Golomt Bank Joint Stock Company (Golomt Bank) have signed a $64 million loan agreement to support sustainable finance and expand lending to micro, small, and medium-sized enterprises (MSMEs), including women-owned businesses in Mongolia.",
+      "link": "https://www.adb.org/news/adb-golomt-bank-partner-expand-sustainable-and-inclusive-finance-mongolia",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-07-02"
@@ -776,62 +840,6 @@
       "date": "2026-06-27"
     },
     {
-      "title": "Global hunger declines again but progress remains uneven across regions",
-      "description": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167987",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "As aid dries up, countries pledge to close the $4 trillion development gap",
-      "description": "UN Member States reaffirmed their commitment to the Sustainable Development Goals (SDGs) by adopting a declaration on Wednesday that they will implement reforms to help close the $4 trillion SDG financing gap.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167957",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-07-16"
-    },
-    {
-      "title": "ADB Launches Initiative to Bring Japanese Startup Innovation to Southeast Asia and the Pacific",
-      "description": "ADB and the Japan International Cooperation Agency (JICA) have launched the Southeast Asia Emerging Entrepreneurs Kickstart initiative to help promising startups scale solutions to complex development challenges in Southeast Asia and the Pacific.",
-      "link": "https://www.adb.org/news/adb-launches-initiative-bring-japanese-startup-innovation-southeast-asia-and-pacific",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
-      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
-      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Multilateral Development Banks Increase Climate Finance to Record $163 Billion in 2025, Supporting Resilient and Sustainable Growth",
-      "description": "MDBs increased climate finance to record levels in 2025, reinforcing their role in supporting resilient and sustainable economies.",
-      "link": "https://www.adb.org/news/multilateral-development-banks-increase-climate-finance-record-163-billion-2025",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "ADB President Meets Nepal Prime Minister as Jobs and Investment Support is Stepped Up",
-      "description": "ADB President Masato Kanda met Prime Minister Balendra Shah in Kathmandu as ADB and Nepal mark 60 years of partnership and deepen support for the country’s economic transformation, job creation, and investment.",
-      "link": "https://www.adb.org/news/adb-president-meets-nepal-prime-minister-jobs-and-investment-support-stepped-up",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
-      "description": "ADB and Golomt Bank Joint Stock Company (Golomt Bank) have signed a $64 million loan agreement to support sustainable finance and expand lending to micro, small, and medium-sized enterprises (MSMEs), including women-owned businesses in Mongolia.",
-      "link": "https://www.adb.org/news/adb-golomt-bank-partner-expand-sustainable-and-inclusive-finance-mongolia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-02"
-    },
-    {
       "title": "ADB, Converse Bank Sign $15 Million Financing to Boost Women-Owned MSMEs and Sustainable Lending in Armenia",
       "description": "ADB has signed a financing package of up to $15 million with Converse Bank Closed Joint Stock Company to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) and households, and to support sustainable lending in Armenia.",
       "link": "https://www.adb.org/news/adb-converse-bank-sign-15-million-financing-boost-women-owned-msmes-sustainable-lending-armenia",
@@ -840,12 +848,12 @@
       "date": "2026-06-26"
     },
     {
-      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
-      "description": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167939",
+      "title": "As aid dries up, countries pledge to close the $4 trillion development gap",
+      "description": "UN Member States reaffirmed their commitment to the Sustainable Development Goals (SDGs) by adopting a declaration on Wednesday that they will implement reforms to help close the $4 trillion SDG financing gap.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167957",
       "source": "UN News SDGs",
       "field": "development",
-      "date": "2026-07-14"
+      "date": "2026-07-16"
     },
     {
       "title": "Despite hurdles, don’t give up on Sustainable Development Goals, UN urges",
@@ -864,14 +872,6 @@
       "date": "2026-07-15"
     },
     {
-      "title": "Peacekeepers step up support as families return to south Lebanon",
-      "description": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue to return home.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167961",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-07-16"
-    },
-    {
       "title": "West Africa and the Sahel: Terrorism is changing its face",
       "description": "Jihadist groups are no longer content with launching attacks in West Africa and the Sahel: they administer territories, control trade routes, exploit new technologies and are gradually pushing their influence all the way to the Gulf of Guinea.",
       "link": "https://news.un.org/feed/view/en/story/2026/07/1167940",
@@ -880,20 +880,28 @@
       "date": "2026-07-14"
     },
     {
-      "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
-      "description": "The UN World Food Programme (WFP) is calling for greater humanitarian access to Gaza, warning that restrictions on aid deliveries, ongoing violence and funding shortages are severely limiting its ability to reach people in need.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167930",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-07-13"
-    },
-    {
       "title": "How might AI transform science?",
       "description": "Nobel Prize laureates Demis Hassabis and Paul Nurse join Alison Noble, Chair of the Royal Society Science in the Age of AI Working Group, to discuss how scientists can harness AI tools, and what challenges it might bring about. The post How might AI transform science? appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/how-might-ai-transform-science/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-06-18"
+    },
+    {
+      "title": "Peacekeepers step up support as families return to south Lebanon",
+      "description": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue to return home.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167961",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
+      "description": "The UN World Food Programme (WFP) is calling for greater humanitarian access to Gaza, warning that restrictions on aid deliveries, ongoing violence and funding shortages are severely limiting its ability to reach people in need.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167930",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-07-13"
     },
     {
       "title": "Plasmon-Enhanced Radioisotope Thermophotovoltaic (PRTPV) Power Generation for Interstellar Missions",
@@ -1032,6 +1040,22 @@
       "date": "2026-07-20"
     },
     {
+      "title": "Look for NASA+ Now Streaming on Amazon Fire TV",
+      "description": "Continuing agency efforts to bring space closer to home, NASA+ is heading to more streaming platforms. On Thursday, NASA announced its programming is on Fire TV Channels. Fire TV customers can easily access this content by asking Alexa+ on compatible devices. Future programming on Fire TV may include science mission launches, a test flight for […]",
+      "link": "https://www.nasa.gov/news-release/look-for-nasa-now-streaming-on-amazon-fire-tv/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Live coverage: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work",
+      "description": "The flight comes as Tropical Storm Bertha is expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/23/live-coverage-spacex-ready-for-2nd-attempt-to-launch-starship-flight-13-following-post-abort-engine-work/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-23"
+    },
+    {
       "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
       "description": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch campaigns. Over the coming weeks, engineers and mission teams will carry out a series of rigorous inspections and prepare the satellites to be installed atop their Vega-C rocket for their journey into orbit.",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
@@ -1168,38 +1192,6 @@
       "date": "2026-07-08"
     },
     {
-      "title": "Architecting a Better Lithium-Ion Battery",
-      "description": "Since the early 2000s, lithium-ion (Li-ion) batteries have become the predominant rechargeable power source for many mobile devices, electric vehicles, renewable-energy storage grids, and more. But the Li-ion batteries in commercial use carry both safety risks and limitations. Julia R. Greer, the Ruben F. and Donna Mettler Professor of Materials Science, Mechanics and Medical Engineering at Caltech, whose lab has been working to improve Li-ion batteries, now has established a new path toward making them less dangerous and more environmentally friendly, while also boosting performance.\"We've de",
-      "link": "https://www.caltech.edu/about/news/architecting-a-better-lithium-ion-battery",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-23"
-    },
-    {
-      "title": "We’re Squandering LEDs’ Potential to Save Our Night Skies",
-      "description": "In the chill of a London spring night, under overcast skies, iconic Trafalgar Square opens around me. Admiral Nelson rises on his pedestal, the National Gallery rests behind, the church of St Martin-in-the-Fields sits nearby. From the 13th century, the site served as the Royal Mews for hawks and then horses. By 1844, it was a public space at the heart of one of the biggest cities in the world. Despite the square’s presence through that grand sweep of history, it’s not why I’m here. My interest is far more specific: I want to find out what happens to spaces like this when artificial light, spec",
-      "link": "https://spectrum.ieee.org/led-light-pollution",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "390 gravitational wave detections reveal hidden population of black holes",
-      "description": "Astronomers have released the largest gravitational wave catalog ever, revealing 161 new black hole collisions and pushing the total number of detections to 390. Among the highlights are the clearest gravitational wave signal ever recorded, the most accurate location of a black hole merger, and growing evidence that some black holes are the products of previous black hole mergers. With discoveries now arriving several times a week, gravitational wave astronomy is entering an exciting new era.",
-      "link": "https://www.sciencedaily.com/releases/2026/06/260625060203.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "Digital Surveillance Reshapes Fishery Enforcement in Indonesia",
-      "description": "In the eastern Indian Ocean, south of Java in the vast sea stretching toward Australia, a fishing vessel slightly alters its course while operating near the boundary of its authorized fishing ground. Nothing appears unusual on deck. Nets remain in the water. Engines maintain a steady speed. To the crew, it is an ordinary day at sea. Yet hundreds of kilometers above, satellites continuously record the vessel’s position. At Indonesia’s Marine and Fisheries Resources Surveillance Station, in Cilacap, where I work, a monitoring platform receives the signal and automatically compares it against fis",
-      "link": "https://spectrum.ieee.org/fishery-satellite-surveillance",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-07-16"
-    },
-    {
       "title": "Why worms (and microbes) are catching on as a manure pollution solution",
       "description": "Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips on his family’s land in Hickman, a tiny town in the state’s agricultural heartland. He reaches down with both hands and pulls up a clump of muck, turning it over to reveal a half-dozen squirming red earthworms.…",
       "link": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
@@ -1312,6 +1304,22 @@
       "date": "2026-07-16"
     },
     {
+      "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
+      "description": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
+      "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "Architecting a Better Lithium-Ion Battery",
+      "description": "Since the early 2000s, lithium-ion (Li-ion) batteries have become the predominant rechargeable power source for many mobile devices, electric vehicles, renewable-energy storage grids, and more. But the Li-ion batteries in commercial use carry both safety risks and limitations. Julia R. Greer, the Ruben F. and Donna Mettler Professor of Materials Science, Mechanics and Medical Engineering at Caltech, whose lab has been working to improve Li-ion batteries, now has established a new path toward making them less dangerous and more environmentally friendly, while also boosting performance.\"We've de",
+      "link": "https://www.caltech.edu/about/news/architecting-a-better-lithium-ion-battery",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-06-23"
+    },
+    {
       "title": "Steering Light in a Flash: New Chip Redirects Light Beams in Less Than a Trillionth of a Second",
       "description": "Light can carry enormous amounts of information at extreme speeds, making photonic technologies promising for the development of faster communications, more powerful computing systems, and more sensitive sensors. But for light to be useful for these purposes, engineers need to be able to control where it goes and redirect it quickly. A new device built by Caltech researchers uses a beam of light to steer another to a different angle in just 74 femtoseconds (74 quadrillionths of a second). That's about the time it takes light to travel the width of a human hair.\"Steering light with light is ver",
       "link": "https://www.caltech.edu/about/news/steering-light-in-a-flash-new-chip-redirects-light-beams-in-less-than-a-trillionth-of-a-second",
@@ -1326,6 +1334,22 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-07-06"
+    },
+    {
+      "title": "We’re Squandering LEDs’ Potential to Save Our Night Skies",
+      "description": "In the chill of a London spring night, under overcast skies, iconic Trafalgar Square opens around me. Admiral Nelson rises on his pedestal, the National Gallery rests behind, the church of St Martin-in-the-Fields sits nearby. From the 13th century, the site served as the Royal Mews for hawks and then horses. By 1844, it was a public space at the heart of one of the biggest cities in the world. Despite the square’s presence through that grand sweep of history, it’s not why I’m here. My interest is far more specific: I want to find out what happens to spaces like this when artificial light, spec",
+      "link": "https://spectrum.ieee.org/led-light-pollution",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-07-20"
+    },
+    {
+      "title": "390 gravitational wave detections reveal hidden population of black holes",
+      "description": "Astronomers have released the largest gravitational wave catalog ever, revealing 161 new black hole collisions and pushing the total number of detections to 390. Among the highlights are the clearest gravitational wave signal ever recorded, the most accurate location of a black hole merger, and growing evidence that some black holes are the products of previous black hole mergers. With discoveries now arriving several times a week, gravitational wave astronomy is entering an exciting new era.",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260625060203.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-02"
     },
     {
       "title": "Building a Foundation Stack for General-Purpose Robots",
