@@ -1,20 +1,20 @@
 {
   "date": "2026-07-30",
-  "lastUpdated": "2026-07-30T01:56:18.381Z",
+  "lastUpdated": "2026-07-30T06:22:32.268Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "26.5s",
+    "executionTime": "27.8s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 30,
-    "totalCandidates": 182,
-    "totalSelected": 182,
+    "sourcesSuccessful": 32,
+    "totalCandidates": 184,
+    "totalSelected": 184,
     "entriesByField": {
       "health": 15,
       "climate": 19,
       "energy": 3,
       "technology": 66,
-      "education": 1,
-      "development": 28,
+      "education": 2,
+      "development": 29,
       "peace": 7,
       "space": 43
     },
@@ -36,11 +36,11 @@
         "changed": 0
       },
       "education": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "development": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "peace": {
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 16,
-      "topTierSources": 87,
-      "highCredibilitySources": 152
+      "highScoreEntries": 17,
+      "topTierSources": 88,
+      "highCredibilitySources": 154
     }
   },
   "entries": [
@@ -120,20 +120,20 @@
       "date": "2026-07-20"
     },
     {
-      "title": "Cyberattacks and the digital divide are creating new barriers to HIV services",
-      "description": "Cyberattacks, data breaches, online harassment and other forms of technology-facilitated violence are becoming significant obstacles to HIV prevention and treatment, according to a UNAIDS specialist who says digital security has become inseparable from the fight against the epidemic itself.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1168030",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-07-27"
-    },
-    {
       "title": "[Articles] Efficacy and safety of tirofiban after successful endovascular reperfusion in acute ischaemic stroke (ATTRACTION) in China: a multicentre, double-blind, randomised controlled trial",
       "description": "In patients with acute ischaemic stroke due to anterior-circulation large-vessel occlusion achieving successful reperfusion, adjunctive tirofiban increased the likelihood of functional independence compared with placebo. Although symptomatic intracranial haemorrhage occurred numerically more often with tirofiban, the between-group difference was not significant, and this finding warrants caution when weighing potential benefit against bleeding risk.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00983-9/fulltext?rss=yes",
       "source": "The Lancet",
       "field": "health",
       "date": "2026-06-24"
+    },
+    {
+      "title": "Cyberattacks and the digital divide are creating new barriers to HIV services",
+      "description": "Cyberattacks, data breaches, online harassment and other forms of technology-facilitated violence are becoming significant obstacles to HIV prevention and treatment, according to a UNAIDS specialist who says digital security has become inseparable from the fight against the epidemic itself.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1168030",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-07-27"
     },
     {
       "title": "Wildfires surge across Europe as Spain and France battle major blazes",
@@ -160,6 +160,14 @@
       "date": "2026-07-22"
     },
     {
+      "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
+      "description": "Today, the World Health Organization (WHO) has added the first molecular diagnostic test for Bundibugyo virus (BDBV) to its Emergency Use Listing (EUL). The test detects the virus by identifying its genetic material in blood samples, helping confirm infection rapidly and accurately. WHO’s EUL procedure assesses the quality, safety and performance of essential health products based on the available evidence, while ensuring they meet minimum international standards and address the needs of low- and middle-income countries. Through this mechanism, WHO aims to accelerate access to reliable diagnos",
+      "link": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing",
+      "source": "WHO",
+      "field": "health",
+      "date": "2026-07-02"
+    },
+    {
       "title": "Science for the final mile: Researchers gather to shape the future of polio eradication",
       "description": "For more than half a century, scientific discovery has helped protect millions of children from one of the world’s most feared diseases. Today, as the world stands closer than ever to eradicating polio, researchers continue to push the boundaries of innovation—not for the sake of science itself, but to ensure that every child, everywhere, can […]",
       "link": "https://polioeradication.org/news/science-for-the-final-mile-researchers-gather-to-shape-the-future-of-polio-eradication/",
@@ -174,14 +182,6 @@
       "source": "Polio Eradication",
       "field": "health",
       "date": "2026-06-29"
-    },
-    {
-      "title": "WHO adds first diagnostic test for Ebola Bundibugyo virus to its Emergency Use Listing",
-      "description": "Today, the World Health Organization (WHO) has added the first molecular diagnostic test for Bundibugyo virus (BDBV) to its Emergency Use Listing (EUL). The test detects the virus by identifying its genetic material in blood samples, helping confirm infection rapidly and accurately. WHO’s EUL procedure assesses the quality, safety and performance of essential health products based on the available evidence, while ensuring they meet minimum international standards and address the needs of low- and middle-income countries. Through this mechanism, WHO aims to accelerate access to reliable diagnos",
-      "link": "https://www.who.int/news/item/02-07-2026-who-adds-first-diagnostic-test-for-ebola-bundibugyo-virus-to-its-emergency-use-listing",
-      "source": "WHO",
-      "field": "health",
-      "date": "2026-07-02"
     },
     {
       "title": "Lights, camera, seafood! Bertha Fontaine and the Fisheries Test Kitchen",
@@ -200,28 +200,12 @@
       "date": "2026-07-06"
     },
     {
-      "title": "Controlled Burns Have Saved Thousands of Giant Sequoias",
-      "description": "The use of small, controlled burns to clear out flammable underbrush has saved thousands of giant sequoias from devastating wildfires, new research finds. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/controlled-burns-sequoias",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-07-24"
-    },
-    {
       "title": "Europe Saw Deaths Spike During Brutal June Heat Wave",
       "description": "Western Europe recorded more than 10,000 excess deaths during an unprecedented June heat wave, an analysis finds. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/europe-june-2026-heat-wave-excess-deaths",
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-07-13"
-    },
-    {
-      "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
-      "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final energy to come from electricity… The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-07-10"
     },
     {
       "title": "West Coast Gray Whale Population Increases",
@@ -232,44 +216,12 @@
       "date": "2026-07-17"
     },
     {
-      "title": "Humpback Whale Freed in Alaska",
-      "description": "Humpback Whale Freed in Alaska The NOAA Fisheries response team uses poles with specialized knives to cut entangling lines. (Image credit: Alaska Department of Fish and Game/Jamie Musbach (NOAA Fisheries Permit # 24359)) Download Image July 17, 2026 Fisheries whales 0 Off",
-      "link": "https://www.noaa.gov/stories/humpback-whale-disentangled-in-alaska-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Adopt a Drifter Program grows this summer",
-      "description": "Adopt a Drifter Program grows this summer Teacher at Sea Susan Dee deploys a drifter buoy. (Image credit: NOAA Teacher at Sea) Download Image June 26, 2026 More than 20 years after the first teacher adopted a drifter, NOAA’s Adopt a Drifter Program , co-led by the Global Ocean Monitoring and Observing Program (GOMO) and the Atlantic Oceanographic and Meteorological Laboratory (AOML), continues to grow and evolve this summer. Education 0 Off",
-      "link": "https://www.noaa.gov/education/stories/adopt-drifter-program-grows-summer-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Protecting the living waters of the Channel Islands from marine debris",
-      "description": "Protecting the living waters of the Channel Islands from marine debris Inspiration Point on Anacapa Island provides a glorious view of the Channel Islands. (Image credit: Claire Fackler, NOAA National Marine Sanctuaries) Download Image July 7, 2026 Channel Islands National Park and Channel Islands National Marine Sanctuary protect some of California’s richest coastal and marine habitats. Keeping these remote islands and surrounding waters free of marine debris requires extensive collaboration among volunteers, conservation organizations, and local lobster fishers who help recover debris from d",
-      "link": "https://www.noaa.gov/education/stories/protecting-living-waters-of-channel-islands-from-marine-debris-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-13"
-    },
-    {
       "title": "NOAA and partners cut ribbon on new pier, port facility in Charleston, South Carolina",
       "description": "NOAA and partners cut ribbon on new pier, port facility in Charleston, South Carolina July 8, 2026 Commerce Department Deputy Secretary Paul Dabbar and NOAA Administrator Neil Jacobs, Ph.D., (fourth and third from the right, respectively) joined other leadership and partners to cut a celebratory ribbon draped across the entrance to NOAA’s newest pier and port facility in Charleston, South Carolina, July 8, 2026. (Image credit: NOAA) Download Image Leadership from the Department of Commerce and NOAA joined partners today in celebrating the official opening of NOAA’s newest facility for marine o",
       "link": "https://www.noaa.gov/news-release/noaa-and-partners-cut-ribbon-on-new-pier-port-facility-in-charleston-south-carolina",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-07-07"
-    },
-    {
-      "title": "Contract for $99.6M awarded for NOAA Ship Henry B. Bigelow technology upgrade, essential maintenance",
-      "description": "Contract for $99.6M awarded for NOAA Ship Henry B. Bigelow technology upgrade, essential maintenance July 1, 2026 The NOAA Ship Henry B. Bigelow sailing near its homeport in Newport, Rhode Island. (Image credit: Katherine McGinnis/NOAA OMAO) Download Image NOAA has awarded $99,637,544.00 to JAG Ketchikan, LLC. in Ketchikan, Alaska, to complete expanded upgrades and maintenance on NOAA Ship Henry B. Bigelow. Following the 2027 field season, the ship will undergo this work for a 14-month period. The Bigelow is one of NOAA’s 15 research vessels and studies a wide range of marine life and ocean co",
-      "link": "https://www.noaa.gov/news-release/noaa-awards-99-point-6-million-dollar-contract-for-noaa-ship-bigelow-technology-upgrade-and-essential-maintenance",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-06-30"
     },
     {
       "title": "Improved reporting needed on forest carbon emissions",
@@ -296,12 +248,52 @@
       "date": "2026-07-29"
     },
     {
+      "title": "Humpback Whale Freed in Alaska",
+      "description": "Humpback Whale Freed in Alaska The NOAA Fisheries response team uses poles with specialized knives to cut entangling lines. (Image credit: Alaska Department of Fish and Game/Jamie Musbach (NOAA Fisheries Permit # 24359)) Download Image July 17, 2026 Fisheries whales 0 Off",
+      "link": "https://www.noaa.gov/stories/humpback-whale-disentangled-in-alaska-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-17"
+    },
+    {
+      "title": "Adopt a Drifter Program grows this summer",
+      "description": "Adopt a Drifter Program grows this summer Teacher at Sea Susan Dee deploys a drifter buoy. (Image credit: NOAA Teacher at Sea) Download Image June 26, 2026 More than 20 years after the first teacher adopted a drifter, NOAA’s Adopt a Drifter Program , co-led by the Global Ocean Monitoring and Observing Program (GOMO) and the Atlantic Oceanographic and Meteorological Laboratory (AOML), continues to grow and evolve this summer. Education 0 Off",
+      "link": "https://www.noaa.gov/education/stories/adopt-drifter-program-grows-summer-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Protecting the living waters of the Channel Islands from marine debris",
+      "description": "Protecting the living waters of the Channel Islands from marine debris Inspiration Point on Anacapa Island provides a glorious view of the Channel Islands. (Image credit: Claire Fackler, NOAA National Marine Sanctuaries) Download Image July 7, 2026 Channel Islands National Park and Channel Islands National Marine Sanctuary protect some of California’s richest coastal and marine habitats. Keeping these remote islands and surrounding waters free of marine debris requires extensive collaboration among volunteers, conservation organizations, and local lobster fishers who help recover debris from d",
+      "link": "https://www.noaa.gov/education/stories/protecting-living-waters-of-channel-islands-from-marine-debris-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Contract for $99.6M awarded for NOAA Ship Henry B. Bigelow technology upgrade, essential maintenance",
+      "description": "Contract for $99.6M awarded for NOAA Ship Henry B. Bigelow technology upgrade, essential maintenance July 1, 2026 The NOAA Ship Henry B. Bigelow sailing near its homeport in Newport, Rhode Island. (Image credit: Katherine McGinnis/NOAA OMAO) Download Image NOAA has awarded $99,637,544.00 to JAG Ketchikan, LLC. in Ketchikan, Alaska, to complete expanded upgrades and maintenance on NOAA Ship Henry B. Bigelow. Following the 2027 field season, the ship will undergo this work for a 14-month period. The Bigelow is one of NOAA’s 15 research vessels and studies a wide range of marine life and ocean co",
+      "link": "https://www.noaa.gov/news-release/noaa-awards-99-point-6-million-dollar-contract-for-noaa-ship-bigelow-technology-upgrade-and-essential-maintenance",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-06-30"
+    },
+    {
       "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
       "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final... The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens/",
       "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-07-10"
+    },
+    {
+      "title": "Controlled Burns Have Saved Thousands of Giant Sequoias",
+      "description": "The use of small, controlled burns to clear out flammable underbrush has saved thousands of giant sequoias from devastating wildfires, new research finds. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/controlled-burns-sequoias",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-07-24"
     },
     {
       "title": "Access to finance ‘strengthens climate resilience’ among sub-Saharan women",
@@ -318,6 +310,14 @@
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-07-22"
+    },
+    {
+      "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
+      "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final energy to come from electricity… The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-07-10"
     },
     {
       "title": "Q&A: What the EU’s carbon market review means for climate action",
@@ -360,20 +360,44 @@
       "date": "2026-07-08"
     },
     {
+      "title": "This drug could help end the HIV epidemic. Its rollout has hit speed bumps",
+      "description": "One shot of lenacapavir can protect for 6 months—but aid cuts and uncertain demand mean little drug has reached the countries that most need it",
+      "link": "https://www.science.org/content/article/drug-could-help-end-hiv-epidemic-its-rollout-has-hit-speed-bumps",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "MIT and Broad Institute researchers break diffraction barrier in super-resolution microscopy",
+      "description": "New U-STORM imaging technology lets scientists view molecular structures in subatomic detail — about 1,000 times clearer than traditional dyes — while making the microscope process much simpler.",
+      "link": "https://news.mit.edu/2026/researchers-break-diffraction-barrier-super-resolution-microscopy-0729",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
+      "description": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence.",
+      "link": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
+      "description": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for today’s workforce. But building a cutting-edge AI curriculum demands funding and access to industry networks, resources that remain unevenly distributed across higher education. At North Carolina Central University, Siobahn Day Grady is trying to change that equation. In January 2025, Grady, an associate professor in the NCCU School of Library and Information Sciences, launched ",
+      "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-07-29"
+    },
+    {
       "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
       "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement” When it comes to organ donation, time is everything. As soon as an organ has been removed from a donor’s…",
       "link": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-07-24"
-    },
-    {
-      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
-      "description": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept…",
-      "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-23"
     },
     {
       "title": "Tiny magnetic waves could unlock quantum computers the size of a penny",
@@ -414,38 +438,6 @@
       "source": "Science",
       "field": "technology",
       "date": "2026-07-27"
-    },
-    {
-      "title": "This drug could help end the HIV epidemic. Its rollout has hit speed bumps",
-      "description": "One shot of lenacapavir can protect for 6 months—but aid cuts and uncertain demand mean little drug has reached the countries that most need it",
-      "link": "https://www.science.org/content/article/drug-could-help-end-hiv-epidemic-its-rollout-has-hit-speed-bumps",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "MIT and Broad Institute researchers break diffraction barrier in super-resolution microscopy",
-      "description": "New U-STORM imaging technology lets scientists view molecular structures in subatomic detail — about 1,000 times clearer than traditional dyes — while making the microscope process much simpler.",
-      "link": "https://news.mit.edu/2026/researchers-break-diffraction-barrier-super-resolution-microscopy-0729",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
-      "description": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence.",
-      "link": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
-      "description": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for today’s workforce. But building a cutting-edge AI curriculum demands funding and access to industry networks, resources that remain unevenly distributed across higher education. At North Carolina Central University, Siobahn Day Grady is trying to change that equation. In January 2025, Grady, an associate professor in the NCCU School of Library and Information Sciences, launched ",
-      "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-07-29"
     },
     {
       "title": "A tiny molecular basket unlocks a powerful new kind of chemistry",
@@ -528,6 +520,14 @@
       "date": "2026-07-28"
     },
     {
+      "title": "mITRAR: Using AI to Orchestrate a Rapid Response to Wildfires",
+      "description": "In the crucial minutes after a fire ignites, decision-makers must consider a flood of information: What are the weather conditions in the fire's immediate vicinity? How might factors such as wind speed and direction, vegetation, and topology affect the fire's progression? Where are firefighting resources—both personnel and vehicles—located, and how much water and other necessary suppressants are available?In the wake of the Eaton Fire that devastated Altadena and parts of Pasadena in January 2025, researchers from Caltech recognized that technology has a role to play here. An advanced artifici",
+      "link": "https://www.caltech.edu/about/news/mitrar-using-ai-to-orchestrate-a-rapid-response-to-wildfires",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-07-29"
+    },
+    {
       "title": "MIT projects selected for funding under US Department of Energy’s Genesis Mission",
       "description": "Initial research projects advance national priorities across natural resources, manufacturing, nuclear physics, and more.",
       "link": "https://news.mit.edu/2026/mit-projects-selected-funding-under-doe-genesis-mission-0723",
@@ -600,6 +600,14 @@
       "date": "2026-07-08"
     },
     {
+      "title": "MIT-designed educational factory embraces modern manufacturing",
+      "description": "MIT and Tec de Monterrey will expand FrED curriculum to universities across Mexico.",
+      "link": "https://news.mit.edu/2026/mit-designed-educational-factory-embraces-modern-manufacturing-0708",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-08"
+    },
+    {
       "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
       "description": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
       "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
@@ -648,36 +656,28 @@
       "date": "2026-07-27"
     },
     {
+      "title": "The quest to keep organs alive outside the body",
+      "description": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that can be preserved…",
+      "link": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will…",
+      "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-22"
+    },
+    {
       "title": "America at 250: What UC Berkeley historians want us to remember",
       "description": "Hidetaka Hirota, Brian DeLay and David Henkin explain how the nation has transformed since 1776 and remind us that American history stretches back even further than the Revolution. The post America at 250: What UC Berkeley historians want us to remember appeared first on Berkeley News.",
       "link": "https://ls.berkeley.edu/news/america-250-what-berkeley-historians-want-us-remember",
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-07-15"
-    },
-    {
-      "title": "Why Mentorship Is the Most Underrated Leadership Skill",
-      "description": "I started my professional journey as an engineer before moving into product strategy and innovation leadership roles for several global technology organizations. Over the years, I have served as a mentor for a variety of programs including Products That Count’s strategic product management, Women in Product mentorship initiatives, and Alchemist accelerator programs. In 2024 and 2025 I led Walmart’s Women in Product mentorship program. I was responsible for designing and implementing the programs, including managing participant registration, matching mentors with mentees, and establishing clear",
-      "link": "https://spectrum.ieee.org/mentorship-is-an-underrated-leadership-skill",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "mITRAR: Using AI to Orchestrate a Rapid Response to Wildfires",
-      "description": "In the crucial minutes after a fire ignites, decision-makers must consider a flood of information: What are the weather conditions in the fire's immediate vicinity? How might factors such as wind speed and direction, vegetation, and topology affect the fire's progression? Where are firefighting resources—both personnel and vehicles—located, and how much water and other necessary suppressants are available?In the wake of the Eaton Fire that devastated Altadena and parts of Pasadena in January 2025, researchers from Caltech recognized that technology has a role to play here. An advanced artifici",
-      "link": "https://www.caltech.edu/about/news/mitrar-using-ai-to-orchestrate-a-rapid-response-to-wildfires",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "MIT-designed educational factory embraces modern manufacturing",
-      "description": "MIT and Tec de Monterrey will expand FrED curriculum to universities across Mexico.",
-      "link": "https://news.mit.edu/2026/mit-designed-educational-factory-embraces-modern-manufacturing-0708",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-08"
     },
     {
       "title": "Laboratoria’s Mariana Costa Empowers Women in Tech",
@@ -696,20 +696,28 @@
       "date": "2026-07-27"
     },
     {
-      "title": "The quest to keep organs alive outside the body",
-      "description": "This week, I covered a fascinating effort to preserve organs outside the body. There’s a huge shortage of donor organs, and one of the main reasons is time—they survive only a matter of hours outside the body, even when they’re kept on ice. Doctors dream of organ banks—stores of human organs that can be preserved…",
-      "link": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
-      "source": "MIT Tech Review",
+      "title": "Why Mentorship Is the Most Underrated Leadership Skill",
+      "description": "I started my professional journey as an engineer before moving into product strategy and innovation leadership roles for several global technology organizations. Over the years, I have served as a mentor for a variety of programs including Products That Count’s strategic product management, Women in Product mentorship initiatives, and Alchemist accelerator programs. In 2024 and 2025 I led Walmart’s Women in Product mentorship program. I was responsible for designing and implementing the programs, including managing participant registration, matching mentors with mentees, and establishing clear",
+      "link": "https://spectrum.ieee.org/mentorship-is-an-underrated-leadership-skill",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-07-24"
+      "date": "2026-07-01"
     },
     {
-      "title": "The Download: NASA’s new space telescope and OpenAI’s autonomous hacker",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will…",
-      "link": "https://www.technologyreview.com/2026/07/22/1140717/the-download-nasa-space-telescope-openai-hugging-face-hack/",
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "description": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept…",
+      "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
       "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-07-22"
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Mount Olympus and D-Day beaches among new World Heritage Sites",
+      "description": "From the peaks of Mount Olympus in Greece to the shores of the “D-Day” beaches in France, 25 cultural or natural landmarks from across the globe have been newly inscribed on the World Heritage List, updated annually by the UN Educational, Scientific and Cultural Organization (UNESCO).",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1168043",
+      "source": "UN News Education",
+      "field": "education",
+      "date": "2026-07-28"
     },
     {
       "title": "ADB Approves $182.89 Million Loan to Strengthen Public School System in Karnataka, India",
@@ -718,6 +726,14 @@
       "source": "Asian Development Bank",
       "field": "education",
       "date": "2026-07-01"
+    },
+    {
+      "title": "ADB Supports Tbilisi Bypass with $250 Million Loan to Boost Georgia’s Regional Connectivity",
+      "description": "ADB has approved a $250 million loan to help build a critical bypass around Tbilisi that will improve road connectivity, ease congestion, and strengthen Georgia’s role as a regional transport hub in the region.",
+      "link": "https://www.adb.org/news/adb-supports-tbilisi-bypass-250-million-loan-boost-georgia-regional-connectivity",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-30"
     },
     {
       "title": "ADB Approves $1 Billion Loan to Support Sustainable Growth and Resilience of India’s Cities",
@@ -736,100 +752,12 @@
       "date": "2026-07-28"
     },
     {
-      "title": "ADB, Japan Establish New Water Security Fund",
-      "description": "ADB and the Government of Japan established a new fund to strengthen water security and protect people across Asia and the Pacific from worsening floods, droughts, and other water-related shocks. Japan will make an initial $10 million contribution to the fund.",
-      "link": "https://www.adb.org/news/adb-japan-establish-new-water-security-fund",
+      "title": "ADB Puts Team on the Ground in Türkiye as Financing Demand Surges",
+      "description": "Recognizing Türkiye’s growing regional importance, the Asian Development Bank (ADB) will establish an office in the country as it prepares to commit about $3 billion a year to earthquake recovery, critical infrastructure, businesses, and trade routes linking Asia and Europe.",
+      "link": "https://www.adb.org/news/adb-puts-team-ground-turkiye-financing-demand-surges",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-07-21"
-    },
-    {
-      "title": "ADB Provides $2 Million Grant to Support Flood-Affected Communities in Thailand",
-      "description": "ADB has approved a $2 million grant to support the Government of Thailand as it expands humanitarian assistance for communities devastated by severe flooding in southern Thailand.",
-      "link": "https://www.adb.org/news/adb-provides-2-million-grant-support-flood-affected-communities-thailand",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "ADB Approves $10 Million Grant to Strengthen Maritime Transport in Tuvalu",
-      "description": "ADB has approved a $10 million grant to help Tuvalu improve the operation and maintenance of ADB transport investments in the country, boosting maritime connectivity, trade, and economic development.",
-      "link": "https://www.adb.org/news/adb-approves-10-million-grant-strengthen-maritime-transport-tuvalu",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-06"
-    },
-    {
-      "title": "Global hunger declines again but progress remains uneven across regions",
-      "description": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167987",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "‘Shared blueprint for peace’: Development goals deliver for billions, but challenges remain",
-      "description": "With fewer than five years left to achieve the Sustainable Development Goals (SDGs), a new UN report says sustained investment and international cooperation have improved billions of lives, but warns that governments must urgently accelerate action if the goals are to be met by their 2030 deadline.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167888",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
-      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
-      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "ADB, HDBank Sign $100 Million Loan to Expand Access to Finance for MSMEs, Women-Owned Businesses in Viet Nam",
-      "description": "ADB has signed a $100 million loan with Ho Chi Minh City Development Joint Stock Commercial Bank (HDBank) to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) in Viet Nam, with a focus on women-owned MSMEs.",
-      "link": "https://www.adb.org/news/adb-hdbank-sign-100-million-loan-expand-access-finance-msmes-women-owned-businesses-viet-nam",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "Despite hurdles, don’t give up on Sustainable Development Goals, UN urges",
-      "description": "In a world of “parallel realities” where stark inequalities seemingly divide people and challenge the promise of multilateralism, the vision of the Sustainable Development Goals (SDGs) is to bring people together and help them achieve a better reality.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167927",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "ADB President Meets Nepal Prime Minister as Jobs and Investment Support is Stepped Up",
-      "description": "ADB President Masato Kanda met Prime Minister Balendra Shah in Kathmandu as ADB and Nepal mark 60 years of partnership and deepen support for the country’s economic transformation, job creation, and investment.",
-      "link": "https://www.adb.org/news/adb-president-meets-nepal-prime-minister-jobs-and-investment-support-stepped-up",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
-      "description": "ADB and Golomt Bank Joint Stock Company (Golomt Bank) have signed a $64 million loan agreement to support sustainable finance and expand lending to micro, small, and medium-sized enterprises (MSMEs), including women-owned businesses in Mongolia.",
-      "link": "https://www.adb.org/news/adb-golomt-bank-partner-expand-sustainable-and-inclusive-finance-mongolia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "ADB Approves $200 Million Emergency Assistance for Sri Lanka’s Post-Cyclone Ditwah Recovery",
-      "description": "ADB has approved a $200 million emergency assistance package for Sri Lanka’s recovery and reconstruction following Cyclone Ditwah.",
-      "link": "https://www.adb.org/news/adb-approves-200-million-emergency-assistance-sri-lanka-post-cyclone-ditwah-recovery",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "ADB Approves $11 Million Grant to Boost Health Services In Kiribati",
-      "description": "ADB has approved an $11 million grant for health initiatives in Kiribati, highlighting the critical role the Asian Development Fund plays in supporting the country’s development priorities.",
-      "link": "https://www.adb.org/news/adb-approves-11-million-grant-boost-health-services-kiribati",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-06-30"
     },
     {
       "title": "ADB Approves $230 Million Loan to Modernize Water Supply and Sanitation in Chennai, India",
@@ -856,12 +784,52 @@
       "date": "2026-07-01"
     },
     {
-      "title": "ADB President Urges Faster Action on Water Security",
-      "description": "ADB President Masato Kanda has called for faster investment and reform to secure water across Asia and the Pacific, pointing to a new ADB-administered fund with Japan that will help developing economies strengthen disaster preparedness, infrastructure, and water management.",
-      "link": "https://www.adb.org/news/adb-president-urges-faster-action-water-security",
+      "title": "ADB, Japan Establish New Water Security Fund",
+      "description": "ADB and the Government of Japan established a new fund to strengthen water security and protect people across Asia and the Pacific from worsening floods, droughts, and other water-related shocks. Japan will make an initial $10 million contribution to the fund.",
+      "link": "https://www.adb.org/news/adb-japan-establish-new-water-security-fund",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-28"
+      "date": "2026-07-21"
+    },
+    {
+      "title": "ADB Provides $2 Million Grant to Support Flood-Affected Communities in Thailand",
+      "description": "ADB has approved a $2 million grant to support the Government of Thailand as it expands humanitarian assistance for communities devastated by severe flooding in southern Thailand.",
+      "link": "https://www.adb.org/news/adb-provides-2-million-grant-support-flood-affected-communities-thailand",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "ADB Approves $10 Million Grant to Strengthen Maritime Transport in Tuvalu",
+      "description": "ADB has approved a $10 million grant to help Tuvalu improve the operation and maintenance of ADB transport investments in the country, boosting maritime connectivity, trade, and economic development.",
+      "link": "https://www.adb.org/news/adb-approves-10-million-grant-strengthen-maritime-transport-tuvalu",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-06"
+    },
+    {
+      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
+      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
+      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-17"
+    },
+    {
+      "title": "Global hunger declines again but progress remains uneven across regions",
+      "description": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167987",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "‘Shared blueprint for peace’: Development goals deliver for billions, but challenges remain",
+      "description": "With fewer than five years left to achieve the Sustainable Development Goals (SDGs), a new UN report says sustained investment and international cooperation have improved billions of lives, but warns that governments must urgently accelerate action if the goals are to be met by their 2030 deadline.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167888",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-07"
     },
     {
       "title": "Multilateral Development Banks Increase Climate Finance to Record $163 Billion in 2025, Supporting Resilient and Sustainable Growth",
@@ -870,6 +838,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-07-13"
+    },
+    {
+      "title": "ADB, HDBank Sign $100 Million Loan to Expand Access to Finance for MSMEs, Women-Owned Businesses in Viet Nam",
+      "description": "ADB has signed a $100 million loan with Ho Chi Minh City Development Joint Stock Commercial Bank (HDBank) to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) in Viet Nam, with a focus on women-owned MSMEs.",
+      "link": "https://www.adb.org/news/adb-hdbank-sign-100-million-loan-expand-access-finance-msmes-women-owned-businesses-viet-nam",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-07"
     },
     {
       "title": "ADB, Premium Nexus JSC Sign Social Loan to Promote Efficient and Inclusive Food Distribution in Mongolia",
@@ -888,28 +864,20 @@
       "date": "2026-07-16"
     },
     {
-      "title": "ADB Puts Team on the Ground in Türkiye as Financing Demand Surges",
-      "description": "Recognizing Türkiye’s growing regional importance, the Asian Development Bank (ADB) will establish an office in the country as it prepares to commit about $3 billion a year to earthquake recovery, critical infrastructure, businesses, and trade routes linking Asia and Europe.",
-      "link": "https://www.adb.org/news/adb-puts-team-ground-turkiye-financing-demand-surges",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
-      "description": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167939",
+      "title": "Despite hurdles, don’t give up on Sustainable Development Goals, UN urges",
+      "description": "In a world of “parallel realities” where stark inequalities seemingly divide people and challenge the promise of multilateralism, the vision of the Sustainable Development Goals (SDGs) is to bring people together and help them achieve a better reality.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167927",
       "source": "UN News SDGs",
       "field": "development",
-      "date": "2026-07-14"
+      "date": "2026-07-13"
     },
     {
-      "title": "ADB Launches Initiative to Bring Japanese Startup Innovation to Southeast Asia and the Pacific",
-      "description": "ADB and the Japan International Cooperation Agency (JICA) have launched the Southeast Asia Emerging Entrepreneurs Kickstart initiative to help promising startups scale solutions to complex development challenges in Southeast Asia and the Pacific.",
-      "link": "https://www.adb.org/news/adb-launches-initiative-bring-japanese-startup-innovation-southeast-asia-and-pacific",
+      "title": "ADB President Meets Nepal Prime Minister as Jobs and Investment Support is Stepped Up",
+      "description": "ADB President Masato Kanda met Prime Minister Balendra Shah in Kathmandu as ADB and Nepal mark 60 years of partnership and deepen support for the country’s economic transformation, job creation, and investment.",
+      "link": "https://www.adb.org/news/adb-president-meets-nepal-prime-minister-jobs-and-investment-support-stepped-up",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-22"
+      "date": "2026-07-07"
     },
     {
       "title": "ADB Approves $12.5 Million Financing to Strengthen Fiscal Resilience and Sustainable Planning in Palau",
@@ -920,6 +888,14 @@
       "date": "2026-07-06"
     },
     {
+      "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
+      "description": "ADB and Golomt Bank Joint Stock Company (Golomt Bank) have signed a $64 million loan agreement to support sustainable finance and expand lending to micro, small, and medium-sized enterprises (MSMEs), including women-owned businesses in Mongolia.",
+      "link": "https://www.adb.org/news/adb-golomt-bank-partner-expand-sustainable-and-inclusive-finance-mongolia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-02"
+    },
+    {
       "title": "ADB Establishes North Pacific Subregional Office, Expanding Support in Region",
       "description": "ADB announced the establishment of a subregional office to support its expanding operations in the North Pacific, strengthening the bank’s commitment to its Pacific developing member countries as a steadfast partner for growth, development, and resilience.",
       "link": "https://www.adb.org/news/adb-establishes-north-pacific-subregional-office-expanding-support-region",
@@ -928,12 +904,52 @@
       "date": "2026-07-02"
     },
     {
+      "title": "ADB Approves $200 Million Emergency Assistance for Sri Lanka’s Post-Cyclone Ditwah Recovery",
+      "description": "ADB has approved a $200 million emergency assistance package for Sri Lanka’s recovery and reconstruction following Cyclone Ditwah.",
+      "link": "https://www.adb.org/news/adb-approves-200-million-emergency-assistance-sri-lanka-post-cyclone-ditwah-recovery",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-01"
+    },
+    {
+      "title": "ADB Approves $11 Million Grant to Boost Health Services In Kiribati",
+      "description": "ADB has approved an $11 million grant for health initiatives in Kiribati, highlighting the critical role the Asian Development Fund plays in supporting the country’s development priorities.",
+      "link": "https://www.adb.org/news/adb-approves-11-million-grant-boost-health-services-kiribati",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-06-30"
+    },
+    {
       "title": "ADB Approves $13 Million Financing for Resilient Urban Development in Bhutan",
       "description": "ADB has approved a $13 million financing package to help the Government of Bhutan strengthen resilient urban infrastructure and expand affordable rental housing for low-income and vulnerable households, particularly in Thimphu and Phuentsholing.",
       "link": "https://www.adb.org/news/adb-approves-13-million-financing-resilient-urban-development-bhutan",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-06-27"
+    },
+    {
+      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+      "description": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167939",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-14"
+    },
+    {
+      "title": "ADB President Urges Faster Action on Water Security",
+      "description": "ADB President Masato Kanda has called for faster investment and reform to secure water across Asia and the Pacific, pointing to a new ADB-administered fund with Japan that will help developing economies strengthen disaster preparedness, infrastructure, and water management.",
+      "link": "https://www.adb.org/news/adb-president-urges-faster-action-water-security",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-28"
+    },
+    {
+      "title": "ADB Launches Initiative to Bring Japanese Startup Innovation to Southeast Asia and the Pacific",
+      "description": "ADB and the Japan International Cooperation Agency (JICA) have launched the Southeast Asia Emerging Entrepreneurs Kickstart initiative to help promising startups scale solutions to complex development challenges in Southeast Asia and the Pacific.",
+      "link": "https://www.adb.org/news/adb-launches-initiative-bring-japanese-startup-innovation-southeast-asia-and-pacific",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-22"
     },
     {
       "title": "ADB, Converse Bank Sign $15 Million Financing to Boost Women-Owned MSMEs and Sustainable Lending in Armenia",
@@ -968,22 +984,6 @@
       "date": "2026-07-15"
     },
     {
-      "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
-      "description": "The UN World Food Programme (WFP) is calling for greater humanitarian access to Gaza, warning that restrictions on aid deliveries, ongoing violence and funding shortages are severely limiting its ability to reach people in need.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167930",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Peacekeepers step up support as families return to south Lebanon",
-      "description": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue to return home.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167961",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-07-16"
-    },
-    {
       "title": "West Africa and the Sahel: Terrorism is changing its face",
       "description": "Jihadist groups are no longer content with launching attacks in West Africa and the Sahel: they administer territories, control trade routes, exploit new technologies and are gradually pushing their influence all the way to the Gulf of Guinea.",
       "link": "https://news.un.org/feed/view/en/story/2026/07/1167940",
@@ -1000,9 +1000,33 @@
       "date": "2026-06-18"
     },
     {
+      "title": "Peacekeepers step up support as families return to south Lebanon",
+      "description": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue to return home.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167961",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
+      "description": "The UN World Food Programme (WFP) is calling for greater humanitarian access to Gaza, warning that restrictions on aid deliveries, ongoing violence and funding shortages are severely limiting its ability to reach people in need.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167930",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-07-13"
+    },
+    {
       "title": "Plasmon-Enhanced Radioisotope Thermophotovoltaic (PRTPV) Power Generation for Interstellar Missions",
       "description": "Keunhan ParkUniversity of Utah This proposal seeks to develop a transformative energy system — the plasmon-enhanced radioisotope Thermophotovoltaic (PRTPV) generator — that significantly surpasses the performance of current radioisotope thermoelectric generators (RTGs) in both specific power and efficiency. Designed to achieve a specific power of 17 W/kg and a thermal-to-electric conversion efficiency greater than 40%, […]",
       "link": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/plasmon-enhanced-radioisotope-thermophotovoltaic-prtpv-power-generation-for-interstellar-missions/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "NIAC 2026 Selections",
+      "description": "Phase I Saptarshi BandyopadhyayDimming the Sun (DimSun) Using Controllable Dust Cloud to Reduce Solar InsolationNASA Jet Propulsion LaboratoryPasadena, CA 91109-80012026 Phase I David BugbyCombinatory Architecture offering Neomobility, on-Venus Adaptability, and Survivability (CANVAS)NASA Jet Propulsion LaboratoryPasadena, CA 91109-80012026 Phase I Anish DamodaranPS21: Transforming Submillimeter Space Interferometry with Photonic TechnologiesUniversity of Central FloridaOrlando, FL 32826-29332026 Phase I […]",
+      "link": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/niac-2026-selections/",
       "source": "NASA",
       "field": "space",
       "date": "2026-07-21"
@@ -1016,22 +1040,6 @@
       "date": "2026-07-29"
     },
     {
-      "title": "NIAC 2026 Selections",
-      "description": "Phase I Saptarshi BandyopadhyayDimming the Sun (DimSun) Using Controllable Dust Cloud to Reduce Solar InsolationNASA Jet Propulsion LaboratoryPasadena, CA 91109-80012026 Phase I David BugbyCombinatory Architecture offering Neomobility, on-Venus Adaptability, and Survivability (CANVAS)NASA Jet Propulsion LaboratoryPasadena, CA 91109-80012026 Phase I Anish DamodaranPS21: Transforming Submillimeter Space Interferometry with Photonic TechnologiesUniversity of Central FloridaOrlando, FL 32826-29332026 Phase I […]",
-      "link": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/niac-2026-selections/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
-      "description": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch campaigns. Over the coming weeks, engineers and mission teams will carry out a series of rigorous inspections and prepare the satellites to be installed atop their Vega-C rocket for their journey into orbit.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-16"
-    },
-    {
       "title": "New Crew Members Welcomed to International Space Station",
       "description": "From left, Expedition 74 flight engineers Anna Kikina and Pyotr Dubrov of Roscosmos, and Anil Menon of NASA pose for a July 18, 2026, photo while holding a cake celebrating their recent arrival aboard the International Space Station. The trio arrived at the space station on July 14, 2026, after launching from the Baikonur Cosmodrome […]",
       "link": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
@@ -1043,6 +1051,14 @@
       "title": "NASA Astronaut Chris Williams Closes Out Space Station Mission",
       "description": "After eight months aboard the International Space Station for his first mission, NASA astronaut Chris Williams is preparing to return to Earth. During his assignment, Williams contributed to research for new cancer treatments, advanced the production of materials to improve computers and electronics, ventured into the vacuum of space to complete two spacewalks, and much […]",
       "link": "https://www.nasa.gov/missions/station/iss-research/nasa-astronaut-chris-williams-closes-out-space-station-mission/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Look for NASA+ Now Streaming on Amazon Fire TV",
+      "description": "Continuing agency efforts to bring space closer to home, NASA+ is heading to more streaming platforms. On Thursday, NASA announced its programming is on Fire TV Channels. Fire TV customers can easily access this content by asking Alexa+ on compatible devices. Future programming on Fire TV may include science mission launches, a test flight for […]",
+      "link": "https://www.nasa.gov/news-release/look-for-nasa-now-streaming-on-amazon-fire-tv/",
       "source": "NASA",
       "field": "space",
       "date": "2026-07-23"
@@ -1072,41 +1088,41 @@
       "date": "2026-07-24"
     },
     {
-      "title": "The most spectacular aurora of the εpsilon mission (so far!)",
-      "description": "Video: 00:01:17 This timelapse was published on social media by ESA astronaut Sophie Adenot with the following caption: Day 139, orbit 2155 — After the pictures (available in HD on my Flickr account), I'm so happy to finally share the timelapse of the most spectacular aurora of the εpsilon mission so far! Watching this glowing green ribbon shimmer and dance, it's easy to lose yourself completely in the magic of the moment. Turn the sound on for the full experience – the music was carefully chosen to bring you as close as possible to what I felt watching this from space . -- Jour 139, orbite 21",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/The_most_spectacular_aurora_of_the_epsilon_mission_so_far!",
+      "title": "Mapping Alien Continents: Achieving Optical VLBI for Exoplanet Imaging",
+      "description": "Paul StankusBrookhaven Science Associates The scientific goal of the proposed work will be reconstructing the image, ie resolving surface features, of an Earth-like exoplanet around a nearby star as seen in visible light. The innovation is in two stages. First, the design of a new kind of nulling interferometer — “dynamic hierarchical nulling” — combining inputs […]",
+      "link": "https://www.nasa.gov/directorates/stmd/mapping-alien-continents-achieving-optical-vlbi-for-exoplanet-imaging/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness",
+      "description": "David SmithDuke University The increasing population of spacefaring vehicles and satellites motivates increasingly powerful technologies for space situational awareness (SSA). While the US space surveillance network (SSN) is able to monitor objects down to about four inches in size using, for example, the latest upgrade to the space fence, the associated requirements limit implementation to ground-based […]",
+      "link": "https://www.nasa.gov/directorates/stmd/niac/robotically-assembled-electromagnetic-metamaterials-for-long-range-space-situational-awareness/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
+      "description": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch campaigns. Over the coming weeks, engineers and mission teams will carry out a series of rigorous inspections and prepare the satellites to be installed atop their Vega-C rocket for their journey into orbit.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
       "source": "ESA",
       "field": "space",
-      "date": "2026-07-03"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch classified payload for National Reconnaissance Office",
-      "description": "The NROL-95 mission will be the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 3:09 a.m. EDT (0709 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/29/live-coverage-spacex-to-launch-classified-payload-for-national-reconnaissance-office/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Look for NASA+ Now Streaming on Amazon Fire TV",
-      "description": "Continuing agency efforts to bring space closer to home, NASA+ is heading to more streaming platforms. On Thursday, NASA announced its programming is on Fire TV Channels. Fire TV customers can easily access this content by asking Alexa+ on compatible devices. Future programming on Fire TV may include science mission launches, a test flight for […]",
-      "link": "https://www.nasa.gov/news-release/look-for-nasa-now-streaming-on-amazon-fire-tv/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Robotic Servicing Mission Launches with NASA Support",
-      "description": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en route to geosynchronous Earth orbit, where it will use its advanced robotics to service spacecraft. RSGS leverages in-space robotics expertise from NASA, […]",
-      "link": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-22"
+      "date": "2026-07-16"
     },
     {
       "title": "NASA to Showcase Agency’s Newest Wind Tunnel in Virginia",
       "description": "Media are invited to NASA’s Langley Research Center in Hampton, Virginia, on Friday, July 31, to attend a media tour and ribbon-cutting ceremony for the Flight Dynamics Research Facility, the agency’s first new wind tunnel in more than 40 years. The event will include a brief media availability with: This event is in person only […]",
       "link": "https://www.nasa.gov/news-release/nasa-to-showcase-agencys-newest-wind-tunnel-in-virginia/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "Robotic Servicing Mission Launches with NASA Support",
+      "description": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en route to geosynchronous Earth orbit, where it will use its advanced robotics to service spacecraft. RSGS leverages in-space robotics expertise from NASA, […]",
+      "link": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/",
       "source": "NASA",
       "field": "space",
       "date": "2026-07-22"
@@ -1120,25 +1136,9 @@
       "date": "2026-07-21"
     },
     {
-      "title": "Mapping Alien Continents: Achieving Optical VLBI for Exoplanet Imaging",
-      "description": "Paul StankusBrookhaven Science Associates The scientific goal of the proposed work will be reconstructing the image, ie resolving surface features, of an Earth-like exoplanet around a nearby star as seen in visible light. The innovation is in two stages. First, the design of a new kind of nulling interferometer — “dynamic hierarchical nulling” — combining inputs […]",
-      "link": "https://www.nasa.gov/directorates/stmd/mapping-alien-continents-achieving-optical-vlbi-for-exoplanet-imaging/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
       "title": "A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats",
       "description": "A team of NASA-sponsored scientists and engineers has developed a novel approach to observing high-energy particles in the near-Earth space environment, incorporating miniaturized sensors into a compact, multi-view particle detection instrument unlike any before it. Built for NASA’s Relativistic Electron Atmospheric Loss (REAL) CubeSat mission, the innovative instrument (also called REAL) enables more complete measurements […]",
       "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/a-new-compact-instrument-enables-high-fidelity-measurements-of-energetic-particles-on-cubesats/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness",
-      "description": "David SmithDuke University The increasing population of spacefaring vehicles and satellites motivates increasingly powerful technologies for space situational awareness (SSA). While the US space surveillance network (SSN) is able to monitor objects down to about four inches in size using, for example, the latest upgrade to the space fence, the associated requirements limit implementation to ground-based […]",
-      "link": "https://www.nasa.gov/directorates/stmd/niac/robotically-assembled-electromagnetic-metamaterials-for-long-range-space-situational-awareness/",
       "source": "NASA",
       "field": "space",
       "date": "2026-07-21"
@@ -1192,12 +1192,60 @@
       "date": "2026-07-20"
     },
     {
+      "title": "Deep space software upgrade for Hera’s asteroid visit",
+      "description": "Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn.",
+      "link": "https://www.esa.int/Space_Safety/Hera/Deep_space_software_upgrade_for_Hera_s_asteroid_visit",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-08"
+    },
+    {
       "title": "Unpacking Europe’s new weather imagers",
       "description": "The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will launch it into space towards the end of the summer. So how will this 3800 kg satellite help improve weather forecasts for Europe and North Africa?",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Unpacking_Europe_s_new_weather_imagers",
       "source": "ESA",
       "field": "space",
       "date": "2026-07-07"
+    },
+    {
+      "title": "The most spectacular aurora of the εpsilon mission (so far!)",
+      "description": "Video: 00:01:17 This timelapse was published on social media by ESA astronaut Sophie Adenot with the following caption: Day 139, orbit 2155 — After the pictures (available in HD on my Flickr account), I'm so happy to finally share the timelapse of the most spectacular aurora of the εpsilon mission so far! Watching this glowing green ribbon shimmer and dance, it's easy to lose yourself completely in the magic of the moment. Turn the sound on for the full experience – the music was carefully chosen to bring you as close as possible to what I felt watching this from space . -- Jour 139, orbite 21",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/The_most_spectacular_aurora_of_the_epsilon_mission_so_far!",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-03"
+    },
+    {
+      "title": "New Cohort of KISS Study Programs Push the Frontiers of Space Exploration",
+      "description": "Five new study topics have been selected by the Keck Institute for Space Studies (KISS) at Caltech to develop collaborations, frameworks, and mission concepts to transform the future of space exploration. The projects were competitively selected as part of KISS's annual cohort from over two dozen proposals.KISS Study Programs focus on developing ideas and concepts that can revolutionize space science and engineering, leveraging Caltech's deep collaborative ties with JPL—which Caltech manages for NASA—and facilitating connections between academia, commercial industry, and government agencies. E",
+      "link": "https://www.caltech.edu/about/news/new-cohort-of-kiss-study-programs-push-the-frontiers-of-space-exploration",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2026-06-29"
+    },
+    {
+      "title": "Live coverage: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work",
+      "description": "The flight comes as Tropical Storm Bertha is expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/23/live-coverage-spacex-ready-for-2nd-attempt-to-launch-starship-flight-13-following-post-abort-engine-work/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Live coverage: SpaceX to launch novel geosynchronous robotic servicing satellite on decade-long mission",
+      "description": "Northrop Grumman’s Mission Robotic Vehicle features the Robotic Servicing of Geosynchronous Satellites (RSGS) payload from the U.S. Naval Research Laboratory and DARPA. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a four-hour window that opens at 5:15 p.m. EDT (2115 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/21/live-coverage-spacex-to-launch-novel-geosynchronous-robotic-servicing-satellite-on-decade-long-mission/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "SpaceX suffers rare, last-second Falcon 9 rocket launch abort",
+      "description": "The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/20/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-11/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-20"
     },
     {
       "title": "Post-ignition anomaly causes abort of SpaceX’s Starship Flight 13",
@@ -1240,6 +1288,14 @@
       "date": "2026-07-21"
     },
     {
+      "title": "New European exercise device begins testing with first rope-pulling workout in space",
+      "description": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative ways to keep astronauts healthy during long-duration space missions.",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-08"
+    },
+    {
       "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
       "description": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first space-bound “active” coronagraph, an instrument that effectively erases most of the light from a star during photography. It will allow astronomers…",
       "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
@@ -1264,44 +1320,12 @@
       "date": "2026-07-24"
     },
     {
-      "title": "Deep space software upgrade for Hera’s asteroid visit",
-      "description": "Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn.",
-      "link": "https://www.esa.int/Space_Safety/Hera/Deep_space_software_upgrade_for_Hera_s_asteroid_visit",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-08"
-    },
-    {
-      "title": "New European exercise device begins testing with first rope-pulling workout in space",
-      "description": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative ways to keep astronauts healthy during long-duration space missions.",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-08"
-    },
-    {
-      "title": "New Cohort of KISS Study Programs Push the Frontiers of Space Exploration",
-      "description": "Five new study topics have been selected by the Keck Institute for Space Studies (KISS) at Caltech to develop collaborations, frameworks, and mission concepts to transform the future of space exploration. The projects were competitively selected as part of KISS's annual cohort from over two dozen proposals.KISS Study Programs focus on developing ideas and concepts that can revolutionize space science and engineering, leveraging Caltech's deep collaborative ties with JPL—which Caltech manages for NASA—and facilitating connections between academia, commercial industry, and government agencies. E",
-      "link": "https://www.caltech.edu/about/news/new-cohort-of-kiss-study-programs-push-the-frontiers-of-space-exploration",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2026-06-29"
-    },
-    {
-      "title": "Live coverage: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work",
-      "description": "The flight comes as Tropical Storm Bertha is expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/23/live-coverage-spacex-ready-for-2nd-attempt-to-launch-starship-flight-13-following-post-abort-engine-work/",
+      "title": "Live coverage: SpaceX to launch classified payload for National Reconnaissance Office",
+      "description": "The NROL-95 mission will be the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 3:09 a.m. EDT (0709 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/29/live-coverage-spacex-to-launch-classified-payload-for-national-reconnaissance-office/",
       "source": "Spaceflight Now",
       "field": "space",
-      "date": "2026-07-23"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch novel geosynchronous robotic servicing satellite on decade-long mission",
-      "description": "Northrop Grumman’s Mission Robotic Vehicle features the Robotic Servicing of Geosynchronous Satellites (RSGS) payload from the U.S. Naval Research Laboratory and DARPA. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a four-hour window that opens at 5:15 p.m. EDT (2115 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/21/live-coverage-spacex-to-launch-novel-geosynchronous-robotic-servicing-satellite-on-decade-long-mission/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-21"
+      "date": "2026-07-29"
     },
     {
       "title": "Live coverage: SpaceX tries again to launch Starlink mission from California following abort",
@@ -1310,14 +1334,6 @@
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-07-21"
-    },
-    {
-      "title": "SpaceX suffers rare, last-second Falcon 9 rocket launch abort",
-      "description": "The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/20/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-11/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-20"
     },
     {
       "title": "SpaceX launches 21 communications satellites for the Space Development Agency",
@@ -1344,20 +1360,44 @@
       "date": "2026-07-06"
     },
     {
+      "title": "Ancient Stardust Were Seeds for the Earliest Solids in the Solar System",
+      "description": "How did the first solids that made up planets, moons, and asteroids form out of the \"hot soup\" that characterized our solar system's earliest years? New research from Caltech analyzing pieces of a meteorite has found that, in the same way that snowflakes crystallize around grains of dust, ancient stardust grains leftover from long-gone suns may have been the seeds of our solar system's earliest solids.The research was conducted in the laboratory of Francois Tissot, professor of geochemistry and Heritage Medical Research Institute Investigator, and appears in the journal Science Advances on Jul",
+      "link": "https://www.caltech.edu/about/news/ancient-stardust-were-seeds-for-the-earliest-solids-in-the-solar-system",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Negotiating Your Salary Is About More Than Money",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! Scroll through LinkedIn right now and you may find the same advice repeated by well-meaning people: “In a market this rough, just be grateful anyone will hire you. Take the offer.” I could not disagree more. Negotiating your offer is not ungrateful, and it isn’t greedy. Done well, it’s good for you and good for the company hiring you. I misunderstoo",
+      "link": "https://spectrum.ieee.org/how-to-negotiate-your-salary",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "The Download: lasers for nuclear fuel, and organ preservation advances",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How lasers could help provide fuel for nuclear reactors Nuclear power provides about 9% of global electricity today, and that fraction could tick up as countries look to build new reactors.…",
+      "link": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-27"
+    },
+    {
+      "title": "How lasers could help provide fuel for nuclear reactors",
+      "description": "Outside the small town of Paducah, Kentucky, a wealth of uranium is locked away in thousands of storage cylinders filled with waste material from a now-closed nuclear enrichment facility. Lasers could help get it out. A company called Global Laser Enrichment (GLE) is looking to reprocess this old material with a new technology called laser…",
+      "link": "https://www.technologyreview.com/2026/07/27/1140798/laser-nuclear-enrichment/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-27"
+    },
+    {
       "title": "Why you should care about first new FDA-approved sunscreen ingredient in 20 years",
       "description": "HMS dermatology professor Hillary Tsibris explains why you should care",
       "link": "https://news.harvard.edu/gazette/story/2026/07/why-you-should-care-about-first-new-fda-approved-sunscreen-ingredient-in-20-years/",
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-07-20"
-    },
-    {
-      "title": "NSF Funding for Caltech-Led \"Cloud Laboratory\" Leverages AI to Explore Chemical Dark Matter: A Conversation with Hosea Nelson",
-      "description": "Caltech chemistry professor Hosea Nelson (PhD '13) has his eyes on a big goal: He wants to know the three-dimensional (3D) structure of all the molecules found in the natural world. No one knows exactly how many structures that entails, but certainly, he says, it is at least millions. Those unknown structures make up what Nelson and others calls \"chemical dark matter.\" Just as astrophysicists and cosmologists believe dark matter is thought to make up a high percentage of all the matter in the universe, Nelson says molecules without solved structures are thought to make up the majority of natur",
-      "link": "https://www.caltech.edu/about/news/nsf-funding-for-caltech-led-cloud-laboratory-leverages-ai-to-explore-chemical-dark-matter-a-conversation-with-hosea-nelson",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-07-27"
     },
     {
       "title": "UC Berkeley researchers create new metamaterials inspired by deep-sea sponges",
@@ -1374,14 +1414,6 @@
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-07-17"
-    },
-    {
-      "title": "IEEE Program Helps Girls In India See a Future In STEM",
-      "description": "Roughly half the world’s population is female, but the STEM fields don’t reflect that. The 2024 U.N. Global Education Monitoring Report on gender found that about 35 percent of STEM college graduates were women. The proportion hasn’t increased much in more than a decade. When it comes to STEM careers, the percentage is even lower. Women made up about 28 percent of the global STEM workforce in 2024, according to the World Economic Forum. There are myriad factors for the discrepancy, including a lack of family support, some teachers encouraging only boys to pursue STEM subjects, and a shortage o",
-      "link": "https://spectrum.ieee.org/ieee-program-girls-india-stem",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-07-20"
     },
     {
       "title": "This Graduate Student Equips NASA’s Robots With Assembly Skills",
@@ -1432,20 +1464,20 @@
       "date": "2026-07-07"
     },
     {
-      "title": "Ancient Stardust Were Seeds for the Earliest Solids in the Solar System",
-      "description": "How did the first solids that made up planets, moons, and asteroids form out of the \"hot soup\" that characterized our solar system's earliest years? New research from Caltech analyzing pieces of a meteorite has found that, in the same way that snowflakes crystallize around grains of dust, ancient stardust grains leftover from long-gone suns may have been the seeds of our solar system's earliest solids.The research was conducted in the laboratory of Francois Tissot, professor of geochemistry and Heritage Medical Research Institute Investigator, and appears in the journal Science Advances on Jul",
-      "link": "https://www.caltech.edu/about/news/ancient-stardust-were-seeds-for-the-earliest-solids-in-the-solar-system",
-      "source": "Caltech",
+      "title": "UC Berkeley and UCSF launch computational biomedicine initiative",
+      "description": "The new partnership brings together world-class faculty expertise in computing, AI, statistics, biology and medicine, to speed discovery in everything from disease prevention, to early-detection and new therapeutics in healthcare. The post UC Berkeley and UCSF launch computational biomedicine initiative appeared first on Berkeley News.",
+      "link": "https://inspire.berkeley.edu/o/uc-berkeley-and-ucsf-launch-computational-biomedicine-initiative/",
+      "source": "UC Berkeley",
       "field": "technology",
-      "date": "2026-07-29"
+      "date": "2026-07-06"
     },
     {
-      "title": "Negotiating Your Salary Is About More Than Money",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! Scroll through LinkedIn right now and you may find the same advice repeated by well-meaning people: “In a market this rough, just be grateful anyone will hire you. Take the offer.” I could not disagree more. Negotiating your offer is not ungrateful, and it isn’t greedy. Done well, it’s good for you and good for the company hiring you. I misunderstoo",
-      "link": "https://spectrum.ieee.org/how-to-negotiate-your-salary",
-      "source": "IEEE Spectrum",
+      "title": "Watch: Ending extreme global poverty is within reach — and we know the price tag",
+      "description": "UC Berkeley Professor Joshua Blumenstock uses machine learning and AI to solve the world's biggest global development challenges. The post Watch: Ending extreme global poverty is within reach — and we know the price tag appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/07/02/watch-ending-extreme-global-poverty-is-within-reach-and-we-know-the-price-tag/",
+      "source": "UC Berkeley",
       "field": "technology",
-      "date": "2026-07-29"
+      "date": "2026-07-02"
     },
     {
       "title": "AI Hyper-Scaling Digital Inequality",
@@ -1456,18 +1488,18 @@
       "date": "2026-07-29"
     },
     {
-      "title": "The Download: lasers for nuclear fuel, and organ preservation advances",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How lasers could help provide fuel for nuclear reactors Nuclear power provides about 9% of global electricity today, and that fraction could tick up as countries look to build new reactors.…",
-      "link": "https://www.technologyreview.com/2026/07/27/1140833/the-download-lasers-nuclear-organ-preservation/",
-      "source": "MIT Tech Review",
+      "title": "IEEE Program Helps Girls In India See a Future In STEM",
+      "description": "Roughly half the world’s population is female, but the STEM fields don’t reflect that. The 2024 U.N. Global Education Monitoring Report on gender found that about 35 percent of STEM college graduates were women. The proportion hasn’t increased much in more than a decade. When it comes to STEM careers, the percentage is even lower. Women made up about 28 percent of the global STEM workforce in 2024, according to the World Economic Forum. There are myriad factors for the discrepancy, including a lack of family support, some teachers encouraging only boys to pursue STEM subjects, and a shortage o",
+      "link": "https://spectrum.ieee.org/ieee-program-girls-india-stem",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-07-27"
+      "date": "2026-07-20"
     },
     {
-      "title": "How lasers could help provide fuel for nuclear reactors",
-      "description": "Outside the small town of Paducah, Kentucky, a wealth of uranium is locked away in thousands of storage cylinders filled with waste material from a now-closed nuclear enrichment facility. Lasers could help get it out. A company called Global Laser Enrichment (GLE) is looking to reprocess this old material with a new technology called laser…",
-      "link": "https://www.technologyreview.com/2026/07/27/1140798/laser-nuclear-enrichment/",
-      "source": "MIT Tech Review",
+      "title": "NSF Funding for Caltech-Led \"Cloud Laboratory\" Leverages AI to Explore Chemical Dark Matter: A Conversation with Hosea Nelson",
+      "description": "Caltech chemistry professor Hosea Nelson (PhD '13) has his eyes on a big goal: He wants to know the three-dimensional (3D) structure of all the molecules found in the natural world. No one knows exactly how many structures that entails, but certainly, he says, it is at least millions. Those unknown structures make up what Nelson and others calls \"chemical dark matter.\" Just as astrophysicists and cosmologists believe dark matter is thought to make up a high percentage of all the matter in the universe, Nelson says molecules without solved structures are thought to make up the majority of natur",
+      "link": "https://www.caltech.edu/about/news/nsf-funding-for-caltech-led-cloud-laboratory-leverages-ai-to-explore-chemical-dark-matter-a-conversation-with-hosea-nelson",
+      "source": "Caltech",
       "field": "technology",
       "date": "2026-07-27"
     },
@@ -1488,28 +1520,12 @@
       "date": "2026-07-07"
     },
     {
-      "title": "UC Berkeley and UCSF launch computational biomedicine initiative",
-      "description": "The new partnership brings together world-class faculty expertise in computing, AI, statistics, biology and medicine, to speed discovery in everything from disease prevention, to early-detection and new therapeutics in healthcare. The post UC Berkeley and UCSF launch computational biomedicine initiative appeared first on Berkeley News.",
-      "link": "https://inspire.berkeley.edu/o/uc-berkeley-and-ucsf-launch-computational-biomedicine-initiative/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-07-06"
-    },
-    {
       "title": "IEEE’s Global Museum Brings Engineering History to You",
       "description": "Many IEEE members who collect historical engineering artifacts often offer them to the IEEE History and Heritage group, which includes the IEEE History Center, to display. To bring these artifacts to the public, the group created the IEEE Global Museum, which curates traveling exhibits for display at conferences and in libraries, universities, and other venues. The program educates people about how technological progress has unfolded over generations, and how engineers and researchers build on past achievements to benefit humanity. Curating the exhibits has been rewarding, says Daniel Jon Mitc",
       "link": "https://spectrum.ieee.org/ieees-global-museum-engineering-history",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-07-03"
-    },
-    {
-      "title": "Watch: Ending extreme global poverty is within reach — and we know the price tag",
-      "description": "UC Berkeley Professor Joshua Blumenstock uses machine learning and AI to solve the world's biggest global development challenges. The post Watch: Ending extreme global poverty is within reach — and we know the price tag appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/07/02/watch-ending-extreme-global-poverty-is-within-reach-and-we-know-the-price-tag/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-07-02"
     },
     {
       "title": "UC Berkeley will launch new Nancy Pelosi Institute focused on strengthening democracy",
