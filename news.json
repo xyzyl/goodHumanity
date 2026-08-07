@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-06",
-  "lastUpdated": "2026-08-06T13:53:19.496Z",
+  "date": "2026-08-07",
+  "lastUpdated": "2026-08-07T00:51:22.113Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "24.6s",
+    "executionTime": "25.6s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 30,
-    "totalCandidates": 208,
-    "totalSelected": 208,
+    "sourcesSuccessful": 28,
+    "totalCandidates": 212,
+    "totalSelected": 211,
     "entriesByField": {
       "health": 16,
-      "climate": 25,
+      "climate": 27,
       "energy": 4,
       "technology": 66,
       "education": 2,
       "development": 30,
       "peace": 6,
-      "space": 59
+      "space": 60
     },
     "categoryIntegrity": {
       "health": {
@@ -24,7 +24,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 0,
+        "kept": 2,
         "changed": 0
       },
       "energy": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 0,
+        "kept": 2,
         "changed": 0
       },
       "education": {
@@ -52,17 +52,25 @@
         "changed": 0
       },
       "space": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       }
     },
     "qualityMetrics": {
       "highScoreEntries": 17,
-      "topTierSources": 106,
-      "highCredibilitySources": 169
+      "topTierSources": 110,
+      "highCredibilitySources": 172
     }
   },
   "entries": [
+    {
+      "title": "WHO warns DR Congo Ebola outbreak is outpacing response as Uganda reaches milestone",
+      "description": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) has become the third largest on record and is spreading faster than any previous one during the first month of exposure, the head of the World Health Organization (WHO) warned on Thursday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167959",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-07-16"
+    },
     {
       "title": "WHO launches seven strategies to prevent drowning",
       "description": "Ahead of World Drowning Prevention Day on 25 July, the World Health Organization (WHO) is launching a new technical package to help governments and communities implement seven proven measures to reduce drowning deaths.",
@@ -78,6 +86,14 @@
       "source": "WHO",
       "field": "health",
       "date": "2026-07-21"
+    },
+    {
+      "title": "Road deaths fall by 21% globally but stronger action is needed to save lives",
+      "description": "Despite the addition of more than one billion motor-vehicles to the world’s roads, road traffic deaths declined by 21% between 2011 and 2025, according to new data released by the World Health Organization (WHO). The world has experienced profound changes in road traffic during this time with the emergence of new modes of transport and a sharp rise in motorcycle use. Despite this progress, however, road traffic crashes still claimed 1.16 million people's lives in 2025. Road traffic injuries remain the leading cause of death among children and youth aged 5–29 years. The new WHO data comes as gl",
+      "link": "https://www.who.int/news/item/20-07-2026-road-deaths-fall-by-21--globally-but-stronger-action-is-needed-to-save-lives",
+      "source": "WHO",
+      "field": "health",
+      "date": "2026-07-20"
     },
     {
       "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
@@ -96,28 +112,12 @@
       "date": "2026-07-27"
     },
     {
-      "title": "WHO warns DR Congo Ebola outbreak is outpacing response as Uganda reaches milestone",
-      "description": "The Ebola outbreak in the Democratic Republic of the Congo (DRC) has become the third largest on record and is spreading faster than any previous one during the first month of exposure, the head of the World Health Organization (WHO) warned on Thursday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167959",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-07-16"
-    },
-    {
       "title": "WHO: Integration, innovation and community leadership key to ending HIV, hepatitis and STIs",
       "description": "The World Health Organization (WHO) today launched a new report assessing progress in implementing the Global Health Sector Strategies (GHSS) on HIV, viral hepatitis and sexually transmitted infections (STIs) for 2022–2030. Released during the 26th International AIDS Conference (AIDS 2026) and ahead of World Hepatitis Day (28 July), the report highlights significant achievements and persistent challenges in the global response to these epidemics.",
       "link": "https://www.who.int/news/item/27-07-2026-who--integration--innovation-and-community-leadership-key-to-ending-hiv--hepatitis-and-stis",
       "source": "WHO",
       "field": "health",
       "date": "2026-07-27"
-    },
-    {
-      "title": "Road deaths fall by 21% globally but stronger action is needed to save lives",
-      "description": "Despite the addition of more than one billion motor-vehicles to the world’s roads, road traffic deaths declined by 21% between 2011 and 2025, according to new data released by the World Health Organization (WHO). The world has experienced profound changes in road traffic during this time with the emergence of new modes of transport and a sharp rise in motorcycle use. Despite this progress, however, road traffic crashes still claimed 1.16 million people's lives in 2025. Road traffic injuries remain the leading cause of death among children and youth aged 5–29 years. The new WHO data comes as gl",
-      "link": "https://www.who.int/news/item/20-07-2026-road-deaths-fall-by-21--globally-but-stronger-action-is-needed-to-save-lives",
-      "source": "WHO",
-      "field": "health",
-      "date": "2026-07-20"
     },
     {
       "title": "WHO marks 25 years of Research4Life, advancing access to scientific knowledge in more than 120 countries",
@@ -144,6 +144,14 @@
       "date": "2026-07-27"
     },
     {
+      "title": "What the latest routine immunization coverage estimates mean for eradication",
+      "description": "The 2025 WHO/UNICEF Estimates of National Immunization Coverage (WUENIC), released last week, provide governments, donors, parents and health advocates with a comprehensive view of how well routine immunization systems are reaching children. For the Global Polio Eradication Initiative (GPEI), the value of these numbers is in what it tells us about the strength of health […]",
+      "link": "https://polioeradication.org/news/what-the-latest-routine-immunization-coverage-estimates-mean-for-eradication/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-07-23"
+    },
+    {
       "title": "Women football stars team up to kick polio out of Africa",
       "description": "DAKAR, 22 July 2026 – Just days before the Women’s Africa Cup of Nations (WAFCON) kicks off, African women footballers are calling on leaders across the continent to renew their political commitment, sustain investment and take collective action to protect every child from polio and other vaccine-preventable diseases. Launched by the Global Polio Eradication Initiative […]",
       "link": "https://polioeradication.org/news/women-football-stars-team-up-to-kick-polio-out-of-africa/",
@@ -158,14 +166,6 @@
       "source": "UN News Health",
       "field": "health",
       "date": "2026-07-24"
-    },
-    {
-      "title": "What the latest routine immunization coverage estimates mean for eradication",
-      "description": "The 2025 WHO/UNICEF Estimates of National Immunization Coverage (WUENIC), released last week, provide governments, donors, parents and health advocates with a comprehensive view of how well routine immunization systems are reaching children. For the Global Polio Eradication Initiative (GPEI), the value of these numbers is in what it tells us about the strength of health […]",
-      "link": "https://polioeradication.org/news/what-the-latest-routine-immunization-coverage-estimates-mean-for-eradication/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-07-23"
     },
     {
       "title": "Science for the final mile: Researchers gather to shape the future of polio eradication",
@@ -192,12 +192,28 @@
       "date": "2026-07-02"
     },
     {
+      "title": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa",
+      "description": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa NOAA satellites track hurricanes from their earliest beginnings NOAA's GOES West satellite captured this image of three tropical cyclones — Hurricanes Fausto and Genevieve and Typhoon Dolphin — swirling simultaneously in the Pacific Ocean. The image was taken on Tuesday, July 27, at 3:30 PM PDT/ 22:30 UTC. None of the three tropical cyclones made landfall in the United States. Fausto contributed to high surf conditions in Hawaii, and Genevieve also brought high surf to southern California. Typhoon Dolphin continued its tr",
+      "link": "https://www.noaa.gov/stories/pacific-hurricanes-fausto-and-genevieve-actually-had-origins-near-africa",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-08-06"
+    },
+    {
       "title": "Abandoned Study of Australian Ash Trees Challenges Case for Clearcutting",
       "description": "A landmark study of the towering ash trees that grow in the mountains of Victoria, Australia, which was launched in the 1980s, boosted arguments for clearcutting the iconic trees. But when scientists returned to the site years later, they came to a much different conclusion. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/mountain-ash-study",
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-07-31"
+    },
+    {
+      "title": "NOAA maintains prediction for below-normal Atlantic hurricane season",
+      "description": "NOAA maintains prediction for below-normal Atlantic hurricane season Need for U.S. residents to prepare remains August 6, 2026 This image of Tropical Storm Bertha was captured by NOAA's GOES East (GOES-19 satellite) on July 22, 2026 at 1:15 p.m. ET. (Image credit: Tropical Storm Bertha captured by NOAA Satellites) Download Image With the climatological peak of hurricane season approaching in early September, NOAA’s prediction for below-normal activity in the Atlantic basin remains. Forecasters from NOAA’s National Weather Service updated today the number of expected named storms to 7-13 (with ",
+      "link": "https://www.noaa.gov/news-release/noaa-maintains-prediction-for-below-normal-atlantic-hurricane-season",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-30"
     },
     {
       "title": "Lights, camera, seafood! Bertha Fontaine and the Fisheries Test Kitchen",
@@ -208,6 +224,14 @@
       "date": "2026-07-17"
     },
     {
+      "title": "The World Adds a Third Terawatt of Solar Power",
+      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-04"
+    },
+    {
       "title": "NOAA Announces 2026 Small Business of the Year Award Recipient",
       "description": "NOAA Announces 2026 Small Business of the Year Award Recipient August 4, 2026 NOAA has named Industrial Economics, Inc. (IEc) as its Small Business of the Year, honoring the firm for exceptional performance, technical innovation, and outstanding environmental stewardship in executing a complex marine restoration project. Faced with challenging environmental conditions and significant logistical delays, IEc leveraged cutting-edge technical and process innovations to safely repair damaged reef infrastructure and accelerate long-term ecosystem recovery. The team’s operational agility and seamless",
       "link": "https://www.noaa.gov/acquisition-grants/small-business/news/noaa-announces-2026-small-business-of-year-award-recipient",
@@ -216,9 +240,25 @@
       "date": "2026-08-04"
     },
     {
+      "title": "Humpback Whale Freed in Alaska",
+      "description": "Humpback Whale Freed in Alaska The NOAA Fisheries response team uses poles with specialized knives to cut entangling lines. (Image credit: Alaska Department of Fish and Game/Jamie Musbach (NOAA Fisheries Permit # 24359)) Download Image July 17, 2026 Fisheries whales 0 Off",
+      "link": "https://www.noaa.gov/stories/humpback-whale-disentangled-in-alaska-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-17"
+    },
+    {
       "title": "Adopt a Drifter Program grows this summer",
       "description": "Adopt a Drifter Program grows this summer Teacher at Sea Susan Dee deploys a drifter buoy. (Image credit: NOAA Teacher at Sea) Download Image June 26, 2026 More than 20 years after the first teacher adopted a drifter, NOAA’s Adopt a Drifter Program , co-led by the Global Ocean Monitoring and Observing Program (GOMO) and the Atlantic Oceanographic and Meteorological Laboratory (AOML), continues to grow and evolve this summer. Education 0 Off",
       "link": "https://www.noaa.gov/education/stories/adopt-drifter-program-grows-summer-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Protecting the living waters of the Channel Islands from marine debris",
+      "description": "Protecting the living waters of the Channel Islands from marine debris Inspiration Point on Anacapa Island provides a glorious view of the Channel Islands. (Image credit: Claire Fackler, NOAA National Marine Sanctuaries) Download Image July 7, 2026 Channel Islands National Park and Channel Islands National Marine Sanctuary protect some of California’s richest coastal and marine habitats. Keeping these remote islands and surrounding waters free of marine debris requires extensive collaboration among volunteers, conservation organizations, and local lobster fishers who help recover debris from d",
+      "link": "https://www.noaa.gov/education/stories/protecting-living-waters-of-channel-islands-from-marine-debris-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-07-13"
@@ -230,62 +270,6 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-07-06"
-    },
-    {
-      "title": "‘Business as usual is a business of death’: UN adopts road safety pledge over US objection",
-      "description": "The UN General Assembly closed its first ever High-level Meeting on road safety on Tuesday by adopting a sweeping new declaration aimed at halving road deaths by 2030 – over the sole objection of the United States.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167993",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "The World Adds a Third Terawatt of Solar Power",
-      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Improved reporting needed on forest carbon emissions",
-      "description": "More analysis is needed to ensure that tropical forest degeneration and regeneration are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project. The study analysed how tropical forests store carbon under varying conditions and then release it back into the atmosphere. The scenarios studied range from complete forest destruction through deforestation, which is relatively well understood, to forest degradation, whereby the forest’s condition worsens over time due to damage and organic decompos",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
-      "source": "ESA",
-      "field": "climate",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Europe Saw Deaths Spike During Brutal June Heat Wave",
-      "description": "Western Europe recorded more than 10,000 excess deaths during an unprecedented June heat wave, an analysis finds. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/europe-june-2026-heat-wave-excess-deaths",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Humpback Whale Freed in Alaska",
-      "description": "Humpback Whale Freed in Alaska The NOAA Fisheries response team uses poles with specialized knives to cut entangling lines. (Image credit: Alaska Department of Fish and Game/Jamie Musbach (NOAA Fisheries Permit # 24359)) Download Image July 17, 2026 Fisheries whales 0 Off",
-      "link": "https://www.noaa.gov/stories/humpback-whale-disentangled-in-alaska-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "West Coast Gray Whale Population Increases",
-      "description": "West Coast Gray Whale Population Increases Gray whales were nearly hunted to extinction by commercial whaling. Protections under the MMPA, ESA, and the end of commercial whaling have allowed the species to recover. (Image credit: NOAA Fisheries (Permit #19091).) Download Image July 17, 2026 0 Off",
-      "link": "https://www.noaa.gov/stories/west-coast-gray-whale-estimate-shows-increase-new-count-determines-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Protecting the living waters of the Channel Islands from marine debris",
-      "description": "Protecting the living waters of the Channel Islands from marine debris Inspiration Point on Anacapa Island provides a glorious view of the Channel Islands. (Image credit: Claire Fackler, NOAA National Marine Sanctuaries) Download Image July 7, 2026 Channel Islands National Park and Channel Islands National Marine Sanctuary protect some of California’s richest coastal and marine habitats. Keeping these remote islands and surrounding waters free of marine debris requires extensive collaboration among volunteers, conservation organizations, and local lobster fishers who help recover debris from d",
-      "link": "https://www.noaa.gov/education/stories/protecting-living-waters-of-channel-islands-from-marine-debris-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-13"
     },
     {
       "title": "Contract for $99.6M awarded for NOAA Ship Henry B. Bigelow technology upgrade, essential maintenance",
@@ -304,12 +288,76 @@
       "date": "2026-08-05"
     },
     {
+      "title": "Improved reporting needed on forest carbon emissions",
+      "description": "More analysis is needed to ensure that tropical forest degeneration and regeneration are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project. The study analysed how tropical forests store carbon under varying conditions and then release it back into the atmosphere. The scenarios studied range from complete forest destruction through deforestation, which is relatively well understood, to forest degradation, whereby the forest’s condition worsens over time due to damage and organic decompos",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
+      "source": "ESA",
+      "field": "climate",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "‘Business as usual is a business of death’: UN adopts road safety pledge over US objection",
+      "description": "The UN General Assembly closed its first ever High-level Meeting on road safety on Tuesday by adopting a sweeping new declaration aimed at halving road deaths by 2030 – over the sole objection of the United States.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167993",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Controlled Burns Have Saved Thousands of Giant Sequoias",
+      "description": "The use of small, controlled burns to clear out flammable underbrush has saved thousands of giant sequoias from devastating wildfires, new research finds. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/controlled-burns-sequoias",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "Europe Saw Deaths Spike During Brutal June Heat Wave",
+      "description": "Western Europe recorded more than 10,000 excess deaths during an unprecedented June heat wave, an analysis finds. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/europe-june-2026-heat-wave-excess-deaths",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
+      "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final energy to come from electricity… The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America",
+      "description": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America Tropical Storm Bertha mixed water column, reducing size August 5, 2026 Measuring a 'dead zone': Scientists retrieve the CTD (conductivity, temperature, depth) package of ocean sensors after profiling dissolved oxygen at a station during the Shelfwide Hypoxia Cruise in the Gulf of America. (Image credit: Courtesy of Cassandra Glaspie/LSU) Download Image NOAA-supported scientists announced today that this year’s Gulf of America hypoxic zone is approximately 1,332 square miles, making it the 2nd smallest zone on recor",
+      "link": "https://www.noaa.gov/news-release/noaa-and-partners-find-smaller-than-anticipated-hypoxic-zone-in-gulf-of-america",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-30"
+    },
+    {
+      "title": "West Coast Gray Whale Population Increases",
+      "description": "West Coast Gray Whale Population Increases Gray whales were nearly hunted to extinction by commercial whaling. Protections under the MMPA, ESA, and the end of commercial whaling have allowed the species to recover. (Image credit: NOAA Fisheries (Permit #19091).) Download Image July 17, 2026 0 Off",
+      "link": "https://www.noaa.gov/stories/west-coast-gray-whale-estimate-shows-increase-new-count-determines-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-17"
+    },
+    {
       "title": "Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero?",
       "description": "When carbon dioxide (CO2) is released from a factory or power plant, the gas can be captured and permanently stored… The post Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero? appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/qa-does-the-world-need-carbon-capture-and-storage-to-reach-net-zero",
       "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-08-03"
+    },
+    {
+      "title": "NOAA and partners cut ribbon on new pier, port facility in Charleston, South Carolina",
+      "description": "NOAA and partners cut ribbon on new pier, port facility in Charleston, South Carolina July 8, 2026 Commerce Department Deputy Secretary Paul Dabbar and NOAA Administrator Neil Jacobs, Ph.D., (fourth and third from the right, respectively) joined other leadership and partners to cut a celebratory ribbon draped across the entrance to NOAA’s newest pier and port facility in Charleston, South Carolina, July 8, 2026. (Image credit: NOAA) Download Image Leadership from the Department of Commerce and NOAA joined partners today in celebrating the official opening of NOAA’s newest facility for marine o",
+      "link": "https://www.noaa.gov/news-release/noaa-and-partners-cut-ribbon-on-new-pier-port-facility-in-charleston-south-carolina",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-07"
     },
     {
       "title": "Correcting climate ‘misperceptions’ may not boost climate action",
@@ -328,14 +376,6 @@
       "date": "2026-07-29"
     },
     {
-      "title": "Controlled Burns Have Saved Thousands of Giant Sequoias",
-      "description": "The use of small, controlled burns to clear out flammable underbrush has saved thousands of giant sequoias from devastating wildfires, new research finds. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/controlled-burns-sequoias",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-07-24"
-    },
-    {
       "title": "Brazilian Amazon Sees Sharp Drop in Acres Burned",
       "description": "Last year, the acreage burned in the Brazilian Amazon reached its lowest level in at least four decades. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/brazil-amazon-fires-2025",
@@ -347,30 +387,6 @@
       "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
       "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final... The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens/",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America",
-      "description": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America Tropical Storm Bertha mixed water column, reducing size August 5, 2026 Measuring a 'dead zone': Scientists retrieve the CTD (conductivity, temperature, depth) package of ocean sensors after profiling dissolved oxygen at a station during the Shelfwide Hypoxia Cruise in the Gulf of America. (Image credit: Courtesy of Cassandra Glaspie/LSU) Download Image NOAA-supported scientists announced today that this year’s Gulf of America hypoxic zone is approximately 1,332 square miles, making it the 2nd smallest zone on recor",
-      "link": "https://www.noaa.gov/news-release/noaa-and-partners-find-smaller-than-anticipated-hypoxic-zone-in-gulf-of-america",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-30"
-    },
-    {
-      "title": "NOAA and partners cut ribbon on new pier, port facility in Charleston, South Carolina",
-      "description": "NOAA and partners cut ribbon on new pier, port facility in Charleston, South Carolina July 8, 2026 Commerce Department Deputy Secretary Paul Dabbar and NOAA Administrator Neil Jacobs, Ph.D., (fourth and third from the right, respectively) joined other leadership and partners to cut a celebratory ribbon draped across the entrance to NOAA’s newest pier and port facility in Charleston, South Carolina, July 8, 2026. (Image credit: NOAA) Download Image Leadership from the Department of Commerce and NOAA joined partners today in celebrating the official opening of NOAA’s newest facility for marine o",
-      "link": "https://www.noaa.gov/news-release/noaa-and-partners-cut-ribbon-on-new-pier-port-facility-in-charleston-south-carolina",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "Interview: COP31 president says electrification is ‘surest way to protect citizens’",
-      "description": "Last month, COP31 president-designate Murat Kurum launched a target for 35% of the world’s final energy to come from electricity… The post Interview: COP31 president says electrification is ‘surest way to protect citizens’ appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/interview-cop31-president-says-electrification-is-surest-way-to-protect-citizens",
       "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-07-10"
@@ -424,28 +440,28 @@
       "date": "2026-07-08"
     },
     {
+      "title": "New Quantum Microscopy Trick Quadruples Microscope Resolution",
+      "description": "Three years after a team of Caltech scientists showed that pairs of entangled photons could double the resolution of a light microscope, the same lab has figured out a way to double down on that improvement. They have now achieved a fourfold resolution boost compared to a classical microscope, using a new optical design that sends one of the entangled photons through the microscope's optics three times rather than just once.The work, led by Lihong Wang, the Bren Professor of Medical Engineering and Electrical Engineering and the Andrew and Peggy Cherng Medical Engineering Leadership Chair at C",
+      "link": "https://www.caltech.edu/about/news/new-quantum-microscopy-trick-quadruples-microscope-resolution",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-08-06"
+    },
+    {
+      "title": "Building Better Prediction Models for Consumer Choices",
+      "description": "As consumers, we are constantly making choices about things like what to eat at a restaurant, what clothing to buy at a store, the type of car we'd like to purchase, and so much more. Savvy producers of such goods look to economists to help estimate what products people want and how demand might shift when factors like price and availability change.For many years, economists have relied on something called the random utility model (RUM)—a fundamental framework for rational decision-making widely used in empirical analysis in economics, marketing, and many other fields—to help predict consumer ",
+      "link": "https://www.caltech.edu/about/news/building-better-prediction-models-for-consumer-choices",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-08-06"
+    },
+    {
       "title": "These moths smell with their wings",
       "description": "Never-before-seen ability may allow the insects to home in on their favorite plants",
       "link": "https://www.science.org/content/article/these-moths-smell-their-wings",
       "source": "Science",
       "field": "technology",
       "date": "2026-07-31"
-    },
-    {
-      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement” When it comes to organ donation, time is everything. As soon as an organ has been removed from a donor’s…",
-      "link": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
-      "description": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept…",
-      "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-07-23"
     },
     {
       "title": "Ancient DNA confirms historical accounts of how smallpox got to the Americas",
@@ -480,36 +496,12 @@
       "date": "2026-07-31"
     },
     {
-      "title": "Odd shapes hidden in dense Amazon rainforest reveal sprawling ancient civilization",
-      "description": "Newly found earthworks suggest about 3 million people might have lived in just about 3% of the forest’s entire area",
-      "link": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "This drug could help end the HIV epidemic. Its rollout has hit speed bumps",
-      "description": "One shot of lenacapavir can protect for 6 months—but aid cuts and uncertain demand mean little drug has reached the countries that most need it",
-      "link": "https://www.science.org/content/article/drug-could-help-end-hiv-epidemic-its-rollout-has-hit-speed-bumps",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "How somewhat obscure English duke helped stoke American revolutionary ambitions",
-      "description": "Danielle Allen’s new book unearths role of Charles Lennox in supporting ‘radical’ writers, thinkers including Thomas Paine, Benjamin Franklin",
-      "link": "https://news.harvard.edu/gazette/story/2026/08/how-somewhat-obscure-english-duke-helped-stoke-american-revolutionary-ambitions/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "This new alloy is up to 10 times stronger than steel and surprisingly flexible",
-      "description": "Engineers have transformed a notoriously brittle cobalt-aluminum compound into a material that is both extremely strong and capable of bending without breaking. Their nanoscale design produced a yield strength about six to 10 times greater than high-strength structural steel while sustaining substantial deformation at room temperature. The approach could enable tougher turbine blades and higher-performance engines.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260729051524.htm",
+      "title": "NASA's Perseverance just completed a marathon on Mars",
+      "description": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet. It accomplished the feat in just five years and four months, reaching the distance on its 1,890th Martian day, less than half the time it took the previous record holder, NASA's Opportunity rover.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-07-31"
+      "date": "2026-07-14"
     },
     {
       "title": "Tiny magnetic waves could unlock quantum computers the size of a penny",
@@ -520,6 +512,14 @@
       "date": "2026-07-02"
     },
     {
+      "title": "Odd shapes hidden in dense Amazon rainforest reveal sprawling ancient civilization",
+      "description": "Newly found earthworks suggest about 3 million people might have lived in just about 3% of the forest’s entire area",
+      "link": "https://www.science.org/content/article/odd-shapes-hidden-dense-amazon-rainforest-reveal-sprawling-ancient-civilization",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-07-29"
+    },
+    {
       "title": "A California aquifer may have crossed the point of no return",
       "description": "Satellite data reveal in unprecedented detail how groundwater reservoirs permanently lose their ability to store water",
       "link": "https://www.science.org/content/article/california-aquifer-may-have-crossed-point-no-return",
@@ -528,57 +528,25 @@
       "date": "2026-07-27"
     },
     {
-      "title": "China’s detention of U.S. seismologist and data-sharing crackdown alarm researchers",
-      "description": "Youlin Chen analyzed earthquake data that can also aid nuclear-test monitoring",
-      "link": "https://www.science.org/content/article/china-s-detention-u-s-seismologist-and-data-sharing-crackdown-alarm-researchers",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
-      "description": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
-      "link": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "Montana’s new “right to try” law can’t come soon enough for some",
-      "description": "Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, movement, and coordination, he says. When Brody was around two and a half years old, a genetic test…",
-      "link": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
+      "title": "The Download: an organ transplant breakthrough, and homegrown Chinese chips",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Supercooled kidneys have been transplanted into pigs in a “landmark achievement” When it comes to organ donation, time is everything. As soon as an organ has been removed from a donor’s…",
+      "link": "https://www.technologyreview.com/2026/07/24/1140776/the-download-organ-transplant-breakthrough-chinese-chips/",
       "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-07-31"
+      "date": "2026-07-24"
     },
     {
-      "title": "New microscope captures tiny details at unprecedented speeds",
-      "description": "The technology could be used to image many live organisms simultaneously or to monitor samples over time. The post New microscope captures tiny details at unprecedented speeds appeared first on Berkeley News.",
-      "link": "https://engineering.berkeley.edu/news/2026/07/bringing-it-all-into-focus/",
-      "source": "UC Berkeley",
+      "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
+      "description": "When it comes to organ donation, time is everything. As soon as an organ has been carefully removed from a donor’s body, it starts to deteriorate. Surgeons have a matter of hours to get it into a recipient. Leave it too long and the organ will become unusable. In most cases, organs will be kept…",
+      "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
+      "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-07-31"
+      "date": "2026-07-23"
     },
     {
-      "title": "A colossal magma system has been hiding beneath Tuscany",
-      "description": "A massive magma reservoir has been detected deep beneath Tuscany, despite showing no obvious signs at the surface. Scientists mapped the roughly 6,000-cubic-kilometer body using natural ground vibrations recorded by dozens of seismic sensors. It poses no immediate danger, but the discovery reveals how enormous volcanic systems can remain hidden and could transform the search for geothermal energy and critical minerals.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-05"
-    },
-    {
-      "title": "This hydrogen turbine turns controlled explosions into electricity",
-      "description": "Scientists have successfully generated electricity with a hydrogen turbine that produces its own pressure through detonation waves instead of relying on a mechanical compressor. The breakthrough could unlock dramatically more efficient power systems for clean energy and future aviation.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260803080919.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "NASA's Perseverance just completed a marathon on Mars",
-      "description": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet. It accomplished the feat in just five years and four months, reaching the distance on its 1,890th Martian day, less than half the time it took the previous record holder, NASA's Opportunity rover.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
+      "title": "NASA selects four new Moon missions to build a permanent lunar base",
+      "description": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028. Each mission will carry the same trio of science instruments to improve lunar navigation, study dangerous dust kicked up during landings, and map the Moon's radiation environment. The agency also revealed plans for new rovers, communication satellites, and additional cargo missions as it lays the groundwork for a permanent Moon Base.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-07-14"
@@ -600,12 +568,44 @@
       "date": "2026-07-27"
     },
     {
-      "title": "Detection schemes could deter putting nuclear warheads in space",
-      "description": "Three approaches—including one that exploits Earth’s radiation belts—could help enforce ban on orbital nuclear weapons",
-      "link": "https://www.science.org/content/article/detection-schemes-could-deter-putting-nuclear-warheads-space",
+      "title": "This drug could help end the HIV epidemic. Its rollout has hit speed bumps",
+      "description": "One shot of lenacapavir can protect for 6 months—but aid cuts and uncertain demand mean little drug has reached the countries that most need it",
+      "link": "https://www.science.org/content/article/drug-could-help-end-hiv-epidemic-its-rollout-has-hit-speed-bumps",
       "source": "Science",
       "field": "technology",
-      "date": "2026-07-08"
+      "date": "2026-07-24"
+    },
+    {
+      "title": "Alexander Rakhlin named director of the MIT Statistics and Data Science Center",
+      "description": "An expert in machine learning, statistics, and computation, Rakhlin succeeds Professor Ankur Moitra.",
+      "link": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "How somewhat obscure English duke helped stoke American revolutionary ambitions",
+      "description": "Danielle Allen’s new book unearths role of Charles Lennox in supporting ‘radical’ writers, thinkers including Thomas Paine, Benjamin Franklin",
+      "link": "https://news.harvard.edu/gazette/story/2026/08/how-somewhat-obscure-english-duke-helped-stoke-american-revolutionary-ambitions/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "China’s detention of U.S. seismologist and data-sharing crackdown alarm researchers",
+      "description": "Youlin Chen analyzed earthquake data that can also aid nuclear-test monitoring",
+      "link": "https://www.science.org/content/article/china-s-detention-u-s-seismologist-and-data-sharing-crackdown-alarm-researchers",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-07-17"
+    },
+    {
+      "title": "British ‘First Fleet’ brought smallpox to Australia—and may have killed millions",
+      "description": "Two papers pin the deadly disease’s introduction on British colonists and suggest the continent held far more people than previously believed",
+      "link": "https://www.science.org/content/article/british-first-fleet-brought-smallpox-australia-and-may-have-killed-millions",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-07-07"
     },
     {
       "title": "Knowledge Gatherer: Portrait of a Scientist's Wife in Victorian England",
@@ -672,14 +672,6 @@
       "date": "2026-07-15"
     },
     {
-      "title": "Caltech Mourns the Passing of Mark B. Wise (1953–2026)",
-      "description": "Mark B. Wise, Caltech's John A. McCone Professor of High Energy Physics, passed away on July 10, 2026. He was 72.Wise, a particle physicist whose research focused on the fundamental constituents of matter and their interactions, played a key role in the development of the heavy quark effective theory (HQET), a formalism that has allowed physicists to make precise predictions in the study of strong nuclear interactions—the most powerful of the fundamental forces of nature. The strong nuclear force serves as the subatomic \"glue\" that binds quarks together into protons and neutrons, and those pro",
-      "link": "https://www.caltech.edu/about/news/caltech-mourns-the-passing-of-mark-b-wise-19532026",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-07-13"
-    },
-    {
       "title": "Caltech Hosts Workshop on Data Centers and Community Impact for Local Leaders",
       "description": "On June 15, Caltech brought together local government officials, researchers, and community stakeholders at the Resnick Sustainability Center for a workshop on the growing impact of AI data centers on California communities.\"Data centers are not your typical one-off economic development project. They are super context dependent, as you'll hear about today. What's a good data center in one area might be a bad data center in another area,\" said Sara Kassir, research policy lead at Caltech's Ronald and Maxine Linde Center for Science, Society, and Policy (LCSSP), in her introductory remarks as fa",
       "link": "https://www.caltech.edu/about/news/caltech-hosts-workshop-on-data-centers-and-community-impact-for-local-leaders",
@@ -692,22 +684,6 @@
       "description": "The rise of automation and AI has raised fears about job loss, but a team led by Caltech medical engineers suggests that smart tools can help train and assist workers rather than replace them. The team has developed a low-cost device that trains and assists people with minimal laboratory experience to perform complex laboratory procedures. The invention could help address a chronic shortage of trained personnel that currently limits the reach of healthcare in both developing and developed countries.As a first demonstration of this kind of smart tool, the team developed a new device that monito",
       "link": "https://www.caltech.edu/about/news/a-training-device-to-build-technical-skills-and-expand-access-to-high-performance-diagnostic-testing",
       "source": "Caltech",
-      "field": "technology",
-      "date": "2026-07-08"
-    },
-    {
-      "title": "Ana Miljački named head of the Department of Architecture",
-      "description": "In this leadership role, Miljački seeks to shepherd a collective commitment to transform the present into a better future.",
-      "link": "https://news.mit.edu/2026/ana-miljacki-named-head-department-architecture-0708",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-08"
-    },
-    {
-      "title": "MIT researcher proposes a way to detect nuclear weapons in space",
-      "description": "The 1967 Outer Space Treaty bans nuclear weapons in space, but there’s currently no way to verify that satellites aren’t carrying them.",
-      "link": "https://news.mit.edu/2026/mit-researcher-proposes-way-to-detect-nuclear-weapons-in-space-0708",
-      "source": "MIT News",
       "field": "technology",
       "date": "2026-07-08"
     },
@@ -744,6 +720,62 @@
       "date": "2026-08-03"
     },
     {
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers…",
+      "link": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "How worried should you be about West Nile virus?",
+      "description": "Justin Remais, a UC Berkeley professor of public health, explains how to protect yourself from this mosquito-borne disease The post How worried should you be about West Nile virus? appeared first on Berkeley News.",
+      "link": "https://publichealth.berkeley.edu/articles/news/commentary/how-worried-should-you-be-about-west-nile-virus",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Trump’s AI protectionism has come for robotics",
+      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s a nascent industry, and such robots…",
+      "link": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Amid trend in health optimization, Berkeley scientists focus on optimizing the brain",
+      "description": "What’s a healthy body without a healthy brain? Neurologists, neuroscientists and psychologists unite to find metrics for brain health and effective training to improve it. The post Amid trend in health optimization, Berkeley scientists focus on optimizing the brain appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/08/03/amid-trend-in-health-optimization-berkeley-scientists-focus-on-brain-optimization/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Montana’s new “right to try” law can’t come soon enough for some",
+      "description": "Kris DeVault is desperate. His son, Brody, was born in March 2023. It wasn’t long before he started to show signs of developmental delay, says DeVault. As time went on, Brody started missing key milestones in speech, movement, and coordination, he says. When Brody was around two and a half years old, a genetic test…",
+      "link": "https://www.technologyreview.com/2026/07/31/1140945/montanas-new-right-to-try-law-cant-come-soon-enough-for-some/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-31"
+    },
+    {
+      "title": "New microscope captures tiny details at unprecedented speeds",
+      "description": "The technology could be used to image many live organisms simultaneously or to monitor samples over time. The post New microscope captures tiny details at unprecedented speeds appeared first on Berkeley News.",
+      "link": "https://engineering.berkeley.edu/news/2026/07/bringing-it-all-into-focus/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-07-31"
+    },
+    {
+      "title": "Detect Dark Matter’s Mark From Your Backyard",
+      "description": "If you’re wondering what dark matter is, you’re not alone. Astronomers don’t know. But they’ve determined that this invisible material must be far more abundant than the stars and nebulas that they can see. They’ve surmised as much from observing the gravitational effects of all this perplexing dark stuff, launching a decades-long campaign to understand its nature. I recently learned that it is possible to sense the presence of dark matter using a small radio telescope such as the Discovery Dish covered in these pages last year. The trick is to know what observations to collect and how to anal",
+      "link": "https://spectrum.ieee.org/dark-matter",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-07-30"
+    },
+    {
       "title": "Siobahn Day Grady Wants Everyone to Be AI Literate",
       "description": "Artificial intelligence is reshaping the skills employers expect from new graduates. In response, universities are scrambling to launch new courses, research centers, and industry partnerships that prepare students for today’s workforce. But building a cutting-edge AI curriculum demands funding and access to industry networks, resources that remain unevenly distributed across higher education. At North Carolina Central University, Siobahn Day Grady is trying to change that equation. In January 2025, Grady, an associate professor in the NCCU School of Library and Information Sciences, launched ",
       "link": "https://spectrum.ieee.org/siobahn-day-grady-ai-hbcu",
@@ -752,28 +784,12 @@
       "date": "2026-07-29"
     },
     {
-      "title": "World-first photonic time crystal opens a new era of light control",
-      "description": "Scientists have built the first all-optical photonic time crystal, allowing them to reshape the behavior of terahertz light at extraordinary speeds. The breakthrough could open the door to ultrafast computing, smarter communication systems, advanced imaging, and a new generation of highly tunable lasers.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260731034131.htm",
+      "title": "A colossal magma system has been hiding beneath Tuscany",
+      "description": "A massive magma reservoir has been detected deep beneath Tuscany, despite showing no obvious signs at the surface. Scientists mapped the roughly 6,000-cubic-kilometer body using natural ground vibrations recorded by dozens of seismic sensors. It poses no immediate danger, but the discovery reveals how enormous volcanic systems can remain hidden and could transform the search for geothermal energy and critical minerals.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260804034645.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-07-31"
-    },
-    {
-      "title": "NASA selects four new Moon missions to build a permanent lunar base",
-      "description": "NASA is ramping up its lunar ambitions by awarding nearly $600 million for four commercial Moon landings planned for late 2028. Each mission will carry the same trio of science instruments to improve lunar navigation, study dangerous dust kicked up during landings, and map the Moon's radiation environment. The agency also revealed plans for new rovers, communication satellites, and additional cargo missions as it lays the groundwork for a permanent Moon Base.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260713084853.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-14"
-    },
-    {
-      "title": "British ‘First Fleet’ brought smallpox to Australia—and may have killed millions",
-      "description": "Two papers pin the deadly disease’s introduction on British colonists and suggest the continent held far more people than previously believed",
-      "link": "https://www.science.org/content/article/british-first-fleet-brought-smallpox-australia-and-may-have-killed-millions",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-07-07"
+      "date": "2026-08-05"
     },
     {
       "title": "Mount Olympus and D-Day beaches among new World Heritage Sites",
@@ -832,6 +848,38 @@
       "date": "2026-07-21"
     },
     {
+      "title": "ADB Provides $2 Million Grant to Support Flood-Affected Communities in Thailand",
+      "description": "ADB has approved a $2 million grant to support the Government of Thailand as it expands humanitarian assistance for communities devastated by severe flooding in southern Thailand.",
+      "link": "https://www.adb.org/news/adb-provides-2-million-grant-support-flood-affected-communities-thailand",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-10"
+    },
+    {
+      "title": "Global hunger declines again but progress remains uneven across regions",
+      "description": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167987",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "ADB Puts Team on the Ground in Türkiye as Financing Demand Surges",
+      "description": "Recognizing Türkiye’s growing regional importance, the Asian Development Bank (ADB) will establish an office in the country as it prepares to commit about $3 billion a year to earthquake recovery, critical infrastructure, businesses, and trade routes linking Asia and Europe.",
+      "link": "https://www.adb.org/news/adb-puts-team-ground-turkiye-financing-demand-surges",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Multilateral Development Banks Increase Climate Finance to Record $163 Billion in 2025, Supporting Resilient and Sustainable Growth",
+      "description": "MDBs increased climate finance to record levels in 2025, reinforcing their role in supporting resilient and sustainable economies.",
+      "link": "https://www.adb.org/news/multilateral-development-banks-increase-climate-finance-record-163-billion-2025",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-13"
+    },
+    {
       "title": "ADB Approves $70 Million Loan to Support Fiscal and Governance Reforms in the Kyrgyz Republic",
       "description": "ADB has approved a $70 million concessional loan for subprogram 2 of the Sustainable Fiscal Management and Governance Improvement Program, supporting policy reforms to strengthen fiscal resilience, transparency, and public resource management in the Kyrgyz Republic.",
       "link": "https://www.adb.org/news/adb-approves-70-million-loan-support-fiscal-and-governance-reforms-kyrgyz-republic",
@@ -848,28 +896,12 @@
       "date": "2026-07-01"
     },
     {
-      "title": "ADB Puts Team on the Ground in Türkiye as Financing Demand Surges",
-      "description": "Recognizing Türkiye’s growing regional importance, the Asian Development Bank (ADB) will establish an office in the country as it prepares to commit about $3 billion a year to earthquake recovery, critical infrastructure, businesses, and trade routes linking Asia and Europe.",
-      "link": "https://www.adb.org/news/adb-puts-team-ground-turkiye-financing-demand-surges",
+      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
+      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
+      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "ADB Provides $2 Million Grant to Support Flood-Affected Communities in Thailand",
-      "description": "ADB has approved a $2 million grant to support the Government of Thailand as it expands humanitarian assistance for communities devastated by severe flooding in southern Thailand.",
-      "link": "https://www.adb.org/news/adb-provides-2-million-grant-support-flood-affected-communities-thailand",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-10"
-    },
-    {
-      "title": "Multilateral Development Banks Increase Climate Finance to Record $163 Billion in 2025, Supporting Resilient and Sustainable Growth",
-      "description": "MDBs increased climate finance to record levels in 2025, reinforcing their role in supporting resilient and sustainable economies.",
-      "link": "https://www.adb.org/news/multilateral-development-banks-increase-climate-finance-record-163-billion-2025",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-13"
+      "date": "2026-07-17"
     },
     {
       "title": "ADB Approves $10 Million Grant to Strengthen Maritime Transport in Tuvalu",
@@ -888,20 +920,20 @@
       "date": "2026-07-03"
     },
     {
-      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
-      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
-      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
+      "title": "ADB Approves $11 Million Grant to Boost Health Services In Kiribati",
+      "description": "ADB has approved an $11 million grant for health initiatives in Kiribati, highlighting the critical role the Asian Development Fund plays in supporting the country’s development priorities.",
+      "link": "https://www.adb.org/news/adb-approves-11-million-grant-boost-health-services-kiribati",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-17"
+      "date": "2026-06-30"
     },
     {
-      "title": "Global hunger declines again but progress remains uneven across regions",
-      "description": "Global hunger declined for a third consecutive year in 2025 showing that progress is possible, but gains remain fragile and far too slow to achieve the Sustainable Development Goals (SDGs) by the 2030 deadline.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167987",
-      "source": "UN News SDGs",
+      "title": "ADB Approves $13 Million Financing for Resilient Urban Development in Bhutan",
+      "description": "ADB has approved a $13 million financing package to help the Government of Bhutan strengthen resilient urban infrastructure and expand affordable rental housing for low-income and vulnerable households, particularly in Thimphu and Phuentsholing.",
+      "link": "https://www.adb.org/news/adb-approves-13-million-financing-resilient-urban-development-bhutan",
+      "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-21"
+      "date": "2026-06-27"
     },
     {
       "title": "As aid dries up, countries pledge to close the $4 trillion development gap",
@@ -912,12 +944,36 @@
       "date": "2026-07-16"
     },
     {
+      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
+      "description": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167939",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-14"
+    },
+    {
       "title": "Despite hurdles, don’t give up on Sustainable Development Goals, UN urges",
       "description": "In a world of “parallel realities” where stark inequalities seemingly divide people and challenge the promise of multilateralism, the vision of the Sustainable Development Goals (SDGs) is to bring people together and help them achieve a better reality.",
       "link": "https://news.un.org/feed/view/en/story/2026/07/1167927",
       "source": "UN News SDGs",
       "field": "development",
       "date": "2026-07-13"
+    },
+    {
+      "title": "‘Shared blueprint for peace’: Development goals deliver for billions, but challenges remain",
+      "description": "With fewer than five years left to achieve the Sustainable Development Goals (SDGs), a new UN report says sustained investment and international cooperation have improved billions of lives, but warns that governments must urgently accelerate action if the goals are to be met by their 2030 deadline.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167888",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "ADB President Urges Faster Action on Water Security",
+      "description": "ADB President Masato Kanda has called for faster investment and reform to secure water across Asia and the Pacific, pointing to a new ADB-administered fund with Japan that will help developing economies strengthen disaster preparedness, infrastructure, and water management.",
+      "link": "https://www.adb.org/news/adb-president-urges-faster-action-water-security",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-28"
     },
     {
       "title": "ADB Launches Initiative to Bring Japanese Startup Innovation to Southeast Asia and the Pacific",
@@ -944,62 +1000,6 @@
       "date": "2026-07-07"
     },
     {
-      "title": "ADB Establishes North Pacific Subregional Office, Expanding Support in Region",
-      "description": "ADB announced the establishment of a subregional office to support its expanding operations in the North Pacific, strengthening the bank’s commitment to its Pacific developing member countries as a steadfast partner for growth, development, and resilience.",
-      "link": "https://www.adb.org/news/adb-establishes-north-pacific-subregional-office-expanding-support-region",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-02"
-    },
-    {
-      "title": "ADB Approves $200 Million Emergency Assistance for Sri Lanka’s Post-Cyclone Ditwah Recovery",
-      "description": "ADB has approved a $200 million emergency assistance package for Sri Lanka’s recovery and reconstruction following Cyclone Ditwah.",
-      "link": "https://www.adb.org/news/adb-approves-200-million-emergency-assistance-sri-lanka-post-cyclone-ditwah-recovery",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-01"
-    },
-    {
-      "title": "ADB Approves $11 Million Grant to Boost Health Services In Kiribati",
-      "description": "ADB has approved an $11 million grant for health initiatives in Kiribati, highlighting the critical role the Asian Development Fund plays in supporting the country’s development priorities.",
-      "link": "https://www.adb.org/news/adb-approves-11-million-grant-boost-health-services-kiribati",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-06-30"
-    },
-    {
-      "title": "ADB Approves $13 Million Financing for Resilient Urban Development in Bhutan",
-      "description": "ADB has approved a $13 million financing package to help the Government of Bhutan strengthen resilient urban infrastructure and expand affordable rental housing for low-income and vulnerable households, particularly in Thimphu and Phuentsholing.",
-      "link": "https://www.adb.org/news/adb-approves-13-million-financing-resilient-urban-development-bhutan",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-06-27"
-    },
-    {
-      "title": "World News in Brief: Gaza aid challenges persist, renewed push for clean energy, Sudan cholera update",
-      "description": "Humanitarians in the Gaza Strip continue to face significant challenges in reaching communities located near the so-called “Yellow Line” in northern Rafah, the UN aid coordination office OCHA said on Tuesday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167939",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-07-14"
-    },
-    {
-      "title": "‘Shared blueprint for peace’: Development goals deliver for billions, but challenges remain",
-      "description": "With fewer than five years left to achieve the Sustainable Development Goals (SDGs), a new UN report says sustained investment and international cooperation have improved billions of lives, but warns that governments must urgently accelerate action if the goals are to be met by their 2030 deadline.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167888",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "ADB President Urges Faster Action on Water Security",
-      "description": "ADB President Masato Kanda has called for faster investment and reform to secure water across Asia and the Pacific, pointing to a new ADB-administered fund with Japan that will help developing economies strengthen disaster preparedness, infrastructure, and water management.",
-      "link": "https://www.adb.org/news/adb-president-urges-faster-action-water-security",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-28"
-    },
-    {
       "title": "ADB, HDBank Sign $100 Million Loan to Expand Access to Finance for MSMEs, Women-Owned Businesses in Viet Nam",
       "description": "ADB has signed a $100 million loan with Ho Chi Minh City Development Joint Stock Commercial Bank (HDBank) to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) in Viet Nam, with a focus on women-owned MSMEs.",
       "link": "https://www.adb.org/news/adb-hdbank-sign-100-million-loan-expand-access-finance-msmes-women-owned-businesses-viet-nam",
@@ -1016,12 +1016,28 @@
       "date": "2026-07-06"
     },
     {
+      "title": "ADB Establishes North Pacific Subregional Office, Expanding Support in Region",
+      "description": "ADB announced the establishment of a subregional office to support its expanding operations in the North Pacific, strengthening the bank’s commitment to its Pacific developing member countries as a steadfast partner for growth, development, and resilience.",
+      "link": "https://www.adb.org/news/adb-establishes-north-pacific-subregional-office-expanding-support-region",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-02"
+    },
+    {
       "title": "ADB, Golomt Bank Partner to Expand Sustainable and Inclusive Finance in Mongolia",
       "description": "ADB and Golomt Bank Joint Stock Company (Golomt Bank) have signed a $64 million loan agreement to support sustainable finance and expand lending to micro, small, and medium-sized enterprises (MSMEs), including women-owned businesses in Mongolia.",
       "link": "https://www.adb.org/news/adb-golomt-bank-partner-expand-sustainable-and-inclusive-finance-mongolia",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-07-02"
+    },
+    {
+      "title": "ADB Approves $200 Million Emergency Assistance for Sri Lanka’s Post-Cyclone Ditwah Recovery",
+      "description": "ADB has approved a $200 million emergency assistance package for Sri Lanka’s recovery and reconstruction following Cyclone Ditwah.",
+      "link": "https://www.adb.org/news/adb-approves-200-million-emergency-assistance-sri-lanka-post-cyclone-ditwah-recovery",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-01"
     },
     {
       "title": "ADB, Converse Bank Sign $15 Million Financing to Boost Women-Owned MSMEs and Sustainable Lending in Armenia",
@@ -1056,6 +1072,14 @@
       "date": "2026-07-15"
     },
     {
+      "title": "Peacekeepers step up support as families return to south Lebanon",
+      "description": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue to return home.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167961",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-07-16"
+    },
+    {
       "title": "West Africa and the Sahel: Terrorism is changing its face",
       "description": "Jihadist groups are no longer content with launching attacks in West Africa and the Sahel: they administer territories, control trade routes, exploit new technologies and are gradually pushing their influence all the way to the Gulf of Guinea.",
       "link": "https://news.un.org/feed/view/en/story/2026/07/1167940",
@@ -1070,14 +1094,6 @@
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-07-13"
-    },
-    {
-      "title": "Peacekeepers step up support as families return to south Lebanon",
-      "description": "With violence in south Lebanon significantly decreased since mid-June, UN peacekeepers there have returned to core functions such as protecting humanitarian aid and restoring critical infrastructure as families continue to return home.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167961",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-07-16"
     },
     {
       "title": "Plasmon-Enhanced Radioisotope Thermophotovoltaic (PRTPV) Power Generation for Interstellar Missions",
@@ -1096,12 +1112,12 @@
       "date": "2026-08-03"
     },
     {
-      "title": "NASA Brings Space Exploration to the FIFA World Cup",
-      "description": "From June 11 through July 19, NASA’s free interactive exhibit at FIFA Fan Festival™ brought space exploration to soccer fans in East Downtown Houston. More than 500,000 visitors explored the exhibit during the tournament, learning how the agency’s missions, research, and technology benefit life on Earth. The exhibit introduced a global audience to the Artemis program, Moon Base, the International Space Station, […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-brings-space-exploration-to-the-fifa-world-cup/",
+      "title": "Antenna Testing for NASA’s SkyFall Mission",
+      "description": "Description SkyFall ground-penetrating radar engineer Maya Román connects a coaxial cable to a test antenna in the Environmental Test Lab’s electromagnetic interference testing chamber at NASA’s Jet Propulsion Laboratory in Southern California. The antenna was pointed up during test to minimize reflections and interferences with the antenna pattern during the measurement. Equipped with four instruments each, the […]",
+      "link": "https://science.nasa.gov/photojournal/antenna-testing-for-nasas-skyfall-mission/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-08-03"
+      "date": "2026-08-06"
     },
     {
       "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
@@ -1128,6 +1144,62 @@
       "date": "2026-07-21"
     },
     {
+      "title": "The journey of Sophie Adenot's bonus food",
+      "description": "Video: 00:05:45 What does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work together to transform traditional recipes into meals that are safe for spaceflight, while preserving the flavours, memories and moments of sharing that make them special.",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/The_journey_of_Sophie_Adenot_s_bonus_food",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Sizing Up the Sargassum Belt",
+      "description": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Robotic Servicing Mission Launches with NASA Support",
+      "description": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en route to geosynchronous Earth orbit, where it will use its advanced robotics to service spacecraft. RSGS leverages in-space robotics expertise from NASA, […]",
+      "link": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "NASA to Host Media Briefing on Roman Telescope, Launching Next Month",
+      "description": "Media are invited to join NASA for a virtual news conference at 2 p.m. EDT, Wednesday, July 29, to preview the Nancy Grace Roman Space Telescope mission, scheduled to launch from the agency’s Kennedy Space Center in Florida on Sunday, Aug. 30. NASA will stream this event live through a variety of platforms. Learn where […]",
+      "link": "https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats",
+      "description": "A team of NASA-sponsored scientists and engineers has developed a novel approach to observing high-energy particles in the near-Earth space environment, incorporating miniaturized sensors into a compact, multi-view particle detection instrument unlike any before it. Built for NASA’s Relativistic Electron Atmospheric Loss (REAL) CubeSat mission, the innovative instrument (also called REAL) enables more complete measurements […]",
+      "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/a-new-compact-instrument-enables-high-fidelity-measurements-of-energetic-particles-on-cubesats/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness",
+      "description": "David SmithDuke University The increasing population of spacefaring vehicles and satellites motivates increasingly powerful technologies for space situational awareness (SSA). While the US space surveillance network (SSN) is able to monitor objects down to about four inches in size using, for example, the latest upgrade to the space fence, the associated requirements limit implementation to ground-based […]",
+      "link": "https://www.nasa.gov/directorates/stmd/niac/robotically-assembled-electromagnetic-metamaterials-for-long-range-space-situational-awareness/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "Mapping Alien Continents: Achieving Optical VLBI for Exoplanet Imaging",
+      "description": "Paul StankusBrookhaven Science Associates The scientific goal of the proposed work will be reconstructing the image, ie resolving surface features, of an Earth-like exoplanet around a nearby star as seen in visible light. The innovation is in two stages. First, the design of a new kind of nulling interferometer — “dynamic hierarchical nulling” — combining inputs […]",
+      "link": "https://www.nasa.gov/directorates/stmd/mapping-alien-continents-achieving-optical-vlbi-for-exoplanet-imaging/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
+    },
+    {
       "title": "ExoMars stretches out its legs",
       "description": "Video: 00:00:06 The footage shows the simultaneous deployment of two landing legs from the ExoMars landing platform, in two sequential pairs. The legs travel stowed on the spacecraft through deep space, and are automatically deployed in pairs in less than a second using non-explosive actuators, just after the front shield is jettisoned. This is a crucial step in the landing module’s preparation for touchdown. The tests used a full-scale model of the landing platform at the Thales Alenia facilities in Turin, Italy. The four legs replicate the structure and dimensions of those that will fly to M",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/ExoMars_stretches_out_its_legs",
@@ -1144,12 +1216,44 @@
       "date": "2026-08-06"
     },
     {
+      "title": "NASA’s Perseverance Captures Phobos and Earth",
+      "description": "Description This composite of seven images from the Mastcam-Z instrument aboard NASA’s Perseverance Mars rover shows Earth, visible as a small bright dot moving from upper left to lower right, passing behind the Martian moon Phobos on July 2, 2026, 1,907th Martian day, or sol, of the mission. The black background is the result of […]",
+      "link": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-05"
+    },
+    {
       "title": "Curiosity Blog, Sols 4961-4967: Approaching a Break in the Rock Record?",
       "description": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, July 24, 2026 Curiosity spent the week continuing to climb her way up through the layers of Mount Sharp, exploring the sedimentary rock strip chart of Martian history. The rover has reached a layer where the science […]",
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-4961-4967-approaching-a-break-in-the-rock-record/",
       "source": "NASA",
       "field": "space",
       "date": "2026-07-31"
+    },
+    {
+      "title": "Plato's electronics ready for space",
+      "description": "Image: The European Space Agency’s terrestrial planet hunter Plato has recently completed a series of key tests inside the Maxwell Test Chamber at ESTEC, demonstrating that its electronic equipment is fit to work in space. This photo captures the spacecraft standing inside the special chamber. The shielded enclosure features conducting metal walls, floor, and ceiling that form a Faraday cage, screening out all external interference. Its 9 m-high interior is lined floor to ceiling with foam spikes that absorb electrical signals and sounds to mimic the void of space. Once the chamber was sealed ",
+      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Plato_s_electronics_ready_for_space",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-20"
+    },
+    {
+      "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
+      "description": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch campaigns. Over the coming weeks, engineers and mission teams will carry out a series of rigorous inspections and prepare the satellites to be installed atop their Vega-C rocket for their journey into orbit.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-16"
+    },
+    {
+      "title": "NASA Brings Space Exploration to the FIFA World Cup",
+      "description": "From June 11 through July 19, NASA’s free interactive exhibit at FIFA Fan Festival™ brought space exploration to soccer fans in East Downtown Houston. More than 500,000 visitors explored the exhibit during the tournament, learning how the agency’s missions, research, and technology benefit life on Earth. The exhibit introduced a global audience to the Artemis program, Moon Base, the International Space Station, […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-brings-space-exploration-to-the-fifa-world-cup/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-03"
     },
     {
       "title": "NASA Assigns Astronaut Deniz Burnham to First Space Station Mission",
@@ -1160,44 +1264,20 @@
       "date": "2026-07-30"
     },
     {
+      "title": "NASA Awards 2026 Innovative Technology Concepts",
+      "description": "The NASA Innovative Advanced Concepts (NIAC) program has created 18 new awards to support visionary ideas to improve aerospace technologies in areas ranging from the exploration of the solar system to understanding the universe. The 18 NIAC Phase I awards total $3.2 million. Each award provides up to $175,000 for a nine-month initial investigation. The […]",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-29"
+    },
+    {
       "title": "New Crew Members Welcomed to International Space Station",
       "description": "From left, Expedition 74 flight engineers Anna Kikina and Pyotr Dubrov of Roscosmos, and Anil Menon of NASA pose for a July 18, 2026, photo while holding a cake celebrating their recent arrival aboard the International Space Station. The trio arrived at the space station on July 14, 2026, after launching from the Baikonur Cosmodrome […]",
       "link": "https://www.nasa.gov/image-article/new-crew-members-welcomed-to-international-space-station/",
       "source": "NASA",
       "field": "space",
       "date": "2026-07-24"
-    },
-    {
-      "title": "PRAXIS: Planetary Rings Autonomous EXploration with In-situ Sampling",
-      "description": "Marco QuadrelliNASA Jet Propulsion Laboratory Humanity has never touched the particles of a planetary ring, but if we were able to get close enough and sample them, it will transform understanding of ring structure and origins for Saturn (dense), Uranus and Neptune (tenuous), rings of other objects such as Centaurs Chariklo and Chiron, and even early […]",
-      "link": "https://www.nasa.gov/directorates/stmd/niac/praxis-planetary-rings-autonomous-exploration-with-in-situ-sampling/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection",
-      "description": "Paul StankusBrookhaven Science Associates The scientific goal is to enable a new method for observing gravitational waves at low frequencies, based on the astrometric GW signature — gravitational waves passing by the Earth will cause a (very small) coordinated apparent motion of all sky objects. Our innovation is to deploy a new approach to precision […]",
-      "link": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/precision-astrometry-using-optically-independent-spacecraft-for-graviational-wave-detection/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "NASA’s Perseverance Captures Phobos and Earth",
-      "description": "Description This composite of seven images from the Mastcam-Z instrument aboard NASA’s Perseverance Mars rover shows Earth, visible as a small bright dot moving from upper left to lower right, passing behind the Martian moon Phobos on July 2, 2026, 1,907th Martian day, or sol, of the mission. The black background is the result of […]",
-      "link": "https://science.nasa.gov/photojournal/nasas-perseverance-captures-phobos-and-earth/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-05"
-    },
-    {
-      "title": "Sizing Up the Sargassum Belt",
-      "description": "Seaweed composing the Great Atlantic Sargassum Belt hit near-record levels in June 2026, with the Caribbean Sea and Gulf of America both reaching all-time highs.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-29"
     },
     {
       "title": "Look for NASA+ Now Streaming on Amazon Fire TV",
@@ -1216,20 +1296,12 @@
       "date": "2026-07-22"
     },
     {
-      "title": "The journey of Sophie Adenot's bonus food",
-      "description": "Video: 00:05:45 What does it take to send gourmet food to the International Space Station? Follow ESA astronaut Sophie Adenot's bonus menu from a French kitchen to orbit, where chefs, engineers and food specialists work together to transform traditional recipes into meals that are safe for spaceflight, while preserving the flavours, memories and moments of sharing that make them special.",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/The_journey_of_Sophie_Adenot_s_bonus_food",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "NASA Awards 2026 Innovative Technology Concepts",
-      "description": "The NASA Innovative Advanced Concepts (NIAC) program has created 18 new awards to support visionary ideas to improve aerospace technologies in areas ranging from the exploration of the solar system to understanding the universe. The 18 NIAC Phase I awards total $3.2 million. Each award provides up to $175,000 for a nine-month initial investigation. The […]",
-      "link": "https://www.nasa.gov/news-release/nasa-awards-2026-innovative-technology-concepts/",
+      "title": "PRAXIS: Planetary Rings Autonomous EXploration with In-situ Sampling",
+      "description": "Marco QuadrelliNASA Jet Propulsion Laboratory Humanity has never touched the particles of a planetary ring, but if we were able to get close enough and sample them, it will transform understanding of ring structure and origins for Saturn (dense), Uranus and Neptune (tenuous), rings of other objects such as Centaurs Chariklo and Chiron, and even early […]",
+      "link": "https://www.nasa.gov/directorates/stmd/niac/praxis-planetary-rings-autonomous-exploration-with-in-situ-sampling/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-07-29"
+      "date": "2026-07-21"
     },
     {
       "title": "NASA to Showcase Agency’s Newest Wind Tunnel in Virginia",
@@ -1238,6 +1310,14 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-07-22"
+    },
+    {
+      "title": "Precision Astrometry Using Optically Independent Spacecraft for Graviational Wave Detection",
+      "description": "Paul StankusBrookhaven Science Associates The scientific goal is to enable a new method for observing gravitational waves at low frequencies, based on the astrometric GW signature — gravitational waves passing by the Earth will cause a (very small) coordinated apparent motion of all sky objects. Our innovation is to deploy a new approach to precision […]",
+      "link": "https://www.nasa.gov/directorates/stmd/niac/niac-studies/precision-astrometry-using-optically-independent-spacecraft-for-graviational-wave-detection/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-07-21"
     },
     {
       "title": "ECLIPSE – Efficient variable Conductivity Lunar Insulator for Passive Surveyor Environmental control",
@@ -1296,124 +1376,12 @@
       "date": "2026-07-24"
     },
     {
-      "title": "Plato's electronics ready for space",
-      "description": "Image: The European Space Agency’s terrestrial planet hunter Plato has recently completed a series of key tests inside the Maxwell Test Chamber at ESTEC, demonstrating that its electronic equipment is fit to work in space. This photo captures the spacecraft standing inside the special chamber. The shielded enclosure features conducting metal walls, floor, and ceiling that form a Faraday cage, screening out all external interference. Its 9 m-high interior is lined floor to ceiling with foam spikes that absorb electrical signals and sounds to mimic the void of space. Once the chamber was sealed ",
-      "link": "https://www.esa.int/ESA_Multimedia/Images/2026/07/Plato_s_electronics_ready_for_space",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-20"
-    },
-    {
-      "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
-      "description": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch campaigns. Over the coming weeks, engineers and mission teams will carry out a series of rigorous inspections and prepare the satellites to be installed atop their Vega-C rocket for their journey into orbit.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-16"
-    },
-    {
-      "title": "Deep space software upgrade for Hera’s asteroid visit",
-      "description": "Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn.",
-      "link": "https://www.esa.int/Space_Safety/Hera/Deep_space_software_upgrade_for_Hera_s_asteroid_visit",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-08"
-    },
-    {
-      "title": "Robotic Servicing Mission Launches with NASA Support",
-      "description": "Following its liftoff from Cape Canaveral on July 21 aboard a SpaceX Falcon 9 rocket, the Mission Robotic Vehicle (MRV) hosting the NASA-supported Robotic Servicing of Geosynchronous Satellites (RSGS) payload is now en route to geosynchronous Earth orbit, where it will use its advanced robotics to service spacecraft. RSGS leverages in-space robotics expertise from NASA, […]",
-      "link": "https://www.nasa.gov/technology/robotic-servicing-mission-launches-with-nasa-support/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "NASA to Host Media Briefing on Roman Telescope, Launching Next Month",
-      "description": "Media are invited to join NASA for a virtual news conference at 2 p.m. EDT, Wednesday, July 29, to preview the Nancy Grace Roman Space Telescope mission, scheduled to launch from the agency’s Kennedy Space Center in Florida on Sunday, Aug. 30. NASA will stream this event live through a variety of platforms. Learn where […]",
-      "link": "https://www.nasa.gov/news-release/nasa-to-host-media-briefing-on-roman-telescope-launching-next-month/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "A New Compact Instrument Enables High-Fidelity Measurements of Energetic Particles on CubeSats",
-      "description": "A team of NASA-sponsored scientists and engineers has developed a novel approach to observing high-energy particles in the near-Earth space environment, incorporating miniaturized sensors into a compact, multi-view particle detection instrument unlike any before it. Built for NASA’s Relativistic Electron Atmospheric Loss (REAL) CubeSat mission, the innovative instrument (also called REAL) enables more complete measurements […]",
-      "link": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/a-new-compact-instrument-enables-high-fidelity-measurements-of-energetic-particles-on-cubesats/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "Robotically Assembled Electromagnetic Metamaterials for Long-Range Space Situational Awareness",
-      "description": "David SmithDuke University The increasing population of spacefaring vehicles and satellites motivates increasingly powerful technologies for space situational awareness (SSA). While the US space surveillance network (SSN) is able to monitor objects down to about four inches in size using, for example, the latest upgrade to the space fence, the associated requirements limit implementation to ground-based […]",
-      "link": "https://www.nasa.gov/directorates/stmd/niac/robotically-assembled-electromagnetic-metamaterials-for-long-range-space-situational-awareness/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "Mapping Alien Continents: Achieving Optical VLBI for Exoplanet Imaging",
-      "description": "Paul StankusBrookhaven Science Associates The scientific goal of the proposed work will be reconstructing the image, ie resolving surface features, of an Earth-like exoplanet around a nearby star as seen in visible light. The innovation is in two stages. First, the design of a new kind of nulling interferometer — “dynamic hierarchical nulling” — combining inputs […]",
-      "link": "https://www.nasa.gov/directorates/stmd/mapping-alien-continents-achieving-optical-vlbi-for-exoplanet-imaging/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-21"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
-      "description": "The Starlink 17-53 mission is the 90th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 10:05 a.m. PDT (1:05 p.m. EDT / 1705 UTC).",
-      "link": "https://spaceflightnow.com/2026/08/04/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-13/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Post-ignition anomaly causes abort of SpaceX’s Starship Flight 13",
-      "description": "The mission will also test out a series of improvements to the launcher to help push it closer to full reusability. Liftoff from pad 2 at Starbase, Texas, was aborted at ignition due to an engine-related issue.",
-      "link": "https://spaceflightnow.com/2026/07/16/live-coverage-spacex-to-deploy-first-starlink-v3-satellites-on-suborbital-starship-super-heavy-flight/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-16"
-    },
-    {
-      "title": "SpaceX launches a flight-proven Falcon booster for 600th time",
-      "description": "The Starlink 10-45 mission added another 29 broadband internet satellites to SpaceX’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 5:10 a.m. EDT (0910 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/13/live-coverage-spacex-to-launch-a-flight-proven-falcon-booster-for-600th-time/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-13"
-    },
-    {
-      "title": "Neptune's Inner Moons May Be Shattered Remains of Ancient Icy Worlds",
-      "description": "In 1989, the Voyager 2 mission discovered six new moons orbiting Neptune, including five tiny ones that orbit just outside the planet's main rings. Because of their small sizes and locations, these satellites have been difficult to study from Earth. Now, using NASA's James Webb Space Telescope (JWST), a team of Caltech researchers has observed Neptune's rings and three of those moons—Larissa, Galatea, and Proteus—and found that their composition is unique among outer solar system bodies.These findings point to the existence of an original moon system that was demolished when Triton, Neptune's ",
-      "link": "https://www.caltech.edu/about/news/neptunes-inner-moons-may-be-shattered-remains-of-ancient-icy-worlds",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "New European exercise device begins testing with first rope-pulling workout in space",
-      "description": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative ways to keep astronauts healthy during long-duration space missions.",
-      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-08"
-    },
-    {
       "title": "Unpacking Europe’s new weather imagers",
       "description": "The second Meteosat Third Generation Imager satellite (MTG-I2) has begun its launch campaign, during which it will go through final inspections before being fitted inside the fairing of the Ariane 6 rocket that will launch it into space towards the end of the summer. So how will this 3800 kg satellite help improve weather forecasts for Europe and North Africa?",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Unpacking_Europe_s_new_weather_imagers",
       "source": "ESA",
       "field": "space",
       "date": "2026-07-07"
-    },
-    {
-      "title": "The most spectacular aurora of the εpsilon mission (so far!)",
-      "description": "Video: 00:01:17 This timelapse was published on social media by ESA astronaut Sophie Adenot with the following caption: Day 139, orbit 2155 — After the pictures (available in HD on my Flickr account), I'm so happy to finally share the timelapse of the most spectacular aurora of the εpsilon mission so far! Watching this glowing green ribbon shimmer and dance, it's easy to lose yourself completely in the magic of the moment. Turn the sound on for the full experience – the music was carefully chosen to bring you as close as possible to what I felt watching this from space . -- Jour 139, orbite 21",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/The_most_spectacular_aurora_of_the_epsilon_mission_so_far!",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-07-03"
     },
     {
       "title": "New Cohort of KISS Study Programs Push the Frontiers of Space Exploration",
@@ -1432,22 +1400,6 @@
       "date": "2026-08-05"
     },
     {
-      "title": "MIT-designed educational factory embraces modern manufacturing",
-      "description": "MIT and Tec de Monterrey will expand FrED curriculum to universities across Mexico.",
-      "link": "https://news.mit.edu/2026/mit-designed-educational-factory-embraces-modern-manufacturing-0708",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-08"
-    },
-    {
-      "title": "Architecting a Better Lithium-Ion Battery",
-      "description": "Since the early 2000s, lithium-ion (Li-ion) batteries have become the predominant rechargeable power source for many mobile devices, electric vehicles, renewable-energy storage grids, and more. But the Li-ion batteries in commercial use carry both safety risks and limitations. Julia R. Greer, the Ruben F. and Donna Mettler Professor of Materials Science, Mechanics and Medical Engineering at Caltech, whose lab has been working to improve Li-ion batteries, now has established a new path toward making them less dangerous and more environmentally friendly, while also boosting performance.\"We've de",
-      "link": "https://www.caltech.edu/about/news/architecting-a-better-lithium-ion-battery",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-06-23"
-    },
-    {
       "title": "NASA’s new dark energy space telescope can also detect killer asteroids",
       "description": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its quest is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion of the cosmos.…",
       "link": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
@@ -1456,74 +1408,58 @@
       "date": "2026-08-05"
     },
     {
-      "title": "Here’s why AI agents lie and cheat to reach their goals",
-      "description": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers…",
-      "link": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
-      "description": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
-      "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
-      "description": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point, according to the U.S. Department of Energy. Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure",
-      "link": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
-      "source": "IEEE Spectrum",
-      "field": "technology",
+      "title": "SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral",
+      "description": "The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC).",
+      "link": "https://spaceflightnow.com/2026/08/05/live-coverage-spacex-to-launch-3-ast-spacemobile-bluebird-satellites-on-falcon-9-rocket-from-cape-canaveral/",
+      "source": "Spaceflight Now",
+      "field": "space",
       "date": "2026-08-05"
     },
     {
-      "title": "How worried should you be about West Nile virus?",
-      "description": "Justin Remais, a UC Berkeley professor of public health, explains how to protect yourself from this mosquito-borne disease The post How worried should you be about West Nile virus? appeared first on Berkeley News.",
-      "link": "https://publichealth.berkeley.edu/articles/news/commentary/how-worried-should-you-be-about-west-nile-virus",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-08-03"
+      "title": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB",
+      "description": "The Starlink 17-53 mission is the 90th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 10:05 a.m. PDT (1:05 p.m. EDT / 1705 UTC).",
+      "link": "https://spaceflightnow.com/2026/08/04/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-13/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-08-04"
     },
     {
-      "title": "Identifying the Root Cause of Electronics Failures With Simulation Apps",
-      "description": "This article is brought to you by COMSOL. In pursuit of improved range, greater reliability, and faster charging, electric vehicles are driving the demand for high-voltage electronics. Other applications driving this demand include wind farms, data centers, and server farms, to name a few. As the interest for high-voltage electronics increases, the risks associated with their sudden failure must be considered. Much of what causes high-voltage equipment to malfunction can be linked to the conditions of the climate in which it operates. Specifically, condensation on electronic surfaces caused by",
-      "link": "https://spectrum.ieee.org/electronics-corrosion-multiphysics-simulation",
+      "title": "Live coverage: SpaceX to launch classified payload for National Reconnaissance Office",
+      "description": "The NROL-95 mission will be the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 3:09 a.m. EDT (0709 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/29/live-coverage-spacex-to-launch-classified-payload-for-national-reconnaissance-office/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Super Heavy-Starship rocket chalks up mostly successful test flight",
+      "description": "Powered by 33 methane-fueled Raptor engines, the 397-foot-tall two-stage rocket blasted off from SpaceX's \"Starbase,\" Texas, launch site at 5:51 p.m. EDT, putting on a spectacular show for area residents and tourists as it climbed away atop some 16 million pounds of thrust.",
+      "link": "https://spaceflightnow.com/2026/07/25/super-heavy-starship-rocket-chalks-up-mostly-successful-test-flight/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-25"
+    },
+    {
+      "title": "Live coverage: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work",
+      "description": "The flight comes as Tropical Storm Bertha is expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/23/live-coverage-spacex-ready-for-2nd-attempt-to-launch-starship-flight-13-following-post-abort-engine-work/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-23"
+    },
+    {
+      "title": "This hydrogen turbine turns controlled explosions into electricity",
+      "description": "Scientists have successfully generated electricity with a hydrogen turbine that produces its own pressure through detonation waves instead of relying on a mechanical compressor. The breakthrough could unlock dramatically more efficient power systems for clean energy and future aviation.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260803080919.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "IEEE Publishing Ethics Team Upholds Research Integrity",
+      "description": "Given a rising number of publishing misconduct allegations, IEEE in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps IEEE volunteers write new policies. Here are some highlights of the team’s activities last year. New detection tools IEEE conducted a pilot program in 2024 to integrate tools from the International Association of Scientific, Technical, and Medical Publishers (STM) Integrity Hub into the peer-review workflow of IEEE Access",
+      "link": "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
       "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "Trump’s AI protectionism has come for robotics",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s a nascent industry, and such robots…",
-      "link": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "Amid trend in health optimization, Berkeley scientists focus on optimizing the brain",
-      "description": "What’s a healthy body without a healthy brain? Neurologists, neuroscientists and psychologists unite to find metrics for brain health and effective training to improve it. The post Amid trend in health optimization, Berkeley scientists focus on optimizing the brain appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/08/03/amid-trend-in-health-optimization-berkeley-scientists-focus-on-brain-optimization/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "Detect Dark Matter’s Mark From Your Backyard",
-      "description": "If you’re wondering what dark matter is, you’re not alone. Astronomers don’t know. But they’ve determined that this invisible material must be far more abundant than the stars and nebulas that they can see. They’ve surmised as much from observing the gravitational effects of all this perplexing dark stuff, launching a decades-long campaign to understand its nature. I recently learned that it is possible to sense the presence of dark matter using a small radio telescope such as the Discovery Dish covered in these pages last year. The trick is to know what observations to collect and how to anal",
-      "link": "https://spectrum.ieee.org/dark-matter",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
-      "description": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once its treatment is rubber-stamped, the…",
-      "link": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
-      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-07-30"
     },
@@ -1550,14 +1486,6 @@
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-07-27"
-    },
-    {
-      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
-      "description": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first space-bound “active” coronagraph, an instrument that effectively erases most of the light from a star during photography. It will allow astronomers…",
-      "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
-      "source": "MIT Tech Review",
-      "field": "space",
-      "date": "2026-07-22"
     },
     {
       "title": "UC Berkeley researchers create new metamaterials inspired by deep-sea sponges",
@@ -1592,6 +1520,22 @@
       "date": "2026-07-15"
     },
     {
+      "title": "This new alloy is up to 10 times stronger than steel and surprisingly flexible",
+      "description": "Engineers have transformed a notoriously brittle cobalt-aluminum compound into a material that is both extremely strong and capable of bending without breaking. Their nanoscale design produced a yield strength about six to 10 times greater than high-strength structural steel while sustaining substantial deformation at room temperature. The approach could enable tougher turbine blades and higher-performance engines.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260729051524.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-31"
+    },
+    {
+      "title": "World-first photonic time crystal opens a new era of light control",
+      "description": "Scientists have built the first all-optical photonic time crystal, allowing them to reshape the behavior of terahertz light at extraordinary speeds. The breakthrough could open the door to ultrafast computing, smarter communication systems, advanced imaging, and a new generation of highly tunable lasers.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260731034131.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-31"
+    },
+    {
       "title": "A tiny molecular basket unlocks a powerful new kind of chemistry",
       "description": "Rice University chemists have found a new way to make neodymium, a rare-earth metal, interact with oxygen. Using a specially designed molecular structure described as a “basket,” the team positioned the atoms so they could form a bond once thought unlikely. The breakthrough produced highly reactive compounds that could eventually give chemists alternatives to iron-based molecules used in biological reactions and chemical manufacturing.",
       "link": "https://www.sciencedaily.com/releases/2026/07/260724061452.htm",
@@ -1600,68 +1544,36 @@
       "date": "2026-07-29"
     },
     {
-      "title": "SpaceX launches 3 AST SpaceMobile BlueBird satellites on Falcon 9 rocket from Cape Canaveral",
-      "description": "The BlueBird 11-13 mission was the third time SpaceX flew satellites to orbit supporting AST SpaceMobile’s direct-to-device constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 3:49 a.m. EDT (0749 UTC).",
-      "link": "https://spaceflightnow.com/2026/08/05/live-coverage-spacex-to-launch-3-ast-spacemobile-bluebird-satellites-on-falcon-9-rocket-from-cape-canaveral/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-08-05"
-    },
-    {
-      "title": "The System That Turned Paper Charts Into Digital Medical Records",
-      "description": "Most hospitals and health care providers use electronic health records instead of paper charts to note patient vaccinations, diagnoses, and procedures. AthenaOne, Epic, and Oracle Health are some of the systems employed around the world. Many patients can access their electronic medical records from home. The platforms exist thanks to pioneering efforts such as the Medical Information System (MIS-I). The first hospital-wide computer system, it was developed in the 1960s by Lockheed Martin (then known as Lockheed Missiles and Space Co.) in partnership with El Camino Hospital, in Mountain View, ",
-      "link": "https://spectrum.ieee.org/ieee-milestone-digital-medical-records",
-      "source": "IEEE Spectrum",
+      "title": "Detection schemes could deter putting nuclear warheads in space",
+      "description": "Three approaches—including one that exploits Earth’s radiation belts—could help enforce ban on orbital nuclear weapons",
+      "link": "https://www.science.org/content/article/detection-schemes-could-deter-putting-nuclear-warheads-space",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-08-03"
+      "date": "2026-07-08"
     },
     {
-      "title": "This Hi-Fi Tape Recorder Changed Radio Forever",
-      "description": "A German engineer wanted a cheaper cigarette. The popular crooner Bing Crosby wanted a vacation. Satisfying both desires inadvertently led to the invention of the laugh track. Along the way there were Nazis, spoils of war, and more than one accidental encounter. Tying together this quirky history is the Magnetophon. What Was the Magnetophon? The Magnetophon was a high-fidelity reel-to-reel magnetic tape recorder. The hit of the Berlin Radio Show when it debuted in 1935, it was developed by the German electronics manufacturer AEG. The magnetic tape was produced by I.G. Farben (now known as BASF",
-      "link": "https://spectrum.ieee.org/magnetophon-laugh-track",
-      "source": "IEEE Spectrum",
+      "title": "Caltech Mourns the Passing of Mark B. Wise (1953–2026)",
+      "description": "Mark B. Wise, Caltech's John A. McCone Professor of High Energy Physics, passed away on July 10, 2026. He was 72.Wise, a particle physicist whose research focused on the fundamental constituents of matter and their interactions, played a key role in the development of the heavy quark effective theory (HQET), a formalism that has allowed physicists to make precise predictions in the study of strong nuclear interactions—the most powerful of the fundamental forces of nature. The strong nuclear force serves as the subatomic \"glue\" that binds quarks together into protons and neutrons, and those pro",
+      "link": "https://www.caltech.edu/about/news/caltech-mourns-the-passing-of-mark-b-wise-19532026",
+      "source": "Caltech",
       "field": "technology",
-      "date": "2026-08-02"
+      "date": "2026-07-13"
     },
     {
-      "title": "IEEE Publishing Ethics Team Upholds Research Integrity",
-      "description": "Given a rising number of publishing misconduct allegations, IEEE in 2022 created the Publishing Ethics Team as a centralized department to assist in handling claims. The group also works to increase the organization’s visibility in the broader publishing ethics area and helps IEEE volunteers write new policies. Here are some highlights of the team’s activities last year. New detection tools IEEE conducted a pilot program in 2024 to integrate tools from the International Association of Scientific, Technical, and Medical Publishers (STM) Integrity Hub into the peer-review workflow of IEEE Access",
-      "link": "https://spectrum.ieee.org/ieee-publishing-ethics-research-integrity",
-      "source": "IEEE Spectrum",
+      "title": "Ana Miljački named head of the Department of Architecture",
+      "description": "In this leadership role, Miljački seeks to shepherd a collective commitment to transform the present into a better future.",
+      "link": "https://news.mit.edu/2026/ana-miljacki-named-head-department-architecture-0708",
+      "source": "MIT News",
       "field": "technology",
-      "date": "2026-07-30"
+      "date": "2026-07-08"
     },
     {
-      "title": "Live coverage: SpaceX to launch classified payload for National Reconnaissance Office",
-      "description": "The NROL-95 mission will be the third payload for the National Reconnaissance Office launched under the National Security Space Launch Phase 2 procurement. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 3:09 a.m. EDT (0709 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/29/live-coverage-spacex-to-launch-classified-payload-for-national-reconnaissance-office/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-29"
-    },
-    {
-      "title": "Super Heavy-Starship rocket chalks up mostly successful test flight",
-      "description": "Powered by 33 methane-fueled Raptor engines, the 397-foot-tall two-stage rocket blasted off from SpaceX's \"Starbase,\" Texas, launch site at 5:51 p.m. EDT, putting on a spectacular show for area residents and tourists as it climbed away atop some 16 million pounds of thrust.",
-      "link": "https://spaceflightnow.com/2026/07/25/super-heavy-starship-rocket-chalks-up-mostly-successful-test-flight/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-25"
-    },
-    {
-      "title": "Critical NASA Deep Space ground station in Spain evacuated due to wildfires",
-      "description": "The Madrid Deep Space Communications Complex is one of three critical sites around the world that communicate with spacecraft beyond the reach of near-Earth communications capabilities.",
-      "link": "https://spaceflightnow.com/2026/07/24/critical-nasa-deep-space-ground-station-in-spain-evacuated-due-to-wildfires/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-24"
-    },
-    {
-      "title": "Live coverage: SpaceX ready for 2nd attempt to launch Starship Flight 13 following post-abort engine work",
-      "description": "The flight comes as Tropical Storm Bertha is expected to make landfall in Texas on Thursday. Liftoff of the Starship Flight 13 mission is scheduled during a 90-minute window that opens at 5:45 p.m. CDT (6:45 p.m. EDT / 2245 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/23/live-coverage-spacex-ready-for-2nd-attempt-to-launch-starship-flight-13-following-post-abort-engine-work/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-23"
+      "title": "MIT researcher proposes a way to detect nuclear weapons in space",
+      "description": "The 1967 Outer Space Treaty bans nuclear weapons in space, but there’s currently no way to verify that satellites aren’t carrying them.",
+      "link": "https://news.mit.edu/2026/mit-researcher-proposes-way-to-detect-nuclear-weapons-in-space-0708",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-08"
     },
     {
       "title": "Live coverage: SpaceX tries again to launch Starlink mission from California following abort",
@@ -1680,12 +1592,12 @@
       "date": "2026-07-21"
     },
     {
-      "title": "SpaceX suffers rare, last-second Falcon 9 rocket launch abort",
-      "description": "The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/20/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-11/",
+      "title": "Post-ignition anomaly causes abort of SpaceX’s Starship Flight 13",
+      "description": "The mission will also test out a series of improvements to the launcher to help push it closer to full reusability. Liftoff from pad 2 at Starbase, Texas, was aborted at ignition due to an engine-related issue.",
+      "link": "https://spaceflightnow.com/2026/07/16/live-coverage-spacex-to-deploy-first-starlink-v3-satellites-on-suborbital-starship-super-heavy-flight/",
       "source": "Spaceflight Now",
       "field": "space",
-      "date": "2026-07-20"
+      "date": "2026-07-16"
     },
     {
       "title": "SpaceX launches 21 communications satellites for the Space Development Agency",
@@ -1696,9 +1608,9 @@
       "date": "2026-07-16"
     },
     {
-      "title": "SpaceX launches 27 Starlink satellites on Falcon 9 rocket from Vandenberg",
-      "description": "The Starlink 15-14 mission will add another 27 broadband internet satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:28:17 p.m. PDT (9:28:17 p.m. EDT / 0128:17 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/13/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-6/",
+      "title": "SpaceX launches a flight-proven Falcon booster for 600th time",
+      "description": "The Starlink 10-45 mission added another 29 broadband internet satellites to SpaceX’s low Earth orbit constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 5:10 a.m. EDT (0910 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/13/live-coverage-spacex-to-launch-a-flight-proven-falcon-booster-for-600th-time/",
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-07-13"
@@ -1712,20 +1624,132 @@
       "date": "2026-07-09"
     },
     {
-      "title": "Fire detectors, military tech demos, 3D printers among SpaceX rideshare payloads launching on midnight Falcon 9 flight",
-      "description": "SpaceX launched a series of 81 payloads to a Sun-synchronous Earth orbit over a roughly 2.5-hour-long deployment period. Liftoff from pad 4E at Vandenberg Space Force Base happened at 12:12 a.m. PDT (0312 EDT / 0712 UTC).",
-      "link": "https://spaceflightnow.com/2026/07/06/live-coverage-fire-detectors-military-tech-demos-3d-printers-among-spacex-rideshare-payloads-launching-on-midnight-falcon-9-flight/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-07-06"
-    },
-    {
       "title": "Semiconductor manufacturing test bed flies alongside Starlink satellites on Falcon 9 launch",
       "description": "Liftoff of the Starlink 10-50 mission from Space Launch Complex 40 happened at 6:50 a.m. EDT (1050 UTC). The rocket's first-stage booster carried two semiconductor manufacturing pods for Besxar Space Industries.",
       "link": "https://spaceflightnow.com/2026/07/04/live-coverage-semiconductor-manufacturing-test-bed-to-fly-alongside-starlink-satellites-on-falcon-9-launch/",
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-07-04"
+    },
+    {
+      "title": "Neptune's Inner Moons May Be Shattered Remains of Ancient Icy Worlds",
+      "description": "In 1989, the Voyager 2 mission discovered six new moons orbiting Neptune, including five tiny ones that orbit just outside the planet's main rings. Because of their small sizes and locations, these satellites have been difficult to study from Earth. Now, using NASA's James Webb Space Telescope (JWST), a team of Caltech researchers has observed Neptune's rings and three of those moons—Larissa, Galatea, and Proteus—and found that their composition is unique among outer solar system bodies.These findings point to the existence of an original moon system that was demolished when Triton, Neptune's ",
+      "link": "https://www.caltech.edu/about/news/neptunes-inner-moons-may-be-shattered-remains-of-ancient-icy-worlds",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Deep space software upgrade for Hera’s asteroid visit",
+      "description": "Operating across 140 million km of space, the control team for ESA’s Hera mission have succeeded in upgrading the software running the spacecraft, leaving it ready to explore the distant Dimorphos and Didymos asteroids this autumn.",
+      "link": "https://www.esa.int/Space_Safety/Hera/Deep_space_software_upgrade_for_Hera_s_asteroid_visit",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "SpaceX launches 27 Starlink satellites on Falcon 9 rocket from Vandenberg",
+      "description": "The Starlink 15-14 mission will add another 27 broadband internet satellites to the low Earth orbit constellation. Liftoff from pad 4E at Vandenberg Space Force Base happened at 6:28:17 p.m. PDT (9:28:17 p.m. EDT / 0128:17 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/13/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-6/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "New European exercise device begins testing with first rope-pulling workout in space",
+      "description": "ESA astronaut Sophie Adenot has begun testing the European Enhanced Exploration Exercise Device (E4D) on the International Space Station. Installed inside ESA's Columbus laboratory, the new exercise system will spend the next two years helping researchers evaluate innovative ways to keep astronauts healthy during long-duration space missions.",
+      "link": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/New_European_exercise_device_begins_testing_with_first_rope-pulling_workout_in_space",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "MIT-designed educational factory embraces modern manufacturing",
+      "description": "MIT and Tec de Monterrey will expand FrED curriculum to universities across Mexico.",
+      "link": "https://news.mit.edu/2026/mit-designed-educational-factory-embraces-modern-manufacturing-0708",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-08"
+    },
+    {
+      "title": "Jesse Thaler named director of the Laboratory for Nuclear Science",
+      "description": "The professor of physics and inaugural director of the NSF AI Institute for Artificial Intelligence and Fundamental Interactions will lead LNS and continue his research in particle physics.",
+      "link": "https://news.mit.edu/2026/jesse-thaler-named-director-laboratory-nuclear-science-0707",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-07"
+    },
+    {
+      "title": "The most spectacular aurora of the εpsilon mission (so far!)",
+      "description": "Video: 00:01:17 This timelapse was published on social media by ESA astronaut Sophie Adenot with the following caption: Day 139, orbit 2155 — After the pictures (available in HD on my Flickr account), I'm so happy to finally share the timelapse of the most spectacular aurora of the εpsilon mission so far! Watching this glowing green ribbon shimmer and dance, it's easy to lose yourself completely in the magic of the moment. Turn the sound on for the full experience – the music was carefully chosen to bring you as close as possible to what I felt watching this from space . -- Jour 139, orbite 21",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/07/The_most_spectacular_aurora_of_the_epsilon_mission_so_far!",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-07-03"
+    },
+    {
+      "title": "IEEE Course Teaches How to Use AI to Modernize Power Grids",
+      "description": "Today’s U.S. electrical grid, among the largest, most complex systems ever built, is operating at its limit. The combination of rapid industrial growth, more frequent extreme weather, and a record surge in electricity use has pushed the grid to its breaking point, according to the U.S. Department of Energy. Built decades ago for a more predictable world in which power came mostly from centralized coal or gas plants and electricity use grew at a steady pace, the grid faces unanticipated strain due in part to growing demand from data centers. The jobs of professionals managing the infrastructure",
+      "link": "https://spectrum.ieee.org/ieee-course-ai-power-grids",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-08-05"
+    },
+    {
+      "title": "Identifying the Root Cause of Electronics Failures With Simulation Apps",
+      "description": "This article is brought to you by COMSOL. In pursuit of improved range, greater reliability, and faster charging, electric vehicles are driving the demand for high-voltage electronics. Other applications driving this demand include wind farms, data centers, and server farms, to name a few. As the interest for high-voltage electronics increases, the risks associated with their sudden failure must be considered. Much of what causes high-voltage equipment to malfunction can be linked to the conditions of the climate in which it operates. Specifically, condensation on electronic surfaces caused by",
+      "link": "https://spectrum.ieee.org/electronics-corrosion-multiphysics-simulation",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "description": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once its treatment is rubber-stamped, the…",
+      "link": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-07-30"
+    },
+    {
+      "title": "Shape-shifting mirrors on NASA’s new space telescope could unveil Jupiters like our own",
+      "description": "When NASA’s Nancy Grace Roman Space Telescope launches, as early as the end of next month, it will attempt one of astronomy’s most precise disappearing acts to date. The telescope will carry the first space-bound “active” coronagraph, an instrument that effectively erases most of the light from a star during photography. It will allow astronomers…",
+      "link": "https://www.technologyreview.com/2026/07/22/1140701/shape-shifting-mirrors-roman-space-telescope/",
+      "source": "MIT Tech Review",
+      "field": "space",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "The System That Turned Paper Charts Into Digital Medical Records",
+      "description": "Most hospitals and health care providers use electronic health records instead of paper charts to note patient vaccinations, diagnoses, and procedures. AthenaOne, Epic, and Oracle Health are some of the systems employed around the world. Many patients can access their electronic medical records from home. The platforms exist thanks to pioneering efforts such as the Medical Information System (MIS-I). The first hospital-wide computer system, it was developed in the 1960s by Lockheed Martin (then known as Lockheed Missiles and Space Co.) in partnership with El Camino Hospital, in Mountain View, ",
+      "link": "https://spectrum.ieee.org/ieee-milestone-digital-medical-records",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-08-03"
+    },
+    {
+      "title": "Critical NASA Deep Space ground station in Spain evacuated due to wildfires",
+      "description": "The Madrid Deep Space Communications Complex is one of three critical sites around the world that communicate with spacecraft beyond the reach of near-Earth communications capabilities.",
+      "link": "https://spaceflightnow.com/2026/07/24/critical-nasa-deep-space-ground-station-in-spain-evacuated-due-to-wildfires/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-24"
+    },
+    {
+      "title": "SpaceX suffers rare, last-second Falcon 9 rocket launch abort",
+      "description": "The Starlink 17-39 mission is SpaceX’s 85th Falcon 9 rocket launch of the year. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 7:49 a.m. PDT (10:49 a.m. EDT / 1449 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/20/live-coverage-spacex-to-launch-24-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-11/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-20"
+    },
+    {
+      "title": "Fire detectors, military tech demos, 3D printers among SpaceX rideshare payloads launching on midnight Falcon 9 flight",
+      "description": "SpaceX launched a series of 81 payloads to a Sun-synchronous Earth orbit over a roughly 2.5-hour-long deployment period. Liftoff from pad 4E at Vandenberg Space Force Base happened at 12:12 a.m. PDT (0312 EDT / 0712 UTC).",
+      "link": "https://spaceflightnow.com/2026/07/06/live-coverage-fire-detectors-military-tech-demos-3d-printers-among-spacex-rideshare-payloads-launching-on-midnight-falcon-9-flight/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-07-06"
     }
   ]
 }
