@@ -1,19 +1,19 @@
 {
   "date": "2026-08-20",
-  "lastUpdated": "2026-08-20T16:28:16.215Z",
+  "lastUpdated": "2026-08-20T20:21:30.213Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "26.5s",
+    "executionTime": "26.0s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 31,
-    "totalCandidates": 231,
-    "totalSelected": 228,
+    "sourcesSuccessful": 29,
+    "totalCandidates": 234,
+    "totalSelected": 234,
     "entriesByField": {
       "health": 19,
       "climate": 35,
       "energy": 6,
       "technology": 66,
-      "education": 3,
+      "education": 9,
       "development": 21,
       "peace": 12,
       "space": 66
@@ -32,11 +32,11 @@
         "changed": 0
       },
       "technology": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "education": {
-        "kept": 0,
+        "kept": 6,
         "changed": 0
       },
       "development": {
@@ -52,33 +52,17 @@
         "changed": 0
       },
       "space": {
-        "kept": 2,
+        "kept": 0,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 22,
-      "topTierSources": 149,
-      "highCredibilitySources": 200
+      "highScoreEntries": 27,
+      "topTierSources": 155,
+      "highCredibilitySources": 206
     }
   },
   "entries": [
-    {
-      "title": "[Articles] High-dose chemotherapy followed by autologous stem-cell transplantation versus non-myeloablative consolidation in primary CNS lymphoma (MATRix/IELSG43): a randomised phase 3 trial",
-      "description": "In the largest randomised trial in untreated PCNSL to date, HCT–ASCT significantly improved progression-free and overall survival compared with non-myeloablative consolidation in patients who had completed induction treatment, establishing it as the preferred consolidation strategy in fit patients.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00917-7/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
-      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-04"
-    },
     {
       "title": "High prices and funding cuts stall HIV prevention revolution",
       "description": "The AIDS epidemic could stage a comeback amid unequal access to breakthrough prevention medicines and a sharp decline in global funding, according to a UN report released on Monday ahead of the opening of the 26th International AIDS Conference in Rio de Janeiro, Brazil.",
@@ -112,12 +96,60 @@
       "date": "2026-07-23"
     },
     {
+      "title": "[Articles] High-dose chemotherapy followed by autologous stem-cell transplantation versus non-myeloablative consolidation in primary CNS lymphoma (MATRix/IELSG43): a randomised phase 3 trial",
+      "description": "In the largest randomised trial in untreated PCNSL to date, HCT–ASCT significantly improved progression-free and overall survival compared with non-myeloablative consolidation in patients who had completed induction treatment, establishing it as the preferred consolidation strategy in fit patients.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00917-7/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-07-22"
+    },
+    {
       "title": "UN report: Global hunger levels ease for third consecutive year as regional disparities persist",
       "description": "Global hunger declined for a third consecutive year in 2025, demonstrating that progress is possible. However, the improvements remain fragile, unevenly distributed and insufficient to achieve the Sustainable Development Goals by 2030, according to The State of Food Security and Nutrition in the World 2026 (SOFI 2026) report, released on Tuesday by five United Nations specialized agencies.",
       "link": "https://www.who.int/news/item/21-07-2026-un-report--global-hunger-levels-ease-for-third-consecutive-year-as-regional-disparities-persist",
       "source": "WHO",
       "field": "health",
       "date": "2026-07-21"
+    },
+    {
+      "title": "DR Congo: Ebola is killing people before they ever reach a doctor",
+      "description": "More than 1,900 people have died in the Democratic Republic of the Congo's Ebola outbreak – and most of them never made it to a treatment centre. Between 60 and 70 per cent of deaths are happening in communities far from care, a gap that is now central to the World Health Organization's response.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168105",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-10"
+    },
+    {
+      "title": "Ebola virus reaches displacement camps in DR Congo",
+      "description": "Agencies are on high alert amid reports that the rapidly spreading Ebola Bundibugyo virus species in the Democratic Republic of the Congo (DRC) has infected 19 internally displaced people, killed five of them, according to the UN’s refugee agency (UNHCR).",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168092",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-06"
+    },
+    {
+      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
+      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Cyberattacks and the digital divide are creating new barriers to HIV services",
+      "description": "Cyberattacks, data breaches, online harassment and other forms of technology-facilitated violence are becoming significant obstacles to HIV prevention and treatment, according to a UNAIDS specialist who says digital security has become inseparable from the fight against the epidemic itself.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1168030",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-07-27"
+    },
+    {
+      "title": "Women football stars team up to kick polio out of Africa",
+      "description": "DAKAR, 22 July 2026 – Just days before the Women’s Africa Cup of Nations (WAFCON) kicks off, African women footballers are calling on leaders across the continent to renew their political commitment, sustain investment and take collective action to protect every child from polio and other vaccine-preventable diseases. Launched by the Global Polio Eradication Initiative […]",
+      "link": "https://polioeradication.org/news/women-football-stars-team-up-to-kick-polio-out-of-africa/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-07-22"
     },
     {
       "title": "Road deaths fall by 21% globally but stronger action is needed to save lives",
@@ -144,28 +176,12 @@
       "date": "2026-08-12"
     },
     {
-      "title": "DR Congo: Ebola is killing people before they ever reach a doctor",
-      "description": "More than 1,900 people have died in the Democratic Republic of the Congo's Ebola outbreak – and most of them never made it to a treatment centre. Between 60 and 70 per cent of deaths are happening in communities far from care, a gap that is now central to the World Health Organization's response.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168105",
+      "title": "Wildfires surge across Europe as Spain and France battle major blazes",
+      "description": "The amount of land burned by wildfires across Europe has increased by 57 per cent in four years, according to new data from the World Health Organization (WHO) in Europe.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1168013",
       "source": "UN News Health",
       "field": "health",
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Ebola virus reaches displacement camps in DR Congo",
-      "description": "Agencies are on high alert amid reports that the rapidly spreading Ebola Bundibugyo virus species in the Democratic Republic of the Congo (DRC) has infected 19 internally displaced people, killed five of them, according to the UN’s refugee agency (UNHCR).",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168092",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-06"
-    },
-    {
-      "title": "Cyberattacks and the digital divide are creating new barriers to HIV services",
-      "description": "Cyberattacks, data breaches, online harassment and other forms of technology-facilitated violence are becoming significant obstacles to HIV prevention and treatment, according to a UNAIDS specialist who says digital security has become inseparable from the fight against the epidemic itself.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1168030",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-07-27"
+      "date": "2026-07-24"
     },
     {
       "title": "GPEI High-Level Interview: UNICEF Executive Director Catherine Russell",
@@ -184,28 +200,12 @@
       "date": "2026-07-23"
     },
     {
-      "title": "Women football stars team up to kick polio out of Africa",
-      "description": "DAKAR, 22 July 2026 – Just days before the Women’s Africa Cup of Nations (WAFCON) kicks off, African women footballers are calling on leaders across the continent to renew their political commitment, sustain investment and take collective action to protect every child from polio and other vaccine-preventable diseases. Launched by the Global Polio Eradication Initiative […]",
-      "link": "https://polioeradication.org/news/women-football-stars-team-up-to-kick-polio-out-of-africa/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-07-22"
-    },
-    {
       "title": "WHO marks 25 years of Research4Life, advancing access to scientific knowledge in more than 120 countries",
       "description": "The World Health Organization (WHO) today marks the 25th anniversary of Research4Life, a public-private partnership that provides researchers, educators, health professionals and policy-makers in low- and middle-income countries with affordable or free access to scientific knowledge. The partnership has helped dramatically expand access to scientific knowledge for researchers, educators, health professionals and policy-makers in more than 120 countries.",
       "link": "https://www.who.int/news/item/21-07-2026-who-marks-25-years-of-research4life--advancing-access-to-scientific-knowledge-in-more-than-120-countries",
       "source": "WHO",
       "field": "health",
       "date": "2026-07-20"
-    },
-    {
-      "title": "Wildfires surge across Europe as Spain and France battle major blazes",
-      "description": "The amount of land burned by wildfires across Europe has increased by 57 per cent in four years, according to new data from the World Health Organization (WHO) in Europe.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1168013",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-07-24"
     },
     {
       "title": "Science for the final mile: Researchers gather to shape the future of polio eradication",
@@ -256,12 +256,44 @@
       "date": "2026-08-04"
     },
     {
+      "title": "Lights, camera, seafood! Bertha Fontaine and the Fisheries Test Kitchen",
+      "description": "Lights, camera, seafood! Bertha Fontaine and the Fisheries Test Kitchen Fontaine (center) frequently demonstrated seafood recipes on television programs. (Image credit: NOAA Magazine, Volume 2 Number 3, July 1972) Download Image July 20, 2026 As the U.S. government expanded its effort in the 1950s and 1960s to promote American seafood, the need for charismatic spokespeople became clear — people like Bertha Fontaine. The scene: Boxy television cameras point toward a brightly lit table. Plates of meticulously styled seafood ingredients sit between charming decorations. With her hair in a volumin",
+      "link": "https://www.noaa.gov/heritage/stories/lights-camera-seafood-bertha-fontaine-and-fisheries-test-kitchen",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-17"
+    },
+    {
       "title": "Protecting our ‘most vital infrastructure’: Pushing back on desertification",
       "description": "As heatwaves are turning deadlier, fires and disasters are razing cities — and rising seas are erasing territories — one environmental crisis remains dangerously overlooked: the degradation of the land beneath our feet.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168156",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-08-17"
+    },
+    {
+      "title": "World marks second warmest July on record",
+      "description": "As multiple regions contend with unbearable heat, drought, wildfires and other extreme weather, the World Meteorological Organization (WMO) on Tuesday underlined the crucial need for stronger forecasts and early warning systems to protect lives and livelihoods.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168115",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Improved reporting needed on forest carbon emissions",
+      "description": "More analysis is needed to ensure that tropical forest degeneration and regeneration are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project. The study analysed how tropical forests store carbon under varying conditions and then release it back into the atmosphere. The scenarios studied range from complete forest destruction through deforestation, which is relatively well understood, to forest degradation, whereby the forest’s condition worsens over time due to damage and organic decompos",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
+      "source": "ESA",
+      "field": "climate",
+      "date": "2026-07-22"
+    },
+    {
+      "title": "‘Business as usual is a business of death’: UN adopts road safety pledge over US objection",
+      "description": "The UN General Assembly closed its first ever High-level Meeting on road safety on Tuesday by adopting a sweeping new declaration aimed at halving road deaths by 2030 – over the sole objection of the United States.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167993",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-07-21"
     },
     {
       "title": "Filipino Cacao Growers Learn to Live With a Hotter Climate",
@@ -296,44 +328,12 @@
       "date": "2026-07-30"
     },
     {
-      "title": "Lights, camera, seafood! Bertha Fontaine and the Fisheries Test Kitchen",
-      "description": "Lights, camera, seafood! Bertha Fontaine and the Fisheries Test Kitchen Fontaine (center) frequently demonstrated seafood recipes on television programs. (Image credit: NOAA Magazine, Volume 2 Number 3, July 1972) Download Image July 20, 2026 As the U.S. government expanded its effort in the 1950s and 1960s to promote American seafood, the need for charismatic spokespeople became clear — people like Bertha Fontaine. The scene: Boxy television cameras point toward a brightly lit table. Plates of meticulously styled seafood ingredients sit between charming decorations. With her hair in a volumin",
-      "link": "https://www.noaa.gov/heritage/stories/lights-camera-seafood-bertha-fontaine-and-fisheries-test-kitchen",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Protecting the living waters of the Channel Islands from marine debris",
-      "description": "Protecting the living waters of the Channel Islands from marine debris Inspiration Point on Anacapa Island provides a glorious view of the Channel Islands. (Image credit: Claire Fackler, NOAA National Marine Sanctuaries) Download Image July 7, 2026 Channel Islands National Park and Channel Islands National Marine Sanctuary protect some of California’s richest coastal and marine habitats. Keeping these remote islands and surrounding waters free of marine debris requires extensive collaboration among volunteers, conservation organizations, and local lobster fishers who help recover debris from d",
-      "link": "https://www.noaa.gov/education/stories/protecting-living-waters-of-channel-islands-from-marine-debris-ext",
+      "title": "Adopt a Drifter Program grows this summer",
+      "description": "Adopt a Drifter Program grows this summer Teacher at Sea Susan Dee deploys a drifter buoy. (Image credit: NOAA Teacher at Sea) Download Image June 26, 2026 More than 20 years after the first teacher adopted a drifter, NOAA’s Adopt a Drifter Program , co-led by the Global Ocean Monitoring and Observing Program (GOMO) and the Atlantic Oceanographic and Meteorological Laboratory (AOML), continues to grow and evolve this summer. Education 0 Off",
+      "link": "https://www.noaa.gov/education/stories/adopt-drifter-program-grows-summer-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-07-13"
-    },
-    {
-      "title": "World marks second warmest July on record",
-      "description": "As multiple regions contend with unbearable heat, drought, wildfires and other extreme weather, the World Meteorological Organization (WMO) on Tuesday underlined the crucial need for stronger forecasts and early warning systems to protect lives and livelihoods.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168115",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "Improved reporting needed on forest carbon emissions",
-      "description": "More analysis is needed to ensure that tropical forest degeneration and regeneration are consistently reported in carbon cycle models and in national reporting, according to a study funded in part by ESA's Climate Change Initiative Biomass project. The study analysed how tropical forests store carbon under varying conditions and then release it back into the atmosphere. The scenarios studied range from complete forest destruction through deforestation, which is relatively well understood, to forest degradation, whereby the forest’s condition worsens over time due to damage and organic decompos",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Improved_reporting_needed_on_forest_carbon_emissions",
-      "source": "ESA",
-      "field": "climate",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "‘Business as usual is a business of death’: UN adopts road safety pledge over US objection",
-      "description": "The UN General Assembly closed its first ever High-level Meeting on road safety on Tuesday by adopting a sweeping new declaration aimed at halving road deaths by 2030 – over the sole objection of the United States.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167993",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-07-21"
     },
     {
       "title": "Strengthening El Niño to push 49 million more people into acute hunger",
@@ -368,20 +368,20 @@
       "date": "2026-08-11"
     },
     {
+      "title": "Mountain Lions Are Keeping Deer Off the Road, Study Finds",
+      "description": "Mountain lions in Washington state may be cutting down on traffic accidents by scaring deer away from roads, new research finds. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/pumas-deer-traffic-accidents",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-07"
+    },
+    {
       "title": "Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero?",
       "description": "When carbon dioxide (CO2) is released from a factory or power plant, the gas can be captured and permanently stored… The post Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero? appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/qa-does-the-world-need-carbon-capture-and-storage-to-reach-net-zero",
       "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-08-03"
-    },
-    {
-      "title": "Correcting climate ‘misperceptions’ may not boost climate action",
-      "description": "The general public often underestimate support for climate action, while overestimating the real-world actions taken by other people to address… The post Correcting climate ‘misperceptions’ may not boost climate action appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/correcting-climate-misperceptions-may-not-boost-climate-action",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-07-30"
     },
     {
       "title": "World falling short on 22 of 23 nature targets for 2030, says draft UN report",
@@ -456,9 +456,9 @@
       "date": "2026-07-17"
     },
     {
-      "title": "Adopt a Drifter Program grows this summer",
-      "description": "Adopt a Drifter Program grows this summer Teacher at Sea Susan Dee deploys a drifter buoy. (Image credit: NOAA Teacher at Sea) Download Image June 26, 2026 More than 20 years after the first teacher adopted a drifter, NOAA’s Adopt a Drifter Program , co-led by the Global Ocean Monitoring and Observing Program (GOMO) and the Atlantic Oceanographic and Meteorological Laboratory (AOML), continues to grow and evolve this summer. Education 0 Off",
-      "link": "https://www.noaa.gov/education/stories/adopt-drifter-program-grows-summer-ext",
+      "title": "Protecting the living waters of the Channel Islands from marine debris",
+      "description": "Protecting the living waters of the Channel Islands from marine debris Inspiration Point on Anacapa Island provides a glorious view of the Channel Islands. (Image credit: Claire Fackler, NOAA National Marine Sanctuaries) Download Image July 7, 2026 Channel Islands National Park and Channel Islands National Marine Sanctuary protect some of California’s richest coastal and marine habitats. Keeping these remote islands and surrounding waters free of marine debris requires extensive collaboration among volunteers, conservation organizations, and local lobster fishers who help recover debris from d",
+      "link": "https://www.noaa.gov/education/stories/protecting-living-waters-of-channel-islands-from-marine-debris-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-07-13"
@@ -472,12 +472,12 @@
       "date": "2026-07-07"
     },
     {
-      "title": "Mountain Lions Are Keeping Deer Off the Road, Study Finds",
-      "description": "Mountain lions in Washington state may be cutting down on traffic accidents by scaring deer away from roads, new research finds. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/pumas-deer-traffic-accidents",
-      "source": "Yale E360",
+      "title": "Correcting climate ‘misperceptions’ may not boost climate action",
+      "description": "The general public often underestimate support for climate action, while overestimating the real-world actions taken by other people to address… The post Correcting climate ‘misperceptions’ may not boost climate action appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/correcting-climate-misperceptions-may-not-boost-climate-action",
+      "source": "Carbon Brief",
       "field": "climate",
-      "date": "2026-08-07"
+      "date": "2026-07-30"
     },
     {
       "title": "Access to finance ‘strengthens climate resilience’ among sub-Saharan women",
@@ -576,6 +576,14 @@
       "date": "2026-08-17"
     },
     {
+      "title": "Models of Glacial Collapse in Antarctica Improve Predictions of Sea-Level Rise",
+      "description": "With approximately one third of the world's population living within a day's walk of a coastline, sea-level rise poses a serious global threat. Every centimeter of sea-level rise could displace 1.5 million people, and current estimates of rise range from half a meter to 2 meters by the end of the 21st century—which means that potentially hundreds of millions of people could be affected. A more reliable prediction of sea-level rise is crucial to prepare coastal infrastructure and communities around the world for these changes.The Pine Island Glacier, located in West Antarctica, is the fastest f",
+      "link": "https://www.caltech.edu/about/news/models-of-glacial-collapse-in-antarctica-improve-predictions-of-sea-level-rise",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-08-11"
+    },
+    {
       "title": "Support networks aim to help kids through the polycrisis",
       "description": "Sometime in the late 2000s, Pim Sullivan-Tailyour was sitting in the back of a car, headed toward her great-grandmother’s tiny town in the south of Thailand. She watched big mountains pass by out the window. She was just six years old but was about to be hit by an adult-size realization. “They were just quarried…",
       "link": "https://www.technologyreview.com/2026/08/20/1141686/support-networks-help-kids-polycrisis/",
@@ -630,6 +638,14 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-08-14"
+    },
+    {
+      "title": "A 0.42-nanometer breakthrough could push transistors beyond silicon",
+      "description": "Atomically thin semiconductors could enable dramatically smaller and more efficient chips, but a stubborn problem at the boundary between materials has limited their performance. Researchers have now engineered that atomic interface to protect electron flow while still allowing extremely thin insulating layers. The resulting transistors delivered an unusually strong combination of electrical control and performance.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260808234943.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-09"
     },
     {
       "title": "A new explanation of why the universe’s supply of nuclear matter is fixed?",
@@ -688,30 +704,6 @@
       "date": "2026-07-27"
     },
     {
-      "title": "Models of Glacial Collapse in Antarctica Improve Predictions of Sea-Level Rise",
-      "description": "With approximately one third of the world's population living within a day's walk of a coastline, sea-level rise poses a serious global threat. Every centimeter of sea-level rise could displace 1.5 million people, and current estimates of rise range from half a meter to 2 meters by the end of the 21st century—which means that potentially hundreds of millions of people could be affected. A more reliable prediction of sea-level rise is crucial to prepare coastal infrastructure and communities around the world for these changes.The Pine Island Glacier, located in West Antarctica, is the fastest f",
-      "link": "https://www.caltech.edu/about/news/models-of-glacial-collapse-in-antarctica-improve-predictions-of-sea-level-rise",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "A 0.42-nanometer breakthrough could push transistors beyond silicon",
-      "description": "Atomically thin semiconductors could enable dramatically smaller and more efficient chips, but a stubborn problem at the boundary between materials has limited their performance. Researchers have now engineered that atomic interface to protect electron flow while still allowing extremely thin insulating layers. The resulting transistors delivered an unusually strong combination of electrical control and performance.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260808234943.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-09"
-    },
-    {
-      "title": "NASA's Perseverance just completed a marathon on Mars",
-      "description": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet. It accomplished the feat in just five years and four months, reaching the distance on its 1,890th Martian day, less than half the time it took the previous record holder, NASA's Opportunity rover.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-14"
-    },
-    {
       "title": "Clear sighting of ‘wandering’ black hole reveals escapee from galaxy merger",
       "description": "Stripped-down behemoth promises new insights into how galaxies grow, astronomers say",
       "link": "https://www.science.org/content/article/clear-sighting-wandering-black-hole-reveals-escapee-galaxy-merger",
@@ -760,22 +752,6 @@
       "date": "2026-08-17"
     },
     {
-      "title": "Researchers uncover hidden pore network within nuclear fuel",
-      "description": "New understanding of how nuclear fuel breaks down and changes in an operating nuclear reactor could help keep some reactors running longer, will inform the next generation of nuclear reactor fuel systems.",
-      "link": "https://news.mit.edu/2026/researchers-uncover-hidden-pore-network-within-nuclear-fuel-0813",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Extending AI Architectures to Address Continuous Scientific Problems",
-      "description": "Artificial intelligence is proving to be transformative in its ability to work with language and images. Now, with a growing push to apply AI to scientific discovery, Caltech's Anima Anandkumar says there is a crucial ingredient missing from most AI models: the ability to understand the physical world. Take as an example weather models, says Anandkumar, Caltech's Bren Professor of Computing and Mathematical Sciences. If you want an AI model to predict weather, it must understand chaotic physical systems, like how the atmosphere changes around the planet and over time.The best way to gain that ",
-      "link": "https://www.caltech.edu/about/news/extending-ai-architectures-to-address-continuous-scientific-problems",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-08-12"
-    },
-    {
       "title": "3 Questions: MIT Sloan launches Evening MBA",
       "description": "Dean Richard Locke discusses a new program that expands access for working professionals while deepening connections to Greater Boston’s innovation economy.",
       "link": "https://news.mit.edu/2026/3-questions-mit-sloan-launches-evening-mba-0811",
@@ -800,14 +776,6 @@
       "date": "2026-08-03"
     },
     {
-      "title": "Knowledge Gatherer: Portrait of a Scientist's Wife in Victorian England",
-      "description": "When Dehn Gilmore, professor of English at Caltech, was investigating ideas for her next book, she had to look no further than her own family tree. As the great-great-granddaughter of German-born British scientist Sir Arthur Schuster—a Victorian-era physicist who coined the term \"antimatter,\" popularized the X-ray in England, and built one of the largest physics labs in the world, among other achievements—she wanted to know more about the scientist in her lineage and his similarly successful siblings.Her forthcoming book, which will publish in 2027, offers a panoramic account of Britain's cult",
-      "link": "https://www.caltech.edu/about/news/knowledge-gatherer-portrait-of-a-scientists-wife-in-victorian-england",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-07-30"
-    },
-    {
       "title": "How a medical database developed at MIT evolved into a global standard of data-sharing",
       "description": "The visionary PhysioNet platform launched 25 years ago, based on a system developed at MIT in the 1970s. It has become one of the most comprehensive biomedical and clinical data repositories in existence.",
       "link": "https://news.mit.edu/2026/how-an-mit-database-evolved-into-global-standard-data-sharing-0729",
@@ -827,14 +795,6 @@
       "title": "MIT student leaders: Q&A with men’s soccer captain Dilin Meloni",
       "description": "The rising senior is passionate about soccer, nuclear fusion, and advocating on behalf of his fellow student-athletes at MIT.",
       "link": "https://news.mit.edu/2026/mit-student-leaders-dilin-meloni-soccer-captain-0722",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-07-22"
-    },
-    {
-      "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
-      "description": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
-      "link": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-07-22"
@@ -864,14 +824,6 @@
       "date": "2026-08-17"
     },
     {
-      "title": "How we picked 35 of the world’s top young scientists and engineers",
-      "description": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems. By finding the top young innovators globally and learning what they’re focused on in their work,…",
-      "link": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-08-12"
-    },
-    {
       "title": "How somewhat obscure English duke helped stoke American revolutionary ambitions",
       "description": "Danielle Allen’s new book unearths role of Charles Lennox in supporting ‘radical’ writers, thinkers including Thomas Paine, Benjamin Franklin",
       "link": "https://news.harvard.edu/gazette/story/2026/08/how-somewhat-obscure-english-duke-helped-stoke-american-revolutionary-ambitions/",
@@ -896,6 +848,62 @@
       "date": "2026-07-29"
     },
     {
+      "title": "NASA's Perseverance just completed a marathon on Mars",
+      "description": "NASA's Perseverance rover has reached an impressive new milestone on Mars, completing the equivalent of a full marathon by driving 26.2 miles (42.195 kilometers) across the Red Planet. It accomplished the feat in just five years and four months, reaching the distance on its 1,890th Martian day, less than half the time it took the previous record holder, NASA's Opportunity rover.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260713084858.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-14"
+    },
+    {
+      "title": "Researchers uncover hidden pore network within nuclear fuel",
+      "description": "New understanding of how nuclear fuel breaks down and changes in an operating nuclear reactor could help keep some reactors running longer, will inform the next generation of nuclear reactor fuel systems.",
+      "link": "https://news.mit.edu/2026/researchers-uncover-hidden-pore-network-within-nuclear-fuel-0813",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Extending AI Architectures to Address Continuous Scientific Problems",
+      "description": "Artificial intelligence is proving to be transformative in its ability to work with language and images. Now, with a growing push to apply AI to scientific discovery, Caltech's Anima Anandkumar says there is a crucial ingredient missing from most AI models: the ability to understand the physical world. Take as an example weather models, says Anandkumar, Caltech's Bren Professor of Computing and Mathematical Sciences. If you want an AI model to predict weather, it must understand chaotic physical systems, like how the atmosphere changes around the planet and over time.The best way to gain that ",
+      "link": "https://www.caltech.edu/about/news/extending-ai-architectures-to-address-continuous-scientific-problems",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-08-12"
+    },
+    {
+      "title": "Caltech breakthrough brings fiber-optic performance to silicon chips",
+      "description": "Caltech scientists have created ultra-low-loss optical pathways on silicon chips that approach the efficiency of fiber optics and dramatically outperform existing technology at visible wavelengths. The breakthrough could unlock more powerful lasers, miniature atomic sensors and clocks, quantum systems, and more energy-efficient data centers.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260814235905.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-17"
+    },
+    {
+      "title": "“Cannot be explained” – New super steel stuns scientists",
+      "description": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen. The breakthrough could reduce structural material costs by roughly 40 times and make seawater-based hydrogen production far more economical.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Strange gamma rays could reveal how stars forge heavy elements",
+      "description": "Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus. The breakthrough could improve models of how stars, supernovae, and neutron star mergers create heavy elements.",
+      "link": "https://www.sciencedaily.com/releases/2026/07/260727214623.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-07-31"
+    },
+    {
+      "title": "Education in Papua New Guinea",
+      "description": "Education in Papua New Guinea 2010 US$52,854,686 GPE 2025 grant eligibility Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership compact Priority: Complete the rollout of the 1-6-6 School Restructuring Reform. JICAFlorian Rabenstein Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data In Papua New Guinea, many students drop out of school during primary education and during the transition from primary to secondary. Only, one in five secondary-school age children are enrolled in school. In line with the National Educ",
+      "link": "https://www.globalpartnership.org/where-we-work/papua-new-guinea",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
       "title": "Youth advocates gather in New York to launch new AI standards",
       "description": "As artificial intelligence (AI) rapidly transforms everything from how we learn, to the job market, children are adopting the technology more than three times faster than adults – exposing them to unique opportunities and risks.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168129",
@@ -904,12 +912,52 @@
       "date": "2026-08-12"
     },
     {
+      "title": "Education in Dominica",
+      "description": "Education in Dominica 2016 US$31,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Developing, implementing, and sustaining a comprehensive, inclusive, and equitable curriculum. Mohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Having achieved universal primary and secondary education, tuition-free tertiary education, and expanded access to pre-primary education, Dominica is focused on improving the quality and relevance of education. Sector challenges include high drop",
+      "link": "https://www.globalpartnership.org/where-we-work/dominica",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Grenada",
+      "description": "Education in Grenada 2016 US$36,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Successful implementation of an enhanced curriculum and assessment strategy for lower secondary schools. CDBMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data In Grenada, a primary education curriculum reform is underway, and the upper secondary curriculum is strongly shaped by final exams, but there is no official curriculum for lower secondary education. Lacking guidance on how to define ",
+      "link": "https://www.globalpartnership.org/where-we-work/grenada",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Pakistan",
+      "description": "Education in Pakistan 2012 US$376,874,001 GPE 2025 grant eligibility Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership Compacts Punjab Priority: Improve learning outcomes at the pre-primary, primary and middle levels, with a special focus on girls and out-of-school children. See also: Balochistan Partnership Compact Khyber Pakhtunkhwa Partnership Compact Sindh Partnership Compact FCDO, JICA (Punjab), UNESCO (Khyber Pakhtunkhwa, Balochistan), UNESCO Islamabad (Sindh), UNICEF (Sindh, Balochistan), UNICEF Islamabad (Balochistan), UNICEF ",
+      "link": "https://www.globalpartnership.org/where-we-work/pakistan",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Nigeria",
+      "description": "Education in Nigeria 2012 US$346,562,339 GPE 2025 grant eligibility Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership compact Priority: Ensure accessible, equitable and inclusive foundational learning. FCDOLucinda Ramos Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Nigeria, the most populous country in Africa, has an estimated 14.8 million school-age children not attending school. The northern regions are most affected, with more girls out of school than boys. For children in school, nearly two-thirds str",
+      "link": "https://www.globalpartnership.org/where-we-work/nigeria",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
       "title": "Mount Olympus and D-Day beaches among new World Heritage Sites",
       "description": "From the peaks of Mount Olympus in Greece to the shores of the “D-Day” beaches in France, 25 cultural or natural landmarks from across the globe have been newly inscribed on the World Heritage List, updated annually by the UN Educational, Scientific and Cultural Organization (UNESCO).",
       "link": "https://news.un.org/feed/view/en/story/2026/07/1168043",
       "source": "UN News Education",
       "field": "education",
       "date": "2026-07-28"
+    },
+    {
+      "title": "Education in Saint Vincent and the Grenadines",
+      "description": "Education in Saint Vincent and the Grenadines 2016 US$36,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Harnessing the power of technology for education transformation. CDBMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Saint Vincent and the Grenadines has limited resources and cultural norms that contribute to disparities in education access. The Caribbean region’s susceptibility to natural disasters exacerbates challenges to delivering quality education. The gove",
+      "link": "https://www.globalpartnership.org/where-we-work/saint-vincent-and-grenadines",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
     },
     {
       "title": "UN calls for urgent action to protect children from online information risks",
@@ -928,14 +976,6 @@
       "date": "2026-07-28"
     },
     {
-      "title": "ADB, FSM Development Bank to Support Women Entrepreneurs in the Federated States of Micronesia",
-      "description": "ADB has signed a $5 million financing package with Federated States of Micronesia Development Bank (FSMDB) to expand access to finance for women-led small and medium-sized enterprises in the Federated States of Micronesia.",
-      "link": "https://www.adb.org/news/adb-fsm-development-bank-support-women-entrepreneurs-federated-states-micronesia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-18"
-    },
-    {
       "title": "ADB Supports Tbilisi Bypass with $250 Million Loan to Boost Georgia’s Regional Connectivity",
       "description": "ADB has approved a $250 million loan to help build a critical bypass around Tbilisi that will improve road connectivity, ease congestion, and strengthen Georgia’s role as a regional transport hub in the region.",
       "link": "https://www.adb.org/news/adb-supports-tbilisi-bypass-250-million-loan-boost-georgia-regional-connectivity",
@@ -952,12 +992,36 @@
       "date": "2026-07-30"
     },
     {
+      "title": "ADB, FSM Development Bank to Support Women Entrepreneurs in the Federated States of Micronesia",
+      "description": "ADB has signed a $5 million financing package with Federated States of Micronesia Development Bank (FSMDB) to expand access to finance for women-led small and medium-sized enterprises in the Federated States of Micronesia.",
+      "link": "https://www.adb.org/news/adb-fsm-development-bank-support-women-entrepreneurs-federated-states-micronesia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-08-18"
+    },
+    {
       "title": "ADB Approves $850 Million Loan to Accelerate Affordable Rooftop Solar Adoption for Households in India",
       "description": "ADB has approved an $850 million loan to support reforms that will speed up the rollout of the Government of India’s flagship rooftop solar program, boosting the resilience of Indian households through better access to affordable clean energy, mobilizing private sector investment, and strengthening the skills of grid personnel and rural entrepreneurs.",
       "link": "https://www.adb.org/news/adb-approves-850-million-loan-accelerate-affordable-rooftop-solar-adoption-households-india",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-07-28"
+    },
+    {
+      "title": "ADB, Japan Establish New Water Security Fund",
+      "description": "ADB and the Government of Japan established a new fund to strengthen water security and protect people across Asia and the Pacific from worsening floods, droughts, and other water-related shocks. Japan will make an initial $10 million contribution to the fund.",
+      "link": "https://www.adb.org/news/adb-japan-establish-new-water-security-fund",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-21"
+    },
+    {
+      "title": "ADB Puts Team on the Ground in Türkiye as Financing Demand Surges",
+      "description": "Recognizing Türkiye’s growing regional importance, the Asian Development Bank (ADB) will establish an office in the country as it prepares to commit about $3 billion a year to earthquake recovery, critical infrastructure, businesses, and trade routes linking Asia and Europe.",
+      "link": "https://www.adb.org/news/adb-puts-team-ground-turkiye-financing-demand-surges",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-21"
     },
     {
       "title": "ADB Provides $2 Million Grant to Support Flood-Affected Communities in Thailand",
@@ -984,12 +1048,28 @@
       "date": "2026-07-21"
     },
     {
-      "title": "ADB, Japan Establish New Water Security Fund",
-      "description": "ADB and the Government of Japan established a new fund to strengthen water security and protect people across Asia and the Pacific from worsening floods, droughts, and other water-related shocks. Japan will make an initial $10 million contribution to the fund.",
-      "link": "https://www.adb.org/news/adb-japan-establish-new-water-security-fund",
+      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
+      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
+      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-21"
+      "date": "2026-07-17"
+    },
+    {
+      "title": "Multilateral Development Banks Increase Climate Finance to Record $163 Billion in 2025, Supporting Resilient and Sustainable Growth",
+      "description": "MDBs increased climate finance to record levels in 2025, reinforcing their role in supporting resilient and sustainable economies.",
+      "link": "https://www.adb.org/news/multilateral-development-banks-increase-climate-finance-record-163-billion-2025",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-13"
+    },
+    {
+      "title": "ADB, HDBank Sign $100 Million Loan to Expand Access to Finance for MSMEs, Women-Owned Businesses in Viet Nam",
+      "description": "ADB has signed a $100 million loan with Ho Chi Minh City Development Joint Stock Commercial Bank (HDBank) to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) in Viet Nam, with a focus on women-owned MSMEs.",
+      "link": "https://www.adb.org/news/adb-hdbank-sign-100-million-loan-expand-access-finance-msmes-women-owned-businesses-viet-nam",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-07"
     },
     {
       "title": "As aid dries up, countries pledge to close the $4 trillion development gap",
@@ -1024,14 +1104,6 @@
       "date": "2026-07-07"
     },
     {
-      "title": "ADB Puts Team on the Ground in Türkiye as Financing Demand Surges",
-      "description": "Recognizing Türkiye’s growing regional importance, the Asian Development Bank (ADB) will establish an office in the country as it prepares to commit about $3 billion a year to earthquake recovery, critical infrastructure, businesses, and trade routes linking Asia and Europe.",
-      "link": "https://www.adb.org/news/adb-puts-team-ground-turkiye-financing-demand-surges",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-21"
-    },
-    {
       "title": "ADB President Urges Faster Action on Water Security",
       "description": "ADB President Masato Kanda has called for faster investment and reform to secure water across Asia and the Pacific, pointing to a new ADB-administered fund with Japan that will help developing economies strengthen disaster preparedness, infrastructure, and water management.",
       "link": "https://www.adb.org/news/adb-president-urges-faster-action-water-security",
@@ -1048,33 +1120,9 @@
       "date": "2026-07-22"
     },
     {
-      "title": "ADB Loan Supports Stronger Earthquake Resilience at Schools in Armenia",
-      "description": "The Asian Development Bank (ADB) and the Government of Armenia have signed a $293 million loan agreement to expand resilient, inclusive school infrastructure nationwide and strengthen the country's capacity to manage earthquake risks.",
-      "link": "https://www.adb.org/news/adb-loan-supports-stronger-earthquake-resilience-schools-armenia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-17"
-    },
-    {
-      "title": "Multilateral Development Banks Increase Climate Finance to Record $163 Billion in 2025, Supporting Resilient and Sustainable Growth",
-      "description": "MDBs increased climate finance to record levels in 2025, reinforcing their role in supporting resilient and sustainable economies.",
-      "link": "https://www.adb.org/news/multilateral-development-banks-increase-climate-finance-record-163-billion-2025",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-13"
-    },
-    {
       "title": "ADB, Premium Nexus JSC Sign Social Loan to Promote Efficient and Inclusive Food Distribution in Mongolia",
       "description": "ADB and Premium Nexus JSC have signed a $10 million (MNT35.8 billion equivalent) social loan to improve access to safe, affordable food and essential goods through modernized retail infrastructure, strengthened cold chain logistics, and expanded convenience store networks across Mongolia.",
       "link": "https://www.adb.org/news/adb-premium-nexus-jsc-sign-social-loan-promote-efficient-and-inclusive-food-distribution-mongolia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-07"
-    },
-    {
-      "title": "ADB, HDBank Sign $100 Million Loan to Expand Access to Finance for MSMEs, Women-Owned Businesses in Viet Nam",
-      "description": "ADB has signed a $100 million loan with Ho Chi Minh City Development Joint Stock Commercial Bank (HDBank) to expand access to finance for micro, small, and medium-sized enterprises (MSMEs) in Viet Nam, with a focus on women-owned MSMEs.",
-      "link": "https://www.adb.org/news/adb-hdbank-sign-100-million-loan-expand-access-finance-msmes-women-owned-businesses-viet-nam",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-07-07"
@@ -1094,22 +1142,6 @@
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-08-18"
-    },
-    {
-      "title": "Lebanon: UN peacekeepers count hundreds of Israeli strikes and incursions in a single weekend",
-      "description": "Israeli forces fired 455 projectiles into south Lebanon and breached Lebanese airspace 97 times between Friday and Sunday, the UN's peacekeeping mission in the country reported Monday – among the heaviest fire seen in months.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168108",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Security Council LIVE: Warnings of famine and collapse as South Sudan's peace deal frays",
-      "description": "Nearly eight million people in South Sudan – more than half the population – face crisis-level hunger, with famine risk now flagged in four counties, as the Security Council met this morning in New York. A cholera outbreak has killed more than 1,700 people, and some aid workers are being killed and abducted even as they try to reach those most at risk. Follow live coverage below.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168089",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-06"
     },
     {
       "title": "75 years later, the promise to protect refugees faces its greatest test",
@@ -1136,6 +1168,14 @@
       "date": "2026-08-13"
     },
     {
+      "title": "Lebanon: UN peacekeepers count hundreds of Israeli strikes and incursions in a single weekend",
+      "description": "Israeli forces fired 455 projectiles into south Lebanon and breached Lebanese airspace 97 times between Friday and Sunday, the UN's peacekeeping mission in the country reported Monday – among the heaviest fire seen in months.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168108",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-10"
+    },
+    {
       "title": "Fighting deepens needs and fuels further displacement in Sudan",
       "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
@@ -1144,12 +1184,12 @@
       "date": "2026-08-10"
     },
     {
-      "title": "Nobel Prize Conversations: Artificial Intelligence",
-      "description": "X Artificial intelligence is the topic on everyone’s lips. For our series of 2026 Nobel Prize Conversations, we have created a bonus episode focusing on AI collecting thoughts and perspectives from a mix of Nobel Prize laureates. The transcript for the episode can be read below. Peter Howitt: Is AI going to enhance productivity or […] The post Nobel Prize Conversations: Artificial Intelligence appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/nobel-prize-conversations-artificial-intelligence/",
-      "source": "Nobel Prize",
+      "title": "Security Council LIVE: Warnings of famine and collapse as South Sudan's peace deal frays",
+      "description": "Nearly eight million people in South Sudan – more than half the population – face crisis-level hunger, with famine risk now flagged in four counties, as the Security Council met this morning in New York. A cholera outbreak has killed more than 1,700 people, and some aid workers are being killed and abducted even as they try to reach those most at risk. Follow live coverage below.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168089",
+      "source": "UN Peace & Security",
       "field": "peace",
-      "date": "2026-08-20"
+      "date": "2026-08-06"
     },
     {
       "title": "Security Council LIVE: International Criminal Court briefs on Darfur",
@@ -1160,12 +1200,12 @@
       "date": "2026-07-15"
     },
     {
-      "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
-      "description": "The UN World Food Programme (WFP) is calling for greater humanitarian access to Gaza, warning that restrictions on aid deliveries, ongoing violence and funding shortages are severely limiting its ability to reach people in need.",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1167930",
-      "source": "UN Peace & Security",
+      "title": "Nobel Prize Conversations: Artificial Intelligence",
+      "description": "X Artificial intelligence is the topic on everyone’s lips. For our series of 2026 Nobel Prize Conversations, we have created a bonus episode focusing on AI collecting thoughts and perspectives from a mix of Nobel Prize laureates. The transcript for the episode can be read below. Peter Howitt: Is AI going to enhance productivity or […] The post Nobel Prize Conversations: Artificial Intelligence appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/nobel-prize-conversations-artificial-intelligence/",
+      "source": "Nobel Prize",
       "field": "peace",
-      "date": "2026-07-13"
+      "date": "2026-08-20"
     },
     {
       "title": "Peacekeepers step up support as families return to south Lebanon",
@@ -1182,6 +1222,14 @@
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-07-14"
+    },
+    {
+      "title": "World News in Brief: Aid deliveries to Gaza restricted, UN prepares El Nino response, El Salvador eliminates disease",
+      "description": "The UN World Food Programme (WFP) is calling for greater humanitarian access to Gaza, warning that restrictions on aid deliveries, ongoing violence and funding shortages are severely limiting its ability to reach people in need.",
+      "link": "https://news.un.org/feed/view/en/story/2026/07/1167930",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-07-13"
     },
     {
       "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
@@ -1208,6 +1256,14 @@
       "date": "2026-08-20"
     },
     {
+      "title": "Replay: MTG-I2 pre-launch media briefing",
+      "description": "Video: 00:51:38 On Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2). The satellite is set to be launched on an Ariane 6 from Europe’s Spaceport in French Guiana, on 27 August. MTG-I2 is the third satellite for MTG, completing the MTG constellation. Together the satellites will produce images for weather forecasting in Europe in unprecedented detail. This mission provides new data products and capabilities for European weather services, especially suited to nowcasting of severe weather",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Replay_MTG-I2_pre-launch_media_briefing",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-08-19"
+    },
+    {
       "title": "NASA Establishes State Hubs to Grow Technical Aerospace Workforce",
       "description": "NASA has awarded approximately $10.5 million to seven institutions to help strengthen and streamline state-based pathways for students into skilled technical jobs in the aerospace industry. The awards were made through the new NASA Aerospace Skilled Technical Workforce Hubs initiative, or NASA State Hubs. This investment in state ecosystems is designed to accelerate the development […]",
       "link": "https://www.nasa.gov/news-release/nasa-establishes-state-hubs-to-grow-technical-aerospace-workforce/",
@@ -1230,14 +1286,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-07-21"
-    },
-    {
-      "title": "Replay: MTG-I2 pre-launch media briefing",
-      "description": "Video: 00:51:38 On Wednesday 19 August, media representatives were invited to a media briefing ahead of the launch of the next Meteosat Third Generation Imager satellite (MTG-I2). The satellite is set to be launched on an Ariane 6 from Europe’s Spaceport in French Guiana, on 27 August. MTG-I2 is the third satellite for MTG, completing the MTG constellation. Together the satellites will produce images for weather forecasting in Europe in unprecedented detail. This mission provides new data products and capabilities for European weather services, especially suited to nowcasting of severe weather",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Replay_MTG-I2_pre-launch_media_briefing",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-08-19"
     },
     {
       "title": "NASA TechLeap Prize: Orbital Clarity Challenge",
@@ -1270,14 +1318,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-08-18"
-    },
-    {
-      "title": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
-      "description": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface. To help advance that capability, the Rock and Roll with NASA Challenge invited public innovators to design and build next-generation lunar rover wheels. Five teams from 128 submissions and 49 countries advanced to the final phase of the […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-17"
     },
     {
       "title": "NASA Selects Companies to Provide Payload Processing Services",
@@ -1315,6 +1355,14 @@
       "title": "NASA Mission Studies Air Pollution Over Ethiopia",
       "description": "A NASA-funded air pollution monitoring network has provided one of the most detailed long-term views yet of the role of black carbon, or soot produced by fires, diesel vehicles, and other combustion sources, in Ethiopia’s capital, Addis Ababa. The detailed measurements show how pollution changes by time of day and season, including increases associated with […]",
       "link": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-17"
+    },
+    {
+      "title": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
+      "description": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface. To help advance that capability, the Rock and Roll with NASA Challenge invited public innovators to design and build next-generation lunar rover wheels. Five teams from 128 submissions and 49 countries advanced to the final phase of the […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
       "source": "NASA",
       "field": "space",
       "date": "2026-08-17"
@@ -1568,30 +1616,6 @@
       "date": "2026-07-24"
     },
     {
-      "title": "Caltech breakthrough brings fiber-optic performance to silicon chips",
-      "description": "Caltech scientists have created ultra-low-loss optical pathways on silicon chips that approach the efficiency of fiber optics and dramatically outperform existing technology at visible wavelengths. The breakthrough could unlock more powerful lasers, miniature atomic sensors and clocks, quantum systems, and more energy-efficient data centers.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260814235905.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-17"
-    },
-    {
-      "title": "“Cannot be explained” – New super steel stuns scientists",
-      "description": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen. The breakthrough could reduce structural material costs by roughly 40 times and make seawater-based hydrogen production far more economical.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "Strange gamma rays could reveal how stars forge heavy elements",
-      "description": "Scientists traced a mysterious surge of low-energy gamma rays from zinc-70 to magnetic changes occurring inside its nucleus. The breakthrough could improve models of how stars, supernovae, and neutron star mergers create heavy elements.",
-      "link": "https://www.sciencedaily.com/releases/2026/07/260727214623.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-07-31"
-    },
-    {
       "title": "New process turns plastic waste into hydrogen fuel while trapping the carbon",
       "description": "A new chemical process can transform three of the most common plastics into high-purity hydrogen without sorting them first. The technique operates at much lower temperatures than traditional gasification and captures most of the plastic’s carbon in solid or liquid forms instead of releasing it as carbon dioxide.",
       "link": "https://www.sciencedaily.com/releases/2026/07/260729051521.htm",
@@ -1744,6 +1768,14 @@
       "date": "2026-07-31"
     },
     {
+      "title": "Knowledge Gatherer: Portrait of a Scientist's Wife in Victorian England",
+      "description": "When Dehn Gilmore, professor of English at Caltech, was investigating ideas for her next book, she had to look no further than her own family tree. As the great-great-granddaughter of German-born British scientist Sir Arthur Schuster—a Victorian-era physicist who coined the term \"antimatter,\" popularized the X-ray in England, and built one of the largest physics labs in the world, among other achievements—she wanted to know more about the scientist in her lineage and his similarly successful siblings.Her forthcoming book, which will publish in 2027, offers a panoramic account of Britain's cult",
+      "link": "https://www.caltech.edu/about/news/knowledge-gatherer-portrait-of-a-scientists-wife-in-victorian-england",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-07-30"
+    },
+    {
       "title": "MIT and Broad Institute researchers break diffraction barrier in super-resolution microscopy",
       "description": "New U-STORM imaging technology lets scientists view molecular structures in subatomic detail — about 1,000 times clearer than traditional dyes — while making the microscope process much simpler.",
       "link": "https://news.mit.edu/2026/researchers-break-diffraction-barrier-super-resolution-microscopy-0729",
@@ -1760,12 +1792,28 @@
       "date": "2026-07-23"
     },
     {
+      "title": "Professor Emeritus Dimitri Bertsekas, influential computer scientist and prolific author, dies at 83",
+      "description": "Known for his clear and elegant writing style, Bertsekas shaped fields from control and optimization to large-scale computation and artificial intelligence.",
+      "link": "https://news.mit.edu/2026/dimitri-bertsekas-influential-computer-scientist-prolific-author-dies-0722",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-07-22"
+    },
+    {
       "title": "FLEX and Sentinel-3C arrive at Europe’s Spaceport",
       "description": "With liftoff scheduled for September, excitement is building at Europe’s Spaceport in French Guiana as two cutting-edge Earth observation satellites, FLEX and Copernicus Sentinel-3C, have arrived to begin their launch campaigns. Over the coming weeks, engineers and mission teams will carry out a series of rigorous inspections and prepare the satellites to be installed atop their Vega-C rocket for their journey into orbit.",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_arrive_at_Europe_s_Spaceport",
       "source": "ESA",
       "field": "space",
       "date": "2026-07-16"
+    },
+    {
+      "title": "How we picked 35 of the world’s top young scientists and engineers",
+      "description": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems. By finding the top young innovators globally and learning what they’re focused on in their work,…",
+      "link": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-08-12"
     },
     {
       "title": "Caltech Mourns the Passing of Mark B. Wise (1953–2026)",
