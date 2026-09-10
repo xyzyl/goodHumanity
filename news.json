@@ -1,21 +1,21 @@
 {
   "date": "2026-09-10",
-  "lastUpdated": "2026-09-10T08:35:37.123Z",
+  "lastUpdated": "2026-09-10T15:43:04.019Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "26.8s",
+    "executionTime": "26.1s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 30,
-    "totalCandidates": 218,
-    "totalSelected": 218,
+    "sourcesSuccessful": 32,
+    "totalCandidates": 223,
+    "totalSelected": 223,
     "entriesByField": {
       "health": 14,
-      "climate": 33,
-      "energy": 4,
-      "technology": 64,
+      "climate": 34,
+      "energy": 5,
+      "technology": 65,
       "education": 3,
-      "development": 19,
-      "peace": 14,
+      "development": 20,
+      "peace": 15,
       "agriculture": 1,
       "space": 66
     },
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "energy": {
@@ -33,19 +33,19 @@
         "changed": 0
       },
       "technology": {
-        "kept": 0,
-        "changed": 0
+        "kept": 1,
+        "changed": 1
       },
       "education": {
         "kept": 0,
         "changed": 0
       },
       "development": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "peace": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "agriculture": {
@@ -60,7 +60,7 @@
     "qualityMetrics": {
       "highScoreEntries": 27,
       "topTierSources": 149,
-      "highCredibilitySources": 196
+      "highCredibilitySources": 200
     }
   },
   "entries": [
@@ -95,6 +95,14 @@
       "source": "Caltech",
       "field": "health",
       "date": "2026-08-26"
+    },
+    {
+      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
+      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-04"
     },
     {
       "title": "More health workers, stronger systems: Africa’s new ambitious goal",
@@ -143,14 +151,6 @@
       "source": "UN News Health",
       "field": "health",
       "date": "2026-08-06"
-    },
-    {
-      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
-      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-04"
     },
     {
       "title": "One Team, One Dream: End Polio in Africa",
@@ -209,14 +209,6 @@
       "date": "2026-08-19"
     },
     {
-      "title": "NOAA boosts weather data collection capabilities with new Mesonet contract",
-      "description": "NOAA boosts weather data collection capabilities with new Mesonet contract August 27, 2026 An array of observational equipment used by NOAA. The National Mesonet Program includes devices such as radars, weather balloons, ground-based temperature sensors, and ocean buoys. (Image credit: NOAA) Download Image NOAA’s National Weather Service will expand the National Mesonet Program offsite link — an observational weather “network of networks” that delivers critical information required for improved weather prediction and warnings across the United States — through a new contract that begins on Sep",
-      "link": "https://www.noaa.gov/news-release/noaa-boosts-weather-data-collection-capabilities-with-new-mesonet-contract",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-08-19"
-    },
-    {
       "title": "Coordinated action on clean air and climate change can net $15 for every dollar spent",
       "description": "Tackling air pollution and climate change together can save millions of lives, reduce global warming and generate roughly $15 in economic benefits for every $1 spent, a new UN-backed report has revealed.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168283",
@@ -241,12 +233,12 @@
       "date": "2026-08-24"
     },
     {
-      "title": "Analysis: UK solar power hits record high over summer 2026",
-      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
-      "source": "Carbon Brief",
+      "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
+      "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/sargassum-belt",
+      "source": "Yale E360",
       "field": "climate",
-      "date": "2026-09-04"
+      "date": "2026-09-10"
     },
     {
       "title": "A London Scheme to Cut Car Pollution Restored Lung Growth in Children",
@@ -257,6 +249,14 @@
       "date": "2026-08-19"
     },
     {
+      "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
+      "description": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest… The post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-the-two-largest-reservoirs-in-the-us-have-hit-record-low-levels",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-08-17"
+    },
+    {
       "title": "NOAA announces priorities to promote science-based American seafood dominance",
       "description": "NOAA announces priorities to promote science-based American seafood dominance September 2, 2026 Docked fishing boats at Yaquina Bay in Newport, Oregon. (Image credit: iStock) Today, NOAA announced priorities for advancing reforms within NOAA Fisheries to move towards regulations grounded in science that support American seafood dominance. These agency-level actions follow the Regional Priorities guidance that was released on July 2, 2026, to apply the same standard of accountability to NOAA’s own operations, regulatory frameworks, and scientific pipelines. This priority list serves as an opera",
       "link": "https://www.noaa.gov/news-release/noaa-announces-priorities-to-promote-science-based-american-seafood-dominance",
@@ -265,12 +265,28 @@
       "date": "2026-09-01"
     },
     {
+      "title": "NOAA boosts weather data collection capabilities with new Mesonet contract",
+      "description": "NOAA boosts weather data collection capabilities with new Mesonet contract August 27, 2026 An array of observational equipment used by NOAA. The National Mesonet Program includes devices such as radars, weather balloons, ground-based temperature sensors, and ocean buoys. (Image credit: NOAA) Download Image NOAA’s National Weather Service will expand the National Mesonet Program offsite link — an observational weather “network of networks” that delivers critical information required for improved weather prediction and warnings across the United States — through a new contract that begins on Sep",
+      "link": "https://www.noaa.gov/news-release/noaa-boosts-weather-data-collection-capabilities-with-new-mesonet-contract",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-08-19"
+    },
+    {
       "title": "Increased Bluefin Tuna Quotas",
       "description": "Increased Bluefin Tuna Quotas Bluefin tuna. (Image credit: NOAA) Download Image August 19, 2026 Fisheries 0 Off",
       "link": "https://www.noaa.gov/stories/american-tuna-gets-boost-increased-bluefin-tuna-quotas-mean-more-opportunities-for-us-fishermen-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-08-19"
+    },
+    {
+      "title": "The World Adds a Third Terawatt of Solar Power",
+      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-04"
     },
     {
       "title": "NOAA to rebuild historic science lab in Beaufort, North Carolina",
@@ -305,14 +321,6 @@
       "date": "2026-08-17"
     },
     {
-      "title": "Amid Drought, Hundreds of French Rivers Are Drying Up",
-      "description": "An ongoing drought in Europe has sapped French rivers. Officials say that 43 percent of small waterways in France have been partially or completely dried up. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/france-small-rivers-drought",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-12"
-    },
-    {
       "title": "World marks second warmest July on record",
       "description": "As multiple regions contend with unbearable heat, drought, wildfires and other extreme weather, the World Meteorological Organization (WMO) on Tuesday underlined the crucial need for stronger forecasts and early warning systems to protect lives and livelihoods.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168115",
@@ -321,20 +329,20 @@
       "date": "2026-08-11"
     },
     {
-      "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
-      "description": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest… The post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-the-two-largest-reservoirs-in-the-us-have-hit-record-low-levels",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-08-17"
-    },
-    {
       "title": "Strengthening El Niño to push 49 million more people into acute hunger",
       "description": "Nearly 50 million more people in highly vulnerable communities globally are set to be pushed into acute hunger because of the strengthening El Niño weather phenomenon, the UN World Food Programme (WFP) said on Wednesday.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168079",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-08-05"
+    },
+    {
+      "title": "Analysis: UK solar power hits record high over summer 2026",
+      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-04"
     },
     {
       "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
@@ -369,20 +377,20 @@
       "date": "2026-08-20"
     },
     {
+      "title": "Amid Drought, Hundreds of French Rivers Are Drying Up",
+      "description": "An ongoing drought in Europe has sapped French rivers. Officials say that 43 percent of small waterways in France have been partially or completely dried up. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/france-small-rivers-drought",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-12"
+    },
+    {
       "title": "As Deforestation Falls in Brazil, It Surges in Neighboring Bolivia",
       "description": "As Brazil cracks down on the illegal clearing of forests, farmers and ranchers are moving into Bolivia, helping to fuel a wave of deforestation in a country where land is cheap and enforcement lax. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/brazil-bolivia-deforestation",
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-08-11"
-    },
-    {
-      "title": "The World Adds a Third Terawatt of Solar Power",
-      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-04"
     },
     {
       "title": "Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero?",
@@ -447,6 +455,14 @@
       "source": "Asian Development Bank",
       "field": "energy",
       "date": "2026-08-17"
+    },
+    {
+      "title": "Can the US battery market untangle from China?",
+      "description": "The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from intermittent renewables like wind and solar. Crucially, this is all happening with the help of cheap Chinese batteries,…",
+      "link": "https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/",
+      "source": "MIT Tech Review",
+      "field": "energy",
+      "date": "2026-09-10"
     },
     {
       "title": "Zap Rocks. Add Water. Get Clean Hydrogen",
@@ -633,6 +649,14 @@
       "date": "2026-08-20"
     },
     {
+      "title": "This road map could help us decide whether to deploy solar geoengineering",
+      "description": "A San Francisco nonprofit has published a detailed road map of the experiments, studies, and infrastructure that it says would be needed to make informed decisions about the use of solar geoengineering, MIT Technology Review can reveal. Scientists have now spent half a century exploring the possibility that we could counteract climate change by releasing…",
+      "link": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-10"
+    },
+    {
       "title": "Harvard scientists turn knitting into shape-shifting smart fabric",
       "description": "Harvard researchers have transformed ordinary knitting into a platform for creating fabrics that can snap between different shapes and perform useful functions. Using elastic yarns and industrial knitting techniques, the team engineered thick textiles that naturally curve and lock into multiple stable configurations, much like a light switch flipping between on and off. By adding conductive yarn, they turned these shape-shifting fabrics into soft electronic switches capable of controlling lights, counting steps, and responding to movement.",
       "link": "https://www.sciencedaily.com/releases/2026/09/260901070543.htm",
@@ -817,14 +841,6 @@
       "date": "2026-08-11"
     },
     {
-      "title": "3 Questions: MIT Sloan launches Evening MBA",
-      "description": "Dean Richard Locke discusses a new program that expands access for working professionals while deepening connections to Greater Boston’s innovation economy.",
-      "link": "https://news.mit.edu/2026/3-questions-mit-sloan-launches-evening-mba-0811",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-11"
-    },
-    {
       "title": "Youth advocates gather in New York to launch new AI standards",
       "description": "As artificial intelligence (AI) rapidly transforms everything from how we learn, to the job market, children are adopting the technology more than three times faster than adults – exposing them to unique opportunities and risks.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168129",
@@ -881,14 +897,6 @@
       "date": "2026-08-24"
     },
     {
-      "title": "ADB Approves Project to Expand Access to Life-Saving Care in Mongolia’s Provinces",
-      "description": "ADB has approved a $225 million loan—its largest health sector investment in Mongolia—to expand access to quality health care across the country’s provinces through major upgrades in health infrastructure, emergency care, digital health systems, medical equipment, and workforce capacity.",
-      "link": "https://www.adb.org/news/adb-approves-project-expand-access-life-saving-care-mongolia-provinces",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-21"
-    },
-    {
       "title": "ADB Approves $1 Billion Loan to Support Sustainable Growth and Resilience of India’s Cities",
       "description": "ADB has approved a $1 billion loan to support the Government of India’s urban reform agenda by maintaining momentum of investment and reforms aimed at transforming cities into engines of economic growth, innovation, and livability.",
       "link": "https://www.adb.org/news/adb-approves-1-billion-loan-support-sustainable-growth-and-resilience-india-cities",
@@ -897,12 +905,12 @@
       "date": "2026-07-28"
     },
     {
-      "title": "ADB’s Private Sector Operations Drive Development Impact with Strong Growth",
-      "description": "ADB's private sector financing increased by 38% in 2025 to $9.5 billion, including $900 million in long-term direct mobilization for transaction advisory services, according to the Private Sector Operations in 2025 Report on Development Effectiveness.",
-      "link": "https://www.adb.org/news/adb-private-sector-operations-drive-development-impact-strong-growth",
+      "title": "ADB Approves Project to Expand Access to Life-Saving Care in Mongolia’s Provinces",
+      "description": "ADB has approved a $225 million loan—its largest health sector investment in Mongolia—to expand access to quality health care across the country’s provinces through major upgrades in health infrastructure, emergency care, digital health systems, medical equipment, and workforce capacity.",
+      "link": "https://www.adb.org/news/adb-approves-project-expand-access-life-saving-care-mongolia-provinces",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-08-25"
+      "date": "2026-08-21"
     },
     {
       "title": "ADB, FSM Development Bank to Support Women Entrepreneurs in the Federated States of Micronesia",
@@ -913,12 +921,12 @@
       "date": "2026-08-18"
     },
     {
-      "title": "ADB Supports Tbilisi Bypass with $250 Million Loan to Boost Georgia’s Regional Connectivity",
-      "description": "ADB has approved a $250 million loan to help build a critical bypass around Tbilisi that will improve road connectivity, ease congestion, and strengthen Georgia’s role as a regional transport hub in the region.",
-      "link": "https://www.adb.org/news/adb-supports-tbilisi-bypass-250-million-loan-boost-georgia-regional-connectivity",
+      "title": "ADB Launches Fund to Scale Resilient Agribusiness and Sustainable Rangeland Management in Mongolia",
+      "description": "ADB has launched the Green Inclusive Regional Agribusiness Fund to expand access to finance for herders, cooperatives, small and medium-sized enterprises, and agribusinesses investing in sustainable livestock value chains in Mongolia.",
+      "link": "https://www.adb.org/news/adb-launches-fund-scale-resilient-agribusiness-and-sustainable-rangeland-management-mongolia",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-30"
+      "date": "2026-08-24"
     },
     {
       "title": "ADB to Deploy $450 Million to Shield Cambodia, Sri Lanka from Middle East Impact",
@@ -937,12 +945,28 @@
       "date": "2026-07-28"
     },
     {
-      "title": "ADB Launches Fund to Scale Resilient Agribusiness and Sustainable Rangeland Management in Mongolia",
-      "description": "ADB has launched the Green Inclusive Regional Agribusiness Fund to expand access to finance for herders, cooperatives, small and medium-sized enterprises, and agribusinesses investing in sustainable livestock value chains in Mongolia.",
-      "link": "https://www.adb.org/news/adb-launches-fund-scale-resilient-agribusiness-and-sustainable-rangeland-management-mongolia",
+      "title": "ADB’s Private Sector Operations Drive Development Impact with Strong Growth",
+      "description": "ADB's private sector financing increased by 38% in 2025 to $9.5 billion, including $900 million in long-term direct mobilization for transaction advisory services, according to the Private Sector Operations in 2025 Report on Development Effectiveness.",
+      "link": "https://www.adb.org/news/adb-private-sector-operations-drive-development-impact-strong-growth",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
+    },
+    {
+      "title": "ADB Supports Tbilisi Bypass with $250 Million Loan to Boost Georgia’s Regional Connectivity",
+      "description": "ADB has approved a $250 million loan to help build a critical bypass around Tbilisi that will improve road connectivity, ease congestion, and strengthen Georgia’s role as a regional transport hub in the region.",
+      "link": "https://www.adb.org/news/adb-supports-tbilisi-bypass-250-million-loan-boost-georgia-regional-connectivity",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-07-30"
+    },
+    {
+      "title": "ADB Strengthens Partnership with Indonesia-Malaysia-Thailand Growth Triangle on Connectivity, Resilience",
+      "description": "ADB has reaffirmed its commitment to supporting the Indonesia-Malaysia-Thailand Growth Triangle to advance regional integration, sustainable development, and shared prosperity.",
+      "link": "https://www.adb.org/news/adb-strengthens-partnership-indonesia-malaysia-thailand-growth-triangle-connectivity",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-10"
     },
     {
       "title": "The rise of electoral democracy",
@@ -951,6 +975,14 @@
       "source": "Our World in Data",
       "field": "development",
       "date": "2026-08-24"
+    },
+    {
+      "title": "ADB Sells $2 Billion 10-Year Global Benchmark Bond",
+      "description": "ADB has priced a $2 billion 10-year global bond, proceeds of which will become part of ADB’s ordinary capital resources.",
+      "link": "https://www.adb.org/news/adb-sells-2-billion-10-year-global-benchmark-bond-2026",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-08-21"
     },
     {
       "title": "After post-pandemic improvement, youth unemployment is rising again",
@@ -983,14 +1015,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-08-25"
-    },
-    {
-      "title": "ADB Sells $2 Billion 10-Year Global Benchmark Bond",
-      "description": "ADB has priced a $2 billion 10-year global bond, proceeds of which will become part of ADB’s ordinary capital resources.",
-      "link": "https://www.adb.org/news/adb-sells-2-billion-10-year-global-benchmark-bond-2026",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-21"
     },
     {
       "title": "ADB President Urges Faster Action on Water Security",
@@ -1041,6 +1065,14 @@
       "date": "2026-08-21"
     },
     {
+      "title": "Why do some people have a better sense of direction than others?",
+      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-09-10"
+    },
+    {
       "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
       "description": "UN Secretary-General António Guterres on Tuesday urged leaders of the Shanghai Cooperation Organization (SCO) to help reshape global governance for a changing world, arguing that a more multipolar international order can strengthen multilateralism, advance fairness and better serve developing countries.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168239",
@@ -1089,14 +1121,6 @@
       "date": "2026-08-10"
     },
     {
-      "title": "Fighting deepens needs and fuels further displacement in Sudan",
-      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-10"
-    },
-    {
       "title": "Security Council LIVE: Warnings of famine and collapse as South Sudan's peace deal frays",
       "description": "Nearly eight million people in South Sudan – more than half the population – face crisis-level hunger, with famine risk now flagged in four counties, as the Security Council met this morning in New York. A cholera outbreak has killed more than 1,700 people, and some aid workers are being killed and abducted even as they try to reach those most at risk. Follow live coverage below.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168089",
@@ -1113,6 +1137,14 @@
       "date": "2026-08-20"
     },
     {
+      "title": "Fighting deepens needs and fuels further displacement in Sudan",
+      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-10"
+    },
+    {
       "title": "ADB, Viet Nam Sign $42.76 Million Financing Package to Build Modern, Resilient Irrigation System",
       "description": "ADB and the Government of Viet Nam have signed $42.76 million in financing to modernize irrigation systems and strengthen farmers’ resilience to changing climate conditions and rising pressure on water resources in Dong Nai, Gia Lai, and Quang Ngai provinces.",
       "link": "https://www.adb.org/news/adb-viet-nam-sign-42-76-million-financing-package-build-modern-resilient-irrigation-system",
@@ -1121,17 +1153,17 @@
       "date": "2026-09-03"
     },
     {
-      "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
-      "description": "A NASA Launch Services (NLS) II contract has been awarded by the agency to Relativity Space Inc., and its Terran R launch service in accordance with the contract’s on-ramp provision. The Terran R launch service will be available to NASA’s launch services to use for future missions. The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts […]",
-      "link": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
+      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
+      "description": "Last November, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure, and benefit commercial industries, including shipping. The satellite now is flying 30 seconds behind its predecessor, Sentinel-6 Michael Freilich. Both satellites are providing precise sea level height measurements during what oceanographers expect to be a historic El […]",
+      "link": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
       "source": "NASA",
       "field": "space",
       "date": "2026-09-09"
     },
     {
-      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
-      "description": "Last November, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure, and benefit commercial industries, including shipping. The satellite now is flying 30 seconds behind its predecessor, Sentinel-6 Michael Freilich. Both satellites are providing precise sea level height measurements during what oceanographers expect to be a historic El […]",
-      "link": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
+      "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
+      "description": "A NASA Launch Services (NLS) II contract has been awarded by the agency to Relativity Space Inc., and its Terran R launch service in accordance with the contract’s on-ramp provision. The Terran R launch service will be available to NASA’s launch services to use for future missions. The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts […]",
+      "link": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/",
       "source": "NASA",
       "field": "space",
       "date": "2026-09-09"
@@ -1297,14 +1329,6 @@
       "date": "2026-08-30"
     },
     {
-      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
-      "description": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT Sunday aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at the agency’s Kennedy Space Center in Florida. Roman pairs a large field of […]",
-      "link": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-30"
-    },
-    {
       "title": "NASA Deep Space Network’s New Goldstone Antenna Goes Online",
       "description": "Description Long shadows are cast by the recently completed Deep Space Station 23 at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. A 34-meter (114-foot) multifrequency beam-waveguide antenna, DSS-23 will boost the DSN’s capacity and enhance NASA’s deep space communications capabilities for decades to come. NASA leadership and personnel as well […]",
       "link": "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/",
@@ -1313,25 +1337,9 @@
       "date": "2026-08-30"
     },
     {
-      "title": "President Trump Signs Executive Order to Create US Space Academy",
-      "description": "To strengthen the nation’s space workforce and develop the next generation of space leaders, President Donald J. Trump signed an Executive Order on Friday to establish the nation’s first U.S. Space Academy. The order highlights how space is a critical domain for American national security, economic growth, scientific discovery, and technological innovation. The proposed academy […]",
-      "link": "https://www.nasa.gov/news-release/president-trump-signs-executive-order-to-create-us-space-academy/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-28"
-    },
-    {
       "title": "9 Things to Know About NASA’s Nancy Grace Roman Space Telescope",
       "description": "NASA’s Nancy Grace Roman Space Telescope is set to launch at 7:26 a.m. EDT on Sunday, Aug. 30. While you wait to watch the launch, brush up on some key facts about this wide-view mission. To learn more about the Roman mission, visit: https://www.nasa.gov/roman Media contact: Claire AndreoliNASA’s Goddard Space Flight Center, Greenbelt, Md.claire.andreoli@nasa.gov301-286-1940",
       "link": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "NASA Astronaut Jonny Kim Departs Agency to Continue Military Service",
-      "description": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutenant commander in the U.S. Navy. Kim launched to the space station in April 2025 aboard the Soyuz MS‑27 spacecraft to conduct […]",
-      "link": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service/",
       "source": "NASA",
       "field": "space",
       "date": "2026-08-27"
@@ -1345,25 +1353,9 @@
       "date": "2026-08-26"
     },
     {
-      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
-      "description": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station operations. Watch live coverage beginning at 7 a.m. EDT. The spacewalk is expected to start at approximately 8:30 a.m. and last about […]",
-      "link": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-26"
-    },
-    {
       "title": "NASA Ames’ Contributions to Roman’s Mission",
       "description": "Set to launch on Sunday, Aug. 30, NASA’s Nancy Grace Roman Space Telescope will empower astronomers to explore vast regions of the cosmos and settle essential questions in the areas of dark energy, dark matter, planets outside our solar system, and the formation and growth of galaxies over cosmic time. Key contributions to Roman’s mission […]",
       "link": "https://www.nasa.gov/general/nasa-ames-contributions-to-romans-mission/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
-      "description": "NASA will announce the winners of the final phase of its LunaRecycle Challenge on Friday, Aug. 28, at The University of Alabama (UA) Lee Styslinger College of Engineering in Tuscaloosa, Alabama. Launched in 2024, the challenge incentivizes the invention of new recycling systems that could support non-metabolic waste management efforts for future lunar missions. Media […]",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama/",
       "source": "NASA",
       "field": "space",
       "date": "2026-08-25"
@@ -1503,6 +1495,46 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-08-31"
+    },
+    {
+      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+      "description": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT Sunday aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at the agency’s Kennedy Space Center in Florida. Roman pairs a large field of […]",
+      "link": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-30"
+    },
+    {
+      "title": "President Trump Signs Executive Order to Create US Space Academy",
+      "description": "To strengthen the nation’s space workforce and develop the next generation of space leaders, President Donald J. Trump signed an Executive Order on Friday to establish the nation’s first U.S. Space Academy. The order highlights how space is a critical domain for American national security, economic growth, scientific discovery, and technological innovation. The proposed academy […]",
+      "link": "https://www.nasa.gov/news-release/president-trump-signs-executive-order-to-create-us-space-academy/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-28"
+    },
+    {
+      "title": "NASA Astronaut Jonny Kim Departs Agency to Continue Military Service",
+      "description": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutenant commander in the U.S. Navy. Kim launched to the space station in April 2025 aboard the Soyuz MS‑27 spacecraft to conduct […]",
+      "link": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-27"
+    },
+    {
+      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
+      "description": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station operations. Watch live coverage beginning at 7 a.m. EDT. The spacewalk is expected to start at approximately 8:30 a.m. and last about […]",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-26"
+    },
+    {
+      "title": "NASA Invites Media to LunaRecycle Challenge Finale Event in Alabama",
+      "description": "NASA will announce the winners of the final phase of its LunaRecycle Challenge on Friday, Aug. 28, at The University of Alabama (UA) Lee Styslinger College of Engineering in Tuscaloosa, Alabama. Launched in 2024, the challenge incentivizes the invention of new recycling systems that could support non-metabolic waste management efforts for future lunar missions. Media […]",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-lunarecycle-challenge-finale-event-in-alabama/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-25"
     },
     {
       "title": "A Sunflower’s View of Totality",
@@ -1647,6 +1679,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-08-27"
+    },
+    {
+      "title": "3 Questions: MIT Sloan launches Evening MBA",
+      "description": "Dean Richard Locke discusses a new program that expands access for working professionals while deepening connections to Greater Boston’s innovation economy.",
+      "link": "https://news.mit.edu/2026/3-questions-mit-sloan-launches-evening-mba-0811",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-11"
     },
     {
       "title": "New Quantum Microscopy Trick Quadruples Microscope Resolution",
