@@ -1,31 +1,31 @@
 {
-  "date": "2026-09-10",
-  "lastUpdated": "2026-09-10T22:12:40.642Z",
+  "date": "2026-09-11",
+  "lastUpdated": "2026-09-11T02:38:44.441Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "26.6s",
+    "executionTime": "51.0s",
     "sourcesQueried": 42,
     "sourcesSuccessful": 31,
-    "totalCandidates": 228,
-    "totalSelected": 225,
+    "totalCandidates": 223,
+    "totalSelected": 223,
     "entriesByField": {
-      "health": 14,
+      "health": 15,
       "climate": 35,
       "energy": 5,
       "technology": 66,
-      "education": 3,
-      "development": 20,
+      "education": 2,
+      "development": 18,
       "peace": 15,
       "agriculture": 1,
       "space": 66
     },
     "categoryIntegrity": {
       "health": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "climate": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "energy": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 2,
+        "kept": 0,
         "changed": 0
       },
       "education": {
@@ -41,7 +41,7 @@
         "changed": 0
       },
       "development": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "peace": {
@@ -53,17 +53,33 @@
         "changed": 0
       },
       "space": {
-        "kept": 2,
+        "kept": 0,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 30,
+      "highScoreEntries": 26,
       "topTierSources": 151,
-      "highCredibilitySources": 202
+      "highCredibilitySources": 200
     }
   },
   "entries": [
+    {
+      "title": "[Series] The changing therapeutic landscape of small-cell lung cancer",
+      "description": "Small-cell lung cancer (SCLC) is an exceptionally aggressive malignancy: highly proliferative, heterogeneous, and frequently metastatic at diagnosis. Although initially responsive to chemotherapy, such responses are typically transient, and recurrent disease has been largely refractory to standard cytotoxics. The past decade has been notable for major advances in our understanding of SCLC biology, and this preclinical progress is now informing multiple novel therapeutic approaches for this disease.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01244-4/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-09-06"
+    },
+    {
+      "title": "Novel Molecular Shuttle Could Deliver Targeted, Diverse Therapies to the Brain",
+      "description": "The blood–brain barrier (BBB) is a protective filter that lines the brain's blood vessels and is notoriously hard to penetrate, making the treatment of brain disorders very difficult. Strategies designed to breach the BBB include using brain surgery and focused ultrasound waves to create physical openings for the transportation of medicines and employing engineered adeno-associated viruses (AAVs) to ferry genetic payloads into desired locations, but these methods have limitations. Now, researchers at Caltech have developed a new, more effective way to transport potentially life-changing therap",
+      "link": "https://www.caltech.edu/about/news/novel-molecular-shuttle-could-deliver-targeted-diverse-therapies-to-the-brain",
+      "source": "Caltech",
+      "field": "health",
+      "date": "2026-08-26"
+    },
     {
       "title": "[Articles] Belzutifan plus lenvatinib versus cabozantinib in patients with previously treated advanced renal cell carcinoma (LITESPARK-011): an open-label, randomised, controlled, phase 3 trial",
       "description": "Belzutifan–lenvatinib represents a novel and efficacious treatment option. Although overall survival was not significantly different between the groups, belzutifan–lenvatinib might be a new standard of care for patients with advanced clear-cell renal cell carcinoma with disease progression after previous anti-PD-1 or anti-PD-L1 therapy. The safety profile of belzutifan–lenvatinib was consistent with those of the individual drugs.",
@@ -87,14 +103,6 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-07-31"
-    },
-    {
-      "title": "Novel Molecular Shuttle Could Deliver Targeted, Diverse Therapies to the Brain",
-      "description": "The blood–brain barrier (BBB) is a protective filter that lines the brain's blood vessels and is notoriously hard to penetrate, making the treatment of brain disorders very difficult. Strategies designed to breach the BBB include using brain surgery and focused ultrasound waves to create physical openings for the transportation of medicines and employing engineered adeno-associated viruses (AAVs) to ferry genetic payloads into desired locations, but these methods have limitations. Now, researchers at Caltech have developed a new, more effective way to transport potentially life-changing therap",
-      "link": "https://www.caltech.edu/about/news/novel-molecular-shuttle-could-deliver-targeted-diverse-therapies-to-the-brain",
-      "source": "Caltech",
-      "field": "health",
-      "date": "2026-08-26"
     },
     {
       "title": "More health workers, stronger systems: Africa’s new ambitious goal",
@@ -121,6 +129,14 @@
       "date": "2026-08-13"
     },
     {
+      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
+      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-04"
+    },
+    {
       "title": "WHO chief voices concern over Trump Administration’s executive order on vaccines",
       "description": "The head of the World Health Organization (WHO) on Wednesday upheld the safety of childhood vaccines in response to a new directive from the White House to overhaul the recommended inoculation schedule.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168124",
@@ -143,14 +159,6 @@
       "source": "UN News Health",
       "field": "health",
       "date": "2026-08-06"
-    },
-    {
-      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
-      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-04"
     },
     {
       "title": "One Team, One Dream: End Polio in Africa",
@@ -177,12 +185,12 @@
       "date": "2026-08-17"
     },
     {
-      "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
-      "description": "NOAA expands use of commercial satellite data to enhance weather forecasting September 10, 2026 NOAA is expanding the use of commercial satellite data to boost weather and space forecasting. This is an artist's rendering of commercial satellites operated by Tomorrow.io, PlanetiQ, Spire Global Subsidiary Inc. and Muon Space that collect environmental data. (Image credit: NOAA NESDIS) Download Image NOAA is expanding its procurement and use of new commercial environmental satellite data streams that will enhance weather forecasting and space weather monitoring. The Space-Based Environmental Moni",
-      "link": "https://www.noaa.gov/news-release/noaa-expands-use-of-commercial-satellite-data-to-enhance-weather-forecasting",
-      "source": "NOAA",
+      "title": "Abandoned Study of Australian Ash Trees Challenges Case for Clearcutting",
+      "description": "A landmark study of the towering ash trees that grow in the mountains of Victoria, Australia, which was launched in the 1980s, boosted arguments for clearcutting the iconic trees. But when scientists returned to the site years later, they came to a much different conclusion. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/mountain-ash-study",
+      "source": "Yale E360",
       "field": "climate",
-      "date": "2026-09-02"
+      "date": "2026-07-31"
     },
     {
       "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
@@ -191,14 +199,6 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-08"
-    },
-    {
-      "title": "Abandoned Study of Australian Ash Trees Challenges Case for Clearcutting",
-      "description": "A landmark study of the towering ash trees that grow in the mountains of Victoria, Australia, which was launched in the 1980s, boosted arguments for clearcutting the iconic trees. But when scientists returned to the site years later, they came to a much different conclusion. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/mountain-ash-study",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-07-31"
     },
     {
       "title": "The 2027 NOAA Hollings Scholarship application is now open!",
@@ -215,6 +215,14 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-08-19"
+    },
+    {
+      "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
+      "description": "NOAA expands use of commercial satellite data to enhance weather forecasting September 10, 2026 NOAA is expanding the use of commercial satellite data to boost weather and space forecasting. This is an artist's rendering of commercial satellites operated by Tomorrow.io, PlanetiQ, Spire Global Subsidiary Inc. and Muon Space that collect environmental data. (Image credit: NOAA NESDIS) Download Image NOAA is expanding its procurement and use of new commercial environmental satellite data streams that will enhance weather forecasting and space weather monitoring. The Space-Based Environmental Moni",
+      "link": "https://www.noaa.gov/news-release/noaa-expands-use-of-commercial-satellite-data-to-enhance-weather-forecasting",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-02"
     },
     {
       "title": "Coordinated action on clean air and climate change can net $15 for every dollar spent",
@@ -241,12 +249,12 @@
       "date": "2026-08-24"
     },
     {
-      "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
-      "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
-      "link": "https://e360.yale.edu/features/sargassum-belt",
-      "source": "Yale E360",
+      "title": "Analysis: UK solar power hits record high over summer 2026",
+      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
+      "source": "Carbon Brief",
       "field": "climate",
-      "date": "2026-09-10"
+      "date": "2026-09-04"
     },
     {
       "title": "A London Scheme to Cut Car Pollution Restored Lung Growth in Children",
@@ -281,20 +289,36 @@
       "date": "2026-08-19"
     },
     {
-      "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
-      "description": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest… The post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-the-two-largest-reservoirs-in-the-us-have-hit-record-low-levels",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-08-17"
-    },
-    {
       "title": "NOAA to rebuild historic science lab in Beaufort, North Carolina",
       "description": "NOAA to rebuild historic science lab in Beaufort, North Carolina New North Carolina facility will continue to provide world-class NOAA science nationwide August 27, 2026 NOAA's Beaufort Laboratory moved to its current location on Pivers Island, South Carolina, in 1902. This aerial image of the laboratory complex was taken in 2014. (Image credit: NOAA) Download Image Today, NOAA announced plans to fund the reconstruction of a new laboratory in Beaufort, North Carolina. This new lab will replace the former building that was permanently closed in 2024 due to significant hurricane-related structur",
       "link": "https://www.noaa.gov/news-release/noaa-to-rebuild-historic-science-lab-in-beaufort-north-carolina",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-08-19"
+    },
+    {
+      "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
+      "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/sargassum-belt",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "World falling short on 22 of 23 nature targets for 2030, says draft UN report",
+      "description": "The global goal to halt and reverse nature loss by 2030 “will not be achieved” unless action by countries “accelerates… The post World falling short on 22 of 23 nature targets for 2030, says draft UN report appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/world-falling-short-on-22-of-23-nature-targets-for-2030-says-draft-un-report",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-07-29"
+    },
+    {
+      "title": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa",
+      "description": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa NOAA satellites track hurricanes from their earliest beginnings NOAA's GOES West satellite captured this image of three tropical cyclones — Hurricanes Fausto and Genevieve and Typhoon Dolphin — swirling simultaneously in the Pacific Ocean. The image was taken on Tuesday, July 27, at 3:30 PM PDT/ 22:30 UTC. None of the three tropical cyclones made landfall in the United States. Fausto contributed to high surf conditions in Hawaii, and Genevieve also brought high surf to southern California. Typhoon Dolphin continued its tr",
+      "link": "https://www.noaa.gov/stories/pacific-hurricanes-fausto-and-genevieve-actually-had-origins-near-africa",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-08-06"
     },
     {
       "title": "NOAA Announces 2026 Small Business of the Year Award Recipient",
@@ -321,6 +345,14 @@
       "date": "2026-08-17"
     },
     {
+      "title": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America",
+      "description": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America Tropical Storm Bertha mixed water column, reducing size August 5, 2026 Measuring a 'dead zone': Scientists retrieve the CTD (conductivity, temperature, depth) package of ocean sensors after profiling dissolved oxygen at a station during the Shelfwide Hypoxia Cruise in the Gulf of America. (Image credit: Courtesy of Cassandra Glaspie/LSU) Download Image NOAA-supported scientists announced today that this year’s Gulf of America hypoxic zone is approximately 1,332 square miles, making it the 2nd smallest zone on recor",
+      "link": "https://www.noaa.gov/news-release/noaa-and-partners-find-smaller-than-anticipated-hypoxic-zone-in-gulf-of-america",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-30"
+    },
+    {
       "title": "World marks second warmest July on record",
       "description": "As multiple regions contend with unbearable heat, drought, wildfires and other extreme weather, the World Meteorological Organization (WMO) on Tuesday underlined the crucial need for stronger forecasts and early warning systems to protect lives and livelihoods.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168115",
@@ -329,20 +361,28 @@
       "date": "2026-08-11"
     },
     {
+      "title": "The World Adds a Third Terawatt of Solar Power",
+      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "NOAA maintains prediction for below-normal Atlantic hurricane season",
+      "description": "NOAA maintains prediction for below-normal Atlantic hurricane season Need for U.S. residents to prepare remains August 6, 2026 This image of Tropical Storm Bertha was captured by NOAA's GOES East (GOES-19 satellite) on July 22, 2026 at 1:15 p.m. ET. (Image credit: Tropical Storm Bertha captured by NOAA Satellites) Download Image With the climatological peak of hurricane season approaching in early September, NOAA’s prediction for below-normal activity in the Atlantic basin remains. Forecasters from NOAA’s National Weather Service updated today the number of expected named storms to 7-13 (with ",
+      "link": "https://www.noaa.gov/news-release/noaa-maintains-prediction-for-below-normal-atlantic-hurricane-season",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-30"
+    },
+    {
       "title": "Strengthening El Niño to push 49 million more people into acute hunger",
       "description": "Nearly 50 million more people in highly vulnerable communities globally are set to be pushed into acute hunger because of the strengthening El Niño weather phenomenon, the UN World Food Programme (WFP) said on Wednesday.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168079",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-08-05"
-    },
-    {
-      "title": "Analysis: UK solar power hits record high over summer 2026",
-      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-09-04"
     },
     {
       "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
@@ -377,6 +417,14 @@
       "date": "2026-08-20"
     },
     {
+      "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
+      "description": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest… The post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-the-two-largest-reservoirs-in-the-us-have-hit-record-low-levels",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-08-17"
+    },
+    {
       "title": "Amid Drought, Hundreds of French Rivers Are Drying Up",
       "description": "An ongoing drought in Europe has sapped French rivers. Officials say that 43 percent of small waterways in France have been partially or completely dried up. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/france-small-rivers-drought",
@@ -391,38 +439,6 @@
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-08-11"
-    },
-    {
-      "title": "The World Adds a Third Terawatt of Solar Power",
-      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa",
-      "description": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa NOAA satellites track hurricanes from their earliest beginnings NOAA's GOES West satellite captured this image of three tropical cyclones — Hurricanes Fausto and Genevieve and Typhoon Dolphin — swirling simultaneously in the Pacific Ocean. The image was taken on Tuesday, July 27, at 3:30 PM PDT/ 22:30 UTC. None of the three tropical cyclones made landfall in the United States. Fausto contributed to high surf conditions in Hawaii, and Genevieve also brought high surf to southern California. Typhoon Dolphin continued its tr",
-      "link": "https://www.noaa.gov/stories/pacific-hurricanes-fausto-and-genevieve-actually-had-origins-near-africa",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-08-06"
-    },
-    {
-      "title": "NOAA maintains prediction for below-normal Atlantic hurricane season",
-      "description": "NOAA maintains prediction for below-normal Atlantic hurricane season Need for U.S. residents to prepare remains August 6, 2026 This image of Tropical Storm Bertha was captured by NOAA's GOES East (GOES-19 satellite) on July 22, 2026 at 1:15 p.m. ET. (Image credit: Tropical Storm Bertha captured by NOAA Satellites) Download Image With the climatological peak of hurricane season approaching in early September, NOAA’s prediction for below-normal activity in the Atlantic basin remains. Forecasters from NOAA’s National Weather Service updated today the number of expected named storms to 7-13 (with ",
-      "link": "https://www.noaa.gov/news-release/noaa-maintains-prediction-for-below-normal-atlantic-hurricane-season",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-30"
-    },
-    {
-      "title": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America",
-      "description": "NOAA and partners find smaller-than-anticipated hypoxic zone in Gulf of America Tropical Storm Bertha mixed water column, reducing size August 5, 2026 Measuring a 'dead zone': Scientists retrieve the CTD (conductivity, temperature, depth) package of ocean sensors after profiling dissolved oxygen at a station during the Shelfwide Hypoxia Cruise in the Gulf of America. (Image credit: Courtesy of Cassandra Glaspie/LSU) Download Image NOAA-supported scientists announced today that this year’s Gulf of America hypoxic zone is approximately 1,332 square miles, making it the 2nd smallest zone on recor",
-      "link": "https://www.noaa.gov/news-release/noaa-and-partners-find-smaller-than-anticipated-hypoxic-zone-in-gulf-of-america",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-30"
     },
     {
       "title": "Mountain Lions Are Keeping Deer Off the Road, Study Finds",
@@ -449,14 +465,6 @@
       "date": "2026-07-30"
     },
     {
-      "title": "World falling short on 22 of 23 nature targets for 2030, says draft UN report",
-      "description": "The global goal to halt and reverse nature loss by 2030 “will not be achieved” unless action by countries “accelerates… The post World falling short on 22 of 23 nature targets for 2030, says draft UN report appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/world-falling-short-on-22-of-23-nature-targets-for-2030-says-draft-un-report",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-07-29"
-    },
-    {
       "title": "ADB Signs First Deal in Türkiye’s Financial Leasing Industry to Strengthen Energy Security and Expand Clean Energy",
       "description": "ADB has signed a $50 million medium-term financing deal with Yapı Kredi Leasing, one of Türkiye’s largest leasing companies, to scale up financing for renewables, energy efficiency, and green industry through the company’s sustainable leasing operations.",
       "link": "https://www.adb.org/news/adb-signs-first-deal-turkiye-financial-leasing-industry-strengthen-energy-security-expand-clean-energy",
@@ -473,14 +481,6 @@
       "date": "2026-09-10"
     },
     {
-      "title": "Zap Rocks. Add Water. Get Clean Hydrogen",
-      "description": "In a tranquil Boston suburb, on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper, deeper—through layers of spongy sandstone to the hard, marbled roots of an ancient mountain range hundreds of meters below ground. Here the rock is tight; there are few cracks for water or gases to flow. But that’s about to change. A stone’s throw away, a second electrode—a twin of the first—has been fixed in another ",
-      "link": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
-      "source": "IEEE Spectrum",
-      "field": "energy",
-      "date": "2026-08-11"
-    },
-    {
       "title": "In Australia, a Home Battery Boom Has Helped Cut Wholesale Power Prices in Half",
       "description": "A little more than one year ago, Australia rolled out a program to heavily subsidize home batteries, part of a larger effort to make use of the huge volumes of solar energy that were going to waste. On Friday, officials announced that more than 500,000 batteries had been installed under the plan, helping to slash wholesale power prices roughly in half. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/australia-home-batteries",
@@ -489,20 +489,20 @@
       "date": "2026-08-14"
     },
     {
+      "title": "Zap Rocks. Add Water. Get Clean Hydrogen",
+      "description": "In a tranquil Boston suburb, on the far edge of a horse farm, where pasture gives way to woods, a crane lowers an enormous electrode into a borehole. The electrode, a half-meter-long cylinder with copper-tipped arms to ensure good contact with the borehole walls, descends—deeper, deeper—through layers of spongy sandstone to the hard, marbled roots of an ancient mountain range hundreds of meters below ground. Here the rock is tight; there are few cracks for water or gases to flow. But that’s about to change. A stone’s throw away, a second electrode—a twin of the first—has been fixed in another ",
+      "link": "https://spectrum.ieee.org/stimulated-geologic-hydrogen",
+      "source": "IEEE Spectrum",
+      "field": "energy",
+      "date": "2026-08-11"
+    },
+    {
       "title": "Factcheck: How nuclear, gas, wind and solar power are affected during heatwaves",
       "description": "Heatwaves are becoming more likely and more intense due to climate change, impacting sources of power generation around the world… The post Factcheck: How nuclear, gas, wind and solar power are affected during heatwaves appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/factcheck-how-nuclear-gas-wind-and-solar-power-are-affected-during-heatwaves",
       "source": "Carbon Brief",
       "field": "energy",
       "date": "2026-08-04"
-    },
-    {
-      "title": "Codeveloper of Ethernet Predecessor Dies at 91",
-      "description": "Franklin “Frank” Kuo Codeveloper of ALOHAnet Fellow, 91; died 14 April Kuo helped develop ALOHAnet, a pioneering computer system at the University of Hawaii at Mānoa, in Honolulu. The system went online in 1971 and represented the first public demonstration of a wireless packet data network. It was an inspiration for Robert Metcalfe’s development of Ethernet a couple of years later. In 2020 ALOHAnet was designated as an IEEE Milestone. Kuo earned bachelor’s, master’s, and doctoral degrees in electrical engineering from the University of Illinois, Urbana-Champaign. After earning his Ph.D. in 19",
-      "link": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-10"
     },
     {
       "title": "Has pancreatic cancer met its match?",
@@ -529,20 +529,12 @@
       "date": "2026-09-02"
     },
     {
-      "title": "Scaling AI agents with trustworthy data",
-      "description": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
-      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "source": "MIT Tech Review",
+      "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
+      "description": "Four complex physics problems are now within AI’s reach, researchers say",
+      "link": "https://www.science.org/content/article/what-science-problem-should-ai-tackle-next-new-challenge-atlas-offers-answers",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-08-12"
-    },
-    {
-      "title": "NASA just used satellites and debris to navigate without GPS",
-      "description": "NASA has successfully tested a system that allows satellites to navigate without GPS by using other spacecraft and debris as landmarks in orbit. In just three days, FALCON also improved the known orbits of more than 200 space objects completely autonomously.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260826055450.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-26"
+      "date": "2026-09-10"
     },
     {
       "title": "How an AI math breakthrough ignited a controversy",
@@ -559,62 +551,6 @@
       "source": "Science",
       "field": "technology",
       "date": "2026-09-01"
-    },
-    {
-      "title": "What OpenAI’s latest controversy tells us about the future of math",
-      "description": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
-      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Building a practical path to post-quantum cryptography",
-      "description": "Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a manageable evolution, not a crisis. The mathematics behind today’s encrypted digital transactions may…",
-      "link": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
-      "description": "Nuclear reactors may go dark, but their fuel continues producing a faint antineutrino “glow” long after shutdown. Researchers have now detected that residual signal for the first time, finding it closely matched predictions of radioactive decay inside the reactor and nearby spent-fuel pools. The breakthrough suggests antineutrino detectors could eventually monitor reactors even when they are offline.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-14"
-    },
-    {
-      "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
-      "description": "Four complex physics problems are now within AI’s reach, researchers say",
-      "link": "https://www.science.org/content/article/what-science-problem-should-ai-tackle-next-new-challenge-atlas-offers-answers",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-10"
-    },
-    {
-      "title": "NSF’s new plan to fund graduate students to work in industry covers familiar ground",
-      "description": "Agency gives university-industry consortium $47 million to reinvent existing internship program",
-      "link": "https://www.science.org/content/article/nsf-s-new-plan-fund-graduate-students-work-industry-covers-familiar-ground",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Dreams of making drugs and tissues in space get closer to reality",
-      "description": "Maturing techniques and cheaper launches fuel microgravity research—and hopes of orbital manufacturing",
-      "link": "https://www.science.org/content/article/dreams-making-drugs-and-tissues-space-get-closer-reality",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Worldwide study of diseases gets historic funding influx",
-      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
-      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-25"
     },
     {
       "title": "Medieval Europe was battered with 16 catastrophic floods in just 2 years",
@@ -641,30 +577,6 @@
       "date": "2026-09-09"
     },
     {
-      "title": "In a global first, Mexico approves use of RNA-based fungicide",
-      "description": "Oifirax, created by GreenLight Biosciences, uses RNA molecules to kill the fungus responsible for powdery mildew on grapes",
-      "link": "https://www.science.org/content/article/global-first-mexico-approves-use-rna-based-fungicide",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "Ancient DNA confirms historical accounts of how smallpox got to the Americas",
-      "description": "“Landmark” paper finds disease originated with European contact",
-      "link": "https://www.science.org/content/article/ancient-dna-confirms-historical-accounts-how-smallpox-got-americas",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-07-30"
-    },
-    {
-      "title": "Fast Radio Bursts Poised to Help with Biggest Cosmic Mysteries",
-      "description": "Intense, brief flashes of radio light called fast radio bursts (FRBs) travel across billions of light-years to reach Earth, passing through a fog of matter along the way. The bursts' origins are unclear but are thought to possibly come from highly magnetized dead stars called magnetars. The denser the fog the FRBs travel through, the more their signals will become dispersed—similar to the way a prism splits white light into a rainbow of colors.Thanks to this dispersing trait, FRBs make excellent tracers of how ordinary matter is distributed in the universe; ordinary matter is the same stuff th",
-      "link": "https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-08"
-    },
-    {
       "title": "How architects turned a hulking brick box into MIT’s newest academic hub",
       "description": "A venerable storage facility has become a 21st-century architectural tour de force. Here are the key decisions that transformed the Met Warehouse.",
       "link": "https://news.mit.edu/2026/how-architects-turned-hulking-brick-box-newest-academic-hub-0904",
@@ -673,12 +585,12 @@
       "date": "2026-09-04"
     },
     {
-      "title": "Caltech and KAIST Establish Program to Co-Mentor Tomorrow's Chemists and Drive Future Discoveries",
-      "description": "Chemists from Caltech and KAIST (Korea Advanced Institute of Science and Technology) have established a framework of cooperation that will enable joint research projects in chemistry while also nurturing the next generation of scientists in an international research setting.A delegation of Caltech scientists led by Sarah Reisman, the Bren Professor of Chemistry and Norman Davidson Leadership Chair of the Division of Chemistry and Chemical Engineering (CCE), traveled to South Korea for the 1st KAIST-Caltech Workshop on Molecular Science and Chemical Innovation, which took place at KAIST on Sept",
-      "link": "https://www.caltech.edu/about/news/caltech-and-kaist-establish-program-to-co-mentor-tomorrows-chemists-and-drive-future-discoveries",
-      "source": "Caltech",
+      "title": "Codeveloper of Ethernet Predecessor Dies at 91",
+      "description": "Franklin “Frank” Kuo Codeveloper of ALOHAnet Fellow, 91; died 14 April Kuo helped develop ALOHAnet, a pioneering computer system at the University of Hawaii at Mānoa, in Honolulu. The system went online in 1971 and represented the first public demonstration of a wireless packet data network. It was an inspiration for Robert Metcalfe’s development of Ethernet a couple of years later. In 2020 ALOHAnet was designated as an IEEE Milestone. Kuo earned bachelor’s, master’s, and doctoral degrees in electrical engineering from the University of Illinois, Urbana-Champaign. After earning his Ph.D. in 19",
+      "link": "https://spectrum.ieee.org/codeveloper-of-ethernet-predecessor-dies",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-09-04"
+      "date": "2026-09-10"
     },
     {
       "title": "This road map could help us decide whether to deploy solar geoengineering",
@@ -689,6 +601,54 @@
       "date": "2026-09-10"
     },
     {
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "description": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
+      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Building a practical path to post-quantum cryptography",
+      "description": "Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a manageable evolution, not a crisis. The mathematics behind today’s encrypted digital transactions may…",
+      "link": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "description": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
+      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-08-12"
+    },
+    {
+      "title": "NASA just used satellites and debris to navigate without GPS",
+      "description": "NASA has successfully tested a system that allows satellites to navigate without GPS by using other spacecraft and debris as landmarks in orbit. In just three days, FALCON also improved the known orbits of more than 200 space objects completely autonomously.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260826055450.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-26"
+    },
+    {
+      "title": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
+      "description": "Nuclear reactors may go dark, but their fuel continues producing a faint antineutrino “glow” long after shutdown. Researchers have now detected that residual signal for the first time, finding it closely matched predictions of radioactive decay inside the reactor and nearby spent-fuel pools. The breakthrough suggests antineutrino detectors could eventually monitor reactors even when they are offline.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-14"
+    },
+    {
+      "title": "NSF’s new plan to fund graduate students to work in industry covers familiar ground",
+      "description": "Agency gives university-industry consortium $47 million to reinvent existing internship program",
+      "link": "https://www.science.org/content/article/nsf-s-new-plan-fund-graduate-students-work-industry-covers-familiar-ground",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-08-27"
+    },
+    {
       "title": "The Download: the next big thing in LLMs and how AI academic research is shifting",
       "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. These startups are chasing the next big thing in LLMs Nine years after Google researchers introduced the transformer, this family of neural networks has become the engine inside every major large…",
       "link": "https://www.technologyreview.com/2026/08/11/1141610/the-download-next-big-thing-llms-ai-academic-research-shifting/",
@@ -697,20 +657,28 @@
       "date": "2026-08-11"
     },
     {
-      "title": "Harvard scientists turn knitting into shape-shifting smart fabric",
-      "description": "Harvard researchers have transformed ordinary knitting into a platform for creating fabrics that can snap between different shapes and perform useful functions. Using elastic yarns and industrial knitting techniques, the team engineered thick textiles that naturally curve and lock into multiple stable configurations, much like a light switch flipping between on and off. By adding conductive yarn, they turned these shape-shifting fabrics into soft electronic switches capable of controlling lights, counting steps, and responding to movement.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260901070543.htm",
-      "source": "ScienceDaily Tech",
+      "title": "Dreams of making drugs and tissues in space get closer to reality",
+      "description": "Maturing techniques and cheaper launches fuel microgravity research—and hopes of orbital manufacturing",
+      "link": "https://www.science.org/content/article/dreams-making-drugs-and-tissues-space-get-closer-reality",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-09-04"
+      "date": "2026-08-27"
     },
     {
-      "title": "Architecting memory and storage in the AI era",
-      "description": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…",
-      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-      "source": "MIT Tech Review",
+      "title": "Worldwide study of diseases gets historic funding influx",
+      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
+      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-09-04"
+      "date": "2026-08-25"
+    },
+    {
+      "title": "In a global first, Mexico approves use of RNA-based fungicide",
+      "description": "Oifirax, created by GreenLight Biosciences, uses RNA molecules to kill the fungus responsible for powdery mildew on grapes",
+      "link": "https://www.science.org/content/article/global-first-mexico-approves-use-rna-based-fungicide",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-08-25"
     },
     {
       "title": "A new explanation of why the universe’s supply of nuclear matter is fixed?",
@@ -737,20 +705,12 @@
       "date": "2026-07-31"
     },
     {
-      "title": "Q&A: Rethinking how innovation happens",
-      "description": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
-      "link": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0818",
-      "source": "MIT News",
+      "title": "Ancient DNA confirms historical accounts of how smallpox got to the Americas",
+      "description": "“Landmark” paper finds disease originated with European contact",
+      "link": "https://www.science.org/content/article/ancient-dna-confirms-historical-accounts-how-smallpox-got-americas",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-08-17"
-    },
-    {
-      "title": "Extending AI Architectures to Address Continuous Scientific Problems",
-      "description": "Artificial intelligence is proving to be transformative in its ability to work with language and images. Now, with a growing push to apply AI to scientific discovery, Caltech's Anima Anandkumar says there is a crucial ingredient missing from most AI models: the ability to understand the physical world. Take as an example weather models, says Anandkumar, Caltech's Bren Professor of Computing and Mathematical Sciences. If you want an AI model to predict weather, it must understand chaotic physical systems, like how the atmosphere changes around the planet and over time.The best way to gain that ",
-      "link": "https://www.caltech.edu/about/news/extending-ai-architectures-to-address-continuous-scientific-problems",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-08-12"
+      "date": "2026-07-30"
     },
     {
       "title": "High-speed orcas are blowing sunfish to smithereens",
@@ -761,12 +721,28 @@
       "date": "2026-07-30"
     },
     {
-      "title": "Walter Torous named executive director of MIT Center for Real Estate",
-      "description": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
-      "link": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+      "title": "Fast Radio Bursts Poised to Help with Biggest Cosmic Mysteries",
+      "description": "Intense, brief flashes of radio light called fast radio bursts (FRBs) travel across billions of light-years to reach Earth, passing through a fog of matter along the way. The bursts' origins are unclear but are thought to possibly come from highly magnetized dead stars called magnetars. The denser the fog the FRBs travel through, the more their signals will become dispersed—similar to the way a prism splits white light into a rainbow of colors.Thanks to this dispersing trait, FRBs make excellent tracers of how ordinary matter is distributed in the universe; ordinary matter is the same stuff th",
+      "link": "https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Caltech and KAIST Establish Program to Co-Mentor Tomorrow's Chemists and Drive Future Discoveries",
+      "description": "Chemists from Caltech and KAIST (Korea Advanced Institute of Science and Technology) have established a framework of cooperation that will enable joint research projects in chemistry while also nurturing the next generation of scientists in an international research setting.A delegation of Caltech scientists led by Sarah Reisman, the Bren Professor of Chemistry and Norman Davidson Leadership Chair of the Division of Chemistry and Chemical Engineering (CCE), traveled to South Korea for the 1st KAIST-Caltech Workshop on Molecular Science and Chemical Innovation, which took place at KAIST on Sept",
+      "link": "https://www.caltech.edu/about/news/caltech-and-kaist-establish-program-to-co-mentor-tomorrows-chemists-and-drive-future-discoveries",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
       "source": "MIT News",
       "field": "technology",
-      "date": "2026-09-01"
+      "date": "2026-09-02"
     },
     {
       "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
@@ -775,6 +751,86 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-08-31"
+    },
+    {
+      "title": "Generating scenarios for extreme events, without extreme data",
+      "description": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
+      "link": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Groundbreaking Artist Gronk in Conversation at Caltech",
+      "description": "Gronk, a nationally renowned performance artist and painter from Los Angeles, will visit Caltech on August 27 as part of Moveable Feast, a series dedicated to the exploration of Los Angeles arts and culture.Appearing in conversation with Paul Holdengräber, curator and former founding director of The New York Public Library's LIVE from the NYPL series, Gronk will dive into his artistic journey, starting from his early days as a founding member of the avant-garde multimedia arts collective Asco, to his career as a painter, performer, and stage designer. Through stories of collaboration, experime",
+      "link": "https://www.caltech.edu/about/news/artist_gronk_conversation_caltech",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-08-20"
+    },
+    {
+      "title": "Q&A: Rethinking how innovation happens",
+      "description": "In his latest book, Professor Eugene Fitzgerald examines the forces that turn breakthroughs into value — and why innovation resists simple formulas.",
+      "link": "https://news.mit.edu/2026/qa-eugene-fitzgerald-rethinking-how-innovation-happens-0818",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-17"
+    },
+    {
+      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
+      "description": "A little over a decade ago, I led the controls design for a first-of-its-kind full digital control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The men",
+      "link": "https://spectrum.ieee.org/ai-engineer-skills",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "Pioneering cancer fighter sees promise beyond melanoma breakthrough",
+      "description": "‘This is not a time that we should be pulling back,’ says Catherine Wu. ‘It’s a very, very exciting time in the field.’",
+      "link": "https://news.harvard.edu/gazette/story/2026/08/pioneering-cancer-fighter-sees-promise-beyond-melanoma-breakthrough-vaccine/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-08-31"
+    },
+    {
+      "title": "Amping up T cells to target cancer",
+      "description": "Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these vaccines don’t stimulate enough of a response, and the approach some researchers have taken to strengthening it—delivering the vaccine along with immune-stimulating molecules called cytokines—can…",
+      "link": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "What It Takes to Be an Adaptable Engineer",
+      "description": "The AI boom has disrupted the way engineers work, introducing new tools to learn, raising expectations for what teams can achieve in a workday, and making it harder to get hired in the first place. This makes it difficult to advise students on which specific coding languages or technical skills they should learn. So amidst the uncertainty, advice for young professionals often turns to a common refrain: Be adaptable. But what does adaptability look like in practice? Engineers often operate on the cutting edge of technology, so dealing with change is a normal part of the job, says Samantha Brunh",
+      "link": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-08-24"
+    },
+    {
+      "title": "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
+      "description": "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focusing on the critical intersection of digital transformation, engineering education, and sustainable development. The summit brought together global academic leaders, technology experts, and Bhutanese government officials to discuss how modern engineering curricula can evolve from theory-centric models into application- ",
+      "link": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "This strange “spacetime crystal” can suddenly become a black hole",
+      "description": "Physicists have mathematically captured a bizarre “spacetime crystal” that can either dissolve or collapse into a microscopic black hole after only a tiny change in energy. Their breakthrough came from an unusual trick involving infinitely many dimensions, potentially giving researchers a new tool for studying primordial and microscopic black holes.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-30"
+    },
+    {
+      "title": "“Cannot be explained” – New super steel stuns scientists",
+      "description": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen. The breakthrough could reduce structural material costs by roughly 40 times and make seawater-based hydrogen production far more economical.",
+      "link": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-08-11"
     },
     {
       "title": "Translating economic growth into better lives",
@@ -801,54 +857,6 @@
       "date": "2026-08-27"
     },
     {
-      "title": "Cells use a little-known molecule to protect themselves from iron overload",
-      "description": "This discovery points toward new combination strategies against cancer, and may explain the iron buildup seen in disorders such as early-onset Parkinson’s disease.",
-      "link": "https://news.mit.edu/2026/cells-use-little-known-molecule-protect-themselves-iron-overload-0825",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "Cell-preservation technique could make CAR-T cell therapy more accessible",
-      "description": "MIT researchers’ approach, which uses naturally occurring sugars as antifreeze, could make it easier for hospitals to deploy this type of cancer treatment.",
-      "link": "https://news.mit.edu/2026/cell-preservation-technique-could-make-car-t-cell-therapy-more-accessible-0819",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-19"
-    },
-    {
-      "title": "DNA shaper steers nervous system development",
-      "description": "A study of worms finds a protein that helps shape the structure of the genome is critical for establishing the identity of some neurons.",
-      "link": "https://news.mit.edu/2026/dna-shaper-steers-nervous-system-development-0817",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-17"
-    },
-    {
-      "title": "Researchers uncover hidden pore network within nuclear fuel",
-      "description": "New understanding of how nuclear fuel breaks down and changes in an operating nuclear reactor could help keep some reactors running longer, will inform the next generation of nuclear reactor fuel systems.",
-      "link": "https://news.mit.edu/2026/researchers-uncover-hidden-pore-network-within-nuclear-fuel-0813",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-13"
-    },
-    {
-      "title": "Models of Glacial Collapse in Antarctica Improve Predictions of Sea-Level Rise",
-      "description": "With approximately one third of the world's population living within a day's walk of a coastline, sea-level rise poses a serious global threat. Every centimeter of sea-level rise could displace 1.5 million people, and current estimates of rise range from half a meter to 2 meters by the end of the 21st century—which means that potentially hundreds of millions of people could be affected. A more reliable prediction of sea-level rise is crucial to prepare coastal infrastructure and communities around the world for these changes.The Pine Island Glacier, located in West Antarctica, is the fastest f",
-      "link": "https://www.caltech.edu/about/news/models-of-glacial-collapse-in-antarctica-improve-predictions-of-sea-level-rise",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "This strange “spacetime crystal” can suddenly become a black hole",
-      "description": "Physicists have mathematically captured a bizarre “spacetime crystal” that can either dissolve or collapse into a microscopic black hole after only a tiny change in energy. Their breakthrough came from an unusual trick involving infinitely many dimensions, potentially giving researchers a new tool for studying primordial and microscopic black holes.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-30"
-    },
-    {
       "title": "Youth advocates gather in New York to launch new AI standards",
       "description": "As artificial intelligence (AI) rapidly transforms everything from how we learn, to the job market, children are adopting the technology more than three times faster than adults – exposing them to unique opportunities and risks.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168129",
@@ -857,20 +865,28 @@
       "date": "2026-08-12"
     },
     {
-      "title": "Mount Olympus and D-Day beaches among new World Heritage Sites",
-      "description": "From the peaks of Mount Olympus in Greece to the shores of the “D-Day” beaches in France, 25 cultural or natural landmarks from across the globe have been newly inscribed on the World Heritage List, updated annually by the UN Educational, Scientific and Cultural Organization (UNESCO).",
-      "link": "https://news.un.org/feed/view/en/story/2026/07/1168043",
-      "source": "UN News Education",
-      "field": "education",
-      "date": "2026-07-28"
-    },
-    {
       "title": "UN calls for urgent action to protect children from online information risks",
       "description": "More than eight in 10 young people aged 15 to 24 worldwide are now online, and in low-income countries they outpace the rest of the population nearly two to one.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168103",
       "source": "UN News Education",
       "field": "education",
       "date": "2026-08-10"
+    },
+    {
+      "title": "ADB Expands Access to Quality Education in Mongolia",
+      "description": "ADB has approved a $130 million loan to reduce overcrowding and improve access to quality education in Mongolia.",
+      "link": "https://www.adb.org/news/adb-expands-access-quality-education-mongolia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "ADB Approves $400 Million Financing Facility to Modernize Borders, Facilitate Trade in CAREC Region",
+      "description": "ADB has approved a $400 million regional financing facility to modernize border crossing points, lower transport and logistics costs, and improve the movement of people and goods across the Central Asia Regional Economic Cooperation (CAREC) region.",
+      "link": "https://www.adb.org/news/adb-approves-400-million-financing-facility-modernize-borders-facilitate-trade-carec-region",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-08-27"
     },
     {
       "title": "ADB Supports Mongolia's First Green-Certified Residential Complex Built by the Private Sector",
@@ -889,14 +905,6 @@
       "date": "2026-09-01"
     },
     {
-      "title": "ADB Approves $400 Million Financing Facility to Modernize Borders, Facilitate Trade in CAREC Region",
-      "description": "ADB has approved a $400 million regional financing facility to modernize border crossing points, lower transport and logistics costs, and improve the movement of people and goods across the Central Asia Regional Economic Cooperation (CAREC) region.",
-      "link": "https://www.adb.org/news/adb-approves-400-million-financing-facility-modernize-borders-facilitate-trade-carec-region",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-27"
-    },
-    {
       "title": "ADB and Partners Launch Initiative to Scale Financing for Land Degradation and Desertification in Asia and the Pacific",
       "description": "ADB has launched together with partners the Financing Investments and Eradicating Land Degradation and Desertification Initiative, a regional partnership to attract at least $2 billion by 2035 to invest in programs that restore lands and strengthen drought resilience across Asia and the Pacific.",
       "link": "https://www.adb.org/news/adb-and-partners-launch-initiative-scale-financing-land-degradation-desertification-asia-pacific",
@@ -913,12 +921,12 @@
       "date": "2026-08-21"
     },
     {
-      "title": "ADB Approves $1 Billion Loan to Support Sustainable Growth and Resilience of India’s Cities",
-      "description": "ADB has approved a $1 billion loan to support the Government of India’s urban reform agenda by maintaining momentum of investment and reforms aimed at transforming cities into engines of economic growth, innovation, and livability.",
-      "link": "https://www.adb.org/news/adb-approves-1-billion-loan-support-sustainable-growth-and-resilience-india-cities",
+      "title": "ADB’s Private Sector Operations Drive Development Impact with Strong Growth",
+      "description": "ADB's private sector financing increased by 38% in 2025 to $9.5 billion, including $900 million in long-term direct mobilization for transaction advisory services, according to the Private Sector Operations in 2025 Report on Development Effectiveness.",
+      "link": "https://www.adb.org/news/adb-private-sector-operations-drive-development-impact-strong-growth",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-28"
+      "date": "2026-08-25"
     },
     {
       "title": "ADB, FSM Development Bank to Support Women Entrepreneurs in the Federated States of Micronesia",
@@ -927,22 +935,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-08-18"
-    },
-    {
-      "title": "ADB Strengthens Partnership with Indonesia-Malaysia-Thailand Growth Triangle on Connectivity, Resilience",
-      "description": "ADB has reaffirmed its commitment to supporting the Indonesia-Malaysia-Thailand Growth Triangle to advance regional integration, sustainable development, and shared prosperity.",
-      "link": "https://www.adb.org/news/adb-strengthens-partnership-indonesia-malaysia-thailand-growth-triangle-connectivity",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-10"
-    },
-    {
-      "title": "ADB Launches Fund to Scale Resilient Agribusiness and Sustainable Rangeland Management in Mongolia",
-      "description": "ADB has launched the Green Inclusive Regional Agribusiness Fund to expand access to finance for herders, cooperatives, small and medium-sized enterprises, and agribusinesses investing in sustainable livestock value chains in Mongolia.",
-      "link": "https://www.adb.org/news/adb-launches-fund-scale-resilient-agribusiness-and-sustainable-rangeland-management-mongolia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-24"
     },
     {
       "title": "ADB to Deploy $450 Million to Shield Cambodia, Sri Lanka from Middle East Impact",
@@ -961,12 +953,12 @@
       "date": "2026-07-30"
     },
     {
-      "title": "ADB Approves $850 Million Loan to Accelerate Affordable Rooftop Solar Adoption for Households in India",
-      "description": "ADB has approved an $850 million loan to support reforms that will speed up the rollout of the Government of India’s flagship rooftop solar program, boosting the resilience of Indian households through better access to affordable clean energy, mobilizing private sector investment, and strengthening the skills of grid personnel and rural entrepreneurs.",
-      "link": "https://www.adb.org/news/adb-approves-850-million-loan-accelerate-affordable-rooftop-solar-adoption-households-india",
+      "title": "ADB Launches Fund to Scale Resilient Agribusiness and Sustainable Rangeland Management in Mongolia",
+      "description": "ADB has launched the Green Inclusive Regional Agribusiness Fund to expand access to finance for herders, cooperatives, small and medium-sized enterprises, and agribusinesses investing in sustainable livestock value chains in Mongolia.",
+      "link": "https://www.adb.org/news/adb-launches-fund-scale-resilient-agribusiness-and-sustainable-rangeland-management-mongolia",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-07-28"
+      "date": "2026-08-24"
     },
     {
       "title": "The rise of electoral democracy",
@@ -977,12 +969,20 @@
       "date": "2026-08-24"
     },
     {
-      "title": "ADB’s Private Sector Operations Drive Development Impact with Strong Growth",
-      "description": "ADB's private sector financing increased by 38% in 2025 to $9.5 billion, including $900 million in long-term direct mobilization for transaction advisory services, according to the Private Sector Operations in 2025 Report on Development Effectiveness.",
-      "link": "https://www.adb.org/news/adb-private-sector-operations-drive-development-impact-strong-growth",
+      "title": "ADB Strengthens Partnership with Indonesia-Malaysia-Thailand Growth Triangle on Connectivity, Resilience",
+      "description": "ADB has reaffirmed its commitment to supporting the Indonesia-Malaysia-Thailand Growth Triangle to advance regional integration, sustainable development, and shared prosperity.",
+      "link": "https://www.adb.org/news/adb-strengthens-partnership-indonesia-malaysia-thailand-growth-triangle-connectivity",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-08-25"
+      "date": "2026-09-10"
+    },
+    {
+      "title": "After post-pandemic improvement, youth unemployment is rising again",
+      "description": "Frustrated by skyrocketing youth unemployment, among other issues, tens of thousands of Gen Z activists took to the streets of Nepal last year, demanding a stake in the country’s economic growth. The protest worked and the prime minister resigned.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168120",
+      "source": "UN News Development",
+      "field": "development",
+      "date": "2026-08-11"
     },
     {
       "title": "ADB Backs Palau’s Fiscal and Energy Resilience Amid Global Shocks, Expands North Pacific Presence",
@@ -1017,22 +1017,6 @@
       "date": "2026-08-21"
     },
     {
-      "title": "After post-pandemic improvement, youth unemployment is rising again",
-      "description": "Frustrated by skyrocketing youth unemployment, among other issues, tens of thousands of Gen Z activists took to the streets of Nepal last year, demanding a stake in the country’s economic growth. The protest worked and the prime minister resigned.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168120",
-      "source": "UN News Development",
-      "field": "development",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "ADB President Urges Faster Action on Water Security",
-      "description": "ADB President Masato Kanda has called for faster investment and reform to secure water across Asia and the Pacific, pointing to a new ADB-administered fund with Japan that will help developing economies strengthen disaster preparedness, infrastructure, and water management.",
-      "link": "https://www.adb.org/news/adb-president-urges-faster-action-water-security",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-07-28"
-    },
-    {
       "title": "UN hails Libya election deal as Security Council urges Libyans to seize the moment",
       "description": "The UN Security Council has welcomed a breakthrough agreement between Libya's rival political blocs, calling it \"an important step\" towards the country's first national elections in over a decade – while pressing all sides to move quickly from paper to practice.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168302",
@@ -1065,6 +1049,14 @@
       "date": "2026-09-03"
     },
     {
+      "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
+      "description": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168220",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-27"
+    },
+    {
       "title": "New initiative launched to shield terrorism victims from online harm",
       "description": "The UN has launched a new initiative to protect victims of terrorist attacks from online harm and re-traumatisation, drawing on harrowing survivor accounts, from the Nova Music Festival in Israel to an attack on a FIFA World Cup final viewing party in Uganda.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168186",
@@ -1073,28 +1065,12 @@
       "date": "2026-08-21"
     },
     {
-      "title": "Why do some people have a better sense of direction than others?",
-      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-09-10"
-    },
-    {
       "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
       "description": "UN Secretary-General António Guterres on Tuesday urged leaders of the Shanghai Cooperation Organization (SCO) to help reshape global governance for a changing world, arguing that a more multipolar international order can strengthen multilateralism, advance fairness and better serve developing countries.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168239",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-09-01"
-    },
-    {
-      "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
-      "description": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168220",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-27"
     },
     {
       "title": "Explainer: UN peace operations work to create, preserve peace",
@@ -1121,17 +1097,17 @@
       "date": "2026-08-13"
     },
     {
+      "title": "Why do some people have a better sense of direction than others?",
+      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-09-10"
+    },
+    {
       "title": "Lebanon: UN peacekeepers count hundreds of Israeli strikes and incursions in a single weekend",
       "description": "Israeli forces fired 455 projectiles into south Lebanon and breached Lebanese airspace 97 times between Friday and Sunday, the UN's peacekeeping mission in the country reported Monday – among the heaviest fire seen in months.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168108",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Fighting deepens needs and fuels further displacement in Sudan",
-      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-08-10"
@@ -1151,6 +1127,14 @@
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-08-20"
+    },
+    {
+      "title": "Fighting deepens needs and fuels further displacement in Sudan",
+      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-10"
     },
     {
       "title": "ADB, Viet Nam Sign $42.76 Million Financing Package to Build Modern, Resilient Irrigation System",
@@ -1377,9 +1361,33 @@
       "date": "2026-08-28"
     },
     {
+      "title": "9 Things to Know About NASA’s Nancy Grace Roman Space Telescope",
+      "description": "NASA’s Nancy Grace Roman Space Telescope is set to launch at 7:26 a.m. EDT on Sunday, Aug. 30. While you wait to watch the launch, brush up on some key facts about this wide-view mission. To learn more about the Roman mission, visit: https://www.nasa.gov/roman Media contact: Claire AndreoliNASA’s Goddard Space Flight Center, Greenbelt, Md.claire.andreoli@nasa.gov301-286-1940",
+      "link": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-27"
+    },
+    {
+      "title": "NASA Astronaut Jonny Kim Departs Agency to Continue Military Service",
+      "description": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutenant commander in the U.S. Navy. Kim launched to the space station in April 2025 aboard the Soyuz MS‑27 spacecraft to conduct […]",
+      "link": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-27"
+    },
+    {
       "title": "Roman Space Telescope Travels to SpaceX Hangar",
       "description": "NASA’s Nancy Grace Roman Space Telescope, encapsulated in its payload fairing, travels from the Payload Hazardous Servicing Facility to the SpaceX hangar at Launch Complex 39A at NASA’s Kennedy Space Center on Tuesday, Aug. 25, 2026, ahead of mating to a SpaceX Falcon Heavy rocket. Roman’s science instruments are designed to help researchers understand dark […]",
       "link": "https://www.nasa.gov/image-article/roman-space-telescope-travels-to-spacex-hangar/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-26"
+    },
+    {
+      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
+      "description": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station operations. Watch live coverage beginning at 7 a.m. EDT. The spacewalk is expected to start at approximately 8:30 a.m. and last about […]",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
       "source": "NASA",
       "field": "space",
       "date": "2026-08-26"
@@ -1465,6 +1473,22 @@
       "date": "2026-08-18"
     },
     {
+      "title": "NASA Selects Companies to Provide Payload Processing Services",
+      "description": "NASA has selected four companies to provide payload processing facilities under the Spacecraft Processing Operations Contract on‑ramp provision. The provision enables qualified providers to offer commercial payload processing services for agency missions launching from multiple locations where capabilities were not available at the time of the initial contract award. Contract awardees are: Through the contract, […]",
+      "link": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-17"
+    },
+    {
+      "title": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
+      "description": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface. To help advance that capability, the Rock and Roll with NASA Challenge invited public innovators to design and build next-generation lunar rover wheels. Five teams from 128 submissions and 49 countries advanced to the final phase of the […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-17"
+    },
+    {
       "title": "NASA Competition Invites Students to Help Imagine a Future Enabled by Lunar Technologies",
       "description": "NASA is asking U.S.-based collegiate teams to submit bold, original concepts to the 2027 edition of a student challenge focused on aerospace innovation that could help the agency envision a future on the Moon shaped by new technology. The latest NASA Revolutionary Aerospace Systems Concepts – Academic Linkage (RASC-AL) competition invites student teams to explore new operations paradigms and advance the technologies needed to […]",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/nasa-competition-invites-students-to-help-imagine-a-future-enabled-by-lunar-technologies/",
@@ -1473,60 +1497,20 @@
       "date": "2026-08-14"
     },
     {
-      "title": "FLEX and Sentinel-3C sealed within Vega-C fairing",
-      "description": "At Europe’s Spaceport in French Guiana, preparations for one of the year’s most anticipated Earth-observation launches are entering their final stages. FLEX and Copernicus Sentinel-3C have now been enclosed within the protective fairing of their Vega-C rocket, bringing the two satellites one step closer to their shared journey into space.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_sealed_within_Vega-C_fairing",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "9 Things to Know About NASA’s Nancy Grace Roman Space Telescope",
-      "description": "NASA’s Nancy Grace Roman Space Telescope is set to launch at 7:26 a.m. EDT on Sunday, Aug. 30. While you wait to watch the launch, brush up on some key facts about this wide-view mission. To learn more about the Roman mission, visit: https://www.nasa.gov/roman Media contact: Claire AndreoliNASA’s Goddard Space Flight Center, Greenbelt, Md.claire.andreoli@nasa.gov301-286-1940",
-      "link": "https://science.nasa.gov/missions/roman-space-telescope/9-things-to-know-about-nasas-nancy-grace-roman-space-telescope/",
+      "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
+      "description": "NASA delivered the NavCube3-mini payload on July 13 to Intuitive Machines for integration into Altus-1, the company’s first lunar relay satellite, marking an important milestone in the development of future lunar communications and navigation services. The lunar relays are designed to enable communications and navigation for astronauts and rovers operating at the agency’s future Moon Base. About half the size of a shoebox and weighing just 3.5 pounds, NavCube3-mini is a compact but powerful navigation […]",
+      "link": "https://www.nasa.gov/technology/space-comms/nasa-delivers-navigation-system-for-commercial-lunar-relay/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-08-27"
+      "date": "2026-08-03"
     },
     {
-      "title": "NASA Astronaut Jonny Kim Departs Agency to Continue Military Service",
-      "description": "After nearly a decade of service to NASA, including an eight-month science expedition aboard the International Space Station, astronaut Jonny Kim’s last day at the agency is Thursday. He will continue serving as lieutenant commander in the U.S. Navy. Kim launched to the space station in April 2025 aboard the Soyuz MS‑27 spacecraft to conduct […]",
-      "link": "https://www.nasa.gov/news-release/nasa-astronaut-jonny-kim-departs-agency-to-continue-military-service/",
+      "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
+      "description": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducted at NASA’s Ames Research Center in California’s Silicon Valley, focused on better understanding the extreme aerodynamic forces the rocket can experience during re-entry. The […]",
+      "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "NASA Sets Spacewalk for Station Maintenance, Live Coverage Planned",
-      "description": "NASA will provide coverage as two astronauts step outside the International Space Station on Tuesday, Sept. 1, to replace a spacecraft navigational aid and complete several maintenance tasks in support of space station operations. Watch live coverage beginning at 7 a.m. EDT. The spacewalk is expected to start at approximately 8:30 a.m. and last about […]",
-      "link": "https://www.nasa.gov/news-release/nasa-sets-spacewalk-for-station-maintenance-live-coverage-planned/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-26"
-    },
-    {
-      "title": "A Sunflower’s View of Totality",
-      "description": "The Moon slid between the Sun and Earth to produce a stunning celestial show visible from Spain in August 2026.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-14"
-    },
-    {
-      "title": "Total Solar Eclipse in Sunflower Field",
-      "description": "This composite image shows the progression of a total solar eclipse over San Millán de los Caballeros, Spain on, Wednesday, Aug. 12, 2026. A total solar eclipse swept across parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal. A partial eclipse was visible in parts of the U.S., […]",
-      "link": "https://www.nasa.gov/image-article/total-solar-eclipse-in-sunflower-field/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-14"
-    },
-    {
-      "title": "NASA Astronaut Mike Fincke Leaves NASA, Career Includes 4 Spaceflights",
-      "description": "NASA astronaut Mike Fincke is departing the agency on Wednesday after 30 years of service. Throughout his career, he flew four missions, spent 549 days in space, and completed nine spacewalks in support of the International Space Station. “Few people have had the opportunity to shape as many chapters of NASA’s history as Mike Fincke,” […]",
-      "link": "https://www.nasa.gov/news-release/nasa-astronaut-mike-fincke-leaves-nasa-career-includes-4-spaceflights/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-12"
+      "date": "2026-07-31"
     },
     {
       "title": "MTM's selfie footage of BepiColombo's eight-year journey",
@@ -1535,6 +1519,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-09-09"
+    },
+    {
+      "title": "FLEX and Sentinel-3C sealed within Vega-C fairing",
+      "description": "At Europe’s Spaceport in French Guiana, preparations for one of the year’s most anticipated Earth-observation launches are entering their final stages. FLEX and Copernicus Sentinel-3C have now been enclosed within the protective fairing of their Vega-C rocket, bringing the two satellites one step closer to their shared journey into space.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_sealed_within_Vega-C_fairing",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-09-02"
     },
     {
       "title": "NASA TechLeap Prize: Orbital Clarity Challenge",
@@ -1551,30 +1543,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-08-18"
-    },
-    {
-      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
-      "description": "NASA’s next Gateways to Blue Skies competition invites collegiate teams to imagine innovative new ways aircraft could inspect land-based infrastructure, such as bridges and tunnels, to improve safety, reliability, and costs by 2035 or sooner. Infrastructure is the foundation of the nation’s strong economy, global competitiveness, and daily quality of life. When that infrastructure is […]",
-      "link": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-18"
-    },
-    {
-      "title": "NASA Selects Companies to Provide Payload Processing Services",
-      "description": "NASA has selected four companies to provide payload processing facilities under the Spacecraft Processing Operations Contract on‑ramp provision. The provision enables qualified providers to offer commercial payload processing services for agency missions launching from multiple locations where capabilities were not available at the time of the initial contract award. Contract awardees are: Through the contract, […]",
-      "link": "https://www.nasa.gov/news-release/nasa-selects-companies-to-provide-payload-processing-services/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-17"
-    },
-    {
-      "title": "NASA Challenge Tests Wheel Designs for Moon Base Mobility",
-      "description": "As NASA prepares to establish the Moon Base, advancing surface mobility will be key to helping crews and robotic systems travel farther across the lunar surface. To help advance that capability, the Rock and Roll with NASA Challenge invited public innovators to design and build next-generation lunar rover wheels. Five teams from 128 submissions and 49 countries advanced to the final phase of the […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/nasa-challenge-tests-wheel-designs-for-moon-base-mobility/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-17"
     },
     {
       "title": "Media briefing: BepiColombo's next milestone towards Mercury",
@@ -1601,12 +1569,36 @@
       "date": "2026-08-27"
     },
     {
+      "title": "NASA Student Aviation Challenge Focuses on Nation’s Infrastructure",
+      "description": "NASA’s next Gateways to Blue Skies competition invites collegiate teams to imagine innovative new ways aircraft could inspect land-based infrastructure, such as bridges and tunnels, to improve safety, reliability, and costs by 2035 or sooner. Infrastructure is the foundation of the nation’s strong economy, global competitiveness, and daily quality of life. When that infrastructure is […]",
+      "link": "https://www.nasa.gov/aeronautics/nasa-student-aviation-challenge-focuses-on-nations-infrastructure/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-18"
+    },
+    {
       "title": "NASA Mission Studies Air Pollution Over Ethiopia",
       "description": "A NASA-funded air pollution monitoring network has provided one of the most detailed long-term views yet of the role of black carbon, or soot produced by fires, diesel vehicles, and other combustion sources, in Ethiopia’s capital, Addis Ababa. The detailed measurements show how pollution changes by time of day and season, including increases associated with […]",
       "link": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
       "source": "NASA",
       "field": "space",
       "date": "2026-08-17"
+    },
+    {
+      "title": "A Sunflower’s View of Totality",
+      "description": "The Moon slid between the Sun and Earth to produce a stunning celestial show visible from Spain in August 2026.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-14"
+    },
+    {
+      "title": "Total Solar Eclipse in Sunflower Field",
+      "description": "This composite image shows the progression of a total solar eclipse over San Millán de los Caballeros, Spain on, Wednesday, Aug. 12, 2026. A total solar eclipse swept across parts of Greenland, Iceland, northern Russia, the Atlantic Ocean, Spain, and a small corner of Portugal. A partial eclipse was visible in parts of the U.S., […]",
+      "link": "https://www.nasa.gov/image-article/total-solar-eclipse-in-sunflower-field/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-14"
     },
     {
       "title": "Volunteer Develops Machine-Learning Tool to Identify Rare Clouds",
@@ -1625,20 +1617,108 @@
       "date": "2026-08-13"
     },
     {
+      "title": "Cells use a little-known molecule to protect themselves from iron overload",
+      "description": "This discovery points toward new combination strategies against cancer, and may explain the iron buildup seen in disorders such as early-onset Parkinson’s disease.",
+      "link": "https://news.mit.edu/2026/cells-use-little-known-molecule-protect-themselves-iron-overload-0825",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Cell-preservation technique could make CAR-T cell therapy more accessible",
+      "description": "MIT researchers’ approach, which uses naturally occurring sugars as antifreeze, could make it easier for hospitals to deploy this type of cancer treatment.",
+      "link": "https://news.mit.edu/2026/cell-preservation-technique-could-make-car-t-cell-therapy-more-accessible-0819",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-19"
+    },
+    {
+      "title": "DNA shaper steers nervous system development",
+      "description": "A study of worms finds a protein that helps shape the structure of the genome is critical for establishing the identity of some neurons.",
+      "link": "https://news.mit.edu/2026/dna-shaper-steers-nervous-system-development-0817",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-17"
+    },
+    {
+      "title": "Researchers uncover hidden pore network within nuclear fuel",
+      "description": "New understanding of how nuclear fuel breaks down and changes in an operating nuclear reactor could help keep some reactors running longer, will inform the next generation of nuclear reactor fuel systems.",
+      "link": "https://news.mit.edu/2026/researchers-uncover-hidden-pore-network-within-nuclear-fuel-0813",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-13"
+    },
+    {
+      "title": "Extending AI Architectures to Address Continuous Scientific Problems",
+      "description": "Artificial intelligence is proving to be transformative in its ability to work with language and images. Now, with a growing push to apply AI to scientific discovery, Caltech's Anima Anandkumar says there is a crucial ingredient missing from most AI models: the ability to understand the physical world. Take as an example weather models, says Anandkumar, Caltech's Bren Professor of Computing and Mathematical Sciences. If you want an AI model to predict weather, it must understand chaotic physical systems, like how the atmosphere changes around the planet and over time.The best way to gain that ",
+      "link": "https://www.caltech.edu/about/news/extending-ai-architectures-to-address-continuous-scientific-problems",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-08-12"
+    },
+    {
+      "title": "Models of Glacial Collapse in Antarctica Improve Predictions of Sea-Level Rise",
+      "description": "With approximately one third of the world's population living within a day's walk of a coastline, sea-level rise poses a serious global threat. Every centimeter of sea-level rise could displace 1.5 million people, and current estimates of rise range from half a meter to 2 meters by the end of the 21st century—which means that potentially hundreds of millions of people could be affected. A more reliable prediction of sea-level rise is crucial to prepare coastal infrastructure and communities around the world for these changes.The Pine Island Glacier, located in West Antarctica, is the fastest f",
+      "link": "https://www.caltech.edu/about/news/models-of-glacial-collapse-in-antarctica-improve-predictions-of-sea-level-rise",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-08-11"
+    },
+    {
+      "title": "Understanding the thermal ceiling in portable power",
+      "description": "Plug a phone into a modern charger and the first 10 minutes are impressive. The next 20 are not. This is not a defect. It’s the connected device protecting itself. As temperature rises during charging, a smartphone’s battery management system reduces the current it will accept, because heat accelerates the chemical degradation that permanently reduces…",
+      "link": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "The Download: our 35 Innovators Under 35 this year",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under 35 list offers a glimpse. Every year,…",
+      "link": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "The Growing Proof That Autonomous Cars Save Lives",
+      "description": "Plenty of people remain spooked by autonomous vehicles, or AVs. Some experts and policymakers have cautioned that AVs won’t necessarily make roads safer. When it comes to partial or full autonomy, the picture isn’t entirely clear, in part because there aren’t enough self-driving cars to make meaningful apples-to-apples comparisons. Yet mounting research suggests that self-driving cars crash significantly less often than people, and with far fewer injuries. Evidence also shows the building blocks of autonomy, including advanced driver assistance systems, or ADAS—which are already mandated on ev",
+      "link": "https://spectrum.ieee.org/are-self-driving-cars-safe",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "description": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "Harvard scientists turn knitting into shape-shifting smart fabric",
+      "description": "Harvard researchers have transformed ordinary knitting into a platform for creating fabrics that can snap between different shapes and perform useful functions. Using elastic yarns and industrial knitting techniques, the team engineered thick textiles that naturally curve and lock into multiple stable configurations, much like a light switch flipping between on and off. By adding conductive yarn, they turned these shape-shifting fabrics into soft electronic switches capable of controlling lights, counting steps, and responding to movement.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260901070543.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "NASA Astronaut Mike Fincke Leaves NASA, Career Includes 4 Spaceflights",
+      "description": "NASA astronaut Mike Fincke is departing the agency on Wednesday after 30 years of service. Throughout his career, he flew four missions, spent 549 days in space, and completed nine spacewalks in support of the International Space Station. “Few people have had the opportunity to shape as many chapters of NASA’s history as Mike Fincke,” […]",
+      "link": "https://www.nasa.gov/news-release/nasa-astronaut-mike-fincke-leaves-nasa-career-includes-4-spaceflights/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-12"
+    },
+    {
       "title": "Pursuing a Dream of Working for NASA",
       "description": "As a young girl raised in Worcester, Massachusetts, Lindsey Waitt dreamed of working for NASA. Her dream is now a reality as she embarks on her role as a NASA test project engineer with the Artemis launch team – an integral part of the agency’s missions that will enable humans to return to the surface […]",
       "link": "https://www.nasa.gov/centers-and-facilities/kennedy/pursuing-a-dream-of-working-for-nasa/",
       "source": "NASA",
       "field": "space",
       "date": "2026-08-12"
-    },
-    {
-      "title": "How Sentinel-3 tracks climate change",
-      "description": "Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about climate change over the past decade. The launch of the mission’s third satellite heralds the continuity of this vital source of knowledge.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/How_Sentinel-3_tracks_climate_change",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-09-04"
     },
     {
       "title": "Lion Nebula Roars in Webb’s Sights",
@@ -1673,20 +1753,12 @@
       "date": "2026-08-10"
     },
     {
-      "title": "NASA Delivers Navigation System for Commercial Lunar Relay",
-      "description": "NASA delivered the NavCube3-mini payload on July 13 to Intuitive Machines for integration into Altus-1, the company’s first lunar relay satellite, marking an important milestone in the development of future lunar communications and navigation services. The lunar relays are designed to enable communications and navigation for astronauts and rovers operating at the agency’s future Moon Base. About half the size of a shoebox and weighing just 3.5 pounds, NavCube3-mini is a compact but powerful navigation […]",
-      "link": "https://www.nasa.gov/technology/space-comms/nasa-delivers-navigation-system-for-commercial-lunar-relay/",
-      "source": "NASA",
+      "title": "How Sentinel-3 tracks climate change",
+      "description": "Copernicus Sentinel-3 is one of the most diverse missions for measuring and monitoring Earth’s climate systems. It captures a breadth of data about the environment and has contributed substantially to what we know about climate change over the past decade. The launch of the mission’s third satellite heralds the continuity of this vital source of knowledge.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/How_Sentinel-3_tracks_climate_change",
+      "source": "ESA",
       "field": "space",
-      "date": "2026-08-03"
-    },
-    {
-      "title": "NASA, SpaceX Advance Wind Tunnel Tests for Starship Rocket",
-      "description": "NASA and its industry partners are preparing for next year’s Artemis III demonstration mission by completing new wind tunnel tests on SpaceX’s Super Heavy Version 3 rocket booster. The tests, conducted at NASA’s Ames Research Center in California’s Silicon Valley, focused on better understanding the extreme aerodynamic forces the rocket can experience during re-entry. The […]",
-      "link": "https://www.nasa.gov/directorates/esdmd/artemis-campaign-development-division/human-landing-system-program/nasa-spacex-advance-wind-tunnel-tests-for-starship-rocket/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-07-31"
+      "date": "2026-09-04"
     },
     {
       "title": "Giving farmers a more sustainable way to protect crops",
@@ -1697,14 +1769,6 @@
       "date": "2026-09-03"
     },
     {
-      "title": "From MIT to IBM, expediting AI and quantum deployment",
-      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
-      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
       "title": "New research shows a neutrino laser is impossible",
       "description": "Due to physical and fundamental limitations, an earlier proposal for producing laserlike beams of neutrinos cannot be achieved, scientists report.",
       "link": "https://news.mit.edu/2026/new-research-shows-neutrino-laser-impossible-0902",
@@ -1713,20 +1777,12 @@
       "date": "2026-09-02"
     },
     {
-      "title": "Generating scenarios for extreme events, without extreme data",
-      "description": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
-      "link": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+      "title": "Walter Torous named executive director of MIT Center for Real Estate",
+      "description": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
+      "link": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
       "source": "MIT News",
       "field": "technology",
-      "date": "2026-08-24"
-    },
-    {
-      "title": "Groundbreaking Artist Gronk in Conversation at Caltech",
-      "description": "Gronk, a nationally renowned performance artist and painter from Los Angeles, will visit Caltech on August 27 as part of Moveable Feast, a series dedicated to the exploration of Los Angeles arts and culture.Appearing in conversation with Paul Holdengräber, curator and former founding director of The New York Public Library's LIVE from the NYPL series, Gronk will dive into his artistic journey, starting from his early days as a founding member of the avant-garde multimedia arts collective Asco, to his career as a painter, performer, and stage designer. Through stories of collaboration, experime",
-      "link": "https://www.caltech.edu/about/news/artist_gronk_conversation_caltech",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-08-20"
+      "date": "2026-09-01"
     },
     {
       "title": "How an MIT research project became a global programming language",
@@ -1735,46 +1791,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-08-31"
-    },
-    {
-      "title": "Understanding the thermal ceiling in portable power",
-      "description": "Plug a phone into a modern charger and the first 10 minutes are impressive. The next 20 are not. This is not a defect. It’s the connected device protecting itself. As temperature rises during charging, a smartphone’s battery management system reduces the current it will accept, because heat accelerates the chemical degradation that permanently reduces…",
-      "link": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "The Download: our 35 Innovators Under 35 this year",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Introducing our 35 Innovators Under 35 list for 2026 What will the next generation of science and technology look like? Our latest Innovators Under 35 list offers a glimpse. Every year,…",
-      "link": "https://www.technologyreview.com/2026/09/08/1143615/the-download-35-innovators-under-35-spiderwebs-measuring-nature/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "The Growing Proof That Autonomous Cars Save Lives",
-      "description": "Plenty of people remain spooked by autonomous vehicles, or AVs. Some experts and policymakers have cautioned that AVs won’t necessarily make roads safer. When it comes to partial or full autonomy, the picture isn’t entirely clear, in part because there aren’t enough self-driving cars to make meaningful apples-to-apples comparisons. Yet mounting research suggests that self-driving cars crash significantly less often than people, and with far fewer injuries. Evidence also shows the building blocks of autonomy, including advanced driver assistance systems, or ADAS—which are already mandated on ev",
-      "link": "https://spectrum.ieee.org/are-self-driving-cars-safe",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "When the sea steals homes and jobs",
-      "description": "Along West Africa’s Gulf of Guinea, Salata Institute research is helping communities and governments weigh excruciating choices about what to protect, how to adapt, and when to retreat",
-      "link": "https://news.harvard.edu/gazette/story/2026/09/when-the-sea-steals-homes-and-jobs-climate/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "IEEE Engineering Summit Supports Bhutan’s Digital Transformation",
-      "description": "In collaboration with the Kingdom of Bhutan government, IEEE recently introduced its Engineering Education, Research, and Innovation Summit. Held on 9 and 10 June in Paro, in the eastern Himalayas, the event was designed to help Bhutan navigate its digital transformation by focusing on the critical intersection of digital transformation, engineering education, and sustainable development. The summit brought together global academic leaders, technology experts, and Bhutanese government officials to discuss how modern engineering curricula can evolve from theory-centric models into application- ",
-      "link": "https://spectrum.ieee.org/ieee-summit-bhutan-digital-transformation",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-08-11"
     },
     {
       "title": "3 Questions: MIT Sloan launches Evening MBA",
@@ -1793,6 +1809,22 @@
       "date": "2026-08-06"
     },
     {
+      "title": "An Engineer’s Guide to Surviving a Layoff",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! I lost a cushy engineering management position at the same time I purchased a business, with a mortgage, three kids, and every other financial obligation of being an adult. It was one of the most stressful stretches of my life. If something similar has happened to you, I feel your pain. You lose more than the income For many of us, our work became o",
+      "link": "https://spectrum.ieee.org/how-to-survive-a-layoff",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "When the sea steals homes and jobs",
+      "description": "Along West Africa’s Gulf of Guinea, Salata Institute research is helping communities and governments weigh excruciating choices about what to protect, how to adapt, and when to retreat",
+      "link": "https://news.harvard.edu/gazette/story/2026/09/when-the-sea-steals-homes-and-jobs-climate/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
       "title": "Workshops Educate African Researchers On How to Publish With IEEE",
       "description": "Many researchers and students in Kenya, Rwanda, and Uganda struggle to access and publish scientific and technical articles because of financial barriers including publishing fees and subscriptions to research libraries. To help, IEEE has made its Xplore Digital Library more accessible by offering discounts on subscriptions and lowering fees to publish articles. But the number of papers published by technologists in the three nations still lags behind those from other developing countries. It might be that many researchers haven’t received training in methodology, been instructed on how to wri",
       "link": "https://spectrum.ieee.org/ieee-workshop-xplore-africa",
@@ -1809,60 +1841,12 @@
       "date": "2026-09-03"
     },
     {
-      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
-      "description": "A little over a decade ago, I led the controls design for a first-of-its-kind full digital control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely needed them. And we made a decision that, to an efficiency-minded observer, looked backward: We deliberately left manual steps inside sequences the system could execute on its own. We were solving a specific problem. An operator who only ever supervises automation slowly stops being an operator. The hands go cold. The men",
-      "link": "https://spectrum.ieee.org/ai-engineer-skills",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Pioneering cancer fighter sees promise beyond melanoma breakthrough",
-      "description": "‘This is not a time that we should be pulling back,’ says Catherine Wu. ‘It’s a very, very exciting time in the field.’",
-      "link": "https://news.harvard.edu/gazette/story/2026/08/pioneering-cancer-fighter-sees-promise-beyond-melanoma-breakthrough-vaccine/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-08-31"
-    },
-    {
-      "title": "Amping up T cells to target cancer",
-      "description": "Vaccines that turn the body’s immune system against tumors have shown promise in clinical trials, and a handful have been FDA approved for certain cancers. In many patients, however, these vaccines don’t stimulate enough of a response, and the approach some researchers have taken to strengthening it—delivering the vaccine along with immune-stimulating molecules called cytokines—can…",
-      "link": "https://www.technologyreview.com/2026/08/25/1140949/amping-up-t-cells-to-target-cancer/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "What It Takes to Be an Adaptable Engineer",
-      "description": "The AI boom has disrupted the way engineers work, introducing new tools to learn, raising expectations for what teams can achieve in a workday, and making it harder to get hired in the first place. This makes it difficult to advise students on which specific coding languages or technical skills they should learn. So amidst the uncertainty, advice for young professionals often turns to a common refrain: Be adaptable. But what does adaptability look like in practice? Engineers often operate on the cutting edge of technology, so dealing with change is a normal part of the job, says Samantha Brunh",
-      "link": "https://spectrum.ieee.org/adaptable-engineer-core-skills",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-08-24"
-    },
-    {
       "title": "How we picked 35 of the world’s top young scientists and engineers",
       "description": "Next month, on September 8, MIT Technology Review will reveal its 2026 list of Innovators Under 35, recognizing 35 young people from around the world who are doing groundbreaking scientific work and building clever technical fixes for sticky problems. By finding the top young innovators globally and learning what they’re focused on in their work,…",
       "link": "https://www.technologyreview.com/2026/08/12/1141605/2026-innovators-under-35-top-young-scientists-engineers/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-08-12"
-    },
-    {
-      "title": "“Cannot be explained” – New super steel stuns scientists",
-      "description": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen. The breakthrough could reduce structural material costs by roughly 40 times and make seawater-based hydrogen production far more economical.",
-      "link": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "An Engineer’s Guide to Surviving a Layoff",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! I lost a cushy engineering management position at the same time I purchased a business, with a mortgage, three kids, and every other financial obligation of being an adult. It was one of the most stressful stretches of my life. If something similar has happened to you, I feel your pain. You lose more than the income For many of us, our work became o",
-      "link": "https://spectrum.ieee.org/how-to-survive-a-layoff",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-09"
     }
   ]
 }
