@@ -1,16 +1,16 @@
 {
   "date": "2026-09-11",
-  "lastUpdated": "2026-09-11T15:44:41.732Z",
+  "lastUpdated": "2026-09-11T18:56:24.269Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "26.5s",
+    "executionTime": "39.2s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 32,
-    "totalCandidates": 227,
-    "totalSelected": 223,
+    "sourcesSuccessful": 33,
+    "totalCandidates": 225,
+    "totalSelected": 224,
     "entriesByField": {
       "health": 15,
-      "climate": 35,
+      "climate": 36,
       "energy": 5,
       "technology": 66,
       "education": 2,
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "energy": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 4,
+        "kept": 0,
         "changed": 0
       },
       "education": {
@@ -53,14 +53,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       }
     },
     "qualityMetrics": {
       "highScoreEntries": 27,
-      "topTierSources": 152,
-      "highCredibilitySources": 197
+      "topTierSources": 153,
+      "highCredibilitySources": 198
     }
   },
   "entries": [
@@ -71,6 +71,14 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-06"
+    },
+    {
+      "title": "[Articles] Belzutifan plus lenvatinib versus cabozantinib in patients with previously treated advanced renal cell carcinoma (LITESPARK-011): an open-label, randomised, controlled, phase 3 trial",
+      "description": "Belzutifan–lenvatinib represents a novel and efficacious treatment option. Although overall survival was not significantly different between the groups, belzutifan–lenvatinib might be a new standard of care for patients with advanced clear-cell renal cell carcinoma with disease progression after previous anti-PD-1 or anti-PD-L1 therapy. The safety profile of belzutifan–lenvatinib was consistent with those of the individual drugs.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01089-5/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-08-12"
     },
     {
       "title": "[Articles] Multivessel coronary artery bypass grafting via small thoracotomy versus sternotomy (MIST): an investigator-initiated, international, open-label, randomised controlled trial",
@@ -87,22 +95,6 @@
       "source": "Caltech",
       "field": "health",
       "date": "2026-08-26"
-    },
-    {
-      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
-      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-04"
-    },
-    {
-      "title": "[Articles] Belzutifan plus lenvatinib versus cabozantinib in patients with previously treated advanced renal cell carcinoma (LITESPARK-011): an open-label, randomised, controlled, phase 3 trial",
-      "description": "Belzutifan–lenvatinib represents a novel and efficacious treatment option. Although overall survival was not significantly different between the groups, belzutifan–lenvatinib might be a new standard of care for patients with advanced clear-cell renal cell carcinoma with disease progression after previous anti-PD-1 or anti-PD-L1 therapy. The safety profile of belzutifan–lenvatinib was consistent with those of the individual drugs.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01089-5/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2026-08-12"
     },
     {
       "title": "[Articles] Switch to once-weekly, single-tablet islatravir–lenacapavir from daily standard of care for HIV-1 (ISLEND-2): a multicentre, randomised, open-label, active-controlled, phase 3 non-inferiority trial",
@@ -137,6 +129,22 @@
       "date": "2026-08-13"
     },
     {
+      "title": "Ebola virus reaches displacement camps in DR Congo",
+      "description": "Agencies are on high alert amid reports that the rapidly spreading Ebola Bundibugyo virus species in the Democratic Republic of the Congo (DRC) has infected 19 internally displaced people, killed five of them, according to the UN’s refugee agency (UNHCR).",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168092",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-06"
+    },
+    {
+      "title": "New Ebola vaccine trial launches as outbreak spreads in DR Congo",
+      "description": "Results may be months away, but efforts are advancing towards enhanced treatment and the world’s first vaccine for the Bundibugyo species of Ebola, the World Health Organization (WHO) said on Tuesday as deaths and cases rise in the largest ever outbreak on record in the Democratic Republic of the Congo (DRC).",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168072",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-04"
+    },
+    {
       "title": "WHO chief voices concern over Trump Administration’s executive order on vaccines",
       "description": "The head of the World Health Organization (WHO) on Wednesday upheld the safety of childhood vaccines in response to a new directive from the White House to overhaul the recommended inoculation schedule.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168124",
@@ -151,14 +159,6 @@
       "source": "UN News Health",
       "field": "health",
       "date": "2026-08-10"
-    },
-    {
-      "title": "Ebola virus reaches displacement camps in DR Congo",
-      "description": "Agencies are on high alert amid reports that the rapidly spreading Ebola Bundibugyo virus species in the Democratic Republic of the Congo (DRC) has infected 19 internally displaced people, killed five of them, according to the UN’s refugee agency (UNHCR).",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168092",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-06"
     },
     {
       "title": "One Team, One Dream: End Polio in Africa",
@@ -185,12 +185,12 @@
       "date": "2026-08-17"
     },
     {
-      "title": "Abandoned Study of Australian Ash Trees Challenges Case for Clearcutting",
-      "description": "A landmark study of the towering ash trees that grow in the mountains of Victoria, Australia, which was launched in the 1980s, boosted arguments for clearcutting the iconic trees. But when scientists returned to the site years later, they came to a much different conclusion. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/mountain-ash-study",
-      "source": "Yale E360",
+      "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
+      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
+      "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
+      "source": "IPCC",
       "field": "climate",
-      "date": "2026-07-31"
+      "date": "2026-09-11"
     },
     {
       "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
@@ -199,6 +199,22 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-08"
+    },
+    {
+      "title": "Abandoned Study of Australian Ash Trees Challenges Case for Clearcutting",
+      "description": "A landmark study of the towering ash trees that grow in the mountains of Victoria, Australia, which was launched in the 1980s, boosted arguments for clearcutting the iconic trees. But when scientists returned to the site years later, they came to a much different conclusion. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/mountain-ash-study",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-07-31"
+    },
+    {
+      "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
+      "description": "NOAA expands use of commercial satellite data to enhance weather forecasting September 10, 2026 NOAA is expanding the use of commercial satellite data to boost weather and space forecasting. This is an artist's rendering of commercial satellites operated by Tomorrow.io, PlanetiQ, Spire Global Subsidiary Inc. and Muon Space that collect environmental data. (Image credit: NOAA NESDIS) Download Image NOAA is expanding its procurement and use of new commercial environmental satellite data streams that will enhance weather forecasting and space weather monitoring. The Space-Based Environmental Moni",
+      "link": "https://www.noaa.gov/news-release/noaa-expands-use-of-commercial-satellite-data-to-enhance-weather-forecasting",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-02"
     },
     {
       "title": "The 2027 NOAA Hollings Scholarship application is now open!",
@@ -217,9 +233,25 @@
       "date": "2026-08-19"
     },
     {
+      "title": "NOAA announces priorities to promote science-based American seafood dominance",
+      "description": "NOAA announces priorities to promote science-based American seafood dominance September 2, 2026 Docked fishing boats at Yaquina Bay in Newport, Oregon. (Image credit: iStock) Today, NOAA announced priorities for advancing reforms within NOAA Fisheries to move towards regulations grounded in science that support American seafood dominance. These agency-level actions follow the Regional Priorities guidance that was released on July 2, 2026, to apply the same standard of accountability to NOAA’s own operations, regulatory frameworks, and scientific pipelines. This priority list serves as an opera",
+      "link": "https://www.noaa.gov/news-release/noaa-announces-priorities-to-promote-science-based-american-seafood-dominance",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-01"
+    },
+    {
       "title": "NOAA boosts weather data collection capabilities with new Mesonet contract",
       "description": "NOAA boosts weather data collection capabilities with new Mesonet contract August 27, 2026 An array of observational equipment used by NOAA. The National Mesonet Program includes devices such as radars, weather balloons, ground-based temperature sensors, and ocean buoys. (Image credit: NOAA) Download Image NOAA’s National Weather Service will expand the National Mesonet Program offsite link — an observational weather “network of networks” that delivers critical information required for improved weather prediction and warnings across the United States — through a new contract that begins on Sep",
       "link": "https://www.noaa.gov/news-release/noaa-boosts-weather-data-collection-capabilities-with-new-mesonet-contract",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-08-19"
+    },
+    {
+      "title": "NOAA to rebuild historic science lab in Beaufort, North Carolina",
+      "description": "NOAA to rebuild historic science lab in Beaufort, North Carolina New North Carolina facility will continue to provide world-class NOAA science nationwide August 27, 2026 NOAA's Beaufort Laboratory moved to its current location on Pivers Island, South Carolina, in 1902. This aerial image of the laboratory complex was taken in 2014. (Image credit: NOAA) Download Image Today, NOAA announced plans to fund the reconstruction of a new laboratory in Beaufort, North Carolina. This new lab will replace the former building that was permanently closed in 2024 due to significant hurricane-related structur",
+      "link": "https://www.noaa.gov/news-release/noaa-to-rebuild-historic-science-lab-in-beaufort-north-carolina",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-08-19"
@@ -249,22 +281,6 @@
       "date": "2026-08-24"
     },
     {
-      "title": "A London Scheme to Cut Car Pollution Restored Lung Growth in Children",
-      "description": "A controversial scheme aimed at slashing car pollution in London was a boon to children, whose lungs grew faster after the program was launched, researchers found. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/ulez-children-lung-growth",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-19"
-    },
-    {
-      "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
-      "description": "NOAA expands use of commercial satellite data to enhance weather forecasting September 10, 2026 NOAA is expanding the use of commercial satellite data to boost weather and space forecasting. This is an artist's rendering of commercial satellites operated by Tomorrow.io, PlanetiQ, Spire Global Subsidiary Inc. and Muon Space that collect environmental data. (Image credit: NOAA NESDIS) Download Image NOAA is expanding its procurement and use of new commercial environmental satellite data streams that will enhance weather forecasting and space weather monitoring. The Space-Based Environmental Moni",
-      "link": "https://www.noaa.gov/news-release/noaa-expands-use-of-commercial-satellite-data-to-enhance-weather-forecasting",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-02"
-    },
-    {
       "title": "‘The lake is our life’: Protecting a shared lifeline in Uganda",
       "description": "On the shores of Nkondo, in Uganda’s Kikuube district, the day begins before sunrise. Fishers enter the lake to fish, while families around Lake Albert rely on its waters for food, income and daily survival.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168228",
@@ -281,14 +297,6 @@
       "date": "2026-08-17"
     },
     {
-      "title": "NOAA Announces 2026 Small Business of the Year Award Recipient",
-      "description": "NOAA Announces 2026 Small Business of the Year Award Recipient August 4, 2026 NOAA has named Industrial Economics, Inc. (IEc) as its Small Business of the Year, honoring the firm for exceptional performance, technical innovation, and outstanding environmental stewardship in executing a complex marine restoration project. Faced with challenging environmental conditions and significant logistical delays, IEc leveraged cutting-edge technical and process innovations to safely repair damaged reef infrastructure and accelerate long-term ecosystem recovery. The team’s operational agility and seamless",
-      "link": "https://www.noaa.gov/acquisition-grants/small-business/news/noaa-announces-2026-small-business-of-year-award-recipient",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-08-04"
-    },
-    {
       "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
       "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
       "link": "https://e360.yale.edu/features/sargassum-belt",
@@ -297,20 +305,12 @@
       "date": "2026-09-10"
     },
     {
-      "title": "Analysis: UK solar power hits record high over summer 2026",
-      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
-      "source": "Carbon Brief",
+      "title": "A London Scheme to Cut Car Pollution Restored Lung Growth in Children",
+      "description": "A controversial scheme aimed at slashing car pollution in London was a boon to children, whose lungs grew faster after the program was launched, researchers found. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/ulez-children-lung-growth",
+      "source": "Yale E360",
       "field": "climate",
-      "date": "2026-09-04"
-    },
-    {
-      "title": "NOAA announces priorities to promote science-based American seafood dominance",
-      "description": "NOAA announces priorities to promote science-based American seafood dominance September 2, 2026 Docked fishing boats at Yaquina Bay in Newport, Oregon. (Image credit: iStock) Today, NOAA announced priorities for advancing reforms within NOAA Fisheries to move towards regulations grounded in science that support American seafood dominance. These agency-level actions follow the Regional Priorities guidance that was released on July 2, 2026, to apply the same standard of accountability to NOAA’s own operations, regulatory frameworks, and scientific pipelines. This priority list serves as an opera",
-      "link": "https://www.noaa.gov/news-release/noaa-announces-priorities-to-promote-science-based-american-seafood-dominance",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-01"
+      "date": "2026-08-19"
     },
     {
       "title": "Increased Bluefin Tuna Quotas",
@@ -321,12 +321,12 @@
       "date": "2026-08-19"
     },
     {
-      "title": "NOAA to rebuild historic science lab in Beaufort, North Carolina",
-      "description": "NOAA to rebuild historic science lab in Beaufort, North Carolina New North Carolina facility will continue to provide world-class NOAA science nationwide August 27, 2026 NOAA's Beaufort Laboratory moved to its current location on Pivers Island, South Carolina, in 1902. This aerial image of the laboratory complex was taken in 2014. (Image credit: NOAA) Download Image Today, NOAA announced plans to fund the reconstruction of a new laboratory in Beaufort, North Carolina. This new lab will replace the former building that was permanently closed in 2024 due to significant hurricane-related structur",
-      "link": "https://www.noaa.gov/news-release/noaa-to-rebuild-historic-science-lab-in-beaufort-north-carolina",
+      "title": "NOAA Announces 2026 Small Business of the Year Award Recipient",
+      "description": "NOAA Announces 2026 Small Business of the Year Award Recipient August 4, 2026 NOAA has named Industrial Economics, Inc. (IEc) as its Small Business of the Year, honoring the firm for exceptional performance, technical innovation, and outstanding environmental stewardship in executing a complex marine restoration project. Faced with challenging environmental conditions and significant logistical delays, IEc leveraged cutting-edge technical and process innovations to safely repair damaged reef infrastructure and accelerate long-term ecosystem recovery. The team’s operational agility and seamless",
+      "link": "https://www.noaa.gov/acquisition-grants/small-business/news/noaa-announces-2026-small-business-of-year-award-recipient",
       "source": "NOAA",
       "field": "climate",
-      "date": "2026-08-19"
+      "date": "2026-08-04"
     },
     {
       "title": "World marks second warmest July on record",
@@ -343,6 +343,14 @@
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-08-05"
+    },
+    {
+      "title": "Analysis: UK solar power hits record high over summer 2026",
+      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-04"
     },
     {
       "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
@@ -409,6 +417,14 @@
       "date": "2026-08-04"
     },
     {
+      "title": "NOAA maintains prediction for below-normal Atlantic hurricane season",
+      "description": "NOAA maintains prediction for below-normal Atlantic hurricane season Need for U.S. residents to prepare remains August 6, 2026 This image of Tropical Storm Bertha was captured by NOAA's GOES East (GOES-19 satellite) on July 22, 2026 at 1:15 p.m. ET. (Image credit: Tropical Storm Bertha captured by NOAA Satellites) Download Image With the climatological peak of hurricane season approaching in early September, NOAA’s prediction for below-normal activity in the Atlantic basin remains. Forecasters from NOAA’s National Weather Service updated today the number of expected named storms to 7-13 (with ",
+      "link": "https://www.noaa.gov/news-release/noaa-maintains-prediction-for-below-normal-atlantic-hurricane-season",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-07-30"
+    },
+    {
       "title": "Mountain Lions Are Keeping Deer Off the Road, Study Finds",
       "description": "Mountain lions in Washington state may be cutting down on traffic accidents by scaring deer away from roads, new research finds. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/pumas-deer-traffic-accidents",
@@ -431,14 +447,6 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-08-06"
-    },
-    {
-      "title": "NOAA maintains prediction for below-normal Atlantic hurricane season",
-      "description": "NOAA maintains prediction for below-normal Atlantic hurricane season Need for U.S. residents to prepare remains August 6, 2026 This image of Tropical Storm Bertha was captured by NOAA's GOES East (GOES-19 satellite) on July 22, 2026 at 1:15 p.m. ET. (Image credit: Tropical Storm Bertha captured by NOAA Satellites) Download Image With the climatological peak of hurricane season approaching in early September, NOAA’s prediction for below-normal activity in the Atlantic basin remains. Forecasters from NOAA’s National Weather Service updated today the number of expected named storms to 7-13 (with ",
-      "link": "https://www.noaa.gov/news-release/noaa-maintains-prediction-for-below-normal-atlantic-hurricane-season",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-07-30"
     },
     {
       "title": "Correcting climate ‘misperceptions’ may not boost climate action",
@@ -921,6 +929,22 @@
       "date": "2026-08-21"
     },
     {
+      "title": "ADB’s Private Sector Operations Drive Development Impact with Strong Growth",
+      "description": "ADB's private sector financing increased by 38% in 2025 to $9.5 billion, including $900 million in long-term direct mobilization for transaction advisory services, according to the Private Sector Operations in 2025 Report on Development Effectiveness.",
+      "link": "https://www.adb.org/news/adb-private-sector-operations-drive-development-impact-strong-growth",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "ADB, FSM Development Bank to Support Women Entrepreneurs in the Federated States of Micronesia",
+      "description": "ADB has signed a $5 million financing package with Federated States of Micronesia Development Bank (FSMDB) to expand access to finance for women-led small and medium-sized enterprises in the Federated States of Micronesia.",
+      "link": "https://www.adb.org/news/adb-fsm-development-bank-support-women-entrepreneurs-federated-states-micronesia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-08-18"
+    },
+    {
       "title": "ADB to Deploy $450 Million to Shield Cambodia, Sri Lanka from Middle East Impact",
       "description": "ADB is set to deploy $450 million to protect poor households and strengthen the economies of Cambodia and Sri Lanka as the conflict in the Middle East drives up costs and deepens uncertainty across Asia and the Pacific.",
       "link": "https://www.adb.org/news/adb-deploy-450-million-shield-cambodia-sri-lanka-middle-east-impact",
@@ -937,28 +961,12 @@
       "date": "2026-07-30"
     },
     {
-      "title": "ADB’s Private Sector Operations Drive Development Impact with Strong Growth",
-      "description": "ADB's private sector financing increased by 38% in 2025 to $9.5 billion, including $900 million in long-term direct mobilization for transaction advisory services, according to the Private Sector Operations in 2025 Report on Development Effectiveness.",
-      "link": "https://www.adb.org/news/adb-private-sector-operations-drive-development-impact-strong-growth",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-25"
-    },
-    {
       "title": "ADB Launches Fund to Scale Resilient Agribusiness and Sustainable Rangeland Management in Mongolia",
       "description": "ADB has launched the Green Inclusive Regional Agribusiness Fund to expand access to finance for herders, cooperatives, small and medium-sized enterprises, and agribusinesses investing in sustainable livestock value chains in Mongolia.",
       "link": "https://www.adb.org/news/adb-launches-fund-scale-resilient-agribusiness-and-sustainable-rangeland-management-mongolia",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-08-24"
-    },
-    {
-      "title": "ADB, FSM Development Bank to Support Women Entrepreneurs in the Federated States of Micronesia",
-      "description": "ADB has signed a $5 million financing package with Federated States of Micronesia Development Bank (FSMDB) to expand access to finance for women-led small and medium-sized enterprises in the Federated States of Micronesia.",
-      "link": "https://www.adb.org/news/adb-fsm-development-bank-support-women-entrepreneurs-federated-states-micronesia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-18"
     },
     {
       "title": "The rise of electoral democracy",
@@ -1041,20 +1049,20 @@
       "date": "2026-09-03"
     },
     {
-      "title": "New initiative launched to shield terrorism victims from online harm",
-      "description": "The UN has launched a new initiative to protect victims of terrorist attacks from online harm and re-traumatisation, drawing on harrowing survivor accounts, from the Nova Music Festival in Israel to an attack on a FIFA World Cup final viewing party in Uganda.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168186",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-21"
-    },
-    {
       "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
       "description": "Following revelations from the UN nuclear watchdog that the former Syrian regime failed to report holding nuclear material and the discovery in May of an undeclared chemical weapons cache, the Security Council meets Thursday at 10am (local time) to be briefed on latest developments and discuss the way ahead.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168271",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-09-03"
+    },
+    {
+      "title": "New initiative launched to shield terrorism victims from online harm",
+      "description": "The UN has launched a new initiative to protect victims of terrorist attacks from online harm and re-traumatisation, drawing on harrowing survivor accounts, from the Nova Music Festival in Israel to an attack on a FIFA World Cup final viewing party in Uganda.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168186",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-21"
     },
     {
       "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
@@ -1113,6 +1121,14 @@
       "date": "2026-08-10"
     },
     {
+      "title": "Fighting deepens needs and fuels further displacement in Sudan",
+      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-10"
+    },
+    {
       "title": "Security Council LIVE: Warnings of famine and collapse as South Sudan's peace deal frays",
       "description": "Nearly eight million people in South Sudan – more than half the population – face crisis-level hunger, with famine risk now flagged in four counties, as the Security Council met this morning in New York. A cholera outbreak has killed more than 1,700 people, and some aid workers are being killed and abducted even as they try to reach those most at risk. Follow live coverage below.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168089",
@@ -1127,14 +1143,6 @@
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-08-20"
-    },
-    {
-      "title": "Fighting deepens needs and fuels further displacement in Sudan",
-      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-10"
     },
     {
       "title": "ADB, Viet Nam Sign $42.76 Million Financing Package to Build Modern, Resilient Irrigation System",
@@ -1156,6 +1164,14 @@
       "title": "NASA Answers President’s Call to Establish United States Space Academy",
       "description": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce and leadership. NASA Administrator Jared Isaacman chaired the first Presidential Commission on the United States Space Academy […]",
       "link": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Dust and Water in Sagittarius A*",
+      "description": "A brilliant concentration of stars takes center stage in this Aug. 11, 2026, image taken by NASA’s James Webb Space Telescope. Webb observed IRS 3, a star near the end of its life cycle, located within this starfield. Webb’s mid-infrared data revealed the clear signature of oxygen-rich silicate dust, as well as, for the first […]",
+      "link": "https://www.nasa.gov/image-article/dust-and-water-in-sagittarius-a/",
       "source": "NASA",
       "field": "space",
       "date": "2026-09-10"
@@ -1185,14 +1201,6 @@
       "date": "2026-08-19"
     },
     {
-      "title": "Dust and Water in Sagittarius A*",
-      "description": "A brilliant concentration of stars takes center stage in this Aug. 11, 2026, image taken by NASA’s James Webb Space Telescope. Webb observed IRS 3, a star near the end of its life cycle, located within this starfield. Webb’s mid-infrared data revealed the clear signature of oxygen-rich silicate dust, as well as, for the first […]",
-      "link": "https://www.nasa.gov/image-article/dust-and-water-in-sagittarius-a/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-10"
-    },
-    {
       "title": "MTG-I2 reaches its final orbit",
       "description": "Europe’s Meteosat Third Generation Imager 2 (MTG-I2) satellite has reached its designated orbit at 36 000 km from Earth and is ready to begin its commissioning phase, preparing it to provide years of service to improve weather forecasting over Europe and North Africa.",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_reaches_its_final_orbit",
@@ -1207,6 +1215,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-09-07"
+    },
+    {
+      "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
+      "description": "The science from every Moon rock sample, lunar dataset, and discovery produced through NASA’s Artemis program will be shared by the agency with the global scientific community. That commitment is upheld by all 71 countries that have signed the Artemis Accords, a set of principles for safe and transparent civil space exploration. NASA put those […]",
+      "link": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-boosts-open-science-data-sharing-with-artemis-accords/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-11"
     },
     {
       "title": "What happened this month at the European Space Agency? (August 2026)",
@@ -1756,14 +1772,6 @@
       "title": "Building the Moon Base: NASA Stories at the Ion",
       "description": "As NASA prepares to return astronauts to the lunar surface for longer stays and increasingly complex operations, building the Moon Base will require new ideas, advanced technologies, and expertise across many fields. During NASA Stories at the Ion on July 30, Shatel Bhakta, principal systems engineer for NASA’s Moon Base Program, presented “Building the Moon Base: Challenges and Opportunities at the Lunar South Pole.” He discussed the work required to establish a sustained human […]",
       "link": "https://www.nasa.gov/missions/moon-base/building-the-moon-base-nasa-stories-at-the-ion/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "NASA Completes Astronaut-Deployed Science Instrument for Lunar Surface",
-      "description": "NASA has declared “wrenches down” on the first completed payload designed for Artemis astronauts to deploy on the Moon’s surface. Engineers working on NASA’s Lunar Environment Monitoring Station, or LEMS, have completed hardware development and testing and the payload is ready for its permanent home near the lunar South Pole. With the hardware complete, LEMS […]",
-      "link": "https://science.nasa.gov/missions/artemis/nasa-completes-astronaut-deployed-science-instrument-for-lunar-surface/",
       "source": "NASA",
       "field": "space",
       "date": "2026-08-11"
