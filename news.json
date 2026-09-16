@@ -1,16 +1,16 @@
 {
   "date": "2026-09-16",
-  "lastUpdated": "2026-09-16T09:00:25.238Z",
+  "lastUpdated": "2026-09-16T15:58:50.415Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "21.2s",
+    "executionTime": "25.8s",
     "sourcesQueried": 42,
     "sourcesSuccessful": 32,
-    "totalCandidates": 221,
-    "totalSelected": 221,
+    "totalCandidates": 224,
+    "totalSelected": 222,
     "entriesByField": {
       "health": 14,
-      "climate": 31,
+      "climate": 32,
       "energy": 5,
       "technology": 66,
       "education": 2,
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "energy": {
@@ -41,7 +41,7 @@
         "changed": 0
       },
       "development": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "peace": {
@@ -53,12 +53,12 @@
         "changed": 0
       },
       "space": {
-        "kept": 0,
+        "kept": 2,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 26,
+      "highScoreEntries": 27,
       "topTierSources": 148,
       "highCredibilitySources": 197
     }
@@ -113,6 +113,22 @@
       "date": "2026-08-20"
     },
     {
+      "title": "Ebola tracing improves in DR Congo – but the virus is still winning the race",
+      "description": "Health authorities in the Democratic Republic of the Congo (DRC) are tracking a growing share of people exposed to Ebola, but the epidemic in the country's restive east continues to outpace their ability to find and isolate the sick, the World Health Organization (WHO) has warned.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168137",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-13"
+    },
+    {
+      "title": "WHO chief voices concern over Trump Administration’s executive order on vaccines",
+      "description": "The head of the World Health Organization (WHO) on Wednesday upheld the safety of childhood vaccines in response to a new directive from the White House to overhaul the recommended inoculation schedule.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168124",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-08-12"
+    },
+    {
       "title": "DR Congo: Ebola is killing people before they ever reach a doctor",
       "description": "More than 1,900 people have died in the Democratic Republic of the Congo's Ebola outbreak – and most of them never made it to a treatment centre. Between 60 and 70 per cent of deaths are happening in communities far from care, a gap that is now central to the World Health Organization's response.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168105",
@@ -135,22 +151,6 @@
       "source": "UN News Health",
       "field": "health",
       "date": "2026-08-04"
-    },
-    {
-      "title": "Ebola tracing improves in DR Congo – but the virus is still winning the race",
-      "description": "Health authorities in the Democratic Republic of the Congo (DRC) are tracking a growing share of people exposed to Ebola, but the epidemic in the country's restive east continues to outpace their ability to find and isolate the sick, the World Health Organization (WHO) has warned.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168137",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-13"
-    },
-    {
-      "title": "WHO chief voices concern over Trump Administration’s executive order on vaccines",
-      "description": "The head of the World Health Organization (WHO) on Wednesday upheld the safety of childhood vaccines in response to a new directive from the White House to overhaul the recommended inoculation schedule.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168124",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-08-12"
     },
     {
       "title": "One Team, One Dream: End Polio in Africa",
@@ -193,12 +193,12 @@
       "date": "2026-09-08"
     },
     {
-      "title": "The 2027 NOAA Hollings Scholarship application is now open!",
-      "description": "The 2027 NOAA Hollings Scholarship application is now open! NOAA undergraduate scholars complete 10-week summer internship projects that span NOAA's mission. (Image credit: NOAA Office of Education) Download Image September 1, 2026 The Hollings undergraduate scholarships application is open through January 31, 2027, 11:59 p.m. Eastern Time. Office of Education Hollings Scholarship 0 Off",
-      "link": "https://www.noaa.gov/office-education/hollings-scholarship/news/2027-noaa-hollings-scholarship-application-is-now-open-ext",
-      "source": "NOAA",
+      "title": "Can restoring land create jobs? These young entrepreneurs are proving it",
+      "description": "From Ecuador to Bangladesh, a new generation of entrepreneurs is turning land restoration into economic opportunity. Whether repurposing agricultural waste, building greenhouses or deploying AI-powered sensors, they are showing, with support from a United Nations-backed initiative, that restoring land can also generate income and improve livelihoods.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168194",
+      "source": "UN News Climate",
       "field": "climate",
-      "date": "2026-09-01"
+      "date": "2026-08-24"
     },
     {
       "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
@@ -209,6 +209,14 @@
       "date": "2026-09-02"
     },
     {
+      "title": "The 2027 NOAA Hollings Scholarship application is now open!",
+      "description": "The 2027 NOAA Hollings Scholarship application is now open! NOAA undergraduate scholars complete 10-week summer internship projects that span NOAA's mission. (Image credit: NOAA Office of Education) Download Image September 1, 2026 The Hollings undergraduate scholarships application is open through January 31, 2027, 11:59 p.m. Eastern Time. Office of Education Hollings Scholarship 0 Off",
+      "link": "https://www.noaa.gov/office-education/hollings-scholarship/news/2027-noaa-hollings-scholarship-application-is-now-open-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-01"
+    },
+    {
       "title": "Tech Week: Launching into the Future with Advanced Technologies",
       "description": "Tech Week: Launching into the Future with Advanced Technologies NOAA Fisheries Technology Week splash page. (Image credit: NOAA Fisheries) Download Image August 19, 2026 Fisheries Information Technology 0 Off",
       "link": "https://www.noaa.gov/stories/technology-week-ext",
@@ -217,12 +225,12 @@
       "date": "2026-08-19"
     },
     {
-      "title": "Can restoring land create jobs? These young entrepreneurs are proving it",
-      "description": "From Ecuador to Bangladesh, a new generation of entrepreneurs is turning land restoration into economic opportunity. Whether repurposing agricultural waste, building greenhouses or deploying AI-powered sensors, they are showing, with support from a United Nations-backed initiative, that restoring land can also generate income and improve livelihoods.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168194",
-      "source": "UN News Climate",
+      "title": "At Least 124 Environmental Defenders Killed Worldwide Last Year",
+      "description": "At least 124 people were murdered last year for defending their forests, farms, or waterways from destruction or degradation, according to a stark new report. Its authors say that deep cuts to foreign aid by wealthy nations have weakened human rights groups that support environmental defenders. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/environmental-defenders-killed-2025",
+      "source": "Yale E360",
       "field": "climate",
-      "date": "2026-08-24"
+      "date": "2026-09-16"
     },
     {
       "title": "A London Scheme to Cut Car Pollution Restored Lung Growth in Children",
@@ -231,14 +239,6 @@
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-08-19"
-    },
-    {
-      "title": "The World Adds a Third Terawatt of Solar Power",
-      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-04"
     },
     {
       "title": "NOAA announces priorities to promote science-based American seafood dominance",
@@ -265,20 +265,20 @@
       "date": "2026-08-19"
     },
     {
-      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
-      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-02"
-    },
-    {
       "title": "NOAA to rebuild historic science lab in Beaufort, North Carolina",
       "description": "NOAA to rebuild historic science lab in Beaufort, North Carolina New North Carolina facility will continue to provide world-class NOAA science nationwide August 27, 2026 NOAA's Beaufort Laboratory moved to its current location on Pivers Island, South Carolina, in 1902. This aerial image of the laboratory complex was taken in 2014. (Image credit: NOAA) Download Image Today, NOAA announced plans to fund the reconstruction of a new laboratory in Beaufort, North Carolina. This new lab will replace the former building that was permanently closed in 2024 due to significant hurricane-related structur",
       "link": "https://www.noaa.gov/news-release/noaa-to-rebuild-historic-science-lab-in-beaufort-north-carolina",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-08-19"
+    },
+    {
+      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
+      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-02"
     },
     {
       "title": "NOAA Announces 2026 Small Business of the Year Award Recipient",
@@ -401,6 +401,22 @@
       "date": "2026-08-11"
     },
     {
+      "title": "The World Adds a Third Terawatt of Solar Power",
+      "description": "In March, the world passed a major energy milestone, adding its third terawatt of solar power. Increasingly, poorer countries are leading the shift to solar, analysts say. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/three-terawatts-solar",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-04"
+    },
+    {
+      "title": "Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero?",
+      "description": "When carbon dioxide (CO2) is released from a factory or power plant, the gas can be captured and permanently stored… The post Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero? appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/qa-does-the-world-need-carbon-capture-and-storage-to-reach-net-zero",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-08-03"
+    },
+    {
       "title": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa",
       "description": "Pacific Hurricanes Fausto and Genevieve actually had origins near Africa NOAA satellites track hurricanes from their earliest beginnings NOAA's GOES West satellite captured this image of three tropical cyclones — Hurricanes Fausto and Genevieve and Typhoon Dolphin — swirling simultaneously in the Pacific Ocean. The image was taken on Tuesday, July 27, at 3:30 PM PDT/ 22:30 UTC. None of the three tropical cyclones made landfall in the United States. Fausto contributed to high surf conditions in Hawaii, and Genevieve also brought high surf to southern California. Typhoon Dolphin continued its tr",
       "link": "https://www.noaa.gov/stories/pacific-hurricanes-fausto-and-genevieve-actually-had-origins-near-africa",
@@ -415,14 +431,6 @@
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-08-07"
-    },
-    {
-      "title": "Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero?",
-      "description": "When carbon dioxide (CO2) is released from a factory or power plant, the gas can be captured and permanently stored… The post Q&A: Does the world need ‘carbon capture and storage’ to reach net-zero? appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/qa-does-the-world-need-carbon-capture-and-storage-to-reach-net-zero",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-08-03"
     },
     {
       "title": "Can the US battery market untangle from China?",
@@ -649,6 +657,38 @@
       "date": "2026-09-14"
     },
     {
+      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+      "description": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
+      "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "New research shows a neutrino laser is impossible",
+      "description": "Due to physical and fundamental limitations, an earlier proposal for producing laserlike beams of neutrinos cannot be achieved, scientists report.",
+      "link": "https://news.mit.edu/2026/new-research-shows-neutrino-laser-impossible-0902",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "Generating scenarios for extreme events, without extreme data",
+      "description": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
+      "link": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-24"
+    },
+    {
       "title": "Groundbreaking Artist Gronk in Conversation at Caltech",
       "description": "Gronk, a nationally renowned performance artist and painter from Los Angeles, will visit Caltech on August 27 as part of Moveable Feast, a series dedicated to the exploration of Los Angeles arts and culture.Appearing in conversation with Paul Holdengräber, curator and former founding director of The New York Public Library's LIVE from the NYPL series, Gronk will dive into his artistic journey, starting from his early days as a founding member of the avant-garde multimedia arts collective Asco, to his career as a painter, performer, and stage designer. Through stories of collaboration, experime",
       "link": "https://www.caltech.edu/about/news/artist_gronk_conversation_caltech",
@@ -777,44 +817,12 @@
       "date": "2026-09-04"
     },
     {
-      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-      "description": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
-      "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
       "title": "Giving farmers a more sustainable way to protect crops",
       "description": "Led by Andee Wallace PhD ’20, Robigo uses cutting-edge biotechnology to engineer microbes to fight pests, reducing the need for harmful chemical pesticides.",
       "link": "https://news.mit.edu/2026/robigo-gives-farmers-more-sustainable-way-protect-crops-0903",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-09-03"
-    },
-    {
-      "title": "From MIT to IBM, expediting AI and quantum deployment",
-      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
-      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "New research shows a neutrino laser is impossible",
-      "description": "Due to physical and fundamental limitations, an earlier proposal for producing laserlike beams of neutrinos cannot be achieved, scientists report.",
-      "link": "https://news.mit.edu/2026/new-research-shows-neutrino-laser-impossible-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Generating scenarios for extreme events, without extreme data",
-      "description": "A new algorithm learns to anticipate the unprecedented scenarios that critical infrastructure and global supply chains are least prepared for.",
-      "link": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-24"
     },
     {
       "title": "Youth advocates gather in New York to launch new AI standards",
@@ -897,6 +905,14 @@
       "date": "2026-09-14"
     },
     {
+      "title": "ADB Supports Mongolia's First Green-Certified Residential Complex Built by the Private Sector",
+      "description": "ADB has signed a $30 million loan (in togrog equivalent) with Tavan Bogd Holdings LLC to finance the construction of Mongolia's first green-certified residential complex developed by the private sector.",
+      "link": "https://www.adb.org/news/adb-supports-mongolias-first-green-certified-residential-complex-built-private-sector",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-09"
+    },
+    {
       "title": "ADB’s Private Sector Operations Drive Development Impact with Strong Growth",
       "description": "ADB's private sector financing increased by 38% in 2025 to $9.5 billion, including $900 million in long-term direct mobilization for transaction advisory services, according to the Private Sector Operations in 2025 Report on Development Effectiveness.",
       "link": "https://www.adb.org/news/adb-private-sector-operations-drive-development-impact-strong-growth",
@@ -921,22 +937,6 @@
       "date": "2026-09-14"
     },
     {
-      "title": "ADB Strengthens Partnership with Indonesia-Malaysia-Thailand Growth Triangle on Connectivity, Resilience",
-      "description": "ADB has reaffirmed its commitment to supporting the Indonesia-Malaysia-Thailand Growth Triangle to advance regional integration, sustainable development, and shared prosperity.",
-      "link": "https://www.adb.org/news/adb-strengthens-partnership-indonesia-malaysia-thailand-growth-triangle-connectivity",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-10"
-    },
-    {
-      "title": "ADB Supports Mongolia's First Green-Certified Residential Complex Built by the Private Sector",
-      "description": "ADB has signed a $30 million loan (in togrog equivalent) with Tavan Bogd Holdings LLC to finance the construction of Mongolia's first green-certified residential complex developed by the private sector.",
-      "link": "https://www.adb.org/news/adb-supports-mongolias-first-green-certified-residential-complex-built-private-sector",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-09"
-    },
-    {
       "title": "ADB Accelerates Disaster Response and Recovery for Vanuatu",
       "description": "ADB has approved the first project under its region-wide crisis financing mechanism, giving Vanuatu faster access to financing after disasters and other major emergencies. The financing can be used to support families, deliver essential supplies and equipment, and repair damaged public services and infrastructure.",
       "link": "https://www.adb.org/news/adb-accelerates-disaster-response-and-recovery-vanuatu",
@@ -959,6 +959,14 @@
       "source": "Our World in Data",
       "field": "development",
       "date": "2026-08-24"
+    },
+    {
+      "title": "ADB Strengthens Partnership with Indonesia-Malaysia-Thailand Growth Triangle on Connectivity, Resilience",
+      "description": "ADB has reaffirmed its commitment to supporting the Indonesia-Malaysia-Thailand Growth Triangle to advance regional integration, sustainable development, and shared prosperity.",
+      "link": "https://www.adb.org/news/adb-strengthens-partnership-indonesia-malaysia-thailand-growth-triangle-connectivity",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-10"
     },
     {
       "title": "ADB Backs Palau’s Fiscal and Energy Resilience Amid Global Shocks, Expands North Pacific Presence",
@@ -1033,14 +1041,6 @@
       "date": "2026-09-03"
     },
     {
-      "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
-      "description": "UN Secretary-General António Guterres on Tuesday urged leaders of the Shanghai Cooperation Organization (SCO) to help reshape global governance for a changing world, arguing that a more multipolar international order can strengthen multilateralism, advance fairness and better serve developing countries.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168239",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-01"
-    },
-    {
       "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
       "description": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168220",
@@ -1073,6 +1073,22 @@
       "date": "2026-08-18"
     },
     {
+      "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
+      "description": "UN Secretary-General António Guterres on Tuesday urged leaders of the Shanghai Cooperation Organization (SCO) to help reshape global governance for a changing world, arguing that a more multipolar international order can strengthen multilateralism, advance fairness and better serve developing countries.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168239",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Lebanon: UN peacekeepers count hundreds of Israeli strikes and incursions in a single weekend",
+      "description": "Israeli forces fired 455 projectiles into south Lebanon and breached Lebanese airspace 97 times between Friday and Sunday, the UN's peacekeeping mission in the country reported Monday – among the heaviest fire seen in months.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168108",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-10"
+    },
+    {
       "title": "Why do some people have a better sense of direction than others?",
       "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/educational/sense-of-direction/",
@@ -1087,22 +1103,6 @@
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-08-13"
-    },
-    {
-      "title": "Fighting deepens needs and fuels further displacement in Sudan",
-      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-10"
-    },
-    {
-      "title": "Lebanon: UN peacekeepers count hundreds of Israeli strikes and incursions in a single weekend",
-      "description": "Israeli forces fired 455 projectiles into south Lebanon and breached Lebanese airspace 97 times between Friday and Sunday, the UN's peacekeeping mission in the country reported Monday – among the heaviest fire seen in months.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168108",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-10"
     },
     {
       "title": "Security Council LIVE: Warnings of famine and collapse as South Sudan's peace deal frays",
@@ -1121,12 +1121,28 @@
       "date": "2026-08-20"
     },
     {
+      "title": "Fighting deepens needs and fuels further displacement in Sudan",
+      "description": "Ongoing conflict, displacement and funding shortages continue to deepen needs in Sudan, the UN Office for the Coordination of Humanitarian Affairs (OCHA) warned on Monday, underscoring the need for greater civilian protection.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168109",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-10"
+    },
+    {
       "title": "ADB, Viet Nam Sign $42.76 Million Financing Package to Build Modern, Resilient Irrigation System",
       "description": "ADB and the Government of Viet Nam have signed $42.76 million in financing to modernize irrigation systems and strengthen farmers’ resilience to changing climate conditions and rising pressure on water resources in Dong Nai, Gia Lai, and Quang Ngai provinces.",
       "link": "https://www.adb.org/news/adb-viet-nam-sign-42-76-million-financing-package-build-modern-resilient-irrigation-system",
       "source": "Asian Development Bank",
       "field": "agriculture",
       "date": "2026-09-03"
+    },
+    {
+      "title": "Curiosity Blog, Sols 5002-5009: Tough Planning To Learn More About Wind-Blown Sediments",
+      "description": "Written by Benjamin Tutolo, Professor, University of Calgary Earth planning date: Friday, Sept. 4, 2026 Curiosity has marked several huge milestones (14 years on Mars; 5,000 sols on Mars; 1 kilometer of elevation gain since landing) over the past several weeks, and the team has duly celebrated these remarkable achievements. These celebrations punctuate the rover’s […]",
+      "link": "https://science.nasa.gov/blog/1345718/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-16"
     },
     {
       "title": "FLEX and Sentinel-3C launched",
@@ -1145,6 +1161,22 @@
       "date": "2026-09-11"
     },
     {
+      "title": "NASA Answers President’s Call to Establish United States Space Academy",
+      "description": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce and leadership. NASA Administrator Jared Isaacman chaired the first Presidential Commission on the United States Space Academy […]",
+      "link": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
+      "description": "Photographers at NASA’s Johnson Space Center in Houston have documented some of the most defining moments in human spaceflight. From astronaut training and engineering tests to mission control operations and milestone celebrations, their images preserve the history of exploration while capturing the people and teams behind the missions shaping the next era. Meet the photographers behind the lens and explore the […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-19"
+    },
+    {
       "title": "BepiColombo begins Mercury arrival with MTM separation success",
       "description": "On 3 September 2026 at 15:49 CEST, the European Space Agency's BepiColombo Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for – BepiColombo’s Mercury Transfer Module (MTM) successfully separated from the spacecraft stack. This landmark achievement for the ESA and Japan Aerospace Exploration Agency (JAXA) mission marks the first step of BepiColombo's long-awaited arrival at Mercury.",
       "link": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
@@ -1161,30 +1193,6 @@
       "date": "2026-08-31"
     },
     {
-      "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
-      "description": "NASA astronaut Randy Bresnik (left) and ESA (European Space Agency) astronaut Luca Parmitano view progress on the solid rocket booster integration in High Bay 3 inside the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Wednesday, Sept. 2, 2026. Bresnik, Parmitano, and NASA astronauts Andre Douglas, Frank Rubio, and Bob Hines made […]",
-      "link": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-15"
-    },
-    {
-      "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
-      "description": "Did you spend part of your summer camping, hiking, at the pool, or in an aircraft? So did NASA’s 2025 Astronaut Candidate Class. The 10 candidates have been working their way through a comprehensive and rigorous training program since the agency introduced them to the public on Sept. 22, 2025, from NASA’s Johnson Space Center […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-14"
-    },
-    {
-      "title": "NASA Answers President’s Call to Establish United States Space Academy",
-      "description": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce and leadership. NASA Administrator Jared Isaacman chaired the first Presidential Commission on the United States Space Academy […]",
-      "link": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-10"
-    },
-    {
       "title": "Ariane 6 launch with MTG-I2 – highlights",
       "description": "Video: 00:04:28 The Meteosat Third Generation-Imager2 (MTG-I2) satellite, has been launched on board an Ariane 6 launcher from Europe’s Spaceport in French Guiana. Liftoff was on 27 August 2026 at 22:11 CEST (17:10 local time). MTG-I2 is part of the MTG constellation for Eumetsat – two are already in orbit – and it will produce images for weather forecasting in Europe in unprecedented detail. This mission provides completely new data products and capabilities for European weather services, especially suited to nowcasting of severe weather events. The MTG-Imager satellites carry two instruments",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Ariane_6_launch_with_MTG-I2_highlights",
@@ -1199,30 +1207,6 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-08-27"
-    },
-    {
-      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
-      "description": "Last November, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure, and benefit commercial industries, including shipping. The satellite now is flying 30 seconds behind its predecessor, Sentinel-6 Michael Freilich. Both satellites are providing precise sea level height measurements during what oceanographers expect to be a historic El […]",
-      "link": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
-      "description": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Houston. In an emeritus role, individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their […]",
-      "link": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
-      "description": "Photographers at NASA’s Johnson Space Center in Houston have documented some of the most defining moments in human spaceflight. From astronaut training and engineering tests to mission control operations and milestone celebrations, their images preserve the history of exploration while capturing the people and teams behind the missions shaping the next era. Meet the photographers behind the lens and explore the […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-19"
     },
     {
       "title": "MTG-I2 ready for launch",
@@ -1249,6 +1233,30 @@
       "date": "2026-08-19"
     },
     {
+      "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
+      "description": "NASA recently awarded $10.5 million to seven organizations nationwide through its new State Hubs initiative. Space Florida was selected for Project ORBIT, which aims to expand opportunities for middle and high school students, boost enrollment in key career and technical programs, and create a statewide portal connecting skilled workers with aerospace employers. Elaine Ho, associate […]",
+      "link": "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-16"
+    },
+    {
+      "title": "Artemis III Crew Visits NASA Kennedy’s Vehicle Assembly Building",
+      "description": "NASA astronaut Randy Bresnik (left) and ESA (European Space Agency) astronaut Luca Parmitano view progress on the solid rocket booster integration in High Bay 3 inside the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Wednesday, Sept. 2, 2026. Bresnik, Parmitano, and NASA astronauts Andre Douglas, Frank Rubio, and Bob Hines made […]",
+      "link": "https://www.nasa.gov/image-article/artemis-iii-crew-visits-nasa-kennedys-vehicle-assembly-building/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
+      "description": "Did you spend part of your summer camping, hiking, at the pool, or in an aircraft? So did NASA’s 2025 Astronaut Candidate Class. The 10 candidates have been working their way through a comprehensive and rigorous training program since the agency introduced them to the public on Sept. 22, 2025, from NASA’s Johnson Space Center […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-14"
+    },
+    {
       "title": "NASA Kicks Off Inspiration Tour with Steelers vs. Falcons Game",
       "description": "Fans pose for a photo with an astronaut in the NASA Experience Zone at an NFL game between the Pittsburgh Steelers and the Atlanta Falcons at Acrisure Stadium, Sunday, Sept. 13, 2026, in Pittsburgh, Pennsylvania. NASA’s engagement at NFL games is part of the agency’s Inspiration Tour, aimed at strengthening connections between NASA and its […]",
       "link": "https://www.nasa.gov/image-article/nasa-kicks-off-inspiration-tour-with-steelers-vs-falcons-game/",
@@ -1271,6 +1279,22 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-10"
+    },
+    {
+      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
+      "description": "Last November, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure, and benefit commercial industries, including shipping. The satellite now is flying 30 seconds behind its predecessor, Sentinel-6 Michael Freilich. Both satellites are providing precise sea level height measurements during what oceanographers expect to be a historic El […]",
+      "link": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
+      "description": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Houston. In an emeritus role, individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their […]",
+      "link": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-09"
     },
     {
       "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
@@ -1641,6 +1665,30 @@
       "date": "2026-09-09"
     },
     {
+      "title": "Walter Torous named executive director of MIT Center for Real Estate",
+      "description": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
+      "link": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
+      "description": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
+      "link": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-31"
+    },
+    {
+      "title": "Cells use a little-known molecule to protect themselves from iron overload",
+      "description": "This discovery points toward new combination strategies against cancer, and may explain the iron buildup seen in disorders such as early-onset Parkinson’s disease.",
+      "link": "https://news.mit.edu/2026/cells-use-little-known-molecule-protect-themselves-iron-overload-0825",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-08-25"
+    },
+    {
       "title": "Cell-preservation technique could make CAR-T cell therapy more accessible",
       "description": "MIT researchers’ approach, which uses naturally occurring sugars as antifreeze, could make it easier for hospitals to deploy this type of cancer treatment.",
       "link": "https://news.mit.edu/2026/cell-preservation-technique-could-make-car-t-cell-therapy-more-accessible-0819",
@@ -1753,68 +1801,12 @@
       "date": "2026-08-11"
     },
     {
-      "title": "Tiny sound waves could help solve a major quantum computing problem",
-      "description": "Researchers at Harvard have demonstrated a way to protect quantum information using microscopic sound waves. By continuously surrounding a diamond-based qubit with mechanical vibrations, they extended its coherence time by roughly threefold. The same phonons could eventually both transmit and protect quantum information, opening the door to compact sound-based quantum networks on chips.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260911214245.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-12"
-    },
-    {
-      "title": "Walter Torous named executive director of MIT Center for Real Estate",
-      "description": "The senior lecturer, already director of the degree program, will now oversee all aspects of the center’s activities and operations.",
-      "link": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
-      "description": "The Institute welcomes its first cohort of QMIT Fellows this fall to advance interdisciplinary quantum research.",
-      "link": "https://news.mit.edu/2026/mit-quantum-initiative-launches-postdoctoral-fellowship-0831",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-31"
-    },
-    {
-      "title": "Scientists are building a microscope powered by a quantum computer",
-      "description": "Scientists are combining an electron microscope with a quantum computer to squeeze far more information from each electron. The approach could reveal faint details with fewer electrons, helping protect fragile samples that conventional microscopy can damage.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260912220038.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-13"
-    },
-    {
-      "title": "NASA Mission Studies Air Pollution Over Ethiopia",
-      "description": "A NASA-funded air pollution monitoring network has provided one of the most detailed long-term views yet of the role of black carbon, or soot produced by fires, diesel vehicles, and other combustion sources, in Ethiopia’s capital, Addis Ababa. The detailed measurements show how pollution changes by time of day and season, including increases associated with […]",
-      "link": "https://www.nasa.gov/missions/maia/nasa-mission-studies-air-pollution-over-ethiopia/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-17"
-    },
-    {
-      "title": "A Sunflower’s View of Totality",
-      "description": "The Moon slid between the Sun and Earth to produce a stunning celestial show visible from Spain in August 2026.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-sunflowers-view-of-totality/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-14"
-    },
-    {
       "title": "How an MIT research project became a global programming language",
       "description": "With millions of users across the world, Julia has been used to conduct cutting-edge research and to design new drugs, jet engines, heat pumps, and more.",
       "link": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-08-31"
-    },
-    {
-      "title": "Cells use a little-known molecule to protect themselves from iron overload",
-      "description": "This discovery points toward new combination strategies against cancer, and may explain the iron buildup seen in disorders such as early-onset Parkinson’s disease.",
-      "link": "https://news.mit.edu/2026/cells-use-little-known-molecule-protect-themselves-iron-overload-0825",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-08-25"
     },
     {
       "title": "DNA shaper steers nervous system development",
@@ -1831,6 +1823,22 @@
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-09-09"
+    },
+    {
+      "title": "Scientists are building a microscope powered by a quantum computer",
+      "description": "Scientists are combining an electron microscope with a quantum computer to squeeze far more information from each electron. The approach could reveal faint details with fewer electrons, helping protect fragile samples that conventional microscopy can damage.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260912220038.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-13"
+    },
+    {
+      "title": "Tiny sound waves could help solve a major quantum computing problem",
+      "description": "Researchers at Harvard have demonstrated a way to protect quantum information using microscopic sound waves. By continuously surrounding a diamond-based qubit with mechanical vibrations, they extended its coherence time by roughly threefold. The same phonons could eventually both transmit and protect quantum information, opening the door to compact sound-based quantum networks on chips.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911214245.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-12"
     }
   ]
 }
