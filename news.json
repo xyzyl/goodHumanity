@@ -1,20 +1,20 @@
 {
   "date": "2026-09-24",
-  "lastUpdated": "2026-09-24T02:49:50.392Z",
+  "lastUpdated": "2026-09-24T08:57:01.073Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "83.9s",
+    "executionTime": "27.5s",
     "sourcesQueried": 42,
     "sourcesSuccessful": 30,
-    "totalCandidates": 229,
-    "totalSelected": 228,
+    "totalCandidates": 231,
+    "totalSelected": 231,
     "entriesByField": {
       "health": 13,
       "climate": 35,
       "energy": 6,
       "technology": 66,
-      "education": 4,
-      "development": 24,
+      "education": 6,
+      "development": 25,
       "peace": 13,
       "agriculture": 1,
       "space": 66
@@ -33,15 +33,15 @@
         "changed": 0
       },
       "technology": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "education": {
-        "kept": 2,
+        "kept": 4,
         "changed": 0
       },
       "development": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "peace": {
@@ -58,9 +58,9 @@
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 29,
-      "topTierSources": 155,
-      "highCredibilitySources": 207
+      "highScoreEntries": 32,
+      "topTierSources": 157,
+      "highCredibilitySources": 210
     }
   },
   "entries": [
@@ -73,20 +73,20 @@
       "date": "2026-09-06"
     },
     {
-      "title": "UN health agency calls for investment boost to save young lives from cancer",
-      "description": "More children and young people are beating cancer, but progress remains uneven across regions and age groups, highlighting the need for increased investment to boost survival rates.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168408",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-09-23"
-    },
-    {
       "title": "Novel Molecular Shuttle Could Deliver Targeted, Diverse Therapies to the Brain",
       "description": "The blood–brain barrier (BBB) is a protective filter that lines the brain's blood vessels and is notoriously hard to penetrate, making the treatment of brain disorders very difficult. Strategies designed to breach the BBB include using brain surgery and focused ultrasound waves to create physical openings for the transportation of medicines and employing engineered adeno-associated viruses (AAVs) to ferry genetic payloads into desired locations, but these methods have limitations. Now, researchers at Caltech have developed a new, more effective way to transport potentially life-changing therap",
       "link": "https://www.caltech.edu/about/news/novel-molecular-shuttle-could-deliver-targeted-diverse-therapies-to-the-brain",
       "source": "Caltech",
       "field": "health",
       "date": "2026-08-26"
+    },
+    {
+      "title": "UN health agency calls for investment boost to save young lives from cancer",
+      "description": "More children and young people are beating cancer, but progress remains uneven across regions and age groups, highlighting the need for increased investment to boost survival rates.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168408",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-09-23"
     },
     {
       "title": "[Articles] Belzutifan plus lenvatinib versus cabozantinib in patients with previously treated advanced renal cell carcinoma (LITESPARK-011): an open-label, randomised, controlled, phase 3 trial",
@@ -177,20 +177,20 @@
       "date": "2026-09-22"
     },
     {
-      "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
-      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
-      "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2026-09-11"
-    },
-    {
       "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
       "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
       "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-08"
+    },
+    {
+      "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
+      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
+      "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2026-09-11"
     },
     {
       "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
@@ -201,20 +201,20 @@
       "date": "2026-09-23"
     },
     {
-      "title": "How Algae, Avocados, and Happy Accidents Helped Shape a Career: An Interview with Environmental Economist Prakash Mishra",
-      "description": "As a kid growing up in North Carolina, Prakash Mishra was very interested in planets. \"My parents got me a telescope when I turned 6 or 7, and that was my personality for probably 10 years,\" he says, noting that he thought he would eventually study physics or astrophysics.But a series of what he calls \"happy accidents\" led him down a different path. He went to the University of Pennsylvania to study biochemical engineering but ended up earning a bachelor's degree in economics in 2019. Six years later, he completed a doctorate, also at Penn, in applied economics. Now, after a year at Dartmouth ",
-      "link": "https://www.caltech.edu/about/news/how-algae-avocados-and-happy-accidents-helped-shape-a-career-an-interview-with-environmental-economist-prakash-mishra",
-      "source": "Caltech",
-      "field": "climate",
-      "date": "2026-09-18"
-    },
-    {
       "title": "NOAA announces 2026 federal recreational red snapper season, exempted fishing permits in South Atlantic",
       "description": "NOAA announces 2026 federal recreational red snapper season, exempted fishing permits in South Atlantic September 22, 2026 A group of women aboard a boat hold large red snappers caught during a recreational fishing trip. (Image credit: With permission from Grayson Shepard) NOAA Fisheries announced today the 2026 federal recreational red snapper fishing season in the South Atlantic and the issuance of three exempted fishing permits (EFPs) to Florida, Georgia, and South Carolina. The federal recreational red snapper season will open for three days this year from October 9 through October 11 —one",
       "link": "https://www.noaa.gov/news-release/noaa-2026-federal-recreational-red-snapper-season-exempted-South-Atlantic-fishing-permits",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-21"
+    },
+    {
+      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
+      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
+      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-11"
     },
     {
       "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
@@ -233,20 +233,60 @@
       "date": "2026-09-01"
     },
     {
+      "title": "LIVE: Climate change is here - What happens next is still in our hands",
+      "description": "🔴 LIVE NOW From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts already unfolding while rapidly cutting the emissions of harmful gasses driving climate change. World leaders are meeting today to discuss how to turn those priorities into action.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168372",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Increased Bluefin Tuna Quotas",
+      "description": "Increased Bluefin Tuna Quotas Bluefin tuna. (Image credit: NOAA) Download Image August 19, 2026 Fisheries 0 Off",
+      "link": "https://www.noaa.gov/stories/american-tuna-gets-boost-increased-bluefin-tuna-quotas-mean-more-opportunities-for-us-fishermen-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-08-19"
+    },
+    {
+      "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
+      "description": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be seen coming. UN experts say the months ahead offer countries a chance not only to protect the next harvest and our food security, but to prepare for a more unpredictable climate in the long run.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168404",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Why climate action now comes down to speed, finance and cooperation",
+      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "How Algae, Avocados, and Happy Accidents Helped Shape a Career: An Interview with Environmental Economist Prakash Mishra",
+      "description": "As a kid growing up in North Carolina, Prakash Mishra was very interested in planets. \"My parents got me a telescope when I turned 6 or 7, and that was my personality for probably 10 years,\" he says, noting that he thought he would eventually study physics or astrophysics.But a series of what he calls \"happy accidents\" led him down a different path. He went to the University of Pennsylvania to study biochemical engineering but ended up earning a bachelor's degree in economics in 2019. Six years later, he completed a doctorate, also at Penn, in applied economics. Now, after a year at Dartmouth ",
+      "link": "https://www.caltech.edu/about/news/how-algae-avocados-and-happy-accidents-helped-shape-a-career-an-interview-with-environmental-economist-prakash-mishra",
+      "source": "Caltech",
+      "field": "climate",
+      "date": "2026-09-18"
+    },
+    {
+      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
+      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-02"
+    },
+    {
       "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
       "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal… The post Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
       "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-09-21"
-    },
-    {
-      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
-      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
-      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-11"
     },
     {
       "title": "NOAA announces priorities to promote science-based American seafood dominance",
@@ -265,22 +305,6 @@
       "date": "2026-08-19"
     },
     {
-      "title": "LIVE: Climate change is here - What happens next is still in our hands",
-      "description": "🔴 LIVE NOW From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts already unfolding while rapidly cutting the emissions of harmful gasses driving climate change. World leaders are meeting today to discuss how to turn those priorities into action.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168372",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
-      "description": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be seen coming. UN experts say the months ahead offer countries a chance not only to protect the next harvest and our food security, but to prepare for a more unpredictable climate in the long run.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168404",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-22"
-    },
-    {
       "title": "Tech Week: Launching into the Future with Advanced Technologies",
       "description": "Tech Week: Launching into the Future with Advanced Technologies NOAA Fisheries Technology Week splash page. (Image credit: NOAA Fisheries) Download Image August 19, 2026 Fisheries Information Technology 0 Off",
       "link": "https://www.noaa.gov/stories/technology-week-ext",
@@ -289,36 +313,12 @@
       "date": "2026-08-19"
     },
     {
-      "title": "Why climate action now comes down to speed, finance and cooperation",
-      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-21"
-    },
-    {
       "title": "Coordinated action on clean air and climate change can net $15 for every dollar spent",
       "description": "Tackling air pollution and climate change together can save millions of lives, reduce global warming and generate roughly $15 in economic benefits for every $1 spent, a new UN-backed report has revealed.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168283",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-09-07"
-    },
-    {
-      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
-      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Increased Bluefin Tuna Quotas",
-      "description": "Increased Bluefin Tuna Quotas Bluefin tuna. (Image credit: NOAA) Download Image August 19, 2026 Fisheries 0 Off",
-      "link": "https://www.noaa.gov/stories/american-tuna-gets-boost-increased-bluefin-tuna-quotas-mean-more-opportunities-for-us-fishermen-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-08-19"
     },
     {
       "title": "‘The lake is our life’: Protecting a shared lifeline in Uganda",
@@ -337,12 +337,12 @@
       "date": "2026-08-24"
     },
     {
-      "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
-      "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
-      "link": "https://e360.yale.edu/features/sargassum-belt",
+      "title": "At Least 124 Environmental Defenders Killed Worldwide Last Year",
+      "description": "At least 124 people were murdered last year for defending their forests, farms, or waterways from destruction or degradation, according to a stark new report. Its authors say that deep cuts to foreign aid by wealthy nations have weakened human rights groups that support environmental defenders. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/environmental-defenders-killed-2025",
       "source": "Yale E360",
       "field": "climate",
-      "date": "2026-09-10"
+      "date": "2026-09-16"
     },
     {
       "title": "Analysis: UK solar power hits record high over summer 2026",
@@ -353,12 +353,44 @@
       "date": "2026-09-04"
     },
     {
+      "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
+      "description": "Methane is a powerful greenhouse gas and the second-largest contributor to global warming after carbon dioxide (CO2). Methane traps heat… The post Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/guest-post-why-tough-methane-cuts-are-crucial-for-keeping-warming-well-below-2c",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "Access to Urban Woodlands Linked With Lower Use of Antidepressants",
+      "description": "A study from Scotland found that living near an accessible urban woodland significantly lowered the likelihood of being prescribed antidepressants. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/scotland-woodlands-antidepressants",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-26"
+    },
+    {
       "title": "A London Scheme to Cut Car Pollution Restored Lung Growth in Children",
       "description": "A controversial scheme aimed at slashing car pollution in London was a boon to children, whose lungs grew faster after the program was launched, researchers found. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/ulez-children-lung-growth",
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-08-19"
+    },
+    {
+      "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
+      "description": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest… The post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-the-two-largest-reservoirs-in-the-us-have-hit-record-low-levels",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-08-17"
+    },
+    {
+      "title": "As Deforestation Falls in Brazil, It Surges in Neighboring Bolivia",
+      "description": "As Brazil cracks down on the illegal clearing of forests, farmers and ranchers are moving into Bolivia, helping to fuel a wave of deforestation in a country where land is cheap and enforcement lax. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/brazil-bolivia-deforestation",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-08-11"
     },
     {
       "title": "NOAA to rebuild historic science lab in Beaufort, North Carolina",
@@ -385,20 +417,12 @@
       "date": "2026-08-11"
     },
     {
-      "title": "At Least 124 Environmental Defenders Killed Worldwide Last Year",
-      "description": "At least 124 people were murdered last year for defending their forests, farms, or waterways from destruction or degradation, according to a stark new report. Its authors say that deep cuts to foreign aid by wealthy nations have weakened human rights groups that support environmental defenders. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/environmental-defenders-killed-2025",
+      "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
+      "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/sargassum-belt",
       "source": "Yale E360",
       "field": "climate",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
-      "description": "Methane is a powerful greenhouse gas and the second-largest contributor to global warming after carbon dioxide (CO2). Methane traps heat… The post Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/guest-post-why-tough-methane-cuts-are-crucial-for-keeping-warming-well-below-2c",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-09-01"
+      "date": "2026-09-10"
     },
     {
       "title": "A Hard-Won Rule to Cut Chemical Plant Pollution Is Being Unraveled",
@@ -409,28 +433,12 @@
       "date": "2026-08-27"
     },
     {
-      "title": "Access to Urban Woodlands Linked With Lower Use of Antidepressants",
-      "description": "A study from Scotland found that living near an accessible urban woodland significantly lowered the likelihood of being prescribed antidepressants. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/scotland-woodlands-antidepressants",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-26"
-    },
-    {
       "title": "Filipino Cacao Growers Learn to Live With a Hotter Climate",
       "description": "In “Chocolates Melting Away” — the First-Place Winner of the 2026 Yale Environment 360 Film Contest — Breech Asher Harani explores how cacao growers in the Philippines are developing new techniques to protect their crops from increasingly harsh conditions. Read more on E360 →",
       "link": "https://e360.yale.edu/features/2026-film-contest-first-place-philippines-chocolates",
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-08-20"
-    },
-    {
-      "title": "Analysis: The two largest reservoirs in the US have hit record-low levels",
-      "description": "The second-largest reservoir in the US reached a record-low water height on Saturday – just days after the country’s largest… The post Analysis: The two largest reservoirs in the US have hit record-low levels appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-the-two-largest-reservoirs-in-the-us-have-hit-record-low-levels",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-08-17"
     },
     {
       "title": "Amid Drought, Hundreds of French Rivers Are Drying Up",
@@ -441,28 +449,12 @@
       "date": "2026-08-12"
     },
     {
-      "title": "As Deforestation Falls in Brazil, It Surges in Neighboring Bolivia",
-      "description": "As Brazil cracks down on the illegal clearing of forests, farmers and ranchers are moving into Bolivia, helping to fuel a wave of deforestation in a country where land is cheap and enforcement lax. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/brazil-bolivia-deforestation",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-08-11"
-    },
-    {
       "title": "ADB Approves $200 Million Loan to Modernize Power Distribution Network in Bangladesh",
       "description": "ADB has approved a $200 million loan to help Bangladesh modernize and strengthen its power distribution network in peri-urban areas surrounding Dhaka, improving the reliability, efficiency, and resilience of electricity supply for businesses and households.",
       "link": "https://www.adb.org/news/adb-approves-200-million-loan-modernize-power-distribution-network-bangladesh",
       "source": "Asian Development Bank",
       "field": "energy",
       "date": "2026-09-23"
-    },
-    {
-      "title": "In India, a Surge of Solar Is Keeping Coal Power in Check",
-      "description": "India, a country of nearly 1.5 billion people, has long relied on coal to power its growing economy. But over the last two years, it has seen a remarkable shift: The rapid buildout of renewable energy has halted the growth of coal. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/india-solar-coal-power",
-      "source": "Yale E360",
-      "field": "energy",
-      "date": "2026-09-21"
     },
     {
       "title": "ADB Signs First Deal in Türkiye’s Financial Leasing Industry to Strengthen Energy Security and Expand Clean Energy",
@@ -479,6 +471,14 @@
       "source": "MIT Tech Review",
       "field": "energy",
       "date": "2026-09-10"
+    },
+    {
+      "title": "In India, a Surge of Solar Is Keeping Coal Power in Check",
+      "description": "India, a country of nearly 1.5 billion people, has long relied on coal to power its growing economy. But over the last two years, it has seen a remarkable shift: The rapid buildout of renewable energy has halted the growth of coal. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/india-solar-coal-power",
+      "source": "Yale E360",
+      "field": "energy",
+      "date": "2026-09-21"
     },
     {
       "title": "Zap Rocks. Add Water. Get Clean Hydrogen",
@@ -505,6 +505,22 @@
       "date": "2026-09-18"
     },
     {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
+      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Rivian’s Gambit for Full Autonomy",
+      "description": "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif., through areas crowded with touchstones of tech history. At one point I pass the landmark HP Garage, the one-car workshop where Hewlett-Packard, and, arguably, Silicon Valley, was founded in 1939. I skirt Stanford University, where a team led by computer science professor Sebastian Thrun won a US $2 million DARPA Grand Challenge in 2005. The team’s Volkswagen SUV, named Stanley, became the world’s first vehicle to navigate a grueling 212-kilometer Mojave Desert course with no human intervention. The",
+      "link": "https://spectrum.ieee.org/rivian-self-driving",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
       "title": "Project will harness technology to track Amazon biodiversity in real time",
       "description": "Leaders of $100 million effort will use automated detection methods and computer models to monitor species’ trends",
       "link": "https://www.science.org/content/article/project-will-harness-technology-track-amazon-biodiversity-real-time",
@@ -513,12 +529,76 @@
       "date": "2026-09-23"
     },
     {
+      "title": "California to vote on spending $16 billion to boost research after Trump cuts",
+      "description": "State initiatives this fall and in early 2028 will gauge voters’ appetite for science, but controversy has grown around one proposal",
+      "link": "https://www.science.org/content/article/california-vote-spending-16-billion-boost-research-after-trump-cuts",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-01"
+    },
+    {
       "title": "New Book by Phillip Hoffman Explores the Origins of Economic Growth",
       "description": "In 1700, life was miserable everywhere. Nearly everyone was poor, most had to toil long days in fields just to feed their families, and half of all children died before adulthood. But throughout the following century, technological and political shifts in northwestern Europe unleashed something completely new in human history that transformed the world—sustained economic growth. Why and how this revolution started where it did is the focus of a new book by Philip T. Hoffman, Caltech's Rea A. and Lela G. Axline Professor of Business Economics and History, Emeritus.Why Europe?: The Great Diverge",
       "link": "https://www.caltech.edu/about/news/new-book-by-phillip-hoffman-explores-the-origins-of-economic-growth",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-09-15"
+    },
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "description": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
+      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-08-12"
+    },
+    {
+      "title": "North Korean nuclear test sets off years of earthquakes",
+      "description": "Seismic activity around the Punggye-ri test site has increased since a large nuclear explosion in 2017",
+      "link": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-17"
+    },
+    {
+      "title": "Medieval Europe was battered with 16 catastrophic floods in just 2 years",
+      "description": "The intense deluges, never before documented, represent the highest number of back-to-back extreme weather events in the past 700 years",
+      "link": "https://www.science.org/content/article/medieval-europe-was-battered-16-catastrophic-floods-just-2-years",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-08-18"
+    },
+    {
+      "title": "A new understanding of how enzymes influence bacterial protein production",
+      "description": "Novel research expands scientific understanding of how RNA shapes the reading of genetic information.",
+      "link": "https://news.mit.edu/2026/how-enzymes-influence-bacterial-protein-production-0918",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-18"
+    },
+    {
+      "title": "Fast Radio Bursts Poised to Help with Biggest Cosmic Mysteries",
+      "description": "Intense, brief flashes of radio light called fast radio bursts (FRBs) travel across billions of light-years to reach Earth, passing through a fog of matter along the way. The bursts' origins are unclear but are thought to possibly come from highly magnetized dead stars called magnetars. The denser the fog the FRBs travel through, the more their signals will become dispersed—similar to the way a prism splits white light into a rainbow of colors.Thanks to this dispersing trait, FRBs make excellent tracers of how ordinary matter is distributed in the universe; ordinary matter is the same stuff th",
+      "link": "https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "Caltech and KAIST Establish Program to Co-Mentor Tomorrow's Chemists and Drive Future Discoveries",
+      "description": "Chemists from Caltech and KAIST (Korea Advanced Institute of Science and Technology) have established a framework of cooperation that will enable joint research projects in chemistry while also nurturing the next generation of scientists in an international research setting.A delegation of Caltech scientists led by Sarah Reisman, the Bren Professor of Chemistry and Norman Davidson Leadership Chair of the Division of Chemistry and Chemical Engineering (CCE), traveled to South Korea for the 1st KAIST-Caltech Workshop on Molecular Science and Chemical Innovation, which took place at KAIST on Sept",
+      "link": "https://www.caltech.edu/about/news/caltech-and-kaist-establish-program-to-co-mentor-tomorrows-chemists-and-drive-future-discoveries",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-02"
     },
     {
       "title": "3 Skills That Will Matter More in the Age of AI",
@@ -537,28 +617,12 @@
       "date": "2026-09-22"
     },
     {
-      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
-      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-22"
-    },
-    {
       "title": "Has pancreatic cancer met its match?",
       "description": "Frontline researcher sees newly approved medication as ‘critical first step’ toward transformation of care",
       "link": "https://news.harvard.edu/gazette/story/2026/09/has-pancreatic-cancer-met-its-match/",
       "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-09-09"
-    },
-    {
-      "title": "Rivian’s Gambit for Full Autonomy",
-      "description": "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif., through areas crowded with touchstones of tech history. At one point I pass the landmark HP Garage, the one-car workshop where Hewlett-Packard, and, arguably, Silicon Valley, was founded in 1939. I skirt Stanford University, where a team led by computer science professor Sebastian Thrun won a US $2 million DARPA Grand Challenge in 2005. The team’s Volkswagen SUV, named Stanley, became the world’s first vehicle to navigate a grueling 212-kilometer Mojave Desert course with no human intervention. The",
-      "link": "https://spectrum.ieee.org/rivian-self-driving",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-08"
     },
     {
       "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
@@ -569,28 +633,12 @@
       "date": "2026-09-02"
     },
     {
-      "title": "Scaling AI agents with trustworthy data",
-      "description": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
-      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-08-12"
-    },
-    {
       "title": "NASA just used satellites and debris to navigate without GPS",
       "description": "NASA has successfully tested a system that allows satellites to navigate without GPS by using other spacecraft and debris as landmarks in orbit. In just three days, FALCON also improved the known orbits of more than 200 space objects completely autonomously.",
       "link": "https://www.sciencedaily.com/releases/2026/08/260826055450.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-08-26"
-    },
-    {
-      "title": "North Korean nuclear test sets off years of earthquakes",
-      "description": "Seismic activity around the Punggye-ri test site has increased since a large nuclear explosion in 2017",
-      "link": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-17"
     },
     {
       "title": "OpenAI breakthrough triggers ‘existential crisis’ in math",
@@ -601,38 +649,6 @@
       "date": "2026-09-15"
     },
     {
-      "title": "Scientists find that “perfect” systems may be surprisingly fragile",
-      "description": "Complex systems may work better when their parts are not perfectly alike. Northwestern physicists found that carefully balanced variation, or “disorder,” can make networks such as power grids, ecosystems, neurons, and materials more stable. Even random differences sometimes improved stability compared with completely uniform systems. The discovery could help researchers design more resilient technologies and explain why natural systems are so rarely perfectly uniform.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260919031022.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-19"
-    },
-    {
-      "title": "Caltech’s tiny new chip can steer light in 74 quadrillionths of a second",
-      "description": "A new Caltech device can redirect a beam of light in just 74 femtoseconds using another beam and a nanoscale silicon metasurface. The breakthrough could pave the way for dramatically faster photonic communications, computing, and sensing technologies.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "NSF memo implementing Trump’s ‘golden age’ of science unsettles researchers",
-      "description": "New document emphasizes support for White House priorities over curiosity-driven ideas",
-      "link": "https://www.science.org/content/article/nsf-memo-implementing-trump-s-golden-age-science-unsettles-researchers",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-14"
-    },
-    {
-      "title": "Social science studies may promise anonymity, but participant identities often lurk in public data",
-      "description": "One-fifth of data sets intended to support replication breached privacy standards, study finds",
-      "link": "https://www.science.org/content/article/social-science-studies-may-promise-anonymity-participant-identities-often-lurk-public",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-11"
-    },
-    {
       "title": "How an AI math breakthrough ignited a controversy",
       "description": "OpenAI spent millions to solve Navier-Stokes problem, but who should get credit?",
       "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
@@ -641,12 +657,28 @@
       "date": "2026-09-08"
     },
     {
-      "title": "California to vote on spending $16 billion to boost research after Trump cuts",
-      "description": "State initiatives this fall and in early 2028 will gauge voters’ appetite for science, but controversy has grown around one proposal",
-      "link": "https://www.science.org/content/article/california-vote-spending-16-billion-boost-research-after-trump-cuts",
+      "title": "NSF’s new plan to fund graduate students to work in industry covers familiar ground",
+      "description": "Agency gives university-industry consortium $47 million to reinvent existing internship program",
+      "link": "https://www.science.org/content/article/nsf-s-new-plan-fund-graduate-students-work-industry-covers-familiar-ground",
       "source": "Science",
       "field": "technology",
-      "date": "2026-09-01"
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Batteries that safely break down in the GI tract could improve ingestible devices",
+      "description": "Made from “bioresorbable” materials, the new batteries could power capsules for drug delivery, sensing, and other applications.",
+      "link": "https://news.mit.edu/2026/batteries-safely-break-down-in-gi-tract-could-improve-ingestible-devices-0921",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "A burst of “pink noise” may lead to more restorative sleep",
+      "description": "Delivered at just the right time, this type of auditory stimulus can strengthen the flow of cerebrospinal fluid, which clears debris from the brain and keeps it healthy.",
+      "link": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-09"
     },
     {
       "title": "How architects turned a hulking brick box into MIT’s newest academic hub",
@@ -673,14 +705,6 @@
       "date": "2026-09-18"
     },
     {
-      "title": "CERN finds gluons behaving strangely deep inside atomic nuclei",
-      "description": "Physicists at CERN have found a new way to peer deep inside atomic nuclei and distinguish between two competing explanations for how gluons behave. Using the ALICE experiment at the Large Hadron Collider, researchers measured particle production at unprecedented spatial resolution, revealing structures as small as about one-quarter the size of a proton. At the smallest scales, they saw a surprising drop in J/ψ production that conventional “nuclear shadowing” struggles to explain.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260911214303.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-12"
-    },
-    {
       "title": "Rethinking Robot Safety in the Age of AI",
       "description": "This article is brought to you by VicOne. Robot safety has traditionally asked: Can a machine remain safe when something goes wrong? Physical AI raises a harder question: Can a machine remain safe when an attacker changes what it sees, decides, or does even when nothing appears to have failed? As AI and robotics continue to advance at an unprecedented pace, modern robots perceive through multimodal sensors, interpret context using AI models, and translate those interpretations into physical action. As they move into dynamic environments, their safety increasingly depends on the integrity of th",
       "link": "https://spectrum.ieee.org/physical-ai-robot-cybersecurity-vicone",
@@ -697,12 +721,52 @@
       "date": "2026-09-22"
     },
     {
+      "title": "Scientists find that “perfect” systems may be surprisingly fragile",
+      "description": "Complex systems may work better when their parts are not perfectly alike. Northwestern physicists found that carefully balanced variation, or “disorder,” can make networks such as power grids, ecosystems, neurons, and materials more stable. Even random differences sometimes improved stability compared with completely uniform systems. The discovery could help researchers design more resilient technologies and explain why natural systems are so rarely perfectly uniform.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260919031022.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-19"
+    },
+    {
+      "title": "Caltech’s tiny new chip can steer light in 74 quadrillionths of a second",
+      "description": "A new Caltech device can redirect a beam of light in just 74 femtoseconds using another beam and a nanoscale silicon metasurface. The breakthrough could pave the way for dramatically faster photonic communications, computing, and sensing technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-18"
+    },
+    {
+      "title": "CERN finds gluons behaving strangely deep inside atomic nuclei",
+      "description": "Physicists at CERN have found a new way to peer deep inside atomic nuclei and distinguish between two competing explanations for how gluons behave. Using the ALICE experiment at the Large Hadron Collider, researchers measured particle production at unprecedented spatial resolution, revealing structures as small as about one-quarter the size of a proton. At the smallest scales, they saw a surprising drop in J/ψ production that conventional “nuclear shadowing” struggles to explain.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911214303.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-12"
+    },
+    {
       "title": "Scientists detect a nuclear reactor’s ghostly afterglow for the first time",
       "description": "Nuclear reactors may go dark, but their fuel continues producing a faint antineutrino “glow” long after shutdown. Researchers have now detected that residual signal for the first time, finding it closely matched predictions of radioactive decay inside the reactor and nearby spent-fuel pools. The breakthrough suggests antineutrino detectors could eventually monitor reactors even when they are offline.",
       "link": "https://www.sciencedaily.com/releases/2026/08/260814011036.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-08-14"
+    },
+    {
+      "title": "NSF memo implementing Trump’s ‘golden age’ of science unsettles researchers",
+      "description": "New document emphasizes support for White House priorities over curiosity-driven ideas",
+      "link": "https://www.science.org/content/article/nsf-memo-implementing-trump-s-golden-age-science-unsettles-researchers",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-14"
+    },
+    {
+      "title": "Social science studies may promise anonymity, but participant identities often lurk in public data",
+      "description": "One-fifth of data sets intended to support replication breached privacy standards, study finds",
+      "link": "https://www.science.org/content/article/social-science-studies-may-promise-anonymity-participant-identities-often-lurk-public",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-11"
     },
     {
       "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
@@ -713,14 +777,6 @@
       "date": "2026-09-10"
     },
     {
-      "title": "NSF’s new plan to fund graduate students to work in industry covers familiar ground",
-      "description": "Agency gives university-industry consortium $47 million to reinvent existing internship program",
-      "link": "https://www.science.org/content/article/nsf-s-new-plan-fund-graduate-students-work-industry-covers-familiar-ground",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-27"
-    },
-    {
       "title": "Dreams of making drugs and tissues in space get closer to reality",
       "description": "Maturing techniques and cheaper launches fuel microgravity research—and hopes of orbital manufacturing",
       "link": "https://www.science.org/content/article/dreams-making-drugs-and-tissues-space-get-closer-reality",
@@ -729,57 +785,9 @@
       "date": "2026-08-27"
     },
     {
-      "title": "What OpenAI’s latest controversy tells us about the future of math",
-      "description": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
-      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Worldwide study of diseases gets historic funding influx",
-      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
-      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "Medieval Europe was battered with 16 catastrophic floods in just 2 years",
-      "description": "The intense deluges, never before documented, represent the highest number of back-to-back extreme weather events in the past 700 years",
-      "link": "https://www.science.org/content/article/medieval-europe-was-battered-16-catastrophic-floods-just-2-years",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-18"
-    },
-    {
-      "title": "Newly discovered virus is sickening cattle in Western Europe",
-      "description": "The pathogen, which reduces milk production, is the latest midge-transmitted virus affecting ruminants to reach the continent",
-      "link": "https://www.science.org/content/article/newly-discovered-virus-sickening-cattle-western-europe",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-11"
-    },
-    {
-      "title": "Batteries that safely break down in the GI tract could improve ingestible devices",
-      "description": "Made from “bioresorbable” materials, the new batteries could power capsules for drug delivery, sensing, and other applications.",
-      "link": "https://news.mit.edu/2026/batteries-safely-break-down-in-gi-tract-could-improve-ingestible-devices-0921",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-21"
-    },
-    {
       "title": "A new chapter for MIT Reads",
       "description": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
       "link": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "A new understanding of how enzymes influence bacterial protein production",
-      "description": "Novel research expands scientific understanding of how RNA shapes the reading of genetic information.",
-      "link": "https://news.mit.edu/2026/how-enzymes-influence-bacterial-protein-production-0918",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-09-18"
@@ -791,30 +799,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-09-16"
-    },
-    {
-      "title": "A burst of “pink noise” may lead to more restorative sleep",
-      "description": "Delivered at just the right time, this type of auditory stimulus can strengthen the flow of cerebrospinal fluid, which clears debris from the brain and keeps it healthy.",
-      "link": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-      "description": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
-      "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Fast Radio Bursts Poised to Help with Biggest Cosmic Mysteries",
-      "description": "Intense, brief flashes of radio light called fast radio bursts (FRBs) travel across billions of light-years to reach Earth, passing through a fog of matter along the way. The bursts' origins are unclear but are thought to possibly come from highly magnetized dead stars called magnetars. The denser the fog the FRBs travel through, the more their signals will become dispersed—similar to the way a prism splits white light into a rainbow of colors.Thanks to this dispersing trait, FRBs make excellent tracers of how ordinary matter is distributed in the universe; ordinary matter is the same stuff th",
-      "link": "https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-08"
     },
     {
       "title": "Models of Glacial Collapse in Antarctica Improve Predictions of Sea-Level Rise",
@@ -833,6 +817,22 @@
       "date": "2026-09-23"
     },
     {
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "description": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations…",
+      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Worldwide study of diseases gets historic funding influx",
+      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
+      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-08-25"
+    },
+    {
       "title": "In a global first, Mexico approves use of RNA-based fungicide",
       "description": "Oifirax, created by GreenLight Biosciences, uses RNA molecules to kill the fungus responsible for powdery mildew on grapes",
       "link": "https://www.science.org/content/article/global-first-mexico-approves-use-rna-based-fungicide",
@@ -841,25 +841,41 @@
       "date": "2026-08-25"
     },
     {
-      "title": "Caltech and KAIST Establish Program to Co-Mentor Tomorrow's Chemists and Drive Future Discoveries",
-      "description": "Chemists from Caltech and KAIST (Korea Advanced Institute of Science and Technology) have established a framework of cooperation that will enable joint research projects in chemistry while also nurturing the next generation of scientists in an international research setting.A delegation of Caltech scientists led by Sarah Reisman, the Bren Professor of Chemistry and Norman Davidson Leadership Chair of the Division of Chemistry and Chemical Engineering (CCE), traveled to South Korea for the 1st KAIST-Caltech Workshop on Molecular Science and Chemical Innovation, which took place at KAIST on Sept",
-      "link": "https://www.caltech.edu/about/news/caltech-and-kaist-establish-program-to-co-mentor-tomorrows-chemists-and-drive-future-discoveries",
-      "source": "Caltech",
+      "title": "Newly discovered virus is sickening cattle in Western Europe",
+      "description": "The pathogen, which reduces milk production, is the latest midge-transmitted virus affecting ruminants to reach the continent",
+      "link": "https://www.science.org/content/article/newly-discovered-virus-sickening-cattle-western-europe",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-09-04"
+      "date": "2026-08-11"
     },
     {
-      "title": "Education in Papua New Guinea",
-      "description": "Education in Papua New Guinea 2010 US$52,854,686 GPE 2025 grant eligibility Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership compact Priority: Complete the rollout of the 1-6-6 School Restructuring Reform. JICAFlorian Rabenstein Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data In Papua New Guinea, many students drop out of school during primary education and during the transition from primary to secondary. Only, one in five secondary-school age children are enrolled in school. In line with the National Educ",
-      "link": "https://www.globalpartnership.org/where-we-work/papua-new-guinea",
+      "title": "Education in Dominica",
+      "description": "Education in Dominica 2016 US$31,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Developing, implementing, and sustaining a comprehensive, inclusive, and equitable curriculum. Mohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Having achieved universal primary and secondary education, tuition-free tertiary education, and expanded access to pre-primary education, Dominica is focused on improving the quality and relevance of education. Sector challenges include high drop",
+      "link": "https://www.globalpartnership.org/where-we-work/dominica",
       "source": "GPE",
       "field": "education",
       "date": "2026-05-25"
     },
     {
-      "title": "Education in Saint Vincent and the Grenadines",
-      "description": "Education in Saint Vincent and the Grenadines 2016 US$36,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Harnessing the power of technology for education transformation. CDBMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Saint Vincent and the Grenadines has limited resources and cultural norms that contribute to disparities in education access. The Caribbean region’s susceptibility to natural disasters exacerbates challenges to delivering quality education. The gove",
-      "link": "https://www.globalpartnership.org/where-we-work/saint-vincent-and-grenadines",
+      "title": "Education in Grenada",
+      "description": "Education in Grenada 2016 US$36,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Successful implementation of an enhanced curriculum and assessment strategy for lower secondary schools. CDBMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data In Grenada, a primary education curriculum reform is underway, and the upper secondary curriculum is strongly shaped by final exams, but there is no official curriculum for lower secondary education. Lacking guidance on how to define ",
+      "link": "https://www.globalpartnership.org/where-we-work/grenada",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Pakistan",
+      "description": "Education in Pakistan 2012 US$376,874,001 GPE 2025 grant eligibility Multiplier System capacity System transformation Girls' Education Accelerator Other key documents Partnership Compacts Punjab Priority: Improve learning outcomes at the pre-primary, primary and middle levels, with a special focus on girls and out-of-school children. See also: Balochistan Partnership Compact Khyber Pakhtunkhwa Partnership Compact Sindh Partnership Compact FCDO, JICA (Punjab), UNESCO (Khyber Pakhtunkhwa, Balochistan), UNESCO Islamabad (Sindh), UNICEF (Sindh, Balochistan), UNICEF Islamabad (Balochistan), UNICEF ",
+      "link": "https://www.globalpartnership.org/where-we-work/pakistan",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Nigeria",
+      "description": "Education in Nigeria 2012 US$346,506,711 GPE 2025 grant eligibility Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership compact Priority: Ensure accessible, equitable and inclusive foundational learning. FCDOLucinda Ramos Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Nigeria, the most populous country in Africa, has an estimated 14.8 million school-age children not attending school. The northern regions are most affected, with more girls out of school than boys. For children in school, nearly two-thirds str",
+      "link": "https://www.globalpartnership.org/where-we-work/nigeria",
       "source": "GPE",
       "field": "education",
       "date": "2026-05-25"
@@ -897,6 +913,22 @@
       "date": "2026-09-19"
     },
     {
+      "title": "ADB Sells $5 Billion Dual-Tranche 3- and 7-Year Global Benchmark Bonds",
+      "description": "ADB has priced a 3-year global benchmark United States dollar bond worth $3 billion and a 7-year global benchmark US dollar bond worth $2 billion, proceeds of which will become part of ADB’s ordinary capital resources.",
+      "link": "https://www.adb.org/news/adb-sells-5-billion-dual-tranche-3-and-7-year-global-benchmark-bonds",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs",
+      "description": "ADB has signed a combined $30 million loan (in togrog equivalent) with Gobi Joint Stock Company (Gobi), Tavan Bogd Foods LLC (TBF), and Tavan Bogd Foods Pizza LLC (TBFP) to strengthen Mongolia's cashmere value chain and expand employment opportunities in the country’s burgeoning food service sector.",
+      "link": "https://www.adb.org/news/adb-signs-private-sector-deal-strengthen-mongolia-cashmere-value-chain-create-inclusive-jobs",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-18"
+    },
+    {
       "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
       "description": "ADB has approved a $650 million equivalent program to help Indonesia modernize intergovernmental fiscal management, advance digital governance, and improve public service delivery across the country’s decentralized system of government.",
       "link": "https://www.adb.org/news/adb-supports-fiscal-reforms-stronger-public-service-delivery-indonesia",
@@ -921,6 +953,14 @@
       "date": "2026-09-11"
     },
     {
+      "title": "ADB Supports Mongolia's First Green-Certified Residential Complex Built by the Private Sector",
+      "description": "ADB has signed a $30 million loan (in togrog equivalent) with Tavan Bogd Holdings LLC to finance the construction of Mongolia's first green-certified residential complex developed by the private sector.",
+      "link": "https://www.adb.org/news/adb-supports-mongolias-first-green-certified-residential-complex-built-private-sector",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-09"
+    },
+    {
       "title": "ADB Approves $175 Million Loan to Modernize Power Networks, Boost Jobs and Services in Bangladesh’s Chattogram Hill Tracts",
       "description": "ADB has approved a $175 million concessional loan to expand access to reliable and affordable electricity in Bangladesh’s Chattogram Hill Tracts, helping boost livelihoods, improve essential services, and support inclusive development in one of the country’s most remote regions.",
       "link": "https://www.adb.org/news/adb-approves-175-million-loan-modernize-power-networks-boost-jobs-services-bangladesh-chattogram-hill-tracts",
@@ -937,20 +977,12 @@
       "date": "2026-08-27"
     },
     {
-      "title": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs",
-      "description": "ADB has signed a combined $30 million loan (in togrog equivalent) with Gobi Joint Stock Company (Gobi), Tavan Bogd Foods LLC (TBF), and Tavan Bogd Foods Pizza LLC (TBFP) to strengthen Mongolia's cashmere value chain and expand employment opportunities in the country’s burgeoning food service sector.",
-      "link": "https://www.adb.org/news/adb-signs-private-sector-deal-strengthen-mongolia-cashmere-value-chain-create-inclusive-jobs",
-      "source": "Asian Development Bank",
+      "title": "Is organic farming better for the environment than conventional farming?",
+      "description": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.",
+      "link": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
+      "source": "Our World in Data",
       "field": "development",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "ADB Supports Mongolia's First Green-Certified Residential Complex Built by the Private Sector",
-      "description": "ADB has signed a $30 million loan (in togrog equivalent) with Tavan Bogd Holdings LLC to finance the construction of Mongolia's first green-certified residential complex developed by the private sector.",
-      "link": "https://www.adb.org/news/adb-supports-mongolias-first-green-certified-residential-complex-built-private-sector",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-09"
+      "date": "2026-09-14"
     },
     {
       "title": "ADB and Partners Launch Initiative to Scale Financing for Land Degradation and Desertification in Asia and the Pacific",
@@ -967,14 +999,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-08-21"
-    },
-    {
-      "title": "Is organic farming better for the environment than conventional farming?",
-      "description": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.",
-      "link": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
-      "source": "Our World in Data",
-      "field": "development",
-      "date": "2026-09-14"
     },
     {
       "title": "ADB’s New Maldives Strategy Prioritizes Fiscal Sustainability, Energy Security, and Climate Resilience",
@@ -1153,20 +1177,20 @@
       "date": "2026-08-18"
     },
     {
-      "title": "Why do some people have a better sense of direction than others?",
-      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-09-10"
-    },
-    {
       "title": "Gaza: Destruction of buildings rises by nearly 10 per cent since ceasefire",
       "description": "New satellite assessments show the destruction of buildings in Gaza has climbed by nearly 10 per cent since October’s faltering ceasefire between Hamas and Israeli forces aim to end the two-year war, which reduced cities to rubble and displaced more than one million people, UN agencies said on Thursday.",
       "link": "https://news.un.org/feed/view/en/story/2026/08/1168138",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-08-13"
+    },
+    {
+      "title": "Why do some people have a better sense of direction than others?",
+      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-09-10"
     },
     {
       "title": "Nobel Prize Conversations: Artificial Intelligence",
@@ -1209,34 +1233,26 @@
       "date": "2026-09-16"
     },
     {
+      "title": "President Trump Signs Executive Order to Create US Space Academy",
+      "description": "To strengthen the nation’s space workforce and develop the next generation of space leaders, President Donald J. Trump signed an Executive Order on Friday to establish the nation’s first U.S. Space Academy. The order highlights how space is a critical domain for American national security, economic growth, scientific discovery, and technological innovation. The proposed academy […]",
+      "link": "https://www.nasa.gov/news-release/president-trump-signs-executive-order-to-create-us-space-academy/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-28"
+    },
+    {
+      "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
+      "description": "Photographers at NASA’s Johnson Space Center in Houston have documented some of the most defining moments in human spaceflight. From astronaut training and engineering tests to mission control operations and milestone celebrations, their images preserve the history of exploration while capturing the people and teams behind the missions shaping the next era. Meet the photographers behind the lens and explore the […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-08-19"
+    },
+    {
       "title": "NASA Selects PRIMA Mission; Key Roles for Caltech, JPL, and IPAC",
       "description": "NASA announced today the selection of a new space telescope that will explore the cold, dusty universe in far‑infrared light, providing the ability to view cosmic objects and events at wavelengths that are otherwise invisible with existing telescopes. The Jet Propulsion Laboratory, which Caltech manages for NASA, will develop and operate the $1 billion observatory named PRIMA (the Probe far-Infrared Mission for Astrophysics). Caltech's IPAC will serve as the mission science center, where raw data from the telescope is received, processed, and archived for use by astronomers seeking to answer s",
       "link": "https://www.caltech.edu/about/news/nasa-confirms-prima-mission-key-roles-for-caltech-jpl-and-ipac",
       "source": "Caltech",
-      "field": "space",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "FLEX and Sentinel-3C launched",
-      "description": "The European Space Agency’s FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new milestone in Europe’s Earth Observation Programmes.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-09-15"
-    },
-    {
-      "title": "NASA Aircraft to Make Low-Altitude Research Flights Over Colorado",
-      "description": "Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems. The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates, and other pollutants rising from agricultural lands and animal farms and the interaction with the Earth’s atmosphere. The mission is jointly led by NASA’s Goddard Space Flight Center in Greenbelt, Maryland; Colorado […]",
-      "link": "https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
-      "description": "Arctic sea ice reached its annual minimum extent on Sept. 12, according to NASA and the National Snow and Ice Data Center (NSIDC) at the University of Colorado Boulder. The ice covered an estimated 1.78 million square miles (4.6 million square kilometers), tying 2008, 2010, and 2025 for the 10th-lowest minimum in the satellite record. […]",
-      "link": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/",
-      "source": "NASA",
       "field": "space",
       "date": "2026-09-23"
     },
@@ -1247,6 +1263,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-09-23"
+    },
+    {
+      "title": "FLEX and Sentinel-3C launched",
+      "description": "The European Space Agency’s FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new milestone in Europe’s Earth Observation Programmes.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-09-15"
     },
     {
       "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
@@ -1295,6 +1319,22 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-08-26"
+    },
+    {
+      "title": "NASA Aircraft to Make Low-Altitude Research Flights Over Colorado",
+      "description": "Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems. The FarmFlux mission will deploy more than a dozen sensors to measure ozone, methane, ammonia, particulates, and other pollutants rising from agricultural lands and animal farms and the interaction with the Earth’s atmosphere. The mission is jointly led by NASA’s Goddard Space Flight Center in Greenbelt, Maryland; Colorado […]",
+      "link": "https://www.nasa.gov/general/nasa-aircraft-to-make-low-altitude-research-flights-over-colorado/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-23"
+    },
+    {
+      "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
+      "description": "Arctic sea ice reached its annual minimum extent on Sept. 12, according to NASA and the National Snow and Ice Data Center (NSIDC) at the University of Colorado Boulder. The ice covered an estimated 1.78 million square miles (4.6 million square kilometers), tying 2008, 2010, and 2025 for the 10th-lowest minimum in the satellite record. […]",
+      "link": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-23"
     },
     {
       "title": "Boom Year for Desert Blooms",
@@ -1431,22 +1471,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-08-30"
-    },
-    {
-      "title": "President Trump Signs Executive Order to Create US Space Academy",
-      "description": "To strengthen the nation’s space workforce and develop the next generation of space leaders, President Donald J. Trump signed an Executive Order on Friday to establish the nation’s first U.S. Space Academy. The order highlights how space is a critical domain for American national security, economic growth, scientific discovery, and technological innovation. The proposed academy […]",
-      "link": "https://www.nasa.gov/news-release/president-trump-signs-executive-order-to-create-us-space-academy/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-28"
-    },
-    {
-      "title": "Behind the Lens: Meet NASA Johnson’s Photographers",
-      "description": "Photographers at NASA’s Johnson Space Center in Houston have documented some of the most defining moments in human spaceflight. From astronaut training and engineering tests to mission control operations and milestone celebrations, their images preserve the history of exploration while capturing the people and teams behind the missions shaping the next era. Meet the photographers behind the lens and explore the […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/johnson/behind-the-lens-meet-nasa-johnsons-photographers/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-19"
     },
     {
       "title": "A hitchhiker’s guide to Hera’s target asteroids",
@@ -1641,20 +1665,20 @@
       "date": "2026-09-09"
     },
     {
-      "title": "From MIT to IBM, expediting AI and quantum deployment",
-      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
-      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
       "title": "Media briefing: BepiColombo's next milestone towards Mercury",
       "description": "Video: 01:09:40 Rewatch the European Space Agency's 31 August 2026 online press briefing on the latest developments of the ESA/JAXA BepiColombo mission, Europe's and Japan's first mission to Mercury. This briefing focused on the complexities of the separation of the Mercury Transfer Module (MTM), scheduled for 3 September 2026, a critical milestone marking the start of BepiColombo’s Mercury arrival phase. It also provided an overview of the operational challenges and milestones ahead, including Mercury orbit insertion in November 2026 and the separation of the two science orbiters (ESA's MPO a",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/Media_briefing_BepiColombo_s_next_milestone_towards_Mercury",
       "source": "ESA",
       "field": "space",
       "date": "2026-08-31"
+    },
+    {
+      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+      "description": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
+      "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-09"
     },
     {
       "title": "MIT Quantum Initiative launches postdoctoral fellowship program",
