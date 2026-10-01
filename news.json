@@ -1,13 +1,13 @@
 {
   "date": "2026-10-01",
-  "lastUpdated": "2026-10-01T10:40:04.603Z",
+  "lastUpdated": "2026-10-01T17:54:02.200Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "28.1s",
+    "executionTime": "27.3s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 30,
-    "totalCandidates": 231,
-    "totalSelected": 229,
+    "sourcesSuccessful": 33,
+    "totalCandidates": 235,
+    "totalSelected": 230,
     "entriesByField": {
       "health": 10,
       "climate": 34,
@@ -15,7 +15,7 @@
       "technology": 66,
       "education": 1,
       "development": 32,
-      "peace": 15,
+      "peace": 16,
       "agriculture": 1,
       "space": 66
     },
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 1,
+        "kept": 2,
         "changed": 0
       },
       "education": {
@@ -45,7 +45,7 @@
         "changed": 0
       },
       "peace": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "agriculture": {
@@ -53,14 +53,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 1,
+        "kept": 3,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 31,
-      "topTierSources": 145,
-      "highCredibilitySources": 205
+      "highScoreEntries": 34,
+      "topTierSources": 144,
+      "highCredibilitySources": 204
     }
   },
   "entries": [
@@ -73,20 +73,20 @@
       "date": "2026-09-20"
     },
     {
-      "title": "A Cure Out of Most Patients’ Reach — Sickle Cell Disease in the Gene-Therapy Era",
-      "description": "New England Journal of Medicine, Volume 395, Issue 12, Page 1145-1147, September 24, 2026.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2609007?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2026-09-19"
-    },
-    {
       "title": "[Series] The changing therapeutic landscape of small-cell lung cancer",
       "description": "Small-cell lung cancer (SCLC) is an exceptionally aggressive malignancy: highly proliferative, heterogeneous, and frequently metastatic at diagnosis. Although initially responsive to chemotherapy, such responses are typically transient, and recurrent disease has been largely refractory to standard cytotoxics. The past decade has been notable for major advances in our understanding of SCLC biology, and this preclinical progress is now informing multiple novel therapeutic approaches for this disease.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01244-4/fulltext?rss=yes",
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-06"
+    },
+    {
+      "title": "A Cure Out of Most Patients’ Reach — Sickle Cell Disease in the Gene-Therapy Era",
+      "description": "New England Journal of Medicine, Volume 395, Issue 12, Page 1145-1147, September 24, 2026.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2609007?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2026-09-19"
     },
     {
       "title": "UN health agency calls for investment boost to save young lives from cancer",
@@ -169,6 +169,14 @@
       "date": "2026-09-21"
     },
     {
+      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
+      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
+      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-08"
+    },
+    {
       "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
       "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
       "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
@@ -177,12 +185,12 @@
       "date": "2026-09-11"
     },
     {
-      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
-      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
-      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
+      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
+      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
+      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
       "source": "NOAA",
       "field": "climate",
-      "date": "2026-09-08"
+      "date": "2026-09-11"
     },
     {
       "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
@@ -193,12 +201,28 @@
       "date": "2026-09-02"
     },
     {
+      "title": "The 2027 NOAA Hollings Scholarship application is now open!",
+      "description": "The 2027 NOAA Hollings Scholarship application is now open! NOAA undergraduate scholars complete 10-week summer internship projects that span NOAA's mission. (Image credit: NOAA Office of Education) Download Image September 1, 2026 The Hollings undergraduate scholarships application is open through January 31, 2027, 11:59 p.m. Eastern Time. Office of Education Hollings Scholarship 0 Off",
+      "link": "https://www.noaa.gov/office-education/hollings-scholarship/news/2027-noaa-hollings-scholarship-application-is-now-open-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-01"
+    },
+    {
       "title": "Tech Week: Launching into the Future with Advanced Technologies",
       "description": "Tech Week: Launching into the Future with Advanced Technologies NOAA Fisheries Technology Week splash page. (Image credit: NOAA Fisheries) Download Image August 19, 2026 Fisheries Information Technology 0 Off",
       "link": "https://www.noaa.gov/stories/technology-week-ext",
       "source": "NOAA",
       "field": "climate",
       "date": "2026-08-19"
+    },
+    {
+      "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
+      "description": "“We are the first generation with the tools to end the fossil fuel age – and the last who can avert climate catastrophe,” UN Secretary-General António Guterres said on Wednesday, calling on countries to draw up credible roadmaps with clear timelines to transition away from fossil fuels.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168418",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-23"
     },
     {
       "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
@@ -215,38 +239,6 @@
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-08-24"
-    },
-    {
-      "title": "NOAA announces 2026 federal recreational red snapper season, exempted fishing permits in South Atlantic",
-      "description": "NOAA announces 2026 federal recreational red snapper season, exempted fishing permits in South Atlantic September 22, 2026 A group of women aboard a boat hold large red snappers caught during a recreational fishing trip. (Image credit: With permission from Grayson Shepard) NOAA Fisheries announced today the 2026 federal recreational red snapper fishing season in the South Atlantic and the issuance of three exempted fishing permits (EFPs) to Florida, Georgia, and South Carolina. The federal recreational red snapper season will open for three days this year from October 9 through October 11 —one",
-      "link": "https://www.noaa.gov/news-release/noaa-2026-federal-recreational-red-snapper-season-exempted-South-Atlantic-fishing-permits",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "NOAA boosts weather data collection capabilities with new Mesonet contract",
-      "description": "NOAA boosts weather data collection capabilities with new Mesonet contract August 27, 2026 An array of observational equipment used by NOAA. The National Mesonet Program includes devices such as radars, weather balloons, ground-based temperature sensors, and ocean buoys. (Image credit: NOAA) Download Image NOAA’s National Weather Service will expand the National Mesonet Program offsite link — an observational weather “network of networks” that delivers critical information required for improved weather prediction and warnings across the United States — through a new contract that begins on Sep",
-      "link": "https://www.noaa.gov/news-release/noaa-boosts-weather-data-collection-capabilities-with-new-mesonet-contract",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-08-19"
-    },
-    {
-      "title": "Increased Bluefin Tuna Quotas",
-      "description": "Increased Bluefin Tuna Quotas Bluefin tuna. (Image credit: NOAA) Download Image August 19, 2026 Fisheries 0 Off",
-      "link": "https://www.noaa.gov/stories/american-tuna-gets-boost-increased-bluefin-tuna-quotas-mean-more-opportunities-for-us-fishermen-ext",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-08-19"
-    },
-    {
-      "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
-      "description": "“We are the first generation with the tools to end the fossil fuel age – and the last who can avert climate catastrophe,” UN Secretary-General António Guterres said on Wednesday, calling on countries to draw up credible roadmaps with clear timelines to transition away from fossil fuels.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168418",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-23"
     },
     {
       "title": "When Bolsonaro Tweeted, Amazon Deforestation Surged, Study Finds",
@@ -273,20 +265,28 @@
       "date": "2026-08-19"
     },
     {
-      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
-      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
-      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
+      "title": "NOAA announces 2026 federal recreational red snapper season, exempted fishing permits in South Atlantic",
+      "description": "NOAA announces 2026 federal recreational red snapper season, exempted fishing permits in South Atlantic September 22, 2026 A group of women aboard a boat hold large red snappers caught during a recreational fishing trip. (Image credit: With permission from Grayson Shepard) NOAA Fisheries announced today the 2026 federal recreational red snapper fishing season in the South Atlantic and the issuance of three exempted fishing permits (EFPs) to Florida, Georgia, and South Carolina. The federal recreational red snapper season will open for three days this year from October 9 through October 11 —one",
+      "link": "https://www.noaa.gov/news-release/noaa-2026-federal-recreational-red-snapper-season-exempted-South-Atlantic-fishing-permits",
       "source": "NOAA",
       "field": "climate",
-      "date": "2026-09-11"
+      "date": "2026-09-21"
     },
     {
-      "title": "The 2027 NOAA Hollings Scholarship application is now open!",
-      "description": "The 2027 NOAA Hollings Scholarship application is now open! NOAA undergraduate scholars complete 10-week summer internship projects that span NOAA's mission. (Image credit: NOAA Office of Education) Download Image September 1, 2026 The Hollings undergraduate scholarships application is open through January 31, 2027, 11:59 p.m. Eastern Time. Office of Education Hollings Scholarship 0 Off",
-      "link": "https://www.noaa.gov/office-education/hollings-scholarship/news/2027-noaa-hollings-scholarship-application-is-now-open-ext",
+      "title": "NOAA boosts weather data collection capabilities with new Mesonet contract",
+      "description": "NOAA boosts weather data collection capabilities with new Mesonet contract August 27, 2026 An array of observational equipment used by NOAA. The National Mesonet Program includes devices such as radars, weather balloons, ground-based temperature sensors, and ocean buoys. (Image credit: NOAA) Download Image NOAA’s National Weather Service will expand the National Mesonet Program offsite link — an observational weather “network of networks” that delivers critical information required for improved weather prediction and warnings across the United States — through a new contract that begins on Sep",
+      "link": "https://www.noaa.gov/news-release/noaa-boosts-weather-data-collection-capabilities-with-new-mesonet-contract",
       "source": "NOAA",
       "field": "climate",
-      "date": "2026-09-01"
+      "date": "2026-08-19"
+    },
+    {
+      "title": "Increased Bluefin Tuna Quotas",
+      "description": "Increased Bluefin Tuna Quotas Bluefin tuna. (Image credit: NOAA) Download Image August 19, 2026 Fisheries 0 Off",
+      "link": "https://www.noaa.gov/stories/american-tuna-gets-boost-increased-bluefin-tuna-quotas-mean-more-opportunities-for-us-fishermen-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-08-19"
     },
     {
       "title": "LIVE: World leaders tackle sea level rise, a stark marker of climate change",
@@ -337,14 +337,6 @@
       "date": "2026-09-07"
     },
     {
-      "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
-      "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
-      "link": "https://e360.yale.edu/features/sargassum-belt",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-09-10"
-    },
-    {
       "title": "Analysis: UK solar power hits record high over summer 2026",
       "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
@@ -383,6 +375,14 @@
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-09-16"
+    },
+    {
+      "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
+      "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/sargassum-belt",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-09-10"
     },
     {
       "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
@@ -473,6 +473,38 @@
       "date": "2026-09-28"
     },
     {
+      "title": "NIH details $170 million biomedical research reproducibility effort",
+      "description": "Agency director announces literature search tool, other plans to improve reliability of science findings",
+      "link": "https://www.science.org/content/article/nih-details-170-million-biomedical-research-reproducibility-effort",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Revisiting a Young Isaac Newton",
+      "description": "Isaac Newton is typically portrayed as a solitary scientist with intense focus who was obsessed with power and deeply egotistical. But a new book by Caltech historians Jed Buchwald and Mordechai Feingold takes a deeper look at Newton's life in the two decades leading up to the 1687 publication of his groundbreaking text, Principia Mathematica, when he was 44. Utilizing newly digitized scans of Newton's early writings, Buchwald and Feingold uncover a novel portrait of the young polymath as a curious and social scholar whose interests were often fleeting.\"What struck me is the extent to which Ne",
+      "link": "https://www.caltech.edu/about/news/revisiting-a-young-isaac-newton",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Electricity Theft Is Rampant, but Delhi Found a Fix",
+      "description": "It’s disheartening how much power gets generated and then promptly lost as it travels through grid networks. This leaking of electricity happens when it vanishes as heat as well as when it is pilfered by thieves and nonpaying customers. More than half of the countries that track these metrics lost at least 10 percent of their electricity in 2023, according to the World Bank. Losses topped 20 percent for 24 of those nations. Two countries lost more than half of what they generated. With numbers this high, cutting down on losses makes sense. Electricity demand is rising beyond what many grid ope",
+      "link": "https://spectrum.ieee.org/electricity-theft",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
+      "description": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times by shielding quantum information from common forms of electromagnetic noise. If experiments confirm the predictions, the technology could eventually work alongside today’s superconducting qubits or serve as a new kind of quantum memory.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-01"
+    },
+    {
       "title": "NASA's Roman Space Telescope Takes First Coronagraph Instrument Observation",
       "description": "On September 22, the Coronagraph Instrument on NASA's Nancy Grace Roman Space Telescope opened its eyes to cosmic light for the first time. The ultimate purpose of the instrument—which is commanded from Caltech's IPAC, a science and data center for astrophysics and planetary sciences—is to demonstrate technology that can block starlight, providing unprecedented views of the planets and dusty disks around nearby stars.The coronagraph first woke up on September 1 and stretched its digital, electronic, and mechanical \"limbs\" mid-month. Once the Roman team confirmed that the fine-guidance system w",
       "link": "https://www.caltech.edu/about/news/nasas-roman-space-telescope-takes-first-coronagraph-instrument-observation",
@@ -489,38 +521,6 @@
       "date": "2026-09-15"
     },
     {
-      "title": "Harvard launches $150 million research initiative",
-      "description": "University plans range of awards in basic and applied science, seeking to meet ‘moment of remarkable opportunity’",
-      "link": "https://news.harvard.edu/gazette/story/2026/09/harvard-launches-150-million-research-initiative/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "NIH details $170 million biomedical research reproducibility effort",
-      "description": "Agency director announces literature search tool, other plans to improve reliability of science findings",
-      "link": "https://www.science.org/content/article/nih-details-170-million-biomedical-research-reproducibility-effort",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "How an AI math breakthrough ignited a controversy",
-      "description": "OpenAI spent millions to solve Navier-Stokes problem, but who should get credit?",
-      "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "Revisiting a Young Isaac Newton",
-      "description": "Isaac Newton is typically portrayed as a solitary scientist with intense focus who was obsessed with power and deeply egotistical. But a new book by Caltech historians Jed Buchwald and Mordechai Feingold takes a deeper look at Newton's life in the two decades leading up to the 1687 publication of his groundbreaking text, Principia Mathematica, when he was 44. Utilizing newly digitized scans of Newton's early writings, Buchwald and Feingold uncover a novel portrait of the young polymath as a curious and social scholar whose interests were often fleeting.\"What struck me is the extent to which Ne",
-      "link": "https://www.caltech.edu/about/news/revisiting-a-young-isaac-newton",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
       "title": "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog",
       "description": "Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologies enabling silicon design autonomy Understand how autonomous AI accelerates complex engineering workflows See real-world impact across semiconductor design and verification Gain practical insights from Ambiq’s deployment of autonomous AI in production Register now for this free webinar!",
       "link": "https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32",
@@ -529,68 +529,12 @@
       "date": "2026-09-29"
     },
     {
-      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
-      "description": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate…",
-      "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "California to vote on spending $16 billion to boost research after Trump cuts",
-      "description": "State initiatives this fall and in early 2028 will gauge voters’ appetite for science, but controversy has grown around one proposal",
-      "link": "https://www.science.org/content/article/california-vote-spending-16-billion-boost-research-after-trump-cuts",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "A burst of “pink noise” may lead to more restorative sleep",
-      "description": "Delivered at just the right time, this type of auditory stimulus can strengthen the flow of cerebrospinal fluid, which clears debris from the brain and keeps it healthy.",
-      "link": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "IEEE Celebrates Innovators Shaping the Future",
-      "description": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards. The honorees are selected by the IEEE Awards Board based on their extraordinary technical achievements, societal impact, and leadership in specialized engineering disciplines and are approved by the IEEE Board of Directors. “The 2027 IEEE Technical Field Award recipients embody the relentless spirit of innovation and ingenuity that defines our global commu",
-      "link": "https://spectrum.ieee.org/ieee-technical-field-awards-2027",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-30"
-    },
-    {
-      "title": "Voices Carry: The human rights impacts of large language models",
-      "description": "UC Berkeley Human Rights Center researchers discuss how large language models are transforming law, journalism and education — and what their rapid adoption means for human rights. The post Voices Carry: The human rights impacts of large language models appeared first on Berkeley News.",
-      "link": "https://www.law.berkeley.edu/podcast-episode/voices-carry-podcast-the-human-rights-impacts-of-large-language-models-ai/",
-      "source": "UC Berkeley",
+      "title": "Harvard launches $150 million research initiative",
+      "description": "University plans range of awards in basic and applied science, seeking to meet ‘moment of remarkable opportunity’",
+      "link": "https://news.harvard.edu/gazette/story/2026/09/harvard-launches-150-million-research-initiative/",
+      "source": "Harvard Gazette",
       "field": "technology",
       "date": "2026-09-28"
-    },
-    {
-      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "description": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which…",
-      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to…",
-      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
-      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-22"
     },
     {
       "title": "Has pancreatic cancer met its match?",
@@ -615,14 +559,6 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-09-02"
-    },
-    {
-      "title": "Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge",
-      "description": "Scientists have developed and experimentally demonstrated a long-sought method for identifying W states, an important form of multi-photon quantum entanglement. The technique could make complex entangled systems much easier to measure, opening new possibilities for quantum teleportation, communication, and computing.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260929053550.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-29"
     },
     {
       "title": "CERN finds gluons behaving strangely deep inside atomic nuclei",
@@ -665,20 +601,60 @@
       "date": "2026-09-15"
     },
     {
-      "title": "Social science studies may promise anonymity, but participant identities often lurk in public data",
-      "description": "One-fifth of data sets intended to support replication breached privacy standards, study finds",
-      "link": "https://www.science.org/content/article/social-science-studies-may-promise-anonymity-participant-identities-often-lurk-public",
+      "title": "How an AI math breakthrough ignited a controversy",
+      "description": "OpenAI spent millions to solve Navier-Stokes problem, but who should get credit?",
+      "link": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
       "source": "Science",
       "field": "technology",
-      "date": "2026-09-11"
+      "date": "2026-09-08"
     },
     {
-      "title": "Medieval Europe was battered with 16 catastrophic floods in just 2 years",
-      "description": "The intense deluges, never before documented, represent the highest number of back-to-back extreme weather events in the past 700 years",
-      "link": "https://www.science.org/content/article/medieval-europe-was-battered-16-catastrophic-floods-just-2-years",
+      "title": "A burst of “pink noise” may lead to more restorative sleep",
+      "description": "Delivered at just the right time, this type of auditory stimulus can strengthen the flow of cerebrospinal fluid, which clears debris from the brain and keeps it healthy.",
+      "link": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "IEEE Celebrates Innovators Shaping the Future",
+      "description": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards. The honorees are selected by the IEEE Awards Board based on their extraordinary technical achievements, societal impact, and leadership in specialized engineering disciplines and are approved by the IEEE Board of Directors. “The 2027 IEEE Technical Field Award recipients embody the relentless spirit of innovation and ingenuity that defines our global commu",
+      "link": "https://spectrum.ieee.org/ieee-technical-field-awards-2027",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "description": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate…",
+      "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "description": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which…",
+      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
+      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "California to vote on spending $16 billion to boost research after Trump cuts",
+      "description": "State initiatives this fall and in early 2028 will gauge voters’ appetite for science, but controversy has grown around one proposal",
+      "link": "https://www.science.org/content/article/california-vote-spending-16-billion-boost-research-after-trump-cuts",
       "source": "Science",
       "field": "technology",
-      "date": "2026-08-18"
+      "date": "2026-09-01"
     },
     {
       "title": "Caltech Roboticist Says Safety Should Be Top Concern with Humanoid Robots",
@@ -705,9 +681,25 @@
       "date": "2026-09-29"
     },
     {
-      "title": "The ice blasting from Saturn's moon Enceladus is stranger than scientists realized",
-      "description": "Enceladus may naturally separate and concentrate chemicals from its hidden ocean as droplets slowly freeze and shatter on their way into space. The process could explain Cassini’s puzzling ice-grain chemistry while giving future spacecraft a powerful advantage in searching for organic compounds and clues to life.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260929053528.htm",
+      "title": "Voices Carry: The human rights impacts of large language models",
+      "description": "UC Berkeley Human Rights Center researchers discuss how large language models are transforming law, journalism and education — and what their rapid adoption means for human rights. The post Voices Carry: The human rights impacts of large language models appeared first on Berkeley News.",
+      "link": "https://www.law.berkeley.edu/podcast-episode/voices-carry-podcast-the-human-rights-impacts-of-large-language-models-ai/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to…",
+      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge",
+      "description": "Scientists have developed and experimentally demonstrated a long-sought method for identifying W states, an important form of multi-photon quantum entanglement. The technique could make complex entangled systems much easier to measure, opening new possibilities for quantum teleportation, communication, and computing.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260929053550.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-09-29"
@@ -737,20 +729,20 @@
       "date": "2026-09-25"
     },
     {
-      "title": "Caltech’s tiny new chip can steer light in 74 quadrillionths of a second",
-      "description": "A new Caltech device can redirect a beam of light in just 74 femtoseconds using another beam and a nanoscale silicon metasurface. The breakthrough could pave the way for dramatically faster photonic communications, computing, and sensing technologies.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-18"
-    },
-    {
       "title": "NSF memo implementing Trump’s ‘golden age’ of science unsettles researchers",
       "description": "New document emphasizes support for White House priorities over curiosity-driven ideas",
       "link": "https://www.science.org/content/article/nsf-memo-implementing-trump-s-golden-age-science-unsettles-researchers",
       "source": "Science",
       "field": "technology",
       "date": "2026-09-14"
+    },
+    {
+      "title": "Social science studies may promise anonymity, but participant identities often lurk in public data",
+      "description": "One-fifth of data sets intended to support replication breached privacy standards, study finds",
+      "link": "https://www.science.org/content/article/social-science-studies-may-promise-anonymity-participant-identities-often-lurk-public",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-11"
     },
     {
       "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
@@ -761,20 +753,12 @@
       "date": "2026-09-10"
     },
     {
-      "title": "Worldwide study of diseases gets historic funding influx",
-      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
-      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
+      "title": "Medieval Europe was battered with 16 catastrophic floods in just 2 years",
+      "description": "The intense deluges, never before documented, represent the highest number of back-to-back extreme weather events in the past 700 years",
+      "link": "https://www.science.org/content/article/medieval-europe-was-battered-16-catastrophic-floods-just-2-years",
       "source": "Science",
       "field": "technology",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "Caltech Welcomes Incoming Students and \"Ignites\" Excitement for the 2026–27 Academic Year",
-      "description": "On Friday, September 25, Caltech formally welcomed its newest class of scholars, including 255 undergraduate students, 173 graduate students, and 40 postdoctoral scholars, at a Convocation ceremony in Beckman Auditorium that marked two beginnings at once.\"I am a first-year, too, at the beginning of my own Caltech journey,\" President Ray Jayawardhana told the audience in his first Convocation welcome address as the Institute's Sonja and William Davidow Presidential Chair and professor of astronomy.Speaking as a fellow newcomer, Jayawardhana borrowed words of advice from Douglas Adams' The Hitch",
-      "link": "https://www.caltech.edu/about/news/caltech-welcomes-the-class-of-2030-and-ignites-excitement-for-the-202627-academic-year",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-28"
+      "date": "2026-08-18"
     },
     {
       "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
@@ -799,6 +783,22 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-09-16"
+    },
+    {
+      "title": "The ice blasting from Saturn's moon Enceladus is stranger than scientists realized",
+      "description": "Enceladus may naturally separate and concentrate chemicals from its hidden ocean as droplets slowly freeze and shatter on their way into space. The process could explain Cassini’s puzzling ice-grain chemistry while giving future spacecraft a powerful advantage in searching for organic compounds and clues to life.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260929053528.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Caltech’s tiny new chip can steer light in 74 quadrillionths of a second",
+      "description": "A new Caltech device can redirect a beam of light in just 74 femtoseconds using another beam and a nanoscale silicon metasurface. The breakthrough could pave the way for dramatically faster photonic communications, computing, and sensing technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-18"
     },
     {
       "title": "UN panel calls for stronger safeguards as AI agents advance",
@@ -849,36 +849,12 @@
       "date": "2026-09-19"
     },
     {
-      "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
-      "description": "ADB has approved a $650 million equivalent program to help Indonesia modernize intergovernmental fiscal management, advance digital governance, and improve public service delivery across the country’s decentralized system of government.",
-      "link": "https://www.adb.org/news/adb-supports-fiscal-reforms-stronger-public-service-delivery-indonesia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-16"
-    },
-    {
       "title": "ADB Approves $3 Million Grant to Address Violence Against Women and Children in Mongolia through Safer Schools and Stronger Support Services",
       "description": "ADB has approved a $3 million grant to help Mongolia prevent and respond to violence against women and children through safer schools, improved survivor support services, and effective policy reforms.",
       "link": "https://www.adb.org/news/adb-approves-3-million-grant-address-violence-against-women-and-children-mongolia-safer-schools",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-14"
-    },
-    {
-      "title": "ADB Expands Access to Quality Education in Mongolia",
-      "description": "ADB has approved a $130 million loan to reduce overcrowding and improve access to quality education in Mongolia.",
-      "link": "https://www.adb.org/news/adb-expands-access-quality-education-mongolia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-11"
-    },
-    {
-      "title": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs",
-      "description": "ADB has signed a combined $30 million loan (in togrog equivalent) with Gobi Joint Stock Company (Gobi), Tavan Bogd Foods LLC (TBF), and Tavan Bogd Foods Pizza LLC (TBFP) to strengthen Mongolia's cashmere value chain and expand employment opportunities in the country’s burgeoning food service sector.",
-      "link": "https://www.adb.org/news/adb-signs-private-sector-deal-strengthen-mongolia-cashmere-value-chain-create-inclusive-jobs",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-18"
     },
     {
       "title": "ADB Approves $175 Million Loan to Modernize Power Networks, Boost Jobs and Services in Bangladesh’s Chattogram Hill Tracts",
@@ -889,22 +865,6 @@
       "date": "2026-09-01"
     },
     {
-      "title": "Clean your plate – to reduce food loss and waste",
-      "description": "Food waste is helping to fuel global warming, one half-eaten sandwich at a time.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168485",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "Right to development: A blueprint for unmet promises",
-      "description": "Ahead of the 40th anniversary of the groundbreaking Declaration on the Right to Development this December, world leaders gathered at a High-Level Week meeting on Wednesday to map progress made and the 21st century challenges still ahead – from narrowing the digital divide to levelling the AI playing field – as the UN chief presented a “blueprint” to address promises that remain unfulfilled.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168405",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-09-23"
-    },
-    {
       "title": "CAREC Marks 25 Years with Over $60 Billion in Investment",
       "description": "The Central Asia Regional Economic Cooperation (CAREC) Program marked its 25th anniversary today with $60.2 billion in cumulative investment, having grown from five founding countries into an 11-country partnership.",
       "link": "https://www.adb.org/news/carec-marks-25-years-over-60-billion-investment",
@@ -913,12 +873,44 @@
       "date": "2026-09-29"
     },
     {
-      "title": "ADB Strengthens Regional Cooperation with New Malaysia Office",
-      "description": "ADB will strengthen its promotion of regional cooperation and integration, including support for the Association of Southeast Asian Nations Power Grid, by establishing a new office in Malaysia.",
-      "link": "https://www.adb.org/news/adb-strengthens-regional-cooperation-new-malaysia-office",
+      "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
+      "description": "ADB has approved a $650 million equivalent program to help Indonesia modernize intergovernmental fiscal management, advance digital governance, and improve public service delivery across the country’s decentralized system of government.",
+      "link": "https://www.adb.org/news/adb-supports-fiscal-reforms-stronger-public-service-delivery-indonesia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-16"
+    },
+    {
+      "title": "ADB Expands Access to Quality Education in Mongolia",
+      "description": "ADB has approved a $130 million loan to reduce overcrowding and improve access to quality education in Mongolia.",
+      "link": "https://www.adb.org/news/adb-expands-access-quality-education-mongolia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "ADB Launches New Country Partnership Strategy to Support Growth in Papua New Guinea",
+      "description": "ADB has launched a new 5-year country partnership strategy for Papua New Guinea to support stronger public finances, wider transport and energy connections, and better access to health, education, and other essential services.",
+      "link": "https://www.adb.org/news/adb-launches-new-country-partnership-strategy-support-growth-papua-new-guinea",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "ADB Sells $5 Billion Dual-Tranche 3- and 7-Year Global Benchmark Bonds",
+      "description": "ADB has priced a 3-year global benchmark United States dollar bond worth $3 billion and a 7-year global benchmark US dollar bond worth $2 billion, proceeds of which will become part of ADB’s ordinary capital resources.",
+      "link": "https://www.adb.org/news/adb-sells-5-billion-dual-tranche-3-and-7-year-global-benchmark-bonds",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-24"
+    },
+    {
+      "title": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs",
+      "description": "ADB has signed a combined $30 million loan (in togrog equivalent) with Gobi Joint Stock Company (Gobi), Tavan Bogd Foods LLC (TBF), and Tavan Bogd Foods Pizza LLC (TBFP) to strengthen Mongolia's cashmere value chain and expand employment opportunities in the country’s burgeoning food service sector.",
+      "link": "https://www.adb.org/news/adb-signs-private-sector-deal-strengthen-mongolia-cashmere-value-chain-create-inclusive-jobs",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-18"
     },
     {
       "title": "ADB Supports Mongolia's First Green-Certified Residential Complex Built by the Private Sector",
@@ -953,6 +945,22 @@
       "date": "2026-08-21"
     },
     {
+      "title": "Clean your plate – to reduce food loss and waste",
+      "description": "Food waste is helping to fuel global warming, one half-eaten sandwich at a time.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168485",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Right to development: A blueprint for unmet promises",
+      "description": "Ahead of the 40th anniversary of the groundbreaking Declaration on the Right to Development this December, world leaders gathered at a High-Level Week meeting on Wednesday to map progress made and the 21st century challenges still ahead – from narrowing the digital divide to levelling the AI playing field – as the UN chief presented a “blueprint” to address promises that remain unfulfilled.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168405",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-09-23"
+    },
+    {
       "title": "Is organic farming better for the environment than conventional farming?",
       "description": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.",
       "link": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
@@ -961,17 +969,9 @@
       "date": "2026-09-14"
     },
     {
-      "title": "ADB Launches New Country Partnership Strategy to Support Growth in Papua New Guinea",
-      "description": "ADB has launched a new 5-year country partnership strategy for Papua New Guinea to support stronger public finances, wider transport and energy connections, and better access to health, education, and other essential services.",
-      "link": "https://www.adb.org/news/adb-launches-new-country-partnership-strategy-support-growth-papua-new-guinea",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "ADB Sells $5 Billion Dual-Tranche 3- and 7-Year Global Benchmark Bonds",
-      "description": "ADB has priced a 3-year global benchmark United States dollar bond worth $3 billion and a 7-year global benchmark US dollar bond worth $2 billion, proceeds of which will become part of ADB’s ordinary capital resources.",
-      "link": "https://www.adb.org/news/adb-sells-5-billion-dual-tranche-3-and-7-year-global-benchmark-bonds",
+      "title": "ADB Strengthens Regional Cooperation with New Malaysia Office",
+      "description": "ADB will strengthen its promotion of regional cooperation and integration, including support for the Association of Southeast Asian Nations Power Grid, by establishing a new office in Malaysia.",
+      "link": "https://www.adb.org/news/adb-strengthens-regional-cooperation-new-malaysia-office",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-24"
@@ -1097,6 +1097,14 @@
       "date": "2026-09-25"
     },
     {
+      "title": "ONE-MINUTE CRASH COURSES",
+      "description": "Take our one-minute crash courses and find out how these discoveries and achievements have changed our world. The 2026 one-minute crash courses will be published here in November. The post ONE-MINUTE CRASH COURSES appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/one-minute-crash-courses/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-10-01"
+    },
+    {
       "title": "IAEA chief underscores commitment to nuclear safety and verification",
       "description": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnessing a “common spirit of dedication” which still guides their work.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168325",
@@ -1201,6 +1209,14 @@
       "date": "2026-09-28"
     },
     {
+      "title": "What happened this month at the European Space Agency? (September 2026)",
+      "description": "Video: 00:03:32 September was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo separated from its Mercury Transfer Module, taking another step towards Mercury. Spectrum became the first rocket to reach orbit from continental Europe. And the James Webb Space Telescope found tiny brown dwarfs that could harbor the building blocks of planets. Here’s a look at what space had in store for Europe this September!",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
       "title": "Reliable Robots: Meet Johnson’s Dexterous Robotics Team",
       "description": "The idea of humans and robots working side-by-side in space was once the stuff of science fiction, but with NASA launching increasingly complex missions deeper into space, human-robot collaboration could become reality. Advanced robotic systems are critical for human spaceflight because they can enhance a crew’s performance and productivity while reducing risk and expanding the […]",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/reliable-robots-meet-johnsons-dexterous-robotics-team/",
@@ -1263,6 +1279,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-09-07"
+    },
+    {
+      "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
+      "description": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. “Crew-13 is another demonstration of America’s unmatched capability in human spaceflight and the strength of our commercial partnerships,” said […]",
+      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-01"
     },
     {
       "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
@@ -1513,6 +1537,14 @@
       "date": "2026-09-30"
     },
     {
+      "title": "Live coverage: AI datacenter prototypes, energy redirection demonstrators and more launching on SpaceX’s Transporter-18",
+      "description": "The mission carries 130 payloads onboard the Falcon 9 rocket heading to a Sun-synchronous orbit. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 11:32 a.m. PDT (2:32 p.m. EDT / 1832 UTC).",
+      "link": "https://spaceflightnow.com/2026/10/01/live-coverage-ai-datacenter-prototypes-energy-redirection-demonstrators-and-more-launching-on-spacexs-transporter-18/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
       "title": "Live coverage: NASA, SpaceX to launch next crewed mission to the International Space Station",
       "description": "NASA astronaut Jessica Watkins, will become the first agency astronaut to fly for a second time onboard a SpaceX Dragon spacecraft. Liftoff of the Falcon 9 rocket from pad 40 at Cape Canaveral Space Force Base is scheduled for 11:10 a.m. EDT (1510 UTC).",
       "link": "https://spaceflightnow.com/2026/10/01/live-coverage-nasa-spacex-to-launch-next-crewed-mission-to-the-international-space-station/",
@@ -1673,142 +1705,6 @@
       "date": "2026-08-30"
     },
     {
-      "title": "New cell-collection device could improve early cancer detection",
-      "description": "MIT researchers developed a handheld system that gently collects living cells from patient samples to aid cancer testing and development of personalized medicines.",
-      "link": "https://news.mit.edu/2026/new-cell-collection-device-could-improve-early-cancer-detection-0924",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "Batteries that safely break down in the GI tract could improve ingestible devices",
-      "description": "Made from “bioresorbable” materials, the new batteries could power capsules for drug delivery, sensing, and other applications.",
-      "link": "https://news.mit.edu/2026/batteries-safely-break-down-in-gi-tract-could-improve-ingestible-devices-0921",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "A new chapter for MIT Reads",
-      "description": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
-      "link": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "New artist residency program at MIT expands views of the cosmos",
-      "description": "Inaugural artist Amy Karle will join astrophysicists at MIT’s Kavli Institute to explore questions about the universe and translate them into an immersive multimedia experience.",
-      "link": "https://news.mit.edu/2026/new-artist-residency-program-expands-views-cosmos-0916",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "“Technology is the equalizer”",
-      "description": "Using knowledge gained from MIT’s free learning materials, an educator in rural India builds apps to reach students who can’t make it to school.",
-      "link": "https://news.mit.edu/2026/technology-is-the-equalizer-0916",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "New research shows a neutrino laser is impossible",
-      "description": "Due to physical and fundamental limitations, an earlier proposal for producing laserlike beams of neutrinos cannot be achieved, scientists report.",
-      "link": "https://news.mit.edu/2026/new-research-shows-neutrino-laser-impossible-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "How smaller, distributed batteries could help the grid",
-      "description": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,…",
-      "link": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "A New IEEE STEM Book Series for Tweens from TryEngineering",
-      "description": "IEEE TryEngineering is dedicated to inspiring intellectual curiosity in children. The technologies shaping our world, including in the realms of artificial intelligence, electric vehicles, and ocean exploration, are evolving rapidly. Helping young learners understand the concepts is essential to preparing the next generation of problem-solvers, creators, and engineers. TryEngineering has introduced a STEM book series for youngsters ages 8 to 12 through the Lerner Publishing Group. The series, Tomorrow’s Technology With TryEngineering, Powered by IEEE, makes complex topics more approachable and",
-      "link": "https://spectrum.ieee.org/ieee-stem-books-tweens-tryengineering",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "When can we say AI made a scientific discovery?",
-      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what…",
-      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "The Download: India’s smart glasses menace and AI’s trillion-dollar gamble",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Smart glasses are already causing havoc in India When Shubnam saw an Instagram video of a Delhi protest they had attended, they realized a content creator wearing Meta smart glasses had…",
-      "link": "https://www.technologyreview.com/2026/09/23/1144966/the-download-india-smart-glasses-ai-trillion-dollar-gamble/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "New method enables AI for safety-critical situations",
-      "description": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
-      "link": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-14"
-    },
-    {
-      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
-      "description": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
-      "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Fast Radio Bursts Poised to Help with Biggest Cosmic Mysteries",
-      "description": "Intense, brief flashes of radio light called fast radio bursts (FRBs) travel across billions of light-years to reach Earth, passing through a fog of matter along the way. The bursts' origins are unclear but are thought to possibly come from highly magnetized dead stars called magnetars. The denser the fog the FRBs travel through, the more their signals will become dispersed—similar to the way a prism splits white light into a rainbow of colors.Thanks to this dispersing trait, FRBs make excellent tracers of how ordinary matter is distributed in the universe; ordinary matter is the same stuff th",
-      "link": "https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "From MIT to IBM, expediting AI and quantum deployment",
-      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
-      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "A Brief History of the Bloomberg Terminal",
-      "description": "Financial markets have always relied on timely information, and the drive for timeliness has always adapted to the latest technology. From clipper ships transiting the oceans to telegraph wires connecting cities to fiber-optic cables conducting trades in microseconds, traders have embraced any advantage to get the most up-to-date information. Indeed, the history of finance is really a story about how fast you can move information and who controls the interface. It’s only natural that people also figured out a way to profit by supplying that market intel. In 1841, for example, the Mercantile Ex",
-      "link": "https://spectrum.ieee.org/bloomberg-terminal",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-30"
-    },
-    {
-      "title": "Poetry for Engineers: The UI Designer’s Dream",
-      "description": "My job is to translate dry and unrelenting code into a user interface of surpassing beauty. With my mouse, I roll one pixel after another up the vast anthill of the internet. My dream is to translate the visions of the holy ones into a communication protocol of universal wonderment. I want to launch shreds of light into the air to fall like a layer of diamonds on the endless mountains of the Web. Don’t imagine these dreams are limited by the LANs of the software lab. Between here and the ultimate unlimited interface of my aspirations lives a dazzling darkness, wide as the universe and thin as ",
-      "link": "https://spectrum.ieee.org/poetry-user-interface-design",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-27"
-    },
-    {
-      "title": "Social Media Bans Aren’t Enough to Make Children Safe",
-      "description": "Even before France approved legislation banning social media for children under 15 last January, 13-year-old Benjamin was already wondering what life without social media would look like. “If we want to play football, we won’t be able to organize it. What will we do? Send letters instead?” he joked in an interview for Le Monde. His reaction captured the central challenge behind the growing wave of youth social media bans: Removing access is one thing; understanding what those platforms mean in children’s lives is another. Within weeks of Australia’s similar ban, the country’s eSafety Commissio",
-      "link": "https://spectrum.ieee.org/social-media-bans",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-25"
-    },
-    {
       "title": "Turning Tech Talent Into Leadership Legacy",
       "description": "Transitioning from years of working in a senior technical or executive role to a leadership position is one of the most challenging phases of a STEM career. It requires moving away from making decisions on your own to mentoring others, making strategic decisions for the organization, and collaborating with coworkers from different generations. The shift in mindset is known as “legacy leadership,” a philosophy whereby success is no longer measured by personal achievements but by how effectively a senior leader empowers others. To help seasoned professionals and senior experts navigate the trans",
       "link": "https://spectrum.ieee.org/tech-talent-into-leadership-legacy",
@@ -1849,36 +1745,20 @@
       "date": "2026-08-31"
     },
     {
-      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
-      "description": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT Sunday aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at the agency’s Kennedy Space Center in Florida. Roman pairs a large field of […]",
-      "link": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-30"
-    },
-    {
-      "title": "Panorama Showcasing the 34-Meter Antennas of the DSN’s Goldstone Complex",
-      "description": "Description Five antennas soak in the summer sun at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. The recently completed Deep Space Station 23, a 34-meter (114-foot) beam-waveguide antenna, can be seen to the right of the frame in the foreground. The other three 34-meter antennas are, from left, DSS-26, DSS-25, and […]",
-      "link": "https://science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-30"
-    },
-    {
-      "title": "President Trump Signs Executive Order to Create US Space Academy",
-      "description": "To strengthen the nation’s space workforce and develop the next generation of space leaders, President Donald J. Trump signed an Executive Order on Friday to establish the nation’s first U.S. Space Academy. The order highlights how space is a critical domain for American national security, economic growth, scientific discovery, and technological innovation. The proposed academy […]",
-      "link": "https://www.nasa.gov/news-release/president-trump-signs-executive-order-to-create-us-space-academy/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-28"
-    },
-    {
       "title": "NSF’s new plan to fund graduate students to work in industry covers familiar ground",
       "description": "Agency gives university-industry consortium $47 million to reinvent existing internship program",
       "link": "https://www.science.org/content/article/nsf-s-new-plan-fund-graduate-students-work-industry-covers-familiar-ground",
       "source": "Science",
       "field": "technology",
       "date": "2026-08-27"
+    },
+    {
+      "title": "Worldwide study of diseases gets historic funding influx",
+      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
+      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-08-25"
     },
     {
       "title": "In a global first, Mexico approves use of RNA-based fungicide",
@@ -1889,12 +1769,140 @@
       "date": "2026-08-25"
     },
     {
-      "title": "The Download: a bid to scrap the virtual wall and AI hits Climate Week",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. A congressional representative just proposed killing America’s border tower program Delia Ramirez, a Democratic US representative from Illinois, has announced plans to introduce legislation to terminate the surveillance tower program along…",
-      "link": "https://www.technologyreview.com/2026/09/24/1145064/the-download-bid-scrap-virtual-wall-ai-climate-week/",
-      "source": "MIT Tech Review",
+      "title": "Caltech Welcomes Incoming Students and \"Ignites\" Excitement for the 2026–27 Academic Year",
+      "description": "On Friday, September 25, Caltech formally welcomed its newest class of scholars, including 255 undergraduate students, 173 graduate students, and 40 postdoctoral scholars, at a Convocation ceremony in Beckman Auditorium that marked two beginnings at once.\"I am a first-year, too, at the beginning of my own Caltech journey,\" President Ray Jayawardhana told the audience in his first Convocation welcome address as the Institute's Sonja and William Davidow Presidential Chair and professor of astronomy.Speaking as a fellow newcomer, Jayawardhana borrowed words of advice from Douglas Adams' The Hitch",
+      "link": "https://www.caltech.edu/about/news/caltech-welcomes-the-class-of-2030-and-ignites-excitement-for-the-202627-academic-year",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "New cell-collection device could improve early cancer detection",
+      "description": "MIT researchers developed a handheld system that gently collects living cells from patient samples to aid cancer testing and development of personalized medicines.",
+      "link": "https://news.mit.edu/2026/new-cell-collection-device-could-improve-early-cancer-detection-0924",
+      "source": "MIT News",
       "field": "technology",
       "date": "2026-09-24"
+    },
+    {
+      "title": "Batteries that safely break down in the GI tract could improve ingestible devices",
+      "description": "Made from “bioresorbable” materials, the new batteries could power capsules for drug delivery, sensing, and other applications.",
+      "link": "https://news.mit.edu/2026/batteries-safely-break-down-in-gi-tract-could-improve-ingestible-devices-0921",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "A new chapter for MIT Reads",
+      "description": "A new focus on fiction and memoir aims to help the MIT community celebrate the power of storytelling and strengthen social connection.",
+      "link": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-18"
+    },
+    {
+      "title": "New artist residency program at MIT expands views of the cosmos",
+      "description": "Inaugural artist Amy Karle will join astrophysicists at MIT’s Kavli Institute to explore questions about the universe and translate them into an immersive multimedia experience.",
+      "link": "https://news.mit.edu/2026/new-artist-residency-program-expands-views-cosmos-0916",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-16"
+    },
+    {
+      "title": "“Technology is the equalizer”",
+      "description": "Using knowledge gained from MIT’s free learning materials, an educator in rural India builds apps to reach students who can’t make it to school.",
+      "link": "https://news.mit.edu/2026/technology-is-the-equalizer-0916",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-16"
+    },
+    {
+      "title": "New method enables AI for safety-critical situations",
+      "description": "The “HardFlow” algorithm could help generative AI models produce high-quality outputs that obey strict requirements when “pretty close” doesn’t cut it.",
+      "link": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-14"
+    },
+    {
+      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+      "description": "A weeklong summer workshop brought higher education faculty to campus to explore how AI and machine learning materials can be adapted for their classrooms.",
+      "link": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Fast Radio Bursts Poised to Help with Biggest Cosmic Mysteries",
+      "description": "Intense, brief flashes of radio light called fast radio bursts (FRBs) travel across billions of light-years to reach Earth, passing through a fog of matter along the way. The bursts' origins are unclear but are thought to possibly come from highly magnetized dead stars called magnetars. The denser the fog the FRBs travel through, the more their signals will become dispersed—similar to the way a prism splits white light into a rainbow of colors.Thanks to this dispersing trait, FRBs make excellent tracers of how ordinary matter is distributed in the universe; ordinary matter is the same stuff th",
+      "link": "https://www.caltech.edu/about/news/fast-radio-bursts-poised-to-help-with-biggest-cosmic-mysteries",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "New research shows a neutrino laser is impossible",
+      "description": "Due to physical and fundamental limitations, an earlier proposal for producing laserlike beams of neutrinos cannot be achieved, scientists report.",
+      "link": "https://news.mit.edu/2026/new-research-shows-neutrino-laser-impossible-0902",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "description": "MIT affiliates engage with the MIT-IBM Computing Research Lab to bring rigorous theory to production systems.",
+      "link": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "How smaller, distributed batteries could help the grid",
+      "description": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,…",
+      "link": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "A Brief History of the Bloomberg Terminal",
+      "description": "Financial markets have always relied on timely information, and the drive for timeliness has always adapted to the latest technology. From clipper ships transiting the oceans to telegraph wires connecting cities to fiber-optic cables conducting trades in microseconds, traders have embraced any advantage to get the most up-to-date information. Indeed, the history of finance is really a story about how fast you can move information and who controls the interface. It’s only natural that people also figured out a way to profit by supplying that market intel. In 1841, for example, the Mercantile Ex",
+      "link": "https://spectrum.ieee.org/bloomberg-terminal",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-30"
+    },
+    {
+      "title": "A New IEEE STEM Book Series for Tweens from TryEngineering",
+      "description": "IEEE TryEngineering is dedicated to inspiring intellectual curiosity in children. The technologies shaping our world, including in the realms of artificial intelligence, electric vehicles, and ocean exploration, are evolving rapidly. Helping young learners understand the concepts is essential to preparing the next generation of problem-solvers, creators, and engineers. TryEngineering has introduced a STEM book series for youngsters ages 8 to 12 through the Lerner Publishing Group. The series, Tomorrow’s Technology With TryEngineering, Powered by IEEE, makes complex topics more approachable and",
+      "link": "https://spectrum.ieee.org/ieee-stem-books-tweens-tryengineering",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "description": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what…",
+      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "Poetry for Engineers: The UI Designer’s Dream",
+      "description": "My job is to translate dry and unrelenting code into a user interface of surpassing beauty. With my mouse, I roll one pixel after another up the vast anthill of the internet. My dream is to translate the visions of the holy ones into a communication protocol of universal wonderment. I want to launch shreds of light into the air to fall like a layer of diamonds on the endless mountains of the Web. Don’t imagine these dreams are limited by the LANs of the software lab. Between here and the ultimate unlimited interface of my aspirations lives a dazzling darkness, wide as the universe and thin as ",
+      "link": "https://spectrum.ieee.org/poetry-user-interface-design",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-27"
+    },
+    {
+      "title": "Social Media Bans Aren’t Enough to Make Children Safe",
+      "description": "Even before France approved legislation banning social media for children under 15 last January, 13-year-old Benjamin was already wondering what life without social media would look like. “If we want to play football, we won’t be able to organize it. What will we do? Send letters instead?” he joked in an interview for Le Monde. His reaction captured the central challenge behind the growing wave of youth social media bans: Removing access is one thing; understanding what those platforms mean in children’s lives is another. Within weeks of Australia’s similar ban, the country’s eSafety Commissio",
+      "link": "https://spectrum.ieee.org/social-media-bans",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-25"
     }
   ]
 }
