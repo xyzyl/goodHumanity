@@ -1,16 +1,16 @@
 {
   "date": "2026-10-07",
-  "lastUpdated": "2026-10-07T10:48:30.940Z",
+  "lastUpdated": "2026-10-07T18:19:46.929Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "38.9s",
+    "executionTime": "54.5s",
     "sourcesQueried": 42,
     "sourcesSuccessful": 31,
-    "totalCandidates": 233,
-    "totalSelected": 233,
+    "totalCandidates": 241,
+    "totalSelected": 235,
     "entriesByField": {
       "health": 14,
-      "climate": 29,
+      "climate": 31,
       "energy": 5,
       "technology": 66,
       "education": 2,
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 0,
+        "kept": 2,
         "changed": 0
       },
       "energy": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 0,
+        "kept": 5,
         "changed": 0
       },
       "education": {
@@ -41,7 +41,7 @@
         "changed": 0
       },
       "development": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "peace": {
@@ -53,14 +53,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 29,
-      "topTierSources": 145,
-      "highCredibilitySources": 212
+      "highScoreEntries": 33,
+      "topTierSources": 147,
+      "highCredibilitySources": 217
     }
   },
   "entries": [
@@ -81,28 +81,12 @@
       "date": "2026-09-20"
     },
     {
-      "title": "A Cure Out of Most Patients’ Reach — Sickle Cell Disease in the Gene-Therapy Era",
-      "description": "New England Journal of Medicine, Volume 395, Issue 12, Page 1145-1147, September 24, 2026.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2609007?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2026-09-19"
-    },
-    {
       "title": "[Articles] Most-favoured-nation pricing for prescription drugs in US Medicare: a cohort study",
       "description": "Most-favoured-nation pricing for brand-name medicines in Medicare was projected to decrease net spending. Potential reductions in net Medicare spending would be substantially greater than sales in the reference countries, suggesting that shifts in manufacturer behaviour with model implementation could reduce possible savings.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01555-2/fulltext?rss=yes",
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-13"
-    },
-    {
-      "title": "Novel Molecular Shuttle Could Deliver Targeted, Diverse Therapies to the Brain",
-      "description": "The blood–brain barrier (BBB) is a protective filter that lines the brain's blood vessels and is notoriously hard to penetrate, making the treatment of brain disorders very difficult. Strategies designed to breach the BBB include using brain surgery and focused ultrasound waves to create physical openings for the transportation of medicines and employing engineered adeno-associated viruses (AAVs) to ferry genetic payloads into desired locations, but these methods have limitations. Now, researchers at Caltech have developed a new, more effective way to transport potentially life-changing therap",
-      "link": "https://www.caltech.edu/about/news/novel-molecular-shuttle-could-deliver-targeted-diverse-therapies-to-the-brain",
-      "source": "Caltech",
-      "field": "health",
-      "date": "2026-08-26"
     },
     {
       "title": "Pakistan: partnering with Rotary to protect millions of children from polio",
@@ -113,12 +97,12 @@
       "date": "2026-10-06"
     },
     {
-      "title": "[Articles] Wealth redistribution policies to mitigate the impact of development assistance defunding: a retrospective evaluation and forecasting analysis up to 2030",
-      "description": "The implementation of wealth redistribution policies proposed in recent high-level international agreements could mitigate the health consequences of the current ODA defunding crisis, avert millions of deaths, and support the achievement of the UN Sustainable Development Goals, particularly those related to health.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00975-X/fulltext?rss=yes",
-      "source": "The Lancet",
+      "title": "A Cure Out of Most Patients’ Reach — Sickle Cell Disease in the Gene-Therapy Era",
+      "description": "New England Journal of Medicine, Volume 395, Issue 12, Page 1145-1147, September 24, 2026.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2609007?af=R&rss=currentIssue",
+      "source": "NEJM",
       "field": "health",
-      "date": "2026-09-07"
+      "date": "2026-09-19"
     },
     {
       "title": "[Series] The changing therapeutic landscape of small-cell lung cancer",
@@ -127,6 +111,22 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-06"
+    },
+    {
+      "title": "Novel Molecular Shuttle Could Deliver Targeted, Diverse Therapies to the Brain",
+      "description": "The blood–brain barrier (BBB) is a protective filter that lines the brain's blood vessels and is notoriously hard to penetrate, making the treatment of brain disorders very difficult. Strategies designed to breach the BBB include using brain surgery and focused ultrasound waves to create physical openings for the transportation of medicines and employing engineered adeno-associated viruses (AAVs) to ferry genetic payloads into desired locations, but these methods have limitations. Now, researchers at Caltech have developed a new, more effective way to transport potentially life-changing therap",
+      "link": "https://www.caltech.edu/about/news/novel-molecular-shuttle-could-deliver-targeted-diverse-therapies-to-the-brain",
+      "source": "Caltech",
+      "field": "health",
+      "date": "2026-08-26"
+    },
+    {
+      "title": "[Articles] Wealth redistribution policies to mitigate the impact of development assistance defunding: a retrospective evaluation and forecasting analysis up to 2030",
+      "description": "The implementation of wealth redistribution policies proposed in recent high-level international agreements could mitigate the health consequences of the current ODA defunding crisis, avert millions of deaths, and support the achievement of the UN Sustainable Development Goals, particularly those related to health.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00975-X/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-09-07"
     },
     {
       "title": "UN health agency calls for investment boost to save young lives from cancer",
@@ -177,6 +177,14 @@
       "date": "2026-08-27"
     },
     {
+      "title": "Large-scale marine debris: 4 ways to clean up the big stuff",
+      "description": "Large-scale marine debris: 4 ways to clean up the big stuff How do you address oversized pollution in the ocean and Great Lakes? A freediver from the Papahānaumokuākea Marine Debris Project works to carefully remove a ghost net from the reef at Kamokuokamohoali‘i (Maro Reef) in Hawaii. (Image credit: Andrew Sullivan-Hawkins/Papahānaumokuākea Marine Debris Project (Under permit # PMNM-2024-003)) October 7, 2026 Marine debris is a challenging problem. Across the country, NOAA and partners remove everything from lost fishing gear tangled on the seafloor to sunken vessels, abandoned tire reefs, an",
+      "link": "https://www.noaa.gov/stories/large-scale-marine-debris-4-ways-to-clean-up-big-stuff",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-10-05"
+    },
+    {
       "title": "Obituary: James Philip Bruce",
       "description": "It is with great sadness that the Intergovernmental Panel on Climate Change (IPCC) has learned of the passing of James (Jim) Philip Bruce, a foundational figure in the establishment of the IPCC. In 1988, while serving as Deputy Secretary-General of the World Meteorological Organization (WMO), Bruce was instrumental in convening the first-ever meeting of the […]",
       "link": "https://www.ipcc.ch/2026/09/22/obituary-james-philip-bruce/",
@@ -191,6 +199,30 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-21"
+    },
+    {
+      "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach",
+      "description": "Across Papua New Guinea, water sources are drying up, crops are failing and food prices are rising months before the worst agricultural impacts are expected. Behind those warning signs is an El Niño whose Pacific Ocean temperatures have already surpassed the equivalent measurements during the historic 1997 and 2015 events – part of an unfolding climate pattern being dubbed a “Super El Niño” by some climate watchers.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168537",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "Security, sacrifice or opportunity: Visions differ over effective climate action",
+      "description": "Should the world move away sharply from fossil fuels, or manage a slower, more careful retreat?",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168526",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "ADB and Indonesia Advance Reforms to Deepen and Strengthen the Country’s Financial Markets",
+      "description": "ADB has approved the first subprogram of the Financial Market Deepening Program, supporting Indonesia’s efforts to deepen its capital markets, modernize its digital financial ecosystem, and build an enabling environment for sustainable and transition finance.",
+      "link": "https://www.adb.org/news/adb-and-indonesia-advance-reforms-deepen-and-strengthen-country-financial-markets",
+      "source": "Asian Development Bank",
+      "field": "climate",
+      "date": "2026-10-01"
     },
     {
       "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
@@ -209,42 +241,18 @@
       "date": "2026-09-08"
     },
     {
-      "title": "ADB and Indonesia Advance Reforms to Deepen and Strengthen the Country’s Financial Markets",
-      "description": "ADB has approved the first subprogram of the Financial Market Deepening Program, supporting Indonesia’s efforts to deepen its capital markets, modernize its digital financial ecosystem, and build an enabling environment for sustainable and transition finance.",
-      "link": "https://www.adb.org/news/adb-and-indonesia-advance-reforms-deepen-and-strengthen-country-financial-markets",
-      "source": "Asian Development Bank",
-      "field": "climate",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Security, sacrifice or opportunity: Visions differ over effective climate action",
-      "description": "Should the world move away sharply from fossil fuels, or manage a slower, more careful retreat?",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168526",
+      "title": "LIVE: Climate change is here - What happens next is still in our hands",
+      "description": "🔴 LIVE NOW From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts already unfolding while rapidly cutting the emissions of harmful gasses driving climate change. World leaders are meeting today to discuss how to turn those priorities into action.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168372",
       "source": "UN News Climate",
       "field": "climate",
-      "date": "2026-10-05"
+      "date": "2026-09-23"
     },
     {
-      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
-      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
+      "title": "Why climate action now comes down to speed, finance and cooperation",
+      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
       "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "Can restoring land create jobs? These young entrepreneurs are proving it",
-      "description": "From Ecuador to Bangladesh, a new generation of entrepreneurs is turning land restoration into economic opportunity. Whether repurposing agricultural waste, building greenhouses or deploying AI-powered sensors, they are showing, with support from a United Nations-backed initiative, that restoring land can also generate income and improve livelihoods.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168194",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-08-24"
-    },
-    {
-      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
-      "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal… The post Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
-      "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-09-21"
     },
@@ -297,22 +305,6 @@
       "date": "2026-09-23"
     },
     {
-      "title": "NOAA announces priorities to promote science-based American seafood dominance",
-      "description": "NOAA announces priorities to promote science-based American seafood dominance September 2, 2026 Docked fishing boats at Yaquina Bay in Newport, Oregon. (Image credit: iStock) Today, NOAA announced priorities for advancing reforms within NOAA Fisheries to move towards regulations grounded in science that support American seafood dominance. These agency-level actions follow the Regional Priorities guidance that was released on July 2, 2026, to apply the same standard of accountability to NOAA’s own operations, regulatory frameworks, and scientific pipelines. This priority list serves as an opera",
-      "link": "https://www.noaa.gov/news-release/noaa-announces-priorities-to-promote-science-based-american-seafood-dominance",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-01"
-    },
-    {
-      "title": "LIVE: Climate change is here - What happens next is still in our hands",
-      "description": "🔴 LIVE NOW From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts already unfolding while rapidly cutting the emissions of harmful gasses driving climate change. World leaders are meeting today to discuss how to turn those priorities into action.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168372",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-23"
-    },
-    {
       "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
       "description": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be seen coming. UN experts say the months ahead offer countries a chance not only to protect the next harvest and our food security, but to prepare for a more unpredictable climate in the long run.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168404",
@@ -321,20 +313,44 @@
       "date": "2026-09-22"
     },
     {
-      "title": "Why climate action now comes down to speed, finance and cooperation",
-      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-21"
-    },
-    {
       "title": "How Algae, Avocados, and Happy Accidents Helped Shape a Career: An Interview with Environmental Economist Prakash Mishra",
       "description": "As a kid growing up in North Carolina, Prakash Mishra was very interested in planets. \"My parents got me a telescope when I turned 6 or 7, and that was my personality for probably 10 years,\" he says, noting that he thought he would eventually study physics or astrophysics.But a series of what he calls \"happy accidents\" led him down a different path. He went to the University of Pennsylvania to study biochemical engineering but ended up earning a bachelor's degree in economics in 2019. Six years later, he completed a doctorate, also at Penn, in applied economics. Now, after a year at Dartmouth ",
       "link": "https://www.caltech.edu/about/news/how-algae-avocados-and-happy-accidents-helped-shape-a-career-an-interview-with-environmental-economist-prakash-mishra",
       "source": "Caltech",
       "field": "climate",
       "date": "2026-09-18"
+    },
+    {
+      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
+      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "Can restoring land create jobs? These young entrepreneurs are proving it",
+      "description": "From Ecuador to Bangladesh, a new generation of entrepreneurs is turning land restoration into economic opportunity. Whether repurposing agricultural waste, building greenhouses or deploying AI-powered sensors, they are showing, with support from a United Nations-backed initiative, that restoring land can also generate income and improve livelihoods.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168194",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-08-24"
+    },
+    {
+      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
+      "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal… The post Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "NOAA announces priorities to promote science-based American seafood dominance",
+      "description": "NOAA announces priorities to promote science-based American seafood dominance September 2, 2026 Docked fishing boats at Yaquina Bay in Newport, Oregon. (Image credit: iStock) Today, NOAA announced priorities for advancing reforms within NOAA Fisheries to move towards regulations grounded in science that support American seafood dominance. These agency-level actions follow the Regional Priorities guidance that was released on July 2, 2026, to apply the same standard of accountability to NOAA’s own operations, regulatory frameworks, and scientific pipelines. This priority list serves as an opera",
+      "link": "https://www.noaa.gov/news-release/noaa-announces-priorities-to-promote-science-based-american-seafood-dominance",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-01"
     },
     {
       "title": "Coordinated action on clean air and climate change can net $15 for every dollar spent",
@@ -457,12 +473,36 @@
       "date": "2026-09-18"
     },
     {
+      "title": "Shedding Light on the Brain: Neuroscientists Reflect on Optogenetics Nobel",
+      "description": "On October 5, three scientists—Peter Hegemann, Georg Nagel, and Karl Deisseroth—were awarded the Nobel Prize in Physiology or Medicine for the development of optogenetics, a revolutionary tool that allows neuroscientists to use light to turn on and off individual brain cells, even those located deep within the brain. Hegemann and Nagel, the Nobel Assembly noted, \"discovered a remarkable protein, channelrhodopsin, in a single-celled alga,\" and Deisseroth \"transformed the protein into a light-controlled switch for nerve cells.\"Viviana Gradinaru (BS '05), Caltech's Troendle Professor of Neuroscie",
+      "link": "https://www.caltech.edu/about/news/shedding-light-on-the-brain-neuroscientists-reflect-on-optogenetics-nobel",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "IEEE Report Predicts Tech That Will Transform Lives",
+      "description": "By 2028, genetic engineering and gene therapy will be used frequently to treat a variety of diseases, thanks to advances in artificial intelligence, according to the recently released 2030 Technology Megatrends Report from IEEE. “We are seeing a fundamental shift in how technology evolves,” says IEEE Fellow Dejan Milojicic, chair of the IEEE Future Directions Committee’s Industry Advisory Board, the group responsible for the report. “Artificial intelligence is no longer operating in a vacuum; it is now deeply connected to our energy, infrastructure, and physical systems.” Milojicic, a Hewlett ",
+      "link": "https://spectrum.ieee.org/ieee-report-predicts-tech",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-07"
+    },
+    {
       "title": "Scientists engineered a glowing cuttlefish. Why was it so hard?",
       "description": "Breakthroughs in genetically altering cephalopods pave way for new studies of perception, brain evolution, and more",
       "link": "https://www.science.org/content/article/scientists-engineered-glowing-cuttlefish-why-was-it-so-hard",
       "source": "Science",
       "field": "technology",
       "date": "2026-09-28"
+    },
+    {
+      "title": "Caltech and AIM Build AI Platform with Mathematicians for Mathematicians",
+      "description": "In recent weeks, a surprisingly contentious debate has been making headlines around the world: What role should artificial intelligence (AI) play in mathematics? The field, which has centuries-old methods of operating, sharing results, and acknowledging contributions, is grappling with how to incorporate the prodigious power of this new technology.Some mathematicians are ready to embrace change and argue that the potential advances offered by AI-enabled math solutions outweigh the costs—that AI, with its special capabilities, such as its ability to explore vast search spaces, might be able to ",
+      "link": "https://www.caltech.edu/about/news/caltech-and-aim-build-ai-platform-with-mathematicians-for-mathematicians",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-07"
     },
     {
       "title": "Met Warehouse dedication ceremony launches new era",
@@ -487,6 +527,14 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-10-05"
+    },
+    {
+      "title": "Changing Your Career Isn’t Easy",
+      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free! When I changed careers at 30 to become a software engineer, I expected it to be hard. I expected to struggle to fit in, and I expected to bomb a lot of interviews (I did). What I didn’t expect was how few people would support me. As a parent, I get it now. A career change is a risk, and the people who care about you tend to project their fears onto ",
+      "link": "https://spectrum.ieee.org/career-pivots-for-software-engineers",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-07"
     },
     {
       "title": "Rivian’s Gambit for Full Autonomy",
@@ -705,6 +753,14 @@
       "date": "2026-10-02"
     },
     {
+      "title": "Computational tools for society’s most complex challenges",
+      "description": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
+      "link": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-02"
+    },
+    {
       "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
       "description": "The new, five-day MIT event reaches takeoff with a forum about discovery and innovation.",
       "link": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
@@ -737,14 +793,6 @@
       "date": "2026-09-24"
     },
     {
-      "title": "Computational tools for society’s most complex challenges",
-      "description": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
-      "link": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-02"
-    },
-    {
       "title": "“Technology is the equalizer”",
       "description": "Using knowledge gained from MIT’s free learning materials, an educator in rural India builds apps to reach students who can’t make it to school.",
       "link": "https://news.mit.edu/2026/technology-is-the-equalizer-0916",
@@ -767,38 +815,6 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-09-08"
-    },
-    {
-      "title": "How architects turned a hulking brick box into MIT’s newest academic hub",
-      "description": "A venerable storage facility has become a 21st-century architectural tour de force. Here are the key decisions that transformed the Met Warehouse.",
-      "link": "https://news.mit.edu/2026/how-architects-turned-hulking-brick-box-newest-academic-hub-0904",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-04"
-    },
-    {
-      "title": "BasiGo and its fleet of electric buses",
-      "description": "BasiGo aims to replace the tens of thousands of diesel-powered buses on sub-Saharan African roads with electric ones that generate far fewer emissions. The company’s pay-as-you-drive business model has helped make EVs more attainable and is changing the way public transport operates. In a bid to contain the covid-19 pandemic in 2020, the Kenyan government…",
-      "link": "https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-06"
-    },
-    {
-      "title": "WeLion New Energy and its semi-solid-state batteries",
-      "description": "WeLion New Energy is on a quest to make safer, better batteries. The company’s semi-solid-state cells could improve safety and offer greater energy density than lithium-ion batteries to power electric cars, boats, and drones. From the EVs that carry commuters home to the ships that transport goods across countries, more and more vehicles around us…",
-      "link": "https://www.technologyreview.com/2026/10/06/1144987/2026-climate-tech-companies-to-watch-welion-semi-solid-state-batteries/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-06"
-    },
-    {
-      "title": "Who knew self-improvement could be so terrifying?",
-      "description": "Contemplating a future where machines break free of human meddling",
-      "link": "https://news.harvard.edu/gazette/story/2026/10/who-knew-self-improvement-could-be-so-terrifying/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-10-05"
     },
     {
       "title": "Beyond the Moon: Space Week around the world",
@@ -857,6 +873,14 @@
       "date": "2026-09-27"
     },
     {
+      "title": "ADB Launches $6 Billion Push for Healthier Seas and Coastal Economies",
+      "description": "ADB has announced it will mobilize up to $6 billion through 2030 to confront the mounting threats facing Southeast Asia’s seas and strengthen the blue economy that the region’s food supplies, jobs, and trade depend on.",
+      "link": "https://www.adb.org/news/adb-launches-6-billion-push-healthier-seas-and-coastal-economies",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-19"
+    },
+    {
       "title": "ADB Approves $3 Million Grant to Address Violence Against Women and Children in Mongolia through Safer Schools and Stronger Support Services",
       "description": "ADB has approved a $3 million grant to help Mongolia prevent and respond to violence against women and children through safer schools, improved survivor support services, and effective policy reforms.",
       "link": "https://www.adb.org/news/adb-approves-3-million-grant-address-violence-against-women-and-children-mongolia-safer-schools",
@@ -865,20 +889,44 @@
       "date": "2026-09-14"
     },
     {
+      "title": "Right to development: A blueprint for unmet promises",
+      "description": "Ahead of the 40th anniversary of the groundbreaking Declaration on the Right to Development this December, world leaders gathered at a High-Level Week meeting on Wednesday to map progress made and the 21st century challenges still ahead – from narrowing the digital divide to levelling the AI playing field – as the UN chief presented a “blueprint” to address promises that remain unfulfilled.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168405",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-09-23"
+    },
+    {
+      "title": "ADB President Joins Pre-COP31, Calls for Faster Resilience Finance",
+      "description": "ADB President Masato Kanda attended Pre-COP31 in Fiji and Tuvalu, where he met Fiji Prime Minister Sitiveni Rabuka and Tuvalu Prime Minister Feleti Teo and many other leaders, and called for faster financing to protect vulnerable island states from rising seas and other worsening impacts.",
+      "link": "https://www.adb.org/news/adb-president-joins-pre-cop31-calls-faster-resilience-finance",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "ADB President Calls for Greater Investment in Science, Energy, and AI",
+      "description": "ADB President Masato Kanda called for greater investment in scientific research and the infrastructure needed to turn discoveries into practical gains for people, pointing to ADB’s $50 billion Pan-Asia Power Grid Initiative and $20 billion Asia-Pacific Digital Highway as examples of the infrastructure investment already under way.",
+      "link": "https://www.adb.org/news/adb-president-calls-greater-investment-science-energy-and-ai",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "ADB Supports Asia and Pacific’s First Sovereign Nature-Linked Bond in Thailand",
+      "description": "ADB has supported the Government of Thailand in issuing Asia and the Pacific’s first sovereign sustainability-linked bond incorporating a nature-related indicator, a significant milestone linking public sector financing with biodiversity outcomes.",
+      "link": "https://www.adb.org/news/adb-supports-asia-and-pacific-first-sovereign-nature-linked-bond-thailand",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-02"
+    },
+    {
       "title": "ADB, Modern Syntex Sign $50 Million Loan to Expand Energy-Efficient Polyester Chips Production in Bangladesh",
       "description": "ADB and Modern Syntex Limited have signed a $50 million loan for the Modern Energy-Efficient Polyester Chips Manufacturing Project in Bangladesh.",
       "link": "https://www.adb.org/news/adb-modern-syntex-sign-50-million-loan-expand-energy-efficient-polyester-chips-bangladesh",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-29"
-    },
-    {
-      "title": "ADB Launches $6 Billion Push for Healthier Seas and Coastal Economies",
-      "description": "ADB has announced it will mobilize up to $6 billion through 2030 to confront the mounting threats facing Southeast Asia’s seas and strengthen the blue economy that the region’s food supplies, jobs, and trade depend on.",
-      "link": "https://www.adb.org/news/adb-launches-6-billion-push-healthier-seas-and-coastal-economies",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-19"
     },
     {
       "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
@@ -897,44 +945,12 @@
       "date": "2026-09-11"
     },
     {
-      "title": "ADB President Calls for Greater Investment in Science, Energy, and AI",
-      "description": "ADB President Masato Kanda called for greater investment in scientific research and the infrastructure needed to turn discoveries into practical gains for people, pointing to ADB’s $50 billion Pan-Asia Power Grid Initiative and $20 billion Asia-Pacific Digital Highway as examples of the infrastructure investment already under way.",
-      "link": "https://www.adb.org/news/adb-president-calls-greater-investment-science-energy-and-ai",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-05"
-    },
-    {
-      "title": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs",
-      "description": "ADB has signed a combined $30 million loan (in togrog equivalent) with Gobi Joint Stock Company (Gobi), Tavan Bogd Foods LLC (TBF), and Tavan Bogd Foods Pizza LLC (TBFP) to strengthen Mongolia's cashmere value chain and expand employment opportunities in the country’s burgeoning food service sector.",
-      "link": "https://www.adb.org/news/adb-signs-private-sector-deal-strengthen-mongolia-cashmere-value-chain-create-inclusive-jobs",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "ADB Supports Asia and Pacific’s First Sovereign Nature-Linked Bond in Thailand",
-      "description": "ADB has supported the Government of Thailand in issuing Asia and the Pacific’s first sovereign sustainability-linked bond incorporating a nature-related indicator, a significant milestone linking public sector financing with biodiversity outcomes.",
-      "link": "https://www.adb.org/news/adb-supports-asia-and-pacific-first-sovereign-nature-linked-bond-thailand",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-02"
-    },
-    {
       "title": "ADB Supports Mongolia's First Green-Certified Residential Complex Built by the Private Sector",
       "description": "ADB has signed a $30 million loan (in togrog equivalent) with Tavan Bogd Holdings LLC to finance the construction of Mongolia's first green-certified residential complex developed by the private sector.",
       "link": "https://www.adb.org/news/adb-supports-mongolias-first-green-certified-residential-complex-built-private-sector",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-09"
-    },
-    {
-      "title": "ADB Approves $400 Million Financing Facility to Modernize Borders, Facilitate Trade in CAREC Region",
-      "description": "ADB has approved a $400 million regional financing facility to modernize border crossing points, lower transport and logistics costs, and improve the movement of people and goods across the Central Asia Regional Economic Cooperation (CAREC) region.",
-      "link": "https://www.adb.org/news/adb-approves-400-million-financing-facility-modernize-borders-facilitate-trade-carec-region",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-27"
     },
     {
       "title": "ADB Approves $175 Million Loan to Modernize Power Networks, Boost Jobs and Services in Bangladesh’s Chattogram Hill Tracts",
@@ -945,6 +961,22 @@
       "date": "2026-09-01"
     },
     {
+      "title": "ADB Signs Private Sector Deal to Strengthen Mongolia's Cashmere Value Chain, Create Inclusive Jobs",
+      "description": "ADB has signed a combined $30 million loan (in togrog equivalent) with Gobi Joint Stock Company (Gobi), Tavan Bogd Foods LLC (TBF), and Tavan Bogd Foods Pizza LLC (TBFP) to strengthen Mongolia's cashmere value chain and expand employment opportunities in the country’s burgeoning food service sector.",
+      "link": "https://www.adb.org/news/adb-signs-private-sector-deal-strengthen-mongolia-cashmere-value-chain-create-inclusive-jobs",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-18"
+    },
+    {
+      "title": "ADB Approves $400 Million Financing Facility to Modernize Borders, Facilitate Trade in CAREC Region",
+      "description": "ADB has approved a $400 million regional financing facility to modernize border crossing points, lower transport and logistics costs, and improve the movement of people and goods across the Central Asia Regional Economic Cooperation (CAREC) region.",
+      "link": "https://www.adb.org/news/adb-approves-400-million-financing-facility-modernize-borders-facilitate-trade-carec-region",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-08-27"
+    },
+    {
       "title": "ADB and Partners Launch Initiative to Scale Financing for Land Degradation and Desertification in Asia and the Pacific",
       "description": "ADB has launched together with partners the Financing Investments and Eradicating Land Degradation and Desertification Initiative, a regional partnership to attract at least $2 billion by 2035 to invest in programs that restore lands and strengthen drought resilience across Asia and the Pacific.",
       "link": "https://www.adb.org/news/adb-and-partners-launch-initiative-scale-financing-land-degradation-desertification-asia-pacific",
@@ -953,28 +985,12 @@
       "date": "2026-08-24"
     },
     {
-      "title": "Right to development: A blueprint for unmet promises",
-      "description": "Ahead of the 40th anniversary of the groundbreaking Declaration on the Right to Development this December, world leaders gathered at a High-Level Week meeting on Wednesday to map progress made and the 21st century challenges still ahead – from narrowing the digital divide to levelling the AI playing field – as the UN chief presented a “blueprint” to address promises that remain unfulfilled.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168405",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-09-23"
-    },
-    {
       "title": "Is organic farming better for the environment than conventional farming?",
       "description": "Organic farming often wins when we compare impacts on one unit of land, but there is no clear winner when we look at impacts per unit of food production.",
       "link": "https://ourworldindata.org/is-organic-farming-better-for-the-environment-than-conventional-farming",
       "source": "Our World in Data",
       "field": "development",
       "date": "2026-09-14"
-    },
-    {
-      "title": "ADB President Joins Pre-COP31, Calls for Faster Resilience Finance",
-      "description": "ADB President Masato Kanda attended Pre-COP31 in Fiji and Tuvalu, where he met Fiji Prime Minister Sitiveni Rabuka and Tuvalu Prime Minister Feleti Teo and many other leaders, and called for faster financing to protect vulnerable island states from rising seas and other worsening impacts.",
-      "link": "https://www.adb.org/news/adb-president-joins-pre-cop31-calls-faster-resilience-finance",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-07"
     },
     {
       "title": "ADB, Credo Sign Local Currency Loan to Boost Financial Inclusion for MSMEs in Georgia",
@@ -993,17 +1009,17 @@
       "date": "2026-09-29"
     },
     {
+      "title": "ADB Launches New Country Partnership Strategy to Support Growth in Papua New Guinea",
+      "description": "ADB has launched a new 5-year country partnership strategy for Papua New Guinea to support stronger public finances, wider transport and energy connections, and better access to health, education, and other essential services.",
+      "link": "https://www.adb.org/news/adb-launches-new-country-partnership-strategy-support-growth-papua-new-guinea",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-28"
+    },
+    {
       "title": "ADB Strengthens Regional Cooperation with New Malaysia Office",
       "description": "ADB will strengthen its promotion of regional cooperation and integration, including support for the Association of Southeast Asian Nations Power Grid, by establishing a new office in Malaysia.",
       "link": "https://www.adb.org/news/adb-strengthens-regional-cooperation-new-malaysia-office",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "ADB Sells $5 Billion Dual-Tranche 3- and 7-Year Global Benchmark Bonds",
-      "description": "ADB has priced a 3-year global benchmark United States dollar bond worth $3 billion and a 7-year global benchmark US dollar bond worth $2 billion, proceeds of which will become part of ADB’s ordinary capital resources.",
-      "link": "https://www.adb.org/news/adb-sells-5-billion-dual-tranche-3-and-7-year-global-benchmark-bonds",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-24"
@@ -1017,12 +1033,20 @@
       "date": "2026-09-29"
     },
     {
-      "title": "ADB Launches New Country Partnership Strategy to Support Growth in Papua New Guinea",
-      "description": "ADB has launched a new 5-year country partnership strategy for Papua New Guinea to support stronger public finances, wider transport and energy connections, and better access to health, education, and other essential services.",
-      "link": "https://www.adb.org/news/adb-launches-new-country-partnership-strategy-support-growth-papua-new-guinea",
+      "title": "ADB Sells $5 Billion Dual-Tranche 3- and 7-Year Global Benchmark Bonds",
+      "description": "ADB has priced a 3-year global benchmark United States dollar bond worth $3 billion and a 7-year global benchmark US dollar bond worth $2 billion, proceeds of which will become part of ADB’s ordinary capital resources.",
+      "link": "https://www.adb.org/news/adb-sells-5-billion-dual-tranche-3-and-7-year-global-benchmark-bonds",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-09-28"
+      "date": "2026-09-24"
+    },
+    {
+      "title": "ADB Launches Fund to Scale Resilient Agribusiness and Sustainable Rangeland Management in Mongolia",
+      "description": "ADB has launched the Green Inclusive Regional Agribusiness Fund to expand access to finance for herders, cooperatives, small and medium-sized enterprises, and agribusinesses investing in sustainable livestock value chains in Mongolia.",
+      "link": "https://www.adb.org/news/adb-launches-fund-scale-resilient-agribusiness-and-sustainable-rangeland-management-mongolia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-08-24"
     },
     {
       "title": "The rise of electoral democracy",
@@ -1065,6 +1089,14 @@
       "date": "2026-08-25"
     },
     {
+      "title": "ADB Backs Palau’s Fiscal and Energy Resilience Amid Global Shocks, Expands North Pacific Presence",
+      "description": "ADB President Masato Kanda met with Palau President Surangel S. Whipps, Jr. on the sidelines of the 55th Pacific Islands Forum to discuss how Palau’s sound fiscal management and a faster energy transition can reduce the country’s exposure to external shock, including the economic impacts of the Middle East conflict.",
+      "link": "https://www.adb.org/news/adb-backs-palau-fiscal-and-energy-resilience-amid-global-shocks-expands-north-pacific",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-01"
+    },
+    {
       "title": "Joint Statement by the Multilateral Development Banks and International Financial Institutions on Strengthening Fertilizer Supply Chains",
       "description": "We, the Multilateral Development Banks (MDB), recognize that food security remains one of the world's most pressing development challenges. Repeated shocks have exposed structural vulnerabilities in global fertilizer supply chains, disproportionately affecting smallholder farmers and low-income households. Increased investment in global fertilizer supply chains can support economic corridors that reduce vulnerability to future shocks.",
       "link": "https://www.adb.org/news/joint-statement-mdb-and-international-financial-institutions-strengthening-fertilizer-supply-chains",
@@ -1079,22 +1111,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-08-25"
-    },
-    {
-      "title": "ADB Launches Fund to Scale Resilient Agribusiness and Sustainable Rangeland Management in Mongolia",
-      "description": "ADB has launched the Green Inclusive Regional Agribusiness Fund to expand access to finance for herders, cooperatives, small and medium-sized enterprises, and agribusinesses investing in sustainable livestock value chains in Mongolia.",
-      "link": "https://www.adb.org/news/adb-launches-fund-scale-resilient-agribusiness-and-sustainable-rangeland-management-mongolia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-08-24"
-    },
-    {
-      "title": "ADB Backs Palau’s Fiscal and Energy Resilience Amid Global Shocks, Expands North Pacific Presence",
-      "description": "ADB President Masato Kanda met with Palau President Surangel S. Whipps, Jr. on the sidelines of the 55th Pacific Islands Forum to discuss how Palau’s sound fiscal management and a faster energy transition can reduce the country’s exposure to external shock, including the economic impacts of the Middle East conflict.",
-      "link": "https://www.adb.org/news/adb-backs-palau-fiscal-and-energy-resilience-amid-global-shocks-expands-north-pacific",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-01"
     },
     {
       "title": "World News in Brief: Marshall Islands nuclear legacy, FlyDubai attack condemned, Ukraine update, breast cancer treatment expanded in West Bank",
@@ -1177,22 +1193,6 @@
       "date": "2026-10-01"
     },
     {
-      "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
-      "description": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168220",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Why do some people have a better sense of direction than others?",
-      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-09-10"
-    },
-    {
       "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
       "description": "Following revelations from the UN nuclear watchdog that the former Syrian regime failed to report holding nuclear material and the discovery in May of an undeclared chemical weapons cache, the Security Council meets Thursday at 10am (local time) to be briefed on latest developments and discuss the way ahead.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168271",
@@ -1207,6 +1207,22 @@
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-09-01"
+    },
+    {
+      "title": "Why do some people have a better sense of direction than others?",
+      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Aid reaches hundreds of thousands in Gaza amid severe food insecurity",
+      "description": "As hunger deepens across Gaza, humanitarian agencies continue to deliver food and other essential supplies to families in need.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168220",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-08-27"
     },
     {
       "title": "Explainer: UN peace operations work to create, preserve peace",
@@ -1263,6 +1279,22 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-10-01"
+    },
+    {
+      "title": "FLEX and Sentinel-3C launched",
+      "description": "The European Space Agency’s FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new milestone in Europe’s Earth Observation Programmes.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
+      "description": "On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s oceans, land, ice and atmosphere. At ESA’s European Space Operations Centre (ESOC), two independent mission teams are preparing to operate the spacecraft in parallel in a closely coordinated effort. As launch approaches, they are rehearsing side by side to prepare not only for their own missions, but also for the moments when the two operations intersect.",
+      "link": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-09-11"
     },
     {
       "title": "Astronomers Solve Cosmic Cold Case with NASA Hubble Data",
@@ -1329,6 +1361,14 @@
       "date": "2026-09-09"
     },
     {
+      "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
+      "description": "Launched two years ago today, the European Space Agency’s Hera mission for planetary defence has been hurtling away from Earth ever since. The small-car-sized spacecraft is now preparing for its single most challenging activity since lift-off: the sustained braking manoeuvres to slow it down to approach its target asteroids.",
+      "link": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-07"
+    },
+    {
       "title": "Juice’s September 2026 Earth flyby: the movie",
       "description": "Video: 00:00:48 On 28 September 2026, ESA’s Jupiter Icy Moons Explorer (Juice) successfully completed a gravity assist flyby of Earth. Flight controllers guided the spacecraft close to our home planet to increase its velocity by 3.5 km/s and deflect its trajectory by an angle of 20°. As Juice flew just 8640 km above the Indian Ocean, it snapped a series of images with its onboard monitoring cameras, giving us a unique ‘Juice eye view’ of our home planet. Juice’s monitoring cameras provide 1024 x 1024 pixel snapshots that can be processed in colour. Their main purpose is to monitor the spacecra",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Juice_s_September_2026_Earth_flyby_the_movie",
@@ -1337,44 +1377,12 @@
       "date": "2026-10-01"
     },
     {
-      "title": "FLEX and Sentinel-3C launched",
-      "description": "The European Space Agency’s FLEX Earth Explorer satellite and the Copernicus Sentinel-3C satellite have been launched together aboard a Vega-C rocket from Europe’s Spaceport in French Guiana, marking a new milestone in Europe’s Earth Observation Programmes.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
-      "source": "ESA",
+      "title": "TB 26-07 Aluminum Alloy 2219 Material Guidance",
+      "description": "For more information, contact Donald S. Parker, Kennedy Space Center, donald.s.parker@nasa.gov Download the PDF version Improper casting and forging processes in the manufacture of aluminum alloy 2219 can lead to microstructural defects that result in a sub-optimal response to anodic surface treatments and an increase in corrosion susceptibility. This Technical Bulletin communicates the risks of […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-07-aluminum-alloy-2219-material-guidance/",
+      "source": "NASA",
       "field": "space",
-      "date": "2026-09-15"
-    },
-    {
-      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
-      "description": "On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s oceans, land, ice and atmosphere. At ESA’s European Space Operations Centre (ESOC), two independent mission teams are preparing to operate the spacecraft in parallel in a closely coordinated effort. As launch approaches, they are rehearsing side by side to prepare not only for their own missions, but also for the moments when the two operations intersect.",
-      "link": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-09-11"
-    },
-    {
-      "title": "Former Caltech Postdoc Commands NASA Mission to the International Space Station",
-      "description": "On October 1, NASA astronaut and former Caltech postdoc Jessica Watkins will serve as commander of NASA's SpaceX Crew-13 mission, as the team of four astronauts launches to the International Space Station to perform research, technology demonstrations, and maintenance.This will be the second flight to the space station for Watkins, who was selected as a NASA astronaut in 2017. She grew up in Lafayette, Colorado, and earned an undergraduate degree in geological and environmental sciences from Stanford University, as well as a doctorate in geology from the University of California, Los Angeles. ",
-      "link": "https://www.caltech.edu/about/news/former-caltech-postdoc-commands-nasa-mission-to-the-international-space-station",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "ESA at the 77th International Astronautical Congress",
-      "description": "The European Space Agency (ESA) will participate in the 77th International Astronautical Congress (IAC), which opens on Monday 5 October and runs until Friday 9 October in Antalya, Türkiye. More than 6 000 participants are expected at the Nest Congress and Exhibition Centre, under the theme ‘The World Needs More Space’. ESA will be present throughout the event in Hall 1, booth 1B-02, with an exhibition showcasing the agency’s latest mission results, achievements and future ambitions.",
-      "link": "https://www.esa.int/About_Us/Corporate_news/ESA_at_the_77th_International_Astronautical_Congress",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "BepiColombo begins Mercury arrival with MTM separation success",
-      "description": "On 3 September 2026 at 15:49 CEST, the European Space Agency's BepiColombo Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for – BepiColombo’s Mercury Transfer Module (MTM) successfully separated from the spacecraft stack. This landmark achievement for the ESA and Japan Aerospace Exploration Agency (JAXA) mission marks the first step of BepiColombo's long-awaited arrival at Mercury.",
-      "link": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-09-07"
+      "date": "2026-09-25"
     },
     {
       "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
@@ -1409,6 +1417,62 @@
       "date": "2026-09-17"
     },
     {
+      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
+      "description": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Houston. In an emeritus role, individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their […]",
+      "link": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
+      "description": "NASA recently awarded $10.5 million to seven organizations nationwide through its new State Hubs initiative. Space Florida was selected for Project ORBIT, which aims to expand opportunities for middle and high school students, boost enrollment in key career and technical programs, and create a statewide portal connecting skilled workers with aerospace employers. Elaine Ho, associate […]",
+      "link": "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-16"
+    },
+    {
+      "title": "Former Caltech Postdoc Commands NASA Mission to the International Space Station",
+      "description": "On October 1, NASA astronaut and former Caltech postdoc Jessica Watkins will serve as commander of NASA's SpaceX Crew-13 mission, as the team of four astronauts launches to the International Space Station to perform research, technology demonstrations, and maintenance.This will be the second flight to the space station for Watkins, who was selected as a NASA astronaut in 2017. She grew up in Lafayette, Colorado, and earned an undergraduate degree in geological and environmental sciences from Stanford University, as well as a doctorate in geology from the University of California, Los Angeles. ",
+      "link": "https://www.caltech.edu/about/news/former-caltech-postdoc-commands-nasa-mission-to-the-international-space-station",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "ESA at the 77th International Astronautical Congress",
+      "description": "The European Space Agency (ESA) will participate in the 77th International Astronautical Congress (IAC), which opens on Monday 5 October and runs until Friday 9 October in Antalya, Türkiye. More than 6 000 participants are expected at the Nest Congress and Exhibition Centre, under the theme ‘The World Needs More Space’. ESA will be present throughout the event in Hall 1, booth 1B-02, with an exhibition showcasing the agency’s latest mission results, achievements and future ambitions.",
+      "link": "https://www.esa.int/About_Us/Corporate_news/ESA_at_the_77th_International_Astronautical_Congress",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "BepiColombo begins Mercury arrival with MTM separation success",
+      "description": "On 3 September 2026 at 15:49 CEST, the European Space Agency's BepiColombo Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for – BepiColombo’s Mercury Transfer Module (MTM) successfully separated from the spacecraft stack. This landmark achievement for the ESA and Japan Aerospace Exploration Agency (JAXA) mission marks the first step of BepiColombo's long-awaited arrival at Mercury.",
+      "link": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-09-07"
+    },
+    {
+      "title": "2026-2027 DWU: High School Engineering Challenge",
+      "description": "2026-2027 DWU: High School Engineering Challenge Challenge Materials Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ National Airspace System (NAS), NASA and partners at the FAA, at universities, and in the aviation industry are searching for ways to increase safety, […]",
+      "link": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Boom Year for Desert Blooms",
+      "description": "Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-23"
+    },
+    {
       "title": "Summer Training: Catching Up With NASA’s Astronaut Candidates",
       "description": "Did you spend part of your summer camping, hiking, at the pool, or in an aircraft? So did NASA’s 2025 Astronaut Candidate Class. The 10 candidates have been working their way through a comprehensive and rigorous training program since the agency introduced them to the public on Sept. 22, 2025, from NASA’s Johnson Space Center […]",
       "link": "https://www.nasa.gov/centers-and-facilities/johnson/summer-training-catching-up-with-nasas-astronaut-candidates/",
@@ -1423,46 +1487,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-10"
-    },
-    {
-      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
-      "description": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Houston. In an emeritus role, individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their […]",
-      "link": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "2026-2027 DWU: High School Engineering Challenge",
-      "description": "2026-2027 DWU: High School Engineering Challenge Challenge Materials Overview The 2026-2027 challenge theme is, “Fueling Flight Design Challenge: New Energy Systems.” As more and more aircraft are a part of the US’ National Airspace System (NAS), NASA and partners at the FAA, at universities, and in the aviation industry are searching for ways to increase safety, […]",
-      "link": "https://www.nasa.gov/aeronautics/aeronautics-stem/2026-2027-dwu-high-school-engineering-challenge/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "TB 26-07 Aluminum Alloy 2219 Material Guidance",
-      "description": "For more information, contact Donald S. Parker, Kennedy Space Center, donald.s.parker@nasa.gov Download the PDF version Improper casting and forging processes in the manufacture of aluminum alloy 2219 can lead to microstructural defects that result in a sub-optimal response to anodic surface treatments and an increase in corrosion susceptibility. This Technical Bulletin communicates the risks of […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-07-aluminum-alloy-2219-material-guidance/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "Boom Year for Desert Blooms",
-      "description": "Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
-      "description": "NASA recently awarded $10.5 million to seven organizations nationwide through its new State Hubs initiative. Space Florida was selected for Project ORBIT, which aims to expand opportunities for middle and high school students, boost enrollment in key career and technical programs, and create a statewide portal connecting skilled workers with aerospace employers. Elaine Ho, associate […]",
-      "link": "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-16"
     },
     {
       "title": "NASA Kicks Off Inspiration Tour with Steelers vs. Falcons Game",
@@ -1569,6 +1593,46 @@
       "date": "2026-08-28"
     },
     {
+      "title": "How architects turned a hulking brick box into MIT’s newest academic hub",
+      "description": "A venerable storage facility has become a 21st-century architectural tour de force. Here are the key decisions that transformed the Met Warehouse.",
+      "link": "https://news.mit.edu/2026/how-architects-turned-hulking-brick-box-newest-academic-hub-0904",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction",
+      "description": "This White Paper gives robotics researchers and engineers an overview of a new large-scale motion capture dataset built to close the data gap limiting humanoid robot learning. It also shows how policies trained on the dataset transfer to a real humanoid robot. What you will learn about: Why humanoid robot learning, a central problem in embodied AI and Physical AI, needs data that internet video and existing motion capture datasets cannot provide. How FrameNet, a linguistic framework for human action, can guide motion capture collection to systematically cover a broad range of whole-body motion",
+      "link": "https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "BasiGo and its fleet of electric buses",
+      "description": "BasiGo aims to replace the tens of thousands of diesel-powered buses on sub-Saharan African roads with electric ones that generate far fewer emissions. The company’s pay-as-you-drive business model has helped make EVs more attainable and is changing the way public transport operates. In a bid to contain the covid-19 pandemic in 2020, the Kenyan government…",
+      "link": "https://www.technologyreview.com/2026/10/06/1145216/2026-climate-tech-companies-to-watch-basigo-fleet-electric-buses/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "WeLion New Energy and its semi-solid-state batteries",
+      "description": "WeLion New Energy is on a quest to make safer, better batteries. The company’s semi-solid-state cells could improve safety and offer greater energy density than lithium-ion batteries to power electric cars, boats, and drones. From the EVs that carry commuters home to the ships that transport goods across countries, more and more vehicles around us…",
+      "link": "https://www.technologyreview.com/2026/10/06/1144987/2026-climate-tech-companies-to-watch-welion-semi-solid-state-batteries/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "Who knew self-improvement could be so terrifying?",
+      "description": "Contemplating a future where machines break free of human meddling",
+      "link": "https://news.harvard.edu/gazette/story/2026/10/who-knew-self-improvement-could-be-so-terrifying/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-10-05"
+    },
+    {
       "title": "MTG-I2 completes Europe’s latest weather trio",
       "description": "The second Meteosat Third Generation Imager satellite (MTG-I2) has been launched on board Ariane 6, flight VA270, from Europe’s Spaceport in French Guiana. It will complete the first family of MTG satellites, delivering data for weather forecasting over Europe and northern Africa with unprecedented quality, quantity and frequency.",
       "link": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/MTG-I2_completes_Europe_s_latest_weather_trio",
@@ -1615,6 +1679,30 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-29"
+    },
+    {
+      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "description": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate…",
+      "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Quantum computer simulates matter “popping into existence”",
+      "description": "Scientists recreated a particle-forming process linked to the extreme physics of the early universe using a 13-ion quantum simulator. The breakthrough suggests quantum computers could eventually help researchers investigate how matter formed and evolved after the Big Bang.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925005416.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-26"
+    },
+    {
+      "title": "Caltech’s tiny new chip can steer light in 74 quadrillionths of a second",
+      "description": "A new Caltech device can redirect a beam of light in just 74 femtoseconds using another beam and a nanoscale silicon metasurface. The breakthrough could pave the way for dramatically faster photonic communications, computing, and sensing technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-18"
     },
     {
       "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
@@ -1705,6 +1793,30 @@
       "date": "2026-10-02"
     },
     {
+      "title": "NSF’s new plan to fund graduate students to work in industry covers familiar ground",
+      "description": "Agency gives university-industry consortium $47 million to reinvent existing internship program",
+      "link": "https://www.science.org/content/article/nsf-s-new-plan-fund-graduate-students-work-industry-covers-familiar-ground",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-08-27"
+    },
+    {
+      "title": "Worldwide study of diseases gets historic funding influx",
+      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
+      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-08-25"
+    },
+    {
+      "title": "Batteries that safely break down in the GI tract could improve ingestible devices",
+      "description": "Made from “bioresorbable” materials, the new batteries could power capsules for drug delivery, sensing, and other applications.",
+      "link": "https://news.mit.edu/2026/batteries-safely-break-down-in-gi-tract-could-improve-ingestible-devices-0921",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-21"
+    },
+    {
       "title": "Redefining enterprise intelligence with autonomous AI",
       "description": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has…",
       "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
@@ -1713,9 +1825,41 @@
       "date": "2026-10-02"
     },
     {
+      "title": "On complex political issues, most Americans take shortcuts to simplicity",
+      "description": "A novel study by UC Berkeley scholars finds that when Americans are presented with complex decisions on immigration, climate change or political candidates, they often avoid difficult reasoning. The post On complex political issues, most Americans take shortcuts to simplicity appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/10/01/on-complex-political-issues-most-americans-take-shortcuts-to-simplicity/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "How smaller, distributed batteries could help the grid",
+      "description": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,…",
+      "link": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "IEEE Celebrates Innovators Shaping the Future",
+      "description": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards. The honorees are selected by the IEEE Awards Board based on their extraordinary technical achievements, societal impact, and leadership in specialized engineering disciplines and are approved by the IEEE Board of Directors. “The 2027 IEEE Technical Field Award recipients embody the relentless spirit of innovation and ingenuity that defines our global commu",
+      "link": "https://spectrum.ieee.org/ieee-technical-field-awards-2027",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-30"
+    },
+    {
       "title": "Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not",
       "description": "Seventeen years ago, cell biologist Donald Ingber and his colleagues at Harvard University’s Wyss Institute for Biologically Inspired Engineering submitted a paper to the journal Science describing their model human lung. It was smaller than a USB stick and made of a clear polymer slab containing narrow channels, which were lined with the type of cells that line a lung’s air sacs and blood vessels. When air was pumped through hollow chambers beside the channels, the device rhythmically expanded and contracted—it “breathed.” This lifelike movement was a dramatic change from previous generations",
       "link": "https://spectrum.ieee.org/alternatives-to-animal-testing",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog",
+      "description": "Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologies enabling silicon design autonomy Understand how autonomous AI accelerates complex engineering workflows See real-world impact across semiconductor design and verification Gain practical insights from Ambiq’s deployment of autonomous AI in production Register now for this free webinar!",
+      "link": "https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32",
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-09-29"
@@ -1753,102 +1897,6 @@
       "date": "2026-10-06"
     },
     {
-      "title": "On complex political issues, most Americans take shortcuts to simplicity",
-      "description": "A novel study by UC Berkeley scholars finds that when Americans are presented with complex decisions on immigration, climate change or political candidates, they often avoid difficult reasoning. The post On complex political issues, most Americans take shortcuts to simplicity appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/10/01/on-complex-political-issues-most-americans-take-shortcuts-to-simplicity/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Unveiling IC-STAR: Full-Flow Autonomy from Digital to Analog",
-      "description": "Learn how engineers can shift from manually managing tools and handoffs to defining objectives and supervising AI-driven execution across the silicon development lifecycle. Key Takeaways Explore four critical technologies enabling silicon design autonomy Understand how autonomous AI accelerates complex engineering workflows See real-world impact across semiconductor design and verification Gain practical insights from Ambiq’s deployment of autonomous AI in production Register now for this free webinar!",
-      "link": "https://event.on24.com/wcc/r/5507421/A45CEFBA43BC7B2A43F265520AFDBA32",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
-      "description": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate…",
-      "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "Quantum teleportation breakthrough: Scientists crack a 25-year entanglement challenge",
-      "description": "Scientists have developed and experimentally demonstrated a long-sought method for identifying W states, an important form of multi-photon quantum entanglement. The technique could make complex entangled systems much easier to measure, opening new possibilities for quantum teleportation, communication, and computing.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260929053550.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "Quantum computer simulates matter “popping into existence”",
-      "description": "Scientists recreated a particle-forming process linked to the extreme physics of the early universe using a 13-ion quantum simulator. The breakthrough suggests quantum computers could eventually help researchers investigate how matter formed and evolved after the Big Bang.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260925005416.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-26"
-    },
-    {
-      "title": "The secret to growing food on Mars could be fungi",
-      "description": "Scientists think beneficial fungi could help transform nutrient-poor lunar and Martian regolith into a material capable of supporting crops. By helping plants access nutrients and withstand harsh conditions, these microbes could someday make self-sustaining space farming more realistic.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260924020400.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-26"
-    },
-    {
-      "title": "Caltech’s tiny new chip can steer light in 74 quadrillionths of a second",
-      "description": "A new Caltech device can redirect a beam of light in just 74 femtoseconds using another beam and a nanoscale silicon metasurface. The breakthrough could pave the way for dramatically faster photonic communications, computing, and sensing technologies.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "NASA Highlights Lessons Learned From Swift Boost Mission",
-      "description": "A commercial mission to boost NASA’s Swift observatory concluded without raising the spacecraft’s orbit, but the agency and industry vendor gained valuable experience that will benefit future in-space servicing programs.",
-      "link": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "NSF’s new plan to fund graduate students to work in industry covers familiar ground",
-      "description": "Agency gives university-industry consortium $47 million to reinvent existing internship program",
-      "link": "https://www.science.org/content/article/nsf-s-new-plan-fund-graduate-students-work-industry-covers-familiar-ground",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-27"
-    },
-    {
-      "title": "Worldwide study of diseases gets historic funding influx",
-      "description": "Gates Foundation pledges $540 million to a project often criticized for its opacity",
-      "link": "https://www.science.org/content/article/worldwide-study-diseases-gets-historic-funding-influx",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "Batteries that safely break down in the GI tract could improve ingestible devices",
-      "description": "Made from “bioresorbable” materials, the new batteries could power capsules for drug delivery, sensing, and other applications.",
-      "link": "https://news.mit.edu/2026/batteries-safely-break-down-in-gi-tract-could-improve-ingestible-devices-0921",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "New artist residency program at MIT expands views of the cosmos",
-      "description": "Inaugural artist Amy Karle will join astrophysicists at MIT’s Kavli Institute to explore questions about the universe and translate them into an immersive multimedia experience.",
-      "link": "https://news.mit.edu/2026/new-artist-residency-program-expands-views-cosmos-0916",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-16"
-    },
-    {
       "title": "Watch Live: NASA’s Crew-13 could make the fastest U.S. trip to the ISS ever",
       "description": "NASA’s SpaceX Crew-13 mission is scheduled to launch four astronauts to the International Space Station on October 1. The Dragon could reach the orbiting laboratory in just 7 hours and 50 minutes, making it the fastest U.S. spacecraft journey to the ISS in history.",
       "link": "https://www.sciencedaily.com/releases/2026/09/260930020312.htm",
@@ -1857,26 +1905,18 @@
       "date": "2026-09-30"
     },
     {
-      "title": "Live coverage: SpaceX to launch 21 data transport satellites for the Space Development Agency",
-      "description": "The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 1:17 a.m. PDT (4:17 a.m. EDT / 0817 UTC).",
-      "link": "https://spaceflightnow.com/2026/10/04/live-coverage-spacex-to-launch-21-data-transport-satellites-for-the-space-development-agency/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-10-04"
-    },
-    {
-      "title": "Falcon Heavy to fly its first mission for U.S. spy satellite agency",
-      "description": "The 14th Falcon Heavy rocket is scheduled to blast off on a clandestine mission from Launch Complex 39A at NASA’s Kennedy Space Center at 11:53 p.m. EDT (0353 UTC).",
-      "link": "https://spaceflightnow.com/2026/10/01/falcon-heavy-to-fly-its-first-mission-for-u-s-spy-satellite-agency/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-10-01"
-    },
-    {
       "title": "Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight",
       "description": "The Super Heavy first stage booster, generating some 16 million pounds of thrust — twice the power of NASA's Space Launch System moon rocket — rapidly accelerated as it consumed propellant and lost weight, climbing out of the thick lower atmosphere along a southeasterly trajectory.",
       "link": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/",
       "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "NASA Highlights Lessons Learned From Swift Boost Mission",
+      "description": "A commercial mission to boost NASA’s Swift observatory concluded without raising the spacecraft’s orbit, but the agency and industry vendor gained valuable experience that will benefit future in-space servicing programs.",
+      "link": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+      "source": "NASA",
       "field": "space",
       "date": "2026-09-28"
     },
@@ -1897,36 +1937,12 @@
       "date": "2026-09-03"
     },
     {
-      "title": "In a global first, Mexico approves use of RNA-based fungicide",
-      "description": "Oifirax, created by GreenLight Biosciences, uses RNA molecules to kill the fungus responsible for powdery mildew on grapes",
-      "link": "https://www.science.org/content/article/global-first-mexico-approves-use-rna-based-fungicide",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-08-25"
-    },
-    {
-      "title": "Caltech Faculty Receive NSF CAREER Awards",
-      "description": "Five Caltech faculty members have been selected to receive the National Science Foundation's (NSF) Faculty Early Career Development (CAREER) Award starting this year.CAREER awards, the NSF's most prestigious awards for junior faculty members, are designed to enable awardees to develop careers as outstanding teacher-scholars. Awardees are chosen because they \"exemplify the role of teacher-scholars through outstanding research, excellent education, and the integration of education and research within the context of the mission of their organizations,\" according to the NSF.Jane Bae (BS '11), assi",
-      "link": "https://www.caltech.edu/about/news/caltech-faculty-receive-nsf-career-awards",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-02"
-    },
-    {
-      "title": "How smaller, distributed batteries could help the grid",
-      "description": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small batteries in unexpected places,…",
-      "link": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "IEEE Celebrates Innovators Shaping the Future",
-      "description": "Every year, IEEE recognizes individual researchers, innovators, and collaborative teams whose technical achievements and leadership have made a lasting impact on technology, engineering, and society worldwide with its Technical Field Awards. The honorees are selected by the IEEE Awards Board based on their extraordinary technical achievements, societal impact, and leadership in specialized engineering disciplines and are approved by the IEEE Board of Directors. “The 2027 IEEE Technical Field Award recipients embody the relentless spirit of innovation and ingenuity that defines our global commu",
-      "link": "https://spectrum.ieee.org/ieee-technical-field-awards-2027",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-30"
+      "title": "Live coverage: SpaceX to launch 21 data transport satellites for the Space Development Agency",
+      "description": "The Tranche 1 Transporter Layer A mission is the fourth flight supporting the Space Development Agency’s Proliferated Warfighter Space Architecture constellation. Liftoff from pad 4E at Vandenberg Space Force Base is scheduled for 1:17 a.m. PDT (4:17 a.m. EDT / 0817 UTC).",
+      "link": "https://spaceflightnow.com/2026/10/04/live-coverage-spacex-to-launch-21-data-transport-satellites-for-the-space-development-agency/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-10-04"
     }
   ]
 }
