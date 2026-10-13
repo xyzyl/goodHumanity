@@ -1,16 +1,16 @@
 {
   "date": "2026-10-13",
-  "lastUpdated": "2026-10-13T15:30:48.655Z",
+  "lastUpdated": "2026-10-13T20:58:34.626Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "29.6s",
+    "executionTime": "89.7s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 33,
-    "totalCandidates": 237,
-    "totalSelected": 231,
+    "sourcesSuccessful": 30,
+    "totalCandidates": 236,
+    "totalSelected": 232,
     "entriesByField": {
       "health": 12,
-      "climate": 31,
+      "climate": 32,
       "energy": 6,
       "technology": 66,
       "education": 3,
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 3,
+        "kept": 0,
         "changed": 0
       },
       "education": {
@@ -41,7 +41,7 @@
         "changed": 0
       },
       "development": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "peace": {
@@ -53,14 +53,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 3,
+        "kept": 4,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 30,
-      "topTierSources": 149,
-      "highCredibilitySources": 211
+      "highScoreEntries": 32,
+      "topTierSources": 151,
+      "highCredibilitySources": 213
     }
   },
   "entries": [
@@ -79,6 +79,22 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-20"
+    },
+    {
+      "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
+      "description": "Our findings suggest that adjuvant radiotherapy should be considered in patients with atypical meningioma after complete surgical resection of atypical meningioma when the prevention of recurrence is valued higher than the potential delayed adverse effects of radiotherapy. This practice will benefit patients by reducing meningioma recurrence. Decisions should be based on individual discussion with the patient.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01804-0/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "A Cure Out of Most Patients’ Reach — Sickle Cell Disease in the Gene-Therapy Era",
+      "description": "New England Journal of Medicine, Volume 395, Issue 12, Page 1145-1147, September 24, 2026.",
+      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2609007?af=R&rss=currentIssue",
+      "source": "NEJM",
+      "field": "health",
+      "date": "2026-09-19"
     },
     {
       "title": "[Articles] Most-favoured-nation pricing for prescription drugs in US Medicare: a cohort study",
@@ -113,22 +129,6 @@
       "date": "2026-10-06"
     },
     {
-      "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
-      "description": "Our findings suggest that adjuvant radiotherapy should be considered in patients with atypical meningioma after complete surgical resection of atypical meningioma when the prevention of recurrence is valued higher than the potential delayed adverse effects of radiotherapy. This practice will benefit patients by reducing meningioma recurrence. Decisions should be based on individual discussion with the patient.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01804-0/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "A Cure Out of Most Patients’ Reach — Sickle Cell Disease in the Gene-Therapy Era",
-      "description": "New England Journal of Medicine, Volume 395, Issue 12, Page 1145-1147, September 24, 2026.",
-      "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2609007?af=R&rss=currentIssue",
-      "source": "NEJM",
-      "field": "health",
-      "date": "2026-09-19"
-    },
-    {
       "title": "UN health agency calls for investment boost to save young lives from cancer",
       "description": "More children and young people are beating cancer, but progress remains uneven across regions and age groups, highlighting the need for increased investment to boost survival rates.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168408",
@@ -161,6 +161,14 @@
       "date": "2026-09-01"
     },
     {
+      "title": "Saildrone research fleet to circle Antarctica for 5 years",
+      "description": "Saildrone research fleet to circle Antarctica for 5 years NOAA and partners to test limits of technology and science A Saildrone uncrewed surface vehicle is towed out of the Australian port of Hobart, Tasmania, before being released into the Southern Ocean to collect vital oceanographic data. (Image credit: Courtesy of CSIRO/APP) October 13, 2026 The Southern Ocean is one of the roughest and most dangerous bodies of water on Earth. It’s also key to understanding the global climate system. The vast distances and harsh conditions of the Southern Ocean have discouraged traditional ship-borne inve",
+      "link": "https://www.noaa.gov/news/saildrone-research-fleet-to-circle-antarctica-for-5-years",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-10-08"
+    },
+    {
       "title": "Obituary: James Philip Bruce",
       "description": "It is with great sadness that the Intergovernmental Panel on Climate Change (IPCC) has learned of the passing of James (Jim) Philip Bruce, a foundational figure in the establishment of the IPCC. In 1988, while serving as Deputy Secretary-General of the World Meteorological Organization (WMO), Bruce was instrumental in convening the first-ever meeting of the […]",
       "link": "https://www.ipcc.ch/2026/09/22/obituary-james-philip-bruce/",
@@ -185,12 +193,28 @@
       "date": "2026-10-08"
     },
     {
+      "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach",
+      "description": "Across Papua New Guinea, water sources are drying up, crops are failing and food prices are rising months before the worst agricultural impacts are expected. Behind those warning signs is an El Niño whose Pacific Ocean temperatures have already surpassed the equivalent measurements during the historic 1997 and 2015 events – part of an unfolding climate pattern being dubbed a “Super El Niño” by some climate watchers.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168537",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-06"
+    },
+    {
       "title": "ADB Approves $305.75 Million Financing to Upgrade Strategic Highways, Strengthen Wildlife Conservation in Nepal",
       "description": "ADB has approved $305.75 million in financing to modernize critical sections of Nepal’s East–West Highway and Prithvi Highway, improving connectivity, regional trade, road safety, and resilience to disasters and a changing climate, while protecting wildlife habitats.",
       "link": "https://www.adb.org/news/adb-approves-305-75-million-financing-upgrade-strategic-highways-strengthen-wildlife-conservation-nepal",
       "source": "Asian Development Bank",
       "field": "climate",
       "date": "2026-10-09"
+    },
+    {
+      "title": "ADB and Indonesia Advance Reforms to Deepen and Strengthen the Country’s Financial Markets",
+      "description": "ADB has approved the first subprogram of the Financial Market Deepening Program, supporting Indonesia’s efforts to deepen its capital markets, modernize its digital financial ecosystem, and build an enabling environment for sustainable and transition finance.",
+      "link": "https://www.adb.org/news/adb-and-indonesia-advance-reforms-deepen-and-strengthen-country-financial-markets",
+      "source": "Asian Development Bank",
+      "field": "climate",
+      "date": "2026-10-01"
     },
     {
       "title": "How the U.S. Public Lost Its Say on Environmental Policy",
@@ -201,12 +225,12 @@
       "date": "2026-10-08"
     },
     {
-      "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach",
-      "description": "Across Papua New Guinea, water sources are drying up, crops are failing and food prices are rising months before the worst agricultural impacts are expected. Behind those warning signs is an El Niño whose Pacific Ocean temperatures have already surpassed the equivalent measurements during the historic 1997 and 2015 events – part of an unfolding climate pattern being dubbed a “Super El Niño” by some climate watchers.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168537",
-      "source": "UN News Climate",
+      "title": "Large-scale marine debris: 4 ways to clean up the big stuff",
+      "description": "Large-scale marine debris: 4 ways to clean up the big stuff How do you address oversized pollution in the ocean and Great Lakes? A freediver from the Papahānaumokuākea Marine Debris Project works to carefully remove a ghost net from the reef at Kamokuokamohoali‘i (Maro Reef) in Hawaii. (Image credit: Andrew Sullivan-Hawkins/Papahānaumokuākea Marine Debris Project (Under permit # PMNM-2024-003)) October 7, 2026 Marine debris is a challenging problem. Across the country, NOAA and partners remove everything from lost fishing gear tangled on the seafloor to sunken vessels, abandoned tire reefs, an",
+      "link": "https://www.noaa.gov/stories/large-scale-marine-debris-4-ways-to-clean-up-big-stuff",
+      "source": "NOAA",
       "field": "climate",
-      "date": "2026-10-06"
+      "date": "2026-10-05"
     },
     {
       "title": "NOAA announces 2026 federal recreational red snapper season, exempted fishing permits in South Atlantic",
@@ -231,6 +255,14 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-08"
+    },
+    {
+      "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
+      "description": "NOAA expands use of commercial satellite data to enhance weather forecasting September 10, 2026 NOAA is expanding the use of commercial satellite data to boost weather and space forecasting. This is an artist's rendering of commercial satellites operated by Tomorrow.io, PlanetiQ, Spire Global Subsidiary Inc. and Muon Space that collect environmental data. (Image credit: NOAA NESDIS) Download Image NOAA is expanding its procurement and use of new commercial environmental satellite data streams that will enhance weather forecasting and space weather monitoring. The Space-Based Environmental Moni",
+      "link": "https://www.noaa.gov/news-release/noaa-expands-use-of-commercial-satellite-data-to-enhance-weather-forecasting",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-02"
     },
     {
       "title": "The 2027 NOAA Hollings Scholarship application is now open!",
@@ -273,6 +305,14 @@
       "date": "2026-09-23"
     },
     {
+      "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
+      "description": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be seen coming. UN experts say the months ahead offer countries a chance not only to protect the next harvest and our food security, but to prepare for a more unpredictable climate in the long run.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168404",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-22"
+    },
+    {
       "title": "Why climate action now comes down to speed, finance and cooperation",
       "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
@@ -287,62 +327,6 @@
       "source": "Caltech",
       "field": "climate",
       "date": "2026-09-18"
-    },
-    {
-      "title": "ADB and Indonesia Advance Reforms to Deepen and Strengthen the Country’s Financial Markets",
-      "description": "ADB has approved the first subprogram of the Financial Market Deepening Program, supporting Indonesia’s efforts to deepen its capital markets, modernize its digital financial ecosystem, and build an enabling environment for sustainable and transition finance.",
-      "link": "https://www.adb.org/news/adb-and-indonesia-advance-reforms-deepen-and-strengthen-country-financial-markets",
-      "source": "Asian Development Bank",
-      "field": "climate",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
-      "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal… The post Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-09-21"
-    },
-    {
-      "title": "Large-scale marine debris: 4 ways to clean up the big stuff",
-      "description": "Large-scale marine debris: 4 ways to clean up the big stuff How do you address oversized pollution in the ocean and Great Lakes? A freediver from the Papahānaumokuākea Marine Debris Project works to carefully remove a ghost net from the reef at Kamokuokamohoali‘i (Maro Reef) in Hawaii. (Image credit: Andrew Sullivan-Hawkins/Papahānaumokuākea Marine Debris Project (Under permit # PMNM-2024-003)) October 7, 2026 Marine debris is a challenging problem. Across the country, NOAA and partners remove everything from lost fishing gear tangled on the seafloor to sunken vessels, abandoned tire reefs, an",
-      "link": "https://www.noaa.gov/stories/large-scale-marine-debris-4-ways-to-clean-up-big-stuff",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-10-05"
-    },
-    {
-      "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
-      "description": "NOAA expands use of commercial satellite data to enhance weather forecasting September 10, 2026 NOAA is expanding the use of commercial satellite data to boost weather and space forecasting. This is an artist's rendering of commercial satellites operated by Tomorrow.io, PlanetiQ, Spire Global Subsidiary Inc. and Muon Space that collect environmental data. (Image credit: NOAA NESDIS) Download Image NOAA is expanding its procurement and use of new commercial environmental satellite data streams that will enhance weather forecasting and space weather monitoring. The Space-Based Environmental Moni",
-      "link": "https://www.noaa.gov/news-release/noaa-expands-use-of-commercial-satellite-data-to-enhance-weather-forecasting",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
-      "description": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be seen coming. UN experts say the months ahead offer countries a chance not only to protect the next harvest and our food security, but to prepare for a more unpredictable climate in the long run.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168404",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-22"
-    },
-    {
-      "title": "Analysis: UK solar power hits record high over summer 2026",
-      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-09-04"
-    },
-    {
-      "title": "NOAA announces priorities to promote science-based American seafood dominance",
-      "description": "NOAA announces priorities to promote science-based American seafood dominance September 2, 2026 Docked fishing boats at Yaquina Bay in Newport, Oregon. (Image credit: iStock) Today, NOAA announced priorities for advancing reforms within NOAA Fisheries to move towards regulations grounded in science that support American seafood dominance. These agency-level actions follow the Regional Priorities guidance that was released on July 2, 2026, to apply the same standard of accountability to NOAA’s own operations, regulatory frameworks, and scientific pipelines. This priority list serves as an opera",
-      "link": "https://www.noaa.gov/news-release/noaa-announces-priorities-to-promote-science-based-american-seafood-dominance",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-01"
     },
     {
       "title": "Coordinated action on clean air and climate change can net $15 for every dollar spent",
@@ -361,28 +345,20 @@
       "date": "2026-09-02"
     },
     {
-      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
-      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
-      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-11"
-    },
-    {
-      "title": "‘The lake is our life’: Protecting a shared lifeline in Uganda",
-      "description": "On the shores of Nkondo, in Uganda’s Kikuube district, the day begins before sunrise. Fishers enter the lake to fish, while families around Lake Albert rely on its waters for food, income and daily survival.",
-      "link": "https://news.un.org/feed/view/en/story/2026/08/1168228",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-08-30"
-    },
-    {
       "title": "When Bolsonaro Tweeted, Amazon Deforestation Surged, Study Finds",
       "description": "As president of Brazil, Jair Bolsonaro not only weakened environmental regulations and gutted agencies charged with protecting the Amazon, he also railed against conservation. An analysis of his tweets and those of his ministers finds a link between their rhetoric and the acres of forest lost. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/bolsonaro-tweets-amazon",
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-09-29"
+    },
+    {
+      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
+      "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal… The post Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-21"
     },
     {
       "title": "At Least 124 Environmental Defenders Killed Worldwide Last Year",
@@ -393,12 +369,44 @@
       "date": "2026-09-16"
     },
     {
+      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
+      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
+      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "NOAA announces priorities to promote science-based American seafood dominance",
+      "description": "NOAA announces priorities to promote science-based American seafood dominance September 2, 2026 Docked fishing boats at Yaquina Bay in Newport, Oregon. (Image credit: iStock) Today, NOAA announced priorities for advancing reforms within NOAA Fisheries to move towards regulations grounded in science that support American seafood dominance. These agency-level actions follow the Regional Priorities guidance that was released on July 2, 2026, to apply the same standard of accountability to NOAA’s own operations, regulatory frameworks, and scientific pipelines. This priority list serves as an opera",
+      "link": "https://www.noaa.gov/news-release/noaa-announces-priorities-to-promote-science-based-american-seafood-dominance",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-01"
+    },
+    {
+      "title": "‘The lake is our life’: Protecting a shared lifeline in Uganda",
+      "description": "On the shores of Nkondo, in Uganda’s Kikuube district, the day begins before sunrise. Fishers enter the lake to fish, while families around Lake Albert rely on its waters for food, income and daily survival.",
+      "link": "https://news.un.org/feed/view/en/story/2026/08/1168228",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-08-30"
+    },
+    {
       "title": "Sargassum Superbloom: Seaweed Scourge or Ecological Boon?",
       "description": "Stretching from West Africa to the Gulf of Mexico, a massive bloom of sargassum seaweed is swamping beaches and killing coastal wildlife. But scientists have discovered the floating algae also shelters a vast array of ocean creatures, and some are now calling for its protection. Read more on E360 →",
       "link": "https://e360.yale.edu/features/sargassum-belt",
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-09-10"
+    },
+    {
+      "title": "Analysis: UK solar power hits record high over summer 2026",
+      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-04"
     },
     {
       "title": "Guest post: Why tough methane cuts are crucial for keeping warming ‘well-below’ 2C",
@@ -425,12 +433,12 @@
       "date": "2026-09-23"
     },
     {
-      "title": "In India, a Surge of Solar Is Keeping Coal Power in Check",
-      "description": "India, a country of nearly 1.5 billion people, has long relied on coal to power its growing economy. But over the last two years, it has seen a remarkable shift: The rapid buildout of renewable energy has halted the growth of coal. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/india-solar-coal-power",
-      "source": "Yale E360",
+      "title": "Here’s How Delhi Achieved Its Epic Power-Grid Fix",
+      "description": "It’s 6 a.m. on a cold January morning in 2002 in New Delhi. It’s still dark outside, and I’m in the kitchen preparing breakfast, packing lunches, and getting my two children ready to catch the school bus when, for the third time in a week, the power goes out. No lights, no mixer to finish my daughter’s puttu—her favorite rice dish—no kettle, no toaster. The bathroom is dark, and the kids are upset. It will probably be hours before the power comes back on, so I grab a flashlight and light the candles that are set up around the house for these occasions. We’re behind schedule now. We pack the fo",
+      "link": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "source": "IEEE Spectrum",
       "field": "energy",
-      "date": "2026-09-21"
+      "date": "2026-09-28"
     },
     {
       "title": "X-energy and its helium-cooled nuclear reactors",
@@ -441,12 +449,12 @@
       "date": "2026-10-06"
     },
     {
-      "title": "Here’s How Delhi Achieved Its Epic Power-Grid Fix",
-      "description": "It’s 6 a.m. on a cold January morning in 2002 in New Delhi. It’s still dark outside, and I’m in the kitchen preparing breakfast, packing lunches, and getting my two children ready to catch the school bus when, for the third time in a week, the power goes out. No lights, no mixer to finish my daughter’s puttu—her favorite rice dish—no kettle, no toaster. The bathroom is dark, and the kids are upset. It will probably be hours before the power comes back on, so I grab a flashlight and light the candles that are set up around the house for these occasions. We’re behind schedule now. We pack the fo",
-      "link": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "source": "IEEE Spectrum",
+      "title": "In India, a Surge of Solar Is Keeping Coal Power in Check",
+      "description": "India, a country of nearly 1.5 billion people, has long relied on coal to power its growing economy. But over the last two years, it has seen a remarkable shift: The rapid buildout of renewable energy has halted the growth of coal. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/india-solar-coal-power",
+      "source": "Yale E360",
       "field": "energy",
-      "date": "2026-09-28"
+      "date": "2026-09-21"
     },
     {
       "title": "Can the US battery market untangle from China?",
@@ -463,6 +471,14 @@
       "source": "Science",
       "field": "technology",
       "date": "2026-09-18"
+    },
+    {
+      "title": "Scientists engineered a glowing cuttlefish. Why was it so hard?",
+      "description": "Breakthroughs in genetically altering cephalopods pave way for new studies of perception, brain evolution, and more",
+      "link": "https://www.science.org/content/article/scientists-engineered-glowing-cuttlefish-why-was-it-so-hard",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-28"
     },
     {
       "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
@@ -497,12 +513,12 @@
       "date": "2026-10-07"
     },
     {
-      "title": "Scientists engineered a glowing cuttlefish. Why was it so hard?",
-      "description": "Breakthroughs in genetically altering cephalopods pave way for new studies of perception, brain evolution, and more",
-      "link": "https://www.science.org/content/article/scientists-engineered-glowing-cuttlefish-why-was-it-so-hard",
-      "source": "Science",
+      "title": "CERN finds gluons behaving strangely deep inside atomic nuclei",
+      "description": "Physicists at CERN have found a new way to peer deep inside atomic nuclei and distinguish between two competing explanations for how gluons behave. Using the ALICE experiment at the Large Hadron Collider, researchers measured particle production at unprecedented spatial resolution, revealing structures as small as about one-quarter the size of a proton. At the smallest scales, they saw a surprising drop in J/ψ production that conventional “nuclear shadowing” struggles to explain.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260911214303.htm",
+      "source": "ScienceDaily Tech",
       "field": "technology",
-      "date": "2026-09-28"
+      "date": "2026-09-12"
     },
     {
       "title": "Shedding Light on the Brain: Neuroscientists Reflect on Optogenetics Nobel",
@@ -777,6 +793,14 @@
       "date": "2026-09-08"
     },
     {
+      "title": "Scientists recreate a bizarre quantum effect that stops a particle cold",
+      "description": "Oxford physicists have recreated a bizarre quantum effect in which a particle responds to a magnetic field without ever traveling through it. Using a hybrid quantum computer, they demonstrated how introducing a simulated magnetic flux could completely halt a particle's movement through quantum interference. The experiment brings a decades-old prediction into a new setting where matter and quantum fields influence one another.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-13"
+    },
+    {
       "title": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
       "description": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times by shielding quantum information from common forms of electromagnetic noise. If experiments confirm the predictions, the technology could eventually work alongside today’s superconducting qubits or serve as a new kind of quantum memory.",
       "link": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
@@ -791,22 +815,6 @@
       "source": "Science",
       "field": "technology",
       "date": "2026-09-11"
-    },
-    {
-      "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
-      "description": "Four complex physics problems are now within AI’s reach, researchers say",
-      "link": "https://www.science.org/content/article/what-science-problem-should-ai-tackle-next-new-challenge-atlas-offers-answers",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-10"
-    },
-    {
-      "title": "Scientists recreate a bizarre quantum effect that stops a particle cold",
-      "description": "Oxford physicists have recreated a bizarre quantum effect in which a particle responds to a magnetic field without ever traveling through it. Using a hybrid quantum computer, they demonstrated how introducing a simulated magnetic flux could completely halt a particle's movement through quantum interference. The experiment brings a decades-old prediction into a new setting where matter and quantum fields influence one another.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-13"
     },
     {
       "title": "‘Rocket revolution’ opens access to space",
@@ -855,6 +863,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-29"
+    },
+    {
+      "title": "Rise in poverty is ‘a wake-up call for the world’, UN development chief says",
+      "description": "The number of people living in “multidimensional” poverty has risen for the first time in 15 years, reaching 1.2 billion, as families struggle to meet their basic needs.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168574",
+      "source": "UN News SDGs",
+      "field": "development",
+      "date": "2026-10-12"
     },
     {
       "title": "ADB Supports Modernization of Azerbaijan’s Bilajari–Yalama Railway Line",
@@ -959,14 +975,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-01"
-    },
-    {
-      "title": "Rise in poverty is ‘a wake-up call for the world’, UN development chief says",
-      "description": "The number of people living in “multidimensional” poverty has risen for the first time in 15 years, reaching 1.2 billion, as families struggle to meet their basic needs.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168574",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-10-12"
     },
     {
       "title": "Clean your plate – to reduce food loss and waste",
@@ -1169,20 +1177,20 @@
       "date": "2026-09-03"
     },
     {
-      "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
-      "description": "Following revelations from the UN nuclear watchdog that the former Syrian regime failed to report holding nuclear material and the discovery in May of an undeclared chemical weapons cache, the Security Council meets Thursday at 10am (local time) to be briefed on latest developments and discuss the way ahead.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168271",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-03"
-    },
-    {
       "title": "ONE-MINUTE CRASH COURSES",
       "description": "Take our one-minute crash courses and find out how these discoveries and achievements have changed our world. The 2026 one-minute crash courses will be published here in November. The post ONE-MINUTE CRASH COURSES appeared first on NobelPrize.org.",
       "link": "https://www.nobelprize.org/educational/one-minute-crash-courses/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-10-01"
+    },
+    {
+      "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
+      "description": "Following revelations from the UN nuclear watchdog that the former Syrian regime failed to report holding nuclear material and the discovery in May of an undeclared chemical weapons cache, the Security Council meets Thursday at 10am (local time) to be briefed on latest developments and discuss the way ahead.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168271",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-03"
     },
     {
       "title": "At SCO summit In Kyrgyzstan, Guterres calls for more representative global governance",
@@ -1233,12 +1241,36 @@
       "date": "2026-10-08"
     },
     {
-      "title": "What happened this month at the European Space Agency? (September 2026)",
-      "description": "Video: 00:03:32 September was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo separated from its Mercury Transfer Module, taking another step towards Mercury. Spectrum became the first rocket to reach orbit from continental Europe. And the James Webb Space Telescope found tiny brown dwarfs that could harbor the building blocks of planets. Here’s a look at what space had in store for Europe this September!",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
-      "source": "ESA",
+      "title": "NASA’s Record-Setting Perseverance Rover Team",
+      "description": "Description Members of NASA’s Perseverance Mars mission team gather in the Mars Yard at the agency’s Jet Propulsion Laboratory in Southern California with a certificate from Guinness World Records marking the rover distance record on the Red Planet. Positioned in front of the team is OPTIMISM (Operational Perseverance Twin for Integration of Mechanisms and Instruments […]",
+      "link": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
+      "source": "NASA",
       "field": "space",
-      "date": "2026-10-01"
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Perseverance Navcam Image Marks Record Drive",
+      "description": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct. 11, 2026, the 2,006th Martian day, or sol, of the mission. During that sol’s drive, spanning 299.6 feet (91.31 meters), the mission passed a major milestone: pushing Perseverance’s total […]",
+      "link": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Transporter-18 SmallSats Encapsulation",
+      "description": "Three NASA-supported small spacecraft, along with many commercial payloads, are shown before being encapsulated in a SpaceX Falcon 9 ahead of launch on Oct. 1, 2026. The ASCENT Propulsion Dual Mode CubeSat, the Supernova Remnants and Proxies for ReIonization Testbed Experiment (SPRITE) CubeSat, and the Small Spacecraft Propulsion and Inspection Capability (SSPICY) mission will demonstrate […]",
+      "link": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Voyager Technologies’ Griffin-1 Completes Environmental Testing at NASA JPL",
+      "description": "Description A lunar lander from Voyager Technologies completed nearly three months of environmental testing at NASA’s Jet Propulsion Laboratory in Southern California in late September 2026. The tests demonstrate that the spacecraft is prepared to face the harsh conditions of launch, its journey to the Moon, and landing on the surface. Its final trial was […]",
+      "link": "https://science.nasa.gov/photojournal/voyager-technologies-griffin-1-completes-environmental-testing-at-nasa-jpl/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
     },
     {
       "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -1255,6 +1287,38 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-10-13"
+    },
+    {
+      "title": "NASA’s Hubble Telescope Reaches Milestone, Looks for Elusive Supernova",
+      "description": "NASA’s Hubble Space Telescope captured this image of massive galaxy cluster MACS J0417 (left of center) on Sept. 19, 2026. This galaxy cluster acts as a gravitational lens, bending and magnifying light from objects far behind it. Supernova Athena, discovered by NASA’s James Webb Space Telescope in 2025, is predicted to reappear between now and […]",
+      "link": "https://www.nasa.gov/image-article/nasas-hubble-telescope-reaches-milestone-looks-for-elusive-supernova/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-23"
+    },
+    {
+      "title": "NASA’s Hubble Seeks Lensed Supernova, Marks 200,000 Orbits",
+      "description": "NASA’s Hubble Space Telescope completed its 200,000th orbit around Earth on Sept. 19, marking another new milestone for an observatory that continues to transform our understanding of the universe. Hubble has traveled more than 5 billion miles around Earth over its 36-year lifetime, exceeding 1.7 million total observations. An observation completed on the day of […]",
+      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-seeks-lensed-supernova-marks-200000-orbits/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-23"
+    },
+    {
+      "title": "What happened this month at the European Space Agency? (September 2026)",
+      "description": "Video: 00:03:32 September was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo separated from its Mercury Transfer Module, taking another step towards Mercury. Spectrum became the first rocket to reach orbit from continental Europe. And the James Webb Space Telescope found tiny brown dwarfs that could harbor the building blocks of planets. Here’s a look at what space had in store for Europe this September!",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "NASA astronauts splash down after 100 million miles in space",
+      "description": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the Moon and Mars. The mission also made history with record-setting spacewalk achievements and experiments that could transform medicine both in space and on Earth.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
+      "source": "ScienceDaily Tech",
+      "field": "space",
+      "date": "2026-10-09"
     },
     {
       "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
@@ -1281,22 +1345,6 @@
       "date": "2026-10-08"
     },
     {
-      "title": "NASA’s Hubble Telescope Reaches Milestone, Looks for Elusive Supernova",
-      "description": "NASA’s Hubble Space Telescope captured this image of massive galaxy cluster MACS J0417 (left of center) on Sept. 19, 2026. This galaxy cluster acts as a gravitational lens, bending and magnifying light from objects far behind it. Supernova Athena, discovered by NASA’s James Webb Space Telescope in 2025, is predicted to reappear between now and […]",
-      "link": "https://www.nasa.gov/image-article/nasas-hubble-telescope-reaches-milestone-looks-for-elusive-supernova/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "NASA’s Hubble Seeks Lensed Supernova, Marks 200,000 Orbits",
-      "description": "NASA’s Hubble Space Telescope completed its 200,000th orbit around Earth on Sept. 19, marking another new milestone for an observatory that continues to transform our understanding of the universe. Hubble has traveled more than 5 billion miles around Earth over its 36-year lifetime, exceeding 1.7 million total observations. An observation completed on the day of […]",
-      "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-seeks-lensed-supernova-marks-200000-orbits/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-23"
-    },
-    {
       "title": "Curiosity Blog, Sols 5002-5009: Tough Planning To Learn More About Wind-Blown Sediments",
       "description": "Written by Benjamin Tutolo, Professor, University of Calgary Earth planning date: Friday, Sept. 4, 2026 Curiosity has marked several huge milestones (14 years on Mars; 5,000 sols on Mars; 1 kilometer of elevation gain since landing) over the past several weeks, and the team has duly celebrated these remarkable achievements. These celebrations punctuate the rover’s […]",
       "link": "https://science.nasa.gov/blog/1345718/",
@@ -1311,14 +1359,6 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-09-15"
-    },
-    {
-      "title": "NASA astronauts splash down after 100 million miles in space",
-      "description": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the Moon and Mars. The mission also made history with record-setting spacewalk achievements and experiments that could transform medicine both in space and on Earth.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
-      "source": "ScienceDaily Tech",
-      "field": "space",
-      "date": "2026-10-09"
     },
     {
       "title": "NASA Briefing to Highlight Contributions to Martian Moons Mission",
@@ -1361,22 +1401,6 @@
       "date": "2026-10-07"
     },
     {
-      "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
-      "description": "APOD Science APOD APOD: 2026 October 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. ESA, CAS, […]",
-      "link": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-06"
-    },
-    {
-      "title": "Astronomers Solve Cosmic Cold Case with NASA Hubble Data",
-      "description": "Diligent sleuthing by astronomers uncovered a surprising chemical clue that indicates the white dwarf star HS 0209+0832 may host a second-generation planet. This artist’s concept released on Oct. 5, 2026, depicts that possible explanation. The white dwarf is the “dead” core of a star that burned through all of its nuclear fuel and lost its outer […]",
-      "link": "https://www.nasa.gov/image-article/astronomers-solve-cosmic-cold-case-with-nasa-hubble-data/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-06"
-    },
-    {
       "title": "NASA Model Wing Lights Up During First Pressure Sensitive Paint Tests",
       "description": "Groundbreaking tests at NASA’s Langley Research Center in Hampton, Virginia, are paving the way for new wind tunnel capabilities for designing the aircraft technologies of the future. In a first-of-its-kind test in NASA Langley’s Transonic Dynamics Tunnel, researchers used unsteady Pressure Sensitive Paint to study how air flows around a standard wind tunnel model known […]",
       "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
@@ -1393,52 +1417,44 @@
       "date": "2026-09-28"
     },
     {
-      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
-      "description": "On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s oceans, land, ice and atmosphere. At ESA’s European Space Operations Centre (ESOC), two independent mission teams are preparing to operate the spacecraft in parallel in a closely coordinated effort. As launch approaches, they are rehearsing side by side to prepare not only for their own missions, but also for the moments when the two operations intersect.",
-      "link": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
+      "title": "BepiColombo begins Mercury arrival with MTM separation success",
+      "description": "On 3 September 2026 at 15:49 CEST, the European Space Agency's BepiColombo Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for – BepiColombo’s Mercury Transfer Module (MTM) successfully separated from the spacecraft stack. This landmark achievement for the ESA and Japan Aerospace Exploration Agency (JAXA) mission marks the first step of BepiColombo's long-awaited arrival at Mercury.",
+      "link": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
       "source": "ESA",
       "field": "space",
-      "date": "2026-09-11"
+      "date": "2026-09-07"
     },
     {
-      "title": "What happened this month at the European Space Agency? (August 2026)",
-      "description": "Video: 00:03:19 August was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries. From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, to the launch of MTG-I2 aboard Ariane 6, a breathtaking flight over Mars and a surprising discovery near our galaxy’s central black hole, here’s your monthly roundup from the European Space Agency.",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/What_happened_this_month_at_the_European_Space_Agency_August_2026",
-      "source": "ESA",
+      "title": "SpaceX launches NASA science and cargo to the International Space Station",
+      "description": "The sunrise launch on Oct. 13 was the 35th SpaceX flight under the Commercial Resupply Services 2 contract with NASA.",
+      "link": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/",
+      "source": "Spaceflight Now",
       "field": "space",
-      "date": "2026-08-31"
+      "date": "2026-10-13"
     },
     {
-      "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
-      "description": "“I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’” That’s how Richard Spolzino describes the thing he’s chasing. Not a title, not a specific mission, not even NASA itself, just the ability to point at something real and know his work made it possible. At […]",
-      "link": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+      "title": "APOD: 2026 October 6 – A Complete Auroral Oval from SMILE",
+      "description": "APOD Science APOD APOD: 2026 October 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. ESA, CAS, […]",
+      "link": "https://science.nasa.gov/image-article/apod-2026-october-6-a-complete-auroral-oval-from-smile/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-10-04"
+      "date": "2026-10-06"
     },
     {
-      "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
-      "description": "What does it take to image hundreds of nebulas? Today’s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore!",
-      "link": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+      "title": "Astronomers Solve Cosmic Cold Case with NASA Hubble Data",
+      "description": "Diligent sleuthing by astronomers uncovered a surprising chemical clue that indicates the white dwarf star HS 0209+0832 may host a second-generation planet. This artist’s concept released on Oct. 5, 2026, depicts that possible explanation. The white dwarf is the “dead” core of a star that burned through all of its nuclear fuel and lost its outer […]",
+      "link": "https://www.nasa.gov/image-article/astronomers-solve-cosmic-cold-case-with-nasa-hubble-data/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-10-02"
+      "date": "2026-10-06"
     },
     {
-      "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
-      "description": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. “Crew-13 is another demonstration of America’s unmatched capability in human spaceflight and the strength of our commercial partnerships,” said […]",
-      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+      "title": "NASA Awards Enterprise Logistics Support Services Agreements",
+      "description": "NASA selected 16 companies to provide Enterprise Logistics Support Services under new agreements that will standardize requirements, improve reporting, and streamline the management of costs and resources. The $1.4 billion blanket purchase agreements will support equipment and property management, transportation, disposal, product support, flight hardware support operations, equipment maintenance and repair, export control, move operations, […]",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
       "source": "NASA",
       "field": "space",
       "date": "2026-10-01"
-    },
-    {
-      "title": "NASA Adds Blue Origin New Glenn 9×4 to Launch Services Contract",
-      "description": "In accordance with a contract on-ramp clause, NASA has added Blue Origin’s New Glenn 9×4 launch service to the NASA Launch Services (NLS) II contract. The New Glenn 9×4 launch service will be available to NASA’s Launch Services Program Office to use for future missions. The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts with an […]",
-      "link": "https://www.nasa.gov/news-release/nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-29"
     },
     {
       "title": "NASA Sets Crew-13 Launch, Docking Coverage",
@@ -1455,14 +1471,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-29"
-    },
-    {
-      "title": "SpaceX launches NASA science and cargo to the International Space Station",
-      "description": "The sunrise launch on Oct. 13 was the 35th SpaceX flight under the Commercial Resupply Services 2 contract with NASA.",
-      "link": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-10-13"
     },
     {
       "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
@@ -1503,6 +1511,14 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-25"
+    },
+    {
+      "title": "Passion Meets Precision at NASA’s Flight Research Lab",
+      "description": "Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their creations at hobby events. That early passion now fuels the work of NASA’s Dale Reed Subscale Flight Research Laboratory at the agency’s Armstrong Flight […]",
+      "link": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-16"
     },
     {
       "title": "2026-2027 DWU: Middle School Design Challenge",
@@ -1553,25 +1569,17 @@
       "date": "2026-09-23"
     },
     {
+      "title": "What science problem should AI tackle next? A new ‘challenge atlas’ offers answers",
+      "description": "Four complex physics problems are now within AI’s reach, researchers say",
+      "link": "https://www.science.org/content/article/what-science-problem-should-ai-tackle-next-new-challenge-atlas-offers-answers",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-10"
+    },
+    {
       "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
       "description": "Arctic sea ice reached its annual minimum extent on Sept. 12, according to NASA and the National Snow and Ice Data Center (NSIDC) at the University of Colorado Boulder. The ice covered an estimated 1.78 million square miles (4.6 million square kilometers), tying 2008, 2010, and 2025 for the 10th-lowest minimum in the satellite record. […]",
       "link": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "Europe's new Sentinel-3C satellite just sent back spectacular images of Earth",
-      "description": "Europe's Sentinel-3C satellite has returned breathtaking images of Earth just two weeks after launch, revealing the snowy Alps, frozen Arctic islands, and brilliant turquoise Caribbean waters. Its first measurements also show promising results for tracking rising seas, melting ice sheets, and other changes reshaping our planet.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261011211559.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-12"
-    },
-    {
-      "title": "Boom Year for Desert Blooms",
-      "description": "Carpets of wildflowers burst from arid, ochre-colored land in Western Australia following winter rains.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/boom-year-for-desert-blooms/",
       "source": "NASA",
       "field": "space",
       "date": "2026-09-23"
@@ -1601,100 +1609,12 @@
       "date": "2026-09-17"
     },
     {
-      "title": "Passion Meets Precision at NASA’s Flight Research Lab",
-      "description": "Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their creations at hobby events. That early passion now fuels the work of NASA’s Dale Reed Subscale Flight Research Laboratory at the agency’s Armstrong Flight […]",
-      "link": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "NASA Answers President’s Call to Establish United States Space Academy",
-      "description": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce and leadership. NASA Administrator Jared Isaacman chaired the first Presidential Commission on the United States Space Academy […]",
-      "link": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-10"
-    },
-    {
-      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
-      "description": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Houston. In an emeritus role, individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their […]",
-      "link": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "Ribbon-Cutting Event for NASA Deep Space Network’s Deep Space Station 23",
-      "description": "Description Leadership from NASA Headquarters, the Jet Propulsion Laboratory, and the Deep Space Network (DSN) stand in front of the recently completed Deep Space Station 23 antenna at the Deep Space Network’s Goldstone complex near Barstow, California, on Aug. 25, 2026. From left: Germaine Aziz (project manager, DSN Aperture Enhancement Project, JPL); Bradford Arnold (manager, […]",
-      "link": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-08-30"
-    },
-    {
-      "title": "Keeping the sky dark and quiet",
-      "description": "For thousands of years, the night sky has inspired humanity, guided explorers and helped scientists unlock the mysteries of the Universe. As the number of satellites in orbit grows, their reflected light and radio frequency interference become a challenge for both professional astronomy and simple stargazing. The European Space Agency (ESA) and the International Astronomical Union’s Centre for the Protection of the Dark and Quiet Sky (IAU CPS) have signed an agreement at the International Astronautical Congress to strengthen cooperation and develop technical solutions to keep the sky dark and ",
-      "link": "https://www.esa.int/Space_Safety/Clean_Space/Keeping_the_sky_dark_and_quiet",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
-      "description": "Launched two years ago today, the European Space Agency’s Hera mission for planetary defence has been hurtling away from Earth ever since. The small-car-sized spacecraft is now preparing for its single most challenging activity since lift-off: the sustained braking manoeuvres to slow it down to approach its target asteroids.",
-      "link": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-10-07"
-    },
-    {
-      "title": "Juice’s September 2026 Earth flyby: the movie",
-      "description": "Video: 00:00:48 On 28 September 2026, ESA’s Jupiter Icy Moons Explorer (Juice) successfully completed a gravity assist flyby of Earth. Flight controllers guided the spacecraft close to our home planet to increase its velocity by 3.5 km/s and deflect its trajectory by an angle of 20°. As Juice flew just 8640 km above the Indian Ocean, it snapped a series of images with its onboard monitoring cameras, giving us a unique ‘Juice eye view’ of our home planet. Juice’s monitoring cameras provide 1024 x 1024 pixel snapshots that can be processed in colour. Their main purpose is to monitor the spacecra",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Juice_s_September_2026_Earth_flyby_the_movie",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Teams from Caltech, JPL, Honored by NASA",
-      "description": "Two missions led by Caltech and the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, have received recognition from NASA for outstanding achievements.Caltech's Jamie Bock, the Marvin L. Goldberger Professor of Physics and JPL senior research scientist, is receiving NASA's Exceptional Scientific Achievement Medal for SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer). Bock is the mission's principal investigator.The medal is awarded for \"exceptional scientific contributions toward achievement of NASA's mission and is given for i",
-      "link": "https://www.caltech.edu/about/news/teams-from-caltech-jpl-honored-by-nasa",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "First switch on for ESA-JAXA Ramses asteroid mission",
-      "description": "The European Space Agency’s and Japan Aerospace Exploration Agency’s Ramses planetary defence spacecraft has been turned on for the first time by its prime contractor – marking a major milestone in its time-critical development schedule.",
-      "link": "https://www.esa.int/Space_Safety/Planetary_Defence/First_switch_on_for_ESA-JAXA_Ramses_asteroid_mission",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-09-23"
-    },
-    {
-      "title": "BepiColombo begins Mercury arrival with MTM separation success",
-      "description": "On 3 September 2026 at 15:49 CEST, the European Space Agency's BepiColombo Mission Control Team at the European Space Operations Centre (ESOC) received the signal they had been waiting for – BepiColombo’s Mercury Transfer Module (MTM) successfully separated from the spacecraft stack. This landmark achievement for the ESA and Japan Aerospace Exploration Agency (JAXA) mission marks the first step of BepiColombo's long-awaited arrival at Mercury.",
-      "link": "https://www.esa.int/Enabling_Support/Operations/BepiColombo_begins_Mercury_arrival_with_MTM_separation_success",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-09-07"
-    },
-    {
-      "title": "Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight",
-      "description": "The Super Heavy first stage booster, generating some 16 million pounds of thrust — twice the power of NASA's Space Launch System moon rocket — rapidly accelerated as it consumed propellant and lost weight, climbing out of the thick lower atmosphere along a southeasterly trajectory.",
-      "link": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "NASA Awards Enterprise Logistics Support Services Agreements",
-      "description": "NASA selected 16 companies to provide Enterprise Logistics Support Services under new agreements that will standardize requirements, improve reporting, and streamline the management of costs and resources. The $1.4 billion blanket purchase agreements will support equipment and property management, transportation, disposal, product support, flight hardware support operations, equipment maintenance and repair, export control, move operations, […]",
-      "link": "https://www.nasa.gov/news-release/nasa-awards-enterprise-logistics-support-services-agreements/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-01"
+      "title": "Quantum computer simulates matter “popping into existence”",
+      "description": "Scientists recreated a particle-forming process linked to the extreme physics of the early universe using a 13-ion quantum simulator. The breakthrough suggests quantum computers could eventually help researchers investigate how matter formed and evolved after the Big Bang.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260925005416.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-09-26"
     },
     {
       "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
@@ -1721,12 +1641,28 @@
       "date": "2026-09-14"
     },
     {
+      "title": "NASA Answers President’s Call to Establish United States Space Academy",
+      "description": "Less than two weeks after an Executive Order was signed to create the first United States Space Academy, NASA-led work is in full swing to make the academy a reality and shape the future of America’s aerospace workforce and leadership. NASA Administrator Jared Isaacman chaired the first Presidential Commission on the United States Space Academy […]",
+      "link": "https://www.nasa.gov/news-release/nasa-answers-presidents-call-to-establish-united-states-space-academy/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-10"
+    },
+    {
       "title": "Dust and Water in Sagittarius A*",
       "description": "A brilliant concentration of stars takes center stage in this Aug. 11, 2026, image taken by NASA’s James Webb Space Telescope. Webb observed IRS 3, a star near the end of its life cycle, located within this starfield. Webb’s mid-infrared data revealed the clear signature of oxygen-rich silicate dust, as well as, for the first […]",
       "link": "https://www.nasa.gov/image-article/dust-and-water-in-sagittarius-a/",
       "source": "NASA",
       "field": "space",
       "date": "2026-09-10"
+    },
+    {
+      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
+      "description": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Houston. In an emeritus role, individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their […]",
+      "link": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-09"
     },
     {
       "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
@@ -1751,6 +1687,150 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-10-09"
+    },
+    {
+      "title": "Keeping the sky dark and quiet",
+      "description": "For thousands of years, the night sky has inspired humanity, guided explorers and helped scientists unlock the mysteries of the Universe. As the number of satellites in orbit grows, their reflected light and radio frequency interference become a challenge for both professional astronomy and simple stargazing. The European Space Agency (ESA) and the International Astronomical Union’s Centre for the Protection of the Dark and Quiet Sky (IAU CPS) have signed an agreement at the International Astronautical Congress to strengthen cooperation and develop technical solutions to keep the sky dark and ",
+      "link": "https://www.esa.int/Space_Safety/Clean_Space/Keeping_the_sky_dark_and_quiet",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "Brake! Time for ESA’s Hera asteroid mission to go slow",
+      "description": "Launched two years ago today, the European Space Agency’s Hera mission for planetary defence has been hurtling away from Earth ever since. The small-car-sized spacecraft is now preparing for its single most challenging activity since lift-off: the sustained braking manoeuvres to slow it down to approach its target asteroids.",
+      "link": "https://www.esa.int/Space_Safety/Hera/Brake!_Time_for_ESA_s_Hera_asteroid_mission_to_go_slow",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "3 Questions: A new resource to empower young entrepreneurs",
+      "description": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
+      "link": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "MIT class project turns into an FDA-cleared treatment for tremors",
+      "description": "Wristband device from Encora Therapeutics started as a project in 2.009, MIT’s iconic product-design class.",
+      "link": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "Juice’s September 2026 Earth flyby: the movie",
+      "description": "Video: 00:00:48 On 28 September 2026, ESA’s Jupiter Icy Moons Explorer (Juice) successfully completed a gravity assist flyby of Earth. Flight controllers guided the spacecraft close to our home planet to increase its velocity by 3.5 km/s and deflect its trajectory by an angle of 20°. As Juice flew just 8640 km above the Indian Ocean, it snapped a series of images with its onboard monitoring cameras, giving us a unique ‘Juice eye view’ of our home planet. Juice’s monitoring cameras provide 1024 x 1024 pixel snapshots that can be processed in colour. Their main purpose is to monitor the spacecra",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Juice_s_September_2026_Earth_flyby_the_movie",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "A team of teams like never before: rehearsing a unique launch at ESA mission control",
+      "description": "On 15 September, two spacecraft will leave Earth together aboard the same launcher from Europe’s spaceport in Kourou: FLEX, ESA’s photosynthesis mission, and Sentinel-3C, Copernicus’ newest satellite monitoring Earth’s oceans, land, ice and atmosphere. At ESA’s European Space Operations Centre (ESOC), two independent mission teams are preparing to operate the spacecraft in parallel in a closely coordinated effort. As launch approaches, they are rehearsing side by side to prepare not only for their own missions, but also for the moments when the two operations intersect.",
+      "link": "https://www.esa.int/Enabling_Support/Operations/A_team_of_teams_like_never_before_rehearsing_a_unique_launch_at_ESA_mission_control",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "What happened this month at the European Space Agency? (August 2026)",
+      "description": "Video: 00:03:19 August was a busy month for ESA, between spectacular views, historic milestones and exciting new discoveries. From a total solar eclipse broadcast live from Spain and Sophie Adenot’s historic spacewalks, to the launch of MTG-I2 aboard Ariane 6, a breathtaking flight over Mars and a surprising discovery near our galaxy’s central black hole, here’s your monthly roundup from the European Space Agency.",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/08/What_happened_this_month_at_the_European_Space_Agency_August_2026",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-08-31"
+    },
+    {
+      "title": "Mapping the Gaps in NASA’s Return to the Moon, featuring Richard Spolzino",
+      "description": "“I want to be able to look at a rocket launch and say, ‘I touched a piece of this.’” That’s how Richard Spolzino describes the thing he’s chasing. Not a title, not a specific mission, not even NASA itself, just the ability to point at something real and know his work made it possible. At […]",
+      "link": "https://www.nasa.gov/general/mapping-the-gaps-in-nasas-return-to-the-moon-featuring-richard-spolzino/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-04"
+    },
+    {
+      "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
+      "description": "What does it take to image hundreds of nebulas? Today’s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore!",
+      "link": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-02"
+    },
+    {
+      "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
+      "description": "Four crew members of NASA’s SpaceX Crew-13 mission launched at 11:10 a.m. EDT Thursday from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida for a science expedition aboard the International Space Station. “Crew-13 is another demonstration of America’s unmatched capability in human spaceflight and the strength of our commercial partnerships,” said […]",
+      "link": "https://www.nasa.gov/news-release/nasas-spacex-crew-13-launches-to-international-space-station/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "NASA Adds Blue Origin New Glenn 9×4 to Launch Services Contract",
+      "description": "In accordance with a contract on-ramp clause, NASA has added Blue Origin’s New Glenn 9×4 launch service to the NASA Launch Services (NLS) II contract. The New Glenn 9×4 launch service will be available to NASA’s Launch Services Program Office to use for future missions. The NLS II contracts are multiple-award, indefinite-delivery/indefinite-quantity contracts with an […]",
+      "link": "https://www.nasa.gov/news-release/nasa-adds-blue-origin-new-glenn-9x4-to-launch-services-contract/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
+      "description": "The new, five-day MIT event reaches takeoff with a forum about discovery and innovation.",
+      "link": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "Caltech Roboticist Says Safety Should Be Top Concern with Humanoid Robots",
+      "description": "A quick search of humanoid robot videos will deliver demonstrations of two-legged robots playing soccer, dancing, jumping several feet in the air, even competing in kickboxing matches. It is all dazzling, certainly. But roboticist Aaron Ames, the Booth-Kresa Leadership Chair and director of Caltech's Center for Autonomous Systems and Technologies (CAST) and a leader in the field of robotic safety, has deep concerns. What is crucially missing before humanoids can play a larger role in our lives and society, Ames says, is safety.Without the adoption of clear safety standards, Ames argues, someon",
+      "link": "https://www.caltech.edu/about/news/caltech-roboticist-says-safety-should-be-top-concern-with-humanoid-robots",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Teams from Caltech, JPL, Honored by NASA",
+      "description": "Two missions led by Caltech and the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, have received recognition from NASA for outstanding achievements.Caltech's Jamie Bock, the Marvin L. Goldberger Professor of Physics and JPL senior research scientist, is receiving NASA's Exceptional Scientific Achievement Medal for SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer). Bock is the mission's principal investigator.The medal is awarded for \"exceptional scientific contributions toward achievement of NASA's mission and is given for i",
+      "link": "https://www.caltech.edu/about/news/teams-from-caltech-jpl-honored-by-nasa",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "“Technology is the equalizer”",
+      "description": "Using knowledge gained from MIT’s free learning materials, an educator in rural India builds apps to reach students who can’t make it to school.",
+      "link": "https://news.mit.edu/2026/technology-is-the-equalizer-0916",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-16"
+    },
+    {
+      "title": "A burst of “pink noise” may lead to more restorative sleep",
+      "description": "Delivered at just the right time, this type of auditory stimulus can strengthen the flow of cerebrospinal fluid, which clears debris from the brain and keeps it healthy.",
+      "link": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "description": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate…",
+      "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Europe's new Sentinel-3C satellite just sent back spectacular images of Earth",
+      "description": "Europe's Sentinel-3C satellite has returned breathtaking images of Earth just two weeks after launch, revealing the snowy Alps, frozen Arctic islands, and brilliant turquoise Caribbean waters. Its first measurements also show promising results for tracking rising seas, melting ice sheets, and other changes reshaping our planet.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261011211559.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-12"
     },
     {
       "title": "DOE Funds AI-Driven Catalyst Discovery Project as Part of Genesis Mission",
@@ -1785,60 +1865,12 @@
       "date": "2026-10-06"
     },
     {
-      "title": "3 Questions: A new resource to empower young entrepreneurs",
-      "description": "Martin Trust Center Managing Director Bill Aulet introduces Dear Dreamer, a free platform for middle and high school students who want to learn about entrepreneurship.",
-      "link": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-02"
-    },
-    {
-      "title": "MIT class project turns into an FDA-cleared treatment for tremors",
-      "description": "Wristband device from Encora Therapeutics started as a project in 2.009, MIT’s iconic product-design class.",
-      "link": "https://news.mit.edu/2026/mit-class-project-turns-into-fda-cleared-treatment-for-tremors-1002",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-02"
-    },
-    {
       "title": "Computational tools for society’s most complex challenges",
       "description": "Associate Professor Cathy Wu uses reinforcement learning to help map out improvements to transportation and other multifaceted systems.",
       "link": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-10-02"
-    },
-    {
-      "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
-      "description": "The new, five-day MIT event reaches takeoff with a forum about discovery and innovation.",
-      "link": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Caltech Roboticist Says Safety Should Be Top Concern with Humanoid Robots",
-      "description": "A quick search of humanoid robot videos will deliver demonstrations of two-legged robots playing soccer, dancing, jumping several feet in the air, even competing in kickboxing matches. It is all dazzling, certainly. But roboticist Aaron Ames, the Booth-Kresa Leadership Chair and director of Caltech's Center for Autonomous Systems and Technologies (CAST) and a leader in the field of robotic safety, has deep concerns. What is crucially missing before humanoids can play a larger role in our lives and society, Ames says, is safety.Without the adoption of clear safety standards, Ames argues, someon",
-      "link": "https://www.caltech.edu/about/news/caltech-roboticist-says-safety-should-be-top-concern-with-humanoid-robots",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "“Technology is the equalizer”",
-      "description": "Using knowledge gained from MIT’s free learning materials, an educator in rural India builds apps to reach students who can’t make it to school.",
-      "link": "https://news.mit.edu/2026/technology-is-the-equalizer-0916",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "A burst of “pink noise” may lead to more restorative sleep",
-      "description": "Delivered at just the right time, this type of auditory stimulus can strengthen the flow of cerebrospinal fluid, which clears debris from the brain and keeps it healthy.",
-      "link": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-09-09"
     },
     {
       "title": "Fast Radio Bursts Poised to Help with Biggest Cosmic Mysteries",
@@ -1873,14 +1905,6 @@
       "date": "2026-10-06"
     },
     {
-      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
-      "description": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting country, its leader continues to deny climate…",
-      "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
       "title": "WeLion New Energy and its semi-solid-state batteries",
       "description": "WeLion New Energy is on a quest to make safer, better batteries. The company’s semi-solid-state cells could improve safety and offer greater energy density than lithium-ion batteries to power electric cars, boats, and drones. From the EVs that carry commuters home to the ships that transport goods across countries, more and more vehicles around us…",
       "link": "https://www.technologyreview.com/2026/10/06/1144987/2026-climate-tech-companies-to-watch-welion-semi-solid-state-batteries/",
@@ -1895,22 +1919,6 @@
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-10-09"
-    },
-    {
-      "title": "Quantum computer simulates matter “popping into existence”",
-      "description": "Scientists recreated a particle-forming process linked to the extreme physics of the early universe using a 13-ion quantum simulator. The breakthrough suggests quantum computers could eventually help researchers investigate how matter formed and evolved after the Big Bang.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260925005416.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-26"
-    },
-    {
-      "title": "CERN finds gluons behaving strangely deep inside atomic nuclei",
-      "description": "Physicists at CERN have found a new way to peer deep inside atomic nuclei and distinguish between two competing explanations for how gluons behave. Using the ALICE experiment at the Large Hadron Collider, researchers measured particle production at unprecedented spatial resolution, revealing structures as small as about one-quarter the size of a proton. At the smallest scales, they saw a surprising drop in J/ψ production that conventional “nuclear shadowing” struggles to explain.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260911214303.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-09-12"
     }
   ]
 }
