@@ -1,18 +1,18 @@
 {
   "date": "2026-10-16",
-  "lastUpdated": "2026-10-16T08:41:34.707Z",
+  "lastUpdated": "2026-10-16T15:57:35.248Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "22.0s",
+    "executionTime": "29.0s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 34,
-    "totalCandidates": 243,
-    "totalSelected": 243,
+    "sourcesSuccessful": 32,
+    "totalCandidates": 247,
+    "totalSelected": 242,
     "entriesByField": {
-      "health": 19,
-      "climate": 31,
+      "health": 16,
+      "climate": 32,
       "energy": 6,
-      "technology": 65,
+      "technology": 66,
       "education": 3,
       "development": 34,
       "peace": 18,
@@ -21,11 +21,11 @@
     },
     "categoryIntegrity": {
       "health": {
-        "kept": 4,
+        "kept": 1,
         "changed": 0
       },
       "climate": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "energy": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 0,
+        "kept": 4,
         "changed": 0
       },
       "education": {
@@ -53,17 +53,25 @@
         "changed": 0
       },
       "space": {
-        "kept": 0,
+        "kept": 2,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 27,
-      "topTierSources": 158,
-      "highCredibilitySources": 226
+      "highScoreEntries": 30,
+      "topTierSources": 154,
+      "highCredibilitySources": 223
     }
   },
   "entries": [
+    {
+      "title": "[Series] Peripheral arterial disease: adverse impacts, disparities in outcomes, and the path ahead",
+      "description": "This is the third paper in the peripheral arterial disease (PAD) Series. The first and second papers in this Series outline that PAD affects over 300 million people worldwide and can be diagnosed by non-invasive tests, as well as that treatment requires medications to reduce modifiable risk factors and that exercise therapy and revascularisation are required in selected patients. In this paper, the devastating effects of PAD at the individual level are described, including chronic pain, functional limitation, loss of independence, impaired physical and mental quality of life, unemployment, and",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00847-0/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-09-22"
+    },
     {
       "title": "[The Lancet Commissions] The NUS–Lancet PRIME Commission: transforming pandemic readiness for equity",
       "description": "The National University of Singapore (NUS)–Lancet Pandemic Readiness through Institutions, Mobilising Communities, and Equity (PRIME) Commission redefines pandemic readiness and offers a practical blueprint for whole-of-society pandemic planning and implementation. Drawing on the hard lessons of the COVID-19 pandemic, the Commission brings together evidence from 20 countries, including interviews with members of diverse communities and groups, future scenarios, and epidemiological modelling. By integrating lived experience with systems analysis and forward-looking evidence, the Commission sets",
@@ -73,28 +81,12 @@
       "date": "2026-09-20"
     },
     {
-      "title": "France's new Global Health Strategy",
-      "description": "France has released its Global Health Strategy for 2023-2027, in Lyon today, in the presence of three French Ministers, the Minister for Europe and Foreign Affairs, the Minister of Health and Prevention, the Minister of Higher Education and Research, and WHO’s Director-General. As a lead player for shaping global health policies, France has called on national and international stakeholders to support building a new global health architecture towards achieving the Sustainable Development Goals (SDGs) and in particular SDG3, focused on ensuring healthy lives and promoting well-being for all, at ",
-      "link": "https://www.who.int/news/item/12-10-2023-france-s-new-global-health-strategy",
-      "source": "WHO",
-      "field": "health",
-      "date": "2023-10-12"
-    },
-    {
       "title": "[Articles] Cardiovascular safety of orforglipron versus insulin glargine in adults with type 2 diabetes at increased cardiovascular risk (ACHIEVE-4): a phase 3, event-driven, randomised, open-label, non-inferiority, active comparator trial",
       "description": "In people with type 2 diabetes at increased cardiovascular risk, the cardiovascular safety of orforglipron was confirmed by demonstrating non-inferiority to insulin glargine for MACE-4. Gastrointestinal adverse events were the most frequent adverse event and most common reason for orforglipron treatment discontinuation with orforglipron, while clinically significant hypoglycaemia occurred less frequently with orforglipron than with insulin glargine. These findings support orforglipron as a potential once-daily, oral treatment option with established cardiovascular safety in people with type 2 ",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01865-9/fulltext?rss=yes",
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-30"
-    },
-    {
-      "title": "[Series] Peripheral arterial disease: adverse impacts, disparities in outcomes, and the path ahead",
-      "description": "This is the third paper in the peripheral arterial disease (PAD) Series. The first and second papers in this Series outline that PAD affects over 300 million people worldwide and can be diagnosed by non-invasive tests, as well as that treatment requires medications to reduce modifiable risk factors and that exercise therapy and revascularisation are required in selected patients. In this paper, the devastating effects of PAD at the individual level are described, including chronic pain, functional limitation, loss of independence, impaired physical and mental quality of life, unemployment, and",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00847-0/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2026-09-22"
     },
     {
       "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
@@ -121,52 +113,12 @@
       "date": "2026-09-13"
     },
     {
-      "title": "Strengthening use of Inactivated Polio Vaccines (IPVs) in Routine Immunization and Outbreak Response",
-      "description": "By: Dr. Ondrej Mach, Team Lead of the Research and Product Development Team in the Polio Eradication Department at the World Health Organization Dr. Ananda Bandyopadhyay, Deputy Director of Technology, Research & Analytics, on the Polio Team at the Gates Foundation Background: These questions and answers reflect recommendations discussed by the Strategic Advisory Group of […]",
-      "link": "https://polioeradication.org/news/strengthening-use-of-inactivated-polio-vaccines-ipvs-in-routine-immunization-and-outbreak-response/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "[Articles] Wealth redistribution policies to mitigate the impact of development assistance defunding: a retrospective evaluation and forecasting analysis up to 2030",
-      "description": "The implementation of wealth redistribution policies proposed in recent high-level international agreements could mitigate the health consequences of the current ODA defunding crisis, avert millions of deaths, and support the achievement of the UN Sustainable Development Goals, particularly those related to health.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00975-X/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2026-09-07"
-    },
-    {
       "title": "[Series] The changing therapeutic landscape of small-cell lung cancer",
       "description": "Small-cell lung cancer (SCLC) is an exceptionally aggressive malignancy: highly proliferative, heterogeneous, and frequently metastatic at diagnosis. Although initially responsive to chemotherapy, such responses are typically transient, and recurrent disease has been largely refractory to standard cytotoxics. The past decade has been notable for major advances in our understanding of SCLC biology, and this preclinical progress is now informing multiple novel therapeutic approaches for this disease.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01244-4/fulltext?rss=yes",
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-06"
-    },
-    {
-      "title": "A leading flexible contributor, the Netherlands renews its multiannual allocation to WHO",
-      "description": "The Netherlands reaffirmed its position as a key supporter and strategic partner of WHO and a leading donor of flexible and predictable resources to WHO. In picture: WHO Director-General Dr Tedros and Dutch Minister of Health, Welfare and Sport Ernst Kuipers. ©WHO The Netherlands strengthened its longstanding engagement with WHO on Monday with the renewal of the multiannual contribution of the Dutch Ministry of Health, Welfare and Sport to WHO for €13.34 million for 2024–2028 and for €6 million to the technical partnership with Dutch WHO collaborating centres. With the new contribution, the Ne",
-      "link": "https://www.who.int/news/item/06-11-2023-a-leading-flexible-contributor--the-netherlands-renews-its-multiannual-allocation-to-who",
-      "source": "WHO",
-      "field": "health",
-      "date": "2023-11-06"
-    },
-    {
-      "title": "Top donor Germany signs major contribution to WHO for health emergencies; signs host agreement for WHO pandemic hub",
-      "description": "Germany deepened its longstanding engagement with WHO on Thursday with two new agreements: one to contribute a further €40 million to WHO’s work in health emergencies, and a second to host the Berlin-based WHO Hub for Pandemic and Epidemic Intelligence. With the new contribution, Germany has provided €53.5 million so far this year to support WHO’s response to more than 50 active health emergencies. “This is important because climate disasters, conflicts, and the ongoing pandemic demand urgent action,” said Susanne Baumann, State Secretary of the Federal Foreign Office for Germany (GFFO), whose",
-      "link": "https://www.who.int/news/item/28-09-2023-top-donor-germany-signs-major-contribution-to-who-for-health-emergencies--signs-host-agreement-for-who-pandemic-hub",
-      "source": "WHO",
-      "field": "health",
-      "date": "2023-09-28"
-    },
-    {
-      "title": "OCHA and WHO annual consultation",
-      "description": "Geneva, 21 June - Representatives of WHO and the United Nations Office for the Coordination of Humanitarian Affairs (OCHA) focused their annual financial and management review meeting on strengthening their 18-year partnership to prevent and respond to humanitarian crises. Both agencies provided updates: WHO on its emergency operations and the WHO Global Health Appeal, and OCHA on its funding mechanisms for emergencies and strategic priorities. Discussions also touched on the urgency of early data sharing in disease outbreaks and the role of innovation in emergency prevention and response – bo",
-      "link": "https://www.who.int/news/item/21-06-2023-ocha-and-who-annual-consultation",
-      "source": "WHO",
-      "field": "health",
-      "date": "2023-06-27"
     },
     {
       "title": "Health workers tackle taboos over drinking with new AI tool",
@@ -185,12 +137,36 @@
       "date": "2026-10-14"
     },
     {
+      "title": "Eastern Mediterranean Region renews its commitment to a polio-free world",
+      "description": "15 October 2026, Cairo, Egypt – At the Seventy-third session of the World Health Organization (WHO) Regional Committee for the Eastern Mediterranean (RC73), held from 13 to 15 October 2026 in Cairo, health ministers and partners demonstrated strong regional commitment to ending polio and to building stronger immunization systems that protect every child. Discussions highlighted […]",
+      "link": "https://polioeradication.org/news/eastern-mediterranean-region-renews-its-commitment-to-a-polio-free-world/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Strengthening use of Inactivated Polio Vaccines (IPVs) in Routine Immunization and Outbreak Response",
+      "description": "By: Dr. Ondrej Mach, Team Lead of the Research and Product Development Team in the Polio Eradication Department at the World Health Organization Dr. Ananda Bandyopadhyay, Deputy Director of Technology, Research & Analytics, on the Polio Team at the Gates Foundation Background: These questions and answers reflect recommendations discussed by the Strategic Advisory Group of […]",
+      "link": "https://polioeradication.org/news/strengthening-use-of-inactivated-polio-vaccines-ipvs-in-routine-immunization-and-outbreak-response/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-10-15"
+    },
+    {
       "title": "Pakistan: partnering with Rotary to protect millions of children from polio",
       "description": "23 September 2026, Islamabad, Pakistan – “When we are working, we don’t see whether it is winter, summer, autumn or spring. In every season and in all weather conditions, we do our best to reach every child. This is why we go house to house to give polio drops,” says Fareeda. Fareeda is one of […]",
       "link": "https://polioeradication.org/news/pakistan-partnering-with-rotary-to-protect-millions-of-children-from-polio/",
       "source": "Polio Eradication",
       "field": "health",
       "date": "2026-10-06"
+    },
+    {
+      "title": "[Articles] Wealth redistribution policies to mitigate the impact of development assistance defunding: a retrospective evaluation and forecasting analysis up to 2030",
+      "description": "The implementation of wealth redistribution policies proposed in recent high-level international agreements could mitigate the health consequences of the current ODA defunding crisis, avert millions of deaths, and support the achievement of the UN Sustainable Development Goals, particularly those related to health.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00975-X/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-09-07"
     },
     {
       "title": "UN health agency calls for investment boost to save young lives from cancer",
@@ -257,20 +233,12 @@
       "date": "2026-10-14"
     },
     {
-      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
-      "description": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168555",
+      "title": "Guterres urges faster action and financing to stop biodiversity loss",
+      "description": "The United Nations Secretary-General appealed on Friday for governments, businesses and communities to accelerate efforts to protect biodiversity for future generations and all life on Earth.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168610",
       "source": "UN News Climate",
       "field": "climate",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
-      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
-      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-08"
+      "date": "2026-10-16"
     },
     {
       "title": "The world is waging a ‘war on nature’ as progress on biodiversity targets lags",
@@ -281,12 +249,28 @@
       "date": "2026-10-15"
     },
     {
+      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
+      "description": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168555",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-08"
+    },
+    {
       "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach",
       "description": "Across Papua New Guinea, water sources are drying up, crops are failing and food prices are rising months before the worst agricultural impacts are expected. Behind those warning signs is an El Niño whose Pacific Ocean temperatures have already surpassed the equivalent measurements during the historic 1997 and 2015 events – part of an unfolding climate pattern being dubbed a “Super El Niño” by some climate watchers.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168537",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-10-06"
+    },
+    {
+      "title": "LIVE: World leaders tackle sea level rise, a stark marker of climate change",
+      "description": "Sea level rise is among the most visible consequences of global warming, but for some countries, it is an imminent existential threat. World leaders meet Thursday to adopt a new declaration and debate the best ways to strengthen international cooperation and support vulnerable low-lying nations most at risk.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168423",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-24"
     },
     {
       "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
@@ -297,36 +281,12 @@
       "date": "2026-09-23"
     },
     {
-      "title": "How the U.S. Public Lost Its Say on Environmental Policy",
-      "description": "Federal agencies have long been required to seek public comment when writing new regulations or approving large projects, from highways to data centers. The Trump administration is systematically undercutting that process, stifling public input while skirting federal laws. Read more on E360 →",
-      "link": "https://e360.yale.edu/features/public-comment-environment-regulations-permits",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
-      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
-      "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2026-09-11"
-    },
-    {
       "title": "Security, sacrifice or opportunity: Visions differ over effective climate action",
       "description": "Should the world move away sharply from fossil fuels, or manage a slower, more careful retreat?",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168526",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-10-05"
-    },
-    {
-      "title": "LIVE: World leaders tackle sea level rise, a stark marker of climate change",
-      "description": "Sea level rise is among the most visible consequences of global warming, but for some countries, it is an imminent existential threat. World leaders meet Thursday to adopt a new declaration and debate the best ways to strengthen international cooperation and support vulnerable low-lying nations most at risk.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168423",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-24"
     },
     {
       "title": "Why climate action now comes down to speed, finance and cooperation",
@@ -361,12 +321,12 @@
       "date": "2026-10-01"
     },
     {
-      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
-      "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal… The post Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
-      "source": "Carbon Brief",
+      "title": "How the U.S. Public Lost Its Say on Environmental Policy",
+      "description": "Federal agencies have long been required to seek public comment when writing new regulations or approving large projects, from highways to data centers. The Trump administration is systematically undercutting that process, stifling public input while skirting federal laws. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/public-comment-environment-regulations-permits",
+      "source": "Yale E360",
       "field": "climate",
-      "date": "2026-09-21"
+      "date": "2026-10-08"
     },
     {
       "title": "Large-scale marine debris: 4 ways to clean up the big stuff",
@@ -385,12 +345,20 @@
       "date": "2026-09-21"
     },
     {
-      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
-      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
-      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
-      "source": "NOAA",
+      "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
+      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
+      "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
+      "source": "IPCC",
       "field": "climate",
       "date": "2026-09-11"
+    },
+    {
+      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
+      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
+      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-08"
     },
     {
       "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
@@ -399,6 +367,38 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-02"
+    },
+    {
+      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
+      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "When Bolsonaro Tweeted, Amazon Deforestation Surged, Study Finds",
+      "description": "As president of Brazil, Jair Bolsonaro not only weakened environmental regulations and gutted agencies charged with protecting the Amazon, he also railed against conservation. An analysis of his tweets and those of his ministers finds a link between their rhetoric and the acres of forest lost. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/bolsonaro-tweets-amazon",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-09-29"
+    },
+    {
+      "title": "Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record",
+      "description": "This year’s so-called “super El Niño” is entering into record-breaking territory. Sea surface temperatures in the tropical Pacific now equal… The post Analysis: ‘Super El Niño’ reaches ‘remarkable’ all-time record appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-super-el-nino-reaches-remarkable-all-time-record",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-21"
+    },
+    {
+      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
+      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
+      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-11"
     },
     {
       "title": "LIVE: Climate change is here - What happens next is still in our hands",
@@ -423,22 +423,6 @@
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-09-07"
-    },
-    {
-      "title": "‘Fight for humanity’: Avoiding a climate catastrophe means acting now",
-      "description": "Record heat waves, deadly flooding and extreme weather reflect an ever-warming planet poised to soon breach safe temperature limits, according to a UN report released on Tuesday, but doubling down on climate action now could avoid a climate catastrophe.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168240",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "When Bolsonaro Tweeted, Amazon Deforestation Surged, Study Finds",
-      "description": "As president of Brazil, Jair Bolsonaro not only weakened environmental regulations and gutted agencies charged with protecting the Amazon, he also railed against conservation. An analysis of his tweets and those of his ministers finds a link between their rhetoric and the acres of forest lost. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/bolsonaro-tweets-amazon",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-09-29"
     },
     {
       "title": "At Least 124 Environmental Defenders Killed Worldwide Last Year",
@@ -521,12 +505,12 @@
       "date": "2026-09-18"
     },
     {
-      "title": "First Light: Celebrate the Inauguration of Caltech's 10th President, Ray Jayawardhana",
-      "description": "First light is the threshold moment in astronomy when a telescope makes its first observation and opens a new window to discovery. That same spirit of possibility defines the Caltech community. Through curiosity-driven inquiry, powerful experimentation, and groundbreaking instrumentation, Caltech illuminates new fields of knowledge and accelerates breakthroughs that shape the future of science, technology, and society.This fall, Caltech celebrates the spirit of first light for the Inauguration of Ray Jayawardhana as the Institute's 10th president. Over two days—Wednesday, October 28, and Thurs",
-      "link": "https://www.caltech.edu/about/news/the-brave-new-space-age-inauguration",
-      "source": "Caltech",
+      "title": "This implant can restore sight for patients with macular degeneration",
+      "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients…",
+      "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+      "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-10-14"
+      "date": "2026-10-16"
     },
     {
       "title": "Met Warehouse dedication ceremony launches new era",
@@ -535,6 +519,38 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-10-02"
+    },
+    {
+      "title": "Astronomers discover a strange universal rule behind black hole eruptions",
+      "description": "Scientists have discovered that black holes of vastly different sizes appear to launch powerful jets according to the same universal rule. The breakthrough could explain why some black holes suddenly erupt years after devouring a star and help astronomers predict when these spectacular outbursts will happen.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Master AI Chip Principles With New IEEE Design Program",
+      "description": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “Revisiting Edge AI: Opportunities and Challenges.” The article examines the rapid growth of edge AI and the challenges it creates, including resource constraints, model architecture limitations, and network demands across edge-AI deployments. The acceleration is driven by a fundamental shift in how modern AI models are built and scaled. As the models have become much larger and more complex, they are computationally more demanding because they contain more parameters and",
+      "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
+      "description": "In the 1960s NASA began developing a system of reusable space shuttles to make its work more efficient and to reduce costs. The shuttles could launch like rockets, maneuver in Earth’s orbit, and land like airplanes. They also could carry large satellites to and from orbit. Like other types of transportation, machinery eventually breaks down, and parts need to be replaced or fixed. And the cargo being carried to and from Earth has to be moved to its final destination. To complete such tasks, Spar Aerospace (now part of MDA Space) of Brampton, Ont., Canada, and the National Research Council in O",
+      "link": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-02"
+    },
+    {
+      "title": "A quantum highway just one atom high could transform superconductors",
+      "description": "Scientists discovered that atomic steps just one atom high can guide quantum vortices through superconductors, making them move more than 1,000 times more easily in one direction than another. This remarkable control over quantum motion could lead to a new generation of ultra-efficient superconducting electronics.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261014072018.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-16"
     },
     {
       "title": "AI reveals a hidden chemical shortcut that could turn CO2 into fuel",
@@ -601,14 +617,6 @@
       "date": "2026-09-28"
     },
     {
-      "title": "Suzy Nelson transformed student life at MIT",
-      "description": "Over the last decade, the vice chancellor has refocused the Institute’s approach to student life to center on student well-being.",
-      "link": "https://news.mit.edu/2026/suzy-nelson-transformed-student-life-at-mit-1015",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
       "title": "NIH details $170 million biomedical research reproducibility effort",
       "description": "Agency director announces literature search tool, other plans to improve reliability of science findings",
       "link": "https://www.science.org/content/article/nih-details-170-million-biomedical-research-reproducibility-effort",
@@ -617,100 +625,12 @@
       "date": "2026-09-24"
     },
     {
-      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
-      "description": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
-      "link": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "title": "Suzy Nelson transformed student life at MIT",
+      "description": "Over the last decade, the vice chancellor has refocused the Institute’s approach to student life to center on student well-being.",
+      "link": "https://news.mit.edu/2026/suzy-nelson-transformed-student-life-at-mit-1015",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-10-15"
-    },
-    {
-      "title": "AI model decodes the language cells use to communicate",
-      "description": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
-      "link": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Forecasting Tipping Points with AI",
-      "description": "The writer Malcolm Gladwell popularized the term \"tipping points\" to refer to the moment when a trend or social behavior crosses a threshold and rapidly spreads everywhere. In physics, tipping points occur when systems—say, Earth's climate—reach an unstable point and topple over into a sea of change that is sometimes irreversible. Examples include global warming or the melting of polar ice caps.While scientists have previously used AI models to predict smaller changes in weather, such as day-to-day variations, forecasting tipping points comes with more uncertainty and has thus proven more chal",
-      "link": "https://www.caltech.edu/about/news/forecasting-tipping-points-with-ai",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "The Magical Mysteries—and Histories—of Physics: A Conversation with Historian Alexander Blum",
-      "description": "When Alex Blum was growing up in the Black Forest region of Germany, he was consumed by what some might consider an unusual pastime: reading fantasy books and trying to reconstruct the implicit histories of the characters in detail. In the 11th grade, his attention shifted when he was introduced to physics—an interest that would later converge with his passion for history and define his career path.\"I did not know what was going on at all,\" says Blum, remembering his first physics exam. \"Then I had this realization that all they're asking us to do is to put numbers into equations. And that ope",
-      "link": "https://www.caltech.edu/about/news/the-magical-mysteriesand-historiesof-physics-a-conversation-with-historian-alexander-blum",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "Shedding Light on the Brain: Neuroscientists Reflect on Optogenetics Nobel",
-      "description": "On October 5, three scientists—Peter Hegemann, Georg Nagel, and Karl Deisseroth—were awarded the Nobel Prize in Physiology or Medicine for the development of optogenetics, a revolutionary tool that allows neuroscientists to use light to turn on and off individual brain cells, even those located deep within the brain. Hegemann and Nagel, the Nobel Assembly noted, \"discovered a remarkable protein, channelrhodopsin, in a single-celled alga,\" and Deisseroth \"transformed the protein into a light-controlled switch for nerve cells.\"Viviana Gradinaru (BS '05), Caltech's Troendle Professor of Neuroscie",
-      "link": "https://www.caltech.edu/about/news/shedding-light-on-the-brain-neuroscientists-reflect-on-optogenetics-nobel",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-07"
-    },
-    {
-      "title": "NASA's Roman Space Telescope Takes First Coronagraph Instrument Observation",
-      "description": "On September 22, the Coronagraph Instrument on NASA's Nancy Grace Roman Space Telescope opened its eyes to cosmic light for the first time. The ultimate purpose of the instrument—which is commanded from Caltech's IPAC, a science and data center for astrophysics and planetary sciences—is to demonstrate technology that can block starlight, providing unprecedented views of the planets and dusty disks around nearby stars.The coronagraph first woke up on September 1 and stretched its digital, electronic, and mechanical \"limbs\" mid-month. Once the Roman team confirmed that the fine-guidance system w",
-      "link": "https://www.caltech.edu/about/news/nasas-roman-space-telescope-takes-first-coronagraph-instrument-observation",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "More Than a Lecture: A Look Inside Caltech's Watson Series",
-      "description": "The Earnest C. Watson Lecture Series, which has connected the public with groundbreaking Caltech research and innovation for more than 100 years, returns in November for the 2026–27 season.\"Throughout its history, the Watson Lectures have provided a unique opportunity to make the ambitious and innovative discoveries of Caltech researchers more accessible to the curious and science-minded public,\" says Matt Thomson, professor of computational biology, a Heritage Medical Research Institute Investigator, and chair of the Institute Programs Committee, which oversees the Watson Lectures. \"Caltech i",
-      "link": "https://www.caltech.edu/about/news/look-inside-caltech-watson-series-lecture",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "New Book by Phillip Hoffman Explores the Origins of Economic Growth",
-      "description": "In 1700, life was miserable everywhere. Nearly everyone was poor, most had to toil long days in fields just to feed their families, and half of all children died before adulthood. But throughout the following century, technological and political shifts in northwestern Europe unleashed something completely new in human history that transformed the world—sustained economic growth. Why and how this revolution started where it did is the focus of a new book by Philip T. Hoffman, Caltech's Rea A. and Lela G. Axline Professor of Business Economics and History, Emeritus.Why Europe?: The Great Diverge",
-      "link": "https://www.caltech.edu/about/news/new-book-by-phillip-hoffman-explores-the-origins-of-economic-growth",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-15"
-    },
-    {
-      "title": "Chasing China’s Monazite Monopoly",
-      "description": "One of the singular features of Baotou, an industrial city of 2 million people in Inner Mongolia, is a 10-square-kilometer (4-square-mile) lake that is among the most polluted in the world. The artificial lake, referred to by the name of the dam associated with it, Weikuang Dam (or Baogang Tailings Dam), has for decades collected the effluent from minerals processing for China’s globally dominant iron, steel, and rare-earths industries. Built in the late 1950s, the lake contains a highly toxic stew of industrial chemicals with substantial amounts of radioactive thorium, the latter resulting pr",
-      "link": "https://spectrum.ieee.org/china-rare-earth-minerals",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been…",
-      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
-      "description": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware control is essential for closing the gap between simulation and real-world deployment. What you will learn about: Why combining a professional athlete’s motion style with reliable task performance remains an open challenge in humanoid ball-sports robotics, and how separating a high-level planner from a low-level tracker addresses this trade-off. How motion d",
-      "link": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-12"
-    },
-    {
-      "title": "Master AI Chip Principles With New IEEE Design Program",
-      "description": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “Revisiting Edge AI: Opportunities and Challenges.” The article examines the rapid growth of edge AI and the challenges it creates, including resource constraints, model architecture limitations, and network demands across edge-AI deployments. The acceleration is driven by a fundamental shift in how modern AI models are built and scaled. As the models have become much larger and more complex, they are computationally more demanding because they contain more parameters and",
-      "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-09"
     },
     {
       "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
@@ -721,68 +641,12 @@
       "date": "2026-10-08"
     },
     {
-      "title": "6 Guidelines for Governing AI",
-      "description": "For the first 10 years of my career, I worked in product management and data analytics by myself. I wrote database queries that pulled numbers out of corporate systems, built statistical models to predict what customers would buy, and shipped data pipelines that moved information between business systems. I built and scaled analytics teams at Best Buy and Target, studying how customers shop and what stores should stock. Today I lead enterprise AI transformation at Lowe’s, the Fortune 100 home improvement retailer. The goal is not to sell artificial intelligence; it is to use it to deliver usef",
-      "link": "https://spectrum.ieee.org/6-guidelines-governing-ai",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-05"
-    },
-    {
-      "title": "Harvard launches $150 million research initiative",
-      "description": "University plans range of awards in basic and applied science, seeking to meet ‘moment of remarkable opportunity’",
-      "link": "https://news.harvard.edu/gazette/story/2026/09/harvard-launches-150-million-research-initiative/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-09-28"
-    },
-    {
       "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
       "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
       "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-09-22"
-    },
-    {
-      "title": "Rivian’s Gambit for Full Autonomy",
-      "description": "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif., through areas crowded with touchstones of tech history. At one point I pass the landmark HP Garage, the one-car workshop where Hewlett-Packard, and, arguably, Silicon Valley, was founded in 1939. I skirt Stanford University, where a team led by computer science professor Sebastian Thrun won a US $2 million DARPA Grand Challenge in 2005. The team’s Volkswagen SUV, named Stanley, became the world’s first vehicle to navigate a grueling 212-kilometer Mojave Desert course with no human intervention. The",
-      "link": "https://spectrum.ieee.org/rivian-self-driving",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
-      "description": "In the 1960s NASA began developing a system of reusable space shuttles to make its work more efficient and to reduce costs. The shuttles could launch like rockets, maneuver in Earth’s orbit, and land like airplanes. They also could carry large satellites to and from orbit. Like other types of transportation, machinery eventually breaks down, and parts need to be replaced or fixed. And the cargo being carried to and from Earth has to be moved to its final destination. To complete such tasks, Spar Aerospace (now part of MDA Space) of Brampton, Ont., Canada, and the National Research Council in O",
-      "link": "https://spectrum.ieee.org/canadarm-ieee-300th-milestone",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-02"
-    },
-    {
-      "title": "A planet 320 light-years away confirms what scientists long suspected",
-      "description": "Astronomers have discovered that a scorching-hot planet 320 light-years away shares a striking chemical similarity with its host star, providing the first direct evidence for a fundamental assumption about planet formation. The breakthrough could help scientists predict what distant rocky planets are made of and identify worlds with conditions favorable for life.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to…",
-      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
-      "description": "NASA’s James Webb Space Telescope has revealed an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, challenging theories about how the universe developed. The discovery also uncovered a surprising connection between scattered starlight and invisible dark matter that could transform how astronomers study the early cosmos.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-13"
     },
     {
       "title": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
@@ -817,6 +681,46 @@
       "date": "2026-09-17"
     },
     {
+      "title": "First Light: Celebrate the Inauguration of Caltech's 10th President, Ray Jayawardhana",
+      "description": "First light is the threshold moment in astronomy when a telescope makes its first observation and opens a new window to discovery. That same spirit of possibility defines the Caltech community. Through curiosity-driven inquiry, powerful experimentation, and groundbreaking instrumentation, Caltech illuminates new fields of knowledge and accelerates breakthroughs that shape the future of science, technology, and society.This fall, Caltech celebrates the spirit of first light for the Inauguration of Ray Jayawardhana as the Institute's 10th president. Over two days—Wednesday, October 28, and Thurs",
+      "link": "https://www.caltech.edu/about/news/the-brave-new-space-age-inauguration",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "description": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
+      "link": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "AI model decodes the language cells use to communicate",
+      "description": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+      "link": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Forecasting Tipping Points with AI",
+      "description": "The writer Malcolm Gladwell popularized the term \"tipping points\" to refer to the moment when a trend or social behavior crosses a threshold and rapidly spreads everywhere. In physics, tipping points occur when systems—say, Earth's climate—reach an unstable point and topple over into a sea of change that is sometimes irreversible. Examples include global warming or the melting of polar ice caps.While scientists have previously used AI models to predict smaller changes in weather, such as day-to-day variations, forecasting tipping points comes with more uncertainty and has thus proven more chal",
+      "link": "https://www.caltech.edu/about/news/forecasting-tipping-points-with-ai",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "The Magical Mysteries—and Histories—of Physics: A Conversation with Historian Alexander Blum",
+      "description": "When Alex Blum was growing up in the Black Forest region of Germany, he was consumed by what some might consider an unusual pastime: reading fantasy books and trying to reconstruct the implicit histories of the characters in detail. In the 11th grade, his attention shifted when he was introduced to physics—an interest that would later converge with his passion for history and define his career path.\"I did not know what was going on at all,\" says Blum, remembering his first physics exam. \"Then I had this realization that all they're asking us to do is to put numbers into equations. And that ope",
+      "link": "https://www.caltech.edu/about/news/the-magical-mysteriesand-historiesof-physics-a-conversation-with-historian-alexander-blum",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-14"
+    },
+    {
       "title": "Researchers improve weather forecasts looking two to six weeks out",
       "description": "A new machine-learning approach broke records for weather forecasting for an important time frame in emergency planning.",
       "link": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
@@ -833,6 +737,14 @@
       "date": "2026-10-13"
     },
     {
+      "title": "Shedding Light on the Brain: Neuroscientists Reflect on Optogenetics Nobel",
+      "description": "On October 5, three scientists—Peter Hegemann, Georg Nagel, and Karl Deisseroth—were awarded the Nobel Prize in Physiology or Medicine for the development of optogenetics, a revolutionary tool that allows neuroscientists to use light to turn on and off individual brain cells, even those located deep within the brain. Hegemann and Nagel, the Nobel Assembly noted, \"discovered a remarkable protein, channelrhodopsin, in a single-celled alga,\" and Deisseroth \"transformed the protein into a light-controlled switch for nerve cells.\"Viviana Gradinaru (BS '05), Caltech's Troendle Professor of Neuroscie",
+      "link": "https://www.caltech.edu/about/news/shedding-light-on-the-brain-neuroscientists-reflect-on-optogenetics-nobel",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-07"
+    },
+    {
       "title": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
       "description": "Over two decades at MIT, Hamilton forged new paths in computer science and engineering. Her groundbreaking work included leading the team that programmed the first computers that took humans to the moon.",
       "link": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
@@ -841,12 +753,52 @@
       "date": "2026-10-07"
     },
     {
+      "title": "NASA's Roman Space Telescope Takes First Coronagraph Instrument Observation",
+      "description": "On September 22, the Coronagraph Instrument on NASA's Nancy Grace Roman Space Telescope opened its eyes to cosmic light for the first time. The ultimate purpose of the instrument—which is commanded from Caltech's IPAC, a science and data center for astrophysics and planetary sciences—is to demonstrate technology that can block starlight, providing unprecedented views of the planets and dusty disks around nearby stars.The coronagraph first woke up on September 1 and stretched its digital, electronic, and mechanical \"limbs\" mid-month. Once the Roman team confirmed that the fine-guidance system w",
+      "link": "https://www.caltech.edu/about/news/nasas-roman-space-telescope-takes-first-coronagraph-instrument-observation",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-01"
+    },
+    {
       "title": "Revisiting a Young Isaac Newton",
       "description": "Isaac Newton is typically portrayed as a solitary scientist with intense focus who was obsessed with power and deeply egotistical. But a new book by Caltech historians Jed Buchwald and Mordechai Feingold takes a deeper look at Newton's life in the two decades leading up to the 1687 publication of his groundbreaking text, Principia Mathematica, when he was 44. Utilizing newly digitized scans of Newton's early writings, Buchwald and Feingold uncover a novel portrait of the young polymath as a curious and social scholar whose interests were often fleeting.\"What struck me is the extent to which Ne",
       "link": "https://www.caltech.edu/about/news/revisiting-a-young-isaac-newton",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-09-29"
+    },
+    {
+      "title": "More Than a Lecture: A Look Inside Caltech's Watson Series",
+      "description": "The Earnest C. Watson Lecture Series, which has connected the public with groundbreaking Caltech research and innovation for more than 100 years, returns in November for the 2026–27 season.\"Throughout its history, the Watson Lectures have provided a unique opportunity to make the ambitious and innovative discoveries of Caltech researchers more accessible to the curious and science-minded public,\" says Matt Thomson, professor of computational biology, a Heritage Medical Research Institute Investigator, and chair of the Institute Programs Committee, which oversees the Watson Lectures. \"Caltech i",
+      "link": "https://www.caltech.edu/about/news/look-inside-caltech-watson-series-lecture",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "New Book by Phillip Hoffman Explores the Origins of Economic Growth",
+      "description": "In 1700, life was miserable everywhere. Nearly everyone was poor, most had to toil long days in fields just to feed their families, and half of all children died before adulthood. But throughout the following century, technological and political shifts in northwestern Europe unleashed something completely new in human history that transformed the world—sustained economic growth. Why and how this revolution started where it did is the focus of a new book by Philip T. Hoffman, Caltech's Rea A. and Lela G. Axline Professor of Business Economics and History, Emeritus.Why Europe?: The Great Diverge",
+      "link": "https://www.caltech.edu/about/news/new-book-by-phillip-hoffman-explores-the-origins-of-economic-growth",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-15"
+    },
+    {
+      "title": "Chasing China’s Monazite Monopoly",
+      "description": "One of the singular features of Baotou, an industrial city of 2 million people in Inner Mongolia, is a 10-square-kilometer (4-square-mile) lake that is among the most polluted in the world. The artificial lake, referred to by the name of the dam associated with it, Weikuang Dam (or Baogang Tailings Dam), has for decades collected the effluent from minerals processing for China’s globally dominant iron, steel, and rare-earths industries. Built in the late 1950s, the lake contains a highly toxic stew of industrial chemicals with substantial amounts of radioactive thorium, the latter resulting pr",
+      "link": "https://spectrum.ieee.org/china-rare-earth-minerals",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been…",
+      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-15"
     },
     {
       "title": "How much more can nuclear power plants give?",
@@ -863,6 +815,38 @@
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-10-15"
+    },
+    {
+      "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
+      "description": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware control is essential for closing the gap between simulation and real-world deployment. What you will learn about: Why combining a professional athlete’s motion style with reliable task performance remains an open challenge in humanoid ball-sports robotics, and how separating a high-level planner from a low-level tracker addresses this trade-off. How motion d",
+      "link": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "6 Guidelines for Governing AI",
+      "description": "For the first 10 years of my career, I worked in product management and data analytics by myself. I wrote database queries that pulled numbers out of corporate systems, built statistical models to predict what customers would buy, and shipped data pipelines that moved information between business systems. I built and scaled analytics teams at Best Buy and Target, studying how customers shop and what stores should stock. Today I lead enterprise AI transformation at Lowe’s, the Fortune 100 home improvement retailer. The goal is not to sell artificial intelligence; it is to use it to deliver usef",
+      "link": "https://spectrum.ieee.org/6-guidelines-governing-ai",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "Harvard launches $150 million research initiative",
+      "description": "University plans range of awards in basic and applied science, seeking to meet ‘moment of remarkable opportunity’",
+      "link": "https://news.harvard.edu/gazette/story/2026/09/harvard-launches-150-million-research-initiative/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to…",
+      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-25"
     },
     {
       "title": "‘Rocket revolution’ opens access to space",
@@ -897,6 +881,14 @@
       "date": "2026-09-30"
     },
     {
+      "title": "ADB, Uzbekistan Sign $200 Million Power Modernization Loan",
+      "description": "ADB President Masato Kanda met Uzbekistan Deputy Prime Minister and Minister of Economy and Finance Jamshid Kuchkarov today and signed a $200 million loan agreement to modernize the country’s electricity distribution system, cut power losses, and improve reliability as electricity demand rises.",
+      "link": "https://www.adb.org/news/adb-uzbekistan-sign-200-million-power-modernization-loan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-15"
+    },
+    {
       "title": "ADB Approves $302 Million Loan to Modernize Baku Metro Signaling and Digital Operations",
       "description": "ADB has approved a $302.38 million loan to modernize Baku Metro’s signaling system and digitalize its operations, helping to make metro services in Azerbaijan’s capital safer, more reliable, and more efficient while supporting the effective operation of its expanding network.",
       "link": "https://www.adb.org/news/adb-approves-302-million-loan-modernize-baku-metro-signaling-and-digital-operations",
@@ -929,14 +921,6 @@
       "date": "2026-09-19"
     },
     {
-      "title": "ADB, Uzbekistan Sign $200 Million Power Modernization Loan",
-      "description": "ADB President Masato Kanda met Uzbekistan Deputy Prime Minister and Minister of Economy and Finance Jamshid Kuchkarov today and signed a $200 million loan agreement to modernize the country’s electricity distribution system, cut power losses, and improve reliability as electricity demand rises.",
-      "link": "https://www.adb.org/news/adb-uzbekistan-sign-200-million-power-modernization-loan",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-15"
-    },
-    {
       "title": "ADB President Meets Thai Finance Minister, Marks $212 Million in ADB Financing for Hospitals Project",
       "description": "ADB President Masato Kanda met Thailand’s Deputy Prime Minister and Finance Minister Ekniti Nitithanprapas before joining him at a ceremony marking $212 million in ADB financing for a project to upgrade five public hospitals and improve access to specialist medical care for about 14 million people outside Bangkok.",
       "link": "https://www.adb.org/news/adb-president-meets-thai-finance-minister-marks-212-million-adb-financing-hospitals-project",
@@ -945,20 +929,28 @@
       "date": "2026-10-15"
     },
     {
+      "title": "ADB Supports Modernization of Azerbaijan’s Bilajari–Yalama Railway Line",
+      "description": "ADB has approved a $350 million loan to install modern electrification, signaling, and telecommunication systems along the 192-kilometer double-track railway line between Bilajari and Yalama.",
+      "link": "https://www.adb.org/news/adb-supports-modernization-azerbaijan-bilajari-yalama-railway-line",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
+      "description": "ADB has approved a $650 million equivalent program to help Indonesia modernize intergovernmental fiscal management, advance digital governance, and improve public service delivery across the country’s decentralized system of government.",
+      "link": "https://www.adb.org/news/adb-supports-fiscal-reforms-stronger-public-service-delivery-indonesia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-16"
+    },
+    {
       "title": "800 million young people face a future without jobs",
       "description": "Approximately 800 million young people entering the labour market in developing economies over the coming years will not find jobs unless countries act, the head of the UN Development Programme (UNDP) warned on Tuesday, as the agency launched two initiatives to boost investment and employment.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168588",
       "source": "UN News Development",
       "field": "development",
       "date": "2026-10-13"
-    },
-    {
-      "title": "Rise in poverty is ‘a wake-up call for the world’, UN development chief says",
-      "description": "The number of people living in “multidimensional” poverty has risen for the first time in 15 years, reaching 1.2 billion, as families struggle to meet their basic needs.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168574",
-      "source": "UN News SDGs",
-      "field": "development",
-      "date": "2026-10-12"
     },
     {
       "title": "Right to development: A blueprint for unmet promises",
@@ -1009,14 +1001,6 @@
       "date": "2026-09-18"
     },
     {
-      "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
-      "description": "ADB has approved a $650 million equivalent program to help Indonesia modernize intergovernmental fiscal management, advance digital governance, and improve public service delivery across the country’s decentralized system of government.",
-      "link": "https://www.adb.org/news/adb-supports-fiscal-reforms-stronger-public-service-delivery-indonesia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-16"
-    },
-    {
       "title": "ADB Approves $3 Million Grant to Address Violence Against Women and Children in Mongolia through Safer Schools and Stronger Support Services",
       "description": "ADB has approved a $3 million grant to help Mongolia prevent and respond to violence against women and children through safer schools, improved survivor support services, and effective policy reforms.",
       "link": "https://www.adb.org/news/adb-approves-3-million-grant-address-violence-against-women-and-children-mongolia-safer-schools",
@@ -1025,12 +1009,12 @@
       "date": "2026-09-14"
     },
     {
-      "title": "ADB Supports Modernization of Azerbaijan’s Bilajari–Yalama Railway Line",
-      "description": "ADB has approved a $350 million loan to install modern electrification, signaling, and telecommunication systems along the 192-kilometer double-track railway line between Bilajari and Yalama.",
-      "link": "https://www.adb.org/news/adb-supports-modernization-azerbaijan-bilajari-yalama-railway-line",
-      "source": "Asian Development Bank",
+      "title": "Rise in poverty is ‘a wake-up call for the world’, UN development chief says",
+      "description": "The number of people living in “multidimensional” poverty has risen for the first time in 15 years, reaching 1.2 billion, as families struggle to meet their basic needs.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168574",
+      "source": "UN News SDGs",
       "field": "development",
-      "date": "2026-10-06"
+      "date": "2026-10-12"
     },
     {
       "title": "ADB Joins Effort to Advance Lower East Chao Phraya Initiative for Improved Flood Resilience in Thailand",
@@ -1201,22 +1185,6 @@
       "date": "2026-09-03"
     },
     {
-      "title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
-      "description": "More than 700,000 displaced people in Tawila, in Sudan’s war-ravaged Darfur region, face severe shortages of healthcare, food, water and protection, the UN World Health Organization (WHO) warned on Thursday as it called for an urgent increase in resources.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168556",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "Ukraine: UN condemns latest attacks and calls for civilian protection",
-      "description": "The UN Humanitarian Coordinator for Ukraine on Wednesday called for an end to attacks against civilians following further overnight strikes by Russian forces that reportedly killed at least 19 in the Chernihiv Region.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168548",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-10-07"
-    },
-    {
       "title": "World News in Brief: Cycle of violence continues in Haiti, seafarer deaths off Somalia, food insecurity in the Middle East",
       "description": "Haitians remain in the grip of lethal gang violence as it continues to “adapt and expand”, the UN’s top rights official, Volker Türk, said on Friday.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168511",
@@ -1225,44 +1193,20 @@
       "date": "2026-10-02"
     },
     {
-      "title": "IAEA chief underscores commitment to nuclear safety and verification",
-      "description": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnessing a “common spirit of dedication” which still guides their work.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168325",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-14"
-    },
-    {
-      "title": "Lebanon–Israel tensions escalate as Gaza sees major aid delivery",
-      "description": "Peacekeepers in Lebanon have reported a marked deterioration in the security situation along the Blue Line of separation, with Israeli forces intensifying their military footprint in violation of a landmark Security Council resolution, UN Spokesperson Stéphane Dujarric said on Thursday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168275",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-03"
-    },
-    {
-      "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
-      "description": "Following revelations from the UN nuclear watchdog that the former Syrian regime failed to report holding nuclear material and the discovery in May of an undeclared chemical weapons cache, the Security Council meets Thursday at 10am (local time) to be briefed on latest developments and discuss the way ahead.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168271",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-03"
-    },
-    {
-      "title": "Why do some people have a better sense of direction than others?",
-      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-09-10"
-    },
-    {
       "title": "World News in Brief: Storm clouds over Gaza, deadly obstacles face Mexican women rights defenders, Latvia booze ban proves lifesaver",
       "description": "UN teams are racing to protect families in Gaza from the coming rainy season, but restricted access to land and shortages of critical supplies are hampering the effort, UN Spokesperson Stéphane Dujarric said on Wednesday.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168496",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-09-30"
+    },
+    {
+      "title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
+      "description": "More than 700,000 displaced people in Tawila, in Sudan’s war-ravaged Darfur region, face severe shortages of healthcare, food, water and protection, the UN World Health Organization (WHO) warned on Thursday as it called for an urgent increase in resources.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168556",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-10-08"
     },
     {
       "title": "Security Council LIVE: Ambassadors meet as West Bank tensions rise, Gaza plan stalls",
@@ -1281,6 +1225,38 @@
       "date": "2026-09-25"
     },
     {
+      "title": "Nobel Prize lessons – A new model for a stable economy",
+      "description": "The 2026 economic sciences laureates have developed models that have improved our ability to even out the peaks and troughs in the economy. Their models are used by governments and central banks all over the world. Help us improve the content – Five quick questions and a comment Slideshow or text for students (10 minutes) […] The post Nobel Prize lessons – A new model for a stable economy appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/economic-sciences-2026/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Why do some people have a better sense of direction than others?",
+      "description": "Dig into the neuroscience behind your inner navigation system and how you can improve your wayfinding skills. The post Why do some people have a better sense of direction than others? appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/sense-of-direction/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-09-10"
+    },
+    {
+      "title": "Ukraine: UN condemns latest attacks and calls for civilian protection",
+      "description": "The UN Humanitarian Coordinator for Ukraine on Wednesday called for an end to attacks against civilians following further overnight strikes by Russian forces that reportedly killed at least 19 in the Chernihiv Region.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168548",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "IAEA chief underscores commitment to nuclear safety and verification",
+      "description": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnessing a “common spirit of dedication” which still guides their work.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168325",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-14"
+    },
+    {
       "title": "UN hails Libya election deal as Security Council urges Libyans to seize the moment",
       "description": "The UN Security Council has welcomed a breakthrough agreement between Libya's rival political blocs, calling it \"an important step\" towards the country's first national elections in over a decade – while pressing all sides to move quickly from paper to practice.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168302",
@@ -1289,12 +1265,20 @@
       "date": "2026-09-09"
     },
     {
-      "title": "Nobel Prize lessons – A new model for a stable economy",
-      "description": "The 2026 economic sciences laureates have developed models that have improved our ability to even out the peaks and troughs in the economy. Their models are used by governments and central banks all over the world. Help us improve the content – Five quick questions and a comment Slideshow or text for students (10 minutes) […] The post Nobel Prize lessons – A new model for a stable economy appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/economic-sciences-2026/",
-      "source": "Nobel Prize",
+      "title": "Lebanon–Israel tensions escalate as Gaza sees major aid delivery",
+      "description": "Peacekeepers in Lebanon have reported a marked deterioration in the security situation along the Blue Line of separation, with Israeli forces intensifying their military footprint in violation of a landmark Security Council resolution, UN Spokesperson Stéphane Dujarric said on Thursday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168275",
+      "source": "UN Peace & Security",
       "field": "peace",
-      "date": "2026-10-14"
+      "date": "2026-09-03"
+    },
+    {
+      "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
+      "description": "Following revelations from the UN nuclear watchdog that the former Syrian regime failed to report holding nuclear material and the discovery in May of an undeclared chemical weapons cache, the Security Council meets Thursday at 10am (local time) to be briefed on latest developments and discuss the way ahead.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168271",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-03"
     },
     {
       "title": "ONE-MINUTE CRASH COURSES",
@@ -1327,6 +1311,14 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-10-07"
+    },
+    {
+      "title": "I Am Artemis: Allison Mjoen",
+      "description": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program, helped shape the systems and ground operations that will one day send humans back to […]",
+      "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-16"
     },
     {
       "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
@@ -1407,6 +1399,14 @@
       "source": "ESA",
       "field": "space",
       "date": "2026-10-01"
+    },
+    {
+      "title": "Blue Origin to add new Florida launch pads, seeks aggressive increase in New Glenn flight rate",
+      "description": "The launch infrastructure improvements also include a substantial manufacturing expansion at Rocket Park and the addition of new landing barges.",
+      "link": "https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-10-16"
     },
     {
       "title": "NASA astronauts splash down after 100 million miles in space",
@@ -1647,6 +1647,38 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-29"
+    },
+    {
+      "title": "Rivian’s Gambit for Full Autonomy",
+      "description": "I’m sitting in a Rivian R1S SUV as it drives itself down the leafy streets of Palo Alto, Calif., through areas crowded with touchstones of tech history. At one point I pass the landmark HP Garage, the one-car workshop where Hewlett-Packard, and, arguably, Silicon Valley, was founded in 1939. I skirt Stanford University, where a team led by computer science professor Sebastian Thrun won a US $2 million DARPA Grand Challenge in 2005. The team’s Volkswagen SUV, named Stanley, became the world’s first vehicle to navigate a grueling 212-kilometer Mojave Desert course with no human intervention. The",
+      "link": "https://spectrum.ieee.org/rivian-self-driving",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-09-08"
+    },
+    {
+      "title": "A planet 320 light-years away confirms what scientists long suspected",
+      "description": "Astronomers have discovered that a scorching-hot planet 320 light-years away shares a striking chemical similarity with its host star, providing the first direct evidence for a fundamental assumption about planet formation. The breakthrough could help scientists predict what distant rocky planets are made of and identify worlds with conditions favorable for life.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "James Webb reveals a massive cosmic structure that challenges our understanding of the Universe",
+      "description": "NASA’s James Webb Space Telescope has revealed an ancient galaxy cluster with an unexpectedly dense concentration of dark matter, challenging theories about how the universe developed. The discovery also uncovered a surprising connection between scattered starlight and invisible dark matter that could transform how astronomers study the early cosmos.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185021.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-13"
+    },
+    {
+      "title": "Love is infrastructure",
+      "description": "I. Meet cute Barnabas and Mainspring grew up near at hand, about an hour apart with good traffic, but for a long time they weren’t close. They traded glimpses and occasional hellos and then went about their business. Both of them carried on livelier conversations with farther-flung neighbors, who were richer and had more to…",
+      "link": "https://www.technologyreview.com/2026/10/16/1145845/love-is-infrastructure-fiction-charlie-jane-anders/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-16"
     },
     {
       "title": "NASA Adds Blue Origin New Glenn 9×4 to Launch Services Contract",
@@ -1967,46 +1999,6 @@
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-09-29"
-    },
-    {
-      "title": "Tech to Replace Animal Testing Is Almost Ready. Scientists Are Not",
-      "description": "Seventeen years ago, cell biologist Donald Ingber and his colleagues at Harvard University’s Wyss Institute for Biologically Inspired Engineering submitted a paper to the journal Science describing their model human lung. It was smaller than a USB stick and made of a clear polymer slab containing narrow channels, which were lined with the type of cells that line a lung’s air sacs and blood vessels. When air was pumped through hollow chambers beside the channels, the device rhythmically expanded and contracted—it “breathed.” This lifelike movement was a dramatic change from previous generations",
-      "link": "https://spectrum.ieee.org/alternatives-to-animal-testing",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch classified payload for U.S. Space Force",
-      "description": "Liftoff from pad 4E at Vandenberg Space Force Base in California is scheduled for Thursday, Oct. 15, at 5:01 p.m. PDT (8:01 p.m. EDT / 0001 UTC).",
-      "link": "https://spaceflightnow.com/2026/10/15/live-coverage-spacex-to-launch-classified-payload-for-u-s-space-force/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "NASA Visits Schools Strengthening Florida’s Skilled Workforce",
-      "description": "NASA recently awarded $10.5 million to seven organizations nationwide through its new State Hubs initiative. Space Florida was selected for Project ORBIT, which aims to expand opportunities for middle and high school students, boost enrollment in key career and technical programs, and create a statewide portal connecting skilled workers with aerospace employers. Elaine Ho, associate […]",
-      "link": "https://www.nasa.gov/image-article/nasa-visits-schools-strengthening-floridas-skilled-workforce/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "Three Caltech Professors Named Fellows of the American Physical Society",
-      "description": "Caltech professors Marco Bernardi, Sujit Datta, and John Sader have been named fellows of the American Physical Society (APS) for their outstanding contributions to physics.Marco Bernardi, professor of applied physics, physics, and materials science and the undergraduate and graduate option representative for materials sciences, was nominated by the APS Division of Computational Physics (DCOMP). He studies quantum interactions and dynamics in matter, picking apart the processes that take place on the tiniest of scales—how individual electrons, units of vibration, or spins move and interact in ",
-      "link": "https://www.caltech.edu/about/news/three-caltech-professors-named-fellows-of-the-american-physical-society",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-09"
-    },
-    {
-      "title": "Can a Radioactive Ore Break China’s Grip on Rare Earths?",
-      "description": "The global campaigns to break China’s dominance of vital rare-earth markets are shaping up into one of the signature geostrategic struggles of the early 21st century. Hundreds of mining companies, government agencies, and industrial facilities scattered across North America, Australasia, and Europe are striving to wrest share from Chinese firms, which control roughly 90 percent of the markets for rare-earth oxides and rare-earth metals. Rare earths are the ingredients on which vast and crucial manufacturing categories depend: semiconductors, LEDs, lasers, displays, metal alloys, optical lenses",
-      "link": "https://spectrum.ieee.org/monazite-rare-earth",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-15"
     }
   ]
 }
