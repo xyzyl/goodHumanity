@@ -1,16 +1,16 @@
 {
   "date": "2026-10-16",
-  "lastUpdated": "2026-10-16T19:21:05.416Z",
+  "lastUpdated": "2026-10-16T22:26:42.736Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "26.3s",
+    "executionTime": "68.8s",
     "sourcesQueried": 42,
     "sourcesSuccessful": 31,
-    "totalCandidates": 244,
-    "totalSelected": 242,
+    "totalCandidates": 246,
+    "totalSelected": 243,
     "entriesByField": {
       "health": 16,
-      "climate": 32,
+      "climate": 33,
       "energy": 6,
       "technology": 66,
       "education": 3,
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "energy": {
@@ -33,7 +33,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 2,
+        "kept": 1,
         "changed": 0
       },
       "education": {
@@ -53,25 +53,17 @@
         "changed": 0
       },
       "space": {
-        "kept": 0,
+        "kept": 2,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 32,
-      "topTierSources": 152,
-      "highCredibilitySources": 223
+      "highScoreEntries": 31,
+      "topTierSources": 153,
+      "highCredibilitySources": 224
     }
   },
   "entries": [
-    {
-      "title": "[Series] Peripheral arterial disease: adverse impacts, disparities in outcomes, and the path ahead",
-      "description": "This is the third paper in the peripheral arterial disease (PAD) Series. The first and second papers in this Series outline that PAD affects over 300 million people worldwide and can be diagnosed by non-invasive tests, as well as that treatment requires medications to reduce modifiable risk factors and that exercise therapy and revascularisation are required in selected patients. In this paper, the devastating effects of PAD at the individual level are described, including chronic pain, functional limitation, loss of independence, impaired physical and mental quality of life, unemployment, and",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00847-0/fulltext?rss=yes",
-      "source": "The Lancet",
-      "field": "health",
-      "date": "2026-09-22"
-    },
     {
       "title": "[The Lancet Commissions] The NUS–Lancet PRIME Commission: transforming pandemic readiness for equity",
       "description": "The National University of Singapore (NUS)–Lancet Pandemic Readiness through Institutions, Mobilising Communities, and Equity (PRIME) Commission redefines pandemic readiness and offers a practical blueprint for whole-of-society pandemic planning and implementation. Drawing on the hard lessons of the COVID-19 pandemic, the Commission brings together evidence from 20 countries, including interviews with members of diverse communities and groups, future scenarios, and epidemiological modelling. By integrating lived experience with systems analysis and forward-looking evidence, the Commission sets",
@@ -87,6 +79,14 @@
       "source": "The Lancet",
       "field": "health",
       "date": "2026-09-30"
+    },
+    {
+      "title": "[Series] Peripheral arterial disease: adverse impacts, disparities in outcomes, and the path ahead",
+      "description": "This is the third paper in the peripheral arterial disease (PAD) Series. The first and second papers in this Series outline that PAD affects over 300 million people worldwide and can be diagnosed by non-invasive tests, as well as that treatment requires medications to reduce modifiable risk factors and that exercise therapy and revascularisation are required in selected patients. In this paper, the devastating effects of PAD at the individual level are described, including chronic pain, functional limitation, loss of independence, impaired physical and mental quality of life, unemployment, and",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00847-0/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-09-22"
     },
     {
       "title": "[Articles] Radiotherapy versus observation following surgical resection of WHO grade 2 atypical meningioma (ROAM/EORTC-1308): an international, multicentre, open-label, phase 3, randomised controlled trial",
@@ -193,12 +193,12 @@
       "date": "2026-10-02"
     },
     {
-      "title": "Obituary: James Philip Bruce",
-      "description": "It is with great sadness that the Intergovernmental Panel on Climate Change (IPCC) has learned of the passing of James (Jim) Philip Bruce, a foundational figure in the establishment of the IPCC. In 1988, while serving as Deputy Secretary-General of the World Meteorological Organization (WMO), Bruce was instrumental in convening the first-ever meeting of the […]",
-      "link": "https://www.ipcc.ch/2026/09/22/obituary-james-philip-bruce/",
+      "title": "65th Plenary Session of IPCC suspended",
+      "description": "ADDIS ABABA, Oct 16 – The IPCC Chair, Jim Skea, suspended tonight the 65th Plenary Session in Addis Ababa after the meeting ran over its planned duration and many delegations from least developed countries and Small Island Developing States had to leave. The Chair’s decision safeguards and upholds the inclusivity of IPCC plenaries where the […]",
+      "link": "https://www.ipcc.ch/2026/10/16/65th-plenary-session-of-ipcc/",
       "source": "IPCC",
       "field": "climate",
-      "date": "2026-09-22"
+      "date": "2026-10-16"
     },
     {
       "title": "Ocean Facts: What are Kelvin waves?",
@@ -207,6 +207,22 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-10-14"
+    },
+    {
+      "title": "Obituary: James Philip Bruce",
+      "description": "It is with great sadness that the Intergovernmental Panel on Climate Change (IPCC) has learned of the passing of James (Jim) Philip Bruce, a foundational figure in the establishment of the IPCC. In 1988, while serving as Deputy Secretary-General of the World Meteorological Organization (WMO), Bruce was instrumental in convening the first-ever meeting of the […]",
+      "link": "https://www.ipcc.ch/2026/09/22/obituary-james-philip-bruce/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "NOAA’s flood mapping tool now covers nearly 100% of U.S.",
+      "description": "NOAA’s flood mapping tool now covers nearly 100% of U.S. Experimental Flood Inundation Mapping provides valuable guidance for decision-makers and public September 24, 2026 NOAA's flood inundation map (left) depicting the forecast for flooding extent in New London, Wisconsin, and a photo of flooded streets in New London (right), dated April 17, 2026. (Image credit: NOAA NWS) Download Image NOAA’s National Weather Service announced today that Flood Inundation Mapping (FIM), a revolutionary tool for predicting river flooding, is now available on an experimental basis to nearly 100% of the U.S. po",
+      "link": "https://www.noaa.gov/news-release/noaa-flood-mapping-tool-now-covers-nearly-100-of-us",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-21"
     },
     {
       "title": "Arctic Wildlife Research Suffers as Geopolitical Competition Grows",
@@ -225,20 +241,20 @@
       "date": "2026-10-14"
     },
     {
-      "title": "NOAA’s flood mapping tool now covers nearly 100% of U.S.",
-      "description": "NOAA’s flood mapping tool now covers nearly 100% of U.S. Experimental Flood Inundation Mapping provides valuable guidance for decision-makers and public September 24, 2026 NOAA's flood inundation map (left) depicting the forecast for flooding extent in New London, Wisconsin, and a photo of flooded streets in New London (right), dated April 17, 2026. (Image credit: NOAA NWS) Download Image NOAA’s National Weather Service announced today that Flood Inundation Mapping (FIM), a revolutionary tool for predicting river flooding, is now available on an experimental basis to nearly 100% of the U.S. po",
-      "link": "https://www.noaa.gov/news-release/noaa-flood-mapping-tool-now-covers-nearly-100-of-us",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-21"
-    },
-    {
       "title": "Guterres urges faster action and financing to stop biodiversity loss",
       "description": "The United Nations Secretary-General appealed on Friday for governments, businesses and communities to accelerate efforts to protect biodiversity for future generations and all life on Earth.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168610",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-10-16"
+    },
+    {
+      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
+      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
+      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-08"
     },
     {
       "title": "The world is waging a ‘war on nature’ as progress on biodiversity targets lags",
@@ -265,14 +281,6 @@
       "date": "2026-10-06"
     },
     {
-      "title": "Security, sacrifice or opportunity: Visions differ over effective climate action",
-      "description": "Should the world move away sharply from fossil fuels, or manage a slower, more careful retreat?",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168526",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-05"
-    },
-    {
       "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
       "description": "“We are the first generation with the tools to end the fossil fuel age – and the last who can avert climate catastrophe,” UN Secretary-General António Guterres said on Wednesday, calling on countries to draw up credible roadmaps with clear timelines to transition away from fossil fuels.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168418",
@@ -281,12 +289,12 @@
       "date": "2026-09-23"
     },
     {
-      "title": "Why climate action now comes down to speed, finance and cooperation",
-      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
-      "source": "UN News Climate",
+      "title": "How Algae, Avocados, and Happy Accidents Helped Shape a Career: An Interview with Environmental Economist Prakash Mishra",
+      "description": "As a kid growing up in North Carolina, Prakash Mishra was very interested in planets. \"My parents got me a telescope when I turned 6 or 7, and that was my personality for probably 10 years,\" he says, noting that he thought he would eventually study physics or astrophysics.But a series of what he calls \"happy accidents\" led him down a different path. He went to the University of Pennsylvania to study biochemical engineering but ended up earning a bachelor's degree in economics in 2019. Six years later, he completed a doctorate, also at Penn, in applied economics. Now, after a year at Dartmouth ",
+      "link": "https://www.caltech.edu/about/news/how-algae-avocados-and-happy-accidents-helped-shape-a-career-an-interview-with-environmental-economist-prakash-mishra",
+      "source": "Caltech",
       "field": "climate",
-      "date": "2026-09-21"
+      "date": "2026-09-18"
     },
     {
       "title": "ADB Approves $305.75 Million Financing to Upgrade Strategic Highways, Strengthen Wildlife Conservation in Nepal",
@@ -337,14 +345,6 @@
       "date": "2026-09-11"
     },
     {
-      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
-      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
-      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-08"
-    },
-    {
       "title": "NOAA expands use of commercial satellite data to enhance weather forecasting",
       "description": "NOAA expands use of commercial satellite data to enhance weather forecasting September 10, 2026 NOAA is expanding the use of commercial satellite data to boost weather and space forecasting. This is an artist's rendering of commercial satellites operated by Tomorrow.io, PlanetiQ, Spire Global Subsidiary Inc. and Muon Space that collect environmental data. (Image credit: NOAA NESDIS) Download Image NOAA is expanding its procurement and use of new commercial environmental satellite data streams that will enhance weather forecasting and space weather monitoring. The Space-Based Environmental Moni",
       "link": "https://www.noaa.gov/news-release/noaa-expands-use-of-commercial-satellite-data-to-enhance-weather-forecasting",
@@ -353,28 +353,20 @@
       "date": "2026-09-02"
     },
     {
+      "title": "Security, sacrifice or opportunity: Visions differ over effective climate action",
+      "description": "Should the world move away sharply from fossil fuels, or manage a slower, more careful retreat?",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168526",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-05"
+    },
+    {
       "title": "LIVE: World leaders tackle sea level rise, a stark marker of climate change",
       "description": "Sea level rise is among the most visible consequences of global warming, but for some countries, it is an imminent existential threat. World leaders meet Thursday to adopt a new declaration and debate the best ways to strengthen international cooperation and support vulnerable low-lying nations most at risk.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168423",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-09-24"
-    },
-    {
-      "title": "How Algae, Avocados, and Happy Accidents Helped Shape a Career: An Interview with Environmental Economist Prakash Mishra",
-      "description": "As a kid growing up in North Carolina, Prakash Mishra was very interested in planets. \"My parents got me a telescope when I turned 6 or 7, and that was my personality for probably 10 years,\" he says, noting that he thought he would eventually study physics or astrophysics.But a series of what he calls \"happy accidents\" led him down a different path. He went to the University of Pennsylvania to study biochemical engineering but ended up earning a bachelor's degree in economics in 2019. Six years later, he completed a doctorate, also at Penn, in applied economics. Now, after a year at Dartmouth ",
-      "link": "https://www.caltech.edu/about/news/how-algae-avocados-and-happy-accidents-helped-shape-a-career-an-interview-with-environmental-economist-prakash-mishra",
-      "source": "Caltech",
-      "field": "climate",
-      "date": "2026-09-18"
-    },
-    {
-      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
-      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
-      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-11"
     },
     {
       "title": "LIVE: Climate change is here - What happens next is still in our hands",
@@ -391,6 +383,14 @@
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-09-22"
+    },
+    {
+      "title": "Why climate action now comes down to speed, finance and cooperation",
+      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-21"
     },
     {
       "title": "Coordinated action on clean air and climate change can net $15 for every dollar spent",
@@ -425,6 +425,22 @@
       "date": "2026-09-21"
     },
     {
+      "title": "Analysis: UK solar power hits record high over summer 2026",
+      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-09-04"
+    },
+    {
+      "title": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting",
+      "description": "NOAA selects Tomorrow.io to help advance U.S. weather forecasting September 17, 2026 NOAA National Severe Storms Laboratory mobile radar tracks a thunderstorm in Nebraska. (Undated image.) (Image credit: NOAA) Download Image NOAA has selected Tomorrow.io to provide contracting support for the Earth Prediction Innovation Center (EPIC), the backbone of NOAA’s operational weather forecast modeling suite. This contract advances NOAA’s historic effort to accelerate the development of NOAA’s next-generation Earth modeling system, the Unified Forecast System (UFS), through open science. “With EPIC, w",
+      "link": "https://www.noaa.gov/news-release/noaa-selects-tomorrowio-to-help-advance-us-weather-forecasting",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-11"
+    },
+    {
       "title": "At Least 124 Environmental Defenders Killed Worldwide Last Year",
       "description": "At least 124 people were murdered last year for defending their forests, farms, or waterways from destruction or degradation, according to a stark new report. Its authors say that deep cuts to foreign aid by wealthy nations have weakened human rights groups that support environmental defenders. Read more on E360 →",
       "link": "https://e360.yale.edu/digest/environmental-defenders-killed-2025",
@@ -439,14 +455,6 @@
       "source": "Yale E360",
       "field": "climate",
       "date": "2026-09-10"
-    },
-    {
-      "title": "Analysis: UK solar power hits record high over summer 2026",
-      "description": "Solar power generation in the UK reached a new record over the summer of 2026, as temperatures across the nation… The post Analysis: UK solar power hits record high over summer 2026 appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/analysis-uk-solar-power-hits-record-high-over-summer-2026",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-09-04"
     },
     {
       "title": "First Utility-Scale Enhanced Geothermal Plant Goes Live",
@@ -465,22 +473,6 @@
       "date": "2026-09-23"
     },
     {
-      "title": "Here’s How Delhi Achieved Its Epic Power-Grid Fix",
-      "description": "It’s 6 a.m. on a cold January morning in 2002 in New Delhi. It’s still dark outside, and I’m in the kitchen preparing breakfast, packing lunches, and getting my two children ready to catch the school bus when, for the third time in a week, the power goes out. No lights, no mixer to finish my daughter’s puttu—her favorite rice dish—no kettle, no toaster. The bathroom is dark, and the kids are upset. It will probably be hours before the power comes back on, so I grab a flashlight and light the candles that are set up around the house for these occasions. We’re behind schedule now. We pack the fo",
-      "link": "https://spectrum.ieee.org/delhi-electricity-loss",
-      "source": "IEEE Spectrum",
-      "field": "energy",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "In India, a Surge of Solar Is Keeping Coal Power in Check",
-      "description": "India, a country of nearly 1.5 billion people, has long relied on coal to power its growing economy. But over the last two years, it has seen a remarkable shift: The rapid buildout of renewable energy has halted the growth of coal. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/india-solar-coal-power",
-      "source": "Yale E360",
-      "field": "energy",
-      "date": "2026-09-21"
-    },
-    {
       "title": "X-energy and its helium-cooled nuclear reactors",
       "description": "X-energy is developing small modular reactors to satisfy some of the planet’s most power-hungry users: industrial manufacturers that need high temperatures to produce billions of tons of concrete, plastics, fibers, and chemicals. Solar panels and wind turbines are great at producing electricity but what heavy industry also needs is raw heat—and lots of it. The manufacture…",
       "link": "https://www.technologyreview.com/2026/10/06/1145025/2026-climate-tech-companies-to-watch-x-energy-helium-cooled-nuclear-reactors/",
@@ -489,12 +481,28 @@
       "date": "2026-10-06"
     },
     {
+      "title": "Here’s How Delhi Achieved Its Epic Power-Grid Fix",
+      "description": "It’s 6 a.m. on a cold January morning in 2002 in New Delhi. It’s still dark outside, and I’m in the kitchen preparing breakfast, packing lunches, and getting my two children ready to catch the school bus when, for the third time in a week, the power goes out. No lights, no mixer to finish my daughter’s puttu—her favorite rice dish—no kettle, no toaster. The bathroom is dark, and the kids are upset. It will probably be hours before the power comes back on, so I grab a flashlight and light the candles that are set up around the house for these occasions. We’re behind schedule now. We pack the fo",
+      "link": "https://spectrum.ieee.org/delhi-electricity-loss",
+      "source": "IEEE Spectrum",
+      "field": "energy",
+      "date": "2026-09-28"
+    },
+    {
       "title": "Can the US battery market untangle from China?",
       "description": "The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from intermittent renewables like wind and solar. Crucially, this is all happening with the help of cheap Chinese batteries,…",
       "link": "https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/",
       "source": "MIT Tech Review",
       "field": "energy",
       "date": "2026-09-10"
+    },
+    {
+      "title": "In India, a Surge of Solar Is Keeping Coal Power in Check",
+      "description": "India, a country of nearly 1.5 billion people, has long relied on coal to power its growing economy. But over the last two years, it has seen a remarkable shift: The rapid buildout of renewable energy has halted the growth of coal. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/india-solar-coal-power",
+      "source": "Yale E360",
+      "field": "energy",
+      "date": "2026-09-21"
     },
     {
       "title": "Department of Energy launches $215 million race to build quantum computer by 2028",
@@ -513,6 +521,14 @@
       "date": "2026-10-16"
     },
     {
+      "title": "Met Warehouse dedication ceremony launches new era",
+      "description": "Once a storage castle, now a design stronghold, the landmark building is a major new hub at MIT.",
+      "link": "https://news.mit.edu/2026/met-warehouse-dedication-ceremony-launches-new-era-1002",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-02"
+    },
+    {
       "title": "Astronomers discover a strange universal rule behind black hole eruptions",
       "description": "Scientists have discovered that black holes of vastly different sizes appear to launch powerful jets according to the same universal rule. The breakthrough could explain why some black holes suddenly erupt years after devouring a star and help astronomers predict when these spectacular outbursts will happen.",
       "link": "https://www.sciencedaily.com/releases/2026/10/261014015507.htm",
@@ -521,12 +537,68 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Met Warehouse dedication ceremony launches new era",
-      "description": "Once a storage castle, now a design stronghold, the landmark building is a major new hub at MIT.",
-      "link": "https://news.mit.edu/2026/met-warehouse-dedication-ceremony-launches-new-era-1002",
+      "title": "NSF backs choice of new Antarctic contractor despite concerns by government watchdog and researchers",
+      "description": "Agency says it has “resolved” questions about KBR winning an $8 billion contract",
+      "link": "https://www.science.org/content/article/nsf-backs-choice-new-antarctic-contractor-despite-concerns-government-watchdog-and",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "U.S. crop genome sequencing gets $180 million boost",
+      "description": "Department of Agriculture will expand effort to describe genetics of seed banks",
+      "link": "https://www.science.org/content/article/u-s-crop-genome-sequencing-gets-180-million-boost",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "Scientists engineered a glowing cuttlefish. Why was it so hard?",
+      "description": "Breakthroughs in genetically altering cephalopods pave way for new studies of perception, brain evolution, and more",
+      "link": "https://www.science.org/content/article/scientists-engineered-glowing-cuttlefish-why-was-it-so-hard",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "NIH details $170 million biomedical research reproducibility effort",
+      "description": "Agency director announces literature search tool, other plans to improve reliability of science findings",
+      "link": "https://www.science.org/content/article/nih-details-170-million-biomedical-research-reproducibility-effort",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "How Bacteria Survive a World Full of Killer Bacteriophages",
+      "description": "Humans throughout history have invented a variety of ways to fight back against troublesome bacteria. But bacteria live in a dangerous world too. The human body and other bacteria-rich environments abound with bacteriophages, or viruses that prey upon bacteria. Phages can sometimes outnumber bacteria hundredfold, yet the bacteria endure and even thrive. What gives?New research from the Caltech lab of Sujit Datta, professor of chemical engineering, bioengineering, and biophysics, helps to explain why.Among other work, Datta's lab studies bacterial chemotaxis: the movements of microbes in respon",
+      "link": "https://www.caltech.edu/about/news/sujit-datta-bacteriophage-escape-chemotaxis",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Suzy Nelson transformed student life at MIT",
+      "description": "Over the last decade, the vice chancellor has refocused the Institute’s approach to student life to center on student well-being.",
+      "link": "https://news.mit.edu/2026/suzy-nelson-transformed-student-life-at-mit-1015",
       "source": "MIT News",
       "field": "technology",
-      "date": "2026-10-02"
+      "date": "2026-10-15"
+    },
+    {
+      "title": "First Light: Celebrate the Inauguration of Caltech's 10th President, Ray Jayawardhana",
+      "description": "First light is the threshold moment in astronomy when a telescope makes its first observation and opens a new window to discovery. That same spirit of possibility defines the Caltech community. Through curiosity-driven inquiry, powerful experimentation, and groundbreaking instrumentation, Caltech illuminates new fields of knowledge and accelerates breakthroughs that shape the future of science, technology, and society.This fall, Caltech celebrates the spirit of first light for the Inauguration of Ray Jayawardhana as the Institute's 10th president. Over two days—Wednesday, October 28, and Thurs",
+      "link": "https://www.caltech.edu/about/news/the-brave-new-space-age-inauguration",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "New Book by Phillip Hoffman Explores the Origins of Economic Growth",
+      "description": "In 1700, life was miserable everywhere. Nearly everyone was poor, most had to toil long days in fields just to feed their families, and half of all children died before adulthood. But throughout the following century, technological and political shifts in northwestern Europe unleashed something completely new in human history that transformed the world—sustained economic growth. Why and how this revolution started where it did is the focus of a new book by Philip T. Hoffman, Caltech's Rea A. and Lela G. Axline Professor of Business Economics and History, Emeritus.Why Europe?: The Great Diverge",
+      "link": "https://www.caltech.edu/about/news/new-book-by-phillip-hoffman-explores-the-origins-of-economic-growth",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-09-15"
     },
     {
       "title": "IEEE Offers More Services to Cities That Want to Be Smarter",
@@ -537,12 +609,12 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Simulation App Speeds Up Electric Truck Battery Design",
-      "description": "This article is brought to you by COMSOL. These days, no one blinks an eye at two-day, one-day, and even same-day package deliveries. Despite the plethora of localized fulfillment and distribution centers that have cropped up to meet the demand, delivery trucks still need to make considerably long drives, often over highways. To reduce fuel and maintenance costs as well as carbon emissions, companies are investing in electric trucks for their delivery fleets. While turning to electric trucks is a promising solution, the battery packs incorporated into these automotive designs often fall short ",
-      "link": "https://spectrum.ieee.org/electric-truck-battery-design-simulation",
+      "title": "Chasing China’s Monazite Monopoly",
+      "description": "One of the singular features of Baotou, an industrial city of 2 million people in Inner Mongolia, is a 10-square-kilometer (4-square-mile) lake that is among the most polluted in the world. The artificial lake, referred to by the name of the dam associated with it, Weikuang Dam (or Baogang Tailings Dam), has for decades collected the effluent from minerals processing for China’s globally dominant iron, steel, and rare-earths industries. Built in the late 1950s, the lake contains a highly toxic stew of industrial chemicals with substantial amounts of radioactive thorium, the latter resulting pr",
+      "link": "https://spectrum.ieee.org/china-rare-earth-minerals",
       "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-10-16"
+      "date": "2026-10-15"
     },
     {
       "title": "Master AI Chip Principles With New IEEE Design Program",
@@ -551,6 +623,22 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-10-09"
+    },
+    {
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI…",
+      "link": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
+      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-22"
     },
     {
       "title": "NASA’s Cargo-Moving Robotic Arm Named 300th IEEE Milestone",
@@ -585,22 +673,6 @@
       "date": "2026-10-11"
     },
     {
-      "title": "NSF backs choice of new Antarctic contractor despite concerns by government watchdog and researchers",
-      "description": "Agency says it has “resolved” questions about KBR winning an $8 billion contract",
-      "link": "https://www.science.org/content/article/nsf-backs-choice-new-antarctic-contractor-despite-concerns-government-watchdog-and",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "U.S. crop genome sequencing gets $180 million boost",
-      "description": "Department of Agriculture will expand effort to describe genetics of seed banks",
-      "link": "https://www.science.org/content/article/u-s-crop-genome-sequencing-gets-180-million-boost",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-10-09"
-    },
-    {
       "title": "Two teams map development of mammal embryos, cell by cell",
       "description": "Using genome editing to trace cell lineages, researchers capture the early history of the mouse embryo in unprecedented detail",
       "link": "https://www.science.org/content/article/two-teams-map-development-mammal-embryos-cell-cell",
@@ -617,6 +689,14 @@
       "date": "2026-10-07"
     },
     {
+      "title": "Possible plague death at a Siberian lab baffles scientists",
+      "description": "Much is unclear about the tragedy, but plague researchers say there is “zero” chance of an epidemic",
+      "link": "https://www.science.org/content/article/possible-plague-death-siberian-lab-baffles-scientists",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-10-06"
+    },
+    {
       "title": "Five physics breakthroughs that should have won a Nobel Prize—but didn’t",
       "description": "How politics, bad timing, and skepticism left foundation stones of modern physics unrecognized",
       "link": "https://www.science.org/content/article/five-physics-breakthroughs-should-have-won-nobel-prize-didn-t",
@@ -625,60 +705,12 @@
       "date": "2026-09-30"
     },
     {
-      "title": "Scientists engineered a glowing cuttlefish. Why was it so hard?",
-      "description": "Breakthroughs in genetically altering cephalopods pave way for new studies of perception, brain evolution, and more",
-      "link": "https://www.science.org/content/article/scientists-engineered-glowing-cuttlefish-why-was-it-so-hard",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "NIH details $170 million biomedical research reproducibility effort",
-      "description": "Agency director announces literature search tool, other plans to improve reliability of science findings",
-      "link": "https://www.science.org/content/article/nih-details-170-million-biomedical-research-reproducibility-effort",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "Suzy Nelson transformed student life at MIT",
-      "description": "Over the last decade, the vice chancellor has refocused the Institute’s approach to student life to center on student well-being.",
-      "link": "https://news.mit.edu/2026/suzy-nelson-transformed-student-life-at-mit-1015",
-      "source": "MIT News",
+      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been…",
+      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
+      "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-10-15"
-    },
-    {
-      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI…",
-      "link": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Don’t be fooled by this summer of AI hype —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender, professor of linguistics at the University of…",
-      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-22"
-    },
-    {
-      "title": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
-      "description": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times by shielding quantum information from common forms of electromagnetic noise. If experiments confirm the predictions, the technology could eventually work alongside today’s superconducting qubits or serve as a new kind of quantum memory.",
-      "link": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Possible plague death at a Siberian lab baffles scientists",
-      "description": "Much is unclear about the tragedy, but plague researchers say there is “zero” chance of an epidemic",
-      "link": "https://www.science.org/content/article/possible-plague-death-siberian-lab-baffles-scientists",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-10-06"
     },
     {
       "title": "Project will harness technology to track Amazon biodiversity in real time",
@@ -697,25 +729,9 @@
       "date": "2026-09-17"
     },
     {
-      "title": "First Light: Celebrate the Inauguration of Caltech's 10th President, Ray Jayawardhana",
-      "description": "First light is the threshold moment in astronomy when a telescope makes its first observation and opens a new window to discovery. That same spirit of possibility defines the Caltech community. Through curiosity-driven inquiry, powerful experimentation, and groundbreaking instrumentation, Caltech illuminates new fields of knowledge and accelerates breakthroughs that shape the future of science, technology, and society.This fall, Caltech celebrates the spirit of first light for the Inauguration of Ray Jayawardhana as the Institute's 10th president. Over two days—Wednesday, October 28, and Thurs",
-      "link": "https://www.caltech.edu/about/news/the-brave-new-space-age-inauguration",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-14"
-    },
-    {
       "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
       "description": "MIT's Center for Transportation and Logistics finds sustainability commitments are strong, but governance gaps and external disruptions prevent execution.",
       "link": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "AI model decodes the language cells use to communicate",
-      "description": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
-      "link": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
       "source": "MIT News",
       "field": "technology",
       "date": "2026-10-15"
@@ -793,28 +809,12 @@
       "date": "2026-09-24"
     },
     {
-      "title": "New Book by Phillip Hoffman Explores the Origins of Economic Growth",
-      "description": "In 1700, life was miserable everywhere. Nearly everyone was poor, most had to toil long days in fields just to feed their families, and half of all children died before adulthood. But throughout the following century, technological and political shifts in northwestern Europe unleashed something completely new in human history that transformed the world—sustained economic growth. Why and how this revolution started where it did is the focus of a new book by Philip T. Hoffman, Caltech's Rea A. and Lela G. Axline Professor of Business Economics and History, Emeritus.Why Europe?: The Great Diverge",
-      "link": "https://www.caltech.edu/about/news/new-book-by-phillip-hoffman-explores-the-origins-of-economic-growth",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-09-15"
-    },
-    {
-      "title": "Chasing China’s Monazite Monopoly",
-      "description": "One of the singular features of Baotou, an industrial city of 2 million people in Inner Mongolia, is a 10-square-kilometer (4-square-mile) lake that is among the most polluted in the world. The artificial lake, referred to by the name of the dam associated with it, Weikuang Dam (or Baogang Tailings Dam), has for decades collected the effluent from minerals processing for China’s globally dominant iron, steel, and rare-earths industries. Built in the late 1950s, the lake contains a highly toxic stew of industrial chemicals with substantial amounts of radioactive thorium, the latter resulting pr",
-      "link": "https://spectrum.ieee.org/china-rare-earth-minerals",
+      "title": "Simulation App Speeds Up Electric Truck Battery Design",
+      "description": "This article is brought to you by COMSOL. These days, no one blinks an eye at two-day, one-day, and even same-day package deliveries. Despite the plethora of localized fulfillment and distribution centers that have cropped up to meet the demand, delivery trucks still need to make considerably long drives, often over highways. To reduce fuel and maintenance costs as well as carbon emissions, companies are investing in electric trucks for their delivery fleets. While turning to electric trucks is a promising solution, the battery packs incorporated into these automotive designs often fall short ",
+      "link": "https://spectrum.ieee.org/electric-truck-battery-design-simulation",
       "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "The Download: reviving frozen pig kidneys and boosting nuclear power",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Pig kidneys that were “frozen” for a year have been brought back to life Pig kidneys that were cooled to -150 °C and stored in a freezer for months have been…",
-      "link": "https://www.technologyreview.com/2026/10/15/1146755/the-download-reviving-frozen-pig-kidneys-boosting-nuclear-power/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-15"
+      "date": "2026-10-16"
     },
     {
       "title": "How much more can nuclear power plants give?",
@@ -847,6 +847,14 @@
       "source": "IEEE Spectrum",
       "field": "technology",
       "date": "2026-10-05"
+    },
+    {
+      "title": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
+      "description": "A proposed qubit made with superfluid helium could cut quantum computing error rates by around 100 times by shielding quantum information from common forms of electromagnetic noise. If experiments confirm the predictions, the technology could eventually work alongside today’s superconducting qubits or serve as a new kind of quantum memory.",
+      "link": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-01"
     },
     {
       "title": "‘Rocket revolution’ opens access to space",
@@ -889,6 +897,30 @@
       "date": "2026-10-13"
     },
     {
+      "title": "ADB Supports Modernization of Azerbaijan’s Bilajari–Yalama Railway Line",
+      "description": "ADB has approved a $350 million loan to install modern electrification, signaling, and telecommunication systems along the 192-kilometer double-track railway line between Bilajari and Yalama.",
+      "link": "https://www.adb.org/news/adb-supports-modernization-azerbaijan-bilajari-yalama-railway-line",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-06"
+    },
+    {
+      "title": "ADB Strengthens Regional Cooperation with New Malaysia Office",
+      "description": "ADB will strengthen its promotion of regional cooperation and integration, including support for the Association of Southeast Asian Nations Power Grid, by establishing a new office in Malaysia.",
+      "link": "https://www.adb.org/news/adb-strengthens-regional-cooperation-new-malaysia-office",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "ADB Approves $3 Million Grant to Address Violence Against Women and Children in Mongolia through Safer Schools and Stronger Support Services",
+      "description": "ADB has approved a $3 million grant to help Mongolia prevent and respond to violence against women and children through safer schools, improved survivor support services, and effective policy reforms.",
+      "link": "https://www.adb.org/news/adb-approves-3-million-grant-address-violence-against-women-and-children-mongolia-safer-schools",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-14"
+    },
+    {
       "title": "ADB, Uzbekistan Sign $200 Million Power Modernization Loan",
       "description": "ADB President Masato Kanda met Uzbekistan Deputy Prime Minister and Minister of Economy and Finance Jamshid Kuchkarov today and signed a $200 million loan agreement to modernize the country’s electricity distribution system, cut power losses, and improve reliability as electricity demand rises.",
       "link": "https://www.adb.org/news/adb-uzbekistan-sign-200-million-power-modernization-loan",
@@ -927,6 +959,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-19"
+    },
+    {
+      "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
+      "description": "ADB has approved a $650 million equivalent program to help Indonesia modernize intergovernmental fiscal management, advance digital governance, and improve public service delivery across the country’s decentralized system of government.",
+      "link": "https://www.adb.org/news/adb-supports-fiscal-reforms-stronger-public-service-delivery-indonesia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-09-16"
     },
     {
       "title": "800 million young people face a future without jobs",
@@ -969,14 +1009,6 @@
       "date": "2026-10-14"
     },
     {
-      "title": "ADB Supports Modernization of Azerbaijan’s Bilajari–Yalama Railway Line",
-      "description": "ADB has approved a $350 million loan to install modern electrification, signaling, and telecommunication systems along the 192-kilometer double-track railway line between Bilajari and Yalama.",
-      "link": "https://www.adb.org/news/adb-supports-modernization-azerbaijan-bilajari-yalama-railway-line",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-06"
-    },
-    {
       "title": "ADB, Modern Syntex Sign $50 Million Loan to Expand Energy-Efficient Polyester Chips Production in Bangladesh",
       "description": "ADB and Modern Syntex Limited have signed a $50 million loan for the Modern Energy-Efficient Polyester Chips Manufacturing Project in Bangladesh.",
       "link": "https://www.adb.org/news/adb-modern-syntex-sign-50-million-loan-expand-energy-efficient-polyester-chips-bangladesh",
@@ -999,30 +1031,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-18"
-    },
-    {
-      "title": "ADB Supports Fiscal Reforms for Stronger Public Service Delivery in Indonesia",
-      "description": "ADB has approved a $650 million equivalent program to help Indonesia modernize intergovernmental fiscal management, advance digital governance, and improve public service delivery across the country’s decentralized system of government.",
-      "link": "https://www.adb.org/news/adb-supports-fiscal-reforms-stronger-public-service-delivery-indonesia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-16"
-    },
-    {
-      "title": "ADB Approves $3 Million Grant to Address Violence Against Women and Children in Mongolia through Safer Schools and Stronger Support Services",
-      "description": "ADB has approved a $3 million grant to help Mongolia prevent and respond to violence against women and children through safer schools, improved survivor support services, and effective policy reforms.",
-      "link": "https://www.adb.org/news/adb-approves-3-million-grant-address-violence-against-women-and-children-mongolia-safer-schools",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-14"
-    },
-    {
-      "title": "ADB Strengthens Regional Cooperation with New Malaysia Office",
-      "description": "ADB will strengthen its promotion of regional cooperation and integration, including support for the Association of Southeast Asian Nations Power Grid, by establishing a new office in Malaysia.",
-      "link": "https://www.adb.org/news/adb-strengthens-regional-cooperation-new-malaysia-office",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-09-24"
     },
     {
       "title": "ADB President Calls for Greater Investment in Science, Energy, and AI",
@@ -1169,12 +1177,12 @@
       "date": "2026-10-14"
     },
     {
-      "title": "Ukraine: UN condemns latest attacks and calls for civilian protection",
-      "description": "The UN Humanitarian Coordinator for Ukraine on Wednesday called for an end to attacks against civilians following further overnight strikes by Russian forces that reportedly killed at least 19 in the Chernihiv Region.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168548",
+      "title": "World News in Brief: Storm clouds over Gaza, deadly obstacles face Mexican women rights defenders, Latvia booze ban proves lifesaver",
+      "description": "UN teams are racing to protect families in Gaza from the coming rainy season, but restricted access to land and shortages of critical supplies are hampering the effort, UN Spokesperson Stéphane Dujarric said on Wednesday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168496",
       "source": "UN Peace & Security",
       "field": "peace",
-      "date": "2026-10-07"
+      "date": "2026-09-30"
     },
     {
       "title": "The 2026 economic sciences prize – A new model for a stable economy",
@@ -1201,28 +1209,20 @@
       "date": "2026-10-08"
     },
     {
+      "title": "Ukraine: UN condemns latest attacks and calls for civilian protection",
+      "description": "The UN Humanitarian Coordinator for Ukraine on Wednesday called for an end to attacks against civilians following further overnight strikes by Russian forces that reportedly killed at least 19 in the Chernihiv Region.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168548",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-10-07"
+    },
+    {
       "title": "World News in Brief: Cycle of violence continues in Haiti, seafarer deaths off Somalia, food insecurity in the Middle East",
       "description": "Haitians remain in the grip of lethal gang violence as it continues to “adapt and expand”, the UN’s top rights official, Volker Türk, said on Friday.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168511",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-10-02"
-    },
-    {
-      "title": "ONE-MINUTE CRASH COURSES",
-      "description": "Take our one-minute crash courses and find out how these discoveries and achievements have changed our world. The 2026 one-minute crash courses will be published here in November. The post ONE-MINUTE CRASH COURSES appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/one-minute-crash-courses/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "World News in Brief: Storm clouds over Gaza, deadly obstacles face Mexican women rights defenders, Latvia booze ban proves lifesaver",
-      "description": "UN teams are racing to protect families in Gaza from the coming rainy season, but restricted access to land and shortages of critical supplies are hampering the effort, UN Spokesperson Stéphane Dujarric said on Wednesday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168496",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-30"
     },
     {
       "title": "Security Council LIVE: Ambassadors meet as West Bank tensions rise, Gaza plan stalls",
@@ -1233,20 +1233,28 @@
       "date": "2026-09-28"
     },
     {
-      "title": "Lebanon–Israel tensions escalate as Gaza sees major aid delivery",
-      "description": "Peacekeepers in Lebanon have reported a marked deterioration in the security situation along the Blue Line of separation, with Israeli forces intensifying their military footprint in violation of a landmark Security Council resolution, UN Spokesperson Stéphane Dujarric said on Thursday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168275",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-03"
-    },
-    {
       "title": "World News in Brief: West Bank demolitions accelerate, urgent support for Sudan, Haiti diplacement, AI hub to boost gender equality",
       "description": "The situation in the occupied West Bank continues to deteriorate, the UN human rights office has said, pointing to the “mass destruction” of Palestinian villages and forcible transfer of residents in Msafer Yatta, South Hebron Hills.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168447",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-09-25"
+    },
+    {
+      "title": "UN hails Libya election deal as Security Council urges Libyans to seize the moment",
+      "description": "The UN Security Council has welcomed a breakthrough agreement between Libya's rival political blocs, calling it \"an important step\" towards the country's first national elections in over a decade – while pressing all sides to move quickly from paper to practice.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168302",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-09"
+    },
+    {
+      "title": "Lebanon–Israel tensions escalate as Gaza sees major aid delivery",
+      "description": "Peacekeepers in Lebanon have reported a marked deterioration in the security situation along the Blue Line of separation, with Israeli forces intensifying their military footprint in violation of a landmark Security Council resolution, UN Spokesperson Stéphane Dujarric said on Thursday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168275",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-03"
     },
     {
       "title": "Nobel Prize lessons – A new model for a stable economy",
@@ -1257,20 +1265,20 @@
       "date": "2026-10-14"
     },
     {
+      "title": "ONE-MINUTE CRASH COURSES",
+      "description": "Take our one-minute crash courses and find out how these discoveries and achievements have changed our world. The 2026 one-minute crash courses will be published here in November. The post ONE-MINUTE CRASH COURSES appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/one-minute-crash-courses/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-10-01"
+    },
+    {
       "title": "IAEA chief underscores commitment to nuclear safety and verification",
       "description": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnessing a “common spirit of dedication” which still guides their work.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168325",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-09-14"
-    },
-    {
-      "title": "UN hails Libya election deal as Security Council urges Libyans to seize the moment",
-      "description": "The UN Security Council has welcomed a breakthrough agreement between Libya's rival political blocs, calling it \"an important step\" towards the country's first national elections in over a decade – while pressing all sides to move quickly from paper to practice.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168302",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-09"
     },
     {
       "title": "Security Council LIVE: Addressing the legacy of Syria’s chemical weapons",
@@ -1313,6 +1321,14 @@
       "date": "2026-10-15"
     },
     {
+      "title": "Perseverance Navcam Image Marks Record Drive",
+      "description": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct. 11, 2026, the 2,006th Martian day, or sol, of the mission. During that sol’s drive, spanning 299.6 feet (91.31 meters), the mission passed a major milestone: pushing Perseverance’s total […]",
+      "link": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
+    },
+    {
       "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
       "description": "Description NASA’s Curiosity Mars rover captured this view looking back at the floor of Gale Crater, with the crater’s rim visible in the distance, on Sept. 5, 2026, the 5,006th Martian day, or sol, of the mission. Just nine days prior, on Aug. 26 (Sol 4,996), Curiosity set a mission milestone by reaching 1 kilometer […]",
       "link": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
@@ -1353,6 +1369,30 @@
       "date": "2026-10-08"
     },
     {
+      "title": "What happened this month at the European Space Agency? (September 2026)",
+      "description": "Video: 00:03:32 September was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo separated from its Mercury Transfer Module, taking another step towards Mercury. Spectrum became the first rocket to reach orbit from continental Europe. And the James Webb Space Telescope found tiny brown dwarfs that could harbor the building blocks of planets. Here’s a look at what space had in store for Europe this September!",
+      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-01"
+    },
+    {
+      "title": "NASA Names Stephen Cash Marshall Space Flight Center Director",
+      "description": "NASA Administrator Jared Isaacman has named Stephen Cash director of the agency’s Marshall Space Flight Center in Huntsville, Alabama, effective Monday, Oct. 19. Cash, a veteran NASA engineer and aerospace executive, returns to lead the center where he began his career more than four decades ago. “Marshall contributions to NASA’s missions are historic and it’s […]",
+      "link": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Artemis II Heat Shield After Splashdown",
+      "description": "Shortly after NASA’s Artemis II mission splashed down on April 10, 2026, U.S. Navy divers captured underwater imagery of the Orion spacecraft’s heat shield. In the months after, the agency measured whether the thermal protection system effectively safeguarded the crew and Orion systems as the spacecraft reentered Earth’s atmosphere. This rigorous analysis confirmed that the […]",
+      "link": "https://www.nasa.gov/image-article/artemis-ii-heat-shield-after-splashdown/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-16"
+    },
+    {
       "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
       "description": "A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Transit, Texas, from Thursday, Oct. 22, through Monday, Nov. 9. These flights will measure gaseous and particulate emissions from animal feeding operations. Agricultural emissions represent an important and understudied part of Earth’s land and atmosphere systems. The FarmFlux mission will deploy […]",
       "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
@@ -1377,14 +1417,6 @@
       "date": "2026-10-14"
     },
     {
-      "title": "Perseverance Navcam Image Marks Record Drive",
-      "description": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct. 11, 2026, the 2,006th Martian day, or sol, of the mission. During that sol’s drive, spanning 299.6 feet (91.31 meters), the mission passed a major milestone: pushing Perseverance’s total […]",
-      "link": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-13"
-    },
-    {
       "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
       "description": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station in Florida, advancing research that benefits life on Earth and future exploration. This research supports astronaut health during long-duration missions through […]",
       "link": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
@@ -1399,22 +1431,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-16"
-    },
-    {
-      "title": "What happened this month at the European Space Agency? (September 2026)",
-      "description": "Video: 00:03:32 September was a month of milestones and discoveries. FLEX launched aboard Vega-C alongside Sentinel-3C. Sophie Adenot completed her third and final spacewalk, leading the mission as EV-1. BepiColombo separated from its Mercury Transfer Module, taking another step towards Mercury. Spectrum became the first rocket to reach orbit from continental Europe. And the James Webb Space Telescope found tiny brown dwarfs that could harbor the building blocks of planets. Here’s a look at what space had in store for Europe this September!",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_September_2026",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-10-01"
-    },
-    {
-      "title": "Transporter-18 SmallSats Encapsulation",
-      "description": "Three NASA-supported small spacecraft, along with many commercial payloads, are shown before being encapsulated in a SpaceX Falcon 9 ahead of launch on Oct. 1, 2026. The ASCENT Propulsion Dual Mode CubeSat, the Supernova Remnants and Proxies for ReIonization Testbed Experiment (SPRITE) CubeSat, and the Small Spacecraft Propulsion and Inspection Capability (SSPICY) mission will demonstrate […]",
-      "link": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-13"
     },
     {
       "title": "NASA astronauts splash down after 100 million miles in space",
@@ -1447,6 +1463,14 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-10-15"
+    },
+    {
+      "title": "Transporter-18 SmallSats Encapsulation",
+      "description": "Three NASA-supported small spacecraft, along with many commercial payloads, are shown before being encapsulated in a SpaceX Falcon 9 ahead of launch on Oct. 1, 2026. The ASCENT Propulsion Dual Mode CubeSat, the Supernova Remnants and Proxies for ReIonization Testbed Experiment (SPRITE) CubeSat, and the Small Spacecraft Propulsion and Inspection Capability (SSPICY) mission will demonstrate […]",
+      "link": "https://www.nasa.gov/image-article/transporter-18-smallsats-encapsulation/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
     },
     {
       "title": "NASA’s Record-Setting Perseverance Rover Team",
@@ -1631,6 +1655,14 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-29"
+    },
+    {
+      "title": "AI model decodes the language cells use to communicate",
+      "description": "A new computational approach reveals how cells communicate to assemble into tissues. This could accelerate stem cell engineering, improve disease models, and inform therapies.",
+      "link": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-15"
     },
     {
       "title": "NASA Adds Blue Origin New Glenn 9×4 to Launch Services Contract",
@@ -1945,22 +1977,6 @@
       "date": "2026-09-10"
     },
     {
-      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
-      "description": "Following their landmark Artemis II mission earlier this year, distinguished NASA astronauts Victor Glover and Reid Wiseman are transitioning in September to emeritus status at the agency’s Johnson Space Center in Houston. In an emeritus role, individuals with a high degree of technical and professional knowledge can continue to support the agency by donating their […]",
-      "link": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-09"
-    },
-    {
-      "title": "How 2 US, European Satellites Are Studying Hurricanes During El Niño",
-      "description": "Last November, NASA and its European partners launched the Sentinel-6B satellite to improve hurricane forecasts, help protect infrastructure, and benefit commercial industries, including shipping. The satellite now is flying 30 seconds behind its predecessor, Sentinel-6 Michael Freilich. Both satellites are providing precise sea level height measurements during what oceanographers expect to be a historic El […]",
-      "link": "https://www.nasa.gov/missions/jason-cs-sentinel-6/how-2-us-european-satellites-are-studying-hurricanes-during-el-nino/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-09"
-    },
-    {
       "title": "Turning the tide on Massachusetts shellfishing data",
       "description": "MIT researchers built a cloud-based platform to help Massachusetts coastal towns and the state manage shellfishing closures, giving thousands of permit holders a clearer view of where they can fish.",
       "link": "https://news.mit.edu/2026/turning-tide-massachusetts-shellfishing-data-1007",
@@ -1991,14 +2007,6 @@
       "source": "MIT News",
       "field": "technology",
       "date": "2026-10-02"
-    },
-    {
-      "title": "Governor Healey and President Kornbluth launch MIT Future Fest",
-      "description": "The new, five-day MIT event reaches takeoff with a forum about discovery and innovation.",
-      "link": "https://news.mit.edu/2026/governor-healey-and-president-kornbluth-launch-mit-future-fest-1001",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-01"
     }
   ]
 }
