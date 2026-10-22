@@ -1,15 +1,15 @@
 {
   "date": "2026-10-22",
-  "lastUpdated": "2026-10-22T09:06:13.242Z",
+  "lastUpdated": "2026-10-22T16:29:12.143Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "24.3s",
+    "executionTime": "24.1s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 35,
-    "totalCandidates": 248,
-    "totalSelected": 246,
+    "sourcesSuccessful": 32,
+    "totalCandidates": 251,
+    "totalSelected": 247,
     "entriesByField": {
-      "health": 15,
+      "health": 16,
       "climate": 35,
       "energy": 8,
       "technology": 66,
@@ -20,7 +20,7 @@
     },
     "categoryIntegrity": {
       "health": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "climate": {
@@ -32,7 +32,7 @@
         "changed": 0
       },
       "technology": {
-        "kept": 2,
+        "kept": 3,
         "changed": 0
       },
       "education": {
@@ -41,7 +41,7 @@
       },
       "development": {
         "kept": 0,
-        "changed": 1
+        "changed": 0
       },
       "peace": {
         "kept": 0,
@@ -52,14 +52,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 33,
+      "highScoreEntries": 36,
       "topTierSources": 148,
-      "highCredibilitySources": 223
+      "highCredibilitySources": 222
     }
   },
   "entries": [
@@ -80,20 +80,12 @@
       "date": "2026-09-20"
     },
     {
-      "title": "[Articles] Most-favoured-nation pricing for prescription drugs in US Medicare: a cohort study",
-      "description": "Most-favoured-nation pricing for brand-name medicines in Medicare was projected to decrease net spending. Potential reductions in net Medicare spending would be substantially greater than sales in the reference countries, suggesting that shifts in manufacturer behaviour with model implementation could reduce possible savings.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01555-2/fulltext?rss=yes",
-      "source": "The Lancet",
+      "title": "Pakistan: partnering with Rotary to protect millions of children from polio",
+      "description": "23 September 2026, Islamabad, Pakistan – “When we are working, we don’t see whether it is winter, summer, autumn or spring. In every season and in all weather conditions, we do our best to reach every child. This is why we go house to house to give polio drops,” says Fareeda. Fareeda is one of […]",
+      "link": "https://polioeradication.org/news/pakistan-partnering-with-rotary-to-protect-millions-of-children-from-polio/",
+      "source": "Polio Eradication",
       "field": "health",
-      "date": "2026-09-13"
-    },
-    {
-      "title": "Health workers tackle taboos over drinking with new AI tool",
-      "description": "A new AI-powered hub for health professionals aims to help identify alcohol-related risks and launch discussions with patients, including the link between drinking and cancer, the World Health Organization (WHO) announced on Wednesday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168594",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-10-14"
+      "date": "2026-10-06"
     },
     {
       "title": "New WHO technical package to help countries improve health data for COVID-19 response and beyond",
@@ -120,20 +112,36 @@
       "date": "2026-09-22"
     },
     {
-      "title": "Pakistan: partnering with Rotary to protect millions of children from polio",
-      "description": "23 September 2026, Islamabad, Pakistan – “When we are working, we don’t see whether it is winter, summer, autumn or spring. In every season and in all weather conditions, we do our best to reach every child. This is why we go house to house to give polio drops,” says Fareeda. Fareeda is one of […]",
-      "link": "https://polioeradication.org/news/pakistan-partnering-with-rotary-to-protect-millions-of-children-from-polio/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-10-06"
-    },
-    {
       "title": "A Cure Out of Most Patients’ Reach — Sickle Cell Disease in the Gene-Therapy Era",
       "description": "New England Journal of Medicine, Volume 395, Issue 12, Page 1145-1147, September 24, 2026.",
       "link": "https://www.nejm.org/doi/full/10.1056/NEJMp2609007?af=R&rss=currentIssue",
       "source": "NEJM",
       "field": "health",
       "date": "2026-09-19"
+    },
+    {
+      "title": "[Articles] Most-favoured-nation pricing for prescription drugs in US Medicare: a cohort study",
+      "description": "Most-favoured-nation pricing for brand-name medicines in Medicare was projected to decrease net spending. Potential reductions in net Medicare spending would be substantially greater than sales in the reference countries, suggesting that shifts in manufacturer behaviour with model implementation could reduce possible savings.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01555-2/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-09-13"
+    },
+    {
+      "title": "Health workers tackle taboos over drinking with new AI tool",
+      "description": "A new AI-powered hub for health professionals aims to help identify alcohol-related risks and launch discussions with patients, including the link between drinking and cancer, the World Health Organization (WHO) announced on Wednesday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168594",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Two drops, one dream: a vaccinator’s 14-year journey to protect Afghan children from polio",
+      "description": "21 October 2026, Kabul, Afghanistan – In the early morning of a polio vaccination campaign, before the streets become busy, Rashed Anawri is already thinking about the children he will meet during the day. He checks his vaccine carrier, tally sheet and finger marker, familiar tools that have accompanied him throughout his 14 years as […]",
+      "link": "https://polioeradication.org/news/two-drops-one-dream-a-vaccinators-14-year-journey-to-protect-afghan-children-from-polio/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-10-22"
     },
     {
       "title": "WHO calls for urgent health action across the Eastern Mediterranean",
@@ -192,6 +200,22 @@
       "date": "2026-10-21"
     },
     {
+      "title": "Communication Officer in the IPCC WGI Technical Support Unit",
+      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Communication Officer in the Technical Support Unit The position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and the World […]",
+      "link": "https://www.ipcc.ch/2026/10/19/comm-officer-ipcc-wg1-tsu/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2026-10-19"
+    },
+    {
+      "title": "LIVE: World leaders approve new declaration to tackle rising sea levels",
+      "description": "Sea level rise is among the most visible consequences of global warming, but for some countries, it is an imminent existential threat. World leaders approved a new declaration on Thursday while debating the best ways to strengthen international cooperation and support vulnerable low-lying nations most at risk.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168423",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-24"
+    },
+    {
       "title": "Obituary: James Philip Bruce",
       "description": "It is with great sadness that the Intergovernmental Panel on Climate Change (IPCC) has learned of the passing of James (Jim) Philip Bruce, a foundational figure in the establishment of the IPCC. In 1988, while serving as Deputy Secretary-General of the World Meteorological Organization (WMO), Bruce was instrumental in convening the first-ever meeting of the […]",
       "link": "https://www.ipcc.ch/2026/09/22/obituary-james-philip-bruce/",
@@ -208,20 +232,44 @@
       "date": "2026-10-21"
     },
     {
-      "title": "Communication Officer in the IPCC WGI Technical Support Unit",
-      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Communication Officer in the Technical Support Unit The position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and the World […]",
-      "link": "https://www.ipcc.ch/2026/10/19/comm-officer-ipcc-wg1-tsu/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2026-10-19"
-    },
-    {
       "title": "65th Plenary Session of IPCC suspended",
       "description": "ADDIS ABABA, Oct 16 – The IPCC Chair, Jim Skea, suspended tonight the 65th Plenary Session in Addis Ababa after the meeting ran over its planned duration and many delegations from least developed countries and Small Island Developing States had to leave. The Chair’s decision safeguards and upholds the inclusivity of IPCC plenaries where the […]",
       "link": "https://www.ipcc.ch/2026/10/16/65th-plenary-session-of-ipcc/",
       "source": "IPCC",
       "field": "climate",
       "date": "2026-10-16"
+    },
+    {
+      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
+      "description": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168555",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "World on Track for 2.8 Degrees Celsius of Warming",
+      "description": "Current climate policies put the world on a course for 2.8 degrees C of warming this century, a gross breach of international climate targets, according to a new U.N. report. Read more on E360 →",
+      "link": "https://e360.yale.edu/digest/emissions-gap-2026",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "UNEP: Opportunity has ‘been lost’ to meet 1.5C warming limit without ‘overshoot’",
+      "description": "A temporary breach of the 1.5C global-warming limit is now “inevitable” following “decades of insufficient climate action”, says the UN… The post UNEP: Opportunity has ‘been lost’ to meet 1.5C warming limit without ‘overshoot’ appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/unep-opportunity-has-been-lost-to-meet-1-5c-warming-limit-without-overshoot",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "How the U.S. Public Lost Its Say on Environmental Policy",
+      "description": "Federal agencies have long been required to seek public comment when writing new regulations or approving large projects, from highways to data centers. The Trump administration is systematically undercutting that process, stifling public input while skirting federal laws. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/public-comment-environment-regulations-permits",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-10-08"
     },
     {
       "title": "Ocean Facts: What are Kelvin waves?",
@@ -240,12 +288,36 @@
       "date": "2026-09-21"
     },
     {
+      "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
+      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
+      "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
+      "source": "IPCC",
+      "field": "climate",
+      "date": "2026-09-11"
+    },
+    {
+      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
+      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
+      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-09-08"
+    },
+    {
       "title": "Protecting Earth’s fragile biodiversity takes spotlight at Armenia talks",
       "description": "Biodiversity losses continue to upend the lives of billions of people whose future prosperity depends on countries taking urgent action to protect our planet, the top UN official leading talks at the UN Biodiversity Conference in Yerevan, said on Monday.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168620",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-10-19"
+    },
+    {
+      "title": "Guterres urges faster action and financing to stop biodiversity loss",
+      "description": "The United Nations Secretary-General appealed on Friday for governments, businesses and communities to accelerate efforts to protect biodiversity for future generations and all life on Earth.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168610",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-16"
     },
     {
       "title": "From drought to deluge: ‘Super’ El Niño’s expanding reach",
@@ -264,116 +336,12 @@
       "date": "2026-10-01"
     },
     {
-      "title": "How the U.S. Public Lost Its Say on Environmental Policy",
-      "description": "Federal agencies have long been required to seek public comment when writing new regulations or approving large projects, from highways to data centers. The Trump administration is systematically undercutting that process, stifling public input while skirting federal laws. Read more on E360 →",
-      "link": "https://e360.yale.edu/features/public-comment-environment-regulations-permits",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
-      "description": "As world leaders prepare for November’s major COP31 climate summit in Türkiye, record-breaking heat, devastating floods and an unprecedented El Niño climate pattern are making global climate action ever more urgent.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168555",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "LIVE: World leaders approve new declaration to tackle rising sea levels",
-      "description": "Sea level rise is among the most visible consequences of global warming, but for some countries, it is an imminent existential threat. World leaders approved a new declaration on Thursday while debating the best ways to strengthen international cooperation and support vulnerable low-lying nations most at risk.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168423",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-24"
-    },
-    {
-      "title": "ADB Approves $305.75 Million Financing to Upgrade Strategic Highways, Strengthen Wildlife Conservation in Nepal",
-      "description": "ADB has approved $305.75 million in financing to modernize critical sections of Nepal’s East–West Highway and Prithvi Highway, improving connectivity, regional trade, road safety, and resilience to disasters and a changing climate, while protecting wildlife habitats.",
-      "link": "https://www.adb.org/news/adb-approves-305-75-million-financing-upgrade-strategic-highways-strengthen-wildlife-conservation-nepal",
-      "source": "Asian Development Bank",
-      "field": "climate",
-      "date": "2026-10-09"
-    },
-    {
-      "title": "World on Track for 2.8 Degrees Celsius of Warming",
-      "description": "Current climate policies put the world on a course for 2.8 degrees C of warming this century, a gross breach of international climate targets, according to a new U.N. report. Read more on E360 →",
-      "link": "https://e360.yale.edu/digest/emissions-gap-2026",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Arctic Wildlife Research Suffers as Geopolitical Competition Grows",
-      "description": "As national security and the hunt for rare minerals come to dominate Arctic agendas, governments are slashing support for wildlife research. Scientists say the loss of monitoring is unprecedented and comes as climate change dramatically reshapes life in the Far North. Read more on E360 →",
-      "link": "https://e360.yale.edu/features/arctic-research-geopolitical-tensions",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Large-scale marine debris: 4 ways to clean up the big stuff",
-      "description": "Large-scale marine debris: 4 ways to clean up the big stuff How do you address oversized pollution in the ocean and Great Lakes? A freediver from the Papahānaumokuākea Marine Debris Project works to carefully remove a ghost net from the reef at Kamokuokamohoali‘i (Maro Reef) in Hawaii. (Image credit: Andrew Sullivan-Hawkins/Papahānaumokuākea Marine Debris Project (Under permit # PMNM-2024-003)) October 7, 2026 Marine debris is a challenging problem. Across the country, NOAA and partners remove everything from lost fishing gear tangled on the seafloor to sunken vessels, abandoned tire reefs, an",
-      "link": "https://www.noaa.gov/stories/large-scale-marine-debris-4-ways-to-clean-up-big-stuff",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-10-05"
-    },
-    {
-      "title": "NOAA names Mississippi State University to host new Northern Gulf research institute",
-      "description": "NOAA names Mississippi State University to host new Northern Gulf research institute Selection comes with up to $100 million award over five years September 9, 2026 Luke Thompson, Ph.D., a researcher with the Northern Gulf Institute, collects samples of forams from a sediment trap aboard the R/V Pelican in November 2023 as part of a larger collaborative effort with the U.S. Geological Society (USGS) to examine marine snow and what microscopic life are comprising the biological carbon pump in the Gulf of America. (Image credit: Courtesy of Northern Gulf Institute) Download Image NOAA has select",
-      "link": "https://www.noaa.gov/news-release/noaa-names-mississippi-state-university-to-host-new-northern-gulf-research-institute",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-09-08"
-    },
-    {
-      "title": "Guterres urges faster action and financing to stop biodiversity loss",
-      "description": "The United Nations Secretary-General appealed on Friday for governments, businesses and communities to accelerate efforts to protect biodiversity for future generations and all life on Earth.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168610",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "UNEP: Opportunity has ‘been lost’ to meet 1.5C warming limit without ‘overshoot’",
-      "description": "A temporary breach of the 1.5C global-warming limit is now “inevitable” following “decades of insufficient climate action”, says the UN… The post UNEP: Opportunity has ‘been lost’ to meet 1.5C warming limit without ‘overshoot’ appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/unep-opportunity-has-been-lost-to-meet-1-5c-warming-limit-without-overshoot",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-10-21"
-    },
-    {
-      "title": "El Nino looms large over U.S. Winter Outlook",
-      "description": "El Nino looms large over U.S. Winter Outlook Expected impacts include warmer North, wetter South and East October 15, 2026 A car drives through a snowstorm in Broomfield, Colorado, in 2024. (Image credit: Bob Hyatt/NOAA) Download Image NOAA’s U.S. Winter Outlook, released today, shows how El Nino will likely influence the upcoming winter months (December 2026 to February 2027), with warmer-than-average temperatures expected across the northern U.S.; wetter-than-average conditions likely across the southern U.S., from California to Florida, and along the Eastern Seaboard; and drought improving ",
-      "link": "https://www.noaa.gov/news-release/el-nino-looms-large-over-us-winter-outlook",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "Graphic Designer in the IPCC Working Group I Technical Support Unit",
-      "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Graphic Designer in the Technical Support Unit This entry-level design position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and […]",
-      "link": "https://www.ipcc.ch/2026/09/11/graphic-designer-ipcc-wg1-tsu/",
-      "source": "IPCC",
-      "field": "climate",
-      "date": "2026-09-11"
-    },
-    {
       "title": "The world is waging a ‘war on nature’ as progress on biodiversity targets lags",
       "description": "Fewer than half of the national targets set to protect the world’s plants, animals and ecosystems are on track, the UN warns in a new report, days before countries gather in Yerevan, Armenia, for the COP17 biodiversity conference.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168607",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-10-15"
-    },
-    {
-      "title": "Security, sacrifice or opportunity: Visions differ over effective climate action",
-      "description": "Should the world move away sharply from fossil fuels, or manage a slower, more careful retreat?",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168526",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-05"
     },
     {
       "title": "Guterres calls on countries to set clear timelines for transition away from fossil fuels",
@@ -384,12 +352,68 @@
       "date": "2026-09-23"
     },
     {
+      "title": "ADB Approves $305.75 Million Financing to Upgrade Strategic Highways, Strengthen Wildlife Conservation in Nepal",
+      "description": "ADB has approved $305.75 million in financing to modernize critical sections of Nepal’s East–West Highway and Prithvi Highway, improving connectivity, regional trade, road safety, and resilience to disasters and a changing climate, while protecting wildlife habitats.",
+      "link": "https://www.adb.org/news/adb-approves-305-75-million-financing-upgrade-strategic-highways-strengthen-wildlife-conservation-nepal",
+      "source": "Asian Development Bank",
+      "field": "climate",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "Arctic Wildlife Research Suffers as Geopolitical Competition Grows",
+      "description": "As national security and the hunt for rare minerals come to dominate Arctic agendas, governments are slashing support for wildlife research. Scientists say the loss of monitoring is unprecedented and comes as climate change dramatically reshapes life in the Far North. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/arctic-research-geopolitical-tensions",
+      "source": "Yale E360",
+      "field": "climate",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "El Nino looms large over U.S. Winter Outlook",
+      "description": "El Nino looms large over U.S. Winter Outlook Expected impacts include warmer North, wetter South and East October 15, 2026 A car drives through a snowstorm in Broomfield, Colorado, in 2024. (Image credit: Bob Hyatt/NOAA) Download Image NOAA’s U.S. Winter Outlook, released today, shows how El Nino will likely influence the upcoming winter months (December 2026 to February 2027), with warmer-than-average temperatures expected across the northern U.S.; wetter-than-average conditions likely across the southern U.S., from California to Florida, and along the Eastern Seaboard; and drought improving ",
+      "link": "https://www.noaa.gov/news-release/el-nino-looms-large-over-us-winter-outlook",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "Large-scale marine debris: 4 ways to clean up the big stuff",
+      "description": "Large-scale marine debris: 4 ways to clean up the big stuff How do you address oversized pollution in the ocean and Great Lakes? A freediver from the Papahānaumokuākea Marine Debris Project works to carefully remove a ghost net from the reef at Kamokuokamohoali‘i (Maro Reef) in Hawaii. (Image credit: Andrew Sullivan-Hawkins/Papahānaumokuākea Marine Debris Project (Under permit # PMNM-2024-003)) October 7, 2026 Marine debris is a challenging problem. Across the country, NOAA and partners remove everything from lost fishing gear tangled on the seafloor to sunken vessels, abandoned tire reefs, an",
+      "link": "https://www.noaa.gov/stories/large-scale-marine-debris-4-ways-to-clean-up-big-stuff",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-10-05"
+    },
+    {
+      "title": "Security, sacrifice or opportunity: Visions differ over effective climate action",
+      "description": "Should the world move away sharply from fossil fuels, or manage a slower, more careful retreat?",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168526",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-05"
+    },
+    {
       "title": "LIVE: Climate change is here - What happens next is still in our hands",
       "description": "🔴 LIVE NOW From deadly floods in the Himalayas to wildfires and extreme heat across Europe, 2026 has brought a succession of stark reminders of a changing climate. The task is immediate: Protect people from the impacts already unfolding while rapidly cutting the emissions of harmful gasses driving climate change. World leaders are meeting today to discuss how to turn those priorities into action.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168372",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-09-23"
+    },
+    {
+      "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
+      "description": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be seen coming. UN experts say the months ahead offer countries a chance not only to protect the next harvest and our food security, but to prepare for a more unpredictable climate in the long run.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168404",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-22"
+    },
+    {
+      "title": "Why climate action now comes down to speed, finance and cooperation",
+      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-09-21"
     },
     {
       "title": "How Algae, Avocados, and Happy Accidents Helped Shape a Career: An Interview with Environmental Economist Prakash Mishra",
@@ -430,22 +454,6 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-09-11"
-    },
-    {
-      "title": "How El Niño offers a test of whether the world can adapt to a changing climate",
-      "description": "El Niño is strengthening in a world that is already hotter, raising the risk of drought, floods and crop losses across some of the world’s most important food-producing regions. But unlike many disasters, this one can be seen coming. UN experts say the months ahead offer countries a chance not only to protect the next harvest and our food security, but to prepare for a more unpredictable climate in the long run.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168404",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-22"
-    },
-    {
-      "title": "Why climate action now comes down to speed, finance and cooperation",
-      "description": "Temporarily exceeding the 1.5°C global warming goal set in Paris is widely considered inevitable. The challenge now is to keep that overshoot as small and short as possible by cutting emissions faster, unlocking finance and strengthening international cooperation.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168382",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-09-21"
     },
     {
       "title": "At Least 124 Environmental Defenders Killed Worldwide Last Year",
@@ -568,12 +576,28 @@
       "date": "2026-10-02"
     },
     {
+      "title": "Why Engineers Should Brave Capitol Hill",
+      "description": "When San Antonio–based software engineer Nikhil Jathar first went to Washington, D.C., to advocate for federal support for technology education and research funding, he was in awe of the opportunity. It was spring of 2025, not long after Jathar settled in the United States from India, when he got an invitation to join the annual Congressional Visits Day organized by IEEE-USA. “My first reaction was, ‘Wow, I get to visit Congress,’ ” says Jathar, CTO of AvanSaber, a business software company he cofounded in 2014. At the time, he did not have a specific lobbying position on behalf of the company",
+      "link": "https://spectrum.ieee.org/engineers-lobbying-congress",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-22"
+    },
+    {
       "title": "This implant can restore sight for patients with macular degeneration",
       "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients…",
       "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-10-16"
+    },
+    {
+      "title": "A revolutionary new microscope could reveal the hidden machinery of life",
+      "description": "Researchers have developed a revolutionary microscope that uses an incredibly powerful laser to make previously invisible cellular structures easier to see. The technology dramatically improves image clarity, allowing scientists to examine small proteins that conventional electron microscopes struggle to capture. It could eventually reveal how tiny molecular machines interact inside cells, providing an unprecedented look at the hidden workings of life.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261021231230.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-22"
     },
     {
       "title": "Astronomers uncover new secrets of the Universe’s first five minutes",
@@ -646,6 +670,14 @@
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-10-08"
+    },
+    {
+      "title": "People are taking an unapproved weight-loss drug. AI found something surprising",
+      "description": "Researchers analyzing nearly 150,000 Reddit posts uncovered unexpected symptom reports linked by users to unapproved versions of retatrutide, including increased appetite, sleep disturbances, and elevated heart rates. The findings differ from clinical trial results and highlight how AI could help identify potential drug safety signals that warrant further investigation.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-22"
     },
     {
       "title": "Suzy Nelson transformed student life at MIT",
@@ -856,30 +888,6 @@
       "date": "2026-10-15"
     },
     {
-      "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
-      "description": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware control is essential for closing the gap between simulation and real-world deployment. What you will learn about: Why combining a professional athlete’s motion style with reliable task performance remains an open challenge in humanoid ball-sports robotics, and how separating a high-level planner from a low-level tracker addresses this trade-off. How motion d",
-      "link": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-12"
-    },
-    {
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to…",
-      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-09-25"
-    },
-    {
-      "title": "Has pancreatic cancer met its match?",
-      "description": "Frontline researcher sees newly approved medication as ‘critical first step’ toward transformation of care",
-      "link": "https://news.harvard.edu/gazette/story/2026/09/has-pancreatic-cancer-met-its-match/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-09-09"
-    },
-    {
       "title": "‘Rocket revolution’ opens access to space",
       "description": "For a long time, launching something beyond Earth was reserved for a relatively small number of national space programmes. That is changing.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168538",
@@ -920,28 +928,20 @@
       "date": "2026-10-21"
     },
     {
+      "title": "MDB Heads Strengthen Joint Action in Manila to Deliver More Financing and Greater Impact",
+      "description": "The Heads of Multilateral Development Banks (MDBs) Group met at the ADB headquarters in Manila to discuss how to deliver more financing and greater impact to support developing members as they face mounting challenges. It was the Group’s first-ever meeting in the Philippines, hosted by ADB as its 2026 Chair.",
+      "link": "https://www.adb.org/news/mdb-heads-strengthen-joint-action-manila-deliver-more-financing-and-greater-impact",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-17"
+    },
+    {
       "title": "ADB Approves $302 Million Loan to Modernize Baku Metro Signaling and Digital Operations",
       "description": "ADB has approved a $302.38 million loan to modernize Baku Metro’s signaling system and digitalize its operations, helping to make metro services in Azerbaijan’s capital safer, more reliable, and more efficient while supporting the effective operation of its expanding network.",
       "link": "https://www.adb.org/news/adb-approves-302-million-loan-modernize-baku-metro-signaling-and-digital-operations",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-10-13"
-    },
-    {
-      "title": "ADB, Uzbekistan Sign $200 Million Power Modernization Loan",
-      "description": "ADB President Masato Kanda met Uzbekistan Deputy Prime Minister and Minister of Economy and Finance Jamshid Kuchkarov today and signed a $200 million loan agreement to modernize the country’s electricity distribution system, cut power losses, and improve reliability as electricity demand rises.",
-      "link": "https://www.adb.org/news/adb-uzbekistan-sign-200-million-power-modernization-loan",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "ADB President Meets Thai Finance Minister, Marks $212 Million in ADB Financing for Hospitals Project",
-      "description": "ADB President Masato Kanda met Thailand’s Deputy Prime Minister and Finance Minister Ekniti Nitithanprapas before joining him at a ceremony marking $212 million in ADB financing for a project to upgrade five public hospitals and improve access to specialist medical care for about 14 million people outside Bangkok.",
-      "link": "https://www.adb.org/news/adb-president-meets-thai-finance-minister-marks-212-million-adb-financing-hospitals-project",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-15"
     },
     {
       "title": "800 million young people face a future without jobs",
@@ -960,20 +960,20 @@
       "date": "2026-10-21"
     },
     {
-      "title": "MDB Heads Strengthen Joint Action in Manila to Deliver More Financing and Greater Impact",
-      "description": "The Heads of Multilateral Development Banks (MDBs) Group met at the ADB headquarters in Manila to discuss how to deliver more financing and greater impact to support developing members as they face mounting challenges. It was the Group’s first-ever meeting in the Philippines, hosted by ADB as its 2026 Chair.",
-      "link": "https://www.adb.org/news/mdb-heads-strengthen-joint-action-manila-deliver-more-financing-and-greater-impact",
+      "title": "ADB, Uzbekistan Sign $200 Million Power Modernization Loan",
+      "description": "ADB President Masato Kanda met Uzbekistan Deputy Prime Minister and Minister of Economy and Finance Jamshid Kuchkarov today and signed a $200 million loan agreement to modernize the country’s electricity distribution system, cut power losses, and improve reliability as electricity demand rises.",
+      "link": "https://www.adb.org/news/adb-uzbekistan-sign-200-million-power-modernization-loan",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-10-17"
+      "date": "2026-10-15"
     },
     {
-      "title": "ADB Supports Modernization of Azerbaijan’s Bilajari–Yalama Railway Line",
-      "description": "ADB has approved a $350 million loan to install modern electrification, signaling, and telecommunication systems along the 192-kilometer double-track railway line between Bilajari and Yalama.",
-      "link": "https://www.adb.org/news/adb-supports-modernization-azerbaijan-bilajari-yalama-railway-line",
+      "title": "ADB President Meets Thai Finance Minister, Marks $212 Million in ADB Financing for Hospitals Project",
+      "description": "ADB President Masato Kanda met Thailand’s Deputy Prime Minister and Finance Minister Ekniti Nitithanprapas before joining him at a ceremony marking $212 million in ADB financing for a project to upgrade five public hospitals and improve access to specialist medical care for about 14 million people outside Bangkok.",
+      "link": "https://www.adb.org/news/adb-president-meets-thai-finance-minister-marks-212-million-adb-financing-hospitals-project",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-10-06"
+      "date": "2026-10-15"
     },
     {
       "title": "ADB Approves $400 Million Loan to Support Earthquake Recovery, Expand SME Access to Finance in Türkiye",
@@ -984,20 +984,20 @@
       "date": "2026-09-29"
     },
     {
+      "title": "ADB, Naoero Airlines Sign Financing to Strengthen Air Connectivity in the Pacific",
+      "description": "ADB has signed a $15 million financing package with Nauru 40997 Leasing Corporation, a wholly owned subsidiary of Naoero Air Corporation, to improve transport resilience, regional connectivity, and cross-border trade and supply activities in Naoero and other remote and underserved Pacific island countries.",
+      "link": "https://www.adb.org/news/adb-naoero-airlines-sign-financing-strengthen-air-connectivity-pacific",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-02"
+    },
+    {
       "title": "ADB Approves $100 Million Loan to Expand Access to Affordable, Resilient Housing Finance in Bangladesh",
       "description": "ADB has approved a $100 million concessional loan to expand access to affordable and resilient housing finance for low- and middle-income borrowers in Bangladesh, particularly women.",
       "link": "https://www.adb.org/news/adb-approves-100-million-loan-expand-access-affordable-resilient-housing-finance-bangladesh",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-27"
-    },
-    {
-      "title": "ADB Supports Asia and Pacific’s First Sovereign Nature-Linked Bond in Thailand",
-      "description": "ADB has supported the Government of Thailand in issuing Asia and the Pacific’s first sovereign sustainability-linked bond incorporating a nature-related indicator, a significant milestone linking public sector financing with biodiversity outcomes.",
-      "link": "https://www.adb.org/news/adb-supports-asia-and-pacific-first-sovereign-nature-linked-bond-thailand",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-02"
     },
     {
       "title": "Right to development: A blueprint for unmet promises",
@@ -1008,12 +1008,12 @@
       "date": "2026-09-23"
     },
     {
-      "title": "ADB, Naoero Airlines Sign Financing to Strengthen Air Connectivity in the Pacific",
-      "description": "ADB has signed a $15 million financing package with Nauru 40997 Leasing Corporation, a wholly owned subsidiary of Naoero Air Corporation, to improve transport resilience, regional connectivity, and cross-border trade and supply activities in Naoero and other remote and underserved Pacific island countries.",
-      "link": "https://www.adb.org/news/adb-naoero-airlines-sign-financing-strengthen-air-connectivity-pacific",
+      "title": "ADB Supports Modernization of Azerbaijan’s Bilajari–Yalama Railway Line",
+      "description": "ADB has approved a $350 million loan to install modern electrification, signaling, and telecommunication systems along the 192-kilometer double-track railway line between Bilajari and Yalama.",
+      "link": "https://www.adb.org/news/adb-supports-modernization-azerbaijan-bilajari-yalama-railway-line",
       "source": "Asian Development Bank",
       "field": "development",
-      "date": "2026-10-02"
+      "date": "2026-10-06"
     },
     {
       "title": "ADB, Modern Syntex Sign $50 Million Loan to Expand Energy-Efficient Polyester Chips Production in Bangladesh",
@@ -1030,6 +1030,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-09-11"
+    },
+    {
+      "title": "ADB Supports Asia and Pacific’s First Sovereign Nature-Linked Bond in Thailand",
+      "description": "ADB has supported the Government of Thailand in issuing Asia and the Pacific’s first sovereign sustainability-linked bond incorporating a nature-related indicator, a significant milestone linking public sector financing with biodiversity outcomes.",
+      "link": "https://www.adb.org/news/adb-supports-asia-and-pacific-first-sovereign-nature-linked-bond-thailand",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-02"
     },
     {
       "title": "CAREC Marks 25 Years with Over $60 Billion in Investment",
@@ -1200,14 +1208,6 @@
       "date": "2026-09-10"
     },
     {
-      "title": "Gaza: Funding cuts leave half a million without food assistance",
-      "description": "Funding shortages have forced the World Food Programme (WFP) to slash assistance to hungry families in the Gaza Strip by roughly one third – a move that will affect some 500,000 people as winter approaches, the UN agency announced on Monday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168622",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-10-19"
-    },
-    {
       "title": "World News in Brief: Marshall Islands nuclear legacy, FlyDubai attack condemned, Ukraine update, breast cancer treatment expanded in West Bank",
       "description": "The enduring radioactive legacy of US nuclear bomb testing in the Marshall Islands took centre stage at the Human Rights Council on Thursday.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168503",
@@ -1230,6 +1230,14 @@
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-10-14"
+    },
+    {
+      "title": "Gaza: Funding cuts leave half a million without food assistance",
+      "description": "Funding shortages have forced the World Food Programme (WFP) to slash assistance to hungry families in the Gaza Strip by roughly one third – a move that will affect some 500,000 people as winter approaches, the UN agency announced on Monday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168622",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-10-19"
     },
     {
       "title": "Darfur: Healthcare needs outstrip resources as Security Council extends Sudan sanctions",
@@ -1264,28 +1272,12 @@
       "date": "2026-09-30"
     },
     {
-      "title": "Security Council LIVE: Ambassadors meet as West Bank tensions rise, Gaza plan stalls",
-      "description": "The Security Council met Monday morning with prospects for peace in the Middle East under strain on two fronts. In the West Bank, settler violence and settlement expansion are raising fears for a two-State solution. In Gaza, a year-old peace plan has stalled while civilian suffering continues. The meeting comes as the plan’s remaining phases, including Hamas’ disarmament and Israel’s full withdrawal, remain unimplemented, and as the illegality of settlements under international law remains a key point of contention.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168464",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-28"
-    },
-    {
       "title": "World News in Brief: West Bank demolitions accelerate, urgent support for Sudan, Haiti diplacement, AI hub to boost gender equality",
       "description": "The situation in the occupied West Bank continues to deteriorate, the UN human rights office has said, pointing to the “mass destruction” of Palestinian villages and forcible transfer of residents in Msafer Yatta, South Hebron Hills.",
       "link": "https://news.un.org/feed/view/en/story/2026/09/1168447",
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-09-25"
-    },
-    {
-      "title": "IAEA chief underscores commitment to nuclear safety and verification",
-      "description": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnessing a “common spirit of dedication” which still guides their work.",
-      "link": "https://news.un.org/feed/view/en/story/2026/09/1168325",
-      "source": "UN Peace & Security",
-      "field": "peace",
-      "date": "2026-09-14"
     },
     {
       "title": "UN hails Libya election deal as Security Council urges Libyans to seize the moment",
@@ -1296,17 +1288,33 @@
       "date": "2026-09-09"
     },
     {
-      "title": "The 2026 economic sciences prize – A new model for a stable economy",
-      "description": "The 2026 economic sciences laureates have developed models that have improved our ability to even out the peaks and troughs in the economy. Their models are used by governments and central banks all over the world. Evening out cyclical fluctuations Economic development is characterised by alternating downturns and upturns. An even economic development is better […] The post The 2026 economic sciences prize – A new model for a stable economy appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/text-for-students-economic-sciences-2026/",
+      "title": "Nobel Prize lessons – A new model for a stable economy",
+      "description": "The 2026 economic sciences laureates have developed models that have improved our ability to even out the peaks and troughs in the economy. Their models are used by governments and central banks all over the world. Help us improve the content – Five quick questions and a comment Slideshow or text for students (10 minutes) […] The post Nobel Prize lessons – A new model for a stable economy appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/economic-sciences-2026/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-10-14"
     },
     {
-      "title": "Nobel Prize lessons – A new model for a stable economy",
-      "description": "The 2026 economic sciences laureates have developed models that have improved our ability to even out the peaks and troughs in the economy. Their models are used by governments and central banks all over the world. Help us improve the content – Five quick questions and a comment Slideshow or text for students (10 minutes) […] The post Nobel Prize lessons – A new model for a stable economy appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/economic-sciences-2026/",
+      "title": "Security Council LIVE: Ambassadors meet as West Bank tensions rise, Gaza plan stalls",
+      "description": "The Security Council met Monday morning with prospects for peace in the Middle East under strain on two fronts. In the West Bank, settler violence and settlement expansion are raising fears for a two-State solution. In Gaza, a year-old peace plan has stalled while civilian suffering continues. The meeting comes as the plan’s remaining phases, including Hamas’ disarmament and Israel’s full withdrawal, remain unimplemented, and as the illegality of settlements under international law remains a key point of contention.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168464",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "IAEA chief underscores commitment to nuclear safety and verification",
+      "description": "The Director General of the UN nuclear watchdog, IAEA, opened its 70th General Conference on Monday in Vienna with a message full of optimism, stressing that despite the many difficulties and tensions the world is witnessing a “common spirit of dedication” which still guides their work.",
+      "link": "https://news.un.org/feed/view/en/story/2026/09/1168325",
+      "source": "UN Peace & Security",
+      "field": "peace",
+      "date": "2026-09-14"
+    },
+    {
+      "title": "The 2026 economic sciences prize – A new model for a stable economy",
+      "description": "The 2026 economic sciences laureates have developed models that have improved our ability to even out the peaks and troughs in the economy. Their models are used by governments and central banks all over the world. Evening out cyclical fluctuations Economic development is characterised by alternating downturns and upturns. An even economic development is better […] The post The 2026 economic sciences prize – A new model for a stable economy appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/text-for-students-economic-sciences-2026/",
       "source": "Nobel Prize",
       "field": "peace",
       "date": "2026-10-14"
@@ -1408,6 +1416,14 @@
       "date": "2026-10-20"
     },
     {
+      "title": "I Am Artemis: Allison Mjoen",
+      "description": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program, helped shape the systems and ground operations that will one day send humans back to […]",
+      "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-16"
+    },
+    {
       "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
       "description": "A new NASA-supported spacecraft will get up close to satellites that are no longer in service, demonstrating technologies that could support future in-space repairs and reduce orbital debris. The Small Spacecraft Propulsion and Inspection Capability (SSPICY) mission launched Oct. 1 from Vandenberg Space Force Base in California. The mission is a technology demonstration where an […]",
       "link": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
@@ -1422,6 +1438,14 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-09-16"
+    },
+    {
+      "title": "ESA Council approves appointment of two new directors",
+      "description": "The European Space Agency Council has approved the appointment of two new directors: Andrzej Banasiak as Director of Commercialisation and Industry Partnership, and Nicolaus Hanowski as Director of Space Operations.",
+      "link": "https://www.esa.int/About_Us/Corporate_news/ESA_Council_approves_appointment_of_two_new_directors",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-22"
     },
     {
       "title": "New brain for Galileo",
@@ -1480,10 +1504,10 @@
       "date": "2026-10-16"
     },
     {
-      "title": "I Am Artemis: Allison Mjoen",
-      "description": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program, helped shape the systems and ground operations that will one day send humans back to […]",
-      "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
-      "source": "NASA",
+      "title": "Blue Origin to add new Florida launch pads, seeks aggressive increase in New Glenn flight rate",
+      "description": "The launch infrastructure improvements also include a substantial manufacturing expansion at Rocket Park and the addition of new landing barges.",
+      "link": "https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/",
+      "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-10-16"
     },
@@ -1499,6 +1523,22 @@
       "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
       "description": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space. Through NASA’s Minority University Research and Education Project (MUREP) Space Technology Artemis Research (M‑STAR) initiative, selected institutions will each receive up to $1 million […]",
       "link": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
+      "description": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface. Additional engineering data analysis of the Orion spacecraft’s heat shield confirmed initial data showing the heat shield performed as expected. In particular, NASA measured whether the thermal protection […]",
+      "link": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
+      "description": "From the International Space Station’s unique position 250 miles above Earth, the Sun is a vital source of energy. Solar power supports the station’s life support systems, daily activities, and hundreds of research investigations that improve life on Earth and prepare humans for deep space exploration. Over the past five years, NASA augmented the station’s […]",
+      "link": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
       "source": "NASA",
       "field": "space",
       "date": "2026-10-15"
@@ -1526,30 +1566,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-10-13"
-    },
-    {
-      "title": "Blue Origin to add new Florida launch pads, seeks aggressive increase in New Glenn flight rate",
-      "description": "The launch infrastructure improvements also include a substantial manufacturing expansion at Rocket Park and the addition of new landing barges.",
-      "link": "https://spaceflightnow.com/2026/10/16/blue-origin-to-add-new-florida-launch-pads-seeks-aggressive-increase-in-new-glenn-flight-rate/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "Rigorous Analysis Confirms NASA’s Artemis II Heat Shield Performance",
-      "description": "NASA’s Artemis II mission sent four astronauts around the Moon and brought them safely back to Earth, laying a foundation for crewed flights to the Moon’s surface. Additional engineering data analysis of the Orion spacecraft’s heat shield confirmed initial data showing the heat shield performed as expected. In particular, NASA measured whether the thermal protection […]",
-      "link": "https://www.nasa.gov/missions/artemis/artemis-2/rigorous-analysis-confirms-nasas-artemis-ii-heat-shield-performance/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Power Up: Roll Out Solar Arrays Boost Space Station Power Supply",
-      "description": "From the International Space Station’s unique position 250 miles above Earth, the Sun is a vital source of energy. Solar power supports the station’s life support systems, daily activities, and hundreds of research investigations that improve life on Earth and prepare humans for deep space exploration. Over the past five years, NASA augmented the station’s […]",
-      "link": "https://www.nasa.gov/missions/station/iss-research/power-up-roll-out-solar-arrays-boost-space-station-power-supply/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-15"
     },
     {
       "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
@@ -1672,12 +1688,28 @@
       "date": "2026-10-04"
     },
     {
-      "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
-      "description": "What does it take to image hundreds of nebulas? Today’s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore!",
-      "link": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-02"
+      "title": "Learning to Play Like a Pro: Adaptive Motion Planning and Tracking for Humanoid Robots",
+      "description": "This White Paper provides roboticists and control engineers with a comprehensive overview of how motion planning and motion tracking can be decoupled to preserve professional athletic style in humanoid robots, and why adaptive, speed-aware control is essential for closing the gap between simulation and real-world deployment. What you will learn about: Why combining a professional athlete’s motion style with reliable task performance remains an open challenge in humanoid ball-sports robotics, and how separating a high-level planner from a low-level tracker addresses this trade-off. How motion d",
+      "link": "https://content.knowledgehub.wiley.com/learning-to-play-like-a-pro-adaptive-motion-planning-and-tracking-for-humanoid-robots/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-12"
+    },
+    {
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The Pentagon wants $30 million to build an AI-powered lie detector The US government wants to spend $30.3 million over the next five years on an improved lie detector, according to…",
+      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Has pancreatic cancer met its match?",
+      "description": "Frontline researcher sees newly approved medication as ‘critical first step’ toward transformation of care",
+      "link": "https://news.harvard.edu/gazette/story/2026/09/has-pancreatic-cancer-met-its-match/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-09-09"
     },
     {
       "title": "NASA’s Webb reveals the wild weather of a mysterious world 20 light-years away",
@@ -1696,14 +1728,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "Scientists build a nuclear clock that could make atomic clocks obsolete",
-      "description": "Scientists in Vienna have achieved a major breakthrough in timekeeping by creating the world’s first self-stabilizing nuclear clock, a technology that could eventually surpass even the most precise atomic clocks. Instead of relying on electrons in atoms, the clock uses the tiny nuclei of thorium atoms, which are far less sensitive to outside disturbances.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-11"
-    },
-    {
       "title": "James Webb reveals a strange bulge in an alien planet's atmosphere",
       "description": "Astronomers using the James Webb Space Telescope have discovered that a distant alien planet's atmosphere is surprisingly lopsided. Located 1,300 light-years away, the scorching gas giant WASP-17b experiences powerful winds that redistribute heat, causing one side of its atmosphere to bulge outward. A groundbreaking new mapping technique revealed these hidden distortions, confirming predictions about how extreme temperatures and winds shape alien worlds.",
       "link": "https://www.sciencedaily.com/releases/2026/10/261015073205.htm",
@@ -1720,6 +1744,14 @@
       "date": "2026-10-14"
     },
     {
+      "title": "Scientists build a nuclear clock that could make atomic clocks obsolete",
+      "description": "Scientists in Vienna have achieved a major breakthrough in timekeeping by creating the world’s first self-stabilizing nuclear clock, a technology that could eventually surpass even the most precise atomic clocks. Instead of relying on electrons in atoms, the clock uses the tiny nuclei of thorium atoms, which are far less sensitive to outside disturbances.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008102701.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-11"
+    },
+    {
       "title": "CERN finds gluons behaving strangely deep inside atomic nuclei",
       "description": "Physicists at CERN have found a new way to peer deep inside atomic nuclei and distinguish between two competing explanations for how gluons behave. Using the ALICE experiment at the Large Hadron Collider, researchers measured particle production at unprecedented spatial resolution, revealing structures as small as about one-quarter the size of a proton. At the smallest scales, they saw a surprising drop in J/ψ production that conventional “nuclear shadowing” struggles to explain.",
       "link": "https://www.sciencedaily.com/releases/2026/09/260911214303.htm",
@@ -1734,6 +1766,14 @@
       "source": "Science",
       "field": "technology",
       "date": "2026-10-06"
+    },
+    {
+      "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
+      "description": "What does it take to image hundreds of nebulas? Today’s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore!",
+      "link": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-02"
     },
     {
       "title": "NASA’s SpaceX Crew-13 Launches to International Space Station",
@@ -1784,9 +1824,49 @@
       "date": "2026-09-28"
     },
     {
+      "title": "IEEE Report Predicts Tech That Will Transform Lives",
+      "description": "By 2028, genetic engineering and gene therapy will be used frequently to treat a variety of diseases, thanks to advances in artificial intelligence, according to the recently released 2030 Technology Megatrends Report from IEEE. “We are seeing a fundamental shift in how technology evolves,” says IEEE Fellow Dejan Milojicic, chair of the IEEE Future Directions Committee’s Industry Advisory Board, the group responsible for the report. “Artificial intelligence is no longer operating in a vacuum; it is now deeply connected to our energy, infrastructure, and physical systems.” Milojicic, a Hewlett ",
+      "link": "https://spectrum.ieee.org/ieee-report-predicts-tech",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-07"
+    },
+    {
+      "title": "A planet 320 light-years away confirms what scientists long suspected",
+      "description": "Astronomers have discovered that a scorching-hot planet 320 light-years away shares a striking chemical similarity with its host star, providing the first direct evidence for a fundamental assumption about planet formation. The breakthrough could help scientists predict what distant rocky planets are made of and identify worlds with conditions favorable for life.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
+      "description": "NASA has awarded a contract to Omitron Inc. for the acquisition of orbital safety analysis services, which provide for critical protection of NASA spaceflight assets and astronaut lives. This indefinite-delivery contract is valued at approximately $23.5 million over a five-year period of performance and entails conjunction assessment screening services for all NASA uncrewed spacecraft, support […]",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-29"
+    },
+    {
       "title": "NASA Highlights Lessons Learned From Swift Boost Mission",
       "description": "A commercial mission to boost NASA’s Swift observatory concluded without raising the spacecraft’s orbit, but the agency and industry vendor gained valuable experience that will benefit future in-space servicing programs.",
       "link": "https://science.nasa.gov/missions/swift/nasa-highlights-lessons-learned-from-swift-boost-mission/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
+      "description": "On Monday, NASA and Boeing provided an update on the company’s Starliner spacecraft, including adding additional crew missions and certifying a new rocket for crew transportation to low Earth orbit. “We are living through the most exciting era of space exploration since Apollo,” said NASA Administrator Jared Isaacman. “As this domain continues to open, there […]",
+      "link": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-28"
+    },
+    {
+      "title": "What You Need to Know About NASA’s SpaceX Crew-13 Mission",
+      "description": "Four crew members are set to launch to the International Space Station as part of NASA’s SpaceX Crew-13 mission to perform research, technology demonstrations, and maintenance aboard the orbiting laboratory.",
+      "link": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-13-mission/",
       "source": "NASA",
       "field": "space",
       "date": "2026-09-28"
@@ -1864,6 +1944,22 @@
       "date": "2026-09-17"
     },
     {
+      "title": "Live coverage: SpaceX to launch Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission",
+      "description": "This will be the second launch of SpaceX’s uncrewed reentry capsule, Starfall. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a one-hour window that opens at 6:30 a.m. EDT (1030 UTC).",
+      "link": "https://spaceflightnow.com/2026/10/18/live-coverage-spacex-to-launch-starfall-reentry-capsule-31-customer-payloads-on-bandwagon-5-rideshare-mission/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-10-18"
+    },
+    {
+      "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
+      "description": "Media accreditation is open for the next cargo launch that will deliver NASA science investigations, supplies, and equipment to the International Space Station. The 35th SpaceX commercial resupply services mission to the orbital laboratory for NASA will lift off on a Falcon 9 rocket. NASA and SpaceX are targeting no earlier than October to launch […]",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-09-17"
+    },
+    {
       "title": "Passion Meets Precision at NASA’s Flight Research Lab",
       "description": "Long before they helped shape NASA’s future aerospace breakthroughs, Derek Abramson, Justin Hall, and Justin Link were in their garages and homes building radio‑controlled aircraft, testing new ideas, and flying their creations at hobby events. That early passion now fuels the work of NASA’s Dale Reed Subscale Flight Research Laboratory at the agency’s Armstrong Flight […]",
       "link": "https://www.nasa.gov/people-of-nasa/armstrong-people/passion-meets-precision-at-nasas-flight-research-lab/",
@@ -1880,20 +1976,20 @@
       "date": "2026-09-15"
     },
     {
+      "title": "Giving AI a “crystal clear” view of the materials world",
+      "description": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
+      "link": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-18"
+    },
+    {
       "title": "First Light: Celebrate the Inauguration of Caltech's 10th President, Ray Jayawardhana",
       "description": "First light is the threshold moment in astronomy when a telescope makes its first observation and opens a new window to discovery. That same spirit of possibility defines the Caltech community. Through curiosity-driven inquiry, powerful experimentation, and groundbreaking instrumentation, Caltech illuminates new fields of knowledge and accelerates breakthroughs that shape the future of science, technology, and society.This fall, Caltech celebrates the spirit of first light for the Inauguration of Ray Jayawardhana as the Institute's 10th president. Over two days—Wednesday, October 28, and Thurs",
       "link": "https://www.caltech.edu/about/news/the-brave-new-space-age-inauguration",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-10-14"
-    },
-    {
-      "title": "NASA Invites Media to SpaceX’s 35th Resupply Launch to Space Station",
-      "description": "Media accreditation is open for the next cargo launch that will deliver NASA science investigations, supplies, and equipment to the International Space Station. The 35th SpaceX commercial resupply services mission to the orbital laboratory for NASA will lift off on a Falcon 9 rocket. NASA and SpaceX are targeting no earlier than October to launch […]",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-spacexs-35th-resupply-launch-to-space-station/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-17"
     },
     {
       "title": "Judging Faces Without Words",
@@ -1936,100 +2032,12 @@
       "date": "2026-10-02"
     },
     {
-      "title": "Juice’s September 2026 Earth flyby: the movie",
-      "description": "Video: 00:00:48 On 28 September 2026, ESA’s Jupiter Icy Moons Explorer (Juice) successfully completed a gravity assist flyby of Earth. Flight controllers guided the spacecraft close to our home planet to increase its velocity by 3.5 km/s and deflect its trajectory by an angle of 20°. As Juice flew just 8640 km above the Indian Ocean, it snapped a series of images with its onboard monitoring cameras, giving us a unique ‘Juice eye view’ of our home planet. Juice’s monitoring cameras provide 1024 x 1024 pixel snapshots that can be processed in colour. Their main purpose is to monitor the spacecra",
-      "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/Juice_s_September_2026_Earth_flyby_the_movie",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-10-01"
-    },
-    {
       "title": "A reason to eat carbs",
       "description": "A high-fat, low-carbohydrate diet can help some people lose weight, and some research has shown that it may protect against colon cancer. But a new study suggests that such a ketogenic diet may also increase the risk of cancer in the small intestine. This type of diet forces the body to burn fatty acids instead…",
       "link": "https://www.technologyreview.com/2026/10/20/1145279/a-reason-to-eat-carbs/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-10-20"
-    },
-    {
-      "title": "These startups hope “blended” food will cut our appetite for red meat",
-      "description": "In the fall of 2025, Jeff Dodge set up a six-foot folding table in the cafeteria of Cane Bay High School in Summerville, South Carolina, to conduct a taste test. When the first rush of about 150 hungry students hit, he was waiting with slow cookers filled with steaming marinara sauce and meatballs. Kids love…",
-      "link": "https://www.technologyreview.com/2026/10/20/1145927/blended-meat-food-startups-building-bridge-to-ditch-red-meat/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-20"
-    },
-    {
-      "title": "Melt it, spin it, use it again",
-      "description": "The average American throws out around 81 pounds of clothing each year, and there are few options for recycling it. MIT engineers hope to cut down on that textile waste with a new type of yarn. The thermoplastic yarn mimics the properties of conventional elastic yarns, which typically combine spandex with polyester or nylon. Those…",
-      "link": "https://www.technologyreview.com/2026/10/20/1145276/melt-it-spin-it-use-it-again/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-20"
-    },
-    {
-      "title": "IEEE Report Predicts Tech That Will Transform Lives",
-      "description": "By 2028, genetic engineering and gene therapy will be used frequently to treat a variety of diseases, thanks to advances in artificial intelligence, according to the recently released 2030 Technology Megatrends Report from IEEE. “We are seeing a fundamental shift in how technology evolves,” says IEEE Fellow Dejan Milojicic, chair of the IEEE Future Directions Committee’s Industry Advisory Board, the group responsible for the report. “Artificial intelligence is no longer operating in a vacuum; it is now deeply connected to our energy, infrastructure, and physical systems.” Milojicic, a Hewlett ",
-      "link": "https://spectrum.ieee.org/ieee-report-predicts-tech",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-07"
-    },
-    {
-      "title": "To decipher local laws, researchers used AI to build a database of millions of them",
-      "description": "The unprecedented project gives policymakers and the public an easy way to look up local ordinances and examine what works — or does not. The post To decipher local laws, researchers used AI to build a database of millions of them appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/10/02/to-decipher-local-laws-researchers-used-ai-to-build-a-database-of-millions-of-them/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-10-02"
-    },
-    {
-      "title": "A planet 320 light-years away confirms what scientists long suspected",
-      "description": "Astronomers have discovered that a scorching-hot planet 320 light-years away shares a striking chemical similarity with its host star, providing the first direct evidence for a fundamental assumption about planet formation. The breakthrough could help scientists predict what distant rocky planets are made of and identify worlds with conditions favorable for life.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261012185015.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "NASA Awards Orbital Safety Analysis Support Services Contract",
-      "description": "NASA has awarded a contract to Omitron Inc. for the acquisition of orbital safety analysis services, which provide for critical protection of NASA spaceflight assets and astronaut lives. This indefinite-delivery contract is valued at approximately $23.5 million over a five-year period of performance and entails conjunction assessment screening services for all NASA uncrewed spacecraft, support […]",
-      "link": "https://www.nasa.gov/news-release/nasa-awards-orbital-safety-analysis-support-services-contract/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-29"
-    },
-    {
-      "title": "NASA, Boeing Share Update on Commercial Starliner Development Plans",
-      "description": "On Monday, NASA and Boeing provided an update on the company’s Starliner spacecraft, including adding additional crew missions and certifying a new rocket for crew transportation to low Earth orbit. “We are living through the most exciting era of space exploration since Apollo,” said NASA Administrator Jared Isaacman. “As this domain continues to open, there […]",
-      "link": "https://www.nasa.gov/news-release/nasa-boeing-share-update-on-commercial-starliner-development-plans/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "What You Need to Know About NASA’s SpaceX Crew-13 Mission",
-      "description": "Four crew members are set to launch to the International Space Station as part of NASA’s SpaceX Crew-13 mission to perform research, technology demonstrations, and maintenance aboard the orbiting laboratory.",
-      "link": "https://www.nasa.gov/missions/station/commercial-crew/what-you-need-to-know-about-nasas-spacex-crew-13-mission/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-09-28"
-    },
-    {
-      "title": "Giving AI a “crystal clear” view of the materials world",
-      "description": "New research can help AI models understand crystalline materials in 3D and reason about their properties.",
-      "link": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-18"
-    },
-    {
-      "title": "Live coverage: SpaceX to launch Starfall reentry capsule, 31 customer payloads on Bandwagon-5 rideshare mission",
-      "description": "This will be the second launch of SpaceX’s uncrewed reentry capsule, Starfall. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a one-hour window that opens at 6:30 a.m. EDT (1030 UTC).",
-      "link": "https://spaceflightnow.com/2026/10/18/live-coverage-spacex-to-launch-starfall-reentry-capsule-31-customer-payloads-on-bandwagon-5-rideshare-mission/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-10-18"
     }
   ]
 }
