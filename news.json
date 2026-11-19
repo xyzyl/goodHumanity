@@ -1,19 +1,19 @@
 {
   "date": "2026-11-19",
-  "lastUpdated": "2026-11-19T12:25:00.992Z",
+  "lastUpdated": "2026-11-19T22:52:37.642Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "31.9s",
+    "executionTime": "30.6s",
     "sourcesQueried": 42,
-    "sourcesSuccessful": 31,
-    "totalCandidates": 257,
-    "totalSelected": 256,
+    "sourcesSuccessful": 32,
+    "totalCandidates": 266,
+    "totalSelected": 262,
     "entriesByField": {
       "health": 15,
       "climate": 43,
       "energy": 6,
       "technology": 66,
-      "education": 4,
+      "education": 10,
       "development": 38,
       "peace": 17,
       "agriculture": 1,
@@ -25,7 +25,7 @@
         "changed": 0
       },
       "climate": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       },
       "energy": {
@@ -33,11 +33,11 @@
         "changed": 0
       },
       "technology": {
-        "kept": 0,
+        "kept": 4,
         "changed": 0
       },
       "education": {
-        "kept": 0,
+        "kept": 6,
         "changed": 0
       },
       "development": {
@@ -53,14 +53,14 @@
         "changed": 0
       },
       "space": {
-        "kept": 1,
+        "kept": 0,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 32,
-      "topTierSources": 145,
-      "highCredibilitySources": 215
+      "highScoreEntries": 40,
+      "topTierSources": 151,
+      "highCredibilitySources": 222
     }
   },
   "entries": [
@@ -97,6 +97,14 @@
       "date": "2026-11-18"
     },
     {
+      "title": "The final push to end polio: A conversation with WHO’s Chris Wolff",
+      "description": "In a new episode of Rotary International’s Rotary Voices podcast, Chris Wolff, WHO Director of Polio Eradication, speaks with journalist Jerome McDonnell about the extraordinary progress towards a polio-free world, the challenges that remain and why he is optimistic that eradication can be achieved. Chris also reflects on his own journey in global health and […]",
+      "link": "https://polioeradication.org/news/the-final-push-to-end-polio-a-conversation-with-whos-chris-wolff/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-11-11"
+    },
+    {
       "title": "How regional partnerships keep every part of the polio eradication system moving in the Eastern Mediterranean",
       "description": "22 October 2026, Cairo, Egypt – Two drops of vaccine are often used as a symbol for polio eradication. Yet protecting a child from poliovirus depends on far more than vaccination. It requires interconnected public health systems that can detect the virus, respond rapidly, reach every child and continuously adapt to changing risks. The World […]",
       "link": "https://polioeradication.org/news/how-regional-partnerships-keep-every-part-of-the-polio-eradication-system-moving-in-the-eastern-mediterranean/",
@@ -129,9 +137,17 @@
       "date": "2026-10-14"
     },
     {
-      "title": "The final push to end polio: A conversation with WHO’s Chris Wolff",
-      "description": "In a new episode of Rotary International’s Rotary Voices podcast, Chris Wolff, WHO Director of Polio Eradication, speaks with journalist Jerome McDonnell about the extraordinary progress towards a polio-free world, the challenges that remain and why he is optimistic that eradication can be achieved. Chris also reflects on his own journey in global health and […]",
-      "link": "https://polioeradication.org/news/the-final-push-to-end-polio-a-conversation-with-whos-chris-wolff/",
+      "title": "WHO calls for urgent health action across the Eastern Mediterranean",
+      "description": "The head of the World Health Organization (WHO) has called for promoting, providing and protecting health in the Eastern Mediterranean region, home to some of the world’s top humanitarian crises such as Sudan, Yemen and the Occupied Palestinian Territory.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168590",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "New study strengthens evidence for a more affordable and accessible polio vaccine",
+      "description": "A newly published clinical trial in Nepal provides important new evidence supporting the use of Sabin-based inactivated poliovirus vaccine (sIPV), a promising alternative to conventional IPV that could help make polio vaccination more affordable and accessible worldwide. IPV is a critical component of global polio eradication efforts. It helps protect children against paralysis caused by […]",
+      "link": "https://polioeradication.org/news/new-study-strengthens-evidence-for-a-more-affordable-and-accessible-polio-vaccine/",
       "source": "Polio Eradication",
       "field": "health",
       "date": "2026-11-11"
@@ -151,22 +167,6 @@
       "source": "Polio Eradication",
       "field": "health",
       "date": "2026-10-06"
-    },
-    {
-      "title": "WHO calls for urgent health action across the Eastern Mediterranean",
-      "description": "The head of the World Health Organization (WHO) has called for promoting, providing and protecting health in the Eastern Mediterranean region, home to some of the world’s top humanitarian crises such as Sudan, Yemen and the Occupied Palestinian Territory.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168590",
-      "source": "UN News Health",
-      "field": "health",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "New study strengthens evidence for a more affordable and accessible polio vaccine",
-      "description": "A newly published clinical trial in Nepal provides important new evidence supporting the use of Sabin-based inactivated poliovirus vaccine (sIPV), a promising alternative to conventional IPV that could help make polio vaccination more affordable and accessible worldwide. IPV is a critical component of global polio eradication efforts. It helps protect children against paralysis caused by […]",
-      "link": "https://polioeradication.org/news/new-study-strengthens-evidence-for-a-more-affordable-and-accessible-polio-vaccine/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-11-11"
     },
     {
       "title": "Eastern Mediterranean Region renews its commitment to a polio-free world",
@@ -193,28 +193,12 @@
       "date": "2026-11-04"
     },
     {
-      "title": "Troubled Waters: Lake Victoria Faces an Ecological Reckoning",
-      "description": "The largest tropical lake on Earth, Lake Victoria is under enormous strain, with its waters contaminated, fisheries decimated, and historic shorelines drowning. The losses have spurred renewed calls to protect the lake, which supports more than 45 million people across the region. Read more on E360 →",
-      "link": "https://e360.yale.edu/features/lake-victoria-photo-essay",
-      "source": "Yale E360",
-      "field": "climate",
-      "date": "2026-11-19"
-    },
-    {
       "title": "COP31: The push to protect warming oceans reaches the negotiating table",
       "description": "From identifying marine life with a cup of seawater to drawing on Indigenous knowledge to prevent wildfires, scientists and communities showcased both cutting-edge and time-tested ways to protect nature at COP31 on Tuesday. Yet turning innovation into action remains a challenge, with funding gaps persisting and ministers struggling to bridge divisions over fossil fuels and climate finance as negotiations enter their final days.",
       "link": "https://news.un.org/feed/view/en/story/2026/11/1168824",
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-11-17"
-    },
-    {
-      "title": "Nature is making a comeback – now restoration funding must quadruple",
-      "description": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168700",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-29"
     },
     {
       "title": "UN agencies appeal for help to protect weakest from unprecedented El Niño",
@@ -225,20 +209,12 @@
       "date": "2026-10-21"
     },
     {
-      "title": "University of Alaska Fairbanks Oral History Program's Project Jukebox",
-      "description": "University of Alaska Fairbanks Oral History Program's Project Jukebox A shelf cloud and thunderstorm cross the Hudson River from Jersey City, New Jersey, into lower Manhattan, seen from the 86th-floor observation deck of the Empire State Building on August 07, 2026, in New York City. (Image credit: Gary Hershorn/Getty Images) November 6, 2026 EXT link test 0 Off",
-      "link": "https://www.noaa.gov/news/project-jukebox-ext",
-      "source": "NOAA",
+      "title": "Troubled Waters: Lake Victoria Faces an Ecological Reckoning",
+      "description": "The largest tropical lake on Earth, Lake Victoria is under enormous strain, with its waters contaminated, fisheries decimated, and historic shorelines drowning. The losses have spurred renewed calls to protect the lake, which supports more than 45 million people across the region. Read more on E360 →",
+      "link": "https://e360.yale.edu/features/lake-victoria-photo-essay",
+      "source": "Yale E360",
       "field": "climate",
-      "date": "2026-11-06"
-    },
-    {
-      "title": "Maine partners update shoreline maps to improve coastal planning",
-      "description": "(Image credit: Peter Slovinsky, Maine Geological Survey) Download Image November 4, 2026 . Ocean & Coasts Climate-Ready Coasts 0 Off",
-      "link": "https://www.noaa.gov/stories/maine-partners-update-shoreline-maps-to-improve-coastal-planning",
-      "source": "NOAA",
-      "field": "climate",
-      "date": "2026-11-04"
+      "date": "2026-11-19"
     },
     {
       "title": "NOAA, NASA release measurements of 2026 ozone hole",
@@ -247,6 +223,14 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-11-03"
+    },
+    {
+      "title": "University of Alaska Fairbanks Oral History Program's Project Jukebox",
+      "description": "University of Alaska Fairbanks Oral History Program's Project Jukebox A shelf cloud and thunderstorm cross the Hudson River from Jersey City, New Jersey, into lower Manhattan, seen from the 86th-floor observation deck of the Empire State Building on August 07, 2026, in New York City. (Image credit: Gary Hershorn/Getty Images) November 6, 2026 EXT link test 0 Off",
+      "link": "https://www.noaa.gov/news/project-jukebox-ext",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-11-06"
     },
     {
       "title": "FORCE BLUE Veterans conduct tour of duty in your national marine sanctuaries",
@@ -273,6 +257,14 @@
       "date": "2026-11-16"
     },
     {
+      "title": "Nature is making a comeback – now restoration funding must quadruple",
+      "description": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168700",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-29"
+    },
+    {
       "title": "Communication Officer in the IPCC WGI Technical Support Unit",
       "description": "Working Group I of the Intergovernmental Panel on Climate Change is filling the position of Communication Officer in the Technical Support Unit The position is located in the Paris area, at Gif-sur-Yvette (France). The Intergovernmental Panel on Climate Change (IPCC) The IPCC was established by the United Nations Environment Programme (UN Environment) and the World […]",
       "link": "https://www.ipcc.ch/2026/10/19/comm-officer-ipcc-wg1-tsu/",
@@ -289,6 +281,14 @@
       "date": "2026-11-11"
     },
     {
+      "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
+      "description": "Nearly 200 countries have arrived on Türkiye's Mediterranean coast for a climate summit with a different ambition: fewer grand declarations and more concrete decisions. With a powerful El Niño threatening to worsen extreme weather, negotiators face difficult questions over climate finance, clean energy and how to protect communities already living with the consequences of climate change.",
+      "link": "https://news.un.org/feed/view/en/story/2026/11/1168763",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-11-09"
+    },
+    {
       "title": "Record carbon dioxide levels will impact us for centuries, says UN weather agency",
       "description": "Levels of carbon dioxide (CO2) and other major greenhouse gases in the atmosphere caused by burning fossil fuels reached record highs in 2025, locking in more long-term global warming, the World Meteorological Organization (WMO) said on Tuesday.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168677",
@@ -303,6 +303,14 @@
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-10-21"
+    },
+    {
+      "title": "Why do planes keep circling before landing? The UN has a plan to fix it",
+      "description": "Air traffic delays cost billions and turn journeys into ordeals. Some countries are already proving that better coordination saves thousands of flying hours and cuts emissions – and the UN’s aviation agency wants the rest of the world to follow.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168666",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-25"
     },
     {
       "title": "‘Overshoot is not a reason to surrender’: UN calls for accelerated climate action ahead of COP31 summit",
@@ -329,20 +337,12 @@
       "date": "2026-11-17"
     },
     {
-      "title": "COP31 opens in Antalya: Can climate promises finally deliver results?",
-      "description": "Nearly 200 countries have arrived on Türkiye's Mediterranean coast for a climate summit with a different ambition: fewer grand declarations and more concrete decisions. With a powerful El Niño threatening to worsen extreme weather, negotiators face difficult questions over climate finance, clean energy and how to protect communities already living with the consequences of climate change.",
-      "link": "https://news.un.org/feed/view/en/story/2026/11/1168763",
-      "source": "UN News Climate",
+      "title": "Maine partners update shoreline maps to improve coastal planning",
+      "description": "(Image credit: Peter Slovinsky, Maine Geological Survey) Download Image November 4, 2026 . Ocean & Coasts Climate-Ready Coasts 0 Off",
+      "link": "https://www.noaa.gov/stories/maine-partners-update-shoreline-maps-to-improve-coastal-planning",
+      "source": "NOAA",
       "field": "climate",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Why do planes keep circling before landing? The UN has a plan to fix it",
-      "description": "Air traffic delays cost billions and turn journeys into ordeals. Some countries are already proving that better coordination saves thousands of flying hours and cuts emissions – and the UN’s aviation agency wants the rest of the world to follow.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168666",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-25"
+      "date": "2026-11-04"
     },
     {
       "title": "ADB Approves $305.75 Million Financing to Upgrade Strategic Highways, Strengthen Wildlife Conservation in Nepal",
@@ -385,6 +385,14 @@
       "date": "2026-10-31"
     },
     {
+      "title": "The world is waging a ‘war on nature’ as progress on biodiversity targets lags",
+      "description": "Fewer than half of the national targets set to protect the world’s plants, animals and ecosystems are on track, the UN warns in a new report, days before countries gather in Yerevan, Armenia, for the COP17 biodiversity conference.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168607",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-15"
+    },
+    {
       "title": "Analysis: China’s clean-tech exports in 2026 to avoid as much CO2 as Brazil emits in a year",
       "description": "China’s exports in 2026 of clean-energy technologies, such as solar panels, batteries and electric vehicles, are on track to cut… The post Analysis: China’s clean-tech exports in 2026 to avoid as much CO2 as Brazil emits in a year appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/analysis-chinas-clean-tech-exports-in-2026-to-avoid-as-much-co2-as-brazil-emits-in-a-year",
@@ -404,6 +412,14 @@
       "title": "Q&A: Why are UK energy bills so high – and how could they be lowered?",
       "description": "Energy bills in the UK have continued to soar in 2026, with intense debate raging about how to bring them… The post Q&A: Why are UK energy bills so high – and how could they be lowered? appeared first on Carbon Brief.",
       "link": "https://www.carbonbrief.org/qa-why-are-uk-energy-bills-so-high-and-how-could-they-be-lowered",
+      "source": "Carbon Brief",
+      "field": "climate",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Guest post: Greenland ice sheet shrinks for 30th year in a row",
+      "description": "Greenland has now marked the 30th consecutive year where it lost more ice than it gained. Over the 12-month period… The post Guest post: Greenland ice sheet shrinks for 30th year in a row appeared first on Carbon Brief.",
+      "link": "https://www.carbonbrief.org/guest-post-greenland-ice-sheet-shrinks-for-30th-year-in-a-row",
       "source": "Carbon Brief",
       "field": "climate",
       "date": "2026-10-27"
@@ -513,22 +529,6 @@
       "date": "2026-10-16"
     },
     {
-      "title": "The world is waging a ‘war on nature’ as progress on biodiversity targets lags",
-      "description": "Fewer than half of the national targets set to protect the world’s plants, animals and ecosystems are on track, the UN warns in a new report, days before countries gather in Yerevan, Armenia, for the COP17 biodiversity conference.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168607",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "Guest post: Greenland ice sheet shrinks for 30th year in a row",
-      "description": "Greenland has now marked the 30th consecutive year where it lost more ice than it gained. Over the 12-month period… The post Guest post: Greenland ice sheet shrinks for 30th year in a row appeared first on Carbon Brief.",
-      "link": "https://www.carbonbrief.org/guest-post-greenland-ice-sheet-shrinks-for-30th-year-in-a-row",
-      "source": "Carbon Brief",
-      "field": "climate",
-      "date": "2026-10-27"
-    },
-    {
       "title": "ADB, Bangladesh Expand Partnership to Develop 1,000 MW of Solar and Battery Storage",
       "description": "ADB has announced it will provide transaction advisory services for five additional solar and battery energy storage projects in Bangladesh, expanding a program that will reach more than 1,000 megawatts (MW) of combined capacity.",
       "link": "https://www.adb.org/news/adb-bangladesh-expand-partnership-develop-1000-mw-solar-and-battery-storage",
@@ -537,20 +537,20 @@
       "date": "2026-11-18"
     },
     {
-      "title": "First Utility-Scale Enhanced Geothermal Plant Goes Live",
-      "description": "This article was originally published by Canary Media. The geothermal startup Fervo Energy is now selling power to the grid from its Cape Station project in Utah — marking the first time a utility-scale, next-generation geothermal facility has achieved such a feat worldwide. The Houston-based firm turned on an initial 33-megawatt unit late last week and has been testing and ramping up output since then. On Thursday, Fervo will officially begin commercial operations, supplying carbon-free electricity to Shell Energy, a retail power provider in California. Cape Station, a $2 billion project that",
-      "link": "https://spectrum.ieee.org/fervo-cape-station-geothermal",
-      "source": "IEEE Spectrum",
-      "field": "energy",
-      "date": "2026-10-12"
-    },
-    {
       "title": "ADB, Rönesans Sign Financing to Invest in Hyperscale Data Center, Boost Renewable Energy in Türkiye",
       "description": "ADB and Rönesans Holding A.Ş. have signed a $75 million loan to expand renewable energy investments and develop digital infrastructure in Türkiye—ADB’s first loan with Rönesans and first financing for digital infrastructure in the country.",
       "link": "https://www.adb.org/news/adb-ronesans-sign-financing-invest-hyperscale-data-center-boost-renewable-energy-turkiye",
       "source": "Asian Development Bank",
       "field": "energy",
       "date": "2026-10-22"
+    },
+    {
+      "title": "First Utility-Scale Enhanced Geothermal Plant Goes Live",
+      "description": "This article was originally published by Canary Media. The geothermal startup Fervo Energy is now selling power to the grid from its Cape Station project in Utah — marking the first time a utility-scale, next-generation geothermal facility has achieved such a feat worldwide. The Houston-based firm turned on an initial 33-megawatt unit late last week and has been testing and ramping up output since then. On Thursday, Fervo will officially begin commercial operations, supplying carbon-free electricity to Shell Energy, a retail power provider in California. Cape Station, a $2 billion project that",
+      "link": "https://spectrum.ieee.org/fervo-cape-station-geothermal",
+      "source": "IEEE Spectrum",
+      "field": "energy",
+      "date": "2026-10-12"
     },
     {
       "title": "How Beta Technologies Is Clearing the Runway for Electric Flight",
@@ -575,6 +575,14 @@
       "source": "IEEE Spectrum",
       "field": "energy",
       "date": "2026-10-17"
+    },
+    {
+      "title": "Why a Computer Scientist Thinks Superintelligence Won’t Happen",
+      "description": "Many people were caught off guard this past summer when employees of one of the world’s leading AI companies began casually debating whether their products would lead to human extinction. It started when Anthropic researcher Jacob Coxon announced his resignation, warning that his employer and OpenAI were “racing straight to self-improving superintelligence and gambling with our lives.” Evan Hubinger, Anthropic’s head of alignment science, replied, “Jacob is correct here—we really do earnestly believe AI could kill all humans!” And Anthropic CEO Dario Amodei subsequently told CNN, “I agree with",
+      "link": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-11-19"
     },
     {
       "title": "NASA pushes Mars helicopter blades beyond the speed of sound",
@@ -609,10 +617,26 @@
       "date": "2026-10-21"
     },
     {
+      "title": "Caltech Postdoc Awarded L'Oréal USA For Women in Science Grant",
+      "description": "Clarissa Do Ó is among a select group of five postdoctoral scientists to win this year's L'Oréal USA For Women in Science grants for \"contributions in Science, Technology, Engineering and Math (STEM) fields and commitment to serving as role models for younger generations,\" according to the organization's news release.The grants, which are part of the global L'Oréal-UNESCO For Women in Science International program, aim to \"create community and connection for women postdoctoral researchers as they pursue ambitious research projects and attain leadership positions in their fields.\"Do Ó says that",
+      "link": "https://www.caltech.edu/about/news/caltech-postdoc-awarded-lor%C3%A9al-usa-for-women-in-science-grant",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-19"
+    },
+    {
       "title": "Caltech Names the Bridget and William Coughran Department of Computing + Mathematical Sciences",
       "description": "Silicon Valley executive, investor, and mentor Dr. William \"Bill\" Coughran (BS, MS '75; DAA '24) and his wife Bridget Coughran have committed $67.5 million to Caltech to endow and name the Bridget and William Coughran Department of Computing + Mathematical Sciences (CMS). The gift will provide significant annual funding to support faculty, researchers, and students pursuing new research frontiers and investigating the most challenging, fundamental problems in computation and information. It will also establish an endowment to sustain the department in perpetuity.\"We are approaching a future in",
       "link": "https://www.caltech.edu/about/news/caltech-names-the-bridget-and-william-coughran-department-of-computing-mathematical-sciences",
       "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Joe Higgins to step down as VP for campus services and stewardship",
+      "description": "During his time at the Institute, Higgins has guided MIT’s physical campus through a transformative period, delivering 2030 Capital Plan projects, improving critical facilities, and advancing decarbonization.",
+      "link": "https://news.mit.edu/2026/joe-higgins-to-step-down-vp-campus-services-stewardship-1118",
+      "source": "MIT News",
       "field": "technology",
       "date": "2026-11-18"
     },
@@ -625,6 +649,14 @@
       "date": "2026-11-03"
     },
     {
+      "title": "Powering up for a pivotal moment",
+      "description": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
+      "link": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-02"
+    },
+    {
       "title": "$7 Million Gift Establishes New HSS Lab in Environmental Economics and Policy Design",
       "description": "One of the most effective ways to protect the environment is to make markets work for environmental goals rather than against them, using tools such as tradable permits and payments for ecosystem services. But doing that requires measurements and data: How much of a resource exists, how is it changing, and what is it worth to society? Until recently, that information hasn't been available to the decision-makers developing environmental policy.A new Caltech lab will soon bridge that gap—bringing together economics, policy design, and new measurement tools such as satellite imaging and machine l",
       "link": "https://www.caltech.edu/about/news/7-million-gift-establishes-new-hss-lab-in-environmental-economics-and-policy-design",
@@ -633,12 +665,156 @@
       "date": "2026-10-21"
     },
     {
+      "title": "Community-Focused Academic Brings AI Tools to Colorado Farmers",
+      "description": "Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension, CSU’s outreach arm. She works in Logan County and serves a 10-county farming area in Colorado’s northeast corner. Her job is to turn university research into practical help for the people who live there. Xue “Alice” Dong Employer Colorado State University Extension in Logan County Titl",
+      "link": "https://spectrum.ieee.org/ai-tools-for-rural-communities",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-11-19"
+    },
+    {
       "title": "ADB, Republic of Korea Establish $20 Million Fund to Expand AI Across Asia and the Pacific",
       "description": "ADB and the Republic of Korea have signed an agreement establishing a $20 million fund to help Asia and the Pacific use artificial intelligence (AI) to improve health care, education, agriculture, and public services, while managing the risks the technology poses.",
       "link": "https://www.adb.org/news/adb-republic-korea-establish-20-million-fund-expand-ai-across-asia-and-pacific",
       "source": "Asian Development Bank",
       "field": "technology",
       "date": "2026-11-13"
+    },
+    {
+      "title": "U.S. approval of cheap, generic HIV prevention shot may boost global rollout",
+      "description": "Indian company pledges to sell injectable lenacapavir in low- and middle-income countries for only $40 a year",
+      "link": "https://www.science.org/content/article/u-s-approval-cheap-generic-hiv-prevention-shot-may-boost-global-rollout",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "AI is shaking up math. But can its proofs be trusted?",
+      "description": "As AI firms churn out math breakthroughs, researchers question use of Lean software as proof checker",
+      "link": "https://www.science.org/content/article/ai-shaking-math-can-its-proofs-be-trusted",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-10-27"
+    },
+    {
+      "title": "Energy, prosperity, emissions, and innovation: A decarbonization progress report",
+      "description": "Eric Toone, CTO of Breakthrough Energy, assessed global decarbonization, and the opportunities and challenges that remain, at MITEI’s annual research conference.",
+      "link": "https://news.mit.edu/2026/energy-prosperity-emissions-innovation-decarbonization-progress-report-1112",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
+      "description": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
+      "link": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-02"
+    },
+    {
+      "title": "$27.5 Million Gift Expands Aerospace Prowess of Caltech and JPL",
+      "description": "Caltech and the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, will expand aerospace research, hands-on training, and innovation on campus and at the Lab through two gifts totaling $27.5 million from philanthropists Foster and Coco Stanback.A $20 million gift through the Foundation for the Carolinas will create the New Space Makerspace at JPL and support education and workforce development programs led by Caltech. A separate $7.5 million gift will renovate and expand Caltech's hypersonic research facility and add a new shock tube for studying flight at extreme speeds.\"Caltech",
+      "link": "https://www.caltech.edu/about/news/27-5-million-gift-expands-aerospace-prowess-of-caltech-and-jpl",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-29"
+    },
+    {
+      "title": "Five Caltech Faculty Selected by Meta to Help Solve Open Problems in AI",
+      "description": "Caltech has been selected by Meta as one of five academic partners across the US to receive access to their latest artificial intelligence (AI) models, along with research funding and collaboration opportunities. New research agreements with five faculty members will expand on a strategic partnership between the Institute and Meta to advance breakthroughs across physics, chemistry, biology, computer science, and mathematics.The selected Caltech faculty members will receive research grants for up to three years, plus access to frontier Muse AI models through Meta's first-party application progr",
+      "link": "https://www.caltech.edu/about/news/five-caltech-faculty-selected-by-meta-to-help-solve-open-problems-in-ai",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-28"
+    },
+    {
+      "title": "This implant can restore sight for patients with macular degeneration",
+      "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients…",
+      "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "New discovery reveals what may be holding back room-temperature superconductors",
+      "description": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different obstacle may be preventing room-temperature superconductivity.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Engineered Nanosyringes Open a New Route into Plant Cells",
+      "description": "Understanding and improving plants often requires changing what happens inside their cells. Proteins control how cells grow, respond to stress, and carry out countless other tasks. Delivering these molecular tools directly into plant cells could give researchers new ways to study those processes and engineer useful traits. But getting active proteins past the cell wall and membrane that protect each plant cell remains a major obstacle.Now a team of Caltech researchers has adapted tiny bacterial \"nanosyringes\" to recognize plant cells and inject proteins into them. The system delivered enzymes ",
+      "link": "https://www.caltech.edu/about/news/engineered-nanosyringes-open-a-new-route-into-plant-cells",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "A Brave New Space Age: Caltech Convenes Leading Voices to Discuss the Next Frontiers of Exploration",
+      "description": "As access to space expands and renewed ambitions draw society's gaze to the Moon and Mars, a new space age is rapidly taking shape, bringing immense opportunities for discovery while also raising profound questions about humanity's future beyond Earth.Caltech convened leading voices from science, industry, government, and media to explore the promise, challenges, and responsibilities of this unfolding chapter in space exploration at The Brave New Space Age, a public conversation on the eve of the Inauguration of Caltech's 10th president, Ray Jayawardhana.\"Today, advances in science and technol",
+      "link": "https://www.caltech.edu/about/news/a-brave-new-space-age-event-recap",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Planetary Scientist Jonathan Lunine Invested as Member of the American Academy of Sciences and Letters",
+      "description": "In recognition of his outstanding scholarly achievements, Jonathan Lunine (PhD '85), a professor of planetary science at Caltech and chief scientist at NASA's JPL, which Caltech manages for NASA, has been invested as a member of the American Academy of Sciences and Letters (AASL). The AASL promotes scholarship and honors outstanding achievement in the arts, sciences, and learned professions.Lunine has performed pioneering research on the formation and evolution of planetary systems, the nature of planetary interiors and atmospheres, and where environments suited for life might exist in the sol",
+      "link": "https://www.caltech.edu/about/news/planetary-scientist-jonathan-lunine-invested-as-member-of-the-american-academy-of-sciences-and-letters",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+      "description": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE Standards Association has been working for the past decade on ways to prioritize the responsible development of AI systems. In 2016 IEEE SA launched the IEEE Global Initiative for Ethical Considerations in Autonomous and Intelligent Systems (A/IS) and published the Ethically Aligned ",
+      "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
+      "description": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public safety, and offshore operations. How power efficiency, RF signaling, and antenna design shape satellite-connected device development. Why long propagation delay, Doppler shift, and intermittent coverage make static test methods insufficient. Which measurements show deployment readiness, such as transmit power, modulation ",
+      "link": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research",
+      "description": "A major grant from Schmidt Sciences will establish the Berkeley Science AI Platform, which will run on hardware at Berkeley Lab's National Energy Research Scientific Computing Center. The post UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/11/16/uc-berkeley-berkeley-lab-collaboration-with-schmidt-science-computing-network-will-provide-high-performance-computing-for-cutting-edge-research/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "Seeing clearly: A new type of coating absorbs and wicks away even extreme condensation",
+      "description": "UC Berkeley and ETH Zurich engineers have come up with an innovative way to eliminate the fogging caused by condensation on glass. The post Seeing clearly: A new type of coating absorbs and wicks away even extreme condensation appeared first on Berkeley News.",
+      "link": "https://engineering.berkeley.edu/news/2026/11/seeing-clearly/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "Engineer Overhead Lines to Withstand Ice, Wind and FreezingRain",
+      "description": "This White Paper explains how ice, wind and vegetation load overhead distribution lines at the same time. It shows engineers how to assess the complete line and compare resilience options. What you will learn about: How freezing rain, rime ice and wet snow add weight to conductors and change their shape in the wind. Why a moderate wind on a heavily iced line can govern design, and how galloping and vegetation contact create outages. How a messenger-supported spacer cable separates the electrical function of covered conductors from the main mechanical load path. How monitored severe-weather tes",
+      "link": "https://content.knowledgehub.wiley.com/engineering-overhead-electric-lines-for-ice-wind-and-freezing-rain/",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Innovating with AI in the special chemicals industry",
+      "description": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…",
+      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-11-09"
     },
     {
       "title": "After 40 years, CERN finds evidence of a one-in-10-billion particle decay",
@@ -657,12 +833,20 @@
       "date": "2026-11-12"
     },
     {
-      "title": "Joe Higgins to step down as VP for campus services and stewardship",
-      "description": "During his time at the Institute, Higgins has guided MIT’s physical campus through a transformative period, delivering 2030 Capital Plan projects, improving critical facilities, and advancing decarbonization.",
-      "link": "https://news.mit.edu/2026/joe-higgins-to-step-down-vp-campus-services-stewardship-1118",
+      "title": "Waves that clear waste from the brain during sleep are impaired in older adults",
+      "description": "Researchers now hope to investigate whether increasing the flow of cerebrospinal fluid during sleep could improve brain health.",
+      "link": "https://news.mit.edu/2026/waste-clearing-waves-in-brain-during-sleep-are-impaired-in-older-adults-1113",
       "source": "MIT News",
       "field": "technology",
-      "date": "2026-11-18"
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Q&A: From seed funding to scientific breakthroughs",
+      "description": "How the MIT Global Seed Funds helped Professor Matt Shoulders and his team build international collaborations that continue to shape his research more than a decade later.",
+      "link": "https://news.mit.edu/2026/from-seed-funding-to-scientific-breakthroughs-1112",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-12"
     },
     {
       "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
@@ -673,12 +857,20 @@
       "date": "2026-11-10"
     },
     {
-      "title": "Powering up for a pivotal moment",
-      "description": "From a nuclear revival to qubits, the MIT Energy Initiative’s annual research conference tracked deployment of today’s technologies to discovery of tomorrow’s breakthroughs.",
-      "link": "https://news.mit.edu/2026/powering-up-for-pivotal-moment-1102",
-      "source": "MIT News",
+      "title": "Master AI Chip Principles With New IEEE Design Program",
+      "description": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “Revisiting Edge AI: Opportunities and Challenges.” The article examines the rapid growth of edge AI and the challenges it creates, including resource constraints, model architecture limitations, and network demands across edge-AI deployments. The acceleration is driven by a fundamental shift in how modern AI models are built and scaled. As the models have become much larger and more complex, they are computationally more demanding because they contain more parameters and",
+      "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
+      "source": "IEEE Spectrum",
       "field": "technology",
-      "date": "2026-11-02"
+      "date": "2026-10-09"
+    },
+    {
+      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI…",
+      "link": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-08"
     },
     {
       "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
@@ -713,132 +905,20 @@
       "date": "2026-11-13"
     },
     {
-      "title": "Scientists accidentally solve a chemistry mystery that lasted 60 years",
-      "description": "After more than 60 years of unsuccessful attempts, scientists have finally isolated stable examples of elusive boron-oxygen molecules once considered too unstable to capture. The surprising breakthrough, achieved using relatively simple chemical reactions, could pave the way for an entirely new class of exotic compounds.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261103003205.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-06"
-    },
-    {
-      "title": "Californians poised to approve controversial $8.4 billion initiative to fund immunology research",
-      "description": "Critics say ballot measure’s narrow language will funnel taxpayer money to a single, billionaire-backed nonprofit",
-      "link": "https://www.science.org/content/article/californians-poised-approve-controversial-8-4-billion-initiative-fund-immunology",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-11-06"
-    },
-    {
-      "title": "U.S. approval of cheap, generic HIV prevention shot may boost global rollout",
-      "description": "Indian company pledges to sell injectable lenacapavir in low- and middle-income countries for only $40 a year",
-      "link": "https://www.science.org/content/article/u-s-approval-cheap-generic-hiv-prevention-shot-may-boost-global-rollout",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "AI is shaking up math. But can its proofs be trusted?",
-      "description": "As AI firms churn out math breakthroughs, researchers question use of Lean software as proof checker",
-      "link": "https://www.science.org/content/article/ai-shaking-math-can-its-proofs-be-trusted",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-10-27"
-    },
-    {
-      "title": "Engineered Nanosyringes Open a New Route into Plant Cells",
-      "description": "Understanding and improving plants often requires changing what happens inside their cells. Proteins control how cells grow, respond to stress, and carry out countless other tasks. Delivering these molecular tools directly into plant cells could give researchers new ways to study those processes and engineer useful traits. But getting active proteins past the cell wall and membrane that protect each plant cell remains a major obstacle.Now a team of Caltech researchers has adapted tiny bacterial \"nanosyringes\" to recognize plant cells and inject proteins into them. The system delivered enzymes ",
-      "link": "https://www.caltech.edu/about/news/engineered-nanosyringes-open-a-new-route-into-plant-cells",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-11-18"
-    },
-    {
-      "title": "A Brave New Space Age: Caltech Convenes Leading Voices to Discuss the Next Frontiers of Exploration",
-      "description": "As access to space expands and renewed ambitions draw society's gaze to the Moon and Mars, a new space age is rapidly taking shape, bringing immense opportunities for discovery while also raising profound questions about humanity's future beyond Earth.Caltech convened leading voices from science, industry, government, and media to explore the promise, challenges, and responsibilities of this unfolding chapter in space exploration at The Brave New Space Age, a public conversation on the eve of the Inauguration of Caltech's 10th president, Ray Jayawardhana.\"Today, advances in science and technol",
-      "link": "https://www.caltech.edu/about/news/a-brave-new-space-age-event-recap",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "Waves that clear waste from the brain during sleep are impaired in older adults",
-      "description": "Researchers now hope to investigate whether increasing the flow of cerebrospinal fluid during sleep could improve brain health.",
-      "link": "https://news.mit.edu/2026/waste-clearing-waves-in-brain-during-sleep-are-impaired-in-older-adults-1113",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Planetary Scientist Jonathan Lunine Invested as Member of the American Academy of Sciences and Letters",
-      "description": "In recognition of his outstanding scholarly achievements, Jonathan Lunine (PhD '85), a professor of planetary science at Caltech and chief scientist at NASA's JPL, which Caltech manages for NASA, has been invested as a member of the American Academy of Sciences and Letters (AASL). The AASL promotes scholarship and honors outstanding achievement in the arts, sciences, and learned professions.Lunine has performed pioneering research on the formation and evolution of planetary systems, the nature of planetary interiors and atmospheres, and where environments suited for life might exist in the sol",
-      "link": "https://www.caltech.edu/about/news/planetary-scientist-jonathan-lunine-invested-as-member-of-the-american-academy-of-sciences-and-letters",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Q&A: From seed funding to scientific breakthroughs",
-      "description": "How the MIT Global Seed Funds helped Professor Matt Shoulders and his team build international collaborations that continue to shape his research more than a decade later.",
-      "link": "https://news.mit.edu/2026/from-seed-funding-to-scientific-breakthroughs-1112",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "New AI “copilot” helps engineers design better structures",
-      "description": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
-      "link": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Energy, prosperity, emissions, and innovation: A decarbonization progress report",
-      "description": "Eric Toone, CTO of Breakthrough Energy, assessed global decarbonization, and the opportunities and challenges that remain, at MITEI’s annual research conference.",
-      "link": "https://news.mit.edu/2026/energy-prosperity-emissions-innovation-decarbonization-progress-report-1112",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "$27.5 Million Gift Expands Aerospace Prowess of Caltech and JPL",
-      "description": "Caltech and the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, will expand aerospace research, hands-on training, and innovation on campus and at the Lab through two gifts totaling $27.5 million from philanthropists Foster and Coco Stanback.A $20 million gift through the Foundation for the Carolinas will create the New Space Makerspace at JPL and support education and workforce development programs led by Caltech. A separate $7.5 million gift will renovate and expand Caltech's hypersonic research facility and add a new shock tube for studying flight at extreme speeds.\"Caltech",
-      "link": "https://www.caltech.edu/about/news/27-5-million-gift-expands-aerospace-prowess-of-caltech-and-jpl",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "Five Caltech Faculty Selected by Meta to Help Solve Open Problems in AI",
-      "description": "Caltech has been selected by Meta as one of five academic partners across the US to receive access to their latest artificial intelligence (AI) models, along with research funding and collaboration opportunities. New research agreements with five faculty members will expand on a strategic partnership between the Institute and Meta to advance breakthroughs across physics, chemistry, biology, computer science, and mathematics.The selected Caltech faculty members will receive research grants for up to three years, plus access to frontier Muse AI models through Meta's first-party application progr",
-      "link": "https://www.caltech.edu/about/news/five-caltech-faculty-selected-by-meta-to-help-solve-open-problems-in-ai",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-10-28"
-    },
-    {
-      "title": "Master AI Chip Principles With New IEEE Design Program",
-      "description": "Today’s engineers face an unprecedented acceleration in AI hardware complexity, as explained in the recent research article “Revisiting Edge AI: Opportunities and Challenges.” The article examines the rapid growth of edge AI and the challenges it creates, including resource constraints, model architecture limitations, and network demands across edge-AI deployments. The acceleration is driven by a fundamental shift in how modern AI models are built and scaled. As the models have become much larger and more complex, they are computationally more demanding because they contain more parameters and",
-      "link": "https://spectrum.ieee.org/master-ai-chip-principles-ieee",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-09"
-    },
-    {
-      "title": "The Download: AI roadblocks for humanoids and portable rubber dams",
-      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI breakthroughs in robotics won’t change your life any time soon The hype around humanoid robots is reaching fever pitch. Much of it comes from the idea that the same AI…",
-      "link": "https://www.technologyreview.com/2026/10/08/1146045/the-download-ai-roadblocks-humanoids-portable-rubber-dams/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-08"
-    },
-    {
       "title": "A breakthrough in magnetism could make AI chips use dramatically less energy",
       "description": "Researchers at Brown University have overcome a major obstacle to creating ultra-low-power computer chips that could help slash the energy demands of AI. Their breakthrough eliminates a long-standing \"dead layer\" problem that causes promising materials to stop working when made extremely thin. Remarkably, the new technique not only preserves the materials' electrical and magnetic properties at nearly atomic thicknesses but also gives them enhanced magnetic capabilities",
       "link": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
       "source": "ScienceDaily Tech",
       "field": "technology",
       "date": "2026-11-13"
+    },
+    {
+      "title": "Scientists accidentally solve a chemistry mystery that lasted 60 years",
+      "description": "After more than 60 years of unsuccessful attempts, scientists have finally isolated stable examples of elusive boron-oxygen molecules once considered too unstable to capture. The surprising breakthrough, achieved using relatively simple chemical reactions, could pave the way for an entirely new class of exotic compounds.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261103003205.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-06"
     },
     {
       "title": "NASA’s Voyager 1 is about to reach a historic one-light-day milestone",
@@ -849,84 +929,12 @@
       "date": "2026-11-03"
     },
     {
-      "title": "UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research",
-      "description": "A major grant from Schmidt Sciences will establish the Berkeley Science AI Platform, which will run on hardware at Berkeley Lab's National Energy Research Scientific Computing Center. The post UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/11/16/uc-berkeley-berkeley-lab-collaboration-with-schmidt-science-computing-network-will-provide-high-performance-computing-for-cutting-edge-research/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-11-16"
-    },
-    {
-      "title": "A computer scientist breaks through a limit that stood since 1996",
-      "description": "A computer scientist has achieved a breakthrough in a nearly 25-year-old problem involving how computers calculate distances across enormous networks. The new algorithm delivers more reliable estimates for closely connected points without sacrificing speed, overcoming a longstanding limitation of earlier methods. Its secret lies in a smarter way of sampling network connections at multiple scales.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-30"
-    },
-    {
-      "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
-      "description": "The MIT professors collaborated to identify the first AI-discovered antibiotic, a scientific breakthrough that is widely recognized as a milestone in AI-driven drug discovery.",
-      "link": "https://news.mit.edu/2026/regina-barzilay-jim-collins-win-pritzker-prize-ai-and-science-research-excellence-1102",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Suzy Nelson transformed student life at MIT",
-      "description": "Over the last decade, the vice chancellor has refocused the Institute’s approach to student life to center on student well-being.",
-      "link": "https://news.mit.edu/2026/suzy-nelson-transformed-student-life-at-mit-1015",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
-      "description": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE Standards Association has been working for the past decade on ways to prioritize the responsible development of AI systems. In 2016 IEEE SA launched the IEEE Global Initiative for Ethical Considerations in Autonomous and Intelligent Systems (A/IS) and published the Ethically Aligned ",
-      "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "Seeing clearly: A new type of coating absorbs and wicks away even extreme condensation",
-      "description": "UC Berkeley and ETH Zurich engineers have come up with an innovative way to eliminate the fogging caused by condensation on glass. The post Seeing clearly: A new type of coating absorbs and wicks away even extreme condensation appeared first on Berkeley News.",
-      "link": "https://engineering.berkeley.edu/news/2026/11/seeing-clearly/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-11-14"
-    },
-    {
-      "title": "Innovating with AI in the special chemicals industry",
-      "description": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…",
-      "link": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "Understand How Satellite Links Shape IoT Device Design and Testing",
-      "description": "How 3GPP Releases 15, 16, and 17 brought satellite access into 5G NR, NB-IoT, and eMTC. Why satellite links suit IoT devices that send small, infrequent, and delay-tolerant messages. Where non-terrestrial networks (NTN) add value, including asset tracking, agriculture, public safety, and offshore operations. How power efficiency, RF signaling, and antenna design shape satellite-connected device development. Why long propagation delay, Doppler shift, and intermittent coverage make static test methods insufficient. Which measurements show deployment readiness, such as transmit power, modulation ",
-      "link": "https://content.knowledgehub.wiley.com/5g-nr-ntn-design-and-test-challenges-for-satellite-connected-iot/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "Engineer Overhead Lines to Withstand Ice, Wind and FreezingRain",
-      "description": "This White Paper explains how ice, wind and vegetation load overhead distribution lines at the same time. It shows engineers how to assess the complete line and compare resilience options. What you will learn about: How freezing rain, rime ice and wet snow add weight to conductors and change their shape in the wind. Why a moderate wind on a heavily iced line can govern design, and how galloping and vegetation contact create outages. How a messenger-supported spacer cable separates the electrical function of covered conductors from the main mechanical load path. How monitored severe-weather tes",
-      "link": "https://content.knowledgehub.wiley.com/engineering-overhead-electric-lines-for-ice-wind-and-freezing-rain/",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Inside this quantum computer, memory vibrates like a guitar string",
-      "description": "Researchers have created a quantum computer that stores information in microscopic vibrations, potentially making quantum machines smaller, more powerful, and better at preserving information. The breakthrough successfully demonstrated advanced quantum calculations and could help overcome major barriers to practical quantum computing.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261109205416.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-12"
+      "title": "Education in Papua New Guinea",
+      "description": "Education in Papua New Guinea 2010 US$52,854,686 GPE 2025 grant eligibility Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership compact Priority: Complete the rollout of the 1-6-6 School Restructuring Reform. JICAFlorian Rabenstein Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data In Papua New Guinea, many students drop out of school during primary education and during the transition from primary to secondary. Only, one in five secondary-school age children are enrolled in school. In line with the National Educ",
+      "link": "https://www.globalpartnership.org/where-we-work/papua-new-guinea",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
     },
     {
       "title": "School of Social Welfare receives $10 million anonymous gift to elevate social work education",
@@ -935,6 +943,46 @@
       "source": "UC Berkeley",
       "field": "education",
       "date": "2026-11-18"
+    },
+    {
+      "title": "Education in Dominica",
+      "description": "Education in Dominica 2016 US$31,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Developing, implementing, and sustaining a comprehensive, inclusive, and equitable curriculum. Mohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Having achieved universal primary and secondary education, tuition-free tertiary education, and expanded access to pre-primary education, Dominica is focused on improving the quality and relevance of education. Sector challenges include high drop",
+      "link": "https://www.globalpartnership.org/where-we-work/dominica",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Grenada",
+      "description": "Education in Grenada 2016 US$36,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Successful implementation of an enhanced curriculum and assessment strategy for lower secondary schools. Caribbean Development BankMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data In Grenada, a primary education curriculum reform is underway, and the upper secondary curriculum is strongly shaped by final exams, but there is no official curriculum for lower secondary education. Lacking gui",
+      "link": "https://www.globalpartnership.org/where-we-work/grenada",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Pakistan",
+      "description": "Education in Pakistan 2012 US$376,874,001 GPE 2025 grant eligibility Multiplier System capacity System transformation Girls' Education Accelerator Other key documents Partnership Compacts Punjab Priority: Improve learning outcomes at the pre-primary, primary and middle levels, with a special focus on girls and out-of-school children. See also: Balochistan Partnership Compact Khyber Pakhtunkhwa Partnership Compact Sindh Partnership Compact Commonwealth and Development Office, JICA (Punjab), UNESCO (Khyber Pakhtunkhwa, Balochistan), UNESCO Islamabad (Sindh), UNICEF (Sindh, Balochistan), UNICEF I",
+      "link": "https://www.globalpartnership.org/where-we-work/pakistan",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Nigeria",
+      "description": "Education in Nigeria 2012 US$346,506,711 GPE 2025 grant eligibility Multiplier Girls' Education Accelerator System capacity System transformation Other key documents Partnership compact Priority: Ensure accessible, equitable and inclusive foundational learning. Commonwealth and Development OfficeLucinda Ramos Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Nigeria, the most populous country in Africa, has an estimated 14.8 million school-age children not attending school. The northern regions are most affected, with more girls out of school than boys. For children i",
+      "link": "https://www.globalpartnership.org/where-we-work/nigeria",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
+    },
+    {
+      "title": "Education in Saint Vincent and the Grenadines",
+      "description": "Education in Saint Vincent and the Grenadines 2016 US$36,514,033 GPE 2025 grant eligibility Multiplier System capacity System transformation Other key documents Partnership compact Priority: Harnessing the power of technology for education transformation. Caribbean Development BankMohamed Yassine Ministry of Education Domestic financing commitment 2026-2030 GPE 2025 data Saint Vincent and the Grenadines has limited resources and cultural norms that contribute to disparities in education access. The Caribbean region’s susceptibility to natural disasters exacerbates challenges to delivering qual",
+      "link": "https://www.globalpartnership.org/where-we-work/saint-vincent-and-grenadines",
+      "source": "GPE",
+      "field": "education",
+      "date": "2026-05-25"
     },
     {
       "title": "Caltech Mourns the Passing of Ted Scudder, 1930–2026",
@@ -993,14 +1041,6 @@
       "date": "2026-11-17"
     },
     {
-      "title": "ADB Completes $30 Billion ASEAN Pledge with $13 Billion for Resilient Rivers and Digital Economy",
-      "description": "Asian Development Bank (ADB) President Masato Kanda announced two initiatives to mobilize up to $13 billion by 2030 for resilient rivers and the digital economy across Southeast Asia. The announcements complete ADB’s $30 billion pledge to support the development priorities of the Association of Southeast Asian Nations (ASEAN).",
-      "link": "https://www.adb.org/news/adb-completes-30-billion-asean-pledge-13-billion-resilient-rivers-and-digital-economy",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-11-14"
-    },
-    {
       "title": "ADB, GCF, and Partners Launch $1 Billion Program to Protect Pacific Communities",
       "description": "ANTALYA, TÜRKIYE (11 November 2026) – The Asian Development Bank (ADB), the Green Climate Fund (GCF), the governments of the Cook Islands and Palau, and partners today launched a major new initiative to help Pacific island communities protect their homes, livelihoods, and infrastructure from rising seas and increasingly destructive storms. The ADB program aims to mobilize more than $1 billion in financing to support 14 Pacific island economies.",
       "link": "https://www.adb.org/news/adb-gcf-and-partners-launch-1-billion-program-protect-pacific-communities",
@@ -1017,20 +1057,36 @@
       "date": "2026-11-09"
     },
     {
-      "title": "ADB Advances Resilient Agriculture and Women's Economic Empowerment in Rural Cambodia",
-      "description": "ADB has approved a $72 million financing package to help Cambodia strengthen rural farming and increase women’s participation in agriculture, while enhancing the resilience of about 200,000 smallholder farmers in disaster-prone communes.",
-      "link": "https://www.adb.org/news/adb-advances-resilient-agriculture-and-womens-economic-empowerment-rural-cambodia",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-26"
-    },
-    {
       "title": "ADB Approves $100 Million Program to Strengthen Social Protection and Expand Economic Opportunities in Sri Lanka",
       "description": "ADB has approved $100 million in financing to support reforms and investments that will strengthen social protection, economic inclusion, and well-being and resilience among the poor and elderly in Sri Lanka.",
       "link": "https://www.adb.org/news/adb-approves-100-million-program-strengthen-social-protection-and-expand-economic",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-10-21"
+    },
+    {
+      "title": "World News in Brief: Children killed in Myanmar strike, new violence flares in Mozambique, an Internet affordability milestone",
+      "description": "A school in Myanmar has been hit in an airstrike, with three children reported killed and five others injured, according to UN Children’s Fund UNICEF.",
+      "link": "https://news.un.org/feed/view/en/story/2026/11/1168729",
+      "source": "UN News Development",
+      "field": "development",
+      "date": "2026-11-03"
+    },
+    {
+      "title": "ADB Completes $30 Billion ASEAN Pledge with $13 Billion for Resilient Rivers and Digital Economy",
+      "description": "Asian Development Bank (ADB) President Masato Kanda announced two initiatives to mobilize up to $13 billion by 2030 for resilient rivers and the digital economy across Southeast Asia. The announcements complete ADB’s $30 billion pledge to support the development priorities of the Association of Southeast Asian Nations (ASEAN).",
+      "link": "https://www.adb.org/news/adb-completes-30-billion-asean-pledge-13-billion-resilient-rivers-and-digital-economy",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-11-14"
+    },
+    {
+      "title": "ADB Advances Resilient Agriculture and Women's Economic Empowerment in Rural Cambodia",
+      "description": "ADB has approved a $72 million financing package to help Cambodia strengthen rural farming and increase women’s participation in agriculture, while enhancing the resilience of about 200,000 smallholder farmers in disaster-prone communes.",
+      "link": "https://www.adb.org/news/adb-advances-resilient-agriculture-and-womens-economic-empowerment-rural-cambodia",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-26"
     },
     {
       "title": "COP31 deadlock persists as countries launch new ‘climate reality check’",
@@ -1055,22 +1111,6 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-10-26"
-    },
-    {
-      "title": "World News in Brief: Children killed in Myanmar strike, new violence flares in Mozambique, an Internet affordability milestone",
-      "description": "A school in Myanmar has been hit in an airstrike, with three children reported killed and five others injured, according to UN Children’s Fund UNICEF.",
-      "link": "https://news.un.org/feed/view/en/story/2026/11/1168729",
-      "source": "UN News Development",
-      "field": "development",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "ADB Targets Nearly a Third of Its Work for Regional Initiatives",
-      "description": "ADB has launched a new approach to expand regional cooperation and integration, with a target of increasing its share of operations supporting cross-border initiatives to 30% by 2030.",
-      "link": "https://www.adb.org/news/adb-targets-nearly-third-its-work-regional-initiatives",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-11-04"
     },
     {
       "title": "ADB Approves its First Strategic Business Outlook",
@@ -1167,6 +1207,14 @@
       "source": "UN News Development",
       "field": "development",
       "date": "2026-10-13"
+    },
+    {
+      "title": "ADB Targets Nearly a Third of Its Work for Regional Initiatives",
+      "description": "ADB has launched a new approach to expand regional cooperation and integration, with a target of increasing its share of operations supporting cross-border initiatives to 30% by 2030.",
+      "link": "https://www.adb.org/news/adb-targets-nearly-third-its-work-regional-initiatives",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-11-04"
     },
     {
       "title": "Rise in poverty is ‘a wake-up call for the world’, UN development chief says",
@@ -1273,6 +1321,22 @@
       "date": "2026-11-18"
     },
     {
+      "title": "The 2026 medicine prize – Groundbreaking brain research",
+      "description": "The 2026 medicine prize is about a method called optogenetics, which is used to explore how the brain works. This method allows scientists to switch on, or off, the activity of nerve cells in the brain using light, enabling them to studying the role of the nerve cells in the brain. This may offer us […] The post The 2026 medicine prize – Groundbreaking brain research appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/text-for-students-medicine-2026/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-10-14"
+    },
+    {
+      "title": "The Nobel Prize lesson – Groundbreaking brain research",
+      "description": "The 2026 medicine laureates have developed optogenetics, a method enabling us to show how nerve cells form memories, emotions and behaviours in a living brain. This method is used by laboratories all over the world and has fundamentally changed the way we see the brain. Peter Hegemann and Georg Nagel discovered a unique protein in […] The post The Nobel Prize lesson – Groundbreaking brain research appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/medicine-2026/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-10-14"
+    },
+    {
       "title": "Haiti: ‘Atrocious abuses’ continue as UN warns anti-gang operations must priortise civilian protection",
       "description": "The UN human rights office, OHCHR has urged greater protection for civilians in Haiti amid ongoing “atrocious abuses” committed by gangs and intensified security operations.",
       "link": "https://news.un.org/feed/view/en/story/2026/11/1168823",
@@ -1337,30 +1401,6 @@
       "date": "2026-10-22"
     },
     {
-      "title": "Philippe Aghion: “We should enhance manual jobs and soft skills”",
-      "description": "Philippe Aghion was awarded the 2025 economic sciences prize for his work on creative destruction, a process where new innovations build upon, and take over from, previous innovations – creating economic growth. Here, he reflects on the role of creative destruction in the AI era, and what societies need to do to make the most […] The post Philippe Aghion: “We should enhance manual jobs and soft skills” appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/philippe-aghion-on-ai/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-11-03"
-    },
-    {
-      "title": "The 2026 medicine prize – Groundbreaking brain research",
-      "description": "The 2026 medicine prize is about a method called optogenetics, which is used to explore how the brain works. This method allows scientists to switch on, or off, the activity of nerve cells in the brain using light, enabling them to studying the role of the nerve cells in the brain. This may offer us […] The post The 2026 medicine prize – Groundbreaking brain research appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/text-for-students-medicine-2026/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-10-14"
-    },
-    {
-      "title": "The Nobel Prize lesson – Groundbreaking brain research",
-      "description": "The 2026 medicine laureates have developed optogenetics, a method enabling us to show how nerve cells form memories, emotions and behaviours in a living brain. This method is used by laboratories all over the world and has fundamentally changed the way we see the brain. Peter Hegemann and Georg Nagel discovered a unique protein in […] The post The Nobel Prize lesson – Groundbreaking brain research appeared first on NobelPrize.org.",
-      "link": "https://www.nobelprize.org/educational/nobel-prize-lessons/medicine-2026/",
-      "source": "Nobel Prize",
-      "field": "peace",
-      "date": "2026-10-14"
-    },
-    {
       "title": "Gaza: Funding cuts leave half a million without food assistance",
       "description": "Funding shortages have forced the World Food Programme (WFP) to slash assistance to hungry families in the Gaza Strip by roughly one third – a move that will affect some 500,000 people as winter approaches, the UN agency announced on Monday.",
       "link": "https://news.un.org/feed/view/en/story/2026/10/1168622",
@@ -1383,6 +1423,14 @@
       "source": "UN Peace & Security",
       "field": "peace",
       "date": "2026-10-07"
+    },
+    {
+      "title": "Philippe Aghion: “We should enhance manual jobs and soft skills”",
+      "description": "Philippe Aghion was awarded the 2025 economic sciences prize for his work on creative destruction, a process where new innovations build upon, and take over from, previous innovations – creating economic growth. Here, he reflects on the role of creative destruction in the AI era, and what societies need to do to make the most […] The post Philippe Aghion: “We should enhance manual jobs and soft skills” appeared first on NobelPrize.org.",
+      "link": "https://www.nobelprize.org/philippe-aghion-on-ai/",
+      "source": "Nobel Prize",
+      "field": "peace",
+      "date": "2026-11-03"
     },
     {
       "title": "The 2026 economic sciences prize – A new model for a stable economy",
@@ -1481,54 +1529,6 @@
       "date": "2026-11-16"
     },
     {
-      "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
-      "description": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft. NASA will highlight […]",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-10"
-    },
-    {
-      "title": "Astronauts Across Generations Share the Stage",
-      "description": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA’s Kennedy Space Center Visitor Complex in Merritt Island, Florida. Held on the eve of NASA’s MAX POWER event, the gala celebrated the explorers, innovators, and visionaries advancing the next era of human spaceflight. The event honored the successful completion of the agency’s […]",
-      "link": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
-      "description": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, NASA is launching the Advanced Mid-Power Electric Rocket (AMPERE) Challenge. The NASA AMPERE Challenge invites U.S. commercial companies to develop and demonstrate mid-power Hall effect […]",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
-      "description": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
-      "link": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-07"
-    },
-    {
-      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
-      "description": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-      "description": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
-      "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-28"
-    },
-    {
       "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
       "description": "Description NASA’s Curiosity Mars rover captured this view looking back at the floor of Gale Crater, with the crater’s rim visible in the distance, on Sept. 5, 2026, the 5,006th Martian day, or sol, of the mission. Just nine days prior, on Aug. 26 (Sol 4,996), Curiosity set a mission milestone by reaching 1 kilometer […]",
       "link": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
@@ -1553,6 +1553,14 @@
       "date": "2026-10-27"
     },
     {
+      "title": "Sentinel-3C returns its first views of Earth",
+      "description": "Just two weeks after it was launched, the Copernicus Sentinel-3C satellite returned its first images and measurements from two of its key instruments – a major milestone that confirms the satellite is working well and on the road to monitoring the health of Earth’s oceans, land, cryosphere and atmosphere.",
+      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3C_returns_its_first_views_of_Earth",
+      "source": "ESA",
+      "field": "space",
+      "date": "2026-10-08"
+    },
+    {
       "title": "Nuclear-powered spaceships",
       "description": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…",
       "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
@@ -1569,38 +1577,6 @@
       "date": "2026-11-13"
     },
     {
-      "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
-      "description": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
-      "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-08"
-    },
-    {
-      "title": "What’s Up: November 2026 Skywatching Tips from NASA",
-      "description": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
-      "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-02"
-    },
-    {
-      "title": "Sentinel-3C returns its first views of Earth",
-      "description": "Just two weeks after it was launched, the Copernicus Sentinel-3C satellite returned its first images and measurements from two of its key instruments – a major milestone that confirms the satellite is working well and on the road to monitoring the health of Earth’s oceans, land, cryosphere and atmosphere.",
-      "link": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-3/Sentinel-3C_returns_its_first_views_of_Earth",
-      "source": "ESA",
-      "field": "space",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "NASA astronauts splash down after 100 million miles in space",
-      "description": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the Moon and Mars. The mission also made history with record-setting spacewalk achievements and experiments that could transform medicine both in space and on Earth.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
-      "source": "ScienceDaily Tech",
-      "field": "space",
-      "date": "2026-10-09"
-    },
-    {
       "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
       "description": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
@@ -1609,12 +1585,60 @@
       "date": "2026-11-12"
     },
     {
-      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
-      "description": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and integration […]",
-      "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+      "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+      "description": "Launched nearly 50 years ago in 1977, NASA’s Voyager 1 on Wednesday, Nov. 18 will have traveled one light-day from Earth, which is more than 16 billion miles (25.9 billion kilometers). Voyager 1 is the most distant human-made object, and any light from Earth would take 24 hours to reach the spacecraft. NASA will highlight […]",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-10"
+    },
+    {
+      "title": "Astronauts Across Generations Share the Stage",
+      "description": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA’s Kennedy Space Center Visitor Complex in Merritt Island, Florida. Held on the eve of NASA’s MAX POWER event, the gala celebrated the explorers, innovators, and visionaries advancing the next era of human spaceflight. The event honored the successful completion of the agency’s […]",
+      "link": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
+      "description": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, NASA is launching the Advanced Mid-Power Electric Rocket (AMPERE) Challenge. The NASA AMPERE Challenge invites U.S. commercial companies to develop and demonstrate mid-power Hall effect […]",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
+      "description": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
+      "link": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-08"
+    },
+    {
+      "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
+      "description": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
+      "link": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-07"
+    },
+    {
+      "title": "NASA Navigation Experiment Shows Promise for Planetary Landings",
+      "description": "NASA successfully demonstrated technology designed to help spacecraft autonomously navigate to safe landing sites on the Moon and on other planets. An Alta-X drone equipped with the agency’s Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) guidance, navigation, and control payload completed simulated lunar descent and landing maneuvers Aug. 27. The flight took place […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-navigation-experiment-shows-promise-for-planetary-landings/",
       "source": "NASA",
       "field": "space",
       "date": "2026-11-04"
+    },
+    {
+      "title": "What’s Up: November 2026 Skywatching Tips from NASA",
+      "description": "Meteor Showers, a Spacecraft Milestone, and a Supermoon Catch Taurid and Leonid meteors, spot Mars near Jupiter, celebrate Voyager 1’s light-day milestone, and watch November’s supermoon. Skywatching Highlights Transcript A month of meteor showers … a close pairing of Mars and Jupiter … and a supermoon! That’s What’s Up for November. November offers a buffet […]",
+      "link": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-02"
     },
     {
       "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
@@ -1639,6 +1663,30 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-10-30"
+    },
+    {
+      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
+      "description": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Center in Florida. Technicians lifted the 212-foot rocket stage from the facility’s High Bay 2 using a one-of-a kind lifting beam designed […]",
+      "link": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-28"
+    },
+    {
+      "title": "NASA astronauts splash down after 100 million miles in space",
+      "description": "NASA’s SpaceX Crew-12 astronauts have returned to Earth after 237 days in space, traveling more than 100 million miles and completing over 3,792 orbits while conducting research to prepare for future missions to the Moon and Mars. The mission also made history with record-setting spacewalk achievements and experiments that could transform medicine both in space and on Earth.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261008232629.htm",
+      "source": "ScienceDaily Tech",
+      "field": "space",
+      "date": "2026-10-09"
+    },
+    {
+      "title": "NASA Announces Ka-Band Satellite Relay Awards for Space Communications",
+      "description": "NASA selected three companies on Wednesday to perform work to develop Ka-band space relay capability concepts that are compatible with current missions in space, ensuring service continuity for existing spacecraft without requiring modifications to their onboard systems. Through this work, NASA will aim to acquire end-to-end solutions that include space, ground, launch, operations, and integration […]",
+      "link": "https://www.nasa.gov/news-release/nasa-announces-ka-band-satellite-relay-awards-for-space-communications/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-04"
     },
     {
       "title": "NIH–NASA QuSAFE Challenge",
@@ -1745,6 +1793,102 @@
       "date": "2026-10-21"
     },
     {
+      "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
+      "description": "A new NASA-supported spacecraft will get up close to satellites that are no longer in service, demonstrating technologies that could support future in-space repairs and reduce orbital debris. The Small Spacecraft Propulsion and Inspection Capability (SSPICY) mission launched Oct. 1 from Vandenberg Space Force Base in California. The mission is a technology demonstration where an […]",
+      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-08"
+    },
+    {
+      "title": "The Silent Ambassador to the Galaxy: Voyager at One Light-Day",
+      "description": "On a sunny day in August 1977, the Voyager 2 spacecraft was strapped to a rocket on a launchpad in Cape Canaveral, Florida, awaiting the start of its journey to explore where no probe—and certainly no human—had ever been before. Caltech scientist Alan Cummings (PhD '73) wanted to perform some final checks before its flight. He was escorted up to the top of the spacecraft and peered through a hatch in the nose cone at the spacecraft's four delicate low-energy cosmic ray telescopes. Each telescope, about the size of a salt shaker, was designed to catch and characterize particles as they hurtled ",
+      "link": "https://www.caltech.edu/about/news/the-silent-ambassador-to-the-galaxy-voyager-at-one-light-day",
+      "source": "Caltech",
+      "field": "space",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "A computer scientist breaks through a limit that stood since 1996",
+      "description": "A computer scientist has achieved a breakthrough in a nearly 25-year-old problem involving how computers calculate distances across enormous networks. The new algorithm delivers more reliable estimates for closely connected points without sacrificing speed, overcoming a longstanding limitation of earlier methods. Its secret lies in a smarter way of sampling network connections at multiple scales.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-30"
+    },
+    {
+      "title": "Scientists reach the ultimate quantum limit on a surface",
+      "description": "Scientists have achieved a quantum breakthrough by creating an ultra-clean surface where individual molecules can maintain their delicate quantum properties at the fundamental limit. The discovery could unlock unprecedented control over molecules and help drive the next generation of quantum technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Californians poised to approve controversial $8.4 billion initiative to fund immunology research",
+      "description": "Critics say ballot measure’s narrow language will funnel taxpayer money to a single, billionaire-backed nonprofit",
+      "link": "https://www.science.org/content/article/californians-poised-approve-controversial-8-4-billion-initiative-fund-immunology",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-11-06"
+    },
+    {
+      "title": "Addressing nuclear challenges, from radiation detection to power in space",
+      "description": "Assistant Professor Jake Hecla is developing tools to cool space-based reactors, detect the presence of nuclear weapons, and better understand emerging nuclear technologies.",
+      "link": "https://news.mit.edu/2026/addressing-nuclear-challenges-jake-hecla-1112",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "New Caltech Center Activates Science for Hazard Reduction",
+      "description": "Led by seismologist Lucy Jones, the Caltech Center for Disaster Resilience will bring researchers and community leaders together to strengthen disaster preparedness, response, and recovery.When earthquakes, fires, droughts, severe storms, and extreme heat hit Southern California, the consequences depend in part on how communities have prepared beforehand. But leaders don't always have access to the latest science when developing disaster policies.Meanwhile, researchers make important discoveries about hazards, but these findings may not reach the officials who can put them to use. And research",
+      "link": "https://www.caltech.edu/about/news/Caltech-Center-for-Disaster-Resilience",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-11"
+    },
+    {
+      "title": "Startup plans to rejuvenate the nuclear power industry with a new manufacturing approach",
+      "description": "Founded by Jake Jurewicz ’14, SM ’15, Blue Energy manufactures giant pieces of nuclear reactors at shipyards and ships them on barges for final assembly, to lower costs.",
+      "link": "https://news.mit.edu/2026/startup-rejuvenates-nuclear-power-industry-new-manufacturing-approach-1022",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-22"
+    },
+    {
+      "title": "New AI “copilot” helps engineers design better structures",
+      "description": "The system asks humans for feedback to increase trust in machine-generated designs for buildings and bridges.",
+      "link": "https://news.mit.edu/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+      "description": "Listen to the session or watch below In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado explore possible paths to keep your mind going, including gradual brain…",
+      "link": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Hello? How the telephone transformed human connection",
+      "description": "Alum’s new history traces evolution of technology — from party lines to mobile devices — and how we’ve changed with it",
+      "link": "https://news.harvard.edu/gazette/story/2026/11/hello-how-the-telephone-transformed-human-connection-gleick-book/",
+      "source": "Harvard Gazette",
+      "field": "technology",
+      "date": "2026-11-09"
+    },
+    {
+      "title": "When Electric Cars Were for Women",
+      "description": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7,000 vehicles. By 1910, production had reached 181,000. For several decades, electric cars vied with those powered by steam and internal combustion, and nobody was sure which technology would come out on top. Steam had the legacy of locomotive technology behind it but came with a risk of fire. Steam-powered vehicles could also become exceedingly hot, dependin",
+      "link": "https://spectrum.ieee.org/early-electric-vehicles",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-10-31"
+    },
+    {
       "title": "NASA’s Voyager 1 is one light-day from Earth",
       "description": "NASA's Voyager 1 spacecraft became the first human-made object to reach a distance of one light-day from Earth early Wednesday, crossing the threshold at 5:16:07 a.m. EST (10:16:07 UTC) as it sped away from the sun at nearly 38,000 mph.",
       "link": "https://spaceflightnow.com/2026/11/18/nasas-voyager-1-is-one-light-day-from-earth/",
@@ -1777,62 +1921,6 @@
       "date": "2026-10-13"
     },
     {
-      "title": "Scientists reach the ultimate quantum limit on a surface",
-      "description": "Scientists have achieved a quantum breakthrough by creating an ultra-clean surface where individual molecules can maintain their delicate quantum properties at the fundamental limit. The discovery could unlock unprecedented control over molecules and help drive the next generation of quantum technologies.",
-      "link": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-10-20"
-    },
-    {
-      "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
-      "description": "A commercial lander that will be at the forefront of NASA’s efforts to establish a Moon Base, humanity’s first lunar outpost, has passed a series of critical tests at the agency’s Jet Propulsion Laboratory in Southern California. The tests simulated the extreme temperatures and vacuum of space, as well as the intense shaking and ear-splitting […]",
-      "link": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-13"
-    },
-    {
-      "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
-      "description": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station in Florida, advancing research that benefits life on Earth and future exploration. This research supports astronaut health during long-duration missions through […]",
-      "link": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-12"
-    },
-    {
-      "title": "NASA’s SSPICY Mission to Demonstrate In-Space Inspection Technologies",
-      "description": "A new NASA-supported spacecraft will get up close to satellites that are no longer in service, demonstrating technologies that could support future in-space repairs and reduce orbital debris. The Small Spacecraft Propulsion and Inspection Capability (SSPICY) mission launched Oct. 1 from Vandenberg Space Force Base in California. The mission is a technology demonstration where an […]",
-      "link": "https://www.nasa.gov/centers-and-facilities/ames/nasas-sspicy-mission-to-demonstrate-in-space-inspection-technologies/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-08"
-    },
-    {
-      "title": "The Silent Ambassador to the Galaxy: Voyager at One Light-Day",
-      "description": "On a sunny day in August 1977, the Voyager 2 spacecraft was strapped to a rocket on a launchpad in Cape Canaveral, Florida, awaiting the start of its journey to explore where no probe—and certainly no human—had ever been before. Caltech scientist Alan Cummings (PhD '73) wanted to perform some final checks before its flight. He was escorted up to the top of the spacecraft and peered through a hatch in the nose cone at the spacecraft's four delicate low-energy cosmic ray telescopes. Each telescope, about the size of a salt shaker, was designed to catch and characterize particles as they hurtled ",
-      "link": "https://www.caltech.edu/about/news/the-silent-ambassador-to-the-galaxy-voyager-at-one-light-day",
-      "source": "Caltech",
-      "field": "space",
-      "date": "2026-11-16"
-    },
-    {
-      "title": "Addressing nuclear challenges, from radiation detection to power in space",
-      "description": "Assistant Professor Jake Hecla is developing tools to cool space-based reactors, detect the presence of nuclear weapons, and better understand emerging nuclear technologies.",
-      "link": "https://news.mit.edu/2026/addressing-nuclear-challenges-jake-hecla-1112",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-12"
-    },
-    {
-      "title": "New Caltech Center Activates Science for Hazard Reduction",
-      "description": "Led by seismologist Lucy Jones, the Caltech Center for Disaster Resilience will bring researchers and community leaders together to strengthen disaster preparedness, response, and recovery.When earthquakes, fires, droughts, severe storms, and extreme heat hit Southern California, the consequences depend in part on how communities have prepared beforehand. But leaders don't always have access to the latest science when developing disaster policies.Meanwhile, researchers make important discoveries about hazards, but these findings may not reach the officials who can put them to use. And research",
-      "link": "https://www.caltech.edu/about/news/Caltech-Center-for-Disaster-Resilience",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-11-11"
-    },
-    {
       "title": "3 Questions: Why infrastructure is entering a defining era",
       "description": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
       "link": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
@@ -1841,52 +1929,12 @@
       "date": "2026-10-28"
     },
     {
-      "title": "Startup plans to rejuvenate the nuclear power industry with a new manufacturing approach",
-      "description": "Founded by Jake Jurewicz ’14, SM ’15, Blue Energy manufactures giant pieces of nuclear reactors at shipyards and ships them on barges for final assembly, to lower costs.",
-      "link": "https://news.mit.edu/2026/startup-rejuvenates-nuclear-power-industry-new-manufacturing-approach-1022",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-10-22"
-    },
-    {
-      "title": "Hello? How the telephone transformed human connection",
-      "description": "Alum’s new history traces evolution of technology — from party lines to mobile devices — and how we’ve changed with it",
-      "link": "https://news.harvard.edu/gazette/story/2026/11/hello-how-the-telephone-transformed-human-connection-gleick-book/",
-      "source": "Harvard Gazette",
-      "field": "technology",
-      "date": "2026-11-09"
-    },
-    {
-      "title": "When Electric Cars Were for Women",
-      "description": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7,000 vehicles. By 1910, production had reached 181,000. For several decades, electric cars vied with those powered by steam and internal combustion, and nobody was sure which technology would come out on top. Steam had the legacy of locomotive technology behind it but came with a risk of fire. Steam-powered vehicles could also become exceedingly hot, dependin",
-      "link": "https://spectrum.ieee.org/early-electric-vehicles",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-31"
-    },
-    {
       "title": "How solid-state transformers could help power the AI boom",
       "description": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade. As the world races to meet rising electricity demand from…",
       "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-10-27"
-    },
-    {
-      "title": "This implant can restore sight for patients with macular degeneration",
-      "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients…",
-      "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "New discovery reveals what may be holding back room-temperature superconductors",
-      "description": "A major breakthrough in superconductivity research has revealed that one of the essential ingredients for electricity to flow without resistance can exist at room temperature. Scientists discovered that electrons can form stable pairs at much higher temperatures than previously understood, suggesting that a different obstacle may be preventing room-temperature superconductivity.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261116023358.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-18"
     },
     {
       "title": "NASA is offering $1 million for bold ideas to help build a Moon base",
@@ -2025,14 +2073,6 @@
       "date": "2026-11-18"
     },
     {
-      "title": "Build a Personal Brand to Help Employers Find You",
-      "description": "This article is crossposted from IEEE Spectrum’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written in partnership with tech career development company Parsity and delivered to your inbox for free!In one year, the number of developers working for themselves has more than doubled. Stack Overflow’s annual survey of more than 30,000 developers showed that freelancers and sole proprietors went from about four percent of respondents to ten percent. You can read this as a polite way of saying, “I got laid off and I’m figuring it out.” But I don’t th",
-      "link": "https://spectrum.ieee.org/personal-branding-for-engineers",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-11-18"
-    },
-    {
       "title": "Live Coverage: Starship Flight 15 attempts to recover full vehicle in double launch pad catch",
       "description": "Liftoff of the integrated Starship vehicle from Starbase in Texas is scheduled during a 75-minute launch window that opens at 4:45 p.m. CST (5:45 p.m. EST / 2245 UTC) on Friday, Nov. 13.",
       "link": "https://spaceflightnow.com/2026/11/13/live-coverage-starship-flight-15-attempts-to-recover-full-vehicle-in-double-launch-pad-catch/",
@@ -2073,6 +2113,14 @@
       "date": "2026-10-14"
     },
     {
+      "title": "NASA JPL Testing Readies Voyager Technologies Lander for Moon Mission",
+      "description": "A commercial lander that will be at the forefront of NASA’s efforts to establish a Moon Base, humanity’s first lunar outpost, has passed a series of critical tests at the agency’s Jet Propulsion Laboratory in Southern California. The tests simulated the extreme temperatures and vacuum of space, as well as the intense shaking and ear-splitting […]",
+      "link": "https://www.nasa.gov/missions/moon-base/nasa-jpl-testing-readies-voyager-technologies-lander-for-moon-mission/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
+    },
+    {
       "title": "NASA’s Record-Setting Perseverance Rover Team",
       "description": "Description Members of NASA’s Perseverance Mars mission team gather in the Mars Yard at the agency’s Jet Propulsion Laboratory in Southern California with a certificate from Guinness World Records marking the rover distance record on the Red Planet. Positioned in front of the team is OPTIMISM (Operational Perseverance Twin for Integration of Mechanisms and Instruments […]",
       "link": "https://science.nasa.gov/photojournal/nasas-record-setting-perseverance-rover-team/",
@@ -2089,6 +2137,14 @@
       "date": "2026-10-13"
     },
     {
+      "title": "NASA’s SpaceX CRS-35 Mission to Launch Health Research",
+      "description": "NASA experiments focused on human and plant health and drug-resistant organisms will travel to the International Space Station aboard SpaceX’s 35th Commercial Resupply Services mission for the agency from Cape Canaveral Space Force Station in Florida, advancing research that benefits life on Earth and future exploration. This research supports astronaut health during long-duration missions through […]",
+      "link": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-12"
+    },
+    {
       "title": "Antarctic Sea Ice Grows to Its 2026 Maximum",
       "description": "The ice reached its third-lowest maximum extent since satellite observations began.",
       "link": "https://science.nasa.gov/earth/earth-observatory/antarctic-sea-ice-grows-to-its-2026-maximum/",
@@ -2103,14 +2159,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-10-08"
-    },
-    {
-      "title": "AI Is Giving Optical Computing Another Shot",
-      "description": "The idea of computing with light has been around for over 70 years, but until recently it’s remained largely in the realm of research. Over the past few years, though, optical computing has emerged as a fast-growing industry: Market valuation of companies in this sector now totals US $2.22 billion, up from $0.4 billion in 2022. One projection suggests that the market will continue to grow exponentially in the coming years. The reason for this sudden surge will surprise no one: AI. In particular, AI inference—the process of using AI models to respond to user queries—has driven much of the const",
-      "link": "https://spectrum.ieee.org/optical-computing-ai",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-11-17"
     }
   ]
 }
