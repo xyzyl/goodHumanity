@@ -1,27 +1,27 @@
 {
   "date": "2026-11-25",
-  "lastUpdated": "2026-11-25T03:17:41.343Z",
+  "lastUpdated": "2026-11-25T13:48:32.112Z",
   "metadata": {
     "version": "3.0",
-    "executionTime": "26.0s",
+    "executionTime": "24.7s",
     "sourcesQueried": 42,
     "sourcesSuccessful": 32,
-    "totalCandidates": 261,
-    "totalSelected": 256,
+    "totalCandidates": 265,
+    "totalSelected": 259,
     "entriesByField": {
-      "health": 13,
+      "health": 14,
       "climate": 41,
-      "energy": 6,
+      "energy": 7,
       "technology": 66,
       "education": 3,
-      "development": 41,
+      "development": 42,
       "peace": 19,
       "agriculture": 1,
       "space": 66
     },
     "categoryIntegrity": {
       "health": {
-        "kept": 0,
+        "kept": 1,
         "changed": 0
       },
       "climate": {
@@ -33,8 +33,8 @@
         "changed": 0
       },
       "technology": {
-        "kept": 2,
-        "changed": 0
+        "kept": 5,
+        "changed": 1
       },
       "education": {
         "kept": 0,
@@ -42,7 +42,7 @@
       },
       "development": {
         "kept": 1,
-        "changed": 0
+        "changed": 1
       },
       "peace": {
         "kept": 0,
@@ -53,29 +53,37 @@
         "changed": 0
       },
       "space": {
-        "kept": 3,
+        "kept": 0,
         "changed": 0
       }
     },
     "qualityMetrics": {
-      "highScoreEntries": 28,
-      "topTierSources": 140,
-      "highCredibilitySources": 213
+      "highScoreEntries": 31,
+      "topTierSources": 141,
+      "highCredibilitySources": 215
     }
   },
   "entries": [
     {
-      "title": "[Articles] Performance of 0/1 h versus 0/3 h pathways in patients with suspected myocardial infarction: a systematic review and individual participant data meta-analysis of randomised controlled trials",
-      "description": "Across the available randomised trials, short-term adverse event rates were low with both pathways, but the pooled safety estimate remained imprecise. On average, earlier cardiac troponin retesting did not reduce emergency department length of stay or clearly increase direct discharge, and substantial between-study heterogeneity indicates that treatment effects might not translate uniformly across health-care systems. For hospitals considering transitioning from a 0/3 h to a 0/1 h pathway, implementation decisions should take broader diagnostic and organisational considerations into account.",
-      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01767-8/fulltext?rss=yes",
-      "source": "The Lancet",
+      "title": "Decades of gains against AIDS could unravel as HIV funding dries up",
+      "description": "Decades of progress against AIDS, one of the greatest public health achievements in history, could go into reverse as international HIV funding is cut and campaigns against human rights and gender equality gain ground, the UN agency devoted to ending the pandemic warned Tuesday in a new report.",
+      "link": "https://news.un.org/feed/view/en/story/2026/11/1168869",
+      "source": "UN News Health",
       "field": "health",
-      "date": "2026-10-29"
+      "date": "2026-11-24"
     },
     {
       "title": "[The Lancet Commissions] A Lancet Commission on the Health and Poverty Alleviation Initiative in China",
       "description": "Poverty alleviation is a pressing global challenge that is intricately linked with health, as emphasised by the Sustainable Development Goals (SDGs). In 2019, out-of-pocket health expenditure—health-care costs paid directly by individuals or households rather than covered by insurance or other third-party payers—pushed an additional 344 million people into poverty globally. In 2020, 724 million people were living in extreme poverty, defined as living on less than US$2·15 per person per day at 2017 purchasing power parity, 90 million more than the pre-COVID-19 pandemic UN projection.",
       "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01196-7/fulltext?rss=yes",
+      "source": "The Lancet",
+      "field": "health",
+      "date": "2026-10-29"
+    },
+    {
+      "title": "[Articles] Performance of 0/1 h versus 0/3 h pathways in patients with suspected myocardial infarction: a systematic review and individual participant data meta-analysis of randomised controlled trials",
+      "description": "Across the available randomised trials, short-term adverse event rates were low with both pathways, but the pooled safety estimate remained imprecise. On average, earlier cardiac troponin retesting did not reduce emergency department length of stay or clearly increase direct discharge, and substantial between-study heterogeneity indicates that treatment effects might not translate uniformly across health-care systems. For hospitals considering transitioning from a 0/3 h to a 0/1 h pathway, implementation decisions should take broader diagnostic and organisational considerations into account.",
+      "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01767-8/fulltext?rss=yes",
       "source": "The Lancet",
       "field": "health",
       "date": "2026-10-29"
@@ -87,6 +95,14 @@
       "source": "UN News Health",
       "field": "health",
       "date": "2026-10-27"
+    },
+    {
+      "title": "‘Burden and loss’ builds in DR Congo, as Kenya strengthens Ebola containment",
+      "description": "As Ebola continues to spread in the Democratic Republic of the Congo (DRC), more resources are needed to fight the disease and feed patients and families, UN agencies said on Friday.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168655",
+      "source": "UN News Health",
+      "field": "health",
+      "date": "2026-10-23"
     },
     {
       "title": "Health workers tackle taboos over drinking with new AI tool",
@@ -113,18 +129,18 @@
       "date": "2026-11-11"
     },
     {
+      "title": "New study strengthens evidence for a more affordable and accessible polio vaccine",
+      "description": "A newly published clinical trial in Nepal provides important new evidence supporting the use of Sabin-based inactivated poliovirus vaccine (sIPV), a promising alternative to conventional IPV that could help make polio vaccination more affordable and accessible worldwide. IPV is a critical component of global polio eradication efforts. It helps protect children against paralysis caused by […]",
+      "link": "https://polioeradication.org/news/new-study-strengthens-evidence-for-a-more-affordable-and-accessible-polio-vaccine/",
+      "source": "Polio Eradication",
+      "field": "health",
+      "date": "2026-11-11"
+    },
+    {
       "title": "How regional partnerships keep every part of the polio eradication system moving in the Eastern Mediterranean",
       "description": "22 October 2026, Cairo, Egypt – Two drops of vaccine are often used as a symbol for polio eradication. Yet protecting a child from poliovirus depends on far more than vaccination. It requires interconnected public health systems that can detect the virus, respond rapidly, reach every child and continuously adapt to changing risks. The World […]",
       "link": "https://polioeradication.org/news/how-regional-partnerships-keep-every-part-of-the-polio-eradication-system-moving-in-the-eastern-mediterranean/",
       "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "‘Burden and loss’ builds in DR Congo, as Kenya strengthens Ebola containment",
-      "description": "As Ebola continues to spread in the Democratic Republic of the Congo (DRC), more resources are needed to fight the disease and feed patients and families, UN agencies said on Friday.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168655",
-      "source": "UN News Health",
       "field": "health",
       "date": "2026-10-23"
     },
@@ -135,14 +151,6 @@
       "source": "UN News Health",
       "field": "health",
       "date": "2026-10-14"
-    },
-    {
-      "title": "New study strengthens evidence for a more affordable and accessible polio vaccine",
-      "description": "A newly published clinical trial in Nepal provides important new evidence supporting the use of Sabin-based inactivated poliovirus vaccine (sIPV), a promising alternative to conventional IPV that could help make polio vaccination more affordable and accessible worldwide. IPV is a critical component of global polio eradication efforts. It helps protect children against paralysis caused by […]",
-      "link": "https://polioeradication.org/news/new-study-strengthens-evidence-for-a-more-affordable-and-accessible-polio-vaccine/",
-      "source": "Polio Eradication",
-      "field": "health",
-      "date": "2026-11-11"
     },
     {
       "title": "Two drops, one dream: a vaccinator’s 14-year journey to protect Afghan children from polio",
@@ -177,12 +185,12 @@
       "date": "2026-11-04"
     },
     {
-      "title": "Hurricane season wrap-up: El Nino fueled record number of Pacific storms but calmed Atlantic",
-      "description": "Hurricane season wrap-up: El Nino fueled record number of Pacific storms but calmed Atlantic November 24, 2026 A NOAA satellite view of the eye of Hurricane Isaias approaching the U.S. Gulf coast in daytime on October 9, 2026. (Image credit: NOAA Satellites) Download Image The 2026 hurricane season, which officially ends November 30, will be remembered as a year of contrasts between the Atlantic and Pacific, a classic indication of a hurricane season influenced by a very strong El Nino. Below normal activity across the Atlantic basin was offset by above-average activity in the Pacific, includi",
-      "link": "https://www.noaa.gov/news-release/hurricane-season-wrap-up-el-nino-fueled-record-number-of-pacific-storms-but-calmed-atlantic",
-      "source": "NOAA",
+      "title": "UN agencies appeal for help to protect weakest from unprecedented El Niño",
+      "description": "Two UN agencies issued a powerful appeal on Wednesday for immediate assistance to help communities already being impacted by the strongest El Niño weather pattern on record.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168639",
+      "source": "UN News Climate",
       "field": "climate",
-      "date": "2026-11-24"
+      "date": "2026-10-21"
     },
     {
       "title": "University of Alaska Fairbanks Oral History Program's Project Jukebox",
@@ -191,6 +199,14 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-11-06"
+    },
+    {
+      "title": "Hurricane season wrap-up: El Nino fueled record number of Pacific storms but calmed Atlantic",
+      "description": "Hurricane season wrap-up: El Nino fueled record number of Pacific storms but calmed Atlantic November 24, 2026 A NOAA satellite view of the eye of Hurricane Isaias approaching the U.S. Gulf coast in daytime on October 9, 2026. (Image credit: NOAA Satellites) Download Image The 2026 hurricane season, which officially ends November 30, will be remembered as a year of contrasts between the Atlantic and Pacific, a classic indication of a hurricane season influenced by a very strong El Nino. Below normal activity across the Atlantic basin was offset by above-average activity in the Pacific, includi",
+      "link": "https://www.noaa.gov/news-release/hurricane-season-wrap-up-el-nino-fueled-record-number-of-pacific-storms-but-calmed-atlantic",
+      "source": "NOAA",
+      "field": "climate",
+      "date": "2026-11-24"
     },
     {
       "title": "NOAA, NASA release measurements of 2026 ozone hole",
@@ -207,6 +223,14 @@
       "source": "NOAA",
       "field": "climate",
       "date": "2026-10-28"
+    },
+    {
+      "title": "Nature is making a comeback – now restoration funding must quadruple",
+      "description": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.",
+      "link": "https://news.un.org/feed/view/en/story/2026/10/1168700",
+      "source": "UN News Climate",
+      "field": "climate",
+      "date": "2026-10-29"
     },
     {
       "title": "Communication Officer in the IPCC WGI Technical Support Unit",
@@ -239,22 +263,6 @@
       "source": "UN News Climate",
       "field": "climate",
       "date": "2026-11-16"
-    },
-    {
-      "title": "Nature is making a comeback – now restoration funding must quadruple",
-      "description": "From salmon spawning grounds in Canada to coral reefs in Indonesia, ecosystems around the world are being restored at an unprecedented rate.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168700",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-29"
-    },
-    {
-      "title": "UN agencies appeal for help to protect weakest from unprecedented El Niño",
-      "description": "Two UN agencies issued a powerful appeal on Wednesday for immediate assistance to help communities already being impacted by the strongest El Niño weather pattern on record.",
-      "link": "https://news.un.org/feed/view/en/story/2026/10/1168639",
-      "source": "UN News Climate",
-      "field": "climate",
-      "date": "2026-10-21"
     },
     {
       "title": "Ocean Facts: What are Kelvin waves?",
@@ -505,20 +513,28 @@
       "date": "2026-11-23"
     },
     {
-      "title": "ADB, Bangladesh Expand Partnership to Develop 1,000 MW of Solar and Battery Storage",
-      "description": "ADB has announced it will provide transaction advisory services for five additional solar and battery energy storage projects in Bangladesh, expanding a program that will reach more than 1,000 megawatts (MW) of combined capacity.",
-      "link": "https://www.adb.org/news/adb-bangladesh-expand-partnership-develop-1000-mw-solar-and-battery-storage",
-      "source": "Asian Development Bank",
-      "field": "energy",
-      "date": "2026-11-18"
-    },
-    {
       "title": "First Utility-Scale Enhanced Geothermal Plant Goes Live",
       "description": "This article was originally published by Canary Media. The geothermal startup Fervo Energy is now selling power to the grid from its Cape Station project in Utah — marking the first time a utility-scale, next-generation geothermal facility has achieved such a feat worldwide. The Houston-based firm turned on an initial 33-megawatt unit late last week and has been testing and ramping up output since then. On Thursday, Fervo will officially begin commercial operations, supplying carbon-free electricity to Shell Energy, a retail power provider in California. Cape Station, a $2 billion project that",
       "link": "https://spectrum.ieee.org/fervo-cape-station-geothermal",
       "source": "IEEE Spectrum",
       "field": "energy",
       "date": "2026-10-12"
+    },
+    {
+      "title": "ADB to Support Power Interconnection Masterplan for Brunei Darussalam, Indonesia, Malaysia, and the Philippines",
+      "description": "ADB will help develop a new electricity transmission interconnection masterplan to enhance power reliability, stability, and security among four members of the Association of Southeast Asian Nations (ASEAN)—Brunei Darussalam, Indonesia, Malaysia, and the Philippines—following endorsement by senior government officials today.",
+      "link": "https://www.adb.org/news/adb-support-power-interconnection-masterplan-brunei-indonesia-malaysia-philippines",
+      "source": "Asian Development Bank",
+      "field": "energy",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "ADB, Bangladesh Expand Partnership to Develop 1,000 MW of Solar and Battery Storage",
+      "description": "ADB has announced it will provide transaction advisory services for five additional solar and battery energy storage projects in Bangladesh, expanding a program that will reach more than 1,000 megawatts (MW) of combined capacity.",
+      "link": "https://www.adb.org/news/adb-bangladesh-expand-partnership-develop-1000-mw-solar-and-battery-storage",
+      "source": "Asian Development Bank",
+      "field": "energy",
+      "date": "2026-11-18"
     },
     {
       "title": "How Beta Technologies Is Clearing the Runway for Electric Flight",
@@ -545,14 +561,6 @@
       "date": "2026-10-17"
     },
     {
-      "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
-      "description": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories, in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever since. Vetro probably is best known for his research in multimedia signal processing, focusing on video compression. Anthony Vetro Employer Mitsubishi Electric Research Laboratories, in Cambridge, Mass. Title President and CEO Member grade Fellow Alma mater Polytechnic Institute of Broo",
-      "link": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-11-24"
-    },
-    {
       "title": "Time may be far stranger than we realize. Scientists have a way to test it",
       "description": "Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with dramatically enhanced sensitivity, researchers hope to reveal a never-before-observed quantum effect that could transform our understanding of time and gravity.",
       "link": "https://www.sciencedaily.com/releases/2026/11/261120075558.htm",
@@ -561,20 +569,20 @@
       "date": "2026-11-21"
     },
     {
-      "title": "NASA pushes Mars helicopter blades beyond the speed of sound",
-      "description": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific equipment, fly farther, and explore places beyond the reach of traditional rovers.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-18"
-    },
-    {
       "title": "Scientists scramble to track lead plume from planned U.S. Army blast",
       "description": "Unprecedented detonation of lead azide munitions could spread hazardous dust over more than 60 kilometers",
       "link": "https://www.science.org/content/article/scientists-scramble-track-lead-plume-planned-u-s-army-blast",
       "source": "Science",
       "field": "technology",
       "date": "2026-11-25"
+    },
+    {
+      "title": "NASA pushes Mars helicopter blades beyond the speed of sound",
+      "description": "NASA has successfully tested Mars helicopter rotor blades at supersonic speeds, boosting potential lift by 30% and overcoming a major obstacle to more powerful aircraft on the Red Planet. The breakthrough could enable next-generation helicopters to carry heavier scientific equipment, fly farther, and explore places beyond the reach of traditional rovers.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261117033920.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-18"
     },
     {
       "title": "Senate bill gives NIH a $500 million raise in 2027",
@@ -617,6 +625,14 @@
       "date": "2026-11-23"
     },
     {
+      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
+      "description": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
+      "link": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-10"
+    },
+    {
       "title": "Caltech and the New California Quantum Ecosystem",
       "description": "The breakthroughs accelerating the growth of California's quantum innovation ecosystem depend on fundamental science and engineering from Caltech and other academic institutions, according to Caltech leaders and researchers who spoke at the statewide Quantum California Convening last month.Quantum California is a partnership between the California Governor's Office of Business and Economic Development (GO-Biz) and the University of California Office of the President (UCOP). The initiative was launched in November 2025 to align academia, researchers, national labs, industry, investors, and gove",
       "link": "https://www.caltech.edu/about/news/caltech-and-the-new-california-quantum-ecosystem",
@@ -641,12 +657,36 @@
       "date": "2026-11-18"
     },
     {
+      "title": "Q&A: From seed funding to scientific breakthroughs",
+      "description": "How the MIT Global Seed Funds helped Professor Matt Shoulders and his team build international collaborations that continue to shape his research more than a decade later.",
+      "link": "https://news.mit.edu/2026/from-seed-funding-to-scientific-breakthroughs-1112",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-11-12"
+    },
+    {
+      "title": "$27.5 Million Gift Expands Aerospace Prowess of Caltech and JPL",
+      "description": "Caltech and the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, will expand aerospace research, hands-on training, and innovation on campus and at the Lab through two gifts totaling $27.5 million from philanthropists Foster and Coco Stanback.A $20 million gift through the Foundation for the Carolinas will create the New Space Makerspace at JPL and support education and workforce development programs led by Caltech. A separate $7.5 million gift will renovate and expand Caltech's hypersonic research facility and add a new shock tube for studying flight at extreme speeds.\"Caltech",
+      "link": "https://www.caltech.edu/about/news/27-5-million-gift-expands-aerospace-prowess-of-caltech-and-jpl",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-10-29"
+    },
+    {
       "title": "Five Caltech Faculty Selected by Meta to Help Solve Open Problems in AI",
       "description": "Caltech has been selected by Meta as one of five academic partners across the US to receive access to their latest artificial intelligence (AI) models, along with research funding and collaboration opportunities. New research agreements with five faculty members will expand on a strategic partnership between the Institute and Meta to advance breakthroughs across physics, chemistry, biology, computer science, and mathematics.The selected Caltech faculty members will receive research grants for up to three years, plus access to frontier Muse AI models through Meta's first-party application progr",
       "link": "https://www.caltech.edu/about/news/five-caltech-faculty-selected-by-meta-to-help-solve-open-problems-in-ai",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-10-28"
+    },
+    {
+      "title": "Mitsubishi Electric Research Lab CEO on How He Reached the C-Suite",
+      "description": "The trajectory from researcher to top executive at a leading R&D organization doesn’t happen overnight. It took Anthony Vetro nearly 30 years to climb the corporate ladder at Mitsubishi Electric Research Laboratories, in Cambridge, Mass. He joined MERL in 1996, right out of college, and he has worked there ever since. Vetro probably is best known for his research in multimedia signal processing, focusing on video compression. Anthony Vetro Employer Mitsubishi Electric Research Laboratories, in Cambridge, Mass. Title President and CEO Member grade Fellow Alma mater Polytechnic Institute of Broo",
+      "link": "https://spectrum.ieee.org/mitsubishi-electric-research-lab-ceo",
+      "source": "IEEE Spectrum",
+      "field": "technology",
+      "date": "2026-11-24"
     },
     {
       "title": "ADB, Republic of Korea Establish $20 Million Fund to Expand AI Across Asia and the Pacific",
@@ -713,28 +753,12 @@
       "date": "2026-11-12"
     },
     {
-      "title": "Q&A: From seed funding to scientific breakthroughs",
-      "description": "How the MIT Global Seed Funds helped Professor Matt Shoulders and his team build international collaborations that continue to shape his research more than a decade later.",
-      "link": "https://news.mit.edu/2026/from-seed-funding-to-scientific-breakthroughs-1112",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-12"
-    },
-    {
       "title": "New Caltech Center Activates Science for Hazard Reduction",
       "description": "Led by seismologist Lucy Jones, the Caltech Center for Disaster Resilience will bring researchers and community leaders together to strengthen disaster preparedness, response, and recovery.When earthquakes, fires, droughts, severe storms, and extreme heat hit Southern California, the consequences depend in part on how communities have prepared beforehand. But leaders don't always have access to the latest science when developing disaster policies.Meanwhile, researchers make important discoveries about hazards, but these findings may not reach the officials who can put them to use. And research",
       "link": "https://www.caltech.edu/about/news/Caltech-Center-for-Disaster-Resilience",
       "source": "Caltech",
       "field": "technology",
       "date": "2026-11-11"
-    },
-    {
-      "title": "MIT-led team receives funding to develop next-generation alternatives to modern weed killers",
-      "description": "With up to $53 million from ARPA-H, the researchers will use AI to generate safer herbicides that reduce dependence on imports and improve the security of the U.S. food supply.",
-      "link": "https://news.mit.edu/2026/mit-led-team-receives-funding-next-generation-alternatives-modern-weed-killers-1110",
-      "source": "MIT News",
-      "field": "technology",
-      "date": "2026-11-10"
     },
     {
       "title": "Regina Barzilay and Jim Collins win Pritzker Prize for AI and Science Research Excellence for work in AI-enabled antibiotic discovery",
@@ -745,12 +769,12 @@
       "date": "2026-11-02"
     },
     {
-      "title": "$27.5 Million Gift Expands Aerospace Prowess of Caltech and JPL",
-      "description": "Caltech and the Jet Propulsion Laboratory (JPL), which Caltech manages for NASA, will expand aerospace research, hands-on training, and innovation on campus and at the Lab through two gifts totaling $27.5 million from philanthropists Foster and Coco Stanback.A $20 million gift through the Foundation for the Carolinas will create the New Space Makerspace at JPL and support education and workforce development programs led by Caltech. A separate $7.5 million gift will renovate and expand Caltech's hypersonic research facility and add a new shock tube for studying flight at extreme speeds.\"Caltech",
-      "link": "https://www.caltech.edu/about/news/27-5-million-gift-expands-aerospace-prowess-of-caltech-and-jpl",
-      "source": "Caltech",
+      "title": "The Download: AI swamping open records, and firefighting for permafrost",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data…",
+      "link": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+      "source": "MIT Tech Review",
       "field": "technology",
-      "date": "2026-10-29"
+      "date": "2026-11-25"
     },
     {
       "title": "Raising the stakes for enterprise networks with AI modernization",
@@ -785,30 +809,6 @@
       "date": "2026-11-20"
     },
     {
-      "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
-      "description": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument could soon reveal Mercury's hidden chemical secrets and transform our understanding of how the solar system's smallest planet formed.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-21"
-    },
-    {
-      "title": "Biologist David Sabatini wins $6 million in defamation lawsuit",
-      "description": "A jury ruled in favor of the former Whitehead Institute scientist, dismissing accuser’s claims of sexual harassment and retaliation",
-      "link": "https://www.science.org/content/article/biologist-david-sabatini-wins-6-million-defamation-lawsuit",
-      "source": "Science",
-      "field": "technology",
-      "date": "2026-10-20"
-    },
-    {
-      "title": "Colonius Awarded ERC Synergy Grant to Create a Cyber-Physical Laboratory for Turbulence",
-      "description": "Turbulent flows are all around us, and not just during bumpy airplane flights. Turbulence affects how fluids move in countless everyday settings, such as water pouring from a faucet, cream swirling into coffee, wind whipping between buildings, and even blood flowing through your heart.Turbulence may surround us, but despite advances over the last several decades on theoretical, computational, and experimental fronts, scientists still struggle to predict the complex behavior of turbulent flows and to develop practical ways of controlling them.Caltech's Tim Colonius, who has been studying turbul",
-      "link": "https://www.caltech.edu/about/news/colonius-awarded-erc-synergy-grant-to-create-a-cyber-physical-laboratory-for-turbulence",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-11-24"
-    },
-    {
       "title": "One Big Star Ate Another, Erupting in Spectacular Cosmic Show",
       "description": "In a first-of-its-kind event, astronomers have observed a massive red giant star, about 350 times as wide as our Sun, swallow its much smaller companion star. The smaller star, nicknamed Little Bao, spiraled into the larger star, dubbed Big Bao, over a period of about 7 years before ultimately being consumed—an event that triggered a massive eruption witnessed by two instruments in 2025—WINTER and ZTF—both based at Caltech's Palomar Observatory near San Diego.The entire fantastical stellar merger, from pre-eruption to aftermath, was captured across a fleet of ground- and space-based telescopes",
       "link": "https://www.caltech.edu/about/news/one-big-star-ate-another-erupting-in-spectacular-cosmic-show",
@@ -823,6 +823,14 @@
       "source": "Caltech",
       "field": "technology",
       "date": "2026-11-19"
+    },
+    {
+      "title": "After 8 years in space, a groundbreaking X-ray telescope finally opens its eyes",
+      "description": "After eight years and 10 billion kilometers in space, a groundbreaking X-ray telescope heading to Mercury has captured its first cosmic observations and is performing even better than scientists expected. The instrument could soon reveal Mercury's hidden chemical secrets and transform our understanding of how the solar system's smallest planet formed.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261120075547.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-21"
     },
     {
       "title": "CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect",
@@ -889,12 +897,20 @@
       "date": "2026-11-03"
     },
     {
-      "title": "3 Questions: Why infrastructure is entering a defining era",
-      "description": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
-      "link": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
-      "source": "MIT News",
+      "title": "Biologist David Sabatini wins $6 million in defamation lawsuit",
+      "description": "A jury ruled in favor of the former Whitehead Institute scientist, dismissing accuser’s claims of sexual harassment and retaliation",
+      "link": "https://www.science.org/content/article/biologist-david-sabatini-wins-6-million-defamation-lawsuit",
+      "source": "Science",
       "field": "technology",
-      "date": "2026-10-28"
+      "date": "2026-10-20"
+    },
+    {
+      "title": "Colonius Awarded ERC Synergy Grant to Create a Cyber-Physical Laboratory for Turbulence",
+      "description": "Turbulent flows are all around us, and not just during bumpy airplane flights. Turbulence affects how fluids move in countless everyday settings, such as water pouring from a faucet, cream swirling into coffee, wind whipping between buildings, and even blood flowing through your heart.Turbulence may surround us, but despite advances over the last several decades on theoretical, computational, and experimental fronts, scientists still struggle to predict the complex behavior of turbulent flows and to develop practical ways of controlling them.Caltech's Tim Colonius, who has been studying turbul",
+      "link": "https://www.caltech.edu/about/news/colonius-awarded-erc-synergy-grant-to-create-a-cyber-physical-laboratory-for-turbulence",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-24"
     },
     {
       "title": "School of Social Welfare receives $10 million anonymous gift to elevate social work education",
@@ -927,6 +943,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-11-10"
+    },
+    {
+      "title": "ADB Approves $250 Million Loan to Strengthen Pakistan's Public–Private Partnerships and Attract Private Investment",
+      "description": "ADB has approved a $250 million policy-based loan to help Pakistan strengthen its PPP system and advance a pipeline of bankable and sustainable projects that can attract private capital and support the country’s economic growth.",
+      "link": "https://www.adb.org/news/adb-approves-250-million-loan-strengthen-pakistans-public-private-partnerships-and-attract",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-11-25"
     },
     {
       "title": "ADB, World Bank Group Sign Second Sovereign Exposure Exchange Agreement",
@@ -969,14 +993,6 @@
       "date": "2026-11-17"
     },
     {
-      "title": "World News in Brief: Children killed in Myanmar strike, new violence flares in Mozambique, an Internet affordability milestone",
-      "description": "A school in Myanmar has been hit in an airstrike, with three children reported killed and five others injured, according to UN Children’s Fund UNICEF.",
-      "link": "https://news.un.org/feed/view/en/story/2026/11/1168729",
-      "source": "UN News Development",
-      "field": "development",
-      "date": "2026-11-03"
-    },
-    {
       "title": "ADB Approves $500 Million Loan to Support Pakistan’s Federal Pension Reforms",
       "description": "ADB has approved a $500 million results-based loan to help Pakistan reform its federal civil pension system.",
       "link": "https://www.adb.org/news/adb-approves-500-million-loan-support-pakistan-federal-pension-reforms",
@@ -1009,28 +1025,20 @@
       "date": "2026-11-09"
     },
     {
-      "title": "ADB Approves Facility to Accelerate Preparation of Sustainable Transport Projects in Tajikistan",
-      "description": "ADB has approved a financing facility for preparing sustainable transport projects in Tajikistan, including an initiative to improve public transport in Dushanbe.",
-      "link": "https://www.adb.org/news/adb-approves-facility-accelerate-preparation-sustainable-transport-projects-tajikistan",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-11-16"
-    },
-    {
-      "title": "ADB Targets Nearly a Third of Its Work for Regional Initiatives",
-      "description": "ADB has launched a new approach to expand regional cooperation and integration, with a target of increasing its share of operations supporting cross-border initiatives to 30% by 2030.",
-      "link": "https://www.adb.org/news/adb-targets-nearly-third-its-work-regional-initiatives",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-11-04"
-    },
-    {
-      "title": "ADB Approves its First Strategic Business Outlook",
-      "description": "ADB has approved its first Strategic Business Outlook, projecting $104.5 billion in financing commitments from 2027 to 2029 and setting out reforms to improve how it prepares and delivers projects across Asia and the Pacific.",
-      "link": "https://www.adb.org/news/adb-approves-its-first-strategic-business-outlook",
+      "title": "ADB Approves $139.55 Million Loan to Enhance Urban Services in Puducherry, India",
+      "description": "ADB has approved a $139.55 million loan to improve urban service delivery and municipal governance in Puducherry, benefiting over 320,000 people.",
+      "link": "https://www.adb.org/news/adb-approves-139-55-million-loan-enhance-urban-services-puducherry-india",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-10-30"
+    },
+    {
+      "title": "ADB Accelerates Nature Finance at COP17 with New Bond, Incubator, and Tracking Report",
+      "description": "ADB has announced a major push to expand financing for nature conservation and restoration, launching a new biodiversity bond, an investment incubator, and a joint multilateral development bank report to strengthen tracking of nature finance.",
+      "link": "https://www.adb.org/news/adb-accelerates-nature-finance-cop17-new-bond-incubator-and-tracking-report",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-10-27"
     },
     {
       "title": "ADB Advances Resilient Agriculture and Women's Economic Empowerment in Rural Cambodia",
@@ -1039,6 +1047,14 @@
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-10-26"
+    },
+    {
+      "title": "World News in Brief: Children killed in Myanmar strike, new violence flares in Mozambique, an Internet affordability milestone",
+      "description": "A school in Myanmar has been hit in an airstrike, with three children reported killed and five others injured, according to UN Children’s Fund UNICEF.",
+      "link": "https://news.un.org/feed/view/en/story/2026/11/1168729",
+      "source": "UN News Development",
+      "field": "development",
+      "date": "2026-11-03"
     },
     {
       "title": "ADB Approves $100 Million Program to Strengthen Social Protection and Expand Economic Opportunities in Sri Lanka",
@@ -1065,20 +1081,28 @@
       "date": "2026-11-20"
     },
     {
-      "title": "ADB Approves $139.55 Million Loan to Enhance Urban Services in Puducherry, India",
-      "description": "ADB has approved a $139.55 million loan to improve urban service delivery and municipal governance in Puducherry, benefiting over 320,000 people.",
-      "link": "https://www.adb.org/news/adb-approves-139-55-million-loan-enhance-urban-services-puducherry-india",
+      "title": "ADB Approves Facility to Accelerate Preparation of Sustainable Transport Projects in Tajikistan",
+      "description": "ADB has approved a financing facility for preparing sustainable transport projects in Tajikistan, including an initiative to improve public transport in Dushanbe.",
+      "link": "https://www.adb.org/news/adb-approves-facility-accelerate-preparation-sustainable-transport-projects-tajikistan",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "ADB Targets Nearly a Third of Its Work for Regional Initiatives",
+      "description": "ADB has launched a new approach to expand regional cooperation and integration, with a target of increasing its share of operations supporting cross-border initiatives to 30% by 2030.",
+      "link": "https://www.adb.org/news/adb-targets-nearly-third-its-work-regional-initiatives",
+      "source": "Asian Development Bank",
+      "field": "development",
+      "date": "2026-11-04"
+    },
+    {
+      "title": "ADB Approves its First Strategic Business Outlook",
+      "description": "ADB has approved its first Strategic Business Outlook, projecting $104.5 billion in financing commitments from 2027 to 2029 and setting out reforms to improve how it prepares and delivers projects across Asia and the Pacific.",
+      "link": "https://www.adb.org/news/adb-approves-its-first-strategic-business-outlook",
       "source": "Asian Development Bank",
       "field": "development",
       "date": "2026-10-30"
-    },
-    {
-      "title": "ADB Accelerates Nature Finance at COP17 with New Bond, Incubator, and Tracking Report",
-      "description": "ADB has announced a major push to expand financing for nature conservation and restoration, launching a new biodiversity bond, an investment incubator, and a joint multilateral development bank report to strengthen tracking of nature finance.",
-      "link": "https://www.adb.org/news/adb-accelerates-nature-finance-cop17-new-bond-incubator-and-tracking-report",
-      "source": "Asian Development Bank",
-      "field": "development",
-      "date": "2026-10-27"
     },
     {
       "title": "COP31 deadlock persists as countries launch new ‘climate reality check’",
@@ -1409,20 +1433,20 @@
       "date": "2026-11-11"
     },
     {
-      "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
-      "description": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team […]",
-      "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-19"
-    },
-    {
       "title": "NASA+ Content Coming to Big Screen at Greenbelt, Maryland Cinema",
       "description": "NASA announced Monday that NASA+ content has found its first theatrical home at The Greenbelt Cinema in Greenbelt, Maryland, expanding the agency’s reach across major viewing platforms and bringing space even closer to home. “The National Aeronautics and Space Act of 1958 calls us to share our story of space exploration with the broadest possible […]",
       "link": "https://www.nasa.gov/nasa/nasa-content-coming-to-big-screen-at-greenbelt-maryland-cinema/",
       "source": "NASA",
       "field": "space",
       "date": "2026-11-24"
+    },
+    {
+      "title": "NASA’s Voyager 1 Makes History Reaching One Light-Day From Earth",
+      "description": "NASA’s Voyager 1 probe, humanity’s farthest-flying spacecraft, has reached one light-day from Earth, after more than 49 years of constant travel. A light-day is the distance light travels in 24 hours, equaling about 16.1 billion miles (25.9 billion kilometers). The spacecraft achieved the milestone at 2:16 a.m. PST (5:16 a.m. EST) Nov. 18. Voyager team […]",
+      "link": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-19"
     },
     {
       "title": "Caltech Leads NASA Mission to Make the First Deep Ultraviolet All-Sky Maps",
@@ -1473,6 +1497,22 @@
       "date": "2026-11-23"
     },
     {
+      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+      "description": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
+      "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-20"
+    },
+    {
+      "title": "Challenge: Public Input on Life and the World in 2075",
+      "description": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]",
+      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-19"
+    },
+    {
       "title": "What happened this month at the European Space Agency? (October 2026)",
       "description": "Video: 00:04:30 October was a month of discoveries and milestones. ESA’s Rosalind Franklin rover team trained in Spain’s desert, preparing for Mars. Our Smile mission captured the full ring of northern lights around Earth, while Mars Express uncovered new clues about a giant Martian cloud. ESA astronaut Sophie Adenot returned to Earth after 237 days in space, and Hera captured its first images of the asteroids it will study to help protect our planet. Meanwhile, ESA welcomed thousands of visitors for Open Days and teamed up with Pokémon to bring space science to new audiences. Here’s a look at",
       "link": "https://www.esa.int/ESA_Multimedia/Videos/2026/10/What_happened_this_month_at_the_European_Space_Agency_October_2026",
@@ -1487,6 +1527,14 @@
       "source": "ScienceDaily Tech",
       "field": "space",
       "date": "2026-11-04"
+    },
+    {
+      "title": "NASA seeks to begin ‘intergalactic freight network’ with $1.3 billion block purchase of rockets, orbital transfer vehicles",
+      "description": "NASA announced the purchase of multiple modes of transportation to the Moon’s surface and cis-lunar space to help establish an understanding of what’s needed to execute on their Moon Base program agenda.",
+      "link": "https://spaceflightnow.com/2026/11/23/nasa-seeks-to-begin-intergalactic-freight-network-with-1-3-billion-block-purchase-of-rockets-orbital-transfer-vehicles/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-11-23"
     },
     {
       "title": "NASA+ Documentary Captures Europa Clipper’s Journey Into Deep Space",
@@ -1505,28 +1553,108 @@
       "date": "2026-11-20"
     },
     {
-      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
-      "description": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed […]",
-      "link": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-20"
-    },
-    {
-      "title": "Challenge: Public Input on Life and the World in 2075",
-      "description": "NASA’s Transformational Tools and Technologies (TTT) is gathering public perspectives on life today and how the world may change by 2075. This challenge asks for conceptual ideas about life in 2075 across four challenge topics. Ideas should explore how future aviation or aerospace systems could: Ideas should be conceptual rather than technical. Award: $20,000 in […]",
-      "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/challenge-public-input-on-life-and-the-world-in-2075/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-19"
-    },
-    {
       "title": "El Niño Rains Paint the Atacama",
       "description": "Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.",
       "link": "https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/",
       "source": "NASA",
       "field": "space",
       "date": "2026-11-19"
+    },
+    {
+      "title": "Empire State Building Goes Gold for Voyager",
+      "description": "The Empire State Building is seen illuminated in gold to celebrate NASA’s Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object, Nov. 17, 2026. The color gold represents the gold-plated copper phonograph record that is flying on Voyager; the Golden Record contains […]",
+      "link": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
+      "description": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus […]",
+      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "New Album of Baby Star Sounds Shared by NASA’s Chandra",
+      "description": "A new album from NASA’s Chandra X-ray Observatory collects snapshots of baby stars across the galaxy and beyond and transforms that data into sound. Four new sonifications use data of stars that are actively forming, captured by Chandra and other NASA telescopes By studying places in the universe where stars are currently being born and […]",
+      "link": "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
+      "description": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. 7. The images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen […]",
+      "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "NASA Receives 16th Consecutive ‘Clean’ Financial Audit Opinion",
+      "description": "For the 16th consecutive year, NASA has received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2026 financial statements. The rating is the best possible audit opinion, certifying that NASA’s financial statements conform with Generally Accepted Accounting Principles for federal agencies and accurately present the agency’s financial position. “Our responsibility […]",
+      "link": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-16"
+    },
+    {
+      "title": "Tracks Along the Longest Drive on Another World",
+      "description": "Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA’s Jet Propulsion Laboratory Oct. 12, 2026 Since the last blog update, Perseverance has achieved a major milestone on Mars. On Sol 2006 (Oct. 11, 2026), its odometer reached 45.22 kilometers (28.10 miles), setting a new record for the farthest distance driven on another celestial […]",
+      "link": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "Nuclear-powered spaceships",
+      "description": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…",
+      "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
+      "source": "MIT Tech Review",
+      "field": "space",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "A space telescope hunting for dark matter just discovered something unexpected",
+      "description": "ESA’s Euclid space telescope has discovered its first previously unknown comet, despite being designed to study distant galaxies and the mysteries of the dark Universe. The icy object is approximately 1.3 billion kilometers from Earth and follows an unusual orbit that takes thousands of years to complete.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261124055852.htm",
+      "source": "ScienceDaily Tech",
+      "field": "space",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "NASA Launches Nuclear Power Systems Student Contest",
+      "description": "NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to learn about space nuclear power systems and illustrate how these nuclear “batteries” could help power their lunar exploration vision. Students are also invited to write […]",
+      "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "description": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location and update the duration of the flight deployment. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 2. These flights will measure […]",
+      "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-17"
+    },
+    {
+      "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
+      "description": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
+      "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-13"
+    },
+    {
+      "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+      "description": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-11-12"
     },
     {
       "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
@@ -1593,102 +1721,6 @@
       "date": "2026-11-02"
     },
     {
-      "title": "NASA seeks to begin ‘intergalactic freight network’ with $1.3 billion block purchase of rockets, orbital transfer vehicles",
-      "description": "NASA announced the purchase of multiple modes of transportation to the Moon’s surface and cis-lunar space to help establish an understanding of what’s needed to execute on their Moon Base program agenda.",
-      "link": "https://spaceflightnow.com/2026/11/23/nasa-seeks-to-begin-intergalactic-freight-network-with-1-3-billion-block-purchase-of-rockets-orbital-transfer-vehicles/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-11-23"
-    },
-    {
-      "title": "Empire State Building Goes Gold for Voyager",
-      "description": "The Empire State Building is seen illuminated in gold to celebrate NASA’s Voyager 1 spacecraft as it was about to pass one light-day away from Earth, a distance reached by no other human-made object, Nov. 17, 2026. The color gold represents the gold-plated copper phonograph record that is flying on Voyager; the Golden Record contains […]",
-      "link": "https://www.nasa.gov/image-article/empire-state-building-goes-gold-for-voyager/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-18"
-    },
-    {
-      "title": "NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch",
-      "description": "NASA, Northrop Grumman, and SpaceX are targeting no earlier than 10:47 a.m. EST, Sunday, Nov. 29, for the next launch delivering science investigations, supplies, and equipment to the International Space Station. The agency also will hold a prelaunch media teleconference on Monday, Nov. 23. Filled with approximately 11,000 pounds of cargo, the Northrop Grumman Cygnus […]",
-      "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-18"
-    },
-    {
-      "title": "New Album of Baby Star Sounds Shared by NASA’s Chandra",
-      "description": "A new album from NASA’s Chandra X-ray Observatory collects snapshots of baby stars across the galaxy and beyond and transforms that data into sound. Four new sonifications use data of stars that are actively forming, captured by Chandra and other NASA telescopes By studying places in the universe where stars are currently being born and […]",
-      "link": "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
-      "description": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. 7. The images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen […]",
-      "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "NASA Receives 16th Consecutive ‘Clean’ Financial Audit Opinion",
-      "description": "For the 16th consecutive year, NASA has received an unmodified, or “clean,” opinion from an external auditor on its fiscal year 2026 financial statements. The rating is the best possible audit opinion, certifying that NASA’s financial statements conform with Generally Accepted Accounting Principles for federal agencies and accurately present the agency’s financial position. “Our responsibility […]",
-      "link": "https://www.nasa.gov/news-release/nasa-receives-16th-consecutive-clean-financial-audit-opinion/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-16"
-    },
-    {
-      "title": "Tracks Along the Longest Drive on Another World",
-      "description": "Written by Vandi Verma, Chief Engineer for Robotic Operations at NASA’s Jet Propulsion Laboratory Oct. 12, 2026 Since the last blog update, Perseverance has achieved a major milestone on Mars. On Sol 2006 (Oct. 11, 2026), its odometer reached 45.22 kilometers (28.10 miles), setting a new record for the farthest distance driven on another celestial […]",
-      "link": "https://science.nasa.gov/blog/tracks-along-the-longest-drive-on-another-world/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-21"
-    },
-    {
-      "title": "Nuclear-powered spaceships",
-      "description": "Just before the Artemis II crew began its historic slingshot around the moon this past April, NASA announced plans to build Space Reactor-1 Freedom. SR-1, the first-ever nuclear-reactor-­powered interplanetary spacecraft, is meant to fly an uncrewed mission to Mars by the end of 2028, arriving in 2029. A successful mission would herald a new era…",
-      "link": "https://www.technologyreview.com/2026/10/21/1146061/nuclear-powered-spaceships-impossible-issue/",
-      "source": "MIT Tech Review",
-      "field": "space",
-      "date": "2026-10-21"
-    },
-    {
-      "title": "NASA Launches Nuclear Power Systems Student Contest",
-      "description": "NASA’s Power to Explore Student Challenge kicked off Tuesday, Nov. 17. The science, engineering, technology, and mathematics (STEM) challenge invites kindergarten through 12th grade students in the United States to learn about space nuclear power systems and illustrate how these nuclear “batteries” could help power their lunar exploration vision. Students are also invited to write […]",
-      "link": "https://science.nasa.gov/centers-and-facilities/glenn/nasa-launches-nuclear-power-systems-student-contest/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
-      "description": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location and update the duration of the flight deployment. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 2. These flights will measure […]",
-      "link": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
-      "description": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of […]",
-      "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-13"
-    },
-    {
-      "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
-      "description": "Written by William Farrand, Senior Research Scientist, Space Science Institute Earth planning date: Friday, Nov. 6, 2026 This week Curiosity has been completing its drill campaign at the “Nazca” drill hole. This is an area characterized by bedrock containing disk-shaped (or in a liberal interpretation, potato chip shaped … see linked image) crystal forms. A […]",
-      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-11-12"
-    },
-    {
       "title": "NASA Invites Media to Northrop Grumman CRS-25 Station Resupply Launch",
       "description": "Media accreditation is open for the next launch to deliver NASA science investigations, supplies, and equipment to the International Space Station. A Northrop Grumman Cygnus XL spacecraft will launch in November to the orbital laboratory on a SpaceX Falcon 9 rocket for NASA. The mission is known as NASA’s Northrop Grumman Commercial Resupply Services 25, […]",
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-25-station-resupply-launch/",
@@ -1729,6 +1761,14 @@
       "date": "2026-10-28"
     },
     {
+      "title": "Perseverance Navcam Image Marks Record Drive",
+      "description": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct. 11, 2026, the 2,006th Martian day, or sol, of the mission. During that sol’s drive, spanning 299.6 feet (91.31 meters), the mission passed a major milestone: pushing Perseverance’s total […]",
+      "link": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
+    },
+    {
       "title": "NIH–NASA QuSAFE Challenge",
       "description": "The Quantum-Enabled Predictive Preclinical NAMs for Toxicity and Safety (QuSAFE) Challenge, a collaboration between the National Institutes of Health (NIH) and NASA, advances quantum-enabled sensing for in vitro NAMs, such as organoids and microphysiological systems (MPS), to improve drug safety while reducing animal use. In vitro NAMs, such as organoids and microphysiological systems (MPS), can […]",
       "link": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nih-nasa-qusafe-challenge/",
@@ -1745,20 +1785,12 @@
       "date": "2026-10-27"
     },
     {
-      "title": "A-81 Reaches South Georgia",
-      "description": "The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.",
-      "link": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-27"
-    },
-    {
-      "title": "Live coverage: Arianespace to launch Amazon Leo sats amid rocket crunch",
-      "description": "The Leo Europe 4 mission will the fourth flight of Amazon Leo satellites on an Ariane 6 rocket and the 16th launch for the constellation. Liftoff from Europe’s Spaceport in French Guiana is scheduled during a window that opens at 8:09 a.m. Kourou Time (6:09 a.m. EST / 1109 UTC).",
-      "link": "https://spaceflightnow.com/2026/11/23/live-coverage-arianespaces-launches-amazon-leo-sats-amid-rocket-crunch/",
-      "source": "Spaceflight Now",
-      "field": "space",
-      "date": "2026-11-23"
+      "title": "3 Questions: Why infrastructure is entering a defining era",
+      "description": "Professor Ali Jadbabaie describes how AI, digital transformation, climate change, and complex geopolitics are forcing engineers and policymakers to rethink how infrastructure is designed, built, and managed.",
+      "link": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "source": "MIT News",
+      "field": "technology",
+      "date": "2026-10-28"
     },
     {
       "title": "$7 Million Gift Establishes New HSS Lab in Environmental Economics and Policy Design",
@@ -1769,20 +1801,60 @@
       "date": "2026-10-21"
     },
     {
+      "title": "This implant can restore sight for patients with macular degeneration",
+      "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients…",
+      "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
+      "source": "MIT Tech Review",
+      "field": "technology",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "Physicists trap antimatter in a breakthrough that could explain why the universe exists",
+      "description": "Positrons are the antimatter counterpart of an electron. Physicists trapped a positron and cooled it to temperatures near absolute zero. Positron is suspended in a wall-free trap, safely separated from ordinary matter. Team will conduct most precise comparison yet between matter and antimatter. Any difference between the electron and positron could expose cracks in the Standard Model of particle physics.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261124055849.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "What is a thought made of? Why human consciousness may be beyond AI’s reach",
+      "description": "A new theory suggests that the brain may chemically encode and retrieve memories rather than relying solely on electrical signals. Researchers propose that interactions between brain cells and their molecular surroundings could help explain the intimate connection between memory, emotion, and thought. Their findings challenge the assumption that increasingly powerful computers could eventually develop human-like consciousness.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261124055712.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "Physicists just sent an unblockable message through a brick wall using gravity",
+      "description": "Scientists have successfully transmitted a message through a brick wall using nothing but gravity, an old elevator, and an incredibly sensitive detector. By moving a massive counterweight between two positions, researchers encoded the word \"Gravity\" into tiny changes in gravitational pull. Unlike Wi-Fi or radio signals, gravity passes through ordinary barriers without being blocked, offering a potentially revolutionary way to communicate.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261123005343.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-25"
+    },
+    {
+      "title": "A clever molecular trick unlocks previously impossible properties in glass",
+      "description": "Scientists have discovered how to reprogram the internal structure of glass using a special molecule that rearranges chemical bonds while lowering the melting temperature. The breakthrough could unlock entirely new glass materials with precisely controlled magnetic and optical properties, opening possibilities for advanced electronics, sensors, and other technologies.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261103003202.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-05"
+    },
+    {
+      "title": "Europe looks beyond its giant telescope to its next big bet",
+      "description": "With its 39-meter scope nearly complete, the European Southern Observatory weighs bids for a next-generation instrument",
+      "link": "https://www.science.org/content/article/europe-looks-beyond-its-giant-telescope-its-next-big-bet",
+      "source": "Science",
+      "field": "technology",
+      "date": "2026-11-25"
+    },
+    {
       "title": "The UC Berkeley sketch troupe that launched this duo’s 20-year screenwriting career",
       "description": "Long before they became Hollywood screenwriters for major feature films, Amos Vernon and Nunzio Randazzo were Berkeley students simply trying to make their peers laugh. The two met as undergraduates through jericho!, a beloved student-run improv and sketch comedy troupe that’s launched generations of performers and writers. When Vernon, a founding member, auditioned Randazzo, neither […] The post The UC Berkeley sketch troupe that launched this duo’s 20-year screenwriting career appeared first on Berkeley News.",
       "link": "https://news.berkeley.edu/2026/11/23/the-uc-berkeley-sketch-troupe-that-launched-this-duos-20-year-screenwriting-career/",
       "source": "UC Berkeley",
       "field": "technology",
       "date": "2026-11-23"
-    },
-    {
-      "title": "UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research",
-      "description": "A major grant from Schmidt Sciences will establish the Berkeley Science AI Platform, which will run on hardware at Berkeley Lab's National Energy Research Scientific Computing Center. The post UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research appeared first on Berkeley News.",
-      "link": "https://news.berkeley.edu/2026/11/16/uc-berkeley-berkeley-lab-collaboration-with-schmidt-science-computing-network-will-provide-high-performance-computing-for-cutting-edge-research/",
-      "source": "UC Berkeley",
-      "field": "technology",
-      "date": "2026-11-16"
     },
     {
       "title": "Innovating with AI in the special chemicals industry",
@@ -1809,38 +1881,6 @@
       "date": "2026-10-27"
     },
     {
-      "title": "This implant can restore sight for patients with macular degeneration",
-      "description": "Age-related macular degeneration (AMD) affects more than 5 million people around the world. And until now, no treatment could restore their vision. The Prima system, which was approved in Europe in July and is awaiting FDA clearance in the US, changes that. It combines a retinal implant with camera-­equipped eyeglasses to improve sight in patients…",
-      "link": "https://www.technologyreview.com/2026/10/16/1145840/prima-implant-restores-sight-macular-degeneration-patients/",
-      "source": "MIT Tech Review",
-      "field": "technology",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "A clever molecular trick unlocks previously impossible properties in glass",
-      "description": "Scientists have discovered how to reprogram the internal structure of glass using a special molecule that rearranges chemical bonds while lowering the melting temperature. The breakthrough could unlock entirely new glass materials with precisely controlled magnetic and optical properties, opening possibilities for advanced electronics, sensors, and other technologies.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261103003202.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-05"
-    },
-    {
-      "title": "Engineered Nanosyringes Open a New Route into Plant Cells",
-      "description": "Understanding and improving plants often requires changing what happens inside their cells. Proteins control how cells grow, respond to stress, and carry out countless other tasks. Delivering these molecular tools directly into plant cells could give researchers new ways to study those processes and engineer useful traits. But getting active proteins past the cell wall and membrane that protect each plant cell remains a major obstacle.Now a team of Caltech researchers has adapted tiny bacterial \"nanosyringes\" to recognize plant cells and inject proteins into them. The system delivered enzymes ",
-      "link": "https://www.caltech.edu/about/news/engineered-nanosyringes-open-a-new-route-into-plant-cells",
-      "source": "Caltech",
-      "field": "technology",
-      "date": "2026-11-18"
-    },
-    {
-      "title": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
-      "description": "Scientists have discovered a surprising obstacle to interstellar travel: at extreme speeds, the light propelling futuristic solar sails could actually begin slowing them down. Once a spacecraft reaches 75% of the speed of light, some scattered light starts producing drag, potentially complicating humanity’s plans to reach distant stars.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-22"
-    },
-    {
       "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
       "description": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.",
       "link": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
@@ -1849,12 +1889,12 @@
       "date": "2026-11-16"
     },
     {
-      "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
-      "description": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket. During […]",
-      "link": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
+      "title": "A-81 Reaches South Georgia",
+      "description": "The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.",
+      "link": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
       "source": "NASA",
       "field": "space",
-      "date": "2026-10-21"
+      "date": "2026-10-27"
     },
     {
       "title": "NASA Improves Shock, Vibration Analysis",
@@ -1863,38 +1903,6 @@
       "source": "NASA",
       "field": "space",
       "date": "2026-10-19"
-    },
-    {
-      "title": "I Am Artemis: Allison Mjoen",
-      "description": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program, helped shape the systems and ground operations that will one day send humans back to […]",
-      "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-16"
-    },
-    {
-      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
-      "description": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space. Through NASA’s Minority University Research and Education Project (MUREP) Space Technology Artemis Research (M‑STAR) initiative, selected institutions will each receive up to $1 million […]",
-      "link": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-15"
-    },
-    {
-      "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
-      "description": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds of supplies and hardware, bound for the International Space Station. Following its successful launch, the SpaceX Dragon spacecraft will […]",
-      "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-13"
-    },
-    {
-      "title": "Perseverance Navcam Image Marks Record Drive",
-      "description": "Description Rover tracks and a rocky Martian landscape are shown in this image captured by one of the navigation cameras (navcams) aboard NASA’s Perseverance Mars rover on Oct. 11, 2026, the 2,006th Martian day, or sol, of the mission. During that sol’s drive, spanning 299.6 feet (91.31 meters), the mission passed a major milestone: pushing Perseverance’s total […]",
-      "link": "https://science.nasa.gov/photojournal/perseverance-navcam-image-marks-record-drive/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-13"
     },
     {
       "title": "The Silent Ambassador to the Galaxy: Voyager at One Light-Day",
@@ -1913,12 +1921,28 @@
       "date": "2026-11-23"
     },
     {
+      "title": "UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research",
+      "description": "A major grant from Schmidt Sciences will establish the Berkeley Science AI Platform, which will run on hardware at Berkeley Lab's National Energy Research Scientific Computing Center. The post UC Berkeley, Berkeley Lab collaboration with Schmidt Science Computing Network will provide high-performance computing for cutting-edge research appeared first on Berkeley News.",
+      "link": "https://news.berkeley.edu/2026/11/16/uc-berkeley-berkeley-lab-collaboration-with-schmidt-science-computing-network-will-provide-high-performance-computing-for-cutting-edge-research/",
+      "source": "UC Berkeley",
+      "field": "technology",
+      "date": "2026-11-16"
+    },
+    {
       "title": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
       "description": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia. Originally designed to last just two years, the pioneering space telescope transformed our understanding of black holes, exploding stars, and mysterious cosmic outbursts.",
       "link": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
       "source": "ScienceDaily Tech",
       "field": "space",
       "date": "2026-11-06"
+    },
+    {
+      "title": "Live coverage: Arianespace to launch Amazon Leo sats amid rocket crunch",
+      "description": "The Leo Europe 4 mission will the fourth flight of Amazon Leo satellites on an Ariane 6 rocket and the 16th launch for the constellation. Liftoff from Europe’s Spaceport in French Guiana is scheduled during a window that opens at 8:09 a.m. Kourou Time (6:09 a.m. EST / 1109 UTC).",
+      "link": "https://spaceflightnow.com/2026/11/23/live-coverage-arianespaces-launches-amazon-leo-sats-amid-rocket-crunch/",
+      "source": "Spaceflight Now",
+      "field": "space",
+      "date": "2026-11-23"
     },
     {
       "title": "As it happened: NG-25 preview news teleconference",
@@ -1935,6 +1959,54 @@
       "source": "Spaceflight Now",
       "field": "space",
       "date": "2026-11-21"
+    },
+    {
+      "title": "I Am Artemis: Allison Mjoen",
+      "description": "As the supercooled propellant flowed into the core stage, and NASA’s SLS (Space Launch System) rocket roared to life, Allison Mjoen and her family watched with awe and pride. Mjoen, NASA’s operations manager for the agency’s Exploration Ground Systems Program, helped shape the systems and ground operations that will one day send humans back to […]",
+      "link": "https://www.nasa.gov/missions/station/i-am-artemis-allison-mjoen/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-16"
+    },
+    {
+      "title": "NASA Awards Enable Research, Technology to Build Future Workforce",
+      "description": "NASA has selected 12 U.S. institutions to receive $12 million to accelerate academic research and technology development in support of the agency’s priorities for exploring the Moon, Mars, and deep space. Through NASA’s Minority University Research and Education Project (MUREP) Space Technology Artemis Research (M‑STAR) initiative, selected institutions will each receive up to $1 million […]",
+      "link": "https://www.nasa.gov/learning-resources/nasa-awards-enable-research-technology-to-build-future-workforce/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-15"
+    },
+    {
+      "title": "Engineered Nanosyringes Open a New Route into Plant Cells",
+      "description": "Understanding and improving plants often requires changing what happens inside their cells. Proteins control how cells grow, respond to stress, and carry out countless other tasks. Delivering these molecular tools directly into plant cells could give researchers new ways to study those processes and engineer useful traits. But getting active proteins past the cell wall and membrane that protect each plant cell remains a major obstacle.Now a team of Caltech researchers has adapted tiny bacterial \"nanosyringes\" to recognize plant cells and inject proteins into them. The system delivered enzymes ",
+      "link": "https://www.caltech.edu/about/news/engineered-nanosyringes-open-a-new-route-into-plant-cells",
+      "source": "Caltech",
+      "field": "technology",
+      "date": "2026-11-18"
+    },
+    {
+      "title": "Interstellar solar sails hit a bizarre problem at 75% of light speed",
+      "description": "Scientists have discovered a surprising obstacle to interstellar travel: at extreme speeds, the light propelling futuristic solar sails could actually begin slowing them down. Once a spacecraft reaches 75% of the speed of light, some scattered light starts producing drag, potentially complicating humanity’s plans to reach distant stars.",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261120071305.htm",
+      "source": "ScienceDaily Tech",
+      "field": "technology",
+      "date": "2026-11-22"
+    },
+    {
+      "title": "NASA Conducts RS-25 Engine Test in Support of Future Artemis Missions",
+      "description": "NASA tested RS-25 engine No. 10001 on Oct. 21 on the Fred Haise Test Stand at NASA’s Stennis Space Center near Bay St. Louis, Mississippi. Test teams fired the developmental engine for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket. During […]",
+      "link": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-21"
+    },
+    {
+      "title": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station",
+      "description": "NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m. EDT Tuesday aboard a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida, carrying more than 6,300 pounds of supplies and hardware, bound for the International Space Station. Following its successful launch, the SpaceX Dragon spacecraft will […]",
+      "link": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/",
+      "source": "NASA",
+      "field": "space",
+      "date": "2026-10-13"
     },
     {
       "title": "NASA’s Record-Setting Perseverance Rover Team",
@@ -1991,46 +2063,6 @@
       "source": "MIT Tech Review",
       "field": "technology",
       "date": "2026-11-20"
-    },
-    {
-      "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
-      "description": "Policymakers, technologists, and members of the public have raised concerns about the harm AI’s rapid advancement might cause to society. Their concerns include bias, data privacy violations, the spread of misinformation, and losing control of AI agents. Those issues are relatively new to many people, but the IEEE Standards Association has been working for the past decade on ways to prioritize the responsible development of AI systems. In 2016 IEEE SA launched the IEEE Global Initiative for Ethical Considerations in Autonomous and Intelligent Systems (A/IS) and published the Ethically Aligned ",
-      "link": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-11-17"
-    },
-    {
-      "title": "When Electric Cars Were for Women",
-      "description": "At the turn of the last century, the automobile industry was still new and evolving rapidly. In 1898, there were about 50 carmakers in the United States. A decade later, that number had increased fivefold. In 1901, the companies produced 7,000 vehicles. By 1910, production had reached 181,000. For several decades, electric cars vied with those powered by steam and internal combustion, and nobody was sure which technology would come out on top. Steam had the legacy of locomotive technology behind it but came with a risk of fire. Steam-powered vehicles could also become exceedingly hot, dependin",
-      "link": "https://spectrum.ieee.org/early-electric-vehicles",
-      "source": "IEEE Spectrum",
-      "field": "technology",
-      "date": "2026-10-31"
-    },
-    {
-      "title": "Astronomers discover a dead star spinning every 8 minutes and sending mysterious radio pulses",
-      "description": "Scientists have discovered a strange stellar pair more than 5,000 light-years away, where a dead star spinning every eight minutes produces mysterious radio pulses while orbiting a Sun-like star. The breakthrough also revealed massive magnetic storms on the companion star, offering fresh clues to one of astronomy's emerging mysteries.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-15"
-    },
-    {
-      "title": "Scientists discover a surprisingly simple way to turn coffee waste into fuel",
-      "description": "Scientists have developed an efficient method to transform used coffee grounds into a potential source of biodiesel while preserving the leftover material for other renewable fuels and valuable chemicals. The discovery could turn millions of tons of discarded coffee waste into a surprisingly useful resource for sustainable energy.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025544.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-14"
-    },
-    {
-      "title": "A massive new simulation reveals how the universe emerged from darkness",
-      "description": "A groundbreaking new supercomputer simulation is revealing how the universe escaped its cosmic dark age and transformed into a cosmos filled with stars and galaxies. Called Lumina, it recreates 2 billion years of early cosmic history across a region 1.6 billion light-years wide, capturing extraordinary details that previous simulations could not.",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261110042534.htm",
-      "source": "ScienceDaily Tech",
-      "field": "technology",
-      "date": "2026-11-12"
     },
     {
       "title": "Live coverage: SpaceX to launch classified payload for the U.S. Space Force",
@@ -2100,14 +2132,6 @@
       "title": "NASA, Virginia Launch Power Partnership for Energy Security",
       "description": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new […]",
       "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
-      "source": "NASA",
-      "field": "space",
-      "date": "2026-10-23"
-    },
-    {
-      "title": "RS-25 Engine Tests at NASA Stennis",
-      "description": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket, with a 111% power level. For each […]",
-      "link": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
       "source": "NASA",
       "field": "space",
       "date": "2026-10-23"
